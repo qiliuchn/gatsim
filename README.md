@@ -11,9 +11,6 @@ Agent has the following modules:
  - act
 
 
-## Quick start
-A backend and web UI for the simulation are provided.
-
 ## Setup environment
 Create conda environments:
 
@@ -26,6 +23,11 @@ Install dependencies:
 Install the package:
 
 ```pip install -e .```
+
+## Quick start
+A backend and web UI for the simulation are provided.
+
+
 
 ### Run Web UI
 How to run the web UI:
