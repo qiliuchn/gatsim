@@ -22,7 +22,7 @@ Install dependencies:
 Install the package:
 ```pip install -e .```
 
-### run Web UI
+### Run Web UI
 How to run the web UI:
 
 First, change directory to the project root ```GATSIM/```. Then run
@@ -35,7 +35,7 @@ Then you can visit the web UI at ```http://127.0.0.1:8000/```
 ![webui img2](assets/webui2.png)
 
 
-### run backend
+### Run backend
 If you only need the simulation results.  Run the backend server:
 
 First, change directory to the project root ```GATSIM/```. Then run
