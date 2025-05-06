@@ -1,0 +1,59 @@
+{
+    "meta": {
+        "curr_time": "2025-03-10 06:47:00"
+    },
+    "mobility_events": {
+        "Isabella Rodriguez": {
+            "name": "Isabella Rodriguez",
+            "place": "Midtown apartment",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-10 00:00:00",
+            "description": "staying at home"
+        },
+        "Sophia Nguyen": {
+            "name": "Sophia Nguyen",
+            "place": "Ave_3_link_1",
+            "next_node": "Node_10",
+            "status": "driving",
+            "start_time": "2025-03-10 06:43:00",
+            "description": "going to Coffee shop"
+        },
+        "Daniel Nguyen": {
+            "name": "Daniel Nguyen",
+            "place": "Uptown apartment",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-10 00:00:00",
+            "description": "staying at home"
+        }
+    },
+    "queues": {
+        "Uptown apartment": {
+            "staying": [
+                "Daniel Nguyen"
+            ]
+        },
+        "Midtown apartment": {
+            "staying": [
+                "Isabella Rodriguez"
+            ]
+        },
+        "Office": {},
+        "Factory": {},
+        "School": {},
+        "Supermarket": {},
+        "Hospital": {},
+        "Gym": {},
+        "Food court": {},
+        "Coffee shop": {},
+        "Amusement park": {},
+        "Cinema": {},
+        "Museum": {},
+        "Ave_3_link_1": {
+            "driving": [
+                "Sophia Nguyen"
+            ]
+        }
+    }
+}

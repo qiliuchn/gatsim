@@ -1,0 +1,40 @@
+Variables: 
+!<Args: 0>! -- Simulation description
+!<Args: 1>! -- Network description
+!<Args: 2>! -- Person description
+!<Args: 3>! -- Simulation datetime now
+!<Args: 4>! -- Chat context
+
+
+<commentblockmarker>###</commentblockmarker>
+!<Args: 0>!
+
+!<Args: 1>!
+
+You play the role of the person:
+!<Args: 2>!
+
+
+Before you make a daily activity plan for day !<Args: 3>!, you may want to chat with your family members or friends. For example, a person may want to talk to his or her spouse about who shall drop off (or pick up) child to (or from) school, and decide who shall drive the only vehicle of the family. And a person may want to invite friends to go to Gym or Food court after work today, and so on.
+Remember the purpose of chatting is to help the person you play to decide on the daily activity plan in a later step.
+
+
+Return a dict in Json format. The dict should contain the following keys:
+ - "person name": a string, the name of the person you want to chat with;
+ - "query": a string, the query for the person you want to chat with.
+Return just the json file content. DO NOT include any other information.
+
+Notes:
+1) "person name" should be a valid name of your family member or a friend, or "none" if you don't need to chat with anyone to make your daily activity plan.
+2) Avoid unnecessary chatting, like confirming schedules decided before (chat only if changes need to be made)! Avoid repeated chatting with the same person! Be concise!
+3) person name, facility name, that appears in the chatting should all be valid name (case sensitive).
+
+The context:
+!<Args: 4>!
+
+
+Example output:
+{
+    "person name": "Daniel Nguyen",
+    "query": "How about going to Gym to play basketball after work today?"
+}

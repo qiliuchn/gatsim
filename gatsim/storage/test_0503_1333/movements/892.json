@@ -1,0 +1,55 @@
+{
+    "meta": {
+        "curr_time": "2025-03-10 14:52:00"
+    },
+    "mobility_events": {
+        "Isabella Rodriguez": {
+            "name": "Isabella Rodriguez",
+            "place": "Food court",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-10 14:13:00",
+            "description": "Staying at Food court"
+        },
+        "Sophia Nguyen": {
+            "name": "Sophia Nguyen",
+            "place": "Museum",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-10 12:15:00",
+            "description": "Staying at Museum"
+        },
+        "Daniel Nguyen": {
+            "name": "Daniel Nguyen",
+            "place": "Museum",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-10 12:24:00",
+            "description": "Staying at Museum"
+        }
+    },
+    "queues": {
+        "Uptown apartment": {},
+        "Midtown apartment": {},
+        "Office": {},
+        "Factory": {},
+        "School": {},
+        "Supermarket": {},
+        "Hospital": {},
+        "Gym": {},
+        "Food court": {
+            "staying": [
+                "Isabella Rodriguez"
+            ]
+        },
+        "Coffee shop": {},
+        "Amusement park": {},
+        "Cinema": {},
+        "Museum": {
+            "staying": [
+                "Sophia Nguyen",
+                "Daniel Nguyen"
+            ]
+        }
+    }
+}

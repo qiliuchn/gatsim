@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATSim - Generative Agent Transport Simulation</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>GATSim</h1>
+            <p>Generative Agent Transport Simulation</p>
+        </header>
+
+        <!-- Map Section -->
+        <div class="map-section">
+            <div class="map-container">
+                <img id="background-map" src="/static/map/maze.png" alt="Simulation Map">
+                <div id="map-overlay">
+                    <!-- Avatars and messages will be dynamically added here -->
+                </div>
+            </div>
+            <div class="info-container">
+                <div class="simulation-info">
+                    <h3>Simulation Info</h3>
+                    <div id="simulation-meta">
+                        <p><strong>Simulation:</strong> <span id="sim-name">-</span></p>
+                        <p><strong>Step:</strong> <span id="sim-step">-</span></p>
+                        <p><strong>Time:</strong> <span id="sim-time">-</span></p>
+                        <p><strong>Usage:</strong><br>1. Fill fork name, simulation run name, command; then click "Submit".<br>2. Click "Start".</p>
+                    </div>
+                </div>
+                <div class="map-info">
+                    <h3>Map Information</h3>
+                    <select id="entity-select">
+                        <!-- <option value="">Select entity...</option>
+                        <option value="facilities">Facilities</option>
+                        <option value="nodes">Nodes</option>
+                        <option value="links">Links</option>-->
+                    </select>
+                    <div id="entity-list" class="entity-list">
+                        <!-- Entity information will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Control Section -->
+        <div class="control-section">
+            <div class="control-buttons">
+				<button id="start-button" class="btn btn-primary" disabled>Start</button>
+                <button id="stop-button" class="btn btn-danger" disabled>Stop</button>
+            </div>
+            <div class="control-inputs">
+                <input type="text" id="fork-name" placeholder="Fork name (default: base_the_town); 'none' for creating a new simulation">
+                <input type="text" id="sim-name-input" placeholder="Simulation name (default: sim_<MMDD>_<HHmm>)">
+				<input type="text" id="cmd-input" placeholder="Command (default: 'run 1 day')">
+                <button id="submit-button" class="btn btn-success">Submit</button>
+            </div>
+        </div>
+
+        <!-- Population Section -->
+        <div class="population-section">
+            <h2>Population</h2>
+            <div id="population-container">
+                <!-- Population info will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Developer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Terms of Use &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/simulation.js"></script>
+</body>
+</html>

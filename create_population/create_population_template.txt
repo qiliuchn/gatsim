@@ -1,0 +1,198 @@
+I'm writing a python project to simulation the dynamics of human mobility. I need to create a synthetic population of 50 personas.
+The setting is a town with 13 nodes, 13 facilities and 27 links (road links and metro line links). This town has four avenues, five streets, and two metro lines. The network is described below.
+
+TRANSPORTATION NETWORK: the town
+
+NETWORK OVERVIEW:
+This transportation network consists of 13 nodes connected by 27 links.
+There are 13 facilities located at various nodes throughout the network.
+
+-----NODES SECTION START-----
+NODES AND FACILITIES DESCRIPTION:
+The network contains 13 nodes and 13 facilities.
+
+Node: Node_1
+Coordinates: 14, 6
+Facilities at this node: 1
+- Uptown apartment: A residential apartment in the northwestern part of the town.
+
+Node: Node_10
+Coordinates: 25, 29
+Facilities at this node: 1
+- Cinema: A cinema. A good place for relaxation and watching movies.
+
+Node: Node_11
+Coordinates: 36, 29
+Facilities at this node: 1
+- Coffee shop: A nice coffee shop. A good place for socializing and drinking.
+
+Node: Node_12
+Coordinates: 25, 6
+Facilities at this node: 1
+- Museum: A museum with exhibitions of various cultural, artistic, and technological artifacts. A good place for learning about history and culture, and to discover new things.
+
+Node: Node_13
+Coordinates: 24, 40
+Facilities at this node: 1
+- Gym: A gym where you can do various sports, such as basketball, swimming, and yoga. A good place for exercise.
+
+Node: Node_2
+Coordinates: 48, 29
+Facilities at this node: 1
+- Office: An office building in the town. One of the two major industries in the town.
+
+Node: Node_3
+Coordinates: 36, 40
+Facilities at this node: 1
+- Factory: A factory in the town. One of the two major industries in the town.
+
+Node: Node_4
+Coordinates: 2, 18
+Facilities at this node: 1
+- Midtown apartment: A residential apartment in the western part of the town.
+
+Node: Node_5
+Coordinates: 14, 18
+Facilities at this node: 1
+- School: The only school in the town that enrolls both elementary and high school students.
+
+Node: Node_6
+Coordinates: 25, 18
+Facilities at this node: 1
+- Supermarket: A supermarket in the town where you can buy household items.
+
+Node: Node_7
+Coordinates: 36, 18
+Facilities at this node: 1
+- Food court: An open, shared seating area surrounded by multiple food vendors or kiosks. A good place for socializing and eating.
+
+Node: Node_8
+Coordinates: 48, 18
+Facilities at this node: 1
+- Amusement park: A theme park with various entertainment facilities (such as a Ferris wheel, roller coaster, and water park. A good place for family relaxation and fun.
+
+Node: Node_9
+Coordinates: 14, 29
+Facilities at this node: 1
+- Hospital: The only hospital in the town.
+-----NODES SECTION END-----
+
+
+
+
+Each persona has the following properties:
+# Personal attributes:
+ - name (str)
+ - gender (str: 'male'/'female')
+ - age (int)
+ - highest_level_of_education
+ - family_role (str: 'husband'/'wife'/'son'/'daughter'/'single')
+ - licensed_driver (Bool)
+ - work_facility (str: 'School'/'Museum'/'Hospital'/'Cinema'/'Supermarket'/'Food court'/'Amusement park'/'Coffee shop'/'Factory'/'Office'/'Gym')
+ - occupation (str)
+ - preferences_in_transportation (str)
+ - innate (str)
+ - lifestyle (str)
+# Household attributes
+ - home_facility (str: 'Uptown apartment'/'Midtown apartment')
+ - household_size (int)
+ - other_family_members (a list of names)
+ - number_of_vehicles_in_family (int)
+ - household_income (str: "high", "middle", "low")
+# Social attributes:
+ - friends (a list of names)
+# Additional
+ - other_description (str)
+
+Requirements:
+ - The number of family members could be 1 (single), 2 (husband and wife), 3 (husband and wife and child), or 4 (husband and wife and two children).
+ - Single persona's age should be in range of 18 to 75. Husband and wife's age should also be in range of 25 to 75. Children's age should be in range of 1 to 17. 
+ - Child （age < 18) cannot have driving license. Elderly whose age is larger than or equal to 70 cannot have driving license.
+ - Number of vehicles in a family should be 0, 1 or 2.
+ - Home location should be one of the following: Uptown apartment, Midtown apartment.
+ - Work location should be one of the following: School, Museum, Hospital, Cinema, Supermarket, Food court, Amusement park, Coffee shop, Factory, Office, Gym.
+ - The population is half male half female.
+ - Occupation should match the work_facility.
+ - Work locations other than Office and Factory can only have 1 to 2 workers. Office and Factory have no bound on their number of workers.
+ - The are two ways of to travel around: 1. drive; 2. walk and transit.
+ - Personas of the same family should have the same home_facility, household_size, household_income, number_of_vehicles_in_family. Their "other_family_members" attribute should be consistent.
+ - 30% of the population is single adult. 50% of the population is married adult. 20% of the population is children.
+ - 10% of the population is elderly (60 - 75 years old).
+ - Number of friends range from 0 to 3. Social relationship added to "other_description". Social relationship of personas should be realistic and consistent.
+ - The socioeconomic statistics of the population should be realistic. Attributes of a persona should be realistic and consistent.
+
+
+Output the population in JSON format. Example:
+```json
+{
+    "Isabella Rodriguez": {
+        "gender": "female",
+        "age": 34,
+        "highest_level_of_education": "master",
+        "family_role": "single",
+        "licensed_driver": true,
+        "work_facility": "Coffee shop",
+        "occupation": "barista",
+        "preferences_in_transportation": "prefer to travel alone and prefer safer way to travel; mainly drive around",
+        "innate": "friendly, outgoing, hospitable",
+        "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+        "home_facility": "Uptown apartment",
+        "household_size": 1,
+        "other_family_members": [],
+        "number of vehicles": 1,
+        "household_income": "medium",
+        "friends": [
+            "Jennifer Moore"
+        ],
+        "other_description": "Isabella Rodriguez is a cafe owner who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves."
+    },
+    "John Lin": {
+        "gender": "male",
+        "age": 45,
+        "highest_level_of_education": "high school",
+        "family_role": "father",
+        "licensed_driver": false,
+        "work_facility": "Factory",
+        "occupation": "worker",
+        "preferences_in_transportation": "prefer to economic and reliable ways of transportation; mainly take transit to work",
+        "innate": "patient, kind, organized",
+        "lifestyle": "John Lin goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+        "home_facility": "Midtown apartment",
+        "household_size": 3,
+        "other_family_members": [
+            "May Lin",
+            "Marie Lin"
+        ],
+        "number_of_vehicles_in_family": 1,
+        "household_income": "medium",
+        "friends": [
+            "Klaus Mueller"
+        ],
+        "other_description": "John Lin holds traditional values, live a healthy lifestyle, and is a good listener. He takes care of his family and children."
+    },
+    "Maria Lin": {
+        "gender": "female",
+        "age": 10,
+        "highest_level_of_education": "None",
+        "family_role": "daughter",
+        "licensed_driver": false,
+        "work_facility": null,
+        "occupation": "elementary school student (5-th grade)",
+        "preferences_in_transportation": "prefer to be accompanied by parent; prefer mom to drive her to school",
+        "innate": "kind, a little bit of shy",
+        "lifestyle": "Maria Lin goes to bed around 7:30 pm, awakes up around 7:00 am, eats dinner around 5pm.",
+        "home_facility": "Midtown apartment",
+        "household_size": 3,
+        "other_family_members": [
+            "John Lin",
+            "May Lin"
+        ],
+        "number_of_vehicles_in_family": 1,
+        "household_income": "medium",
+        "friends": [
+            "Hailey Johnson"
+        ],
+        "other_description": "Maria Lin is a kind, shy girl. She is very good at school and has a good GPA. She is very happy with her life."
+    }
+}
+```

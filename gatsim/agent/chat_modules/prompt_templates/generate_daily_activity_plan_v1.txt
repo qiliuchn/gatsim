@@ -1,0 +1,122 @@
+generate_daily_activity_plan_v1.txt
+
+Variables: 
+!<Args: 0>! -- Simulation description
+!<Args: 1>! -- Network description
+!<Args: 2>! -- Person description
+!<Args: 3>! -- Simulation datetime now
+!<Args: 4>! -- plan and reflection at the start of the last day
+!<Args: 5>! -- daily reflection at end of the last day
+!<Args: 6>! -- perceived
+!<Args: 7>! -- retrieved
+!<Args: 8>! -- chat summaries
+
+
+<commentblockmarker>###</commentblockmarker>
+!<Args: 0>!
+
+!<Args: 1>!
+
+
+You play the role of the person (referred as "the person" below):
+!<Args: 2>!
+
+
+Now you need to generate a reflection, a daily activity plan and (optional) concepts to be remembered for day !<Args: 3>! for the person. 
+The reflection to be generated should include the two following parts:
+1) review the past week and look ahead to the coming week. Reflect on the personal, family and social activities that you have participated in, and what you anticipate participating in for the coming week.
+2) review the travel experiences; gain insights on the network traffic condition; and remember on how should the persona travel or plan trip.
+The activity plan to be generated should be based on this reflection.
+You can generate concepts (especially traffic related concepts) to be remembered in the long term memory. Here "concept" means an idea or thought to be remembered. These memories will help you to make better future decisions.
+Reflection and plan at the start of last day , and daily summary of last day will be provided as context. 
+
+
+The return should be a dict in json format. It should contain the following keys:
+ - "reflection": a string that summarizes the activities of the past week, including personal work, social interactions, and family-related activities. It should also anticipate activities in the coming week.
+
+ - "plan": the daily activity plan for the person, which is a list of activities. Each activity is a list of six elements:
+[<activity_facility>, <activity_departure_time>, <reflect_every>, <travel_mode>, <path>, <activity_description>]
+where
+<activity_facility> is a string, which should be a valid facility name for the activity; it's the place where the activity takes place. For example, if the activity is about working, then it should be the working place; if the activity is about playing basketball, then it should be Gym, and so on.
+<activity_departure_time> is a time string of the format "%H:%M" (e.g., "14:30"); it's the time when the person depart for <activity_facility>. For the first waking up routine activity, it means the wake-up time.
+Departure time being "none" means the person will start this activity right after arriving at the previous activity facility; this is suitable for activities with uncertain departure time, like "driving to work" would happen right after "dropping off child at school", "heading to Office" happens right after "grab a coffee".
+<reflect_every> is an int meaning how often the person is able to perceive surrounding events / family member and friends activities / current traffic condition in order to make revisions to the activity plan;
+During the interval between decision time points, person should stay at the facility engaged in the current activity and no changes can be made to the plan;
+Unit is minutes. It could be "none" if the activity is short enough or the person don't want the activity to be interrupted;
+If a person at working place (say Office, Factory, manager or baker at Coffee shop, cinema manager at Cinema, etc.), then <reflect_every> should be at least 120 minutes or "none". 
+For part time activities (like doing sports at Gym, watching film at Cinema, playing in Amusement Park, eating in Food court, etc.) <reflect_every> should be at least 60 minutes or 'none';
+The first activity (waking up and doing morning routines) should have <reflect_every> to be "none" (don't interrupt the sleep);
+The departing home activity (the second activity) should have <reflect_every> to be at least 20 minutes; namely check whether to depart home at most frequently for every 20 minutes;
+If a person goes to Hospital for medical treatment, the <reflect_every> should be "none";
+The last activity (going back to home and sleeping) should have <reflect_every> to be "none" (don't interrupt the sleep);
+Persona will always to able to update plan when an activity is finished.
+<travel_mode> is a string, "drive" or "transit"; if "drive", the person will drive to the activity's facility; if "transit", the person should walk or use transit to reach the activity facility;
+<path> is a string describing the path info from last activity facility to current activity facility;
+"none" if there is no need to travel (for example, for waking up and doing morning routines activity);
+"shortest" means that the person don't have preference over the path, then shortest path at departure time will be used (recommended for irregular activities like recreational activities);
+If the person do want to specify the path; let path be a string of road or metro line names separated by comma (e.g. "Ave_1, Metro_2, Ave_3") (recommended for regular activities like going to and back from work place);
+Road names should follow the traveling order from start to end;
+Do NOT use link names for the path. Use road or metro line names like "Ave_1" or "Metro_2"! and do NOT repeat!
+<activity_description> is a string, describing the content of the activity, like the people (e.g. family members, friends) involved in the activity.
+
+ - "concepts": a list of concepts; and a concept should be a list of four elements:
+[<content>, <keywords>, <spatial_scope>, <time_scope>]
+where 
+<content> is a string, which is the content of the concept;
+<keywords> is a string composed of keywords separated by comma, like "Gym, crowded, 6PM";
+<spatial_scope>: a string that describe the spatial scope related to the concept. It must be a list of entities separated by comma; an entity can be a link name, road name, facility name or maze name.
+If the <content> is about a link, say "Ave_3_link_2 is very congested in the morning", then <spatial_scope> is "Ave_3_link_2";
+If the <content> is about a facility, say "Food court is crowded during 5PM - 6PM", then <spatial_scope>  is "Food court";
+If the <content> is about a road or a metro line, say "The Metro_2 is very crowded during 7AM - 9AM", then <spatial_scope> is "Metro_2";
+If the <content> is about a path, say "The path from Uptown apartment to Office (St_2_link_1 -> St_2_link_2 -> Ave_3_link_1 -> Ave_3_link_2 -> Ave_3_link_3) has long delay in the morning", then the spatial_scope should include starting and ending facilities as well as the path, like "Uptown apartment, St_2, Ave_3, Office";
+If the <content> is about a area like "The area around Food court and Coffee shop is very crowded during 5PM - 6PM", then the <spatial_scope> is "Food court, Coffee shop";
+If the <content> is about the whole network, then the <spatial_scope> is "The town";
+<time_scope>: time scope of the concept, it must be two time string separated by '-', like "11:00-13:30", and the time should be in 24-hour format. Do NOT include anything else in the time string (e.g. "11:00PM-1:30PM", '2025-03-10 12:00-16:00' are not allowed)!
+
+Notes:
+1) Activities in plan should be arranged in the order of departure time.
+2) We focus on personal movements on the network; it's not necessary to consider the details of the activities; actions in the same facility for a contiguous time interval should be merged into one activity!
+You should NOT regard movement on the network as a separate activity! For example, you should not have two activities like "Drive to work place" and "Work at the work place" with the same <activity_facility>. Merge them into one activity as "Drive to work place and start to work"!
+3) Only the waking up doing morning routines is allowed to have <travel_mode> and <path> to be "none"; for other activities, <travel_mode> and <path> must be specified!
+4) Activity at work place should has <reflect_every> to be larger than or equal to 120 minutes, or "none" if the persona does not want to be interrupted.
+5) The person can only drive if the person's family has car and the person has driving license. If there is only one car in a family, then only one family member can drive; so on so forth.
+6) Keep consistent use of the cars! Do not leave car half way by the end of the day. The car should not disappear from the network halfway. And do not teleport the car on the network.
+7) If the person park the car at a facility and walk or ride transit to another facility, then the person must return to the same facility to get the car before driving home.
+8) The first activity should be waking up at home facility and doing morning routines. Only this very first activity can have travel mode "none".
+9) The last activity should be to going back to home facility.
+10) Pay special attention to working activity. For the typical working hours of the person's job, the person need stay at working place. For example, cinema manager needs to go to Cinema to work; pediatrician needs to go to Hospital to work; coffee shop manager needs to go to Coffee shop to work. Set appropriate <departure_time> and working durations for working activity.
+11) The personal daily activity plan should be generated based on the person's daily routine and preferences, family needs, as well as social needs. Say, weekly routine for home shopping, family activities, friends gathering, etc.
+12) Person names, facility names, link names, road names, etc. should all be valid names (case sensitive).
+13) Return just the json file content. DO NOT include any other information.
+
+
+The context, including last day's reflection, plan, and daily summary, as well as perceived events, retrieved memories, and chat summarizes, are provided as follows (maybe empty if it's the first day of the simulation):
+!<Args: 4>!
+
+!<Args: 5>!
+
+!<Args: 6>!
+
+!<Args: 7>!
+
+!<Args: 8>!
+
+
+Example output:
+{   
+    "reflection": "I haven’t gone grocery shopping for the family for five days; I will drop at the supermarket after work tomorrow.\nI'm busy recently, I haven’t spent enough time with my family; the day after tomorrow is the weekend, I plan to go to the Amusement park with may family member on Saturday to have fun with them.\nI haven’t exercised in several days since I've been so busy; maybe I can play basketball at the gym with friends after work today.\nI will drive my daughter to school in the morning, but I will talk to my wife to let her to pick up daughter from school. The school area is very crowded around 18:00. I may want to avoid picking up kid at this time. The Supermarket and Food court zone are very crowded around 18:00. I should avoid driving through these areas",
+    "plan" = [
+        ["Uptown apartment", "06:30", "none", "none", "none", "Wake up at home, completes his morning routine."],
+        ["School", "07:30", 20, "drive", "St_2, Ave_3", "Drive his daughter to school."],
+        ["Coffee shop", "none", "none", "drive", "St_2, Ave_3", "Drive from School to the Coffee shop to grab a coffee before going to work."],
+        ["Office", "08:20", 180, "drive", "shortest", "Go to at Office to start a day's work"],
+        ["Gym", "17:30", 60, "drive", "shortest", "Go to gym to play basketball with friends."],
+        ["Uptown apartment", "19:30", "none, "drive"", "shortest", "Wrap up his day by driving back home to his Uptown apartment, preparing for a restful night."]
+    ],
+    "concepts": [
+        ["Supermarket and Food court zone around 6PM is very congested", "Supermarket, Food court, congested", "Supermarket, Food court", "18:00-19:00"],
+        ["Ave_3_link_2 has long waiting time in morning peak hour", "Ave_3_link_2, long waiting time, morning peak hour", "Ave_3_link_2", "07:00-08:00"],
+        ["School is crowded in the afternoon", "School, crowded, afternoon", "School", "17:30-18:30"],
+        ["The traffic is congested in the afternoon peak hour", "network, congested, afternoon", "the town", "17:30-18:30"],
+    ]
+}

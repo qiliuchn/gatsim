@@ -1,0 +1,39 @@
+generate_chat_summary_v1.txt
+
+Variables: 
+!<Args: 0>! -- simulation description
+!<Args: 1>! -- maze description
+!<Args: 2>! -- persona description
+!<Args: 3>! -- the other persona description
+!<Args: 4>! -- Chat history
+
+<commentblockmarker>###</commentblockmarker>
+!<Args: 0>! -- simulation description
+!<Args: 1>! -- maze description
+
+You need to generate summary for a given chat history between two persons (listed below).
+The initiator of the chat:
+!<Args: 2>!
+
+The respondent of the chat:
+!<Args: 3>!
+
+The chat history to summarize:
+!<Args: 4>!
+
+
+Return a dict in Json format. The dict should contain the following keys:
+ - "summary": a string, the summary of the chat history;
+ The summary should be a short, concise, and informative summary of the chat history.
+ - "keywords": a string of keywords separated by comma.
+
+Notes:
+1) Return just the json file content. DO NOT include any other information.
+2) The person names, facility names or other names should be kept precise as they are in the chat history (case sensitive).
+
+
+Example output:
+{
+    "summary": "Michael Fillips chatted with his wife Sarah. Michael will drop off their child, Leo, at school, while Sarah will pick him up after finishing her work at 16:30. Michael plans to go to the gym after today's work and go back home at 19:30. Sarah want to go see a movie with Anna around 17:30 and go back home around 20:00.",
+    "keywords": "Michael, Sarah, Leo, school, gym"
+}

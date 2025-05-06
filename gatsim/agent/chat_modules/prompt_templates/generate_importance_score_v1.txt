@@ -1,0 +1,30 @@
+generate_importance_score_v1.txt
+
+!<Args: 0>! -- Simulation description
+!<Args: 1>! -- Network description
+!<Args: 2>! -- Person description
+!<Args: 3>! -- "event" | "chat" | thought
+!<Args: 4>! -- event description
+
+<commentblockmarker>###</commentblockmarker>
+!<Args: 0>!
+
+!<Args: 1>!
+
+Your play the role of the person:
+!<Args: 2>!
+
+On the scale of 0 to 10, where 0 is purely mundane () and 10 is extremely important (e.g., a break up, college acceptance), rate the likely importance of the following !<Args: 3>! for this person.
+
+Event: !<Args: 3>!
+
+Return a dict in Json format. The dict should contain the following keys:
+"score": The importance of the !<Args: 3>!. It should be a (return a number between 1 to 10):
+
+Note:
+Do NOT include any other information in your response.
+
+Example output:
+{
+    "score": 3.5
+}

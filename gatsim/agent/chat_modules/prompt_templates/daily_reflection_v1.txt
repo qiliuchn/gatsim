@@ -1,0 +1,60 @@
+daily_reflect_v1.txt
+
+Variables: 
+!<Args: 0>! -- Simulation description
+!<Args: 1>! -- Network description
+!<Args: 2>! -- Person description
+!<Args: 3>! -- Simulation datetime now
+!<Args: 4>! -- Today original plan and reflection
+!<Args: 5>! -- Today Revised plans and reflections
+
+
+<commentblockmarker>###</commentblockmarker>
+!<Args: 0>!
+
+!<Args: 1>!
+
+You play the role of the person:
+!<Args: 2>!
+
+Current time is !<Args: 3>!. Now you need to reflect on your daily experiences. Insights and important events should be recorded to help you to making better activity plans in the future.
+You can also generate concepts (especially traffic related concepts) about important things or ideas to be remembered in the long term memory (optional but recommended). 
+
+
+
+The output should be a dict in Json format with the following keys:
+ - "reflection": Insights from today's activity plan revisions.
+ - "concepts": a list of concepts; Here "concept" means an idea or thought to be remembered. These memories will help you to make better future decisions. 
+ A concept should be a list of four elements:
+[<content>, <keywords>, <spatial_scope>, <time_scope>]
+where 
+<content> is a string, which is the content of the concept;
+<keywords> is a string composed of keywords separated by comma, like "Gym, crowded, 6PM";
+<spatial_scope>:  a string that describe the spatial scope related to the concept. It must be a list of entities separated by comma. An entity can be a link name or road name or facility name or maze name.
+If the concept content is about a link, say "Ave_3_link_2 is very congested in the morning", then spatial_scope is "Ave_3_link_2";
+If the concept content is about a facility, say "Food court is crowded during 5PM - 6PM", then spatial_scope is "Food court";
+If the concept content is about a road or a metro line, say "The Metro_2 is very crowded during 7AM - 9AM", then spatial_scope is "Metro_2";
+If the concept is about a path, say "The path from Uptown apartment to Office (St_2_link_1 -> St_2_link_2 -> Ave_3_link_1 -> Ave_3_link_2 -> Ave_3_link_3) has long delay in the morning", then the spatial_scope should be "Uptown apartment, Office, St_2, Ave_3";
+If the <content> is about the whole network, then the <spatial_scope> is "The town".
+<time_scope>: time scope of the concept, it must be two time string separated by '-', like "11:00-13:30", and the time should be in 24-hour format. Do NOT include anything else in the time string (e.g. "11:00PM-1:30PM", '2025-03-10 12:00-16:00' are not allowed)!
+
+Notes:
+1) Person names, facility names, link names, road names, etc. should all be valid names (case sensitive).
+2) Return just the json file content. DO NOT include any other information.
+
+
+Your today's original activity plan and plan revisions are listed below as context:
+!<Args: 4>!
+
+!<Args: 5>!
+
+
+Example output:
+{
+    "reflection":"Today there is a car crash at Ave_3_link_2 on my way to Office to work in the morning. I got late due to the accident. Maybe I should go to work earlier next time. The school is really crowded in the afternoon peak hour. I should try to avoid School area in the afternoon peak hour.",
+    "concepts": [
+        ["Supermarket and Food court area around 6PM is very congested", "Supermarket, Food court, congested", "Supermarket, Food court", "18:00-19:00"],
+        ["Ave_3_link_2 has long waiting time in morning peak hour", "Ave_3_link_2, long waiting time, morning peak hour", "Ave_3_link_2", "07:00-08:00"],
+        ["School is crowded in the afternoon", "School, crowded, afternoon", "School", "17:30-18:30"]
+    ]
+}

@@ -1,0 +1,48 @@
+initiate_chat_during_day_v1.txt
+
+Variables: 
+!<Args: 0>! -- Simulation description
+!<Args: 1>! -- Network description
+!<Args: 2>! -- Person description
+!<Args: 3>! -- Simulation datetime now
+!<Args: 4>! -- Chat context
+
+
+<commentblockmarker>###</commentblockmarker>
+!<Args: 0>!
+
+!<Args: 1>!
+
+You play the role of the person:
+!<Args: 2>!
+
+Current time is !<Args: 3>!. You will be given the original activity plan, revisions, perceived events, and retrieved events and thoughts as context to decide whether you want to talk to someone.
+Remember that the purpose of chatting is to help you to make revisions on the daily activity plan in a later step.
+For example, in the original plan, you have arranged a gathering with your friend at Food court. But you may want to cancel that activity due to traffic jam. In that case you need to talk to your friend to about it.
+
+Return a dict in Json format. The dict should contain the following keys:
+"person name": The name of the person, which is a string.
+"query": The query to ask the person, which is a string.
+
+Notes:
+1) "person name" should be a valid name of your family member or a friend, or "none" if you don't need to chat with anyone to make your daily activity plan.
+2) Avoid unnecessary chatting, like confirming decisions made before! Avoid repeated chatting with the same person! Be concise!
+3) Changing plans too frequent may cause inconvenience to other people and yourself (say it may affect your arrangements with your family members of friends); avoid unnecessary changes to your last activity plan.
+4) person name, facility name, that appears in the chatting should all be valid name (case sensitive).
+
+
+
+The context for the query includes:
+
+!<Args: 4>!
+
+!<Args: 5>!
+
+!<Args: 6>!
+
+
+Example output:
+{
+    "person name": "",
+    "query":"",
+}
