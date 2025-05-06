@@ -16,10 +16,15 @@ A backend and web UI for the simulation are provided.
 
 ## Setup environment
 Create conda environments:
+
 ```conda create -n python=3.9 -y```
+
 Install dependencies:
+
 ```pip install -r requirements.txt```
+
 Install the package:
+
 ```pip install -e .```
 
 ### Run Web UI
