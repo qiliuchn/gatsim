@@ -50,8 +50,8 @@ import faiss
 import numpy as np
 from gatsim import config
 from gatsim.utils import convert_time_scope_str_to_datetime
-from gatsim.agent.chat_modules.llm import get_embedding
-from gatsim.agent.chat_modules.run_prompt import generate_importance_score
+from gatsim.agent.llm_modules.llm import get_embedding
+from gatsim.agent.llm_modules.run_prompt import generate_importance_score
 
 
 

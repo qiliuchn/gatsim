@@ -1,8 +1,8 @@
 from datetime import datetime, time, timedelta
 from gatsim import config
 from gatsim.utils import extract_json_from_string, pretty_print
-from gatsim.agent.chat_modules.llm import llm_generate, generate_prompt
-from gatsim.agent.chat_modules.run_prompt import generate_importance_score
+from gatsim.agent.llm_modules.llm import llm_generate, generate_prompt
+from gatsim.agent.llm_modules.run_prompt import generate_importance_score
 from gatsim.agent.memory_modules.long_term_memory import convert_concept_tuple_to_concept_node
 
 def daily_reflection(persona, maze):

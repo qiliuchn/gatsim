@@ -13,7 +13,7 @@ import string
 import ast
 from gatsim import config
 from gatsim import utils
-from gatsim.agent.chat_modules.llm import (generate_prompt, 
+from gatsim.agent.llm_modules.llm import (generate_prompt, 
                                         llm_generate,
                                         llm_safe_generate, 
                                         llm_formated_safe_generate,

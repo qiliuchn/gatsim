@@ -24,7 +24,7 @@ and update the perceived event to long term memory if it's new.
 from datetime import datetime, timedelta
 from gatsim import config
 from gatsim.agent.memory_modules.long_term_memory import ConceptNode
-from gatsim.agent.chat_modules.run_prompt import generate_importance_score
+from gatsim.agent.llm_modules.run_prompt import generate_importance_score
 
 
 def convert_network_event_to_concept_node(persona, maze, network_event):

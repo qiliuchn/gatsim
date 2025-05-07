@@ -15,7 +15,7 @@ import copy
 from gatsim import config
 from gatsim.utils import parse_command, pretty_print, copyanything, clean_folder
 from gatsim.map.maze import Maze
-from gatsim.agent.chat_modules.run_prompt import generate_importance_score
+from gatsim.agent.llm_modules.run_prompt import generate_importance_score
 from gatsim.agent.memory_modules.long_term_memory import ConceptNode
 from gatsim.agent.persona import Persona, initialize_population
 

@@ -14,7 +14,7 @@ Agent has the following modules:
 ## Setup environment
 Create conda environments:
 
-```conda create -n python=3.9 -y```
+```conda create -n gatsim python=3.9 -y```
 
 Install dependencies:
 
