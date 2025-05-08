@@ -23,13 +23,30 @@ Install dependencies:
 Install the package:
 
 ```pip install -e .```
+This project uses Qwen max model with OPENAI chat completions API.
+Setup LLM API key:
+
+create .env file in the project root directory. Add the following line to the .env file:
+```DASHSCOPE_API_KEY=[your qwen api key]```
+
+
+Other models can be used as well. Especially, if you want to switch to ChatGPT, you can directly modify the following code in GATSIM/config.py:
+
+```
+client = OpenAI(
+    api_key=os.getenv("DASHSCOPE_API_KEY"),
+    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+)
+```
+
+
 
 ## Quick start
 A backend and web UI for the simulation are provided.
 
 
 
-### Run Web UI
+### Run web UI
 How to run the web UI:
 
 First, change directory to the project root ```GATSIM/```. Then run

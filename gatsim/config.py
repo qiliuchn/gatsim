@@ -71,7 +71,7 @@ load_dotenv()
 openai_api_key = "sk-b0d8cd45d4a147edbcd1d3206181830e"
 # Put your name
 client = OpenAI(
-    # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
+    # Qwen API Key
     api_key=os.getenv("DASHSCOPE_API_KEY"),
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
