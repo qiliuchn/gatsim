@@ -29,6 +29,7 @@ This project uses Qwen max model with OPENAI chat completions API.
 Setup LLM API key:
 
 create .env file in the project root directory. Add the following line to the .env file:
+
 ```DASHSCOPE_API_KEY=[your qwen api key]```
 
 
