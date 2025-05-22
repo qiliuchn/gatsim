@@ -142,7 +142,7 @@ def generate_daily_activity_plan(persona, maze, population, perceived, retrieved
                     chat_summaries,  # 8 (str) summary of the chats
                     ]
 
-    prompt_template = config.agent_path + "/chat_modules/prompt_templates/generate_daily_activity_plan_v1.txt"
+    prompt_template = config.agent_path + "/llm_modules/prompt_templates/generate_daily_activity_plan_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
     output= llm_generate(prompt)
     output = extract_json_from_string(output)
@@ -382,9 +382,9 @@ def initiate_chat(persona, maze, new_day, chat_context):
                     chat_context  # 4 chat context
                     ]  
     if new_day:
-        prompt_template = config.agent_path + "/chat_modules/prompt_templates/initiate_chat_new_day_v1.txt"
+        prompt_template = config.agent_path + "/llm_modules/prompt_templates/initiate_chat_new_day_v1.txt"
     else:
-        prompt_template = config.agent_path + "/chat_modules/prompt_templates/initiate_chat_during_day_v1.txt"
+        prompt_template = config.agent_path + "/llm_modules/prompt_templates/initiate_chat_during_day_v1.txt"
         
     prompt = generate_prompt(prompt_input, prompt_template)
     output = llm_generate(prompt)
@@ -419,7 +419,7 @@ def generate_response(persona, maze, new_day, chat_context, chat_history):
                 chat_context, # 4 chat context
                 chat_history,  # 5 chat history with the respondent (may be empty)
                 ]
-    prompt_template = config.agent_path + "/chat_modules/prompt_templates/generate_response_v1.txt"
+    prompt_template = config.agent_path + "/llm_modules/prompt_templates/generate_response_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
     output = llm_generate(prompt)
     output = extract_json_from_string(output)
@@ -444,7 +444,7 @@ def generate_chat_summary(persona, other_persona, maze, chat_history):
                 other_persona.st_mem.get_str_persona_identity(),  # 3 other persona description
                 chat_history  # 4 chat history
                 ]
-    prompt_template = config.agent_path + "/chat_modules/prompt_templates/generate_chat_summary_v1.txt"
+    prompt_template = config.agent_path + "/llm_modules/prompt_templates/generate_chat_summary_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
     output = llm_generate(prompt)
     output = extract_json_from_string(output)
@@ -499,7 +499,7 @@ def update_daily_activity_plan(persona, maze, population, perceived, traffic_sta
                     chat_summaries,  # 10 chat summary
                     ]  
 
-    prompt_template = config.agent_path + "/chat_modules/prompt_templates/update_daily_activity_plan_v1.txt"
+    prompt_template = config.agent_path + "/llm_modules/prompt_templates/update_daily_activity_plan_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
     output= llm_generate(prompt)
     output = extract_json_from_string(output)

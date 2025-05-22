@@ -17,7 +17,7 @@ def daily_reflection(persona, maze):
                     persona.st_mem.get_str_last_original_plan(new_day=False),  # 4) today original plan as well as reflection in the morning
                     persona.st_mem.get_str_revised_plans(),  # 5) today revised plans as well as reflections 
                     ] 
-    prompt_template = config.agent_path + "/chat_modules/prompt_templates/daily_reflection_v1.txt"
+    prompt_template = config.agent_path + "/llm_modules/prompt_templates/daily_reflection_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
     output = llm_generate(prompt)
     output = extract_json_from_string(output)

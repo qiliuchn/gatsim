@@ -196,7 +196,7 @@ if __name__ == '__main__':
                                      "frequency_penalty": 0, "presence_penalty": 0, 
                                      "stop": ['"']}
     curr_input = ["driving to a friend's house"]
-    prompt_lib_file = "gatsim/agent/chat_modules/prompt_templates/test_prompt.txt"
+    prompt_lib_file = "gatsim/agent/llm_modules/prompt_templates/test_prompt.txt"
     prompt = generate_prompt(curr_input, prompt_lib_file)
 
     def __func_validate(gpt_response, prompt=""): 
