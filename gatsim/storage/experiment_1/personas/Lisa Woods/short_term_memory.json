@@ -1,0 +1,505 @@
+{
+    "name": "Lisa Woods",
+    "age": 27,
+    "gender": "female",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "single",
+    "licensed_driver": true,
+    "work_facility": "Office",
+    "work_time": "8:00-17:00",
+    "occupation": "administrative coordinator",
+    "preferences_in_transportation": "uses metro to work, enjoys walking meetings",
+    "innate": "organized, diplomatic, supportive, efficient",
+    "lifestyle": "enjoys community theater, volunteers at animal shelter, studies event planning",
+    "home_facility": "Midtown apartment",
+    "household_size": 1,
+    "other_family_members": {},
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+        "Catherine Young",
+        "Jessica Adams"
+    ],
+    "other_description": "Lisa coordinates office operations and manages administrative workflows. She learns organizational skills from Catherine Young and collaborates with Jessica Adams on employee coordination.",
+    "curr_time": "2025-03-13 18:00:00",
+    "original_plans": [
+        {
+            "reflection": "This past week has been quite busy with work responsibilities as I coordinated several office operations. I managed to attend a community theater rehearsal on Thursday evening, which was a nice break from the routine. I also volunteered at the animal shelter on Saturday morning before running some errands. I noticed that the metro ride to the Office can sometimes be delayed due to congestion at peak hours, especially around 08:00-09:00. The traffic on Ave_3 seems to get heavier during these times, so it\u2019s best to plan accordingly. This week, I aim to stay organized and efficient while making time for personal goals like studying event planning and catching up with friends.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_1_link_1, Metro_1_link_2, Metro_1_link_3, Metro_1_link_4, Metro_1_link_5",
+                    "Head to the Office using the metro line to start the workday on time."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_1_link_4, Metro_1_link_3, Metro_1_link_2, Metro_1_link_1",
+                    "Take a lunch break to go grocery shopping after a morning of meetings."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_5, Ave_1",
+                    "Go to the Gym to swim and do yoga after work to unwind."
+                ],
+                [
+                    "Coffee shop",
+                    "19:00",
+                    20,
+                    "drive",
+                    "Ave_3, St_2",
+                    "Grab a coffee and catch up with Jessica Adams for a casual chat."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Drive back home to rest before tomorrow's schedule."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning rush hour on Ave_3 causes delays between 07:00-08:30",
+                    "Ave_3, rush hour, delays",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "Metro system is reliable during commute hours but gets crowded near Office station",
+                    "metro, crowding, Office",
+                    "Office",
+                    "07:30-08:30"
+                ],
+                [
+                    "Supermarket is less crowded around midday",
+                    "Supermarket, midday, shopping",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Gym sees fewer people before 19:00",
+                    "Gym, low crowd, evening",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coffee shop becomes social hotspot in the early evening",
+                    "Coffee shop, socializing, evening",
+                    "Coffee shop",
+                    "18:30-20:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a mix of structured workdays and personal growth activities. I successfully managed administrative tasks at the Office while also finding time to volunteer at the animal shelter and attend community theater rehearsals. Yesterday, my schedule was mostly on track except for delays caused by unexpected congestion on St_1_link_2 during the evening commute and long queues at the Supermarket around noon. These disruptions reminded me of the importance of buffer times between errands and flexibility in social planning. This week, I aim to maintain efficiency at work, continue studying event planning, and ensure I make time for both wellness and social commitments.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_1",
+                    "Take Metro_1 to the Office for an efficient start to the workday."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_1",
+                    "Use lunch break to shop for groceries, allowing extra time due to potential queues."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_5, Ave_1",
+                    "Drive to the Gym after work for swimming and yoga to unwind."
+                ],
+                [
+                    "Coffee shop",
+                    "19:00",
+                    20,
+                    "drive",
+                    "Ave_3, St_2",
+                    "Grab a coffee and meet Jessica Adams for a casual catch-up session."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home for rest before the next day."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_1 is reliable for morning commutes during peak hours",
+                    "Metro_1, reliable, commute",
+                    "Metro_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Supermarket experiences long queues around noon",
+                    "Supermarket, queues, noon",
+                    "Supermarket",
+                    "12:00-13:30"
+                ],
+                [
+                    "Buffer time needed between shopping and workout sessions",
+                    "buffer time, shopping, workout",
+                    "Supermarket, Gym",
+                    "all-day"
+                ],
+                [
+                    "St_1_link_2 occasionally congested in early evening",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "18:00-19:30"
+                ],
+                [
+                    "Evening social plans may require flexibility due to changing schedules",
+                    "social plans, flexibility, schedule changes",
+                    "Coffee shop",
+                    "19:00-21:00"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past week has been productive, balancing work responsibilities with personal development and social engagements. I successfully adjusted my commute strategy after yesterday's congestion issues by using alternative metro routes, which improved my morning travel reliability. My lunchtime errands at the Supermarket were better handled post-work when I had access to the car, reinforcing that timing flexibility enhances efficiency. Evening plans with Jessica required coordination around her commitments, showing how communication supports adaptability. This week, I aim to continue optimizing travel decisions, maintaining punctuality at work, and staying engaged in community activities like theater rehearsals and volunteering. I'll also prioritize evening exercise while avoiding peak congestion zones.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_2, Ave_2",
+                    "Take Metro_2 and Ave_2 for a reliable transit path to the Office."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_5, Ave_1",
+                    "Drive to Gym after work for swimming and yoga to unwind."
+                ],
+                [
+                    "Coffee shop",
+                    "19:00",
+                    20,
+                    "drive",
+                    "Ave_3, St_2",
+                    "Grab coffee and meet Jessica Adams for a casual catch-up session."
+                ],
+                [
+                    "Midtown apartment",
+                    "20:45",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home for rest before the next day."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_2 frequently congested during peak hours",
+                    "St_1_link_2, congestion, peak hours",
+                    "St_1_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Alternative metro routes improve morning commute reliability",
+                    "metro route, Morning Commute, Alternative Path",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Supermarket errands better scheduled after work with car availability",
+                    "Supermarket, errand timing, car use",
+                    "Supermarket",
+                    "17:00-19:00"
+                ],
+                [
+                    "Evening delays affecting Node_4 commutes via St_1_link_2",
+                    "Node_4, St_1_link_2, delay",
+                    "St_1_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coordination with friends improves schedule adaptability",
+                    "schedule adaptability, friend coordination",
+                    "Coffee shop, Midtown apartment",
+                    "evening"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a mix of professional commitments and personal growth. My morning commute adjustments yesterday, rerouting via Node_6 due to metro delays, proved the value of real-time decision-making in maintaining punctuality. The Gym queues starting at 17:00 were more challenging than expected, but by coordinating with Jessica Adams on timing, I was able to stay on schedule for our evening catch-up. Evening travel back home was smooth, reinforcing the importance of choosing less congested routes like St_5_link_2 during peak hours. This week, I aim to continue leveraging real-time insights, especially focusing on avoiding Metro_2_link_1 during morning rush. I also plan to maintain my social engagements, including tonight\u2019s confirmed meeting with Jessica at Coffee shop, while staying involved in community activities such as volunteering at the animal shelter and attending theater rehearsals.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_2, Ave_2",
+                    "Take Metro_2 and Ave_2 for a reliable transit path to the Office."
+                ],
+                [
+                    "Gym",
+                    "17:20",
+                    60,
+                    "drive",
+                    "St_5, Ave_1",
+                    "Drive to Gym after work before peak queue starts to swim and do yoga to unwind."
+                ],
+                [
+                    "Coffee shop",
+                    "19:30",
+                    20,
+                    "drive",
+                    "Ave_3, St_2",
+                    "Grab coffee and meet Jessica Adams as agreed for an evening catch-up session."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home for rest before the next day."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Real-time shortest path routing improves punctuality during disruptions",
+                    "real-time routing, punctuality",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "St_5_link_2 less congested for evening commutes",
+                    "St_5_link_2, congestion",
+                    "St_5_link_2",
+                    "18:00-19:00"
+                ],
+                [
+                    "Gym experiences high queues starting at 17:30",
+                    "Gym, queues",
+                    "Gym",
+                    "17:30-18:30"
+                ],
+                [
+                    "Coordination with colleagues enhances scheduling adaptability",
+                    "coordination, scheduling",
+                    "Coffee shop",
+                    "19:00-20:00"
+                ],
+                [
+                    "Metro_2_link_1 prone to unexpected delays during morning rush",
+                    "Metro_2_link_1, delays",
+                    "Metro_2_link_1",
+                    "07:00-08:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        }
+    ],
+    "revised_plans": [],
+    "daily_reflections": [
+        {
+            "reflection": "Today started according to plan with a smooth metro commute to the Office, confirming that Metro_1 is reliable during morning peak hours. However, my midday trip to the Supermarket ran significantly over schedule due to long queues, which required rescheduling my Gym visit and ultimately led to canceling my coffee meetup with Jessica Adams. The evening drive back from the Gym was unexpectedly delayed on St_1_link_2 due to congestion, even though no major incidents were reported. This highlighted the importance of monitoring real-time traffic even on typically clear routes. Overall, I maintained good work-life balance despite adjustments, prioritizing personal wellness over social plans when needed.",
+            "concepts": [
+                [
+                    "Supermarket experiences long queues around noon",
+                    "Supermarket, queues, lunch break",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "St_1_link_2 occasionally congested in early evening",
+                    "St_1_link_2, congestion, travel delay",
+                    "St_1_link_2",
+                    "18:00-20:00"
+                ],
+                [
+                    "Buffer time needed between shopping and workout sessions",
+                    "shopping, gym, scheduling buffer",
+                    "Supermarket, Gym",
+                    "none"
+                ],
+                [
+                    "Metro_1 reliable for morning commute during peak hours",
+                    "Metro_1, commuting, efficiency",
+                    "Metro_1",
+                    "07:00-09:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today required significant adjustments to my original plan due to traffic congestion. I successfully modified my commute route in the morning by switching from Metro_1 to a different metro path, which helped me avoid delays on St_1_link_1. My lunchtime trip to the Supermarket was rescheduled to after work when I could use my car, improving efficiency and reducing scheduling conflicts. Later in the evening, I had to reroute multiple times due to persistent congestion on St_1_link_2, ultimately choosing a path via St_2 and Ave_2 for a smoother return home. Jessica and I coordinated well around her drop-off commitment, showing the value of flexible planning and real-time communication. Overall, today reinforced the importance of adaptive routing, buffer times for unexpected delays, and maintaining open communication with friends for shared coordination.",
+            "concepts": [
+                [
+                    "St_1_link_2 frequently congested during peak hours",
+                    "St_1_link_2, congestion, unreliable",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "St_1_link_2 experiences evening delays affecting Node_4 commutes",
+                    "St_1_link_2, congestion, travel delay",
+                    "St_1_link_2",
+                    "21:00-23:00"
+                ],
+                [
+                    "Alternative metro routes improve morning commute reliability",
+                    "metro, alternative route, efficient",
+                    "Metro_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "Supermarket errands better scheduled after work with car availability",
+                    "Supermarket, errand timing, flexibility",
+                    "Supermarket",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coordination with friends improves schedule adaptability",
+                    "coordination, social planning, flexibility",
+                    "Coffee shop, Midtown apartment",
+                    "18:00-21:00"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated the importance of flexible route planning and real-time adjustments. My morning commute faced unexpected metro delays, but rerouting via Node_6 using real-time data helped me reach Office just in time. The Gym visit post-work had an unforeseen queue delay, yet I managed to meet Jessica at Coffee shop by adjusting my departure timing. Evening travel back home was smooth with minimal congestion. Overall, today highlighted how proactive adaptation to transit disruptions and coordination with others can maintain schedule integrity despite challenges.",
+            "concepts": [
+                [
+                    "Metro_2_link_1 prone to unexpected delays during morning rush",
+                    "Metro_2, delays, reliability",
+                    "Metro_2_link_1",
+                    "07:30-09:00"
+                ],
+                [
+                    "Gym experiences high queues starting at 17:30",
+                    "Gym, queues, peak",
+                    "Gym",
+                    "17:00-18:00"
+                ],
+                [
+                    "Real-time shortest path routing improves punctuality during disruptions",
+                    "route optimization, metro, reliability",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "St_5_link_2 less congested for evening commutes",
+                    "St_5, congestion, evening",
+                    "St_5_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coordination with colleagues enhances scheduling adaptability",
+                    "coordination, punctuality, work",
+                    "Office",
+                    "08:00-09:00"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:30\nReflections: \nThere is severe congestion on Ave_2_link_2 (Node_5 \u2192 Node_6) with a 12-minute wait time, which affects my planned transit route to work via Metro_2 and Ave_2. Since I prefer using the metro for commuting and avoid congested roads, I should consider alternative transit routes that bypass the affected area. Jessica is already en route via St_2_link_1 and will avoid the congestion, so coordinating with her updates confirms that I should adjust my morning commute path accordingly.\nPlan revisions: Lisa Woods update current path to ['Metro_1'] ",
+    "activity_index": 2,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-13 17:20:00",
+    "activity_duration": 130,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Drive to Gym after work before peak queue starts to swim and do yoga to unwind.",
+    "planned_path": [
+        [
+            "St_2_link_2",
+            "drive",
+            "Node_9"
+        ],
+        [
+            "St_1_link_2",
+            "drive",
+            "Node_13"
+        ]
+    ],
+    "curr_place": "St_2_link_1",
+    "curr_status": "Lisa Woods on the trip from Office to Gym; trip trajectory: [['St_5_link_2', 'drive', 'Node_8'], ['St_5_link_1', 'drive', 'Node_12'], ['Ave_1_link_1', 'drive', 'Node_1'], ('St_2_link_1', 'drive', 'Node_5')];  currently traversing link St_2_link_1; planned path left: [['St_2_link_2', 'drive', 'Node_9'], ['St_1_link_2', 'drive', 'Node_13']];",
+    "trip_start_facility": "Office",
+    "trip_trajectory": [
+        [
+            "St_5_link_2",
+            "drive",
+            "Node_8"
+        ],
+        [
+            "St_5_link_1",
+            "drive",
+            "Node_12"
+        ],
+        [
+            "Ave_1_link_1",
+            "drive",
+            "Node_1"
+        ],
+        [
+            "St_2_link_1",
+            "drive",
+            "Node_5"
+        ]
+    ]
+}

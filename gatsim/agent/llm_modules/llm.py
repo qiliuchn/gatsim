@@ -5,8 +5,10 @@ Description: Wrapper functions for calling LLM APIs.
 import json
 import time 
 from gatsim import config
-from gatsim.utils import extract_json_from_string
-
+from gatsim.utils import extract_json_from_string, pretty_print
+import logging
+import random
+from typing import Any, Dict, Optional
 
 def temp_sleep(seconds=0.1):
     time.sleep(seconds)
@@ -18,7 +20,7 @@ def generate_prompt(curr_input, prompt_lib_file):
     the path to a prompt file. The prompt file contains the raw str prompt that
     will be used, which contains the following substr: !<Args:>! -- this 
     function replaces this substr with the actual curr_input to produce the 
-    final promopt that will be sent to the GPT3 server. 
+    final prompt that will be sent to the GPT3 server. 
     ARGS:
         curr_input: the input we want to feed in (IF THERE ARE MORE THAN ONE
                                 Args:, THIS CAN BE A LIST.)
@@ -38,7 +40,45 @@ def generate_prompt(curr_input, prompt_lib_file):
         prompt = prompt.replace(f"!<Args: {count}>!", i)
     if "<commentblockmarker>###</commentblockmarker>" in prompt: 
         prompt = prompt.split("<commentblockmarker>###</commentblockmarker>")[1]
-    return prompt.strip()
+    ans = prompt.strip()
+    return ans
+
+
+def llm_judge_generate(prompt, gpt_parameter={}): 
+    """ 
+    Given a prompt and a dictionary of LLM parameters, make a request to LLM
+    server and returns the response. 
+    ARGS:
+        prompt: a str prompt
+        gpt_parameter: a python dictionary with the keys indicating the names of  
+                                     the parameter and the values indicating the parameter 
+                                     values.   
+    RETURNS: 
+        a str response. 
+    """
+    if config.stream == False:
+        temp_sleep()
+        completion = config.client.chat.completions.create(
+            model=config.judge_model_name,  # use judge model!
+            messages=[{"role": "user", "content": prompt}]
+        )
+        completion = json.loads(completion.model_dump_json())
+        return completion["choices"][0]["message"]["content"]
+
+    else:
+        response = config.judge_client.chat.completions.create(
+            model=config.model_name,
+            messages=[{"role": "user", "content": prompt}],
+            stream=True,  # ✅ required for qwq model or gpt-4o
+        )
+
+        output = ""
+        for chunk in response:
+            delta = chunk.choices[0].delta
+            if hasattr(delta, "content") and delta.content:
+                output += delta.content
+
+        return output
 
 
 def llm_generate(prompt, gpt_parameter={}): 
@@ -53,13 +93,120 @@ def llm_generate(prompt, gpt_parameter={}):
     RETURNS: 
         a str response. 
     """
-    temp_sleep()
-    completion = config.client.chat.completions.create(
-        model=config.model_name, 
-        messages=[{"role": "user", "content": prompt}]
-    )
-    completion = json.loads(completion.model_dump_json())
-    return completion["choices"][0]["message"]["content"]
+    if config.stream == False:
+        temp_sleep()
+        completion = config.client.chat.completions.create(
+            model=config.model_name, 
+            messages=[{"role": "user", "content": prompt}]
+        )
+        completion = json.loads(completion.model_dump_json())
+        return completion["choices"][0]["message"]["content"]
+
+    else:
+        response = config.client.chat.completions.create(
+            model=config.model_name,
+            messages=[{"role": "user", "content": prompt}],
+            stream=True,  # ✅ required for qwq model or gpt-4o
+        )
+
+        output = ""
+        for chunk in response:
+            delta = chunk.choices[0].delta
+            if hasattr(delta, "content") and delta.content:
+                output += delta.content
+
+        return output
+
+
+
+# LLM call with retries
+logger = logging.getLogger(__name__)
+class LLMCallError(Exception):
+    """Raised when the model cannot be called or parsed after all retries."""
+
+def _backoff(attempt: int, base: float = 1.0, cap: float = 30.0) -> float:
+    """
+    Exponential back-off with jitter: 1, 2, 4, … seconds (capped) + 0–1 s noise.
+    """
+    return min(cap, base * (2 ** attempt)) + random.uniform(0, 1)
+
+def llm_generate_with_json_extraction_and_retries(
+    prompt: str,
+    gpt_parameter: Optional[Dict[str, Any]] = None,
+    *,
+    max_retries: int = None,) -> str:
+    """
+    Call the LLM with automatic retries and back-off, returning the raw text.
+    For most of the time, one try is enough, but we'll allow up to 5 retries.
+
+    Args:
+        prompt:          User prompt to send.
+        gpt_parameter:   Extra keyword args for the chat completion call
+                         (e.g. {'temperature':0.7, 'top_p':0.9}).
+        max_retries:     How many total attempts before giving up.
+
+    Returns:
+        Json extracted from LLM string response.
+
+    Raises:
+        LLMCallError if `max_retries` attempts all fail.
+    """
+    gpt_parameter = gpt_parameter or {}
+    max_retries = max_retries or config.max_num_retries
+
+    for attempt in range(max_retries):
+        try:
+            if config.stream is False:
+                # call LLM
+                completion = config.client.chat.completions.create(
+                    model=config.model_name,
+                    messages=[{"role": "user", "content": prompt}],
+                    **gpt_parameter,)
+                # extract output
+                try:
+                    # `model_dump_json()` comes from pydantic-compatible objects
+                    raw_json = json.loads(completion.model_dump_json())
+                    output = raw_json["choices"][0]["message"]["content"]
+                    output = extract_json_from_string(output)
+                    return output
+                except Exception as parse_exc:
+                    pretty_print(f"Error 139: Failed to parse output:\n{output}", 1)
+                    logger.warning("Error 139: Parse error on attempt %d/%d: %s", attempt + 1, max_retries, parse_exc)
+            else:
+                # --- streaming branch ------------------------------------------------
+                response = config.client.chat.completions.create(
+                    model=config.model_name,
+                    messages=[{"role": "user", "content": prompt}],
+                    stream=True,
+                    **gpt_parameter,)
+
+                output_chunks = []
+                for chunk in response:
+                    delta = chunk.choices[0].delta
+                    if getattr(delta, "content", None):
+                        output_chunks.append(delta.content)
+
+                output = "".join(output_chunks)
+                try:
+                    output = extract_json_from_string(output)
+                    return output
+                except Exception as parse_exc:
+                    pretty_print(f"Error 239: Failed to parse streamed output:\n{output}", 1)
+                    logger.warning("Error 239: Parse error on attempt %d/%d: %s", attempt + 1, max_retries, parse_exc)
+
+        except Exception as exc:
+            # Unexpected bugs *should not* be silently retried.
+            pretty_print(f"Error 139: Unexpected failure in LLM call", 1)
+            logger.warning("Unexpected error on attempt %d/%d: %s", attempt + 1, max_retries, exc)
+
+        # Schedule the next retry
+        if attempt < max_retries - 1:
+            time.sleep(_backoff(attempt))
+        else:
+            break
+
+    # All retries exhausted
+    raise LLMCallError(f"Failed to obtain or parse model output after {max_retries} attempts.")
 
 
 

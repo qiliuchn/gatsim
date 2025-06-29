@@ -1,0 +1,63 @@
+llm_judge_v1.txt
+
+Variables: 
+!<Args: 0>! -- question with context
+!<Args: 1>! -- first reflection
+!<Args: 2>! -- first plan
+!<Args: 3>! -- second reflection
+!<Args: 4>! -- second plan
+
+
+<commentblockmarker>###</commentblockmarker>
+===== Task Description =====
+You are evaluating a transport simulation system that uses AI agents to model urban mobility. The goal is to assess whether these AI agents can generate behavior that realistically represents human travelers.
+For this evaluation, we present various mobility scenarios to both AI agents and human participants. Each respondent provides:
+- A reflection on the situation (their thoughts and reasoning)
+- A plan for their next actions
+
+Your role is to judge which response better captures authentic human traveler behavior.
+
+
+===== Evaluation Criteria =====
+When comparing responses, consider:
+- Realism: Does the reasoning reflect how actual people think about travel decisions?
+- Context-awareness: Are relevant factors (time, weather, traffic, personal constraints) appropriately considered?
+- Decision-making logic: Is the plan practical and consistent with the reflection?
+- Human-like priorities: Does it balance competing concerns (time, cost, comfort) as humans typically would?
+
+
+===== Output Format =====
+Output a json string with the following format:
+{
+    "output": "1" | "2" | "tie"
+}
+
+Where:
+- "1": The first response better simulates realistic traveler behavior;
+- "2": The second response better simulates realistic traveler behavior;
+- "tie": Both responses are equally realistic.
+
+
+Input Data are as follows:
+===== Scenario and Context =====
+!<Args: 0>!
+
+
+===== Response 1 =====
+Reflection:
+!<Args: 1>!
+
+Plan:
+!<Args: 2>!
+
+
+===== Response 2=====
+Reflection:
+!<Args: 3>!
+
+Plan:
+!<Args: 4>!
+
+
+===== Your Judgement =====
+Now generate your JSON output:

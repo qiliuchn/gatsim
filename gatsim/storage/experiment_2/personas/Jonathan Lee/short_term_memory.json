@@ -1,0 +1,488 @@
+{
+    "name": "Jonathan Lee",
+    "age": 31,
+    "gender": "male",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "husband",
+    "licensed_driver": true,
+    "work_facility": "Office",
+    "work_time": "8:00-17:00",
+    "occupation": "software developer",
+    "preferences_in_transportation": "drives to work, enjoys electric scooter for short trips",
+    "innate": "logical, creative, innovative, introverted",
+    "lifestyle": "enjoys gaming, contributes to open source projects, attends tech conferences",
+    "home_facility": "Uptown apartment",
+    "household_size": 2,
+    "other_family_members": {
+        "wife": "Rebecca Lee"
+    },
+    "number_of_vehicles_in_family": 2,
+    "household_income": "middle",
+    "friends": [
+        "Alex Kim",
+        "Ahmed Hassan"
+    ],
+    "other_description": "Jonathan develops software solutions for the office and local businesses. He mentors Alex Kim in programming and collaborates with Ahmed Hassan on technology innovation projects.",
+    "curr_time": "2025-03-12 18:49:00",
+    "original_plans": [
+        {
+            "reflection": "This is the beginning of a new week, and I have an early meeting at work today. Since Rebecca needs the car for an early client visit later in the morning, I need to drive to the office before 8 AM and leave the vehicle available for her. I should plan my commute carefully to avoid congestion and ensure punctuality. The weekend was quiet\u2014Rebecca and I spent some time together, but this week looks busier with several personal and professional commitments. I\u2019ll aim to stay productive at work, complete any necessary errands efficiently, and make time for some personal development in the evening.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes his morning routine."
+                ],
+                [
+                    "Office",
+                    "07:20",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_1_link_1",
+                    "Drive to Office before 8AM for an early meeting and leave the car available for Rebecca."
+                ],
+                [
+                    "Office",
+                    "12:00",
+                    120,
+                    "none",
+                    "none",
+                    "Have lunch at desk while reviewing code submissions from Alex Kim."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, St_3_link_1",
+                    "Head to Gym after work using transit to do some light training and clear my mind."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "transit",
+                    "St_3_link_2, Metro_2_link_3, Metro_2_link_4, Metro_2_link_5",
+                    "Return home via transit after workout session."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences higher congestion during early morning hours due to school drop-offs",
+                    "Ave_3, congestion, school drop-off",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "Metro Line 2 provides efficient access to Southeast industrial zone without needing a car",
+                    "Metro Line 2, transit efficiency",
+                    "Metro_2",
+                    "all-day"
+                ],
+                [
+                    "Gym attendance peaks between 18:00 and 19:00",
+                    "Gym, peak attendance",
+                    "Gym",
+                    "18:00-19:00"
+                ],
+                [
+                    "St_2 frequently experiences delays in both directions during morning rush hour",
+                    "St_2, delays, rush hour",
+                    "St_2",
+                    "07:00-09:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "Yesterday's commute was a good test of adaptability, as I had to leave the car for Rebecca and switch to transit. While the morning trip went smoothly using Metro_2, the evening gym visit revealed long wait times that pushed my return home past 20:30. This highlighted the need for buffer time when relying on public transit for discretionary activities. I also learned that Ave_3_link_3 and St_4_link_2 are viable alternatives during evening disruptions. This week, I aim to be more strategic with travel mode choices\u2014using transit in the morning but reserving driving for the evening to maintain flexibility. I also want to find a better time to exercise without conflicting with peak transit demand.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Office",
+                    "07:20",
+                    180,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take transit to Office before 8AM to ensure Rebecca has access to the car for her client visit."
+                ],
+                [
+                    "Office",
+                    "12:00",
+                    180,
+                    "none",
+                    "none",
+                    "Have lunch while mentoring Alex Kim on a new programming challenge."
+                ],
+                [
+                    "Gym",
+                    "18:10",
+                    60,
+                    "drive",
+                    "St_2_link_1, Ave_1_link_1",
+                    "Drive to Gym after work to avoid transit wait times, aiming for earlier arrival based on yesterday\u2019s experience."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home by drive after workout session."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Transit wait times increase significantly after 17:30 at Gym-serving routes",
+                    "transit, wait time, Gym",
+                    "Metro_2_link_3, Metro_2_link_4, Metro_2_link_5",
+                    "17:30-19:00"
+                ],
+                [
+                    "Driving to Gym before 19:00 avoids peak transit delays",
+                    "Gym, transit delay, driving",
+                    "Gym",
+                    "18:30-20:00"
+                ],
+                [
+                    "Ave_3_link_3 and St_4_link_2 offer efficient alternative path during evening transit disruptions",
+                    "route alternative, disruption",
+                    "Ave_3_link_3, St_4_link_2",
+                    "all-day"
+                ],
+                [
+                    "Vehicle availability coordination with spouse requires early departure or alternate modes",
+                    "vehicle sharing, spouse",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Morning transit via Metro_2 is reliable during rush hour when Ave_1_link_1 is congested",
+                    "Metro_2, Ave_1_link_1, congestion",
+                    "Ave_1_link_1, Metro_2",
+                    "07:00-08:30"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past few days have reinforced the importance of timing and mode choice in managing both professional and personal commitments effectively. Yesterday\u2019s early departure from work allowed me to avoid peak congestion and enjoy a more productive gym session before evening transit delays set in. Rebecca had a client visit in the morning, so coordinating car use was key to ensuring smooth travel for both of us. I noticed that Ave_3_link_3 and St_4_link_2 were particularly useful alternatives during evening disruptions, which gives me confidence in planning alternative routes when needed. This week, I want to continue optimizing my schedule by balancing driving and transit based on time-of-day traffic patterns. I also need to ensure I\u2019m not falling behind on personal wellness goals and should consider midday or early afternoon exercise options if possible. Looking ahead, I should stay mindful of how unexpected events\u2014like an urgent project update\u2014can shift my schedule, and build in flexibility accordingly.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Office",
+                    "07:20",
+                    180,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take transit to Office before 8AM to allow Rebecca access to the car for her morning errands."
+                ],
+                [
+                    "Office",
+                    "12:00",
+                    180,
+                    "none",
+                    "none",
+                    "Have lunch while reviewing code with Alex Kim via video call."
+                ],
+                [
+                    "Gym",
+                    "17:45",
+                    60,
+                    "drive",
+                    "St_2_link_1, Ave_1_link_1",
+                    "Drive to Gym after work to get an early start and avoid evening congestion."
+                ],
+                [
+                    "Coffee shop",
+                    "none",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_1",
+                    "Stop by Coffee shop on the way home for a quick coffee and unwind before dinner."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:15",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home by drive after relaxing at Coffee shop."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Driving after work provides greater flexibility for unexpected changes",
+                    "driving, flexibility, schedule change",
+                    "the town",
+                    "17:00-19:00"
+                ],
+                [
+                    "Gym less crowded before 19:00",
+                    "Gym, less crowded, workout",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "Metro_2 is efficient for morning commutes",
+                    "Metro_2, transit efficiency",
+                    "Metro_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "Ave_3_link_3 and St_4_link_2 serve as viable alternatives during evening disruptions",
+                    "Ave_3_link_3, St_4_link_2, alternative route",
+                    "Ave_3_link_3, St_4_link_2",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "Rebecca is currently at Gym, which means she won't be able to drop me off at Node_5 as planned. This change requires an adjustment in my transportation plan to ensure I reach Office on time. Since St_1_link_1 (Node_4 \u2192 Node_9) is experiencing severe congestion with a 11-minute wait, attempting to drive directly from Uptown apartment to Office is not ideal. My earlier reflection indicated that Ave_3_link_3 and St_4_link_2 are viable alternatives during disruptions, so I should utilize the metro system as originally coordinated with Rebecca to avoid delays.",
+            "plan": [
+                [
+                    "Office",
+                    "07:20",
+                    180,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take transit to Office before 8AM as originally planned since Rebecca is unavailable to drop me off."
+                ],
+                [
+                    "Office",
+                    "12:00",
+                    180,
+                    "none",
+                    "none",
+                    "Have lunch while reviewing code with Alex Kim via video call."
+                ],
+                [
+                    "Gym",
+                    "17:45",
+                    60,
+                    "drive",
+                    "St_2_link_1, Ave_1_link_1",
+                    "Drive to Gym after work to get an early start and avoid evening congestion."
+                ],
+                [
+                    "Coffee shop",
+                    "none",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_1",
+                    "Stop by Coffee shop on the way home for a quick coffee and unwind before dinner."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:15",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home by drive after relaxing at Coffee shop."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute on St_1_link_1 experiences severe congestion regularly",
+                    "St_1_link_1, congestion, morning",
+                    "St_1_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Metro_2 provides reliable alternative route during road congestion",
+                    "Metro_2, reliable, congestion",
+                    "Metro_2",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 07:20:00"
+        },
+        {
+            "reflection": "I'm currently en route to the Gym from Factory via St_4_link_2 and Ave_4_link_1, but I noticed Ahmed Hassan is already at the Gym. This presents an opportunity to extend my workout session with him before heading home. Rebecca is on her way to Supermarket, so car coordination isn't an issue for the return trip. The light congestion on Ave_3_link_2 (4 minutes wait) won't significantly impact my plans.",
+            "plan": [
+                [
+                    "Gym",
+                    "17:57",
+                    60,
+                    "drive",
+                    "St_4_link_2, Ave_4_link_1",
+                    "Continue to Gym to join Ahmed Hassan for extended workout session"
+                ],
+                [
+                    "Coffee shop",
+                    "19:45",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_1",
+                    "Leave Gym after workout and drive to Coffee shop to meet with Ahmed Hassan for coffee and discussion"
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home after meeting with Ahmed at Coffee shop"
+                ]
+            ],
+            "concepts": [
+                [
+                    "Evening workout sessions with Ahmed Hassan can be extended if coordinated properly",
+                    "Gym, workout, Ahmed Hassan",
+                    "Gym",
+                    "18:00-20:00"
+                ],
+                [
+                    "Ave_3_link_2 experiences consistent light congestion during evening commute",
+                    "Ave_3_link_2, congestion, evening",
+                    "Ave_3_link_2",
+                    "17:30-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 17:57:00"
+        },
+        {
+            "reflection": "I am currently en route to the Gym from Factory via St_4_link_2 and Ave_4_link_1, where I plan to meet Ahmed Hassan for an extended workout session. There is moderate congestion on Ave_4_link_1 with an 8-minute wait, but this does not significantly delay my arrival at the Gym. Since Ahmed is already at the Gym and Rebecca is heading to Supermarket, there's no issue regarding car coordination for the return trip. Based on our earlier chat, we plan to leave the Gym together and drive to Coffee shop for a quick coffee before heading home.",
+            "plan": [
+                [
+                    "Gym",
+                    "17:57",
+                    60,
+                    "drive",
+                    "St_4_link_2, Ave_4_link_1",
+                    "Continue to Gym to join Ahmed Hassan for extended workout session"
+                ],
+                [
+                    "Coffee shop",
+                    "19:45",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_1",
+                    "Leave Gym after workout and drive to Coffee shop to meet with Ahmed Hassan for coffee and discussion"
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home after meeting with Ahmed at Coffee shop"
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_4_link_1 experiences moderate congestion during evening commute",
+                    "Ave_4_link_1, congestion, evening",
+                    "Ave_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "Evening workout sessions with Ahmed Hassan can be extended if coordinated properly",
+                    "Gym, workout, Ahmed Hassan",
+                    "Gym",
+                    "18:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-12 18:15:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today's commute required significant adjustments due to both personal coordination and unexpected congestion. Leaving the car for Rebecca was a planned commitment, but switching from driving to taking Metro_2 was necessary and proved effective in avoiding traffic delays. However, the evening trip to the Gym was unexpectedly challenging due to long wait times\u2014over two hours\u2014causing missed opportunities for timely dinner with Rebecca. During transit back home, I considered alternative walking routes based on Ahmed Hassan\u2019s movements, which showed potential time savings. Overall, today highlighted the importance of planning buffer times for discretionary activities like going to the Gym, especially when coordinating with family schedules. Using public transit helped avoid road congestion but introduced unpredictability in arrival timing at popular destinations.",
+            "concepts": [
+                [
+                    "Metro_2 is reliable during morning rush hour when Ave_1_link_1 is congested",
+                    "Metro_2, Ave_1_link_1, congestion, transit",
+                    "Metro_2, Ave_1_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym experiences high demand with long wait times after 17:30",
+                    "Gym, wait time, overcrowding",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Ave_3_link_3 and St_4_link_2 can serve as efficient alternatives during evening transit disruptions",
+                    "Ave_3_link_3, St_4_link_2, route alternative, congestion",
+                    "Ave_3_link_3, St_4_link_2",
+                    "18:00-19:00"
+                ],
+                [
+                    "Buffer time needed before non-work commitments due to unpredictable transit wait times",
+                    "transit, uncertainty, scheduling",
+                    "The town",
+                    "17:00-19:00"
+                ],
+                [
+                    "Leaving vehicle availability for spouse requires early departure or alternate travel modes",
+                    "vehicle sharing, coordination, planning",
+                    "Uptown apartment, Office",
+                    "07:00-08:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's activities mostly adhered to the revised plan, with only minor timing shifts. The morning commute via Metro_2 was efficient and allowed Rebecca to use the car for her client visit. Work extended beyond the expected lunch mentoring session due to an urgent project update, but coordination with Alex was maintained later in the day. Departing early from the Office to avoid evening transit delays worked well\u2014I arrived at the Gym before peak hours and had a productive workout without disruption. The return drive home was smooth and allowed time for dinner and relaxation. Overall, today reinforced the importance of flexible scheduling, especially when balancing professional responsibilities and personal wellness.",
+            "concepts": [
+                [
+                    "Metro_2 is efficient for morning commutes",
+                    "Metro_2, transit, morning",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Leaving Office by 18:10 avoids evening traffic and transit delays",
+                    "Office, Gym, departure time",
+                    "Office, Gym",
+                    "18:00-19:00"
+                ],
+                [
+                    "Gym less crowded before 19:00",
+                    "Gym, exercise, crowd",
+                    "Gym",
+                    "18:00-19:00"
+                ],
+                [
+                    "Driving after work provides flexibility for schedule changes",
+                    "driving, flexibility, evening commute",
+                    "the town",
+                    "17:30-19:00"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:20\nReflections: \nRebecca is currently at Gym, which means she won't be able to drop me off at Node_5 as planned. This change requires an adjustment in my transportation plan to ensure I reach Office on time. Since St_1_link_1 (Node_4 \u2192 Node_9) is experiencing severe congestion with a 11-minute wait, attempting to drive directly from Uptown apartment to Office is not ideal. My earlier reflection indicated that Ave_3_link_3 and St_4_link_2 are viable alternatives during disruptions, so I should utilize the metro system as originally coordinated with Rebecca to avoid delays.\nPlan revisions: Jonathan Lee update future activity plan:\n[['Office', '07:20', 180, 'transit', 'Metro_2_link_1, Metro_2_link_2, Metro_2_link_3', 'Take transit to Office before 8AM as originally planned since Rebecca is unavailable to drop me off.'], ['Office', '12:00', 180, 'none', 'none', 'Have lunch while reviewing code with Alex Kim via video call.'], ['Gym', '17:45', 60, 'drive', 'St_2_link_1, Ave_1_link_1', 'Drive to Gym after work to get an early start and avoid evening congestion.'], ['Coffee shop', 'none', 20, 'drive', 'Ave_3_link_2, Ave_3_link_1', 'Stop by Coffee shop on the way home for a quick coffee and unwind before dinner.'], ['Uptown apartment', '20:15', 'none', 'drive', 'shortest', 'Return home by drive after relaxing at Coffee shop.']] \n\nTime: 17:57\nReflections: \nI'm currently en route to the Gym from Factory via St_4_link_2 and Ave_4_link_1, but I noticed Ahmed Hassan is already at the Gym. This presents an opportunity to extend my workout session with him before heading home. Rebecca is on her way to Supermarket, so car coordination isn't an issue for the return trip. The light congestion on Ave_3_link_2 (4 minutes wait) won't significantly impact my plans.\nPlan revisions: Jonathan Lee update future activity plan:\n[['Gym', '17:57', 60, 'drive', 'St_4_link_2, Ave_4_link_1', 'Continue to Gym to join Ahmed Hassan for extended workout session'], ['Coffee shop', '19:45', 20, 'drive', 'Ave_3_link_2, Ave_3_link_1', 'Leave Gym after workout and drive to Coffee shop to meet with Ahmed Hassan for coffee and discussion'], ['Uptown apartment', '20:30', 'none', 'drive', 'shortest', 'Return home after meeting with Ahmed at Coffee shop']] \n\nTime: 18:15\nReflections: \nI am currently en route to the Gym from Factory via St_4_link_2 and Ave_4_link_1, where I plan to meet Ahmed Hassan for an extended workout session. There is moderate congestion on Ave_4_link_1 with an 8-minute wait, but this does not significantly delay my arrival at the Gym. Since Ahmed is already at the Gym and Rebecca is heading to Supermarket, there's no issue regarding car coordination for the return trip. Based on our earlier chat, we plan to leave the Gym together and drive to Coffee shop for a quick coffee before heading home.\nPlan revisions: Jonathan Lee update future activity plan:\n[['Gym', '17:57', 60, 'drive', 'St_4_link_2, Ave_4_link_1', 'Continue to Gym to join Ahmed Hassan for extended workout session'], ['Coffee shop', '19:45', 20, 'drive', 'Ave_3_link_2, Ave_3_link_1', 'Leave Gym after workout and drive to Coffee shop to meet with Ahmed Hassan for coffee and discussion'], ['Uptown apartment', '20:30', 'none', 'drive', 'shortest', 'Return home after meeting with Ahmed at Coffee shop']] ",
+    "activity_index": 0,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-12 18:15:00",
+    "activity_duration": 90,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Continue to Gym to join Ahmed Hassan for extended workout session",
+    "planned_path": [],
+    "curr_place": "Gym",
+    "curr_status": "Just finished the trip from None to Gym; waiting at Gym now"
+}

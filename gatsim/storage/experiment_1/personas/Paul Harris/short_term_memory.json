@@ -1,0 +1,472 @@
+{
+    "name": "Paul Harris",
+    "age": 39,
+    "gender": "male",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "husband",
+    "licensed_driver": true,
+    "work_facility": "Factory",
+    "work_time": "8:00-17:00",
+    "occupation": "quality control inspector",
+    "preferences_in_transportation": "prefer transit to work for early hours, walks for exercise",
+    "innate": "meticulous, principled, methodical, team-oriented",
+    "lifestyle": "enjoys woodworking, volunteers at school, family-focused weekends",
+    "home_facility": "Midtown apartment",
+    "household_size": 2,
+    "other_family_members": {
+        "wife": "Michelle Harris"
+    },
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+        "Kevin White",
+        "Frank Wilson"
+    ],
+    "other_description": "Paul ensures product quality meets standards and trains new quality inspectors. He learns management techniques from Kevin White and shares technical knowledge with Frank Wilson.",
+    "curr_time": "2025-03-13 18:00:00",
+    "original_plans": [
+        {
+            "reflection": "This past week has been relatively routine, balancing work at the Factory with family responsibilities. I managed to maintain my usual schedule without any major disruptions, and I've noticed consistent traffic patterns that are worth noting for future planning. I'm looking forward to a productive week ahead\u2014staying focused at work, ensuring I stay active by visiting the Gym after hours, and coordinating with Michelle about weekend plans. Since we only have one car in the household and she needs it for her early shift, today\u2019s commute will require careful coordination using the metro after being dropped off at Office.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes his morning routine."
+                ],
+                [
+                    "Office",
+                    "07:55",
+                    120,
+                    "transit",
+                    "St_2_link_1, Metro_2_link_1, Metro_2_link_2, Metro_2_link_3, Ave_3_link_3",
+                    "Michelle drops Paul off at Office by 7:55AM; from there, he takes Metro_2 to Factory."
+                ],
+                [
+                    "Factory",
+                    "08:45",
+                    120,
+                    "transit",
+                    "shortest",
+                    "Work at Factory as quality control inspector from 9:00-17:00."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_5, Metro_2_link_4, Metro_2_link_3, Metro_2_link_2, St_2_link_2",
+                    "Visit Gym to exercise after work."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "transit",
+                    "shortest",
+                    "Return home via transit before 22:00."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_2 is reliable for commuting during morning and evening peak hours",
+                    "Metro_2, reliable, commuting",
+                    "Metro_2",
+                    "07:00-09:00,17:00-19:00"
+                ],
+                [
+                    "Office drop-off time must align with Michelle's schedule for car access",
+                    "Office, drop-off, Michelle",
+                    "Office",
+                    "07:40-08:00"
+                ],
+                [
+                    "Gym less crowded between 17:30 and 19:00",
+                    "Gym, less crowded",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Factory area has limited late-night transit options",
+                    "Factory, transit",
+                    "Factory",
+                    "19:00-22:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This past week has been fairly routine, balancing work at the Factory with family responsibilities and personal goals. I've managed to maintain a consistent schedule, ensuring that I arrive on time for my shift and make time for exercise after work. Yesterday's commute using Metro_2 was efficient, and adjusting my departure from the Gym helped me avoid delays on St_1_link_2. I noticed that evenings tend to see moderate congestion on St_1_link_2, which is something to keep in mind when planning future commutes. I also learned that the Gym tends to be less crowded before 19:00, making it an ideal window for workouts. Looking ahead, I plan to continue prioritizing fitness while coordinating effectively with Michelle around shared transportation needs. This week, I\u2019ll focus on maintaining efficiency in travel choices and ensuring I support her early shift schedule without over-relying on the single household car.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and completes his morning routine."
+                ],
+                [
+                    "Office",
+                    "07:55",
+                    120,
+                    "transit",
+                    "St_2_link_1, Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Michelle drops Paul off at Office by 7:55AM; from there, he takes Metro_2 to Factory."
+                ],
+                [
+                    "Factory",
+                    "08:45",
+                    120,
+                    "transit",
+                    "shortest",
+                    "Work at Factory as quality control inspector from 9:00-17:00."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_5, Metro_2_link_4, Metro_2_link_3, Metro_2_link_2",
+                    "Visit Gym to exercise after work."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "transit",
+                    "shortest",
+                    "Return home via transit before 22:00."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Evening congestion on St_1_link_2 affects return trip timing",
+                    "St_1_link_2, evening congestion",
+                    "St_1_link_2",
+                    "18:00-19:00"
+                ],
+                [
+                    "Gym is less crowded before 19:00",
+                    "Gym, less crowded, 19:00",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Metro_2 is reliable for morning commute",
+                    "Metro_2, reliable, morning",
+                    "Metro_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Adjusting departure times improves reliability during congestion",
+                    "departure time adjustment, reliability, congestion",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "Yesterday's unexpected Gym overcrowding and Michelle's early shift coordination have prompted me to adjust my evening plans. I will aim for a more flexible post-work schedule, possibly shifting exercise routines to mornings if needed. The reliability of Metro_2 during morning rush hours continues to be a solid choice, especially with St_1_link_2 congestion risks in the evening. This week, I\u2019ll continue prioritizing efficient travel choices, support Michelle\u2019s transportation needs, and explore alternative workout windows to avoid facility bottlenecks.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Factory",
+                    "07:55",
+                    120,
+                    "transit",
+                    "Metro_2",
+                    "Take Metro_2 to Factory for work from 8:00-17:00; ensure quality control processes are on track and mentor new inspectors."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "transit",
+                    "shortest",
+                    "Head to Gym after work to exercise, but remain open to adjusting based on real-time availability updates from Michelle."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "transit",
+                    "shortest",
+                    "Return home via transit before 22:00; coordinate with Michelle on next steps depending on her Supermarket and evening plans."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_2 is reliable during morning rush hours",
+                    "Metro_2, reliable, morning rush",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "St_1_link_2 prone to congestion in the late evening",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "18:00-20:00"
+                ],
+                [
+                    "Gym experiences unexpected overcrowding in the early evening",
+                    "Gym, overcrowding, early evening",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coordination via morning chat prevents transportation conflicts",
+                    "coordination, transportation, morning",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Evening plans should include buffer for facility availability checks",
+                    "availability check, buffer, evening",
+                    "Gym",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "Yesterday's experience highlighted the importance of flexibility and coordination, especially with Michelle. The morning commute using Metro_2 was efficient again, but today I'll take advantage of the family car availability to optimize my route and support Michelle\u2019s schedule. Evening Gym plans are confirmed with Michelle meeting me at 20:30, so I need to ensure a timely departure from work. I've learned that St_1_link_2 is frequently congested in the evenings, so avoiding it on the return trip will be a priority. This week continues to emphasize reliable transit options during peak hours and better planning for recreational activities outside of typical rush periods.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Supermarket",
+                    "07:15",
+                    20,
+                    "drive",
+                    "St_2, Ave_2",
+                    "Drive to Supermarket before work to pick up household essentials as part of a coordinated effort with Michelle."
+                ],
+                [
+                    "Factory",
+                    "07:45",
+                    120,
+                    "drive",
+                    "Ave_2, Ave_4",
+                    "Head to Factory for work from 8:00-17:00; continue mentoring new inspectors and ensuring quality standards."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym after work to exercise; meet Michelle at 20:30, so timing is important to avoid evening congestion."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home by 22:00 after coordinating with Michelle at Gym."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_2 prone to evening congestion",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Metro_2 reliable during morning rush hour",
+                    "Metro_2, reliable, morning",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Coordination with spouse improves route efficiency",
+                    "coordination, spouse, efficiency",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Gym less crowded before 19:00",
+                    "Gym, crowd, 19:00",
+                    "Gym",
+                    "before 19:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I am currently stuck in severe congestion on Ave_2_link_2, which has a 16-minute wait time. This affects my ability to reach the Factory by 8:00 as originally planned. Since I\u2019m already rerouted via St_3 as of 07:36 and currently at Node_6, continuing on the updated path via Ave_2_link_3 and then St_4_link_1 will add delay but avoid the worst congestion. Kevin White is also en route and nearing the Factory, so coordination with him for any on-site adjustments may be necessary. Michelle remains delayed on Ave_2_link_1 but still expects me to support evening Gym plans at 20:30. The current plan needs a minor update to reflect the adjusted arrival time at work and ensure that evening coordination remains feasible.",
+            "plan": [
+                [
+                    "Factory",
+                    "08:10",
+                    120,
+                    "drive",
+                    "Ave_2, St_4",
+                    "Arrive at Factory around 8:10 due to morning congestion; continue mentoring new inspectors and ensuring quality standards."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym after work to exercise; meet Michelle at 20:30, so timing is important to avoid evening congestion."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home by 22:00 after coordinating with Michelle at Gym."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_2_link_2 consistently congested during morning commute",
+                    "Ave_2_link_2, congested, morning",
+                    "Ave_2_link_2",
+                    "07:30-09:00"
+                ],
+                [
+                    "St_4 links provide reliable alternative route to Factory during Ave_2 congestion",
+                    "St_4, alternate route, Ave_2 congestion",
+                    "St_4_link_1, St_4_link_2",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-13 07:50:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today's schedule mostly followed the original plan, with minor adjustments that improved coordination with Michelle. I successfully used Metro_2 to commute from Office to Factory, arriving on time for work. After finishing at the Factory, I proceeded to the Gym as planned and completed my workout before Michelle finished her shift at Supermarket. During the evening, I adjusted my departure from the Gym slightly to account for potential delays on St_1_link_2, which was experiencing moderate congestion\u2014this helped ensure a smooth return home. Overall, today balanced work, fitness, and family coordination effectively. Travel mode choices were efficient, and flexibility in timing contributed positively to the day\u2019s outcomes.",
+            "concepts": [
+                [
+                    "Metro_2 reliable for morning commute",
+                    "transit, Metro_2, commuting",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym less crowded before 19:00",
+                    "Gym, exercise, timing",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "St_1_link_2 experiences moderate congestion in evenings",
+                    "St_1_link_2, congestion, travel delay",
+                    "St_1_link_2",
+                    "18:00-20:00"
+                ],
+                [
+                    "Adjusting departure times based on real-time congestion improves reliability",
+                    "departure timing, congestion adaptation",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today\u2019s plan started with adjustments due to Michelle's unavailability for a morning drop-off, which required me to leave home earlier than planned. I successfully caught Metro_2 on time and made it to the Factory without significant delays, affirming that transit remains my most reliable mode of travel during the morning rush. Work proceeded as usual, and I completed my shift at the Factory on schedule. However, my evening Gym visit was unexpectedly problematic\u2014waiting over 100 minutes indicated unusual overcrowding or operational issues at the facility. This led me to revise my plan early, heading back home to avoid worsening traffic on St_1_link_2 and ensure Michelle could use the car after her shift. Coordination via chat ensured clarity in our shared transportation needs. Overall, today highlighted the importance of monitoring real-time conditions and being flexible with personal activity timing.",
+            "concepts": [
+                [
+                    "Gym experiences unexpected overcrowding in the early evening",
+                    "Gym, overcrowding, wait time",
+                    "Gym",
+                    "17:30-19:30"
+                ],
+                [
+                    "St_1_link_2 prone to congestion in the late evening",
+                    "St_1_link_2, congestion, commute",
+                    "St_1_link_2",
+                    "19:00-21:00"
+                ],
+                [
+                    "Metro_2 reliable during morning rush despite surface road delays",
+                    "Metro_2, efficient, morning commute",
+                    "Metro_2",
+                    "07:30-09:00"
+                ],
+                [
+                    "Evening plans should include buffer for facility availability checks",
+                    "buffer time, planning, Gym",
+                    "the town",
+                    "17:00-20:00"
+                ],
+                [
+                    "Coordination via morning chat prevents transportation conflicts",
+                    "family coordination, planning, communication",
+                    "the town",
+                    "07:00-08:00"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "My morning commute using Metro_2 went as planned, arriving at Factory right on time. The decision to head to Gym immediately after work proved beneficial due to clear traffic and fewer crowds compared to yesterday. However, returning home presented a challenge when severe congestion emerged on St_1_link_2, where Kevin White was delayed for 11 minutes. This prompted a series of adjustments to my route and plans, including an impromptu meetup with Michelle at Supermarket to coordinate our evening. While this added some complexity, it ultimately allowed us to travel together and avoid the worst of the congestion. Overall, today highlighted the importance of real-time traffic awareness, flexible scheduling, and effective communication with family members to maintain both efficiency and coordination.",
+            "concepts": [
+                [
+                    "St_1_link_2 prone to evening congestion",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Gym less crowded before 19:00",
+                    "Gym, crowded, timing",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Coordination with spouse improves route efficiency",
+                    "spouse, coordination, route planning",
+                    "Supermarket, Midtown apartment",
+                    "19:00-20:30"
+                ],
+                [
+                    "Metro_2 reliable during morning rush hour",
+                    "Metro_2, efficient, transit",
+                    "Metro_2",
+                    "07:00-08:30"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:36\nReflections: \nMichelle and I are both stuck in heavy congestion on Ave_2_link_1 with 12-minute waits. This delay impacts our coordination for the day\u2014she needs to reach Supermarket by 10:00 for her shift, and I need to be at Factory by 8:00. Given the consistent morning congestion on Ave_2 and St_2 links, rerouting via St_3 appears more efficient. We\u2019ve agreed to adjust routes accordingly, and have coordinated with Frank Wilson and Lisa Martinez in case further adjustments are needed.\nPlan revisions: Paul Harris update current path to ['St_3', 'Ave_4'] \n\nTime: 07:50\nReflections: \nI am currently stuck in severe congestion on Ave_2_link_2, which has a 16-minute wait time. This affects my ability to reach the Factory by 8:00 as originally planned. Since I\u2019m already rerouted via St_3 as of 07:36 and currently at Node_6, continuing on the updated path via Ave_2_link_3 and then St_4_link_1 will add delay but avoid the worst congestion. Kevin White is also en route and nearing the Factory, so coordination with him for any on-site adjustments may be necessary. Michelle remains delayed on Ave_2_link_1 but still expects me to support evening Gym plans at 20:30. The current plan needs a minor update to reflect the adjusted arrival time at work and ensure that evening coordination remains feasible.\nPlan revisions: Paul Harris update future activity plan:\n[['Factory', '08:10', 120, 'drive', 'Ave_2, St_4', 'Arrive at Factory around 8:10 due to morning congestion; continue mentoring new inspectors and ensuring quality standards.'], ['Gym', '17:30', 60, 'drive', 'shortest', 'Go to Gym after work to exercise; meet Michelle at 20:30, so timing is important to avoid evening congestion.'], ['Midtown apartment', '21:30', 'none', 'drive', 'shortest', 'Return home by 22:00 after coordinating with Michelle at Gym.']] Time: 17:31\nReflections:\nI am currently at Node_3 (Factory) and preparing to drive to the Gym via Ave_4_link_1. The current traffic state shows moderate congestion on Ave_4_link_1 with an 8-minute wait, which is manageable but will slightly delay my arrival at the Gym. Since Michelle is expected to leave Supermarket at 19:00 and we aim to meet by 20:30, this slight delay does not significantly affect our plans. I should account for the congestion in my travel estimate but do not need to reroute as the shortest available path remains optimal under current conditions.\nPlan revisions:\nPaul Harris update current path to ['Ave_4']\n\n",
+    "activity_index": 1,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-13 17:30:00",
+    "activity_duration": 240,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Go to Gym after work to exercise; meet Michelle at 20:30, so timing is important to avoid evening congestion.",
+    "planned_path": [],
+    "curr_place": "Gym",
+    "curr_status": "Paul Harris just finished the trip from None to Gym; waiting at Gym now",
+    "trip_start_facility": null,
+    "trip_trajectory": null
+}

@@ -1,0 +1,437 @@
+{
+    "name": "Emma Davis",
+    "age": 27,
+    "gender": "female",
+    "highest_level_of_education": "Master",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "Office",
+    "work_time": "8:00-17:00",
+    "occupation": "social worker",
+    "preferences_in_transportation": "drives for client visits, uses metro for personal travel",
+    "innate": "empathetic, advocacy-oriented, resilient, culturally sensitive",
+    "lifestyle": "volunteers at community center, enjoys reading, advocates for social causes",
+    "home_facility": "Midtown apartment",
+    "household_size": 2,
+    "other_family_members": {
+        "husband": "William Davis"
+    },
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+        "Maria Lopez"
+    ],
+    "other_description": "Emma provides social services to families in need and advocates for community resources. She collaborates with Maria Lopez on health outreach programs and learns from Maria Lopez about child development and family dynamics.",
+    "curr_time": "2025-03-12 18:49:00",
+    "original_plans": [
+        {
+            "reflection": "This is the beginning of a new week, and I'm looking forward to starting fresh after a relaxing weekend. Last week was quite busy with work responsibilities and community volunteering, so I'm hoping this week allows for better balance. I've noticed that morning commutes can be particularly slow on Mondays due to increased traffic on Ave_3 and St_2 links. My husband William and I coordinated plans yesterday\u2014he will use Metro_1 for his evening shift at the Supermarket while I\u2019ll need the car for client visits today. I should consider leaving slightly earlier in the mornings to avoid peak congestion around 08:00\u201309:00. I also plan to find some time later in the week to exercise at the Gym or read at the Coffee shop, both of which are easily accessible by transit if needed.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, complete morning routine."
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_3",
+                    "Drive to Office via Node_5 and Node_9 to reach work by 8:00."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Head to Supermarket during lunch break to stock up essentials for the week."
+                ],
+                [
+                    "Coffee shop",
+                    "15:00",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, St_4_link_1",
+                    "Drive to Coffee shop for a mid-afternoon break before afternoon client visits."
+                ],
+                [
+                    "Office",
+                    "15:30",
+                    120,
+                    "drive",
+                    "St_4_link_1, Ave_3_link_2",
+                    "Return to Office for final meetings and wrap-up tasks."
+                ],
+                [
+                    "Uptown apartment",
+                    "17:45",
+                    "none",
+                    "drive",
+                    "Ave_3_link_3, St_2_link_1",
+                    "Drive back home to Uptown apartment after picking up William from metro station."
+                ],
+                [
+                    "Midtown apartment",
+                    "18:30",
+                    "none",
+                    "none",
+                    "none",
+                    "Arrive at home, prepare dinner, relax for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute on Ave_3_link_3 and St_2_link_1 often experiences delays between 07:30-08:30",
+                    "Ave_3_link_3, St_2_link_1, delays, morning commute",
+                    "Ave_3_link_3, St_2_link_1",
+                    "07:30-08:30"
+                ],
+                [
+                    "Supermarket has shorter lines before 13:00",
+                    "Supermarket, short lines, shopping",
+                    "Supermarket",
+                    "12:00-13:00"
+                ],
+                [
+                    "Coffee shop sees high foot traffic during mid-afternoon hours",
+                    "Coffee shop, foot traffic, mid-afternoon",
+                    "Coffee shop",
+                    "15:00-16:00"
+                ],
+                [
+                    "Metro_1 has consistent headways but gets crowded during evening hours",
+                    "Metro_1, crowded, evening",
+                    "Metro_1",
+                    "17:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "Yesterday was a day of adjustments, especially in the morning when coordinating car use with William. The delays on Ave_3_link_2 during peak hours reaffirmed my earlier observation about congestion patterns, and I need to be more proactive in leaving earlier or adjusting routes. My midday trip to the Supermarket was efficient and saved time later in the evening. The afternoon meeting at the Coffee shop with Jessica Adams went smoothly, though we accounted for potential traffic delays by departing early. Evening exercise at the Gym was both refreshing and socially enriching\u2014especially practicing yoga with Maria Lopez and Sandra White. I noticed that the Gym tends to be less crowded between 18:00\u201319:30, which is ideal for future visits. This week, I should continue prioritizing wellness, maintain coordination with William around vehicle usage, and stay engaged in community initiatives like our wellness program discussions.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:40",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Office",
+                    "07:40",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_3",
+                    "Drive to Office via Node_5 and Node_9 to arrive before 8:00 AM, dropping William off at Midtown apartment first."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Head to Supermarket during lunch break for household essentials."
+                ],
+                [
+                    "Coffee shop",
+                    "15:00",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, St_4_link_1",
+                    "Drive to Coffee shop for a mid-afternoon meeting with Jessica Adams on wellness programs."
+                ],
+                [
+                    "Office",
+                    "15:45",
+                    120,
+                    "drive",
+                    "St_4_link_1, Ave_3_link_2",
+                    "Return to Office for final client meetings and wrap-up tasks."
+                ],
+                [
+                    "Gym",
+                    "18:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym to do yoga with Maria Lopez and Sandra White."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment after a full day, prepare dinner and relax."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning rush hour causes minor delays on Ave_3_link_2",
+                    "Ave_3_link_2, delay, morning rush",
+                    "Ave_3_link_2",
+                    "07:30-08:30"
+                ],
+                [
+                    "Gym is less crowded between 18:00\u201319:30",
+                    "Gym, less crowded, 6PM",
+                    "Gym",
+                    "18:00-19:30"
+                ],
+                [
+                    "Leaving slightly earlier avoids peak traffic on Ave_3 and St_2",
+                    "Ave_3, St_2, peak traffic",
+                    "Ave_3, St_2",
+                    "07:30-08:30"
+                ],
+                [
+                    "Real-time shortest path routing improves travel efficiency during light traffic",
+                    "route optimization, shortest path",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "Yesterday was challenging due to congestion on Ave_3_link_2 and St_1_link_2, which disrupted my afternoon schedule. I had to wait over two hours at the Gym due to traffic, but I managed to adjust using an alternate route via Node_9 and Node_8. Coordination with Jessica Adams required more buffer time than anticipated, so today I\u2019ll plan for earlier departures and alternative routes. I also noticed that the Gym is less crowded between 18:00\u201319:30, which remains ideal for evening exercise. Today, I will prioritize client visits in the morning, coordinate car use with William, and ensure flexibility for social commitments like our rescheduled walk with Jessica at 17:00.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Office",
+                    "07:20",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_3",
+                    "Drive to Office via Node_5 and Node_9 to begin morning client visits, coordinating with William\u2019s Metro commute."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Head to Supermarket during lunch break for household essentials as planned yesterday."
+                ],
+                [
+                    "Coffee shop",
+                    "15:15",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, St_4_link_1",
+                    "Drive to Coffee shop for meeting with Jessica Adams on wellness program updates."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym to join Maria Lopez and Sandra White for yoga and light exercise before evening walk with Jessica Adams."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "St_1_link_2, St_2_link_1",
+                    "Return home via Node_9 and Node_5 to Midtown apartment after a full day, prepare dinner and relax."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Gym less crowded between 18:00\u201319:30",
+                    "Gym, crowded, 18:00-19:30",
+                    "Gym",
+                    "18:00-19:30"
+                ],
+                [
+                    "Coordination with Jessica Adams requires buffer time for travel disruptions",
+                    "Jessica Adams, coordination, buffer time",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Alternate route via Node_9 and Node_8 effective for avoiding St_1_link_2 congestion",
+                    "route, Node_9, Node_8, St_1_link_2",
+                    "Node_9, Node_8, St_1_link_2",
+                    "all-day"
+                ],
+                [
+                    "Ave_3_link_2 has long waiting time in morning peak hour",
+                    "Ave_3_link_2, congestion, morning",
+                    "Ave_3_link_2",
+                    "07:00-08:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "At 07:33, I'm currently en route to the Office from Midtown apartment via Node_5, traveling on Ave_2_link_1 after experiencing a 3-minute wait. Real-time traffic reveals severe congestion on St_1_link_1 (Node_4 \u2192 Node_9) with a 16-minute wait and moderate delays on Ave_2_link_1 (8 minutes), both of which impact my return trip home later in the day. Additionally, Maria Lopez is traveling on St_2_link_1 toward Node_9 (Hospital), which also shows moderate congestion. This reinforces the need to avoid St_1_link_1 and St_1_link_2 during evening travel. Jessica Adams and I have rescheduled our Coffee shop meeting to 15:45 at the Museum due to anticipated congestion on St_1_link_1 and St_1_link_2. Therefore, I must ensure that my updated plan reflects this change and avoids known bottlenecks.",
+            "plan": [
+                [
+                    "Office",
+                    "07:20",
+                    120,
+                    "drive",
+                    "Ave_2_link_1, St_3_link_1",
+                    "Drive to Office via Node_5 and Node_6 to begin morning client visits, coordinating with William\u2019s Metro commute."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Head to Supermarket during lunch break for household essentials as planned yesterday."
+                ],
+                [
+                    "Museum",
+                    "15:30",
+                    20,
+                    "drive",
+                    "St_3_link_2, Ave_3_link_2",
+                    "Drive to Museum for rescheduled meeting with Jessica Adams on wellness program updates instead of Coffee shop."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym to join Maria Lopez and Sandra White for yoga and light exercise before evening walk with Jessica Adams."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_2_link_4, St_2_link_2",
+                    "Return home via Node_8 and Node_5 to Midtown apartment after a full day, prepare dinner and relax."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_1 frequently congested during weekday mornings",
+                    "St_1_link_1, congestion, morning",
+                    "St_1_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Ave_2_link_1 experiences moderate delays during early commute",
+                    "Ave_2_link_1, delay, commute",
+                    "Ave_2_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Museum as an alternative meeting location reduces travel disruption risk",
+                    "Museum, meeting, Jessica Adams",
+                    "Museum",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 07:33:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today required significant adjustments to my original plan due to early-morning coordination needs with William and client obligations. The initial commute was delayed slightly by congestion on Ave_3_link_2, but I managed to stay mostly on schedule by optimizing departure timing and route selection. Dropping William off at Node_4 added a layer of complexity to the morning routine, but it also reinforced the importance of early departures and flexible planning when coordinating shared vehicle use. Midday travel between Office and Uptown apartment went smoothly, and returning the car for William\u2019s use allowed him to complete his Supermarket shift via metro as planned. Evening activities at the Gym were both physically and socially energizing, especially joining Maria Lopez and Sandra White for yoga. The return trip home experienced moderate congestion on St_1_link_2, but it did not impact arrival time significantly. Overall, today highlighted the need for buffer times in morning routines, the value of real-time traffic awareness, and the importance of maintaining personal wellness through consistent exercise.",
+            "concepts": [
+                [
+                    "St_1_link_2 experiences evening congestion after 20:00",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "20:00-21:30"
+                ],
+                [
+                    "Dropping off William at Node_4 requires 15-minute buffer before 9:00 AM",
+                    "Node_4, drop-off, coordination",
+                    "Node_4",
+                    "08:30-09:00"
+                ],
+                [
+                    "Ave_3_link_2 prone to minor delays during morning rush",
+                    "Ave_3_link_2, delays, morning commute",
+                    "Ave_3_link_2",
+                    "07:30-09:00"
+                ],
+                [
+                    "Gym less crowded and more accessible between 18:00-19:30",
+                    "Gym, accessibility, crowd pattern",
+                    "Gym",
+                    "18:00-19:30"
+                ],
+                [
+                    "Real-time shortest path routing improves efficiency during light traffic",
+                    "route optimization, traffic responsiveness",
+                    "The town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today was a day of significant adjustments due to persistent congestion patterns, particularly on Ave_3 and St_1_link_2. My morning commute required route changes to accommodate traffic conditions and coordinate with William\u2019s schedule, which added stress but ultimately allowed me to arrive at the Office on time. The midday trip to Supermarket proceeded as planned, maintaining efficiency in my schedule despite earlier concerns about delays. However, the afternoon proved more challenging\u2014my meeting at Coffee shop occurred, but subsequent coordination with Maria Lopez and Jessica Adams was affected by unexpected delays on St_1_link_2, which I had previously observed but underestimated today. The evening plans were significantly disrupted; I ended up waiting at Gym for over two hours due to severe congestion on St_1_link_2 (Node_13 \u2192 Node_9), forcing multiple revisions to my return plan. Ultimately, using an alternate route via Node_9 and Node_8 helped me get home, though much later than intended. Despite these disruptions, Jessica\u2019s flexibility with grocery delivery was a relief, and I appreciated William\u2019s patience during the coordination delays. Tomorrow, I will prioritize leaving earlier for key appointments and explore alternative routes proactively during peak hours.",
+            "concepts": [
+                [
+                    "Ave_3 consistently congested during weekday mornings",
+                    "Ave_3, congestion, morning commute",
+                    "Ave_3",
+                    "07:00-09:00"
+                ],
+                [
+                    "St_1_link_2 frequently experiences delays in both directions",
+                    "St_1_link_2, congestion, unreliable",
+                    "St_1_link_2",
+                    "all-day"
+                ],
+                [
+                    "Gym less crowded between 18:00\u201319:30",
+                    "Gym, yoga, crowd timing",
+                    "Gym",
+                    "18:00-19:30"
+                ],
+                [
+                    "Coordination with Jessica Adams requires buffer time for travel disruptions",
+                    "Jessica Adams, coordination, buffer",
+                    "the town",
+                    "14:00-17:00"
+                ],
+                [
+                    "Alternate route via Node_9 and Node_8 effective for avoiding St_1_link_2 congestion",
+                    "route planning, alternate route, efficient",
+                    "Node_9, Node_8, St_1_link_2",
+                    "evening commute"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:00\nReflections: \nThe current traffic state shows moderate congestion on St_1_link_2 from Node_9 to Node_13 with a 5-minute wait time. This affects my planned evening commute back home via Node_9, which I had originally intended to use after the Gym activity. Since this is a known bottleneck during weekday travel and matches my previous experiences, I should adjust the return route to avoid delays. My morning commute to work remains unaffected as it's early and before peak congestion builds up. The rest of the plan, including coordination with William and social commitments, remains valid.\nPlan revisions: Emma Davis update current path to ['St_1_link_1', 'Ave_2_link_1'] \n\nTime: 07:20\nReflections: \nThere is severe congestion on St_1_link_1 (Node_4 \u2192 Node_9) with a 11-minute wait time, which affects my planned morning commute to the Office. My original route was via St_2_link_1 and Ave_3_link_3, but since St_2_link_1 connects to Node_5 from Node_1, it may still be impacted indirectly by congestion near Node_4. To avoid delays, I should update my path to use alternative roads like Ave_2_link_1 and St_3_link_1, which are currently uncongested. This adjustment will help me reach the Office on time for morning client visits and aligns with coordination plans discussed with William earlier.\nPlan revisions: Emma Davis update current path to ['Ave_2_link_1', 'St_3_link_1'] \n\nTime: 07:33\nReflections: \nAt 07:33, I'm currently en route to the Office from Midtown apartment via Node_5, traveling on Ave_2_link_1 after experiencing a 3-minute wait. Real-time traffic reveals severe congestion on St_1_link_1 (Node_4 \u2192 Node_9) with a 16-minute wait and moderate delays on Ave_2_link_1 (8 minutes), both of which impact my return trip home later in the day. Additionally, Maria Lopez is traveling on St_2_link_1 toward Node_9 (Hospital), which also shows moderate congestion. This reinforces the need to avoid St_1_link_1 and St_1_link_2 during evening travel. Jessica Adams and I have rescheduled our Coffee shop meeting to 15:45 at the Museum due to anticipated congestion on St_1_link_1 and St_1_link_2. Therefore, I must ensure that my updated plan reflects this change and avoids known bottlenecks.\nPlan revisions: Emma Davis update future activity plan:\n[['Office', '07:20', 120, 'drive', 'Ave_2_link_1, St_3_link_1', 'Drive to Office via Node_5 and Node_6 to begin morning client visits, coordinating with William\u2019s Metro commute.'], ['Supermarket', '12:30', 30, 'drive', 'shortest', 'Head to Supermarket during lunch break for household essentials as planned yesterday.'], ['Museum', '15:15', 20, 'drive', 'St_3_link_2, Ave_3_link_2', 'Drive to Museum for rescheduled meeting with Jessica Adams on wellness program updates instead of Coffee shop.'], ['Gym', '17:00', 60, 'drive', 'shortest', 'Go to Gym to join Maria Lopez and Sandra White for yoga and light exercise before evening walk with Jessica Adams.'], ['Midtown apartment', '19:30', 'none', 'drive', 'Ave_2_link_4, St_2_link_2', 'Return home via Node_8 and Node_5 to Midtown apartment after a full day, prepare dinner and relax.']] \n\nTime: 15:15\nReflections: \nAt 15:15, I am currently at the Supermarket, completing my lunch break errands. The real-time traffic state indicates no congestion across any road links, which means travel conditions are favorable for the remainder of the day. This is a positive change compared to earlier in the morning when I had to reroute due to severe congestion on St_1_link_1 and adjust my meeting with Jessica Adams from the Coffee shop to the Museum. Since there are no current delays, I can proceed with my revised plan without further disruptions. Additionally, William Davis is also at the Supermarket, managing operations until his evening shift ends, so coordination remains aligned. Given the uncongested network and that my next activity\u2014a meeting with Jessica Adams at the Museum\u2014is scheduled to begin at 15:45, I have sufficient time to depart now and arrive on schedule.\nPlan revisions: Emma Davis update the departure time of next activity at Museum to 15:30 ",
+    "activity_index": 3,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-12 17:00:00",
+    "activity_duration": 150,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Go to Gym to join Maria Lopez and Sandra White for yoga and light exercise before evening walk with Jessica Adams.",
+    "planned_path": [],
+    "curr_place": "Gym",
+    "curr_status": "Just finished the trip from None to Gym; waiting at Gym now"
+}

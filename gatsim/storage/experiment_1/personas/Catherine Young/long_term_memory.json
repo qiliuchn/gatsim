@@ -1,0 +1,4978 @@
+{
+    "curr_time": "2025-03-13 18:00:00",
+    "concept_nodes": [
+        {
+            "id": 623013633632244,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T07:00:00",
+            "expiration": "2025-03-10T06:59:00",
+            "content": "Ave_3 experiences higher congestion during weekday mornings",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623013634497946,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T08:23:00",
+            "expiration": "2025-03-13T05:04:50.510024",
+            "content": "Supermarket is less crowded shortly after work hours",
+            "keywords": [
+                "Supermarket",
+                "less crowded",
+                "after work"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623013635346147,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T07:00:00",
+            "expiration": "2025-03-10T06:59:00",
+            "content": "St_2 provides faster access to central area during morning commute",
+            "keywords": [
+                "St_2",
+                "efficient route",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014252099489,
+            "type": "event",
+            "created": "2025-03-10T06:30:00",
+            "last_accessed": "2025-03-10T06:30:00",
+            "expiration": "2025-03-10T06:59:00",
+            "content": "Gloria Campbell current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623014455533867,
+            "type": "event",
+            "created": "2025-03-10T07:00:00",
+            "last_accessed": "2025-03-10T10:15:00",
+            "expiration": "2025-03-10T12:37:27.194665",
+            "content": "Gloria Campbell current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623014504654669,
+            "type": "thought",
+            "created": "2025-03-10T07:00:00",
+            "last_accessed": "2025-03-10T07:30:00",
+            "expiration": "2025-03-10T07:29:00",
+            "content": "Ave_3 experiences higher congestion during weekday mornings",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014505585483,
+            "type": "thought",
+            "created": "2025-03-10T07:00:00",
+            "last_accessed": "2025-03-10T07:46:00",
+            "expiration": "2025-03-14T01:01:24.553005",
+            "content": "St_2 provides faster access to central area during morning commute",
+            "keywords": [
+                "St_2",
+                "commute",
+                "speed"
+            ],
+            "spatial_scope": [
+                "St_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014506388960,
+            "type": "thought",
+            "created": "2025-03-10T07:00:00",
+            "last_accessed": "2025-03-10T07:45:00",
+            "expiration": "2025-03-10T07:44:00",
+            "content": "Supermarket less crowded after work hours",
+            "keywords": [
+                "Supermarket",
+                "crowd",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623015753698412,
+            "type": "event",
+            "created": "2025-03-10T07:30:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T02:02:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Gloria Campbell on the trip from Midtown apartment to Factory; planned path []; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13'), ('Ave_4_link_1', 'drive', 'Node_3')]; currently traveling on link Ave_4_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623015807765101,
+            "type": "chat",
+            "created": "2025-03-10T07:30:00",
+            "last_accessed": "2025-03-11T07:30:00",
+            "expiration": "2025-03-11T20:04:51.512918",
+            "content": "Catherine Young warned Gloria Campbell about severe congestion on St_1_link_2 toward Node_13 while traveling on Ave_4_link_1. Gloria plans to adjust her route after work to avoid the affected area.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Node_13",
+                "Ave_4_link_1",
+                "St_1_link_2",
+                "congestion",
+                "route adjustment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623015817846421,
+            "type": "thought",
+            "created": "2025-03-10T07:30:00",
+            "last_accessed": "2025-03-10T07:45:00",
+            "expiration": "2025-03-10T07:44:00",
+            "content": "St_1_link_2 experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623015818776580,
+            "type": "thought",
+            "created": "2025-03-10T07:30:00",
+            "last_accessed": "2025-03-10T07:30:00",
+            "expiration": "2025-03-10T07:44:00",
+            "content": "Ave_3 experiences higher congestion during weekday mornings",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "weekday morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623021041712742,
+            "type": "event",
+            "created": "2025-03-10T07:45:00",
+            "last_accessed": "2025-03-10T07:45:00",
+            "expiration": "2025-03-10T07:45:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623021054784294,
+            "type": "thought",
+            "created": "2025-03-10T07:45:00",
+            "last_accessed": "2025-03-12T07:15:00",
+            "expiration": "2025-03-16T23:14:09.440007",
+            "content": "St_1_link_2 experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623021100336572,
+            "type": "thought",
+            "created": "2025-03-10T07:45:00",
+            "last_accessed": "2025-03-10T07:45:00",
+            "expiration": "2025-03-13T04:26:50.510024",
+            "content": "Ave_3 experiences higher congestion during weekday mornings",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "weekday morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623021101282533,
+            "type": "thought",
+            "created": "2025-03-10T07:45:00",
+            "last_accessed": "2025-03-10T07:45:00",
+            "expiration": "2025-03-10T08:03:00",
+            "content": "Supermarket less crowded after work hours",
+            "keywords": [
+                "Supermarket",
+                "crowd",
+                "after work"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623021154535189,
+            "type": "event",
+            "created": "2025-03-10T07:46:00",
+            "last_accessed": "2025-03-10T07:46:00",
+            "expiration": "2025-03-10T08:03:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623021208152368,
+            "type": "thought",
+            "created": "2025-03-10T07:46:00",
+            "last_accessed": "2025-03-10T07:46:00",
+            "expiration": "2025-03-10T08:03:00",
+            "content": "Ave_1 experiences moderate congestion during weekday mornings",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623021208963633,
+            "type": "thought",
+            "created": "2025-03-10T07:46:00",
+            "last_accessed": "2025-03-11T07:30:00",
+            "expiration": "2025-03-14T04:11:50.510024",
+            "content": "St_1_link_2 can cause travel delays for drivers heading southeast in the morning",
+            "keywords": [
+                "St_1_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623022117729909,
+            "type": "event",
+            "created": "2025-03-10T07:55:00",
+            "last_accessed": "2025-03-10T08:49:00",
+            "expiration": "2025-03-10T16:02:35.742705",
+            "content": "Catherine Young waits at Ave_1_link_1; start time is Mon 2025-03-10 07:46; wait time is 9 minutes",
+            "keywords": [
+                "wait",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": "Ave_1_link_1",
+            "time_scope": [
+                "07:46:00",
+                "07:55:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623022735035746,
+            "type": "event",
+            "created": "2025-03-10T08:04:00",
+            "last_accessed": "2025-03-10T08:04:00",
+            "expiration": "2025-03-10T08:12:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623022747428296,
+            "type": "thought",
+            "created": "2025-03-10T08:04:00",
+            "last_accessed": "2025-03-10T08:04:00",
+            "expiration": "2025-03-10T08:22:00",
+            "content": "Ave_1 experiences moderate congestion during weekday mornings",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623022748293504,
+            "type": "thought",
+            "created": "2025-03-10T08:04:00",
+            "last_accessed": "2025-03-10T08:04:00",
+            "expiration": "2025-03-12T10:32:23.106828",
+            "content": "Supermarket less crowded after work hours",
+            "keywords": [
+                "Supermarket",
+                "crowd",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623023433361393,
+            "type": "event",
+            "created": "2025-03-10T08:13:00",
+            "last_accessed": "2025-03-10T08:13:00",
+            "expiration": "2025-03-10T08:22:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623023447396545,
+            "type": "thought",
+            "created": "2025-03-10T08:13:00",
+            "last_accessed": "2025-03-10T08:13:00",
+            "expiration": "2025-03-11T19:01:17.115446",
+            "content": "St_3_link_2 experiences light congestion during weekday morning commutes",
+            "keywords": [
+                "St_3_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_3_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623023448415616,
+            "type": "thought",
+            "created": "2025-03-10T08:13:00",
+            "last_accessed": "2025-03-10T08:13:00",
+            "expiration": "2025-03-12T10:41:23.106828",
+            "content": "Ave_3_link_2 sees moderate morning delays but clears by midday",
+            "keywords": [
+                "Ave_3_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623024117258530,
+            "type": "event",
+            "created": "2025-03-10T08:23:00",
+            "last_accessed": "2025-03-10T08:23:00",
+            "expiration": "2025-03-10T08:38:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623024132104023,
+            "type": "thought",
+            "created": "2025-03-10T08:23:00",
+            "last_accessed": "2025-03-10T08:23:00",
+            "expiration": "2025-03-10T08:38:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "traffic",
+                "Ave_3_link_2",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623024133236351,
+            "type": "thought",
+            "created": "2025-03-10T08:23:00",
+            "last_accessed": "2025-03-10T08:23:00",
+            "expiration": "2025-03-11T19:11:17.115446",
+            "content": "St_3 experiences light congestion during weekday morning commutes",
+            "keywords": [
+                "traffic",
+                "St_3",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_3"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623024134257647,
+            "type": "thought",
+            "created": "2025-03-10T08:23:00",
+            "last_accessed": "2025-03-10T08:23:00",
+            "expiration": "2025-03-13T05:04:50.510024",
+            "content": "Ave_1 experiences moderate congestion during weekday mornings",
+            "keywords": [
+                "traffic",
+                "Ave_1",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623024644635249,
+            "type": "event",
+            "created": "2025-03-10T08:30:00",
+            "last_accessed": "2025-03-10T08:49:00",
+            "expiration": "2025-03-10T21:14:29.634388",
+            "content": "Catherine Young waits at Ave_3_link_2; start time is Mon 2025-03-10 08:23; wait time is 7 minutes",
+            "keywords": [
+                "wait",
+                "Ave_3_link_2"
+            ],
+            "spatial_scope": "Ave_3_link_2",
+            "time_scope": [
+                "08:23:00",
+                "08:30:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623024857674105,
+            "type": "event",
+            "created": "2025-03-10T08:39:00",
+            "last_accessed": "2025-03-10T08:39:00",
+            "expiration": "2025-03-10T08:48:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623024911893904,
+            "type": "thought",
+            "created": "2025-03-10T08:39:00",
+            "last_accessed": "2025-03-10T08:39:00",
+            "expiration": "2025-03-10T08:48:00",
+            "content": "Ave_1 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "weekday mornings"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623024912914376,
+            "type": "thought",
+            "created": "2025-03-10T08:39:00",
+            "last_accessed": "2025-03-10T08:39:00",
+            "expiration": "2025-03-10T08:48:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623025215164997,
+            "type": "event",
+            "created": "2025-03-10T08:49:00",
+            "last_accessed": "2025-03-10T18:31:00",
+            "expiration": "2025-03-11T01:44:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623025224708915,
+            "type": "thought",
+            "created": "2025-03-10T08:49:00",
+            "last_accessed": "2025-03-10T08:49:00",
+            "expiration": "2025-03-10T10:14:00",
+            "content": "Ave_1 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623025225630594,
+            "type": "thought",
+            "created": "2025-03-10T08:49:00",
+            "last_accessed": "2025-03-10T08:49:00",
+            "expiration": "2025-03-10T10:14:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623025226556751,
+            "type": "event",
+            "created": "2025-03-10T08:49:00",
+            "last_accessed": "2025-03-10T10:15:00",
+            "expiration": "2025-03-11T15:50:10.085385",
+            "content": "Catherine Young travels from Uptown apartment to Office by travel mode drive; start time is Mon 2025-03-10 07:45; trip time is 64 minutes",
+            "keywords": [
+                "Uptown apartment to Office",
+                "drive"
+            ],
+            "spatial_scope": "Uptown apartment, Office, Ave_1, St_3, St_3, Ave_3, Ave_3",
+            "time_scope": [
+                "07:45:00",
+                "08:49:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623030733217842,
+            "type": "event",
+            "created": "2025-03-10T10:15:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T02:02:35.742705",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Gloria Campbell on the trip from Factory to Museum; planned path []; trip trajectory: [('St_4_link_2', 'drive', 'Node_11'), ('St_4_link_1', 'drive', 'Node_7'), ('Ave_2_link_3', 'drive', 'Node_6'), ('St_3_link_1', 'drive', 'Node_12')]; currently traveling on link St_3_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "St_3_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623030746164450,
+            "type": "thought",
+            "created": "2025-03-10T10:15:00",
+            "last_accessed": "2025-03-10T10:15:00",
+            "expiration": "2025-03-10T15:14:00",
+            "content": "Ave_1 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623030746975783,
+            "type": "thought",
+            "created": "2025-03-10T10:15:00",
+            "last_accessed": "2025-03-10T10:15:00",
+            "expiration": "2025-03-10T15:14:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623033012627789,
+            "type": "event",
+            "created": "2025-03-10T12:45:00",
+            "last_accessed": "2025-03-10T12:45:00",
+            "expiration": "2025-03-10T15:14:00",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623035500167898,
+            "type": "event",
+            "created": "2025-03-10T15:15:00",
+            "last_accessed": "2025-03-10T15:15:00",
+            "expiration": "2025-03-10T17:29:00",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623035508556306,
+            "type": "thought",
+            "created": "2025-03-10T15:15:00",
+            "last_accessed": "2025-03-10T15:15:00",
+            "expiration": "2025-03-10T17:29:00",
+            "content": "Ave_1 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623035509385345,
+            "type": "thought",
+            "created": "2025-03-10T15:15:00",
+            "last_accessed": "2025-03-10T15:15:00",
+            "expiration": "2025-03-10T17:29:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623041229806232,
+            "type": "event",
+            "created": "2025-03-10T17:30:00",
+            "last_accessed": "2025-03-10T17:30:00",
+            "expiration": "2025-03-10T17:30:00",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623041238681474,
+            "type": "thought",
+            "created": "2025-03-10T17:30:00",
+            "last_accessed": "2025-03-10T17:30:00",
+            "expiration": "2025-03-10T17:30:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623041239537187,
+            "type": "thought",
+            "created": "2025-03-10T17:30:00",
+            "last_accessed": "2025-03-10T17:30:00",
+            "expiration": "2025-03-10T17:30:00",
+            "content": "Ave_1 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623041314201544,
+            "type": "event",
+            "created": "2025-03-10T17:31:00",
+            "last_accessed": "2025-03-10T17:31:00",
+            "expiration": "2025-03-10T17:39:00",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623041322596961,
+            "type": "thought",
+            "created": "2025-03-10T17:31:00",
+            "last_accessed": "2025-03-10T17:31:00",
+            "expiration": "2025-03-13T14:12:50.510024",
+            "content": "Ave_1 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623041323516470,
+            "type": "thought",
+            "created": "2025-03-10T17:31:00",
+            "last_accessed": "2025-03-10T17:31:00",
+            "expiration": "2025-03-10T17:39:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623041712549773,
+            "type": "event",
+            "created": "2025-03-10T17:40:00",
+            "last_accessed": "2025-03-10T17:40:00",
+            "expiration": "2025-03-10T17:48:00",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623041723775278,
+            "type": "thought",
+            "created": "2025-03-10T17:40:00",
+            "last_accessed": "2025-03-10T17:40:00",
+            "expiration": "2025-03-10T17:48:00",
+            "content": "Ave_3 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "weekday morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623041724561304,
+            "type": "thought",
+            "created": "2025-03-10T17:40:00",
+            "last_accessed": "2025-03-10T17:40:00",
+            "expiration": "2025-03-10T17:48:00",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623042346852777,
+            "type": "event",
+            "created": "2025-03-10T17:49:00",
+            "last_accessed": "2025-03-10T17:49:00",
+            "expiration": "2025-03-10T17:57:00",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623042355283343,
+            "type": "thought",
+            "created": "2025-03-10T17:49:00",
+            "last_accessed": "2025-03-10T17:49:00",
+            "expiration": "2025-03-13T14:30:50.510024",
+            "content": "Ave_3 experiences moderate weekday morning congestion",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "weekday morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623042356094564,
+            "type": "thought",
+            "created": "2025-03-10T17:49:00",
+            "last_accessed": "2025-03-10T17:49:00",
+            "expiration": "2025-03-12T20:17:23.106828",
+            "content": "Ave_3_link_2 sees moderate morning delays",
+            "keywords": [
+                "Ave_3_link_2",
+                "delays",
+                "weekday morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623042830096831,
+            "type": "event",
+            "created": "2025-03-10T17:58:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T02:02:35.742705",
+            "content": "Gloria Campbell current activity description: Leave Factory now to meet Isabella Rodriguez at the Museum entrance at 9:45 AM. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623042909433907,
+            "type": "event",
+            "created": "2025-03-10T17:58:00",
+            "last_accessed": "2025-03-10T17:58:00",
+            "expiration": "2025-03-11T01:11:35.742705",
+            "content": "Catherine Young travels from Office to Supermarket by travel mode drive; start time is Mon 2025-03-10 17:30; trip time is 28 minutes",
+            "keywords": [
+                "Office to Supermarket",
+                "drive"
+            ],
+            "spatial_scope": "Office, Supermarket, Ave_3, Ave_3, St_3",
+            "time_scope": [
+                "17:30:00",
+                "17:58:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623044018522007,
+            "type": "event",
+            "created": "2025-03-10T18:30:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T02:02:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Coffee shop to meet with Helen Jones for a discussion on historical research. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Gloria Campbell",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623044027530738,
+            "type": "thought",
+            "created": "2025-03-10T18:30:00",
+            "last_accessed": "2025-03-10T18:30:00",
+            "expiration": "2025-03-10T18:30:00",
+            "content": "The town traffic flows smoothly during 18:00-19:00",
+            "keywords": [
+                "traffic",
+                "smooth",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.2,
+            "embedding": null
+        },
+        {
+            "id": 623044050563550,
+            "type": "event",
+            "created": "2025-03-10T18:31:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T02:02:35.742705",
+            "content": "Gloria Campbell current activity description: Return home before 20:00 for an early night. current status is Gloria Campbell on the trip from Coffee shop to Midtown apartment; planned path: [('Ave_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_1', 'drive', 'Node_9'), ('St_1_link_1', 'drive', 'Node_4')] trip trajectory: []; currently at node Node_11.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Node_11"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623044103765388,
+            "type": "thought",
+            "created": "2025-03-10T18:31:00",
+            "last_accessed": "2025-03-10T18:31:00",
+            "expiration": "2025-03-10T18:39:00",
+            "content": "The town traffic flows smoothly during 18:00-19:00",
+            "keywords": [
+                "smooth traffic",
+                "18:00-19:00"
+            ],
+            "spatial_scope": [
+                "The town"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.2,
+            "embedding": null
+        },
+        {
+            "id": 623044209853474,
+            "type": "event",
+            "created": "2025-03-10T18:40:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T02:02:35.742705",
+            "content": "Gloria Campbell current activity description: Return home before 20:00 for an early night. current status is Gloria Campbell on the trip from Coffee shop to Midtown apartment; planned path [('Ave_3_link_1', 'drive', 'Node_9'), ('St_1_link_1', 'drive', 'Node_4')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10')]; currently traveling on link Ave_3_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Node_10"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623044218229244,
+            "type": "thought",
+            "created": "2025-03-10T18:40:00",
+            "last_accessed": "2025-03-10T18:40:00",
+            "expiration": "2025-03-11T16:40:39.214760",
+            "content": "The town traffic flows smoothly during 18:00-19:00",
+            "keywords": [
+                "smooth traffic",
+                "evening commute"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.2,
+            "embedding": null
+        },
+        {
+            "id": 623044413265007,
+            "type": "event",
+            "created": "2025-03-10T18:49:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T02:02:35.742705",
+            "content": "Gloria Campbell current activity description: Return home before 20:00 for an early night. current status is Gloria Campbell on the trip from Coffee shop to Midtown apartment; planned path [('St_1_link_1', 'drive', 'Node_4')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_1', 'drive', 'Node_9')]; currently traveling on link Ave_3_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Node_9"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623044421710353,
+            "type": "thought",
+            "created": "2025-03-10T18:49:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-11T16:49:39.214760",
+            "content": "Evening traffic in the town flows smoothly during 18:00-19:00",
+            "keywords": [
+                "Traffic flow",
+                "smooth",
+                "evening"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.2,
+            "embedding": null
+        },
+        {
+            "id": 623044424855565,
+            "type": "event",
+            "created": "2025-03-10T18:49:00",
+            "last_accessed": "2025-03-10T18:49:00",
+            "expiration": "2025-03-10T21:11:27.194665",
+            "content": "Catherine Young travels from Supermarket to Uptown apartment by travel mode drive; start time is Mon 2025-03-10 18:30; trip time is 19 minutes",
+            "keywords": [
+                "Supermarket to Uptown apartment",
+                "drive"
+            ],
+            "spatial_scope": "Supermarket, Uptown apartment, St_3, Ave_1",
+            "time_scope": [
+                "18:30:00",
+                "18:49:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623055551692370,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Ave_1_link_1 frequently experiences moderate congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055552508099,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "St_3 serves as effective alternative to congested Ave_2 and Ave_3 routes",
+            "keywords": [
+                "St_3",
+                "alternate route",
+                "efficient"
+            ],
+            "spatial_scope": [
+                "St_3_link_1",
+                "St_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055555379510,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Evening grocery trips benefit from early departure due to Ave_3 congestion",
+            "keywords": [
+                "Supermarket",
+                "Ave_3",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Supermarket",
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623055556201741,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:58:00",
+            "content": "Real-time traffic monitoring improves route adaptability during peak hours",
+            "keywords": [
+                "traffic",
+                "decision-making",
+                "navigation"
+            ],
+            "spatial_scope": [
+                "The town"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055556216168,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-14T17:14:24.553005",
+            "content": "Real-time traffic monitoring improves route adaptability during peak hours",
+            "keywords": [
+                "traffic",
+                "decision-making",
+                "navigation"
+            ],
+            "spatial_scope": [
+                "The town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061147432757,
+            "type": "chat",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-12T07:30:00",
+            "expiration": "2025-03-12T13:44:34.538754",
+            "content": "Catherine Young and Gloria Campbell planned to meet for a walk at Museum at 18:00 after work. Both aim to arrive on time, combining exercise with cultural activity.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061158697803,
+            "type": "chat",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T19:10:00",
+            "expiration": "2025-03-12T02:21:50.703460",
+            "content": "Catherine Young and Gloria Campbell confirmed their plan to meet at the Museum for a walk today at 18:00. Gloria will leave work at 17:00 and head straight to the Museum. Catherine will depart from the Office at 17:00 and drive to the Museum, expecting to arrive by 18:00.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061215333193,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Ave_1_link_1 frequently experiences moderate congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061216118751,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-14T17:15:24.553005",
+            "content": "St_3 serves as effective alternative to congested Ave_2 and Ave_3 routes",
+            "keywords": [
+                "St_3",
+                "alternative route"
+            ],
+            "spatial_scope": [
+                "St_3"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061217037583,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Museum is a good place for socializing and cultural enrichment in the evening",
+            "keywords": [
+                "Museum",
+                "socializing",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061217834557,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Evening grocery trips benefit from early departure due to Ave_3 congestion",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "evening trip"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623062042328753,
+            "type": "event",
+            "created": "2025-03-11T06:30:00",
+            "last_accessed": "2025-03-11T06:30:00",
+            "expiration": "2025-03-11T06:59:00",
+            "content": "Gloria Campbell current activity description: Wake up at home, completes morning routines including breakfast and preparing for the day. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623062800972384,
+            "type": "event",
+            "created": "2025-03-11T07:00:00",
+            "last_accessed": "2025-03-11T07:00:00",
+            "expiration": "2025-03-11T09:22:27.194665",
+            "content": "Gloria Campbell current activity description: Wake up at home, completes morning routines including breakfast and preparing for the day. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623064138648622,
+            "type": "event",
+            "created": "2025-03-11T07:30:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-12T01:13:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Gloria Campbell on the trip from Midtown apartment to Factory; planned path [('Ave_4_link_1', 'drive', 'Node_3')]; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623064157235511,
+            "type": "chat",
+            "created": "2025-03-11T07:30:00",
+            "last_accessed": "2025-03-11T17:29:00",
+            "expiration": "2025-03-12T02:16:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed their evening plans. Gloria will leave Factory at 17:00 and take Ave_4_link_1 to avoid congestion on St_1_link_1 and St_1_link_2. Catherine will head to Museum right at 17:00 and expects to arrive by 18:00. Both plan to meet for a walk at Museum at 18:00.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Factory",
+                "Ave_4_link_1",
+                "St_1_link_1",
+                "St_1_link_2",
+                "Museum",
+                "17:00",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623064214854323,
+            "type": "chat",
+            "created": "2025-03-11T07:30:00",
+            "last_accessed": "2025-03-12T07:30:00",
+            "expiration": "2025-03-12T20:04:51.512918",
+            "content": "Catherine Young warned Gloria Campbell about traffic congestion on St_1_link_1 and delays on St_1_link_2 affecting her commute to Factory. Gloria plans to reroute via St_3 after Node_13 to avoid delays.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Factory",
+                "St_1_link_1",
+                "St_1_link_2",
+                "St_3",
+                "Node_13",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623064227131357,
+            "type": "thought",
+            "created": "2025-03-11T07:30:00",
+            "last_accessed": "2025-03-11T07:30:00",
+            "expiration": "2025-03-11T07:44:00",
+            "content": "St_1_link_1 frequently congested during morning commute",
+            "keywords": [
+                "morning",
+                "commute",
+                "St_1_link_1"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623064228134424,
+            "type": "thought",
+            "created": "2025-03-11T07:30:00",
+            "last_accessed": "2025-03-11T07:30:00",
+            "expiration": "2025-03-11T07:44:00",
+            "content": "St_1_link_2 experiences moderate delays in morning",
+            "keywords": [
+                "morning",
+                "delay",
+                "St_1_link_2"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623065505641156,
+            "type": "event",
+            "created": "2025-03-11T07:45:00",
+            "last_accessed": "2025-03-11T07:45:00",
+            "expiration": "2025-03-11T07:45:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623065518736740,
+            "type": "thought",
+            "created": "2025-03-11T07:45:00",
+            "last_accessed": "2025-03-11T07:45:00",
+            "expiration": "2025-03-15T01:00:24.553005",
+            "content": "St_1_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623065519582191,
+            "type": "thought",
+            "created": "2025-03-11T07:45:00",
+            "last_accessed": "2025-03-11T07:45:00",
+            "expiration": "2025-03-11T07:45:00",
+            "content": "St_1_link_2 experiences moderate delays in morning",
+            "keywords": [
+                "St_1_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623065559600612,
+            "type": "event",
+            "created": "2025-03-11T07:46:00",
+            "last_accessed": "2025-03-11T07:46:00",
+            "expiration": "2025-03-11T07:54:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623065609746499,
+            "type": "thought",
+            "created": "2025-03-11T07:46:00",
+            "last_accessed": "2025-03-12T07:15:00",
+            "expiration": "2025-03-15T03:56:50.510024",
+            "content": "St_1_link_2 experiences moderate delays in morning",
+            "keywords": [
+                "St_1_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623070138831913,
+            "type": "event",
+            "created": "2025-03-11T07:55:00",
+            "last_accessed": "2025-03-11T07:55:00",
+            "expiration": "2025-03-11T08:13:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623070149522547,
+            "type": "thought",
+            "created": "2025-03-11T07:55:00",
+            "last_accessed": "2025-03-11T07:55:00",
+            "expiration": "2025-03-11T08:22:00",
+            "content": "Ave_1 experiences morning delays",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623070150448026,
+            "type": "thought",
+            "created": "2025-03-11T07:55:00",
+            "last_accessed": "2025-03-11T07:55:00",
+            "expiration": "2025-03-11T08:22:00",
+            "content": "St_1 links congested during weekday mornings",
+            "keywords": [
+                "St_1_link_1",
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623071319413547,
+            "type": "event",
+            "created": "2025-03-11T08:14:00",
+            "last_accessed": "2025-03-11T08:14:00",
+            "expiration": "2025-03-11T08:22:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623071330170219,
+            "type": "thought",
+            "created": "2025-03-11T08:14:00",
+            "last_accessed": "2025-03-11T08:14:00",
+            "expiration": "2025-03-11T08:22:00",
+            "content": "St_5_link_1 experiences moderate delays during morning commute",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623071625568984,
+            "type": "event",
+            "created": "2025-03-11T08:23:00",
+            "last_accessed": "2025-03-11T08:23:00",
+            "expiration": "2025-03-11T10:14:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623071638675870,
+            "type": "thought",
+            "created": "2025-03-11T08:23:00",
+            "last_accessed": "2025-03-11T08:23:00",
+            "expiration": "2025-03-14T05:04:50.510024",
+            "content": "St_5_link_1 experiences moderate delays during morning commute",
+            "keywords": [
+                "St_5_link_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623071639592521,
+            "type": "thought",
+            "created": "2025-03-11T08:23:00",
+            "last_accessed": "2025-03-11T08:23:00",
+            "expiration": "2025-03-11T15:14:00",
+            "content": "St_1 links congested during weekday mornings",
+            "keywords": [
+                "St_1_link_1",
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623071640460833,
+            "type": "thought",
+            "created": "2025-03-11T08:23:00",
+            "last_accessed": "2025-03-11T08:23:00",
+            "expiration": "2025-03-11T15:14:00",
+            "content": "Ave_1 experiences morning delays",
+            "keywords": [
+                "Ave_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623071641376920,
+            "type": "event",
+            "created": "2025-03-11T08:23:00",
+            "last_accessed": "2025-03-11T08:23:00",
+            "expiration": "2025-03-12T04:11:34.810763",
+            "content": "Catherine Young travels from Uptown apartment to Office by travel mode drive; start time is Tue 2025-03-11 07:45; trip time is 38 minutes",
+            "keywords": [
+                "Uptown apartment to Office",
+                "drive"
+            ],
+            "spatial_scope": "Uptown apartment, Office, Ave_1, St_5, St_5",
+            "time_scope": [
+                "07:45:00",
+                "08:23:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623073210560493,
+            "type": "event",
+            "created": "2025-03-11T10:15:00",
+            "last_accessed": "2025-03-11T10:15:00",
+            "expiration": "2025-03-11T12:44:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623074333042361,
+            "type": "event",
+            "created": "2025-03-11T12:45:00",
+            "last_accessed": "2025-03-11T12:45:00",
+            "expiration": "2025-03-11T15:14:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623080630737266,
+            "type": "event",
+            "created": "2025-03-11T15:15:00",
+            "last_accessed": "2025-03-11T15:15:00",
+            "expiration": "2025-03-11T16:59:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623080645430634,
+            "type": "thought",
+            "created": "2025-03-11T15:15:00",
+            "last_accessed": "2025-03-11T15:15:00",
+            "expiration": "2025-03-14T11:56:50.510024",
+            "content": "Ave_1 experiences morning delays",
+            "keywords": [
+                "Ave_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623080646282435,
+            "type": "thought",
+            "created": "2025-03-11T15:15:00",
+            "last_accessed": "2025-03-11T15:15:00",
+            "expiration": "2025-03-15T08:30:24.553005",
+            "content": "St_1 links congested during weekday mornings",
+            "keywords": [
+                "St_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623082412737606,
+            "type": "event",
+            "created": "2025-03-11T17:00:00",
+            "last_accessed": "2025-03-11T17:00:00",
+            "expiration": "2025-03-11T17:00:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623082422533107,
+            "type": "thought",
+            "created": "2025-03-11T17:00:00",
+            "last_accessed": "2025-03-11T17:00:00",
+            "expiration": "2025-03-11T17:00:00",
+            "content": "St_5_link_1 experiences moderate congestion during weekday mornings",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623082444064302,
+            "type": "event",
+            "created": "2025-03-11T17:01:00",
+            "last_accessed": "2025-03-11T17:01:00",
+            "expiration": "2025-03-11T17:09:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623082455243574,
+            "type": "thought",
+            "created": "2025-03-11T17:01:00",
+            "last_accessed": "2025-03-11T17:01:00",
+            "expiration": "2025-03-11T17:28:00",
+            "content": "St_5_link_1 experiences moderate congestion during weekday mornings",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623082456119670,
+            "type": "thought",
+            "created": "2025-03-11T17:01:00",
+            "last_accessed": "2025-03-11T17:01:00",
+            "expiration": "2025-03-11T17:28:00",
+            "content": "Ave_3 reliable for westbound travel after work hours",
+            "keywords": [
+                "Ave_3",
+                "reliable",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623082633750866,
+            "type": "event",
+            "created": "2025-03-11T17:10:00",
+            "last_accessed": "2025-03-11T17:10:00",
+            "expiration": "2025-03-11T17:28:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623082647624554,
+            "type": "thought",
+            "created": "2025-03-11T17:10:00",
+            "last_accessed": "2025-03-11T17:10:00",
+            "expiration": "2025-03-11T17:28:00",
+            "content": "Ave_4_link_1 experiences light congestion during weekday afternoons",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623083214054538,
+            "type": "event",
+            "created": "2025-03-11T17:29:00",
+            "last_accessed": "2025-03-11T19:10:00",
+            "expiration": "2025-03-12T02:23:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Will take Ave_4_link_1 and St_4_link_2 to avoid potential congestion near St_1_link_2. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623083226211379,
+            "type": "thought",
+            "created": "2025-03-11T17:29:00",
+            "last_accessed": "2025-03-11T17:29:00",
+            "expiration": "2025-03-11T17:59:00",
+            "content": "Ave_4_link_1 experiences light congestion during weekday afternoons",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623083227131999,
+            "type": "thought",
+            "created": "2025-03-11T17:29:00",
+            "last_accessed": "2025-03-11T17:29:00",
+            "expiration": "2025-03-14T14:10:50.510024",
+            "content": "St_5_link_1 experiences moderate congestion during weekday mornings",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623083227957727,
+            "type": "thought",
+            "created": "2025-03-11T17:29:00",
+            "last_accessed": "2025-03-11T17:29:00",
+            "expiration": "2025-03-14T14:10:50.510024",
+            "content": "Ave_3 reliable for westbound travel after work hours",
+            "keywords": [
+                "Ave_3",
+                "reliable",
+                "westbound",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623083228927963,
+            "type": "event",
+            "created": "2025-03-11T17:29:00",
+            "last_accessed": "2025-03-11T17:29:00",
+            "expiration": "2025-03-12T00:42:35.742705",
+            "content": "Catherine Young travels from Office to Museum by travel mode drive; start time is Tue 2025-03-11 17:00; trip time is 29 minutes",
+            "keywords": [
+                "Office to Museum",
+                "drive"
+            ],
+            "spatial_scope": "Office, Museum, St_5, St_5",
+            "time_scope": [
+                "17:00:00",
+                "17:29:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623084705341640,
+            "type": "event",
+            "created": "2025-03-11T18:00:00",
+            "last_accessed": "2025-03-11T19:10:00",
+            "expiration": "2025-03-12T02:23:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Supermarket for household supplies after work. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Gloria Campbell",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623084719761640,
+            "type": "chat",
+            "created": "2025-03-11T18:00:00",
+            "last_accessed": "2025-03-11T19:10:00",
+            "expiration": "2025-03-12T03:57:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed their plan to meet at the Museum at 18:00 despite light congestion on Ave_4_link_1. Gloria is currently at the Supermarket and expects to arrive on time.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Supermarket",
+                "Ave_4_link_1",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623084729554838,
+            "type": "thought",
+            "created": "2025-03-11T18:00:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-13T04:48:17.115446",
+            "content": "Ave_4_link_1 experiences light congestion during weekday afternoons",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623090815015798,
+            "type": "event",
+            "created": "2025-03-11T19:00:00",
+            "last_accessed": "2025-03-11T19:00:00",
+            "expiration": "2025-03-11T19:00:00",
+            "content": "Gloria Campbell current activity description: Head to Museum for quiet reflection and meet up with Fatima Hassan as planned. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623090844226628,
+            "type": "event",
+            "created": "2025-03-11T19:01:00",
+            "last_accessed": "2025-03-11T19:01:00",
+            "expiration": "2025-03-11T19:09:00",
+            "content": "Gloria Campbell current activity description: Head to Museum for quiet reflection and meet up with Fatima Hassan as planned. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623091202786446,
+            "type": "event",
+            "created": "2025-03-11T19:10:00",
+            "last_accessed": "2025-03-12T18:55:00",
+            "expiration": "2025-03-13T14:43:34.810763",
+            "content": "Gloria Campbell current activity description: Head to Museum for quiet reflection and meet up with Fatima Hassan as planned. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623091319634585,
+            "type": "event",
+            "created": "2025-03-11T19:10:00",
+            "last_accessed": "2025-03-11T19:10:00",
+            "expiration": "2025-03-11T21:32:27.194665",
+            "content": "Catherine Young travels from Museum to Uptown apartment by travel mode drive; start time is Tue 2025-03-11 19:00; trip time is 10 minutes",
+            "keywords": [
+                "Museum to Uptown apartment",
+                "drive"
+            ],
+            "spatial_scope": "Museum, Uptown apartment, Ave_1",
+            "time_scope": [
+                "19:00:00",
+                "19:10:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623105211924262,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-14T20:40:50.510024",
+            "content": "St_5_link_1 experiences moderate weekday congestion during morning commutes",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623105213017075,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-15T17:14:24.553005",
+            "content": "Alternate routes reduce delay risk near Node_8 during peak hours",
+            "keywords": [
+                "route planning",
+                "Node_8",
+                "morning rush"
+            ],
+            "spatial_scope": [
+                "Node_8",
+                "St_5_link_2",
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623105213802722,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-14T20:40:50.510024",
+            "content": "Museum visit is best scheduled in the evening for social and cultural engagement",
+            "keywords": [
+                "Museum",
+                "social activity",
+                "evening plan"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623105214694867,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-16T15:58:09.440007",
+            "content": "Proactive route adjustment improves reliability despite network uncertainty",
+            "keywords": [
+                "route flexibility",
+                "traffic adaptation",
+                "driving"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623110957549693,
+            "type": "chat",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T17:53:00",
+            "expiration": "2025-03-13T02:21:50.703460",
+            "content": "Catherine Young and Gloria Campbell planned to meet for a walk at the Museum this evening. Both will leave work at 17:00 and drive directly to Museum.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Factory",
+                "Office",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111016685611,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "Morning congestion consistently occurs on St_5_link_1 during peak hours",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111017497945,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "Evening visits to Museum provide optimal social and cultural experience",
+            "keywords": [
+                "Museum",
+                "evening",
+                "social"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111018333947,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "Alternative route via Ave_1 avoids delay risks near Node_8 during morning commute",
+            "keywords": [
+                "Ave_1",
+                "Node_8",
+                "route choice"
+            ],
+            "spatial_scope": [
+                "Ave_1",
+                "Node_8"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111020551200,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "Proactive route adjustments improve reliability under network uncertainty",
+            "keywords": [
+                "route adjustment",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623112123982492,
+            "type": "event",
+            "created": "2025-03-12T06:15:00",
+            "last_accessed": "2025-03-12T06:45:00",
+            "expiration": "2025-03-12T09:07:27.194665",
+            "content": "Gloria Campbell current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112138197197,
+            "type": "thought",
+            "created": "2025-03-12T06:15:00",
+            "last_accessed": "2025-03-12T06:15:00",
+            "expiration": "2025-03-15T23:30:24.553005",
+            "content": "St_5_link_1 experiences morning congestion during peak hours",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "peak hour"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623112139176122,
+            "type": "thought",
+            "created": "2025-03-12T06:15:00",
+            "last_accessed": "2025-03-12T06:15:00",
+            "expiration": "2025-03-15T23:30:24.553005",
+            "content": "Ave_1 as viable alternative to St_5_link_1 for reliable morning commute",
+            "keywords": [
+                "Ave_1",
+                "alternative route",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "Node_1 to Node_12"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623112140209845,
+            "type": "thought",
+            "created": "2025-03-12T06:15:00",
+            "last_accessed": "2025-03-12T06:15:00",
+            "expiration": "2025-03-15T02:56:50.510024",
+            "content": "Museum provides optimal evening meeting point for social and cultural engagement",
+            "keywords": [
+                "Museum",
+                "social activity",
+                "cultural visit"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623112404115140,
+            "type": "event",
+            "created": "2025-03-12T06:45:00",
+            "last_accessed": "2025-03-12T06:45:00",
+            "expiration": "2025-03-12T09:07:27.194665",
+            "content": "Gloria Campbell current activity description: Wake up at home, completes morning routines including breakfast and preparing for the day. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623113808720029,
+            "type": "event",
+            "created": "2025-03-12T07:15:00",
+            "last_accessed": "2025-03-12T17:15:00",
+            "expiration": "2025-03-13T00:28:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Gloria Campbell on the trip from Midtown apartment to Factory; planned path [('Ave_4_link_1', 'drive', 'Node_3')]; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623114619367657,
+            "type": "event",
+            "created": "2025-03-12T07:30:00",
+            "last_accessed": "2025-03-12T18:11:00",
+            "expiration": "2025-03-13T01:24:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Gloria Campbell on the trip from Midtown apartment to Factory; planned path []; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13'), ('Ave_4_link_1', 'drive', 'Node_3')]; currently traveling on link Ave_4_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623114634929778,
+            "type": "chat",
+            "created": "2025-03-12T07:30:00",
+            "last_accessed": "2025-03-12T17:53:00",
+            "expiration": "2025-03-13T02:40:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed their Museum walk at 18:00 despite traffic congestion on St_1_link_2. Gloria will adjust her route after Node_13 to reach the Factory on time before meeting Catherine at the Museum.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "St_1_link_2",
+                "Node_13",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623114647463023,
+            "type": "thought",
+            "created": "2025-03-12T07:30:00",
+            "last_accessed": "2025-03-12T07:30:00",
+            "expiration": "2025-03-12T07:45:00",
+            "content": "St_1_link_2 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623120046614131,
+            "type": "event",
+            "created": "2025-03-12T07:45:00",
+            "last_accessed": "2025-03-12T07:45:00",
+            "expiration": "2025-03-12T07:45:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623120122739052,
+            "type": "event",
+            "created": "2025-03-12T07:46:00",
+            "last_accessed": "2025-03-12T07:46:00",
+            "expiration": "2025-03-12T07:54:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623120132119294,
+            "type": "thought",
+            "created": "2025-03-12T07:46:00",
+            "last_accessed": "2025-03-13T07:15:00",
+            "expiration": "2025-03-17T00:30:24.553005",
+            "content": "St_1_link_2 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623120550365353,
+            "type": "event",
+            "created": "2025-03-12T07:55:00",
+            "last_accessed": "2025-03-12T07:55:00",
+            "expiration": "2025-03-12T08:13:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623120558917469,
+            "type": "thought",
+            "created": "2025-03-12T07:55:00",
+            "last_accessed": "2025-03-12T07:55:00",
+            "expiration": "2025-03-12T08:13:00",
+            "content": "Ave_1_link_1 experiences light congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623121735941459,
+            "type": "event",
+            "created": "2025-03-12T08:14:00",
+            "last_accessed": "2025-03-12T08:14:00",
+            "expiration": "2025-03-12T08:22:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623121745274799,
+            "type": "thought",
+            "created": "2025-03-12T08:14:00",
+            "last_accessed": "2025-03-12T08:14:00",
+            "expiration": "2025-03-12T08:22:00",
+            "content": "Ave_1_link_1 experiences light congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623121746056641,
+            "type": "thought",
+            "created": "2025-03-12T08:14:00",
+            "last_accessed": "2025-03-12T08:14:00",
+            "expiration": "2025-03-12T08:22:00",
+            "content": "St_5_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623122057980198,
+            "type": "event",
+            "created": "2025-03-12T08:23:00",
+            "last_accessed": "2025-03-12T08:23:00",
+            "expiration": "2025-03-12T10:14:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623122110884048,
+            "type": "thought",
+            "created": "2025-03-12T08:23:00",
+            "last_accessed": "2025-03-12T08:23:00",
+            "expiration": "2025-03-12T10:14:00",
+            "content": "St_5_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_5_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623122111807395,
+            "type": "thought",
+            "created": "2025-03-12T08:23:00",
+            "last_accessed": "2025-03-12T08:23:00",
+            "expiration": "2025-03-12T10:14:00",
+            "content": "Ave_1_link_1 experiences light congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623122112797843,
+            "type": "event",
+            "created": "2025-03-12T08:23:00",
+            "last_accessed": "2025-03-12T08:23:00",
+            "expiration": "2025-03-12T10:45:27.194665",
+            "content": "Catherine Young travels from Uptown apartment to Office by travel mode drive; start time is Wed 2025-03-12 07:45; trip time is 38 minutes",
+            "keywords": [
+                "Uptown apartment to Office",
+                "drive"
+            ],
+            "spatial_scope": "Uptown apartment, Office, Ave_1, St_5, St_5",
+            "time_scope": [
+                "07:45:00",
+                "08:23:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623123814634909,
+            "type": "event",
+            "created": "2025-03-12T10:15:00",
+            "last_accessed": "2025-03-12T10:15:00",
+            "expiration": "2025-03-12T12:44:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623123826464290,
+            "type": "thought",
+            "created": "2025-03-12T10:15:00",
+            "last_accessed": "2025-03-12T10:15:00",
+            "expiration": "2025-03-13T21:03:17.115446",
+            "content": "Ave_1_link_1 experiences light congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623123827284261,
+            "type": "thought",
+            "created": "2025-03-12T10:15:00",
+            "last_accessed": "2025-03-12T10:15:00",
+            "expiration": "2025-03-16T03:30:24.553005",
+            "content": "St_5_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623125001569160,
+            "type": "event",
+            "created": "2025-03-12T12:45:00",
+            "last_accessed": "2025-03-12T12:45:00",
+            "expiration": "2025-03-12T15:14:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623131544776414,
+            "type": "event",
+            "created": "2025-03-12T15:15:00",
+            "last_accessed": "2025-03-12T15:15:00",
+            "expiration": "2025-03-12T17:14:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133818657638,
+            "type": "event",
+            "created": "2025-03-12T17:15:00",
+            "last_accessed": "2025-03-12T17:44:00",
+            "expiration": "2025-03-13T00:57:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133858537309,
+            "type": "event",
+            "created": "2025-03-12T17:16:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Gloria Campbell current activity description: Meet Isabella Rodriguez at Coffee shop for casual conversation and relaxation after work. current status is Gloria Campbell on the trip from Factory to Coffee shop; planned path: [('St_4_link_2', 'drive', 'Node_11')] trip trajectory: []; currently at node Node_3.",
+            "keywords": [
+                "Gloria Campbell",
+                "Coffee shop",
+                "Node_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134112345746,
+            "type": "event",
+            "created": "2025-03-12T17:25:00",
+            "last_accessed": "2025-03-12T19:46:00",
+            "expiration": "2025-03-13T02:59:35.742705",
+            "content": "Gloria Campbell current activity description: Meet Isabella Rodriguez at Coffee shop for casual conversation and relaxation after work. current status is Gloria Campbell on the trip from Factory to Coffee shop; planned path []; trip trajectory: [('St_4_link_2', 'drive', 'Node_11')]; currently traveling on link St_4_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Coffee shop",
+                "Node_11"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134126720241,
+            "type": "chat",
+            "created": "2025-03-12T17:25:00",
+            "last_accessed": "2025-03-12T17:53:00",
+            "expiration": "2025-03-13T02:40:16.901153",
+            "content": "Catherine Young and Gloria Campbell changed their meetup location from the Museum to the Coffee shop. Gloria is traveling via St_4_link_2 and will arrive by 17:30. Catherine will adjust her route to meet her at the Coffee shop by the same time.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Coffee shop",
+                "St_4_link_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623134138694410,
+            "type": "chat",
+            "created": "2025-03-12T17:25:00",
+            "last_accessed": "2025-03-12T17:53:00",
+            "expiration": "2025-03-13T02:40:16.901153",
+            "content": "Catherine Young changed her plans from visiting the Museum to meeting Gloria Campbell at the Coffee shop by 17:30. Gloria is en route on St_4_link_2 and expects to arrive at the same time.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Coffee shop",
+                "17:30",
+                "St_4_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623135211639190,
+            "type": "event",
+            "created": "2025-03-12T17:44:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Gloria Campbell current activity description: Meet Isabella Rodriguez at Coffee shop for casual conversation and relaxation after work. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Gloria Campbell",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623135222501431,
+            "type": "thought",
+            "created": "2025-03-12T17:44:00",
+            "last_accessed": "2025-03-12T17:44:00",
+            "expiration": "2025-03-14T04:32:17.115446",
+            "content": "Ave_3_link_3 experiences occasional light congestion in the evening",
+            "keywords": [
+                "Ave_3_link_3",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623135919605787,
+            "type": "event",
+            "created": "2025-03-12T17:53:00",
+            "last_accessed": "2025-03-12T18:55:00",
+            "expiration": "2025-03-13T02:08:35.742705",
+            "content": "Gloria Campbell current activity description: Head to Museum to meet Fatima Hassan, who may arrive around 18:00. Taking St_4_link_2 first but will monitor traffic and potentially switch to Ave_3_link_3 if needed. current status is Gloria Campbell on the trip from Coffee shop to Museum; planned path [('St_3_link_2', 'drive', 'Node_6'), ('St_3_link_1', 'drive', 'Node_12')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10')]; currently traveling on link Ave_3_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Ave_3_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623135936372822,
+            "type": "chat",
+            "created": "2025-03-12T17:53:00",
+            "last_accessed": "2025-03-13T17:26:00",
+            "expiration": "2025-03-14T06:00:51.512918",
+            "content": "Catherine Young and Gloria Campbell confirmed meeting at Museum around 18:00. Catherine adjusted her route to head directly to the Museum, while Gloria is already en route. Fatima may also join them there.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Fatima Hassan",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623135952862205,
+            "type": "chat",
+            "created": "2025-03-12T17:53:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T04:17:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed meeting at Coffee shop around 17:30 as originally planned, despite Gloria's later meetup with Fatima Hassan at the Museum.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Coffee shop",
+                "Museum",
+                "Fatima Hassan",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623140018465505,
+            "type": "chat",
+            "created": "2025-03-12T17:53:00",
+            "last_accessed": "2025-03-13T07:40:00",
+            "expiration": "2025-03-13T20:14:51.512918",
+            "content": "Catherine Young and Gloria Campbell adjusted their plans to meet at the Museum instead of the Coffee shop. Catherine will divert from St_5_link_2 to join Gloria and Fatima Hassan at the Museum by 18:00 via Ave_3_link_3.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Fatima Hassan",
+                "Museum",
+                "Coffee shop",
+                "St_5_link_2",
+                "Ave_3_link_3",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623140030749693,
+            "type": "thought",
+            "created": "2025-03-12T17:53:00",
+            "last_accessed": "2025-03-12T17:53:00",
+            "expiration": "2025-03-14T04:41:17.115446",
+            "content": "Ave_3_link_3 occasionally experiences light congestion in the evening",
+            "keywords": [
+                "Ave_3_link_3",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623140620349989,
+            "type": "event",
+            "created": "2025-03-12T18:02:00",
+            "last_accessed": "2025-03-12T18:55:00",
+            "expiration": "2025-03-13T02:08:35.742705",
+            "content": "Gloria Campbell current activity description: Head to Museum to meet Fatima Hassan, who may arrive around 18:00. Taking St_4_link_2 first but will monitor traffic and potentially switch to Ave_3_link_3 if needed. current status is Gloria Campbell on the trip from Coffee shop to Museum; planned path [('St_3_link_1', 'drive', 'Node_12')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10'), ('St_3_link_2', 'drive', 'Node_6')]; currently traveling on link St_3_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "St_3_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623140636115362,
+            "type": "chat",
+            "created": "2025-03-12T18:02:00",
+            "last_accessed": "2025-03-13T06:15:00",
+            "expiration": "2025-03-13T18:49:51.512918",
+            "content": "Catherine Young and Gloria Campbell confirmed plans to meet Fatima Hassan at Museum starting at 18:00. Catherine is en route via St_3_link_2, aiming to arrive by 17:55. Gloria is traveling on Ave_3_link_2 and will proceed via St_3_link_2 to Node_12 before the meeting.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Fatima Hassan",
+                "Museum",
+                "St_3_link_2",
+                "Ave_3_link_2",
+                "Node_12",
+                "18:00",
+                "17:55"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623141137800156,
+            "type": "event",
+            "created": "2025-03-12T18:11:00",
+            "last_accessed": "2025-03-12T18:55:00",
+            "expiration": "2025-03-13T02:08:35.742705",
+            "content": "Gloria Campbell current activity description: Head to Museum to meet Fatima Hassan, who may arrive around 18:00. Taking St_4_link_2 first but will monitor traffic and potentially switch to Ave_3_link_3 if needed. current status is Gloria Campbell on the trip from Coffee shop to Museum; planned path []; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10'), ('St_3_link_2', 'drive', 'Node_6'), ('St_3_link_1', 'drive', 'Node_12')]; currently traveling on link St_3_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "St_3_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623141153665692,
+            "type": "chat",
+            "created": "2025-03-12T18:11:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T04:17:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed their plan to meet Fatima Hassan at the Museum around 18:00. Catherine is approaching via Ave_3_link_2, while Gloria is traveling via St_3_link_1 after leaving the Coffee shop, expecting to arrive shortly before 18:00.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Fatima Hassan",
+                "Museum",
+                "Coffee shop",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623141927704289,
+            "type": "event",
+            "created": "2025-03-12T18:20:00",
+            "last_accessed": "2025-03-12T18:20:00",
+            "expiration": "2025-03-12T18:54:00",
+            "content": "Gloria Campbell current activity description: Head to Museum to meet Fatima Hassan, who may arrive around 18:00. Taking St_4_link_2 first but will monitor traffic and potentially switch to Ave_3_link_3 if needed. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623142027695824,
+            "type": "event",
+            "created": "2025-03-12T18:20:00",
+            "last_accessed": "2025-03-12T18:20:00",
+            "expiration": "2025-03-13T01:33:35.742705",
+            "content": "Catherine Young travels from Office to Museum by travel mode drive; start time is Wed 2025-03-12 17:55; trip time is 25 minutes",
+            "keywords": [
+                "Office to Museum",
+                "drive"
+            ],
+            "spatial_scope": "Office, Museum, St_5, St_5, St_3, St_3, St_3, St_3",
+            "time_scope": [
+                "17:55:00",
+                "18:20:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624031206024249,
+            "type": "event",
+            "created": "2025-03-12T18:55:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Gloria Campbell current activity description: Head to Museum to meet Fatima Hassan, who may arrive around 18:00. Taking St_4_link_2 first but will monitor traffic and potentially switch to Ave_3_link_3 if needed. current status is Staying at facility Museum.",
+            "keywords": [
+                "Gloria Campbell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624031217132883,
+            "type": "thought",
+            "created": "2025-03-12T18:55:00",
+            "last_accessed": "2025-03-12T18:55:00",
+            "expiration": "2025-03-15T15:36:50.510024",
+            "content": "Museum meetup successful coordination between Catherine Young, Gloria Campbell, and Fatima Hassan",
+            "keywords": [
+                "Museum",
+                "meetup",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624031218243570,
+            "type": "thought",
+            "created": "2025-03-12T18:55:00",
+            "last_accessed": "2025-03-12T18:55:00",
+            "expiration": "2025-03-15T15:36:50.510024",
+            "content": "St_3_link_2 and Ave_3_link_2 reliable during late afternoon travel",
+            "keywords": [
+                "St_3_link_2",
+                "Ave_3_link_2",
+                "reliable travel"
+            ],
+            "spatial_scope": [
+                "St_3_link_2",
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624032750895963,
+            "type": "event",
+            "created": "2025-03-12T19:30:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Gloria Campbell current activity description: Depart Museum immediately at 18:55 and drive via Ave_3_link_3 to reach Coffee shop by approximately 19:00 to meet Helen Jones for discussion. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Gloria Campbell",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624032805561133,
+            "type": "chat",
+            "created": "2025-03-12T19:30:00",
+            "last_accessed": "2025-03-13T17:54:00",
+            "expiration": "2025-03-14T06:28:51.512918",
+            "content": "Catherine Young will join Gloria Campbell and Helen Jones at the Coffee shop by 19:00 instead of heading home after visiting the Museum.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Helen Jones",
+                "Museum",
+                "Coffee shop",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 624032821055356,
+            "type": "chat",
+            "created": "2025-03-12T19:30:00",
+            "last_accessed": "2025-03-12T19:40:00",
+            "expiration": "2025-03-13T04:27:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed plans to meet at Coffee shop by 19:00 after leaving Museum. No changes to the schedule were noted.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Coffee shop",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624033504228579,
+            "type": "event",
+            "created": "2025-03-12T19:40:00",
+            "last_accessed": "2025-03-12T19:55:00",
+            "expiration": "2025-03-13T03:08:35.742705",
+            "content": "Gloria Campbell current activity description: After meeting with Helen, return home before 20:00 for a restful night. current status is Gloria Campbell on the trip from Coffee shop to Midtown apartment; planned path [('Ave_3_link_1', 'drive', 'Node_9'), ('St_1_link_1', 'drive', 'Node_4')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10')]; currently traveling on link Ave_3_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Node_10"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624033527549261,
+            "type": "chat",
+            "created": "2025-03-12T19:40:00",
+            "last_accessed": "2025-03-12T19:55:00",
+            "expiration": "2025-03-13T00:51:01.577996",
+            "content": "Catherine Young plans to visit the Coffee shop around 19:40 before heading home, while Gloria Campbell is en route to Midtown apartment, expecting to arrive by 20:00. Both decided to miss meeting up today but agreed to connect during the weekend book club meet-up.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Coffee shop",
+                "Midtown apartment",
+                "weekend book club"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624033545130696,
+            "type": "thought",
+            "created": "2025-03-12T19:40:00",
+            "last_accessed": "2025-03-12T19:40:00",
+            "expiration": "2025-03-12T19:44:00",
+            "content": "Ave_3 reliable for late afternoon travel",
+            "keywords": [
+                "Ave_3",
+                "reliable",
+                "late afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624033545942016,
+            "type": "thought",
+            "created": "2025-03-12T19:40:00",
+            "last_accessed": "2025-03-12T19:40:00",
+            "expiration": "2025-03-12T19:44:00",
+            "content": "Museum meetup successful around 18:00",
+            "keywords": [
+                "Museum",
+                "meetup",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624033801629910,
+            "type": "event",
+            "created": "2025-03-12T19:45:00",
+            "last_accessed": "2025-03-12T19:45:00",
+            "expiration": "2025-03-12T19:45:00",
+            "content": "Gloria Campbell current activity description: After meeting with Helen, return home before 20:00 for a restful night. current status is Gloria Campbell on the trip from Coffee shop to Midtown apartment; planned path [('St_1_link_1', 'drive', 'Node_4')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_1', 'drive', 'Node_9')]; currently traveling on link Ave_3_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Ave_3_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 624033812997617,
+            "type": "thought",
+            "created": "2025-03-12T19:45:00",
+            "last_accessed": "2025-03-12T19:45:00",
+            "expiration": "2025-03-12T19:54:00",
+            "content": "Museum meetup successful around 18:00",
+            "keywords": [
+                "Museum",
+                "meetup",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:55:00",
+                "19:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624033813790487,
+            "type": "thought",
+            "created": "2025-03-12T19:45:00",
+            "last_accessed": "2025-03-12T19:45:00",
+            "expiration": "2025-03-12T19:54:00",
+            "content": "Ave_3 reliable for late afternoon travel",
+            "keywords": [
+                "Ave_3",
+                "reliable",
+                "travel"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624033850912161,
+            "type": "event",
+            "created": "2025-03-12T19:46:00",
+            "last_accessed": "2025-03-12T19:55:00",
+            "expiration": "2025-03-12T22:17:27.194665",
+            "content": "Gloria Campbell current activity description: After meeting with Helen, return home before 20:00 for a restful night. current status is Gloria Campbell on the trip from Coffee shop to Midtown apartment; planned path [('St_1_link_1', 'drive', 'Node_4')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_1', 'drive', 'Node_9')]; currently traveling on link Ave_3_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Ave_3_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 624070026930222,
+            "type": "event",
+            "created": "2025-03-12T19:55:00",
+            "last_accessed": "2025-03-12T19:55:00",
+            "expiration": "2025-03-12T22:17:27.194665",
+            "content": "Gloria Campbell current activity description: After meeting with Helen, return home before 20:00 for a restful night. current status is Staying at home.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 624070037796000,
+            "type": "thought",
+            "created": "2025-03-12T19:55:00",
+            "last_accessed": "2025-03-12T19:55:00",
+            "expiration": "2025-03-15T16:36:50.510024",
+            "content": "Museum meetup successful around 18:00",
+            "keywords": [
+                "Museum",
+                "meetup",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:55:00",
+                "18:15:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624070038928084,
+            "type": "thought",
+            "created": "2025-03-12T19:55:00",
+            "last_accessed": "2025-03-12T19:55:00",
+            "expiration": "2025-03-15T16:36:50.510024",
+            "content": "Ave_3 reliable for late afternoon travel",
+            "keywords": [
+                "Ave_3",
+                "reliable",
+                "travel"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624070118552105,
+            "type": "event",
+            "created": "2025-03-12T19:55:00",
+            "last_accessed": "2025-03-12T19:55:00",
+            "expiration": "2025-03-12T22:17:27.194665",
+            "content": "Catherine Young travels from Museum to Uptown apartment by travel mode drive; start time is Wed 2025-03-12 19:46; trip time is 9 minutes",
+            "keywords": [
+                "Museum to Uptown apartment",
+                "drive"
+            ],
+            "spatial_scope": "Museum, Uptown apartment, Ave_1",
+            "time_scope": [
+                "19:46:00",
+                "19:55:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625115551804049,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "St_1_link_2 experiences recurring morning delays",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning delays"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625115552606908,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Ave_3_link_3 has light congestion during mid-afternoon",
+            "keywords": [
+                "Ave_3_link_3",
+                "congestion",
+                "mid-afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625115553786785,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Museum serves as flexible social coordination point",
+            "keywords": [
+                "Museum",
+                "social hub",
+                "meeting place"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625115554750028,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Gloria Campbell often changes plans late afternoon",
+            "keywords": [
+                "Gloria Campbell",
+                "plan changes",
+                "social coordination"
+            ],
+            "spatial_scope": [
+                "Coffee shop",
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 625115555581423,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Shortest route from Museum to Uptown apartment efficient in evening",
+            "keywords": [
+                "route efficiency",
+                "Museum to Uptown apartment"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121313438638,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T17:25:00",
+            "expiration": "2025-03-14T02:12:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed their plans to meet at the Museum later in the day. Catherine will arrive by 17:15, while Gloria expects to reach by 18:30. They plan to visit the Museum together followed by an evening walk, with immediate communication planned in case of delays.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "evening walk",
+                "17:15",
+                "18:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121338102493,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:15:00",
+            "expiration": "2025-03-16T03:56:50.510024",
+            "content": "St_1_link_2 experiences recurring morning delays",
+            "keywords": [
+                "morning delay",
+                "St_1_link_2"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121339024561,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-15T20:41:50.510024",
+            "content": "Shortest route from Museum to Uptown apartment efficient in evening",
+            "keywords": [
+                "route efficiency",
+                "Museum to home"
+            ],
+            "spatial_scope": [
+                "Museum",
+                "Uptown apartment"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121339960494,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-14T10:48:17.115446",
+            "content": "Ave_3_link_3 has light congestion during mid-afternoon",
+            "keywords": [
+                "light congestion",
+                "Ave_3_link_3"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625121340799531,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-14T10:48:17.115446",
+            "content": "Gloria Campbell often changes plans late afternoon",
+            "keywords": [
+                "plan change",
+                "social coordination"
+            ],
+            "spatial_scope": [
+                "Gloria Campbell"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625121341536144,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-15T20:41:50.510024",
+            "content": "Museum serves as flexible social coordination point",
+            "keywords": [
+                "social meetup",
+                "flexibility"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625125338975416,
+            "type": "event",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T06:45:00",
+            "expiration": "2025-03-13T09:07:27.194665",
+            "content": "Gloria Campbell current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125350051423,
+            "type": "thought",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T07:15:00",
+            "expiration": "2025-03-17T00:30:24.553005",
+            "content": "St_1_link_2 experiences recurring delays during morning commute",
+            "keywords": [
+                "morning delay",
+                "St_1_link_2"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625125848744916,
+            "type": "event",
+            "created": "2025-03-13T06:45:00",
+            "last_accessed": "2025-03-13T06:45:00",
+            "expiration": "2025-03-13T09:07:27.194665",
+            "content": "Gloria Campbell current activity description: Wake up at home, complete morning routines including breakfast and planning for the day. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Gloria Campbell",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625131218655840,
+            "type": "event",
+            "created": "2025-03-13T07:15:00",
+            "last_accessed": "2025-03-13T17:35:00",
+            "expiration": "2025-03-14T00:48:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Gloria Campbell on the trip from Midtown apartment to Factory; planned path [('Ave_4_link_1', 'drive', 'Node_3')]; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131235569677,
+            "type": "chat",
+            "created": "2025-03-13T07:15:00",
+            "last_accessed": "2025-03-13T07:15:00",
+            "expiration": "2025-03-13T12:11:01.577996",
+            "content": "Catherine Young and Gloria Campbell confirmed their plans to proceed to Office and Museum respectively. Gloria is navigating moderate congestion on St_1_link_2 but intends to keep the Museum meeting as planned. Catherine will go to Office as scheduled.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Office",
+                "Museum",
+                "St_1_link_2",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131245848281,
+            "type": "thought",
+            "created": "2025-03-13T07:15:00",
+            "last_accessed": "2025-03-13T07:15:00",
+            "expiration": "2025-03-16T03:56:50.510024",
+            "content": "St_1_link_2 frequently experiences moderate congestion during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626105623250625,
+            "type": "event",
+            "created": "2025-03-13T07:40:00",
+            "last_accessed": "2025-03-13T07:40:00",
+            "expiration": "2025-03-13T07:40:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626110939029900,
+            "type": "chat",
+            "created": "2025-03-13T07:40:00",
+            "last_accessed": "2025-03-13T17:25:00",
+            "expiration": "2025-03-14T02:12:16.901153",
+            "content": "Catherine Young and Gloria Campbell confirmed meeting at the Museum around 18:30 after work. Catherine may experience a 10-minute delay on her commute due to congestion on St_2_link_1 and St_2_link_2, but plans to reach the Museum by 17:15. Both agreed to stay flexible and update each other if traffic affects their schedules.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Office",
+                "Museum",
+                "St_2_link_1",
+                "St_2_link_2",
+                "18:30",
+                "17:15"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626110958544775,
+            "type": "thought",
+            "created": "2025-03-13T07:40:00",
+            "last_accessed": "2025-03-13T07:40:00",
+            "expiration": "2025-03-13T07:49:00",
+            "content": "St_2 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626111632361820,
+            "type": "event",
+            "created": "2025-03-13T07:41:00",
+            "last_accessed": "2025-03-13T07:41:00",
+            "expiration": "2025-03-13T07:49:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626114453877106,
+            "type": "thought",
+            "created": "2025-03-13T07:41:00",
+            "last_accessed": "2025-03-13T07:41:00",
+            "expiration": "2025-03-17T23:40:09.440007",
+            "content": "St_2_link_1 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626133409268735,
+            "type": "event",
+            "created": "2025-03-13T07:50:00",
+            "last_accessed": "2025-03-13T07:50:00",
+            "expiration": "2025-03-13T08:08:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626133423032055,
+            "type": "thought",
+            "created": "2025-03-13T07:50:00",
+            "last_accessed": "2025-03-13T07:50:00",
+            "expiration": "2025-03-17T23:49:09.440007",
+            "content": "St_2 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626133423854723,
+            "type": "thought",
+            "created": "2025-03-13T07:50:00",
+            "last_accessed": "2025-03-13T07:50:00",
+            "expiration": "2025-03-16T04:31:50.510024",
+            "content": "Ave_1_link_1 often congested in the morning",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626140004662566,
+            "type": "event",
+            "created": "2025-03-13T08:09:00",
+            "last_accessed": "2025-03-13T08:09:00",
+            "expiration": "2025-03-13T08:17:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626140021011099,
+            "type": "thought",
+            "created": "2025-03-13T08:09:00",
+            "last_accessed": "2025-03-13T08:09:00",
+            "expiration": "2025-03-13T08:17:00",
+            "content": "St_5 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_5",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626140021924597,
+            "type": "thought",
+            "created": "2025-03-13T08:09:00",
+            "last_accessed": "2025-03-13T08:09:00",
+            "expiration": "2025-03-13T08:17:00",
+            "content": "St_2 consistently congested during morning commute",
+            "keywords": [
+                "St_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626140723920395,
+            "type": "event",
+            "created": "2025-03-13T08:18:00",
+            "last_accessed": "2025-03-13T08:18:00",
+            "expiration": "2025-03-13T10:09:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626140733919705,
+            "type": "thought",
+            "created": "2025-03-13T08:18:00",
+            "last_accessed": "2025-03-13T08:18:00",
+            "expiration": "2025-03-18T00:17:09.440007",
+            "content": "St_5 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_5",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1",
+                "St_5_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626140735025231,
+            "type": "thought",
+            "created": "2025-03-13T08:18:00",
+            "last_accessed": "2025-03-13T08:18:00",
+            "expiration": "2025-03-17T01:33:24.553005",
+            "content": "St_2 consistently congested during morning commute",
+            "keywords": [
+                "St_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1",
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626140751824088,
+            "type": "event",
+            "created": "2025-03-13T08:18:00",
+            "last_accessed": "2025-03-13T08:18:00",
+            "expiration": "2025-03-14T04:06:34.810763",
+            "content": "Catherine Young travels from Uptown apartment to Office by travel mode drive; start time is Thu 2025-03-13 07:40; trip time is 38 minutes",
+            "keywords": [
+                "Uptown apartment to Office",
+                "drive"
+            ],
+            "spatial_scope": "Uptown apartment, Office, Ave_1, St_5, St_5",
+            "time_scope": [
+                "07:40:00",
+                "08:18:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626153452259060,
+            "type": "event",
+            "created": "2025-03-13T10:10:00",
+            "last_accessed": "2025-03-13T10:10:00",
+            "expiration": "2025-03-13T12:39:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626153500661541,
+            "type": "thought",
+            "created": "2025-03-13T10:10:00",
+            "last_accessed": "2025-03-13T10:10:00",
+            "expiration": "2025-03-17T03:25:24.553005",
+            "content": "St_2 frequently experiences congestion during morning commute",
+            "keywords": [
+                "St_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626153501573283,
+            "type": "thought",
+            "created": "2025-03-13T10:10:00",
+            "last_accessed": "2025-03-13T10:10:00",
+            "expiration": "2025-03-18T02:09:09.440007",
+            "content": "St_5 can experience severe morning congestion",
+            "keywords": [
+                "St_5",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626210540316100,
+            "type": "event",
+            "created": "2025-03-13T12:40:00",
+            "last_accessed": "2025-03-13T12:40:00",
+            "expiration": "2025-03-13T15:09:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214952161523,
+            "type": "event",
+            "created": "2025-03-13T15:10:00",
+            "last_accessed": "2025-03-13T15:10:00",
+            "expiration": "2025-03-13T17:14:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626222716998867,
+            "type": "event",
+            "created": "2025-03-13T17:15:00",
+            "last_accessed": "2025-03-13T17:15:00",
+            "expiration": "2025-03-13T17:24:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626223454918037,
+            "type": "event",
+            "created": "2025-03-13T17:25:00",
+            "last_accessed": "2025-03-13T17:25:00",
+            "expiration": "2025-03-13T17:25:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626223514623698,
+            "type": "chat",
+            "created": "2025-03-13T17:25:00",
+            "last_accessed": "2025-03-13T17:54:00",
+            "expiration": "2025-03-14T06:28:51.512918",
+            "content": "Catherine Young and Gloria Campbell confirmed meeting at Museum at 18:30. Catherine will leave Office now via the shortest route, expecting to arrive by 17:40. Gloria is en route from Factory via St_1_link_1 detour to avoid Ave_4_link_1 congestion and expects to arrive by 18:20.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Office",
+                "Factory",
+                "Ave_4_link_1",
+                "St_1_link_1",
+                "18:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626223527789772,
+            "type": "chat",
+            "created": "2025-03-13T17:25:00",
+            "last_accessed": "2025-03-13T17:54:00",
+            "expiration": "2025-03-14T11:57:10.492267",
+            "content": "Catherine Young is leaving Office now via the shortest route to arrive at Museum by 17:40. She observed severe congestion on Ave_4_link_1. Gloria Campbell is expected to arrive at Museum by 18:20 via a detour.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Office",
+                "Museum",
+                "Ave_4_link_1",
+                "17:40",
+                "18:20",
+                "detour"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626223549388323,
+            "type": "chat",
+            "created": "2025-03-13T17:25:00",
+            "last_accessed": "2025-03-13T17:54:00",
+            "expiration": "2025-03-14T11:57:10.492267",
+            "content": "Catherine Young is traveling from Office to Museum, aiming to arrive by 17:40 despite congestion on Ave_4_link_1. Gloria Campbell will leave Factory at 17:45 as planned and consider alternate routes due to the same congestion. Both agreed to coordinate arrival times at Museum and adjust if needed once en route.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Office",
+                "Museum",
+                "Factory",
+                "Ave_4_link_1",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626223601725914,
+            "type": "thought",
+            "created": "2025-03-13T17:25:00",
+            "last_accessed": "2025-03-13T17:25:00",
+            "expiration": "2025-03-17T10:40:24.553005",
+            "content": "Ave_4_link_1 frequently experiences congestion during late afternoon commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congested",
+                "17:00-18:30"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626223629272481,
+            "type": "event",
+            "created": "2025-03-13T17:26:00",
+            "last_accessed": "2025-03-13T17:26:00",
+            "expiration": "2025-03-13T17:34:00",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626223648478636,
+            "type": "chat",
+            "created": "2025-03-13T17:26:00",
+            "last_accessed": "2025-03-13T17:35:00",
+            "expiration": "2025-03-14T06:09:51.512918",
+            "content": "Catherine Young will leave Office at 17:00 and arrive at Museum by 17:40. Gloria Campbell will depart Factory at 17:45 and reach Museum by 18:20 via St_1 detour. Both plan to meet at Museum with Catherine waiting for Gloria's arrival.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Office",
+                "Factory",
+                "Museum",
+                "St_1 detour",
+                "17:00",
+                "17:40",
+                "18:20"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626223702044827,
+            "type": "thought",
+            "created": "2025-03-13T17:26:00",
+            "last_accessed": "2025-03-13T17:26:00",
+            "expiration": "2025-03-16T14:07:50.510024",
+            "content": "Ave_4_link_1 experiences afternoon congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626223702959323,
+            "type": "thought",
+            "created": "2025-03-13T17:26:00",
+            "last_accessed": "2025-03-13T17:26:00",
+            "expiration": "2025-03-16T14:07:50.510024",
+            "content": "Museum visit best coordinated with flexible arrival windows",
+            "keywords": [
+                "Museum",
+                "coordination",
+                "flexible timing"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 627093911007038,
+            "type": "event",
+            "created": "2025-03-13T17:35:00",
+            "last_accessed": "2025-03-13T17:35:00",
+            "expiration": "2025-03-14T00:48:35.742705",
+            "content": "Gloria Campbell current activity description: Drive to Factory for work from 8:00-17:00. Taking Ave_4_link_1 and St_4_link_2 as usual to avoid potential congestion near central roads like St_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Gloria Campbell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627093932759332,
+            "type": "chat",
+            "created": "2025-03-13T17:35:00",
+            "last_accessed": "2025-03-13T17:54:00",
+            "expiration": "2025-03-14T06:28:51.512918",
+            "content": "Catherine Young and Gloria Campbell adjusted their meeting time at Museum due to traffic congestion. Gloria will leave Factory at 17:45 and expects to arrive at Museum by 18:35 due to a 16-minute wait on St_1_link_2. Catherine will wait until 18:35 after arriving at 17:40.",
+            "keywords": [
+                "Catherine Young",
+                "Gloria Campbell",
+                "Museum",
+                "Factory",
+                "St_1_link_2",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 627093945658016,
+            "type": "thought",
+            "created": "2025-03-13T17:35:00",
+            "last_accessed": "2025-03-13T17:35:00",
+            "expiration": "2025-03-16T14:16:50.510024",
+            "content": "Ave_4_link_1 frequently experiences afternoon congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 627093946890459,
+            "type": "thought",
+            "created": "2025-03-13T17:35:00",
+            "last_accessed": "2025-03-13T17:35:00",
+            "expiration": "2025-03-17T10:50:24.553005",
+            "content": "St_1 detour effective for avoiding Ave_4 congestion",
+            "keywords": [
+                "St_1 detour",
+                "Ave_4 congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 627102822934885,
+            "type": "event",
+            "created": "2025-03-13T17:54:00",
+            "last_accessed": "2025-03-13T17:54:00",
+            "expiration": "2025-03-14T01:07:35.742705",
+            "content": "Gloria Campbell current activity description: Depart Factory by 17:35, drive to Coffee shop via St_4_link_1 and Ave_3_link_3 to meet Patricia Johnson for book club discussion. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Gloria Campbell",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627104144913188,
+            "type": "event",
+            "created": "2025-03-13T17:54:00",
+            "last_accessed": "2025-03-13T17:54:00",
+            "expiration": "2025-03-14T01:07:35.742705",
+            "content": "Catherine Young travels from Office to Museum by travel mode drive; start time is Thu 2025-03-13 17:25; trip time is 29 minutes",
+            "keywords": [
+                "Office to Museum",
+                "drive"
+            ],
+            "spatial_scope": "Office, Museum, St_5, St_5",
+            "time_scope": [
+                "17:25:00",
+                "17:54:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        }
+    ]
+}

@@ -1,0 +1,4889 @@
+{
+    "curr_time": "2025-03-12 18:49:00",
+    "concept_nodes": [
+        {
+            "id": 623013855782585,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T17:46:00",
+            "expiration": "2025-03-14T11:01:24.553005",
+            "content": "Ave_3_link_2 experiences high congestion during morning commute",
+            "keywords": [
+                "Ave_3_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623013857363035,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-11T06:58:00",
+            "expiration": "2025-03-15T00:13:24.553005",
+            "content": "School drop-off requires early arrival buffer to avoid parking issues",
+            "keywords": [
+                "School",
+                "drop-off",
+                "parking"
+            ],
+            "spatial_scope": [
+                "School"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014236092351,
+            "type": "thought",
+            "created": "2025-03-10T06:15:00",
+            "last_accessed": "2025-03-10T06:15:00",
+            "expiration": "2025-03-13T02:56:50.510024",
+            "content": "The town's central corridor sees increased traffic between 17:00-18:00",
+            "keywords": [
+                "traffic",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623014730600910,
+            "type": "thought",
+            "created": "2025-03-10T07:12:00",
+            "last_accessed": "2025-03-10T07:12:00",
+            "expiration": "2025-03-13T03:53:50.510024",
+            "content": "St_1 consistently experiences moderate congestion during morning commute",
+            "keywords": [
+                "St_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623020406196021,
+            "type": "event",
+            "created": "2025-03-10T07:36:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-12T19:01:44.432290",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive by 8:00 to start work.; current status: Sandra White on the trip from Midtown apartment to Factory; planned path [('Ave_2_link_2', 'drive', 'Node_6'), ('St_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_2', 'drive', 'Node_11'), ('St_4_link_2', 'drive', 'Node_3')]; trip trajectory: [('Ave_2_link_1', 'drive', 'Node_5')]; currently traveling on link Ave_2_link_1 after waiting for 11 minutes.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Ave_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623020416557058,
+            "type": "thought",
+            "created": "2025-03-10T07:36:00",
+            "last_accessed": "2025-03-10T19:20:00",
+            "expiration": "2025-03-14T12:35:24.553005",
+            "content": "St_1_link_2 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623021959152967,
+            "type": "thought",
+            "created": "2025-03-10T07:54:00",
+            "last_accessed": "2025-03-10T07:54:00",
+            "expiration": "2025-03-14T01:09:24.553005",
+            "content": "St_1_link_2 and St_2_link_2 frequently experience congestion in the morning",
+            "keywords": [
+                "traffic pattern",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_2",
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623030210800913,
+            "type": "thought",
+            "created": "2025-03-10T09:41:00",
+            "last_accessed": "2025-03-11T07:14:00",
+            "expiration": "2025-03-15T00:29:24.553005",
+            "content": "St_1_link_2 and St_2_link_2 frequently experience morning congestion",
+            "keywords": [
+                "St_1_link_2",
+                "St_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2",
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623034945595722,
+            "type": "thought",
+            "created": "2025-03-10T14:41:00",
+            "last_accessed": "2025-03-11T07:14:00",
+            "expiration": "2025-03-14T03:55:50.510024",
+            "content": "St_2_link_2 experiences moderate delays during morning commute",
+            "keywords": [
+                "St_2_link_2",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623034946458804,
+            "type": "thought",
+            "created": "2025-03-10T14:41:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-16T09:39:09.440007",
+            "content": "Factory operations require timely arrival for smooth management",
+            "keywords": [
+                "Factory",
+                "reliability",
+                "8AM"
+            ],
+            "spatial_scope": [
+                "Factory"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623041258753052,
+            "type": "thought",
+            "created": "2025-03-10T17:30:00",
+            "last_accessed": "2025-03-12T12:49:00",
+            "expiration": "2025-03-17T04:48:09.440007",
+            "content": "Factory operations require consistent attendance during core hours",
+            "keywords": [
+                "Factory",
+                "work schedule"
+            ],
+            "spatial_scope": [
+                "Factory"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623041301061609,
+            "type": "thought",
+            "created": "2025-03-10T17:30:00",
+            "last_accessed": "2025-03-10T17:30:00",
+            "expiration": "2025-03-13T14:11:50.510024",
+            "content": "Smooth traffic flow in the evening benefits post-work activities",
+            "keywords": [
+                "traffic",
+                "evening"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623041337333037,
+            "type": "thought",
+            "created": "2025-03-10T17:31:00",
+            "last_accessed": "2025-03-10T17:31:00",
+            "expiration": "2025-03-13T14:12:50.510024",
+            "content": "Smooth evening traffic flow benefits post-work activities",
+            "keywords": [
+                "traffic",
+                "evening",
+                "commute"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623042356298801,
+            "type": "thought",
+            "created": "2025-03-10T17:49:00",
+            "last_accessed": "2025-03-10T18:44:00",
+            "expiration": "2025-03-13T15:25:50.510024",
+            "content": "Gym less crowded after 17:30",
+            "keywords": [
+                "Gym",
+                "crowd",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623043135440155,
+            "type": "chat",
+            "created": "2025-03-10T18:05:00",
+            "last_accessed": "2025-03-11T17:30:00",
+            "expiration": "2025-03-12T06:04:51.512918",
+            "content": "Ahmed Hassan and Kevin White agreed to adjust their plan to visit the Gym, changing their arrival time from 17:45 to 18:00 to avoid peak crowds and traffic congestion on Ave_4_link_1.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Ave_4_link_1",
+                "traffic",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623050104526675,
+            "type": "thought",
+            "created": "2025-03-10T19:45:00",
+            "last_accessed": "2025-03-10T19:45:00",
+            "expiration": "2025-03-14T13:00:24.553005",
+            "content": "St_1_link_2 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623050327189420,
+            "type": "thought",
+            "created": "2025-03-10T19:50:00",
+            "last_accessed": "2025-03-10T19:50:00",
+            "expiration": "2025-03-13T16:31:50.510024",
+            "content": "Ave_4_link_1 moderately congested during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congested",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623051451754834,
+            "type": "thought",
+            "created": "2025-03-10T20:25:00",
+            "last_accessed": "2025-03-10T20:25:00",
+            "expiration": "2025-03-13T17:06:50.510024",
+            "content": "St_1_link_2 moderately congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052001988302,
+            "type": "thought",
+            "created": "2025-03-10T20:45:00",
+            "last_accessed": "2025-03-10T20:45:00",
+            "expiration": "2025-03-14T14:00:24.553005",
+            "content": "The town traffic congested during 17:00-18:00",
+            "keywords": [
+                "traffic",
+                "congestion",
+                "peak hour"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623052136825025,
+            "type": "thought",
+            "created": "2025-03-10T20:50:00",
+            "last_accessed": "2025-03-10T20:50:00",
+            "expiration": "2025-03-14T14:05:24.553005",
+            "content": "Evening commute from 17:00 to 18:00 is typically congested",
+            "keywords": [
+                "Congestion",
+                "Evening Commute"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623052137785400,
+            "type": "thought",
+            "created": "2025-03-10T20:50:00",
+            "last_accessed": "2025-03-10T20:50:00",
+            "expiration": "2025-03-12T07:38:17.115446",
+            "content": "Gym becomes less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "Crowdedness"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623052225131838,
+            "type": "thought",
+            "created": "2025-03-10T20:55:00",
+            "last_accessed": "2025-03-10T20:55:00",
+            "expiration": "2025-03-14T14:10:24.553005",
+            "content": "Evening commute from 17:00 to 18:00 typically congested",
+            "keywords": [
+                "commute",
+                "congested",
+                "17:00-18:00"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623052311621733,
+            "type": "thought",
+            "created": "2025-03-10T21:00:00",
+            "last_accessed": "2025-03-10T21:00:00",
+            "expiration": "2025-03-12T07:48:17.115446",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "Crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623054328667416,
+            "type": "thought",
+            "created": "2025-03-10T22:10:00",
+            "last_accessed": "2025-03-10T22:10:00",
+            "expiration": "2025-03-13T18:51:50.510024",
+            "content": "Evening commute typically congested between 17:00-18:00",
+            "keywords": [
+                "commute",
+                "congestion",
+                "peak hour"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623054428427341,
+            "type": "thought",
+            "created": "2025-03-10T22:15:00",
+            "last_accessed": "2025-03-10T22:15:00",
+            "expiration": "2025-03-14T15:30:24.553005",
+            "content": "Ave_3 consistently congested during morning commute",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623054429455074,
+            "type": "thought",
+            "created": "2025-03-10T22:15:00",
+            "last_accessed": "2025-03-10T22:15:00",
+            "expiration": "2025-03-12T09:03:17.115446",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623054800644195,
+            "type": "thought",
+            "created": "2025-03-10T22:30:00",
+            "last_accessed": "2025-03-10T22:30:00",
+            "expiration": "2025-03-13T19:11:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during evening commutes",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623054958847761,
+            "type": "thought",
+            "created": "2025-03-10T22:45:00",
+            "last_accessed": "2025-03-10T22:45:00",
+            "expiration": "2025-03-14T16:00:24.553005",
+            "content": "Ave_3 consistently congested during morning commute",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623054959675377,
+            "type": "thought",
+            "created": "2025-03-10T22:45:00",
+            "last_accessed": "2025-03-10T22:45:00",
+            "expiration": "2025-03-13T19:26:50.510024",
+            "content": "Gym less crowded after 17:30",
+            "keywords": [
+                "Gym",
+                "crowd",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623055132175083,
+            "type": "thought",
+            "created": "2025-03-10T23:05:00",
+            "last_accessed": "2025-03-10T23:05:00",
+            "expiration": "2025-03-13T19:46:50.510024",
+            "content": "Ave_3_link_2 experiences peak hour congestion",
+            "keywords": [
+                "Ave_3_link_2",
+                "congestion",
+                "morning",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623055133333760,
+            "type": "thought",
+            "created": "2025-03-10T23:05:00",
+            "last_accessed": "2025-03-10T23:05:00",
+            "expiration": "2025-03-13T19:46:50.510024",
+            "content": "St_1_link_2 has moderate delays during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "delay",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623055435082479,
+            "type": "thought",
+            "created": "2025-03-10T23:55:00",
+            "last_accessed": "2025-03-10T23:55:00",
+            "expiration": "2025-03-14T17:10:24.553005",
+            "content": "Ave_3_link_2 consistently experiences peak hour congestion",
+            "keywords": [
+                "Ave_3_link_2",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055436235656,
+            "type": "thought",
+            "created": "2025-03-10T23:55:00",
+            "last_accessed": "2025-03-10T23:55:00",
+            "expiration": "2025-03-13T20:36:50.510024",
+            "content": "St_1_link_2 shows moderate delays during evening commutes",
+            "keywords": [
+                "St_1_link_2",
+                "delay",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061433365451,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T07:01:00",
+            "expiration": "2025-03-15T00:16:24.553005",
+            "content": "St_1_link_2 prone to congestion during evening travel",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061434210502,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Ave_3 reliable for morning commutes during peak hours",
+            "keywords": [
+                "Ave_3",
+                "reliable",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061434973185,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Gym less crowded around 18:00",
+            "keywords": [
+                "Gym",
+                "less crowded",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061435762014,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Evening buffer helps manage unexpected delays",
+            "keywords": [
+                "buffer",
+                "delay",
+                "evening"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061436602991,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Morning route confirmation improves travel reliability",
+            "keywords": [
+                "morning route",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061500157168,
+            "type": "chat",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-12T11:59:51.512918",
+            "content": "Sandra White will leave home by 06:45 to avoid congestion on St_1. Kevin White confirmed he will drop Grace at School at 07:00 AM and will take the metro home after work so Sandra can use the car for her yoga session at 18:15.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "School",
+                "Midtown apartment",
+                "yoga",
+                "Maria"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623062015443445,
+            "type": "thought",
+            "created": "2025-03-11T06:15:00",
+            "last_accessed": "2025-03-11T06:15:00",
+            "expiration": "2025-03-14T02:56:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during evening hours",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623062016474302,
+            "type": "thought",
+            "created": "2025-03-11T06:15:00",
+            "last_accessed": "2025-03-11T17:36:00",
+            "expiration": "2025-03-14T14:17:50.510024",
+            "content": "Ave_4_link_1 sees moderate congestion in the late afternoon affecting travel to the Gym",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "Gym",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623062232358690,
+            "type": "thought",
+            "created": "2025-03-11T06:45:00",
+            "last_accessed": "2025-03-11T17:36:00",
+            "expiration": "2025-03-14T14:17:50.510024",
+            "content": "Ave_4_link_1 sees afternoon congestion affecting travel to Gym",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "Gym",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623062749942331,
+            "type": "chat",
+            "created": "2025-03-11T06:58:00",
+            "last_accessed": "2025-03-11T17:49:00",
+            "expiration": "2025-03-12T06:23:51.512918",
+            "content": "Sandra White and Kevin White adjusted their daily plans due to traffic congestion on St_1_link_1. Kevin will drop Grace off at School at 07:00 AM and pick her up in the afternoon so Sandra can attend her yoga session at Gym starting at 18:15.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "School",
+                "Gym",
+                "St_1_link_1",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623062853314547,
+            "type": "thought",
+            "created": "2025-03-11T07:00:00",
+            "last_accessed": "2025-03-11T07:00:00",
+            "expiration": "2025-03-14T03:41:50.510024",
+            "content": "St_1 experiences morning congestion",
+            "keywords": [
+                "St_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623062854211230,
+            "type": "thought",
+            "created": "2025-03-11T07:00:00",
+            "last_accessed": "2025-03-11T07:43:00",
+            "expiration": "2025-03-15T00:58:24.553005",
+            "content": "Grace pickup and dropoff coordination needed",
+            "keywords": [
+                "Grace",
+                "School",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "School",
+                "Midtown apartment"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623062856492759,
+            "type": "event",
+            "created": "2025-03-11T07:01:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-14T11:56:09.131897",
+            "content": "Sandra White current activity description: Depart early to avoid congestion on St_1; drive to Factory via reroute to ensure timely arrival by 8:00.; current status: On the trip from Midtown apartment to Factory; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently waiting at link St_1_link_2.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623063208617463,
+            "type": "thought",
+            "created": "2025-03-11T07:11:00",
+            "last_accessed": "2025-03-11T07:11:00",
+            "expiration": "2025-03-14T03:52:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during morning and evening commutes",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623063211433543,
+            "type": "event",
+            "created": "2025-03-11T07:12:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T13:48:34.810763",
+            "content": "Sandra White current activity description: Depart early to avoid congestion on St_1; drive to Factory via reroute to ensure timely arrival by 8:00.; current status: Sandra White on the trip from Midtown apartment to Factory; planned path [('Ave_4_link_1', 'drive', 'Node_3')]; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 4 minutes.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623063222286949,
+            "type": "thought",
+            "created": "2025-03-11T07:12:00",
+            "last_accessed": "2025-03-11T07:12:00",
+            "expiration": "2025-03-14T03:53:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623063752469247,
+            "type": "chat",
+            "created": "2025-03-11T07:23:00",
+            "last_accessed": "2025-03-12T12:49:00",
+            "expiration": "2025-03-13T06:52:10.492267",
+            "content": "Sandra White is delayed due to severe congestion on St_1_link_1 and will arrive late at Factory. Kevin White will handle Grace's morning drop-off and afternoon pickup from School at 15:15. Kevin will adjust his route home to attend the evening yoga session as planned.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "Factory",
+                "School",
+                "yoga"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623063947572001,
+            "type": "event",
+            "created": "2025-03-11T07:27:00",
+            "last_accessed": "2025-03-12T17:30:00",
+            "expiration": "2025-03-13T23:05:10.085385",
+            "content": "Sandra White current activity description: Depart early to avoid congestion on St_1; drive to Factory via reroute to ensure timely arrival by 8:00.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623063948441929,
+            "type": "event",
+            "created": "2025-03-11T07:27:00",
+            "last_accessed": "2025-03-11T20:55:00",
+            "expiration": "2025-03-12T04:08:35.742705",
+            "content": "Marcus Thompson current activity description: Drive to Office for regular work hours; avoiding Ave_2_link_3 by leaving earlier. current status is Marcus Thompson on the trip from Uptown apartment to Office; planned path [('St_5_link_1', 'drive', 'Node_8'), ('St_5_link_2', 'drive', 'Node_2')]; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12')]; currently traveling on link Ave_1_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623063959297501,
+            "type": "thought",
+            "created": "2025-03-11T07:27:00",
+            "last_accessed": "2025-03-11T17:49:00",
+            "expiration": "2025-03-16T09:48:09.440007",
+            "content": "St_1_link_1 consistently experiences severe congestion during morning rush hour",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623064000222023,
+            "type": "thought",
+            "created": "2025-03-11T07:27:00",
+            "last_accessed": "2025-03-11T07:27:00",
+            "expiration": "2025-03-12T18:15:17.115446",
+            "content": "St_2_link_2 occasionally experiences light congestion during morning commute",
+            "keywords": [
+                "St_2_link_2",
+                "congestion",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623064438370887,
+            "type": "chat",
+            "created": "2025-03-11T07:31:00",
+            "last_accessed": "2025-03-11T18:24:00",
+            "expiration": "2025-03-12T06:58:51.512918",
+            "content": "Sandra White will arrive at Factory around 8:11 due to congestion on St_1_link_1. Kevin White will pick up Grace White from School at 15:15 and adjust his route from Factory to Gym to join the yoga session by 18:30. Sandra aims to join the yoga session after coordinating with Maria Lopez.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "Factory",
+                "School",
+                "Gym",
+                "yoga",
+                "St_1_link_1",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623064453058759,
+            "type": "chat",
+            "created": "2025-03-11T07:31:00",
+            "last_accessed": "2025-03-11T17:49:00",
+            "expiration": "2025-03-12T06:23:51.512918",
+            "content": "Sandra White is delayed due to congestion on St_1_link_1 and will arrive at Factory around 8:11. Kevin White confirmed he will pick up Grace from School at 15:15 and adjust his route home to attend the evening yoga session with Maria Lopez.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "Factory",
+                "School",
+                "Maria Lopez",
+                "St_1_link_1",
+                "yoga"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623065020002322,
+            "type": "chat",
+            "created": "2025-03-11T07:40:00",
+            "last_accessed": "2025-03-11T18:24:00",
+            "expiration": "2025-03-12T06:58:51.512918",
+            "content": "Sandra White is delayed in traffic on St_1_link_1 and will arrive at Factory around 8:11. Kevin White will pick up Grace from School at 15:15 and adjust his route to Gym to arrive by 18:30 for the yoga session.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "School",
+                "Gym",
+                "Factory",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623065345992238,
+            "type": "event",
+            "created": "2025-03-11T07:43:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T13:48:34.810763",
+            "content": "Sandra White current activity description: Pick up Grace from School after work finishes; coordinate timing to allow for potential traffic delays.; current status: Sandra White on the trip from Factory to School; planned path [('St_2_link_2', 'drive', 'Node_5')]; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13'), ('St_1_link_2', 'drive', 'Node_9')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623065346850912,
+            "type": "event",
+            "created": "2025-03-11T07:43:00",
+            "last_accessed": "2025-03-11T20:50:00",
+            "expiration": "2025-03-12T04:03:35.742705",
+            "content": "Marcus Thompson current activity description: Drive to Office for regular work hours; avoiding Ave_2_link_3 by leaving earlier. current status is Marcus Thompson on the trip from Uptown apartment to Office; planned path [('St_5_link_2', 'drive', 'Node_2')]; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12'), ('St_5_link_1', 'drive', 'Node_8')]; currently traveling on link St_5_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "St_5_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623065354892126,
+            "type": "thought",
+            "created": "2025-03-11T07:43:00",
+            "last_accessed": "2025-03-11T20:46:00",
+            "expiration": "2025-03-16T12:45:09.440007",
+            "content": "St_1_link_2 consistently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623070026539845,
+            "type": "chat",
+            "created": "2025-03-11T07:52:00",
+            "last_accessed": "2025-03-11T17:11:00",
+            "expiration": "2025-03-12T01:58:16.901153",
+            "content": "Sandra White and Kevin White coordinated their schedules amidst traffic delays. Kevin will arrive at Factory by 8:15, start work by 8:30, and pick up Grace at 15:15. He will join Sandra and Maria for the yoga session at Gym starting at 18:30 instead of 18:15.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Maria",
+                "Factory",
+                "Gym",
+                "yoga"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623070039946023,
+            "type": "event",
+            "created": "2025-03-11T07:53:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-13T11:48:34.810763",
+            "content": "Sandra White current activity description: Pick up Grace from School after work finishes; coordinate timing to allow for potential traffic delays.; current status: Sandra White on the trip from Factory to School; planned path []; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13'), ('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623070040810789,
+            "type": "event",
+            "created": "2025-03-11T07:53:00",
+            "last_accessed": "2025-03-11T21:00:00",
+            "expiration": "2025-03-12T04:13:35.742705",
+            "content": "Marcus Thompson current activity description: Drive to Office for regular work hours; avoiding Ave_2_link_3 by leaving earlier. current status is Marcus Thompson on the trip from Uptown apartment to Office; planned path []; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12'), ('St_5_link_1', 'drive', 'Node_8'), ('St_5_link_2', 'drive', 'Node_2')]; currently traveling on link St_5_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "St_5_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623070041675432,
+            "type": "event",
+            "created": "2025-03-11T07:53:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-12T00:53:35.742705",
+            "content": "Ahmed Hassan current activity description: Commute to Office after dropping off Zara; drive directly to ensure punctuality. current status is Ahmed Hassan on the trip from Uptown apartment to Office; planned path [('Ave_2_link_2', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11'), ('Ave_3_link_3', 'drive', 'Node_2')]; trip trajectory: [('St_2_link_1', 'drive', 'Node_5')]; currently traveling on link St_2_link_1 after waiting for 7 minutes.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Office",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623070058524799,
+            "type": "chat",
+            "created": "2025-03-11T07:53:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-12T06:14:51.512918",
+            "content": "Kevin White and Sandra White coordinated their daily activities. Kevin will pick up Grace from School at 15:15 and meet Sandra at Gym by 18:30 for yoga. To avoid congestion on St_1_link_2, Kevin is taking Ave_4_link_1 to Factory and Sandra is using St_2_link_2 to reach School.",
+            "keywords": [
+                "Kevin White",
+                "Sandra White",
+                "Grace White",
+                "School",
+                "Factory",
+                "Gym",
+                "Ave_4_link_1",
+                "St_1_link_2",
+                "St_2_link_2",
+                "15:15",
+                "18:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623070108642188,
+            "type": "thought",
+            "created": "2025-03-11T07:53:00",
+            "last_accessed": "2025-03-11T07:53:00",
+            "expiration": "2025-03-13T10:21:23.106828",
+            "content": "Ave_4_link_1 experiences light congestion during morning commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623070118654008,
+            "type": "event",
+            "created": "2025-03-11T07:53:00",
+            "last_accessed": "2025-03-11T07:53:00",
+            "expiration": "2025-03-12T03:41:34.810763",
+            "content": "Kevin White travels from School to Factory by travel mode drive; start time is Tue 2025-03-11 07:11; trip time is 42 minutes",
+            "keywords": [
+                "School to Factory",
+                "drive"
+            ],
+            "spatial_scope": "School, Factory, St_2, St_1, Ave_4",
+            "time_scope": [
+                "07:11:00",
+                "07:53:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623072806089075,
+            "type": "event",
+            "created": "2025-03-11T09:41:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-12T00:53:35.742705",
+            "content": "Ahmed Hassan current activity description: Commute to Office after dropping off Zara; drive directly to ensure punctuality. current status is Staying at facility Office.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623073828151792,
+            "type": "event",
+            "created": "2025-03-11T12:11:00",
+            "last_accessed": "2025-03-11T17:49:00",
+            "expiration": "2025-03-12T01:02:35.742705",
+            "content": "Ahmed Hassan current activity description: Visit Museum during lunch break to explore cultural exhibits and relax. current status is Ahmed Hassan on the trip from Office to Museum; planned path []; trip trajectory: [('St_5_link_2', 'drive', 'Node_8'), ('St_5_link_1', 'drive', 'Node_12')]; currently traveling on link St_5_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Museum",
+                "St_5_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623073838618360,
+            "type": "thought",
+            "created": "2025-03-11T12:11:00",
+            "last_accessed": "2025-03-11T12:11:00",
+            "expiration": "2025-03-13T14:39:23.106828",
+            "content": "Gym becomes active in the late afternoon for yoga sessions",
+            "keywords": [
+                "Gym",
+                "yoga",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623074720000342,
+            "type": "chat",
+            "created": "2025-03-11T13:00:00",
+            "last_accessed": "2025-03-11T20:20:00",
+            "expiration": "2025-03-12T05:07:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their plan to meet at the Gym for basketball after work. Kevin will leave Factory on time, and Ahmed will join him at Gym following his schedule.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Factory",
+                "Gym",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623080136322033,
+            "type": "event",
+            "created": "2025-03-11T14:41:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-12T00:53:35.742705",
+            "content": "Marcus Thompson current activity description: Drive to Office for regular work hours; avoiding Ave_2_link_3 by leaving earlier. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623080146867535,
+            "type": "thought",
+            "created": "2025-03-11T14:41:00",
+            "last_accessed": "2025-03-11T17:48:00",
+            "expiration": "2025-03-13T20:16:23.106828",
+            "content": "Gym becomes active in late afternoon for yoga sessions",
+            "keywords": [
+                "Gym",
+                "activity pattern"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623080147884719,
+            "type": "thought",
+            "created": "2025-03-11T14:41:00",
+            "last_accessed": "2025-03-11T14:41:00",
+            "expiration": "2025-03-13T01:29:17.115446",
+            "content": "Factory area traffic remains smooth during midday",
+            "keywords": [
+                "Factory",
+                "traffic pattern"
+            ],
+            "spatial_scope": [
+                "Factory"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623082750921650,
+            "type": "thought",
+            "created": "2025-03-11T17:11:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-14T20:06:50.510024",
+            "content": "Coordination with Sandra's schedule requires clear communication and shared timing buffers",
+            "keywords": [
+                "Sandra White",
+                "coordination",
+                "buffer time"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623083011322628,
+            "type": "thought",
+            "created": "2025-03-11T17:20:00",
+            "last_accessed": "2025-03-11T20:21:00",
+            "expiration": "2025-03-15T13:36:24.553005",
+            "content": "Evening gym sessions benefit from later start around 18:30 to avoid residual commute traffic",
+            "keywords": [
+                "Gym",
+                "evening",
+                "traffic",
+                "18:30"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083025645748,
+            "type": "event",
+            "created": "2025-03-11T17:21:00",
+            "last_accessed": "2025-03-11T17:30:00",
+            "expiration": "2025-03-12T00:43:35.742705",
+            "content": "Marcus Thompson current activity description: Meet with Robert Johnson at Factory to discuss weekend fishing plans; leave Office now to arrive by 16:30. current status is Staying at facility Factory.",
+            "keywords": [
+                "Marcus Thompson",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623083026424635,
+            "type": "event",
+            "created": "2025-03-11T17:21:00",
+            "last_accessed": "2025-03-11T17:49:00",
+            "expiration": "2025-03-12T01:02:35.742705",
+            "content": "Ahmed Hassan current activity description: Visit Museum during lunch break to explore cultural exhibits and relax. current status is Staying at facility Museum.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623083155112354,
+            "type": "event",
+            "created": "2025-03-11T17:27:00",
+            "last_accessed": "2025-03-11T17:30:00",
+            "expiration": "2025-03-12T00:43:35.742705",
+            "content": "Kevin White waits at Ave_4_link_1; start time is Tue 2025-03-11 17:21; wait time is 6 minutes",
+            "keywords": [
+                "wait",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": "Ave_4_link_1",
+            "time_scope": [
+                "17:21:00",
+                "17:27:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623083304099393,
+            "type": "chat",
+            "created": "2025-03-11T17:30:00",
+            "last_accessed": "2025-03-12T08:00:00",
+            "expiration": "2025-03-12T20:34:51.512918",
+            "content": "Ahmed Hassan and Kevin White confirmed plans to meet at Gym for basketball at 17:30. Ahmed is traveling from Office, while Kevin is heading from Factory to Midtown apartment before proceeding to the Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Office",
+                "Factory",
+                "Midtown apartment",
+                "Gym",
+                "basketball",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083321099872,
+            "type": "chat",
+            "created": "2025-03-11T17:30:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-12T02:27:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their meeting at the Gym by 18:00. Ahmed is traveling from Office via Ave_4_link_1 and expects to arrive by 17:45. Kevin is already on Ave_4_link_1 and reports good progress toward the Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Office",
+                "Gym",
+                "Ave_4_link_1",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623083506362956,
+            "type": "event",
+            "created": "2025-03-11T17:36:00",
+            "last_accessed": "2025-03-11T18:24:00",
+            "expiration": "2025-03-12T01:37:35.742705",
+            "content": "Marcus Thompson current activity description: Go to Gym for evening workout session; aiming to finish by 18:30 as previously planned. current status is Marcus Thompson on the trip from Factory to Gym; planned path []; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13')]; currently traveling on link Ave_4_link_1 after waiting for 2 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Gym",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623083507167028,
+            "type": "event",
+            "created": "2025-03-11T17:36:00",
+            "last_accessed": "2025-03-11T18:24:00",
+            "expiration": "2025-03-12T06:49:29.634388",
+            "content": "Ahmed Hassan current activity description: Head to Gym after work to exercise and meet Kevin White for basketball. current status is Ahmed Hassan on the trip from Museum to Gym; planned path [('St_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_3_link_1', 'drive', 'Node_6')]; currently traveling on link St_3_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "St_3_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623083521405297,
+            "type": "chat",
+            "created": "2025-03-11T17:36:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-12T02:47:16.901153",
+            "content": "Kevin White and Ahmed Hassan coordinated their arrival at the Gym for a basketball session. Kevin is en route from Factory to Gym via Ave_4_link_1 with light congestion, and will start warming up. Ahmed is traveling via St_3_link_1 and expects to arrive by 18:00.",
+            "keywords": [
+                "Kevin White",
+                "Ahmed Hassan",
+                "Factory",
+                "Gym",
+                "Ave_4_link_1",
+                "St_3_link_1",
+                "basketball",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623083607081925,
+            "type": "chat",
+            "created": "2025-03-11T17:40:00",
+            "last_accessed": "2025-03-11T17:48:00",
+            "expiration": "2025-03-12T02:35:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their basketball meetup at Gym remains scheduled for 18:00 despite moderate congestion on Ave_4_link_1. Both will arrive by 18:00.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "basketball",
+                "18:00",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623083622139185,
+            "type": "chat",
+            "created": "2025-03-11T17:40:00",
+            "last_accessed": "2025-03-11T20:21:00",
+            "expiration": "2025-03-12T05:08:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their plan to arrive at the Gym by 18:00. Kevin is currently on Ave_4_link_1 and making good progress. Ahmed will adjust his departure time to also reach the Gym by 18:00.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Ave_4_link_1",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623084019508769,
+            "type": "event",
+            "created": "2025-03-11T17:48:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T14:18:34.810763",
+            "content": "Ahmed Hassan current activity description: Head to Gym after work to exercise and meet Kevin White for basketball. current status is Ahmed Hassan on the trip from Museum to Gym; planned path [('Ave_3_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_3_link_1', 'drive', 'Node_6'), ('St_3_link_2', 'drive', 'Node_10')]; currently traveling on link St_3_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "St_3_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623084040288831,
+            "type": "chat",
+            "created": "2025-03-11T17:48:00",
+            "last_accessed": "2025-03-11T20:45:00",
+            "expiration": "2025-03-12T05:32:16.901153",
+            "content": "Kevin White and Ahmed Hassan confirmed their basketball session at the Gym with Marcus. Kevin is heading home first before arriving at the Gym by 18:00, while Ahmed expects to arrive via St_3_link_1 also by 18:00. They will meet Marcus at the Gym entrance for a warm-up before starting.",
+            "keywords": [
+                "Kevin White",
+                "Ahmed Hassan",
+                "Marcus Thompson",
+                "Gym",
+                "18:00",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623084052409987,
+            "type": "thought",
+            "created": "2025-03-11T17:48:00",
+            "last_accessed": "2025-03-11T20:21:00",
+            "expiration": "2025-03-15T13:36:24.553005",
+            "content": "Evening gym sessions benefit from later start around 18:30 to avoid residual commute traffic",
+            "keywords": [
+                "Gym",
+                "session",
+                "18:30"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623084053496654,
+            "type": "thought",
+            "created": "2025-03-11T17:48:00",
+            "last_accessed": "2025-03-11T17:48:00",
+            "expiration": "2025-03-14T14:29:50.510024",
+            "content": "Ave_4_link_1 sees moderate afternoon congestion affecting travel to the Gym",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "16:30:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623084121865999,
+            "type": "chat",
+            "created": "2025-03-11T17:49:00",
+            "last_accessed": "2025-03-11T21:04:00",
+            "expiration": "2025-03-12T05:51:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their 18:00 basketball meetup at Gym. Kevin will leave Midtown apartment by 17:50, while Ahmed will take Ave_4_link_1 to arrive on time. Both agreed to proceed as planned despite light congestion on St_4_link_2.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Midtown apartment",
+                "Ave_4_link_1",
+                "St_4_link_2",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623084707431679,
+            "type": "event",
+            "created": "2025-03-11T18:00:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T14:18:34.810763",
+            "content": "Ahmed Hassan current activity description: Head to Gym after work to exercise and meet Kevin White for basketball. current status is Ahmed Hassan on the trip from Museum to Gym; planned path []; trip trajectory: [('St_3_link_1', 'drive', 'Node_6'), ('St_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623084716793162,
+            "type": "thought",
+            "created": "2025-03-11T18:00:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-13T20:28:23.106828",
+            "content": "Ave_4_link_1 experiences light congestion during evening commutes",
+            "keywords": [
+                "Ave_4_link_1",
+                "light congestion",
+                "evening commute"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623085700332223,
+            "type": "event",
+            "created": "2025-03-11T18:24:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-14T00:05:10.085385",
+            "content": "Sandra White current activity description: After work, head to Gym for yoga session with Maria Lopez; coordinate with Kevin who will also arrive by 18:30.; current status: Staying at facility Gym.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623085701503033,
+            "type": "event",
+            "created": "2025-03-11T18:24:00",
+            "last_accessed": "2025-03-11T20:40:00",
+            "expiration": "2025-03-12T03:53:35.742705",
+            "content": "Marcus Thompson current activity description: Go to Gym for evening workout session; aiming to finish by 18:30 as previously planned. current status is Just finished the trip from None to Gym; waiting at Gym now.",
+            "keywords": [
+                "Marcus Thompson",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623085702561958,
+            "type": "event",
+            "created": "2025-03-11T18:24:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T14:18:34.810763",
+            "content": "Ahmed Hassan current activity description: Head to Gym after work to exercise and meet Kevin White for basketball. current status is Just finished the trip from None to Gym; waiting at Gym now.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623085746979469,
+            "type": "event",
+            "created": "2025-03-11T18:24:00",
+            "last_accessed": "2025-03-11T18:24:00",
+            "expiration": "2025-03-12T01:37:35.742705",
+            "content": "Kevin White travels from Factory to Gym by travel mode drive; start time is Tue 2025-03-11 18:00; trip time is 24 minutes",
+            "keywords": [
+                "Factory to Gym",
+                "drive"
+            ],
+            "spatial_scope": "Factory, Gym, Ave_4, St_1, St_1, St_1, St_1",
+            "time_scope": [
+                "18:00:00",
+                "18:24:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623094946476253,
+            "type": "chat",
+            "created": "2025-03-11T20:20:00",
+            "last_accessed": "2025-03-11T20:55:00",
+            "expiration": "2025-03-12T14:58:10.492267",
+            "content": "Ahmed Hassan and Kevin White are coordinating a basketball session at Gym. Ahmed has started warming up and is saving a spot for Kevin, who is delayed due to traffic on St_1_link_2. Jonathan Lee is expected to arrive in 30 minutes, with serious play set to begin then.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan Lee",
+                "Gym",
+                "basketball",
+                "St_1_link_2",
+                "warm-up"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623095002180298,
+            "type": "chat",
+            "created": "2025-03-11T20:20:00",
+            "last_accessed": "2025-03-11T20:20:00",
+            "expiration": "2025-03-12T01:16:01.577996",
+            "content": "Ahmed Hassan and Kevin White are at the Gym and preparing for a game with Jonathan Lee, who is expected to arrive in 30 minutes. Both are warming up and will start playing seriously once Jonathan arrives.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan Lee",
+                "Gym",
+                "30 minutes"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623095017431479,
+            "type": "chat",
+            "created": "2025-03-11T20:20:00",
+            "last_accessed": "2025-03-11T20:21:00",
+            "expiration": "2025-03-12T05:08:16.901153",
+            "content": "Ahmed Hassan is at Gym waiting for Kevin White and Jonathan Lee. Kevin is traveling from Factory and expects to arrive by 18:30. Ahmed will save a spot for Kevin and wait for both him and Jonathan before starting serious play.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan Lee",
+                "Gym",
+                "Factory",
+                "18:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623095108361347,
+            "type": "chat",
+            "created": "2025-03-11T20:21:00",
+            "last_accessed": "2025-03-11T20:46:00",
+            "expiration": "2025-03-12T09:20:51.512918",
+            "content": "Ahmed Hassan and Kevin White agreed to wait for Jonathan Lee before starting the basketball game at Gym due to moderate congestion on St_1_link_2 causing a 30-minute delay. Ahmed will save a spot and they will begin serious play upon Jonathan's arrival.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan Lee",
+                "Gym",
+                "St_1_link_2",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623095124715560,
+            "type": "chat",
+            "created": "2025-03-11T20:21:00",
+            "last_accessed": "2025-03-11T20:35:00",
+            "expiration": "2025-03-12T05:22:16.901153",
+            "content": "Ahmed Hassan and Kevin White decided to warm up and engage in light play at the Gym while waiting for Jonathan Lee, who is expected to arrive in 30 minutes. They will begin a serious basketball game upon his arrival.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan Lee",
+                "Gym",
+                "basketball game",
+                "warm-up",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623095632323740,
+            "type": "event",
+            "created": "2025-03-11T20:30:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-14T00:05:10.085385",
+            "content": "Kevin White arrived at Gym at Tue 2025-03-11 18:24; and waits for 126 minutes in queue before starting the activity.",
+            "keywords": [
+                "wait",
+                "Gym"
+            ],
+            "spatial_scope": "Gym",
+            "time_scope": [
+                "18:24:00",
+                "20:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623095810627508,
+            "type": "chat",
+            "created": "2025-03-11T20:35:00",
+            "last_accessed": "2025-03-12T08:00:00",
+            "expiration": "2025-03-13T02:03:10.492267",
+            "content": "Kevin White and Ahmed Hassan are coordinating arrival at the Gym for basketball. Despite severe congestion on St_1_link_2 with 22-minute wait times, both plan to warm up lightly upon arrival and start serious play after Jonathan arrives.",
+            "keywords": [
+                "Kevin White",
+                "Ahmed Hassan",
+                "Jonathan",
+                "Gym",
+                "St_1_link_2",
+                "basketball",
+                "warm-up"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623100135116622,
+            "type": "event",
+            "created": "2025-03-11T20:40:00",
+            "last_accessed": "2025-03-12T12:40:00",
+            "expiration": "2025-03-12T18:20:47.228115",
+            "content": "Marcus Thompson current activity description: Return home to Uptown apartment for dinner with family. current status is Marcus Thompson on the trip from Gym to Uptown apartment; planned path [('St_3_link_1', 'drive', 'Node_12'), ('Ave_1_link_1', 'drive', 'Node_1')]; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5'), ('Ave_2_link_2', 'drive', 'Node_6')]; currently traveling on link Ave_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Ave_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623100152094119,
+            "type": "chat",
+            "created": "2025-03-11T20:40:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T12:03:10.492267",
+            "content": "Kevin White and Ahmed Hassan adjusted their basketball plans at the Gym due to severe congestion on St_1_link_2 causing a 16-minute delay. Ahmed is en route and will warm up with Kevin upon arrival, starting serious play after Jonathan arrives.",
+            "keywords": [
+                "Kevin White",
+                "Ahmed Hassan",
+                "Jonathan",
+                "Gym",
+                "St_1_link_2",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623100213318398,
+            "type": "chat",
+            "created": "2025-03-11T20:40:00",
+            "last_accessed": "2025-03-11T20:40:00",
+            "expiration": "2025-03-12T05:27:16.901153",
+            "content": "Kevin White and Ahmed Hassan decided to start warming up at the Gym despite Ahmed's 16-minute delay on St_1_link_2. Kevin will begin light drills and save a spot for both Ahmed and Jonathan.",
+            "keywords": [
+                "Kevin White",
+                "Ahmed Hassan",
+                "Jonathan",
+                "Gym",
+                "St_1_link_2",
+                "light drills"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100317777364,
+            "type": "event",
+            "created": "2025-03-11T20:45:00",
+            "last_accessed": "2025-03-12T12:40:00",
+            "expiration": "2025-03-12T18:25:47.228115",
+            "content": "Ahmed Hassan current activity description: Drive back home to Uptown apartment for dinner and prepare for a restful night. current status is Ahmed Hassan on the trip from Gym to Uptown apartment; planned path [('St_2_link_2', 'drive', 'Node_5'), ('St_2_link_1', 'drive', 'Node_1')]; trip trajectory: [('St_1_link_2', 'drive', 'Node_9')]; currently traveling on link St_1_link_2 after waiting for 13 minutes.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623100328748046,
+            "type": "thought",
+            "created": "2025-03-11T20:45:00",
+            "last_accessed": "2025-03-11T20:55:00",
+            "expiration": "2025-03-16T12:54:09.440007",
+            "content": "St_1_link_2 experiences severe congestion during morning and evening commutes",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623100424581691,
+            "type": "chat",
+            "created": "2025-03-11T20:46:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T12:33:10.492267",
+            "content": "Ahmed Hassan and Kevin White agreed to start warming up immediately at Gym to complete their serious play session before Jonathan arrives. Ahmed plans to head back to Uptown apartment afterward as Fatima is already there, factoring in congestion on St_1_link_2.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Uptown apartment",
+                "St_1_link_2",
+                "Jonathan"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623100442387191,
+            "type": "chat",
+            "created": "2025-03-11T20:46:00",
+            "last_accessed": "2025-03-11T20:46:00",
+            "expiration": "2025-03-12T05:33:16.901153",
+            "content": "Ahmed Hassan and Kevin White began warming up at the Gym with light drills while waiting for Jonathan. Ahmed mentioned delays due to congestion on St_1_link_2, planning to join serious play after Jonathan arrives.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan",
+                "Gym",
+                "St_1_link_2",
+                "light drills",
+                "serious play"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100500153486,
+            "type": "chat",
+            "created": "2025-03-11T20:46:00",
+            "last_accessed": "2025-03-11T21:04:00",
+            "expiration": "2025-03-12T05:51:16.901153",
+            "content": "Ahmed Hassan and Kevin White plan to continue their workout at Gym until around 19:00 when Jonathan Lee is expected to arrive. They will start serious play after Jonathan's arrival. Ahmed will return to Uptown apartment afterward.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan Lee",
+                "Gym",
+                "Uptown apartment",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100617749421,
+            "type": "event",
+            "created": "2025-03-11T20:50:00",
+            "last_accessed": "2025-03-12T12:40:00",
+            "expiration": "2025-03-12T18:30:47.228115",
+            "content": "Marcus Thompson current activity description: Return home to Uptown apartment for dinner with family. current status is Marcus Thompson on the trip from Gym to Uptown apartment; planned path [('Ave_1_link_1', 'drive', 'Node_1')]; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5'), ('Ave_2_link_2', 'drive', 'Node_6'), ('St_3_link_1', 'drive', 'Node_12')]; currently traveling on link St_3_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "St_3_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623100634536413,
+            "type": "chat",
+            "created": "2025-03-11T20:50:00",
+            "last_accessed": "2025-03-11T20:50:00",
+            "expiration": "2025-03-12T05:37:16.901153",
+            "content": "Kevin White is leaving Gym and will take Ave_4_link_1 to avoid congestion on St_1_link_2 with a 16-minute delay. He expects to arrive home before 22:00.",
+            "keywords": [
+                "Kevin White",
+                "Sandra White",
+                "Gym",
+                "Ave_4_link_1",
+                "St_1_link_2",
+                "22:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100729887759,
+            "type": "thought",
+            "created": "2025-03-11T20:55:00",
+            "last_accessed": "2025-03-11T20:55:00",
+            "expiration": "2025-03-15T14:10:24.553005",
+            "content": "St_1_link_2 consistently experiences heavy congestion during evening hours",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623100748410434,
+            "type": "chat",
+            "created": "2025-03-11T20:55:00",
+            "last_accessed": "2025-03-11T20:55:00",
+            "expiration": "2025-03-12T01:51:01.577996",
+            "content": "Ahmed Hassan and Kevin White coordinated their departure after Jonathan Lee arrives for 'serious play'. Ahmed will leave afterward via St_1_link_2, St_2_link_2, and St_2_link_1 to return to Uptown apartment for family time with Fatima. Kevin will join the warm-up and then head back to Midtown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan Lee",
+                "Uptown apartment",
+                "Midtown apartment",
+                "St_1_link_2",
+                "St_2_link_2",
+                "St_2_link_1",
+                "serious play"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623100806499765,
+            "type": "chat",
+            "created": "2025-03-11T20:55:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-13T01:15:10.492267",
+            "content": "Ahmed Hassan and Kevin White decided to start light warm-up drills immediately due to severe congestion on St_1_link_2 delaying Jonathan. Serious play will commence when Jonathan arrives. Ahmed will return to Uptown apartment afterward for dinner with Fatima.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Uptown apartment",
+                "Fatima",
+                "St_1_link_2",
+                "congestion",
+                "warm-up drills",
+                "serious play"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623100828119676,
+            "type": "chat",
+            "created": "2025-03-11T20:55:00",
+            "last_accessed": "2025-03-12T15:31:00",
+            "expiration": "2025-03-13T09:34:10.492267",
+            "content": "Ahmed Hassan and Kevin White agreed to start warming up now at Gym due to severe congestion on St_1_link_2 delaying Jonathan. They plan to begin serious play around 19:00 when Jonathan arrives. Afterward, Ahmed will return home via St_1_link_2, St_2_link_2, and St_2_link_1.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "St_1_link_2",
+                "St_2_link_2",
+                "St_2_link_1",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623100945358583,
+            "type": "event",
+            "created": "2025-03-11T21:00:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-12T01:47:27.194665",
+            "content": "Ahmed Hassan current activity description: Drive back home to Uptown apartment for dinner and prepare for a restful night. current status is Ahmed Hassan on the trip from Gym to Uptown apartment; planned path []; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5'), ('St_2_link_1', 'drive', 'Node_1')]; currently traveling on link St_2_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623100943251185,
+            "type": "event",
+            "created": "2025-03-11T21:00:00",
+            "last_accessed": "2025-03-12T12:40:00",
+            "expiration": "2025-03-12T18:40:47.228115",
+            "content": "Marcus Thompson current activity description: Return home to Uptown apartment for dinner with family. current status is Marcus Thompson on the trip from Gym to Uptown apartment; planned path []; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5'), ('Ave_2_link_2', 'drive', 'Node_6'), ('St_3_link_1', 'drive', 'Node_12'), ('Ave_1_link_1', 'drive', 'Node_1')]; currently traveling on link Ave_1_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Node_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623100954635289,
+            "type": "thought",
+            "created": "2025-03-11T21:00:00",
+            "last_accessed": "2025-03-11T21:00:00",
+            "expiration": "2025-03-16T12:59:09.440007",
+            "content": "St_1_link_2 experiences severe congestion during evening commute hours",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623100955608968,
+            "type": "thought",
+            "created": "2025-03-11T21:00:00",
+            "last_accessed": "2025-03-11T21:00:00",
+            "expiration": "2025-03-15T14:15:24.553005",
+            "content": "Ave_4_link_1 provides reliable travel alternative during St_1_link_2 congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "alternative route",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623101103345237,
+            "type": "chat",
+            "created": "2025-03-11T21:04:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T06:34:51.512918",
+            "content": "Ahmed Hassan and Kevin White agreed to continue their gym session at Gym until around 19:00, starting serious play when Jonathan Lee arrives. Afterward, Kevin will return to Midtown apartment, while Ahmed will go back to Uptown apartment for dinner with Fatima.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Jonathan Lee",
+                "Uptown apartment",
+                "Midtown apartment",
+                "Fatima Hassan",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623101123807323,
+            "type": "chat",
+            "created": "2025-03-11T21:04:00",
+            "last_accessed": "2025-03-11T21:04:00",
+            "expiration": "2025-03-12T05:51:16.901153",
+            "content": "Ahmed Hassan and Kevin White agreed to start warming up for their serious play session now, adjusting intensity based on Jonathan's potential delay. They plan to keep the serious play around 19:00 as scheduled.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "St_1_link_2",
+                "Jonathan",
+                "warm up",
+                "serious play",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623101149646707,
+            "type": "chat",
+            "created": "2025-03-11T21:04:00",
+            "last_accessed": "2025-03-11T21:04:00",
+            "expiration": "2025-03-12T09:38:51.512918",
+            "content": "Ahmed Hassan and Kevin White agreed to start warming up immediately at Gym in preparation for serious play starting around 19:00. Jonathan is expected to join them shortly after 19:00.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Jonathan",
+                "Gym",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623101208826266,
+            "type": "event",
+            "created": "2025-03-11T21:05:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-12T01:47:27.194665",
+            "content": "Ahmed Hassan current activity description: Drive back home to Uptown apartment for dinner and prepare for a restful night. current status is Ahmed Hassan currently staying at facility Uptown apartment engaged in the target activity after waiting for 0 minutes at the facility.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623102046718097,
+            "type": "thought",
+            "created": "2025-03-11T21:30:00",
+            "last_accessed": "2025-03-11T21:30:00",
+            "expiration": "2025-03-15T14:45:24.553005",
+            "content": "St_1_link_2 experiences severe congestion in the evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623102232102000,
+            "type": "thought",
+            "created": "2025-03-11T21:35:00",
+            "last_accessed": "2025-03-11T21:35:00",
+            "expiration": "2025-03-15T14:50:24.553005",
+            "content": "Ave_4_link_1 serves as an efficient detour during St_1_link_2 congestion",
+            "keywords": [
+                "detour",
+                "Ave_4_link_1",
+                "St_1_link_2"
+            ],
+            "spatial_scope": [
+                "St_1_link_2",
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623102356376712,
+            "type": "thought",
+            "created": "2025-03-11T21:40:00",
+            "last_accessed": "2025-03-11T21:40:00",
+            "expiration": "2025-03-15T14:55:24.553005",
+            "content": "Ave_4_link_1 is an efficient alternative during St_1_link_2 congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "St_1_link_2",
+                "congestion detour"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623102647868540,
+            "type": "thought",
+            "created": "2025-03-11T21:45:00",
+            "last_accessed": "2025-03-11T21:45:00",
+            "expiration": "2025-03-15T15:00:24.553005",
+            "content": "Ave_4_link_1 serves as an efficient alternative during St_1_link_2 congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "St_1_link_2",
+                "congestion",
+                "alternative"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623104226952206,
+            "type": "thought",
+            "created": "2025-03-11T23:01:00",
+            "last_accessed": "2025-03-11T23:01:00",
+            "expiration": "2025-03-14T19:42:50.510024",
+            "content": "St_1_link_2 experiences recurring congestion in the evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evenings"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623104640557367,
+            "type": "event",
+            "created": "2025-03-11T23:25:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-12T01:47:27.194665",
+            "content": "Sandra White current activity description: Return home after yoga session; spend the evening with family and prepare for the next day.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623104642894064,
+            "type": "event",
+            "created": "2025-03-11T23:25:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-12T01:47:27.194665",
+            "content": "Marcus Thompson current activity description: Return home to Uptown apartment for dinner with family. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623104643729288,
+            "type": "event",
+            "created": "2025-03-11T23:25:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-12T01:47:27.194665",
+            "content": "Ahmed Hassan current activity description: Drive back home to Uptown apartment for dinner and prepare for a restful night. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623104657108165,
+            "type": "thought",
+            "created": "2025-03-11T23:25:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-14T20:06:50.510024",
+            "content": "St_1_link_2 experiences recurring congestion during evening hours",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623104657944363,
+            "type": "thought",
+            "created": "2025-03-11T23:25:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-16T00:16:24.553005",
+            "content": "Ave_4_link_1 provides reliable direct access from Gym to Midtown apartment",
+            "keywords": [
+                "Ave_4_link_1",
+                "direct",
+                "Gym",
+                "Midtown apartment"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623104658784806,
+            "type": "event",
+            "created": "2025-03-11T23:25:00",
+            "last_accessed": "2025-03-11T23:25:00",
+            "expiration": "2025-03-12T06:38:35.742705",
+            "content": "Kevin White travels from Gym to Midtown apartment by travel mode drive; start time is Tue 2025-03-11 23:01; trip time is 24 minutes",
+            "keywords": [
+                "Gym to Midtown apartment",
+                "drive"
+            ],
+            "spatial_scope": "Gym, Midtown apartment, St_1, St_1",
+            "time_scope": [
+                "23:01:00",
+                "23:25:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623110502806038,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Ave_4_link_1 serves as a reliable alternative during evening commutes",
+            "keywords": [
+                "route optimization",
+                "traffic avoidance",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623110503612830,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "St_1_link_2 experiences recurring evening congestion",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623110504408956,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Gym meetup coordination requires precise timing",
+            "keywords": [
+                "Gym",
+                "meetup",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623110505464070,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Evening activity departures should be earlier to avoid delays",
+            "keywords": [
+                "scheduling",
+                "buffer time",
+                "evening routine"
+            ],
+            "spatial_scope": [
+                "The town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623110506793542,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Direct route home may not always be optimal; flexibility is key",
+            "keywords": [
+                "route choice",
+                "adaptability",
+                "traffic response"
+            ],
+            "spatial_scope": [
+                "Factory",
+                "Midtown apartment",
+                "Gym"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111317567671,
+            "type": "chat",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-12T19:35:51.512918",
+            "content": "Kevin White will drop Grace White at School today by 6:30 AM to avoid congestion on St_1. Sandra White will reroute her commute via Ave_3_link_1 and St_2_link_1, leaving by 6:45 AM. Both plan to return to Midtown apartment by 7:30 PM for dinner.",
+            "keywords": [
+                "Kevin White",
+                "Sandra White",
+                "Grace White",
+                "School",
+                "St_1",
+                "Ave_3_link_1",
+                "St_2_link_1",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111318252393,
+            "type": "chat",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T12:49:00",
+            "expiration": "2025-03-13T01:23:51.512918",
+            "content": "Sandra White and Kevin White coordinated their daily plans to avoid congestion on St_1 links. Kevin will use the car in the morning, taking Ave_3_link_1 and St_2_link_1 to commute to Factory and pick up Grace from School at 15:00. Sandra will use the car in the evening for a yoga session at Gym, departing Factory by 18:15.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "Factory",
+                "School",
+                "Gym",
+                "Ave_3_link_1",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111339317840,
+            "type": "chat",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T15:25:00",
+            "expiration": "2025-03-13T03:59:51.512918",
+            "content": "Sandra White and Kevin White coordinated morning travel plans - Kevin will drop Sandra off at Factory on their way to work at 6:15 AM via Ave_3_link_1 and St_2_link_1 to avoid congestion. Sandra will pick up Grace White from School at 15:00 after her shift ends. They plan to check for traffic updates or schedule changes during lunch.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "Factory",
+                "School",
+                "Ave_3_link_1",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111342850116,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "Ave_4_link_1 serves as a reliable alternative during evening commutes",
+            "keywords": [
+                "Ave_4_link_1",
+                "reliable route",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111343672460,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "St_1_link_2 experiences recurring evening congestion",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111344455534,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "Evening activity departures should be earlier to avoid delays",
+            "keywords": [
+                "evening departure",
+                "delay avoidance"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111345239737,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "Direct route home may not always be optimal; flexibility is key",
+            "keywords": [
+                "route flexibility",
+                "optimal path"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111345969450,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-16T09:15:24.553005",
+            "content": "Gym meetup coordination requires precise timing",
+            "keywords": [
+                "Gym",
+                "meetup",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623112124006452,
+            "type": "event",
+            "created": "2025-03-12T06:15:00",
+            "last_accessed": "2025-03-12T06:15:00",
+            "expiration": "2025-03-12T06:29:00",
+            "content": "Sandra White current activity description: Sleeping at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112124841525,
+            "type": "event",
+            "created": "2025-03-12T06:15:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-12T09:34:27.194665",
+            "content": "Marcus Thompson current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112125762721,
+            "type": "event",
+            "created": "2025-03-12T06:15:00",
+            "last_accessed": "2025-03-12T06:15:00",
+            "expiration": "2025-03-12T06:29:00",
+            "content": "Ahmed Hassan current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112246074922,
+            "type": "event",
+            "created": "2025-03-12T06:30:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-12T09:23:27.194665",
+            "content": "Sandra White current activity description: Sleeping at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112246901116,
+            "type": "event",
+            "created": "2025-03-12T06:30:00",
+            "last_accessed": "2025-03-12T06:30:00",
+            "expiration": "2025-03-12T06:30:00",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112247819433,
+            "type": "event",
+            "created": "2025-03-12T06:30:00",
+            "last_accessed": "2025-03-12T06:30:00",
+            "expiration": "2025-03-12T06:30:00",
+            "content": "Ahmed Hassan current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112302923751,
+            "type": "thought",
+            "created": "2025-03-12T06:30:00",
+            "last_accessed": "2025-03-12T06:30:00",
+            "expiration": "2025-03-14T08:58:23.106828",
+            "content": "St_1_link_2 occasionally congested during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623112303880408,
+            "type": "thought",
+            "created": "2025-03-12T06:30:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-15T03:42:50.510024",
+            "content": "Ave_4_link_1 provides reliable direct access from Gym to Midtown apartment",
+            "keywords": [
+                "Ave_4_link_1",
+                "reliable",
+                "Gym",
+                "Midtown apartment"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623112310386625,
+            "type": "event",
+            "created": "2025-03-12T06:31:00",
+            "last_accessed": "2025-03-12T06:31:00",
+            "expiration": "2025-03-12T06:39:00",
+            "content": "Sandra White current activity description: Wake up and complete morning routines at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112311425071,
+            "type": "event",
+            "created": "2025-03-12T06:31:00",
+            "last_accessed": "2025-03-12T06:31:00",
+            "expiration": "2025-03-12T06:39:00",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112312343126,
+            "type": "event",
+            "created": "2025-03-12T06:31:00",
+            "last_accessed": "2025-03-12T06:31:00",
+            "expiration": "2025-03-12T06:39:00",
+            "content": "Ahmed Hassan current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112326837372,
+            "type": "event",
+            "created": "2025-03-12T06:40:00",
+            "last_accessed": "2025-03-12T06:40:00",
+            "expiration": "2025-03-12T06:40:00",
+            "content": "Sandra White current activity description: Wake up and complete morning routines at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112328010466,
+            "type": "event",
+            "created": "2025-03-12T06:40:00",
+            "last_accessed": "2025-03-12T06:40:00",
+            "expiration": "2025-03-12T06:40:00",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112328932935,
+            "type": "event",
+            "created": "2025-03-12T06:40:00",
+            "last_accessed": "2025-03-12T06:40:00",
+            "expiration": "2025-03-12T06:40:00",
+            "content": "Ahmed Hassan current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112341799707,
+            "type": "event",
+            "created": "2025-03-12T06:40:00",
+            "last_accessed": "2025-03-12T06:40:00",
+            "expiration": "2025-03-12T09:02:27.194665",
+            "content": "Kevin White travels from Midtown apartment to School by travel mode drive; start time is Wed 2025-03-12 06:30; trip time is 10 minutes",
+            "keywords": [
+                "Midtown apartment to School",
+                "drive"
+            ],
+            "spatial_scope": "Midtown apartment, School, Ave_2",
+            "time_scope": [
+                "06:30:00",
+                "06:40:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112343166957,
+            "type": "event",
+            "created": "2025-03-12T06:41:00",
+            "last_accessed": "2025-03-12T06:41:00",
+            "expiration": "2025-03-12T06:41:00",
+            "content": "Sandra White current activity description: Wake up and complete morning routines at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112344264272,
+            "type": "event",
+            "created": "2025-03-12T06:41:00",
+            "last_accessed": "2025-03-12T06:41:00",
+            "expiration": "2025-03-12T06:41:00",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112345078068,
+            "type": "event",
+            "created": "2025-03-12T06:41:00",
+            "last_accessed": "2025-03-12T06:41:00",
+            "expiration": "2025-03-12T06:41:00",
+            "content": "Ahmed Hassan current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112352587889,
+            "type": "event",
+            "created": "2025-03-12T06:42:00",
+            "last_accessed": "2025-03-12T06:42:00",
+            "expiration": "2025-03-12T06:50:00",
+            "content": "Sandra White current activity description: Wake up and complete morning routines at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112353451058,
+            "type": "event",
+            "created": "2025-03-12T06:42:00",
+            "last_accessed": "2025-03-12T06:42:00",
+            "expiration": "2025-03-12T06:50:00",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112354326874,
+            "type": "event",
+            "created": "2025-03-12T06:42:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-12T09:34:27.194665",
+            "content": "Ahmed Hassan current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112639575224,
+            "type": "event",
+            "created": "2025-03-12T06:51:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-12T09:23:27.194665",
+            "content": "Sandra White current activity description: Wake up and complete morning routines at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112640632718,
+            "type": "event",
+            "created": "2025-03-12T06:51:00",
+            "last_accessed": "2025-03-12T06:51:00",
+            "expiration": "2025-03-12T07:02:00",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112641497096,
+            "type": "event",
+            "created": "2025-03-12T06:51:00",
+            "last_accessed": "2025-03-12T07:00:00",
+            "expiration": "2025-03-12T07:02:00",
+            "content": "Ahmed Hassan current activity description: Wake up at home and completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623112655479939,
+            "type": "thought",
+            "created": "2025-03-12T06:51:00",
+            "last_accessed": "2025-03-12T06:51:00",
+            "expiration": "2025-03-15T03:32:50.510024",
+            "content": "Ave_4_link_1 provides reliable direct access from Gym to Midtown apartment",
+            "keywords": [
+                "reliable",
+                "direct access"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623112656292561,
+            "type": "thought",
+            "created": "2025-03-12T06:51:00",
+            "last_accessed": "2025-03-12T06:51:00",
+            "expiration": "2025-03-15T03:32:50.510024",
+            "content": "St_1_link_2 experiences delays during morning commutes",
+            "keywords": [
+                "delays",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113053146778,
+            "type": "chat",
+            "created": "2025-03-12T07:00:00",
+            "last_accessed": "2025-03-12T15:31:00",
+            "expiration": "2025-03-13T00:18:16.901153",
+            "content": "Sandra White and Kevin White discussed potential route adjustments due to congestion on St_1_link_2. Kevin decided to stay on his current route to drop Grace at School by 6:30 AM. They agreed to reassess evening plans at lunch based on traffic updates.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "School",
+                "St_1_link_2",
+                "Ave_4_link_1",
+                "6:30 AM",
+                "lunch"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113115509113,
+            "type": "chat",
+            "created": "2025-03-12T07:00:00",
+            "last_accessed": "2025-03-12T07:00:00",
+            "expiration": "2025-03-12T11:56:01.577996",
+            "content": "Sandra White and Kevin White confirmed their morning travel plans. Kevin experienced a 5-minute delay on St_1_link_2 but rerouted successfully and dropped Grace at School on time before reaching Factory by 8:00. Sandra will leave Midtown apartment by 6:45 AM via Ave_3_link_1 and St_2_link_1 to Factory, as previously discussed.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "Midtown apartment",
+                "School",
+                "Factory",
+                "Ave_3_link_1",
+                "St_2_link_1",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623113148136827,
+            "type": "chat",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-12T15:37:00",
+            "expiration": "2025-03-13T00:24:16.901153",
+            "content": "Sandra White and Kevin White confirmed their morning travel plans\u2014Kevin will drop Grace at School on time despite a 5-minute delay on St_1_link_2, while Sandra will leave by 6:45 AM via Ave_3_link_1 and St_2_link_1 to avoid congestion. Both are heading to Factory for work.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "School",
+                "Factory",
+                "Ave_3_link_1",
+                "St_2_link_1",
+                "St_1_link_2",
+                "6:45 AM"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113232629598,
+            "type": "event",
+            "created": "2025-03-12T07:03:00",
+            "last_accessed": "2025-03-12T07:03:00",
+            "expiration": "2025-03-12T07:11:00",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive before 8:00 using reroute to avoid St_1 congestion.; current status: On the trip from Midtown apartment to Factory; trip trajectory: [('St_1_link_1', 'drive', 'Node_9')]; currently waiting at link St_1_link_1.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113233484942,
+            "type": "event",
+            "created": "2025-03-12T07:03:00",
+            "last_accessed": "2025-03-12T07:03:00",
+            "expiration": "2025-03-12T07:11:00",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623113234336224,
+            "type": "event",
+            "created": "2025-03-12T07:03:00",
+            "last_accessed": "2025-03-12T07:03:00",
+            "expiration": "2025-03-12T07:11:00",
+            "content": "Ahmed Hassan current activity description: Wake up at home and completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623113252687801,
+            "type": "thought",
+            "created": "2025-03-12T07:03:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-12T07:11:00",
+            "content": "St_1_link_1 consistently congested during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623113253669292,
+            "type": "thought",
+            "created": "2025-03-12T07:03:00",
+            "last_accessed": "2025-03-12T07:03:00",
+            "expiration": "2025-03-12T07:11:00",
+            "content": "Grace pickup required at 15:15 when Sandra delayed",
+            "keywords": [
+                "School",
+                "pickup",
+                "Grace",
+                "15:15"
+            ],
+            "spatial_scope": [
+                "School"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "15:30:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623113640821987,
+            "type": "event",
+            "created": "2025-03-12T07:12:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T13:48:34.810763",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive before 8:00 using reroute to avoid St_1 congestion.; current status: On the trip from Midtown apartment to Factory; trip trajectory: [('St_1_link_1', 'drive', 'Node_9')]; currently waiting at link St_1_link_1.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113641923961,
+            "type": "event",
+            "created": "2025-03-12T07:12:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-12T09:34:27.194665",
+            "content": "Marcus Thompson current activity description: Wake up at home, completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Marcus Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623113642946431,
+            "type": "event",
+            "created": "2025-03-12T07:12:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-12T09:34:27.194665",
+            "content": "Ahmed Hassan current activity description: Wake up at home and completes his morning routine. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623113707018485,
+            "type": "chat",
+            "created": "2025-03-12T07:12:00",
+            "last_accessed": "2025-03-12T12:49:00",
+            "expiration": "2025-03-12T21:36:16.901153",
+            "content": "Kevin White will handle Grace White's pickup at School at 15:15 as planned, departing Factory around 15:00. Sandra White is en route to Factory and expects to arrive by 7:25 despite initial congestion on St_1_link_1. Both will confirm updates at noon and upon Sandra's arrival at Factory.",
+            "keywords": [
+                "Kevin White",
+                "Sandra White",
+                "Grace White",
+                "Factory",
+                "School",
+                "St_1_link_1",
+                "pickup"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113718993175,
+            "type": "thought",
+            "created": "2025-03-12T07:12:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-16T00:27:24.553005",
+            "content": "St_1_link_1 consistently congested during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623113721349316,
+            "type": "thought",
+            "created": "2025-03-12T07:12:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-17T07:59:09.440007",
+            "content": "Grace pickup required at 15:15 when Sandra delayed",
+            "keywords": [
+                "School",
+                "pickup",
+                "15:15"
+            ],
+            "spatial_scope": [
+                "School"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "15:30:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623113722503039,
+            "type": "event",
+            "created": "2025-03-12T07:12:00",
+            "last_accessed": "2025-03-12T07:12:00",
+            "expiration": "2025-03-12T14:25:35.742705",
+            "content": "Kevin White travels from School to Factory by travel mode drive; start time is Wed 2025-03-12 06:41; trip time is 31 minutes",
+            "keywords": [
+                "School to Factory",
+                "drive"
+            ],
+            "spatial_scope": "School, Factory, St_2, St_1, Ave_4",
+            "time_scope": [
+                "06:41:00",
+                "07:12:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623120903815830,
+            "type": "event",
+            "created": "2025-03-12T08:00:00",
+            "last_accessed": "2025-03-12T17:30:00",
+            "expiration": "2025-03-13T13:18:34.810763",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive before 8:00 using reroute to avoid St_1 congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623120905007327,
+            "type": "event",
+            "created": "2025-03-12T08:00:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T01:13:35.742705",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Marcus Thompson on the trip from School to Office; planned path [('Ave_3_link_1', 'drive', 'Node_10'), ('Ave_3_link_2', 'drive', 'Node_11'), ('Ave_3_link_3', 'drive', 'Node_2')]; trip trajectory: [('St_2_link_2', 'drive', 'Node_9')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Node_9"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623120905898330,
+            "type": "event",
+            "created": "2025-03-12T08:00:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T01:13:35.742705",
+            "content": "Ahmed Hassan current activity description: Take Metro_2 from Uptown apartment to Office for a productive workday as an engineer. current status is Ahmed Hassan on the trip from Uptown apartment to Office; planned path [('Metro_1_link_4', 'ride', 'Node_8'), ('Metro_1_link_5', 'ride', 'Node_2')]; trip trajectory: [('Metro_2_link_1', 'ride', 'Node_12'), ('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_1_link_3', 'ride', 'Node_7')]; currently waiting at link Metro_1_link_3.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Office",
+                "Metro_1_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623120918282134,
+            "type": "thought",
+            "created": "2025-03-12T08:00:00",
+            "last_accessed": "2025-03-12T08:00:00",
+            "expiration": "2025-03-16T01:15:24.553005",
+            "content": "St_1_link_2 often experiences delays during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623120919203045,
+            "type": "thought",
+            "created": "2025-03-12T08:00:00",
+            "last_accessed": "2025-03-12T08:00:00",
+            "expiration": "2025-03-15T04:41:50.510024",
+            "content": "St_5_link_1 has moderate congestion in the morning",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "9-min-wait"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "10:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623121323361965,
+            "type": "chat",
+            "created": "2025-03-12T08:07:00",
+            "last_accessed": "2025-03-12T08:07:00",
+            "expiration": "2025-03-12T16:54:16.901153",
+            "content": "Ahmed Hassan informed Kevin White about potential morning delay due to metro delays, but confirmed plans to meet at the Gym for basketball at 17:30. Kevin agreed to keep the plan unless notified otherwise.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "metro delays",
+                "17:30",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623122425779024,
+            "type": "chat",
+            "created": "2025-03-12T08:35:00",
+            "last_accessed": "2025-03-12T08:35:00",
+            "expiration": "2025-03-12T17:22:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their basketball plans at Gym starting at 17:30 despite Metro delays. Ahmed will adjust his schedule based on traffic but aims to arrive on time. Kevin will be at the Gym by 17:30 for a light warm-up.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "17:30",
+                "basketball",
+                "Metro"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623124904135631,
+            "type": "chat",
+            "created": "2025-03-12T12:40:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T02:47:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed basketball plans at 17:30 at the Gym after work. Ahmed will leave Office on time to arrive by 17:30, following his earlier session at the Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Office",
+                "17:30",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623124923786724,
+            "type": "chat",
+            "created": "2025-03-12T12:40:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T02:47:16.901153",
+            "content": "Ahmed Hassan confirmed he is heading back to the Office after spending extra time at the Gym since 09:10. He plans to complete pending tasks before 17:00 and confirmed his basketball plans with Kevin White at 17:30.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Office",
+                "basketball",
+                "17:30",
+                "09:10"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623124938098356,
+            "type": "chat",
+            "created": "2025-03-12T12:40:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T02:47:16.901153",
+            "content": "Ahmed Hassan will join Kevin White at the Gym by 17:30 for basketball after finishing work at the Office. Both have confirmed their attendance at the scheduled time.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Office",
+                "basketball",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623125144074648,
+            "type": "chat",
+            "created": "2025-03-12T12:49:00",
+            "last_accessed": "2025-03-12T12:49:00",
+            "expiration": "2025-03-12T21:36:16.901153",
+            "content": "Ahmed Hassan will head to the Gym after leaving the Factory and should arrive by 13:00. Kevin White will stay at the Factory until 17:00 and then go to the Gym. Both plan to play basketball together at 17:30.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Factory",
+                "Gym",
+                "basketball",
+                "13:00",
+                "17:00",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623125158610950,
+            "type": "chat",
+            "created": "2025-03-12T12:49:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-13T05:34:51.512918",
+            "content": "Ahmed Hassan is heading directly to the Gym after leaving the Factory due to traffic on Ave_3_link_3 and should arrive by 13:00. He and Kevin White confirmed their basketball session at 17:30 at the Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Factory",
+                "Ave_3_link_3",
+                "basketball",
+                "13:00",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623125214611894,
+            "type": "chat",
+            "created": "2025-03-12T12:49:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T07:04:51.512918",
+            "content": "Ahmed Hassan and Kevin White confirmed their basketball session at Gym starting at 17:30. Ahmed is en route to the Gym after leaving the Factory and expects to arrive by 13:00.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "basketball",
+                "17:30",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623131544797875,
+            "type": "event",
+            "created": "2025-03-12T15:15:00",
+            "last_accessed": "2025-03-12T15:15:00",
+            "expiration": "2025-03-12T15:15:00",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays.; current status: Sandra White on the trip from Factory to School; planned path [('St_2_link_2', 'drive', 'Node_5')]; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13'), ('St_1_link_2', 'drive', 'Node_9')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623131545618012,
+            "type": "event",
+            "created": "2025-03-12T15:15:00",
+            "last_accessed": "2025-03-12T15:15:00",
+            "expiration": "2025-03-12T15:15:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623131546561422,
+            "type": "event",
+            "created": "2025-03-12T15:15:00",
+            "last_accessed": "2025-03-12T15:15:00",
+            "expiration": "2025-03-12T15:15:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623131640722593,
+            "type": "event",
+            "created": "2025-03-12T15:16:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-13T11:48:34.810763",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays.; current status: Sandra White on the trip from Factory to School; planned path [('St_2_link_2', 'drive', 'Node_5')]; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13'), ('St_1_link_2', 'drive', 'Node_9')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623131641855923,
+            "type": "event",
+            "created": "2025-03-12T15:16:00",
+            "last_accessed": "2025-03-12T15:16:00",
+            "expiration": "2025-03-12T15:24:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623131642715051,
+            "type": "event",
+            "created": "2025-03-12T15:16:00",
+            "last_accessed": "2025-03-12T15:16:00",
+            "expiration": "2025-03-12T15:24:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623131731176019,
+            "type": "event",
+            "created": "2025-03-12T15:25:00",
+            "last_accessed": "2025-03-12T16:22:00",
+            "expiration": "2025-03-13T12:10:34.810763",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays.; current status: Sandra White on the trip from Factory to School; planned path []; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13'), ('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623131732276200,
+            "type": "event",
+            "created": "2025-03-12T15:25:00",
+            "last_accessed": "2025-03-12T15:31:00",
+            "expiration": "2025-03-12T15:36:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623131733197928,
+            "type": "event",
+            "created": "2025-03-12T15:25:00",
+            "last_accessed": "2025-03-12T15:31:00",
+            "expiration": "2025-03-12T15:36:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623131744823890,
+            "type": "chat",
+            "created": "2025-03-12T15:25:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-13T00:47:16.901153",
+            "content": "Kevin White will pick up Grace White from School at 15:15 directly after work, confirming his route from Factory. Sandra White's schedule remains unchanged.",
+            "keywords": [
+                "Kevin White",
+                "Sandra White",
+                "Grace White",
+                "Factory",
+                "School",
+                "pickup"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623131931944881,
+            "type": "chat",
+            "created": "2025-03-12T15:31:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T07:04:51.512918",
+            "content": "Sandra White will head directly to the Gym for a family wellness session instead of picking up Grace White from School. Kevin White will pick up Grace at 15:15 and go to the Gym. Sandra expects to join them around 16:00.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Grace White",
+                "School",
+                "Gym",
+                "family wellness"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623132029205813,
+            "type": "event",
+            "created": "2025-03-12T15:37:00",
+            "last_accessed": "2025-03-12T15:37:00",
+            "expiration": "2025-03-12T15:45:00",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays.; current status: Staying at facility School.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "School"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623132030152905,
+            "type": "event",
+            "created": "2025-03-12T15:37:00",
+            "last_accessed": "2025-03-12T15:37:00",
+            "expiration": "2025-03-12T15:45:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132031056143,
+            "type": "event",
+            "created": "2025-03-12T15:37:00",
+            "last_accessed": "2025-03-12T15:37:00",
+            "expiration": "2025-03-12T15:45:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132137736528,
+            "type": "event",
+            "created": "2025-03-12T15:46:00",
+            "last_accessed": "2025-03-12T15:46:00",
+            "expiration": "2025-03-12T15:59:00",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays.; current status: Staying at facility School.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "School"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623132138627186,
+            "type": "event",
+            "created": "2025-03-12T15:46:00",
+            "last_accessed": "2025-03-12T15:46:00",
+            "expiration": "2025-03-12T15:59:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132139449167,
+            "type": "event",
+            "created": "2025-03-12T15:46:00",
+            "last_accessed": "2025-03-12T15:46:00",
+            "expiration": "2025-03-12T15:59:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132156371908,
+            "type": "thought",
+            "created": "2025-03-12T15:46:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-15T12:41:50.510024",
+            "content": "Family coordination requires early confirmation of pickup arrangements",
+            "keywords": [
+                "Grace",
+                "School",
+                "pickup"
+            ],
+            "spatial_scope": [
+                "School"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623132157293870,
+            "type": "thought",
+            "created": "2025-03-12T15:46:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-15T15:11:50.510024",
+            "content": "Evening sports sessions at Gym can be combined with family wellness time",
+            "keywords": [
+                "Gym",
+                "basketball",
+                "wellness"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623132158232434,
+            "type": "event",
+            "created": "2025-03-12T15:46:00",
+            "last_accessed": "2025-03-12T15:46:00",
+            "expiration": "2025-03-12T22:59:35.742705",
+            "content": "Kevin White travels from Factory to School by travel mode drive; start time is Wed 2025-03-12 15:15; trip time is 31 minutes",
+            "keywords": [
+                "Factory to School",
+                "drive"
+            ],
+            "spatial_scope": "Factory, School, Ave_4, St_1, St_2",
+            "time_scope": [
+                "15:15:00",
+                "15:46:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132359667104,
+            "type": "event",
+            "created": "2025-03-12T16:00:00",
+            "last_accessed": "2025-03-12T16:10:00",
+            "expiration": "2025-03-13T11:58:34.810763",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays.; current status: Staying at facility School.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "School"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623132400431069,
+            "type": "event",
+            "created": "2025-03-12T16:00:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-12T16:00:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132401621055,
+            "type": "event",
+            "created": "2025-03-12T16:00:00",
+            "last_accessed": "2025-03-12T16:00:00",
+            "expiration": "2025-03-12T16:00:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132419621623,
+            "type": "chat",
+            "created": "2025-03-12T16:00:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T06:34:51.512918",
+            "content": "Sandra White and Kevin White coordinated to meet at the Gym around 16:00. Kevin will pick up their daughter Grace from School at 15:15 and head directly to the Gym for family yoga, avoiding duplicate pickups. Sandra is en route to the Gym and expects no traffic issues.",
+            "keywords": [
+                "Sandra White",
+                "Kevin White",
+                "Gym",
+                "School",
+                "Grace White",
+                "family yoga",
+                "pickup"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623132434552221,
+            "type": "event",
+            "created": "2025-03-12T16:01:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T01:43:35.742705",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time.; current status: Sandra White on the trip from School to Gym; planned path: [('St_2_link_2', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')] trip trajectory: []; currently at node Node_5.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Node_5"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132435366229,
+            "type": "event",
+            "created": "2025-03-12T16:01:00",
+            "last_accessed": "2025-03-12T16:01:00",
+            "expiration": "2025-03-12T16:09:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132436379996,
+            "type": "event",
+            "created": "2025-03-12T16:01:00",
+            "last_accessed": "2025-03-12T16:01:00",
+            "expiration": "2025-03-12T16:09:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132543630306,
+            "type": "event",
+            "created": "2025-03-12T16:10:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T01:43:35.742705",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time.; current status: Sandra White on the trip from School to Gym; planned path [('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_2_link_2', 'drive', 'Node_9')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Node_9"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132544401537,
+            "type": "event",
+            "created": "2025-03-12T16:10:00",
+            "last_accessed": "2025-03-12T16:10:00",
+            "expiration": "2025-03-12T16:21:00",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132545333701,
+            "type": "event",
+            "created": "2025-03-12T16:10:00",
+            "last_accessed": "2025-03-12T16:10:00",
+            "expiration": "2025-03-12T16:21:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132826724225,
+            "type": "event",
+            "created": "2025-03-12T16:22:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T01:43:35.742705",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time.; current status: Sandra White on the trip from School to Gym; planned path []; trip trajectory: [('St_2_link_2', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Node_13"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132827592674,
+            "type": "event",
+            "created": "2025-03-12T16:22:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T01:13:35.742705",
+            "content": "Marcus Thompson current activity description: Arrive at Office by 8:30 AM for regular work hours; avoiding potential congestion buildup later on major roads. current status is Staying at facility Office.",
+            "keywords": [
+                "Marcus Thompson",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132828399499,
+            "type": "event",
+            "created": "2025-03-12T16:22:00",
+            "last_accessed": "2025-03-12T16:22:00",
+            "expiration": "2025-03-12T16:59:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623132837584878,
+            "type": "event",
+            "created": "2025-03-12T16:22:00",
+            "last_accessed": "2025-03-12T16:22:00",
+            "expiration": "2025-03-12T23:35:35.742705",
+            "content": "Kevin White travels from School to Gym by travel mode drive; start time is Wed 2025-03-12 16:00; trip time is 22 minutes",
+            "keywords": [
+                "School to Gym",
+                "drive"
+            ],
+            "spatial_scope": "School, Gym, St_2, St_1",
+            "time_scope": [
+                "16:00:00",
+                "16:22:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133333147042,
+            "type": "event",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-12T17:29:00",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time.; current status: Just finished the trip from None to Gym; waiting at Gym now.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133333997101,
+            "type": "event",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-12T17:29:00",
+            "content": "Marcus Thompson current activity description: Head to Factory for a meeting with Robert Johnson; planned arrival around 16:50. current status is Staying at facility Factory.",
+            "keywords": [
+                "Marcus Thompson",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133335573207,
+            "type": "event",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-12T17:29:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133358407677,
+            "type": "chat",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-13T01:47:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their basketball session at 17:30 at the Gym. Ahmed is en route and expected to arrive on time, while Kevin is already there with Grace and Sandra.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Grace White",
+                "Sandra White",
+                "Gym",
+                "17:30",
+                "basketball"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623134411957431,
+            "type": "event",
+            "created": "2025-03-12T17:30:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T01:43:35.742705",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time.; current status: Just finished the trip from None to Gym; waiting at Gym now.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134412847439,
+            "type": "event",
+            "created": "2025-03-12T17:30:00",
+            "last_accessed": "2025-03-12T17:30:00",
+            "expiration": "2025-03-13T00:43:35.742705",
+            "content": "Marcus Thompson current activity description: Head to Factory for a meeting with Robert Johnson; planned arrival around 16:50. current status is Staying at facility Factory.",
+            "keywords": [
+                "Marcus Thompson",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134413654039,
+            "type": "event",
+            "created": "2025-03-12T17:30:00",
+            "last_accessed": "2025-03-12T17:30:00",
+            "expiration": "2025-03-12T18:29:00",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623140511817300,
+            "type": "chat",
+            "created": "2025-03-12T18:00:00",
+            "last_accessed": "2025-03-12T18:00:00",
+            "expiration": "2025-03-13T02:47:16.901153",
+            "content": "Ahmed Hassan and Kevin White confirmed their basketball session at Gym will proceed as planned starting at 17:30. Ahmed is already at the Gym after skipping his return to Office due to light congestion on St_3_link_1 with a 4-minute wait time. Kevin arrived at 17:00 and warmed up.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Kevin White",
+                "Gym",
+                "Office",
+                "St_3_link_1",
+                "basketball",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623142632353597,
+            "type": "event",
+            "created": "2025-03-12T18:30:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T01:43:35.742705",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time.; current status: Staying at facility Gym.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623142633227762,
+            "type": "event",
+            "created": "2025-03-12T18:30:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T01:43:35.742705",
+            "content": "Marcus Thompson current activity description: Go to Gym for an evening workout session after meeting at Factory. current status is Just finished the trip from None to Gym; waiting at Gym now.",
+            "keywords": [
+                "Marcus Thompson",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623142634033980,
+            "type": "event",
+            "created": "2025-03-12T18:30:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-13T14:18:34.810763",
+            "content": "Ahmed Hassan current activity description: Head to Gym immediately after leaving Factory, skipping return to Office due to traffic and long Gym stay earlier. current status is Staying at facility Gym.",
+            "keywords": [
+                "Ahmed Hassan",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623142644922505,
+            "type": "thought",
+            "created": "2025-03-12T18:30:00",
+            "last_accessed": "2025-03-12T18:30:00",
+            "expiration": "2025-03-16T11:45:24.553005",
+            "content": "Gym becomes a central hub for evening family and social activity around 18:30",
+            "keywords": [
+                "Gym",
+                "family",
+                "social",
+                "18:30"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        }
+    ]
+}

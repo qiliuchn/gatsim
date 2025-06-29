@@ -1,0 +1,41 @@
+extract_path_info_v1.txt
+
+Variables: 
+!<Args: 0>! -- path string
+
+
+<commentblockmarker>###</commentblockmarker>
+Task: extract path information from a string. Path is a list of road names.
+
+
+Output format:
+{
+    "path": [<road_1>, <road_2>,...]
+}
+If you cannot extract any road information, just output "path": 'none'.
+
+
+Examples:
+Input: "update current path to Ave_4, St_5, Ave_1"
+Output:
+{
+    "path": ["Ave_4", "St_5", "Ave_1"]
+}
+
+Input: "update current path to 'Ave_4', 'St_5'"
+Output:
+{
+    "path": ["Ave_4", "St_5"]
+}
+
+Input: "update current path to previous one"
+Output:
+{
+    "path": 'none'
+}
+
+
+Given the following input:
+!<Args: 0>!
+
+Now generate your JSON output:

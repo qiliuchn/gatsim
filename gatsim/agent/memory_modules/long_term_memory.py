@@ -49,7 +49,7 @@ from datetime import datetime, timedelta, time
 import faiss
 import numpy as np
 from gatsim import config
-from gatsim.utils import convert_time_scope_str_to_datetime
+from gatsim.utils import pretty_print
 from gatsim.agent.llm_modules.llm import get_embedding
 from gatsim.agent.llm_modules.run_prompt import generate_importance_score
 
@@ -79,7 +79,7 @@ class ConceptNode:
          - importance (float): importance score for sorting and filtering; 0.0 - 1.0
          - embedding (numpy array): embedding vector
         """
-        self.id = int(datetime.now().strftime("%m%d%H%M%S%f"))  # id is generated based on current machine time
+        self.id = int(datetime.now().strftime("%m%d%H%M%S%f"))  # id is generated based on current machine time; %S is seconds, %f is microseconds (6 digits); 
         self.type = type
         self.created = created  # datetime obj
         self.last_accessed = created  # datetime obj
@@ -88,9 +88,9 @@ class ConceptNode:
         self.keywords = keywords
         self.spatial_scope = spatial_scope  # a list of names
         self.time_scope = time_scope  # list of two time objs
-        self.importance = max(0.0, min(10.0, importance))  # make sure importance is within [0.0, 10.0]
+        self.importance = max(0.0, min(1.0, importance))  # make sure importance is within [0.0, 1.0]
         self.embedding = embedding
-        if not embedding:
+        if embedding is None:
             self.embedding = get_embedding(self.content)
         if not expiration:
             self.expiration = self.compute_initial_expiration()
@@ -101,11 +101,29 @@ class ConceptNode:
         temporal_info = f", time: {self.time_scope}" if self.time_scope else ""
         return f"ConceptNode(id={self.id}, type={self.type}, importance={self.importance:.2f}{spatial_info}{temporal_info}, content='{self.content[:50]}{'...' if len(self.content) > 50 else ''}')"
 
+
     def compute_initial_expiration(self) -> datetime:
-        # Lifespan ranges from 6 hours (low importance) to 30 days (high importance)
-        min_lifespan = timedelta(hours=1)
-        max_lifespan = timedelta(days=7)
-        lifespan = min_lifespan + (max_lifespan - min_lifespan) * (self.importance / 10)  # / 10 to scale to [0, 1]
+        """
+        Function to compute the initial expiration time of a concept node using a power function.
+        Different concept types use different power values for non-linear importance scaling.
+        """
+        # Configuration for different concept types
+        # You can adjust these values based on your needs
+        
+        # Get configuration for this concept type, default to "event" if type not found
+        expiration_config = config.EXPIRATION_CONFIG.get(self.type, config.EXPIRATION_CONFIG["event"])
+        min_hours = expiration_config["min_hours"]
+        max_hours = expiration_config["max_hours"]
+        power = expiration_config["power"]
+        
+        # Calculate coefficient c such that g(1) = max_hours - min_hours
+        # g = c * (importance^power)
+        # When importance = 1: g(1) = c * (1^power) = c
+        # We want g(1) = max_hours - min_hours
+        # Therefore: c = max_hours - min_hours
+        lifespan_hours = min_hours + (max_hours - min_hours) * (self.importance ** power)
+        lifespan = timedelta(hours=lifespan_hours)
+        
         return self.created + lifespan
 
 
@@ -122,7 +140,7 @@ class ConceptNode:
             "spatial_scope": self.spatial_scope,
             "time_scope": [t.isoformat() if t else None for t in self.time_scope] if self.time_scope else None,
             "importance": self.importance,
-            "embedding": self.embedding.tolist() if isinstance(self.embedding, np.ndarray) else self.embedding
+            "embedding": None #self.embedding.tolist() if isinstance(self.embedding, np.ndarray) else self.embedding
         }
     
     @classmethod
@@ -151,16 +169,20 @@ class ConceptNode:
             embedding=embedding,
             expiration=expiration,
         )
+        # Note: embedding is not saved to disk; hence None
+        # hence embedding will be regenerated here.
         concept_node.id = data["id"]
         concept_node.last_accessed = last_accessed
         return concept_node
 
 
-def convert_concept_nodes_to_str(purpose, concept_nodes):
+
+def convert_concept_nodes_to_str(curr_time, purpose, concept_nodes):
     """
     Convert a list of concept nodes to a string representation
     
     Args:
+        curr_time (datetime): current time
         purpose (str): The purpose of the concept nodes; "perceived" or "retrieved"
         concept_nodes (list): A list of concept nodes
     
@@ -172,20 +194,86 @@ def convert_concept_nodes_to_str(purpose, concept_nodes):
     
     if purpose == "perceived":
         ans = """
-The persona perceived the following events (empty if no event has been perceived):
------PERCEIVED SECTION START-----"""
+The person has the following perception:
+---CURRENT PERCEIVED SECTION START---"""
+        if not concept_nodes:
+            ans += "\n(empty)"
+            return ans
     else:
         ans = """
-The persona retrieved the following concepts (events, chats, or thoughts) related to perceived events (empty if no concept has been retrieved) from personal long term memory:
------RETRIEVED SECTION START-----"""
+The person retrieved the following concepts from personal long term memory:
+---CURRENT RETRIEVED SECTION START---"""
+        if not concept_nodes:
+            ans += "\n(empty)"
+            return ans
     
-    for concept_node in concept_nodes:
-        ans += "\n" + concept_node.content  #str(node)
+    # Group concept nodes by date
+    from collections import defaultdict
+    nodes_by_date = defaultdict(list)
+    
+    for node in concept_nodes:
+        date_key = node.created.date()
+        nodes_by_date[date_key].append(node)
+    
+    # Sort dates in reverse chronological order (newest first)
+    sorted_dates = sorted(nodes_by_date.keys(), reverse=True)
+    
+    # Get today's date from curr_time
+    today = curr_time.date()
+    
+    for date in sorted_dates:
+        # Add date header
+        if date == today:
+            date_str = f"TODAY ({date.strftime('%A, %B %d, %Y')})"
+        elif date == today - timedelta(days=1):
+            date_str = f"YESTERDAY ({date.strftime('%A, %B %d, %Y')})"
+        else:
+            date_str = date.strftime('%A, %B %d, %Y').upper()
         
+        if purpose == "retrieved":
+            ans += f"\n\n{date_str}:"
+        
+        # Group nodes by type for this date
+        events = []
+        chats = []
+        thoughts = []
+        
+        for node in nodes_by_date[date]:
+            if node.type == "event":
+                events.append(node)
+            elif node.type == "chat":
+                chats.append(node)
+            elif node.type == "thought":
+                thoughts.append(node)
+        
+        # Sort each type by time in reverse chronological order (newest first)
+        events.sort(key=lambda x: x.created, reverse=True)
+        chats.sort(key=lambda x: x.created, reverse=True)
+        thoughts.sort(key=lambda x: x.created, reverse=True)
+        
+        # Add events
+        if events:
+            ans += "\n\n**EVENTS**"
+            for node in events:
+                ans += f"\n[{node.created.strftime('%H:%M')}] {node.content}"
+        
+        # Add chats
+        if chats:
+            ans += "\n\n**CHATS**"
+            for node in chats:
+                ans += f"\n[{node.created.strftime('%H:%M')}] {node.content}"
+        
+        # Add thoughts
+        if thoughts:
+            ans += "\n\n**THOUGHTS**"
+            for node in thoughts:
+                ans += f"\n[{node.created.strftime('%H:%M')}] {node.content}"
+    
     if purpose == "perceived":
-        ans += "\n-----PERCEIVED SECTION END-----"
+        ans += "\n---CURRENT PERCEIVED SECTION END---"
     else:
-        ans += "\n-----RETRIEVED SECTION END-----"
+        ans += "\n---CURRENT RETRIEVED SECTION END---"
+    
     return ans
 
 
@@ -200,12 +288,18 @@ def convert_concept_tuple_to_concept_node(persona, maze, concept_tuple):
             None if the concept does not contain spatial information;
          - time_scope (str): time scope of the concept; e.g. "11:00-14:00"
             None if the concept does not contain temporal information;
+            
+    Returns:
+        a list of concept nodes
     """
     type = "thought"
     content = concept_tuple[0]
     keywords = [k.strip() for k in concept_tuple[1].split(',')]  # keywords
     importance = generate_importance_score(persona, maze, type, content)
-    spatial_scope = [k.strip() for k in concept_tuple[2].split(',')]  # spatial scope; convert str to lis
+    if concept_tuple[2] == "none":
+        spatial_scope = []
+    else:
+        spatial_scope = [k.strip() for k in concept_tuple[2].split(',')]  # spatial scope; convert str to list
     time_span = concept_tuple[3]
     if ',' in time_span:
         # if there are more than one intervals, e.g. 11:00-13:00, 14:00-16:00
@@ -215,17 +309,24 @@ def convert_concept_tuple_to_concept_node(persona, maze, concept_tuple):
     
     concept_nodes = []
     for time_span in time_spans:
-        start, end = time_span.split("-")
-        start = datetime.strptime(start, "%H:%M").time()
-        end = datetime.strptime(end, "%H:%M").time()
-        curr_datetime = copy.copy(persona.st_mem.curr_time)
-        start_obj = curr_datetime.replace(hour=start.hour, minute=start.minute, second=0, microsecond=0)
-        end_obj = curr_datetime.replace(hour=end.hour, minute=end.minute, second=0, microsecond=0)
-        time_scope = [start_obj, end_obj]
+        time_scope = None
+        if time_span != "none":
+            try:
+                start, end = time_span.split("-")
+                start = datetime.strptime(start, "%H:%M").time()
+                end = datetime.strptime(end, "%H:%M").time()
+                time_scope = [start, end]
+            except:
+                # failsafe
+                pretty_print(f"Error 012: {persona.name} has an invalid time_scope: {time_scope}", 2)
+                time_scope = None
         #time_scope = convert_time_scope_str_to_datetime(persona.st_mem.curr_time, concept_tuple[3])
         concept_node = ConceptNode(type, persona.st_mem.curr_time, content, keywords, spatial_scope, time_scope, importance)
         concept_nodes.append(concept_node)
     return concept_nodes
+
+
+
 
 
 class LongTermMemory: 
@@ -257,6 +358,7 @@ class LongTermMemory:
         
         # record the contents of added nodes; to avoid redundant addition of perceived nodes to memory.
         self.concept_contents = []
+        self.concept_content_to_id = {}
         
         
     def load(self, persona_folder=None):
@@ -276,45 +378,45 @@ class LongTermMemory:
         if not os.path.exists(memory_path):
             return  # No memory file exists yet
         
-        try:
-            with open(memory_path, 'r') as f:
-                data = json.load(f)
-                
-            # Reset current memory structures
-            self.id_to_concept_node.clear()
-            self.seq_event_ids.clear()
-            self.seq_thought_ids.clear()
-            self.seq_chat_ids.clear()
-            self.seq_concept_ids .clear()
-            self.kw_to_event_ids.clear()
-            self.kw_to_thought_ids.clear()
-            self.kw_to_chat_ids.clear()
-            self.kw_to_concept_ids.clear()
+        with open(memory_path, 'r') as f:
+            lt_mem_save = json.load(f)
             
-            # Reset vectorstore index
-            self.vs_index = faiss.IndexFlatL2(384)
-            self.vs_id_to_concept_id.clear()
+        self.curr_time = datetime.strptime(lt_mem_save['curr_time'], "%Y-%m-%d %H:%M:%S")
+        data = lt_mem_save['concept_nodes']
             
-            # Load nodes
-            for concept_data in data:
-                concept_node = ConceptNode.from_dict(concept_data)
-                self.add_concept_node(concept_node, build_index=False)
+        # Reset current memory structures
+        self.id_to_concept_node.clear()
+        self.seq_event_ids.clear()
+        self.seq_thought_ids.clear()
+        self.seq_chat_ids.clear()
+        self.seq_concept_ids.clear()
+        self.kw_to_event_ids.clear()
+        self.kw_to_thought_ids.clear()
+        self.kw_to_chat_ids.clear()
+        self.kw_to_concept_ids.clear()
+        
+        # Reset vectorstore index
+        self.vs_index = faiss.IndexFlatL2(384)
+        self.vs_id_to_concept_id.clear()
+        
+        # Load nodes
+        for concept_data in data:
+            concept_node = ConceptNode.from_dict(concept_data)
+            # Note: embedding is already regenerated in ConceptNode.__init__ when embedding=None!!
+            self.add_concept_node(concept_node, build_index=False)
+        
+        # Rebuild the vectorstore index
+        if self.id_to_concept_node:
+            embeddings = []
+            ids = []
+            for vs_id, concept_id in enumerate(self.seq_concept_ids):
+                concept = self.id_to_concept_node[concept_id]
+                embeddings.append(concept.embedding)
+                self.vs_id_to_concept_id[vs_id] = concept_id
             
-            # Rebuild the vectorstore index
-            if self.id_to_concept_node:
-                embeddings = []
-                ids = []
-                for vs_id, concept_id in enumerate(self.seq_concept_ids ):
-                    concept = self.id_to_concept_node[concept_id]
-                    embeddings.append(concept.embedding)
-                    self.vs_id_to_concept_id[vs_id] = concept_id
-                
-                if embeddings:
-                    self.vs_index.add(np.array(embeddings))
+            if embeddings:
+                self.vs_index.add(np.array(embeddings))
             
-        except Exception as e:
-            print(f"Error loading long term memory: {e}")
-    
     
     def save(self, persona_folder=None): 
         """
@@ -336,15 +438,16 @@ class LongTermMemory:
         
         memory_path = os.path.join(persona_folder, "long_term_memory.json")
         
-        try:
-            # Convert concept nodes to dictionaries
-            concepts_data = [self.id_to_concept_node[concept_id].to_dict() for concept_id in self.seq_concept_ids ]
-            
-            with open(memory_path, 'w') as f:
-                json.dump(concepts_data, f, indent=4)
+        # Convert concept nodes to dictionaries
+        concepts_data = [self.id_to_concept_node[concept_id].to_dict() for concept_id in self.seq_concept_ids]
+        
+        lt_mem_save = {}
+        lt_mem_save['curr_time'] = self.curr_time.strftime("%Y-%m-%d %H:%M:%S")
+        lt_mem_save['concept_nodes'] = concepts_data
+        
+        with open(memory_path, 'w') as f:
+            json.dump(lt_mem_save, f, indent=4)
                 
-        except Exception as e:
-            print(f"Error saving long term memory: {e}")
 
     
     def clean_up_memory(self):
@@ -354,15 +457,22 @@ class LongTermMemory:
         Instance sequences and dicts will be updated accordingly.
         This is done sporadically.
         """
+        
+        if len(self.id_to_concept_node) < config.lt_mem_max_size:
+            # No need to clean up if memory is not full
+            return
+        
         # Get IDs of expired nodes
         expired_ids = []
         for concept_id, concept_node in self.id_to_concept_node.items():
             if concept_node.expiration and concept_node.expiration < self.curr_time:
                 expired_ids.append(concept_id)
-        
+
         if not expired_ids:
-            return  # No expired nodes
+            return  # No expired nodes, nothing to clean
         
+        pretty_print()
+        pretty_print(f"clean up {self.persona_folder}...", 2)
         # Remove expired nodes from all data structures
         for concept_id in expired_ids:
             concept_node = self.id_to_concept_node[concept_id]
@@ -406,7 +516,7 @@ class LongTermMemory:
                 embeddings.append(concept_node.embedding)
                 self.vs_id_to_concept_id[vs_id] = concept_id
             
-            if embeddings:
+            if embeddings is not None:
                 self.vs_index.add(np.array(embeddings))
 
 
@@ -421,53 +531,63 @@ class LongTermMemory:
         Returns:
             None
         """
-        if concept_node.content in self.concept_contents[-config.retention:]:
-            # if node already exists, do nothing
-            return
-        
-        # Add to id_to_concept_node dictionary
-        self.id_to_concept_node[concept_node.id] = concept_node
-        
-        # Add to sequence lists
-        self.seq_concept_ids .append(concept_node.id)
-        
-        if concept_node.type == "event":
-            self.seq_event_ids.append(concept_node.id)
-        elif concept_node.type == "thought":
-            self.seq_thought_ids.append(concept_node.id)
-        elif concept_node.type == "chat":
-            self.seq_chat_ids.append(concept_node.id)
-        
-        # Add to keyword dictionaries
-        for kw in concept_node.keywords:
-            kw_lower = kw.lower()
+        with config.lock:
+            # Thread-safe version - ALWAYS waits for the lock.
+            # so that we don't have to worry about race conditions.
+            if concept_node.content in self.concept_contents[- (config.retention * 2):]:
+                # if node already exists
+                # e.g. broadcast news, you always get the broadcast news as long as it's not over
+                # mark the old node as expired
+                # add this new node
+                old_id = self.concept_content_to_id[concept_node.content]
+                old_concept_node = self.id_to_concept_node[old_id]
+                old_concept_node.expiration = min(old_concept_node.expiration, self.curr_time - timedelta(minutes=config.minutes_per_step))  
+                # mark old node as already expired if not expired
             
-            # Add to kw_to_concept_ids
-            if kw_lower not in self.kw_to_concept_ids:
-                self.kw_to_concept_ids[kw_lower] = []
-            self.kw_to_concept_ids[kw_lower].append(concept_node.id)
+            # Add to id_to_concept_node dictionary
+            self.id_to_concept_node[concept_node.id] = concept_node
             
-            # Add to type-specific keyword dictionaries
+            # Add to sequence lists
+            self.seq_concept_ids.append(concept_node.id)
+            
             if concept_node.type == "event":
-                if kw_lower not in self.kw_to_event_ids:
-                    self.kw_to_event_ids[kw_lower] = []
-                self.kw_to_event_ids[kw_lower].append(concept_node.id)
+                self.seq_event_ids.append(concept_node.id)
             elif concept_node.type == "thought":
-                if kw_lower not in self.kw_to_thought_ids:
-                    self.kw_to_thought_ids[kw_lower] = []
-                self.kw_to_thought_ids[kw_lower].append(concept_node.id)
+                self.seq_thought_ids.append(concept_node.id)
             elif concept_node.type == "chat":
-                if kw_lower not in self.kw_to_chat_ids:
-                    self.kw_to_chat_ids[kw_lower] = []
-                self.kw_to_chat_ids[kw_lower].append(concept_node.id)
-        
-        # Add to vectorstore for similarity search
-        if build_index:
-            vs_id = len(self.vs_id_to_concept_id)
-            self.vs_id_to_concept_id[vs_id] = concept_node.id
-            self.vs_index.add(np.array([concept_node.embedding]))
+                self.seq_chat_ids.append(concept_node.id)
             
-        self.concept_contents.append(concept_node.content)
+            # Add to keyword dictionaries
+            for kw in concept_node.keywords:
+                kw_lower = kw.lower()
+                
+                # Add to kw_to_concept_ids
+                if kw_lower not in self.kw_to_concept_ids:
+                    self.kw_to_concept_ids[kw_lower] = []
+                self.kw_to_concept_ids[kw_lower].append(concept_node.id)
+                
+                # Add to type-specific keyword dictionaries
+                if concept_node.type == "event":
+                    if kw_lower not in self.kw_to_event_ids:
+                        self.kw_to_event_ids[kw_lower] = []
+                    self.kw_to_event_ids[kw_lower].append(concept_node.id)
+                elif concept_node.type == "thought":
+                    if kw_lower not in self.kw_to_thought_ids:
+                        self.kw_to_thought_ids[kw_lower] = []
+                    self.kw_to_thought_ids[kw_lower].append(concept_node.id)
+                elif concept_node.type == "chat":
+                    if kw_lower not in self.kw_to_chat_ids:
+                        self.kw_to_chat_ids[kw_lower] = []
+                    self.kw_to_chat_ids[kw_lower].append(concept_node.id)
+            
+            # Add to vectorstore for similarity search
+            if build_index:
+                vs_id = len(self.vs_id_to_concept_id)
+                self.vs_id_to_concept_id[vs_id] = concept_node.id
+                self.vs_index.add(np.array([concept_node.embedding]))
+            
+            self.concept_contents.append(concept_node.content)
+            self.concept_content_to_id[concept_node.content] = concept_node.id
 
 
     def get_last_chat(self, target_persona_name): 
@@ -494,7 +614,7 @@ class LongTermMemory:
         score = relevance_weight * keywords_matching_score + importance_weight * importance_score + recency_weight * recency_score
         Each component is normalized to the range [0, 1], and you can tune the weights.
         Note: 
-        1) retrieve only active concepts (those no expiration date in the future)
+        retrieve only active concepts (those no expiration date in the future)
         
         Args:
             keywords (list[str]): The keywords to search for.
@@ -530,17 +650,25 @@ class LongTermMemory:
                 continue
             
             # Calculate keyword matching score (proportion of keywords that match)
-            keywords_lower = [kw.lower() for kw in keywords]
-            node_keywords_lower = [kw.lower() for kw in concept_node.keywords]
-            matches = sum(1 for kw in keywords_lower if kw in node_keywords_lower)
-            keywords_matching_score = matches / len(keywords)
+            # Jaccard Similarity is used for keywords matching.
+            keywords_lower = set(kw.lower() for kw in keywords)
+            node_keywords_lower = set(kw.lower() for kw in concept_node.keywords)
+            intersection = keywords_lower & node_keywords_lower
+            union = keywords_lower | node_keywords_lower
+            keywords_matching_score = len(intersection) / len(union) if union else 0
+
+            if False:
+                keywords_lower = [kw.lower() for kw in keywords]
+                node_keywords_lower = [kw.lower() for kw in concept_node.keywords]
+                matches = sum(1 for kw in keywords_lower if kw in node_keywords_lower)
+                keywords_matching_score = matches / len(keywords)
             
             # Importance score is already normalized between 0 and 1
             importance_score = concept_node.importance
             
             # Calculate recency score (newer is better)
             age = now - concept_node.created
-            recency_score = config.recency_decay ** age.days  # exponential decay    vs max(0, 1 - (age / max_age)) linear decay
+            recency_score = config.recency_decay **(age.total_seconds() /  3600 / 24)  # exponential decay    vs max(0, 1 - (age / max_age)) linear decay
             
             # Calculate final score
             score = (
@@ -587,6 +715,7 @@ class LongTermMemory:
             return []  # Empty index
             
         distances, indices = self.vs_index.search(np.array([query_embedding]), min(self.vs_index.ntotal, retention * 2))
+        # Note: this search may return many expired nodes; hence we first find #retention * 2 many, then filter #retention out
         
         # Convert distances (L2) to similarity scores (higher is better)
         max_distance = np.max(distances) if distances.size > 0 else 1.0
@@ -622,7 +751,7 @@ class LongTermMemory:
             
             # Calculate recency score (newer is better)
             age = now - concept_node.created
-            recency_score = config.recency_decay ** age.days  # max(0, 1 - (age / max_age))
+            recency_score = config.recency_decay ** (age.total_seconds() /  3600 / 24)  # max(0, 1 - (age / max_age))
             
             # Calculate final score
             score = (
@@ -642,21 +771,23 @@ class LongTermMemory:
         """ 
         Retrieve concepts from long term memory based on spatial-temporal attributes.
         
-        Filter events that are spatially and temporally relevant to the given spatial_scope, time_scope, and days.
-        score = relevance_weight * spatial_temporal_matching_score + importance_weight * importance_score + recency_weight * recency_score
+        Overlap Coefficient (a.k.a. Szymkiewicz–Simpson coefficient) is used for calculating the overlap between two sets.
+        We use Overlap Coefficient to compute spatial and temporal relevance.
+        
+        Spatial matching: 
+                                             			              |spatial_coverage(A) ⋂ spatial_coverage(B)|
+          spatial_overlap_coefficient between concept A and B  =   -----------------------------------------------------
+                                                                      min(|spatial_coverage(A)|, |spatial_coverage(B)|)
+        Temporal matching: 
+                                             			              |time_scope(A) ⋂ time_scope(B)|
+          temporal_overlap_coefficient between concept A and B   =  -----------------------------------------------------
+                                           			                   min(|time_scope(A)|,  |time_scope(B)|)
         
         The calculation of spatial_temporal_matching_score:
             spatial_temporal_matching_score = spatial_overlap_coefficient * temporal_overlap_coefficient
         
-        Overlap Coefficient (a.k.a. Szymkiewicz–Simpson coefficient) is used for calculating the overlap between two sets.
-        Spatial matching: 
-                                              |self.spatial_coverage ⋂ spatial_coverage|
-          spatial_overlap_coefficient  =   -------------------------------------
-                                            min(|self.spatial_coverage|, |spatial_coverage|)
-        Temporal matching: 
-                                             |self.time_scope ⋂ time_scope|
-          temporal_overlap_coefficient  =  --------------------------------------
-                                            min(|self.time_scope|,  |time_scope|)
+        Filter events that are spatially and temporally relevant to the given spatial_scope, time_scope, and days.
+        score = content_relevance_weight * content_similarity + spatial_temporal_relevance_weight * spatial_temporal_overlap_score + importance_weight * importance_score + recency_weight * recency_score 
         
         Note: 
         1) spatial_scope is converted into spatial_coverage by maze.get_coverage() to get the set needed to compute overlap.
@@ -753,7 +884,7 @@ class LongTermMemory:
             
             # Calculate recency score (newer is better)
             age = now - concept_node.created
-            recency_score = config.recency_decay ** age.days  #max(0, 1 - (age / max_age))
+            recency_score = config.recency_decay **(age.total_seconds() /  3600 / 24)  #exponential decay; alternative: max(0, 1 - (age / max_age))
             
             # Calculate final score
             score = (
@@ -817,15 +948,14 @@ class LongTermMemory:
         
         # Alternative method for retrieving relevant concept node
         # Get results from different retrieval methods
-        keyword_results = self.retrieve_by_keywords(concept_node.keywords, retention=retention*2)
-        similarity_results = self.retrieve_by_similarity(concept_node.content, retention=retention*2)
-        
+        keyword_results = self.retrieve_by_keywords(concept_node.keywords, retention=retention)
+        similarity_results = self.retrieve_by_similarity(concept_node.content, retention=retention)
         # Only perform spatial-temporal retrieval if the concept node has spatial and temporal attributes
         spatial_temporal_results = []
         if concept_node.spatial_scope is not None and concept_node.time_scope is not None:
             # For simplicity in this implementation, we'll just pass an empty spatial_coverage
             # In a real implementation, you would need to pass the actual maze
-            spatial_temporal_results = self.retrieve_by_spatial_temporal_coincidence(maze, concept_node.spatial_scope, concept_node.time_scope, retention=retention*2)
+            spatial_temporal_results = self.retrieve_by_spatial_temporal_coincidence(maze, concept_node.spatial_scope, concept_node.time_scope, retention=retention)
         
         # Combine results and eliminate duplicates
         all_results = {}  # Map concept_id -> (score, node)
@@ -879,21 +1009,28 @@ class LongTermMemory:
         for concept_node in perceived:
             tmp_retrieved = self.retrieve_relevant_concept_nodes(concept_node, maze)
             tmp_retrieved = [x[1] for x in tmp_retrieved]  # extract concept nodes
+            # remove the current concept node used to retrieve
+            if concept_node in tmp_retrieved:
+                tmp_retrieved.remove(concept_node)  
+            # refresh retrieved concept nodes expiration
+            self.refresh_concept_nodes(tmp_retrieved)
+            # add to the retrieved concept nodes
             ans.update(tmp_retrieved)
-            
-        # also include #retrieve_recent many latest events and #retrieve_recent many latest chats to avoid immediate forgetting
-        # retrieve_recent is 1 or 2
-        latest_events = self.seq_event_ids[-config.retrieve_recent:]
-        latest_chats = self.seq_chat_ids[-config.retrieve_recent:]
-        latest_events = [self.id_to_concept_node[id] for id in latest_events]
-        latest_chats = [self.id_to_concept_node[id] for id in latest_chats]
-        ans.update(latest_events)
-        ans.update(latest_chats)
+        
+        # also include #retention many latest events and #retention many latest chats to avoid immediate forgetting
+        # do not refresh those nodes expiration
+        latest_concepts = self.seq_concept_ids[- config.retention:]
+        latest_concepts = [self.id_to_concept_node[id] for id in latest_concepts if self.id_to_concept_node[id].expiration >= self.curr_time]
+        ans.update(latest_concepts)
         
         # remove perceived concept nodes themselves
         for concept_node in perceived:
             ans.discard(concept_node)
-        return list(ans)
+        ans = list(ans)
+        
+        # sort by created time (ascending order)
+        ans = sorted(ans, key=lambda x: x.created)
+        return ans
     
     def get_summarized_latest_concept_nodes(self, retention=None):
         """ 
@@ -921,12 +1058,16 @@ class LongTermMemory:
                 # Update last_accessed time
                 concept_node.last_accessed = self.curr_time
                 
-                # Extend expiration time by one day
-                if concept_node.expiration:
-                    concept_node.expiration += timedelta(days=1)
-                else:
-                    # If node doesn't have an expiration date, set one based on importance
-                    concept_node.expiration = self.curr_time + timedelta(days=1)
+                # Extend expiration time by some time depending on the type and importance of the concept.
+                # here we just extend by lifespan
+                expiration_config = config.EXPIRATION_CONFIG.get(concept_node.type, config.EXPIRATION_CONFIG["event"])
+                min_hours = expiration_config["min_hours"]
+                max_hours = expiration_config["max_hours"]
+                power = expiration_config["power"]
+                lifespan_hours = min_hours + (max_hours - min_hours) * (concept_node.importance ** power)
+                # we add a max_extension to avoid the same kind of memory keep generated and never removed, thus clog the memory
+                max_extension = timedelta(hours= config.max_extension_times * lifespan_hours)
+                concept_node.expiration = min(self.curr_time + timedelta(hours=lifespan_hours), concept_node.created + max_extension)                    
                 
                 # Update node in memory
                 self.id_to_concept_node[concept_node.id] = concept_node

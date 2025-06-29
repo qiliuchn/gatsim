@@ -22,9 +22,10 @@ In short,  this is daily introspection method that updates the agent’s sense o
      
     Persona need to reflect using the information above and decides whether to:
      1) retain the latest activity plan; no changes;
-     2) retain the latest activity plan, but reroute to realtime shortest path (calling maze's find shortest path function); persona can change travel mode as well if it's feasible;
-     3) retain the latest activity plan, but reroute to a give path (path provided); persona can change mode as well if it's feasible;
-     4) revise the latest activity plan.
+     2) retain the latest activity plan, but reroute to realtime shortest path (calling maze's find shortest path function);
+     3) retain the latest activity plan, but reroute to a give path (path provided);
+     4) revise next activity departure time;
+     5) revise the latest activity plan.
      
  - On the end of the day →  agent reflect on daily experiences.
  
@@ -56,7 +57,7 @@ In short,  this is daily introspection method that updates the agent’s sense o
         
 ## Movement variables:
 - st_mem.planned_path:
-	•	This variable stores a list of (start node, end node, mode) representing the path the persona will follow to complete their current action.
+	•	This variable stores a list of (next_link, next_mode, next_node) representing the path the persona will follow to complete their current action.
 
 
 ## Plan variables:
@@ -64,9 +65,9 @@ In short,  this is daily introspection method that updates the agent’s sense o
 - st_mem.revised_plans: revised plans made during current day.
 
 A plan is a list of activities.
-Each activity is a list of six elements:
-
-[<activity_facility>, <activity_departure_time>, <reflect_every>, <travel_mode>, <path>, <activity_description>]
+Each activity is a list of 6 elements:
+#       0                       1                       2               3           4               5
+#[<activity_facility>, <activity_departure_time>, <reflect_every>, <travel_mode>, <path>, <activity_description>]
 
 where
 <activity_facility> is a string, which should be a valid facility name for the activity; it's the place where the activity takes place. For example, if the activity is about working, then it should be the working place; if the activity is about playing basketball, then it should be Gym, and so on.
@@ -90,31 +91,127 @@ If the person do want to specify the path; let path be a string of road or metro
 Road names should follow the traveling order from start to end;
 Do NOT use link names for the path. Use road or metro line names like "Ave_1" or "Metro_2"! and do NOT repeat!
 <activity_description> is a string, describing the content of the activity, like the people (e.g. family members, friends) involved in the activity.
+
+
+# Examples
+ - Original plans example:
+    "original_plans": [
+        {
+            "reflection": "The past week was relatively calm, with a consistent routine of taking the metro to work and spending evenings at home. I enjoyed some photography during the weekend but haven't exercised much. This week, I look forward to maintaining my routine while incorporating more physical activity. The upcoming art exhibition at the Museum seems interesting, and I might visit it during lunch. I also need to ensure Sophia has the car for grocery shopping later today. Traffic in the afternoon can be congested, so I should plan my trips accordingly.",
+            "plan": [
+                ["Uptown apartment", "06:30", "none", "none", "none", "Wake up at home, complete morning routine."],
+                ...],
+            "concepts": [
+                ["Museum hosts an art exhibition from 12:00 to 16:00", "Museum, art exhibition, noon", "Museum", "12:00-16:00"],
+                ...],
+            "datetime": "2025-03-10 00:00:00"
+        }
+    ]
+    
+ - Revised plans example:
+    "revised_plans": [
+        {
+            "reflection": "The wildfire at the Amusement park has made St_5 unsafe for travel during 12:00-16:00. This might affect my return trip from the Museum if I take a path involving St_5. However, since I plan to use transit, this shouldn't directly impact me. Sophia confirmed she will meet Isabella at the Museum as planned, so my lunch break activity remains unchanged. Afternoon traffic near Supermarket and Food court is often congested, which may delay my return to the Office or later trips. I should monitor traffic conditions before departing the Museum.",
+            "plan": [
+                ["Museum", "12:30", 60, "transit", "shortest", "Visit the art exhibition at Museum during lunch break."],
+                ...],
+            "concepts": [
+                [ "Amusement park wildfire makes St_5 unsafe during 12:00-16:00", "Amusement park, wildfire, St_5, unsafe, 12:00-16:00", "Amusement park, St_5", "12:00-16:00"],
+                [ "Afternoon traffic near Supermarket and Food court tends to be congested", "Supermarket, Food court, congested, afternoon", "Supermarket, Food court", "17:00-18:00"]
+                ...],
+            "datetime": "2025-03-10 12:28:00"
+        }
+    ]
+    
+ - Plan revision description example:
+"Time: 12:28
+Reflections: 
+The wildfire at the Amusement park has made St_5 unsafe for travel during 12:00-16:00. This might affect my return trip from the Museum if I take a path involving St_5. However, since I plan to use transit, this shouldn't directly impact me. Sophia confirmed she will meet Isabella at the Museum as planned, so my lunch break activity remains unchanged. Afternoon traffic near Supermarket and Food court is often congested, which may delay my return to the Office or later trips. I should monitor traffic conditions before departing the Museum.
+Plan revisions: Daniel Nguyen - future plan updated to:
+[['Museum', '12:30', 60, 'transit', 'shortest', 'Visit the art exhibition at Museum during lunch break.'], ['Office', '13:30', 120, 'transit', 'shortest', 'Return to Office and continue working after the exhibition.'], ['Gym', '17:30', 60, 'transit', 'shortest', 'Go to Gym for exercise before heading home.'], ['Uptown apartment', '19:00', 'none', 'transit', 'shortest', 'Head back home to Uptown apartment for dinner and relaxation.']] 
+
+Time: 18:22
+Reflections: 
+The day has been going smoothly so far. I visited the Museum during lunch as planned, and traffic conditions have been stable. Sophia has already stopped by the Supermarket for groceries, so I don't need to worry about her needing the car anymore. However, my current trip to the Gym might take longer than expected due to a wait at Metro_2_link_5. I should consider whether to adjust my departure time or find an alternative path.
+Plan revisions: Daniel Nguyen - next activity to Uptown apartment departure time updated to 18:40"
+
+ - Daily reflections example:
+    "daily_reflections": [
+        {
+            "reflection": "Today's activities went mostly as planned, but there were a few notable events. The wildfire at the Amusement park disrupted traffic along St_5 during the afternoon, though it didn't directly impact my transit route. However, I encountered a delay at Metro_2_link_5 on my way to the Gym, which slightly affected my schedule. In the future, I should consider adjusting departure times or exploring alternative routes during peak hours or when unexpected events occur.",
+            "concepts": [
+                ["Wildfire at Amusement park disrupts St_5 travel during 12:00-16:00", "Amusement park, wildfire, St_5, disruption", "Amusement park, St_5", "12:00-16:00"],
+                ...],
+            "datetime": "2025-03-10 23:59:00"
+        }
+    ]
 """
 
 import json
+import re
 from datetime import datetime, time, timedelta
 from gatsim import config
+from gatsim.utils import update_cache_concurrent_safe
 from gatsim.utils import extract_json_from_string, convert_time_str_to_datetime, pretty_print
-from gatsim.agent.llm_modules.llm import llm_generate, generate_prompt
+from gatsim.agent.llm_modules.llm import llm_generate, generate_prompt, llm_generate_with_json_extraction_and_retries
 from gatsim.agent.llm_modules.run_prompt import generate_importance_score
+from gatsim.agent.cognitive_modules.perceive import perceive
 from gatsim.agent.memory_modules.long_term_memory import (convert_concept_nodes_to_str, 
                                                           convert_concept_tuple_to_concept_node,
                                                           ConceptNode)
 
 
-def generate_daily_activity_plan(persona, maze, population, perceived, retrieved):
+
+def extract_path(plan):
+    """ 
+    extract path list from a plan string
+    here a path is a list of road names
+    
+    Args:
+        plan (str): a string of planed path
+    Returns:
+        roads: a list of road names; None if the plan is invalid
+    """
+    if ":" in plan:
+        # example: "update path: St_3, Ave_3"
+        roads = plan.split(':')[1].strip()
+        roads = [k.strip() for k in roads.split(',')]
+    elif "[" in plan and "]" in plan:
+        # example: update current path to ['Ave_4', 'St_5', 'Ave_1']
+        match = re.search(r"\[(.*?)\]", plan)
+        items_str = match.group(1)
+        # Split by comma, strip spaces and quotes
+        roads = [item.strip().strip("'\"") for item in items_str.split(',')]
+    else:
+        # other cases:
+        # example: update current path to 'Ave_4', 'St_5', 'Ave_1'
+        # use LLM to extract the roads
+        prompt_input = [plan]
+        prompt_template = config.agent_path + "/llm_modules/prompt_templates/extract_path_info_v1.txt"
+        prompt = generate_prompt(prompt_input, prompt_template)
+        output= llm_generate_with_json_extraction_and_retries(prompt)
+        roads = output['path']
+        if roads == 'none':
+            pretty_print(f'Error 402: no valid path found in plan: {plan}', 2)
+            roads = None
+    return roads
+
+
+
+def generate_daily_activity_plan(persona, maze, population, perceived, traffic_state, retrieved):
     """
     Generate the daily activity plan that spans a day at the start of a day. 
+    Traffic state not needed for making this plan.
 
-    Args: 
+    Args:
         persona (Persona): The Persona class instance
         maze (Maze): simulation world
         population (dict): dict that map persona name to Persona class instance; the population of the simulation world
-        retrieved (List[ConceptNode]): a list of events; mainly those previewed events (e.g. there is an art exhibition today afternoon)
         perceived (List[ConceptNode]): a list of retrieved memories
+        traffic_state (str): traffic state description; NOT needed for making this plan. In fact it's empty.
+        retrieved (List[ConceptNode]): a list of events; mainly those previewed events (e.g. there is an art exhibition today afternoon)
         
-    Returns: 
+    Returns:
         a dict with keys 'datetime', 'reflection', 'plan', 'concepts'
         'datetime': the current tme
         'reflection': reflection on past days
@@ -128,55 +225,84 @@ def generate_daily_activity_plan(persona, maze, population, perceived, retrieved
                           population=population, 
                           new_day=True, 
                           perceived=perceived, 
-                          traffic_state=None, 
+                          traffic_state=traffic_state, 
                           retrieved=retrieved)
     
+    # check vehicle usage
+    # Note: this is not needed for advanced LLMs with good instruction following ability
+    # for weaker models, we recommend to add this for failsafe purpose
+    num_family_vehicles = persona.st_mem.number_of_vehicles_in_family
+    vehicle_used = False
+    vehicle_used_name = None
+    if num_family_vehicles == 0 or persona.st_mem.licensed_driver == False:
+        chat_summaries += f"You cannot drive. Choose transit for travel today."
+    elif num_family_vehicles == 1:
+        for key, spouse_persona_name in persona.st_mem.other_family_members.items():
+            if key == "husband" or key == "wife":
+                spouse_persona = population[spouse_persona_name]
+                if spouse_persona.st_mem.original_plans and spouse_persona.st_mem.original_plans[-1]['datetime'].day == persona.st_mem.curr_time.day:
+                    current_plan = spouse_persona.st_mem.original_plans[-1]['plan']
+                    for i in range(1, len(current_plan)):
+                        if current_plan[i][3] == "drive":
+                            vehicle_used = True
+                            vehicle_used_name = spouse_persona_name
+                            break
+        if vehicle_used:
+            chat_summaries += f"\n\nNote: the only vehicle of the family is already taken by {vehicle_used_name}; you must use transit for travel today!"
+                            
     prompt_input = [config.simulation_description,  # 0 (str) simulation purpose description
                     maze.network_description,  # 1 (str) transportation environment description
                     persona.st_mem.get_str_persona_identity(),  # 2 (str) persona description
                     persona.st_mem.curr_time.strftime("%a %Y-%m-%d"), # 3 (str) current date, e.g. Wed 2025-4-23
                     persona.st_mem.get_str_last_original_plan(new_day=True),  # 4 (str) last day's original plan as well as reflection in the morning
                     persona.st_mem.get_str_last_daily_reflection(),  # 5 (str) last day's daily reflection
-                    convert_concept_nodes_to_str("perceived", perceived),  # 6 (str) perceived
-                    convert_concept_nodes_to_str("retrieved", retrieved),  # 7 (str) retrieved
+                    convert_concept_nodes_to_str(persona.st_mem.curr_time, "perceived", perceived),  # 6 (str) perceived
+                    convert_concept_nodes_to_str(persona.st_mem.curr_time, "retrieved", retrieved),  # 7 (str) retrieved
                     chat_summaries,  # 8 (str) summary of the chats
                     ]
 
     prompt_template = config.agent_path + "/llm_modules/prompt_templates/generate_daily_activity_plan_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
-    output= llm_generate(prompt)
-    output = extract_json_from_string(output)
+    
+    # failsafe
+    # to avoid generating invalid facility names
+    for attempt in range(config.max_num_retries):
+        output= llm_generate_with_json_extraction_and_retries(prompt) #llm_generate(prompt)
+        no_error = True
+        for activity in output['plan']:
+            if activity[0] not in maze.facilities_info:
+                pretty_print(f"Error 004: invalid facility name {activity[0]} in the plan", 2)
+                pretty_print(">>>Plan:<<<", 2)
+                pretty_print(output['plan'], 2)
+                pretty_print(f"Retrying for {attempt + 1} time...", 2)
+                no_error = False
+                break
+        if no_error:
+            break
+    
+    if not no_error:
+        raise Exception("Error 007: failed to generate a valid plan")
     output['datetime'] = persona.st_mem.curr_time
     persona.st_mem.original_plans.append(output)
     
+    
     # update cache file for frontend visualization (messages)
     json_path = 'gatsim/cache/curr_messages.json'
-    with open(json_path, 'r') as f:
-        data = json.load(f)
-    data[persona.st_mem.name] =  "[reflect] " + output['reflection']
-    with open(json_path, 'w') as f:
-        json.dump(data, f, indent=4)
-    
-    # update cache file for frontend visualization (plans)
-    json_path = 'gatsim/cache/curr_plans.json'
-    with open(json_path, 'r') as f:
-        data = json.load(f)
-    data[persona.st_mem.name] =  output['plan']
-    with open(json_path, 'w') as f:
-        json.dump(data, f, indent=4)
+    content_to_write = "[reflect] " + output['reflection']
+    update_cache_concurrent_safe(json_path, persona, content_to_write)
     
     # print out
-    print()
+    pretty_print()
     pretty_print(f">>> {persona.name} reflections:", 2)
-    print()
+    pretty_print()
     pretty_print(output['reflection'], 2)
-    print()
+    pretty_print()
     pretty_print(f">>> {persona.name} daily activity plan:", 2)
-    print()
+    pretty_print()
     pretty_print(output['plan'], 2)
-    print()
+    pretty_print()
     pretty_print(f">>> {persona.name} concepts:", 2)
-    print()
+    pretty_print()
     pretty_print(output['concepts'], 2)
     
     # add concepts to lt_mem
@@ -185,7 +311,7 @@ def generate_daily_activity_plan(persona, maze, population, perceived, retrieved
         for concept_node in concept_nodes:
             persona.lt_mem.add_concept_node(concept_node)
     
-    # update the sleep activity
+    # initialize the sleep activity to be the current activity
     # update current activity to be staying at home, and determine the duration depending on get-up time
     # '-1' for last plan; 'plan' to extract the plan; '0' for the first activity
     # Each activity is a list of six elements:
@@ -194,15 +320,40 @@ def generate_daily_activity_plan(persona, maze, population, perceived, retrieved
     # Note: the first activity of the day is sleeping
     # the first activity on the plan is the next activity in the future
     get_up_activity = persona.st_mem.original_plans[-1]['plan'][0]  # next activity is wake up routine
-    persona.st_mem.activity_index = -1  # this is special case for the start of the day
+    
+    # checks:
+    # failsafe
+    orig_plan =  persona.st_mem.original_plans[-1]['plan']
+    # This first activity should set <reflect_every> to be 20. Only this very first activity can have <travel_mode> and <path> to be "none".
+    get_up_activity[2] = 20
+    get_up_activity[3] = "none"
+    get_up_activity[4] = "none"
+    # if go to school, set departure time to be "none"
+    go_to_school_index = -1
+    for i in range(len(orig_plan)):
+        if orig_plan[i][0] == "School":
+            go_to_school_index = i
+            break
+    if go_to_school_index > 0:
+        orig_plan[i + 1][1] = "none"
+    # last activity is going home before 22:00
+    
+    # set current activity
+    persona.st_mem.activity_index = -1  # since current sleeping activity is not part of the plan
     persona.st_mem.activity_facility = persona.st_mem.home_facility  # sleep at home
-    persona.st_mem.activity_departure_time = persona.st_mem.curr_time  # sleep activity start from 12:00 just for convenience; it does not means the actual sleeping time
+    persona.st_mem.activity_departure_time = persona.st_mem.curr_time  # sleep activity start from 12:00 just for convenience; it does not means the actual going to bed time
     wake_up_time = convert_time_str_to_datetime(persona.st_mem.curr_time, get_up_activity[1])  # Note: departure time is string like "08:00"
     persona.st_mem.activity_duration = wake_up_time - persona.st_mem.activity_departure_time
-    persona.st_mem.reflect_every = None  # No plan revision during sleep
+    persona.st_mem.reflect_every = None  # No plan revision during sleep; namely sleep should not be interrupted
     persona.st_mem.travel_mode = None
     persona.st_mem.planned_path = None
-    persona.st_mem.activity_description = "Sleeping at home."
+    persona.st_mem.activity_description = "Sleeping at home."  # initialized to be "Sleeping at home."
+    
+    # update cache file for frontend visualization (plans)
+    json_path = 'gatsim/cache/curr_plans.json'
+    content_to_write = output['plan']
+    update_cache_concurrent_safe(json_path, persona, content_to_write)
+    
     
 
 def chat(persona, maze, population, new_day, perceived, traffic_state, retrieved):
@@ -222,57 +373,80 @@ def chat(persona, maze, population, new_day, perceived, traffic_state, retrieved
         chat_summaries (str): chat summaries
     """
     if new_day:
-        # if new day, context is last days' original plan + last day's daily reflection + perceived + retrieved
-        chat_context = persona.st_mem.get_str_last_original_plan(new_day=new_day)\
-            + persona.st_mem.get_str_last_daily_reflection() \
-            + convert_concept_nodes_to_str("perceived", perceived) \
-            + convert_concept_nodes_to_str("retrieved", retrieved)
+        # if new day, context is:
+        # last days' original plan 
+        # + last day's daily reflection 
+        # + perceived 
+        # + retrieved
+        chat_context = persona.st_mem.get_str_last_original_plan(new_day=True) + '\n' \
+            + persona.st_mem.get_str_last_daily_reflection()  + '\n' \
+            + convert_concept_nodes_to_str(persona.st_mem.curr_time, "perceived", perceived)  + '\n' \
+            + convert_concept_nodes_to_str(persona.st_mem.curr_time, "retrieved", retrieved)
     else:
-        # during the day, context is today's original + today's revised plans + realtime traffic state + perceived + realtime traffic state + retrieved
-        chat_context = persona.st_mem.get_str_last_original_plan(new_day=False) \
-            + persona.st_mem.get_str_revised_plans() \
-            + convert_concept_nodes_to_str("perceived", perceived) \
-            + traffic_state \
-            + convert_concept_nodes_to_str("retrieved", retrieved)
+        # during the day, context is: 
+        # today's original plan 
+        # + today's revised plans 
+        # + realtime traffic state 
+        # + perceived 
+        # + realtime traffic state 
+        # + retrieved
+        chat_context = persona.st_mem.get_str_last_original_plan(new_day=False)  + '\n' \
+            + persona.st_mem.get_str_revised_plans()  + '\n' \
+            + convert_concept_nodes_to_str(persona.st_mem.curr_time, "perceived", perceived)  + '\n' \
+            + traffic_state  + '\n' \
+            + convert_concept_nodes_to_str(persona.st_mem.curr_time, "retrieved", retrieved)
     
-    # the return
+    # the return (will be assembled before return)
     chat_summaries_start = f"""
-Summary of {persona.st_mem.name}'s chats with other people (empty if no chat has happened):
------CHAT SUMMARY SECTION START-----"""
+Summary of {persona.st_mem.name}'s current chats with other people (empty if no chat happened yet):
+---CURRENT CHAT SUMMARY SECTION START---"""
     chat_summaries_body = ""  # append summary of new chats one by one later
-    chat_summaries_end = f"""
------CHAT SUMMARY SECTION END-----"""
+    chat_summaries_end = """
+---CURRENT CHAT SUMMARY SECTION END---"""
 
     # start chatting process
     for count in range(config.max_num_people_to_chat_with):  # a persona can only chat with max number of so many personas
         # update chat context
-        chat_context_with_chat_summaries = chat_context + chat_summaries_start + chat_summaries_body + chat_summaries_end
+        chat_context_with_chat_summaries = chat_context + '\n' + chat_summaries_start + chat_summaries_body + chat_summaries_end
         other_persona_name, query = initiate_chat(persona, maze, new_day, chat_context_with_chat_summaries)
         if other_persona_name.lower() == "none":
             break
         
-        print()
+        pretty_print()
         pretty_print(f"{persona.st_mem.name} is chatting with {other_persona_name}", 2)
         # Note: chat summaries should be added
         
         # update cache file for frontend visualization (messages)
         json_path = 'gatsim/cache/curr_messages.json'
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-        data[persona.st_mem.name] = f"[chat] {other_persona_name}, {query}"
-        with open(json_path, 'w') as f:
-            json.dump(data, f, indent=4)
+        content_to_write = f"[chat] {other_persona_name}, {query}"
+        update_cache_concurrent_safe(json_path, persona, content_to_write)
         
-        
-        # construct chat summary
-        chat_summaries = chat_summaries_start + chat_summaries_body + chat_summaries_end  # update persona context with new chat summaries
         # get other persona chat context
-        # no perceived, no retrieved
+        # failsafe; if population does not include other_persona_name info
+        if other_persona_name not in population:
+            chat_summaries_body += f'\n (unable to speak to {other_persona_name})'
+            pretty_print()
+            pretty_print(f"Error 008: {persona.st_mem.name} unable to speak to {other_persona_name}")
+            continue
+        
+        # begin to chat with other persona
         other_persona = population[other_persona_name]
+        other_persona_perceived, other_persona_traffic_state = perceive(other_persona, maze, population, save_memories=False)  
+        # set save_memories to False for other persona when chatting to avoid duplicates
+        other_persona_retrieved = other_persona.lt_mem.retrieve(perceived, maze)
+
         if new_day:
-            other_persona_chat_context = other_persona.st_mem.get_str_last_original_plan(new_day=True)
+            other_persona_chat_context = other_persona.st_mem.get_str_last_original_plan(new_day=True) + '\n' \
+            + other_persona.st_mem.get_str_last_daily_reflection() + '\n' \
+            + convert_concept_nodes_to_str(other_persona.st_mem.curr_time, "perceived", other_persona_perceived)  + '\n' \
+            + convert_concept_nodes_to_str(other_persona.st_mem.curr_time, "retrieved", other_persona_retrieved)
         else:
-            other_persona_chat_context = other_persona.st_mem.get_str_last_original_plan(new_day=False) + persona.st_mem.get_str_revised_plans()
+            other_persona_chat_context = other_persona.st_mem.get_str_last_original_plan(new_day=False) + '\n' \
+            + persona.st_mem.get_str_revised_plans() + '\n' \
+            + convert_concept_nodes_to_str(other_persona.st_mem.curr_time, "perceived", perceived)  + '\n' \
+            + other_persona_traffic_state  + '\n' \
+            + convert_concept_nodes_to_str(other_persona.st_mem.curr_time, "retrieved", retrieved)
+                
         chat_history = f"Chat history between {persona.st_mem.name} and {other_persona_name}:"
         chat_history += f"\n{persona.st_mem.name}: {query}"
         
@@ -291,12 +465,9 @@ Summary of {persona.st_mem.name}'s chats with other people (empty if no chat has
             
             # update cache file for frontend visualization (messages)
             json_path = 'gatsim/cache/curr_messages.json'
-            with open(json_path, 'r') as f:
-                data = json.load(f)
-            data[other_persona.st_mem.name] = f"[chat] {persona.st_mem.name}, {response}"
-            with open(json_path, 'w') as f:
-                json.dump(data, f, indent=4)
-            
+            content_to_write = f"[chat] {persona.st_mem.name}, {response}"
+            update_cache_concurrent_safe(json_path, other_persona, content_to_write)
+
             # persona response
             new_query = generate_response(persona=persona, 
                                        maze=maze,
@@ -309,27 +480,25 @@ Summary of {persona.st_mem.name}'s chats with other people (empty if no chat has
             else:
                 # update cache file for frontend visualization (messages)
                 json_path = 'gatsim/cache/curr_messages.json'
-                with open(json_path, 'r') as f:
-                    data = json.load(f)
-                data[persona.st_mem.name] = f"[chat] {other_persona.st_mem.name}, {new_query}"
-                with open(json_path, 'w') as f:
-                    json.dump(data, f, indent=4)
+                content_to_write = f"[chat] {other_persona.st_mem.name}, {new_query}"
+                update_cache_concurrent_safe(json_path, persona, content_to_write)
                 
                 chat_history += f"\n{persona.st_mem.name}: {new_query}"
                 query = new_query
-        print()
+        pretty_print()
         pretty_print(f">>> Chat history of {persona.st_mem.name} and {other_persona_name}:", 2)
-        print()
+        pretty_print()
         pretty_print(chat_history, 2)
-        print()
+        pretty_print()
         chat_summary, keywords = generate_chat_summary(persona, other_persona, maze, chat_history)
         pretty_print(">>> Chat summary:", 2)
-        print()
+        pretty_print()
         pretty_print(chat_summary, 2)
 
-        # add to memory
+        # add to memory of both persona and other_persona
         keywords = [k.strip() for k in keywords.split(',')]
         importance = generate_importance_score(persona, maze, 'chat', chat_summary)
+        # Note: difference persona may view the same event differently
         chat_node = ConceptNode(type='chat',
                                 created=persona.st_mem.curr_time,
                                 content=chat_summary,
@@ -372,13 +541,13 @@ def initiate_chat(persona, maze, new_day, chat_context):
         query (str): the query to the respondent
     """
     if new_day:
-        curr_time = persona.st_mem.curr_time.strftime("%a %Y-%m-%d")
+        curr_time = persona.st_mem.curr_time.strftime("%a %Y-%m-%d")  # if it's the start of a new day, we just need to know the day
     else:
         curr_time = persona.st_mem.curr_time.strftime("%%a Y-%m-%d %H:%M")
     prompt_input = [config.simulation_description,  # 0 simulation purpose description
                     maze.network_description,  # 1 transportation environment description
                     persona.st_mem.get_str_persona_identity(),  # 2 persona description
-                    curr_time, # 3 current date
+                    curr_time, # 3 current date or datetime
                     chat_context  # 4 chat context
                     ]  
     if new_day:
@@ -387,9 +556,8 @@ def initiate_chat(persona, maze, new_day, chat_context):
         prompt_template = config.agent_path + "/llm_modules/prompt_templates/initiate_chat_during_day_v1.txt"
         
     prompt = generate_prompt(prompt_input, prompt_template)
-    output = llm_generate(prompt)
-    output = extract_json_from_string(output)
-    respondent = output['person name']
+    output= llm_generate_with_json_extraction_and_retries(prompt) #llm_generate(prompt)
+    respondent = output['person_name']
     query = output['query']
     return respondent, query
 
@@ -421,8 +589,7 @@ def generate_response(persona, maze, new_day, chat_context, chat_history):
                 ]
     prompt_template = config.agent_path + "/llm_modules/prompt_templates/generate_response_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
-    output = llm_generate(prompt)
-    output = extract_json_from_string(output)
+    output= llm_generate_with_json_extraction_and_retries(prompt) #llm_generate(prompt)
     response = output['response']
     return response
 
@@ -446,8 +613,7 @@ def generate_chat_summary(persona, other_persona, maze, chat_history):
                 ]
     prompt_template = config.agent_path + "/llm_modules/prompt_templates/generate_chat_summary_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
-    output = llm_generate(prompt)
-    output = extract_json_from_string(output)
+    output= llm_generate_with_json_extraction_and_retries(prompt) #llm_generate(prompt)
     summary = output['summary']
     keywords = output['keywords']
     return summary, keywords
@@ -485,36 +651,66 @@ def update_daily_activity_plan(persona, maze, population, perceived, traffic_sta
     # this time let agent to generate the query for retrieving form lt_mem
     # not implemented
     
+    # check going back home activity
+    # Note: this is not needed for advanced LLMs with good instruction following ability
+    # for weaker models, we recommend to add this for failsafe purpose
+    if persona.st_mem.curr_time.hour == 22 and persona.st_mem.curr_time.minute == 0:
+        current_plan = persona.st_mem.revised_plans[-1]['plan'] if persona.st_mem.revised_plans else persona.st_mem.original_plans[-1]['plan']
+        if persona.st_mem.curr_place != persona.st_mem.home_facility and \
+            current_plan[-1][0] != persona.st_mem.home_facility:
+            chat_summaries += f"\n\n Note: you need to back to home facility at {persona.st_mem.home_facility} now!"
+    
     # prepare prompt input
     prompt_input = [config.simulation_description,  # 0 simulation purpose description
                     maze.network_description,  # 1 transportation environment description
                     persona.st_mem.get_str_persona_identity(),  # 2 persona description
-                    persona.st_mem.curr_time.strftime("%a %Y-%m-%d %H:%M"), # 3 current date
+                    persona.st_mem.curr_time.strftime("%a %Y-%m-%d %H:%M"), # 3 current datetime
                     persona.st_mem.get_str_last_original_plan(new_day=False),  # 4 today original plan as well as reflection in the morning
                     persona.st_mem.get_str_revised_plans(),  # 5 today revised plans as well as reflections 
                     persona.st_mem.get_str_current_activity_and_status(),  # 6 current activity description
-                    convert_concept_nodes_to_str("perceived", perceived),  # 7 current perceived events
+                    convert_concept_nodes_to_str(persona.st_mem.curr_time, "perceived", perceived),  # 7 current perceived events
                     traffic_state,  # 8 realtime traffic state
-                    convert_concept_nodes_to_str("retrieved", retrieved),  # 9 current retrieved events or thoughts (may be empty)
+                    convert_concept_nodes_to_str(persona.st_mem.curr_time, "retrieved", retrieved),  # 9 current retrieved events or thoughts (may be empty)
                     chat_summaries,  # 10 chat summary
                     ]  
 
     prompt_template = config.agent_path + "/llm_modules/prompt_templates/update_daily_activity_plan_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
-    output= llm_generate(prompt)
-    output = extract_json_from_string(output)
+    
+    # failsafe
+    # to avoid generating invalid facility names
+    for attempt in range(config.max_num_retries):
+        output= llm_generate_with_json_extraction_and_retries(prompt) #llm_generate(prompt)
+        plan = output['plan']
+        no_error = True
+        if isinstance(plan, list):  # we only check when a plan list is returned
+            for activity in plan:
+                if activity[0] not in maze.facilities_info:
+                    pretty_print(f"Error 009: invalid facility name {activity[0]} in the plan", 2)
+                    pretty_print(f">>>Plan:<<<", 2)
+                    pretty_print(output['plan'], 2)
+                    pretty_print(f'Retrying for the {attempt+1} time...', 2)
+                    no_error = False
+                    break
+            if no_error:
+                break
+        else:
+            break
+    
+    if not no_error:
+        raise Exception("Error 010: failed to generate a valid plan")
     # print out
-    print()
+    pretty_print()
     pretty_print(f">>> {persona.name} reflections:", 2)
-    print()
+    pretty_print()
     pretty_print(output['reflection'], 2)
-    print()
+    pretty_print()
     pretty_print(f">>> {persona.name} daily activity plan:", 2)
-    print()
+    pretty_print()
     pretty_print(output['plan'], 2)
-    print()
+    pretty_print()
     pretty_print(f">>> {persona.name} concepts:", 2)
-    print()
+    pretty_print()
     pretty_print(output['concepts'], 2)
     # add concepts to lt_mem
     for concept_tuple in output['concepts']:
@@ -534,47 +730,46 @@ def update_daily_activity_plan(persona, maze, population, perceived, traffic_sta
     elif isinstance(plan, str) and plan.lower() == 'update path: shortest':
         # case 2) no changes are made to the plan; but update path to realtime shortest (mobility update)
         persona.st_mem.planned_path = maze.get_shortest_path(persona.st_mem.curr_place, persona.st_mem.activity_facility, persona.st_mem.travel_mode)['original_path']
-        update_info = f"{persona.name} - path updated to realtime shortest"
-        print()
+        update_info = f"{persona.name} update current path to real-time shortest"
+        pretty_print()
         pretty_print(update_info, 2)
+        pretty_print("persona.st_mem.planned_path:", 2)
         pretty_print(persona.st_mem.planned_path, 2)
         
-        persona.st_mem.plan_revision_description += f"""\n
+        persona.st_mem.plan_revision_description += f"""
 Time: {persona.st_mem.curr_time.strftime('%H:%M')}
 Reflections: 
 {output['reflection']}
-Plan revisions: {update_info} """
+Plan revisions:
+{update_info}
+"""
 
         # update cache file for frontend visualization (messages)
         json_path = 'gatsim/cache/curr_messages.json'
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-        data[persona.st_mem.name] = f"[reflect] {output['reflection']}\nI will change path to realtime shortest path."
-        with open(json_path, 'w') as f:
-            json.dump(data, f, indent=4)
+        content_to_write = f"[reflect] {output['reflection']}\nI will change path to real-time shortest path."
+        update_cache_concurrent_safe(json_path, persona, content_to_write)
 
-
-    elif isinstance(plan, str) and "update path" in plan.lower():
+    elif isinstance(plan, str) and "update" in plan.lower() and "path" in plan.lower():
         # case 3) no changes made to plan, but a new path is given (mobility update)
-        roads = plan.split(':')[1].strip()
-        roads = [k.strip() for k in roads.split(',')]
+        roads = extract_path(plan)
+        if roads is None:
+            return
         persona.st_mem.planned_path = maze.convert_path_format(persona.st_mem.curr_place, persona.st_mem.activity_facility, persona.st_mem.travel_mode, roads)
-        update_info = f"{persona.name} - path updated to {roads}"
-        persona.st_mem.plan_revision_description += f"""\n
+        update_info = f"{persona.name} update current path to {roads}"
+        persona.st_mem.plan_revision_description += f"""
 Time: {persona.st_mem.curr_time.strftime('%H:%M')}
-Reflections: 
+Reflections:
 {output['reflection']}
-Plan revisions: {update_info} """
+Plan revisions:
+{update_info}
+"""
 
         # update cache file for frontend visualization (messages)
         json_path = 'gatsim/cache/curr_messages.json'
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-        data[persona.st_mem.name] = f"[reflect] {output['reflection']}\nI will change path to {roads}"
-        with open(json_path, 'w') as f:
-            json.dump(data, f, indent=4)
+        content_to_write = f"[reflect] {output['reflection']}\nI will change path to {roads}"
+        update_cache_concurrent_safe(json_path, persona, content_to_write)
 
-        print()
+        pretty_print()
         pretty_print(update_info, 2)
         pretty_print(persona.st_mem.planned_path, 2)
         
@@ -585,43 +780,39 @@ Plan revisions: {update_info} """
         next_activity_index = persona.st_mem.activity_index + 1
         current_plan = persona.st_mem.revised_plans[-1]['plan'] if persona.st_mem.revised_plans else persona.st_mem.original_plans[-1]['plan']
         if next_activity_index >= len(current_plan):
-            # fail safe
+            # failsafe
             # no change to plan
-            print()
-            pretty_print(f"{persona.name} - next activity index {next_activity_index} is out of range", 2)
+            pretty_print()
+            pretty_print(f"Error 011: {persona.name} - next activity index {next_activity_index} is out of range", 2)
             return
         current_plan[next_activity_index][1] = next_activity_departure_time  # Note: use string; since in plan we use string like "11:30" for departure time
         next_activity_facility = current_plan[next_activity_index][0]
-        update_info = f"{persona.name} - next activity to {next_activity_facility} departure time updated to {next_activity_departure_time}"
-        persona.st_mem.plan_revision_description += f"""\n
+        update_info = f"{persona.name} update the departure time of next activity at {next_activity_facility} to {next_activity_departure_time}"
+        persona.st_mem.plan_revision_description += f"""
 Time: {persona.st_mem.curr_time.strftime('%H:%M')}
 Reflections: 
 {output['reflection']}
-Plan revisions: {update_info} """
-        print()
+Plan revisions:
+{update_info}
+"""
+        pretty_print()
         pretty_print(update_info, 2)
         pretty_print(persona.st_mem.planned_path, 2)
         
-        # also update the duration of current activity
+        # also update the duration of current activity!
         # convert to datetime obj before doing difference
         next_activity_departure_time = convert_time_str_to_datetime(persona.st_mem.curr_time, next_activity_departure_time)
         persona.st_mem.activity_duration = next_activity_departure_time - persona.st_mem.activity_departure_time
         
         # update cache file for frontend visualization (messages)
         json_path = 'gatsim/cache/curr_messages.json'
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-        data[persona.st_mem.name] = f"[reflect] {output['reflection']}\nI will change next activity departure time to {next_activity_departure_time}."
-        with open(json_path, 'w') as f:
-            json.dump(data, f, indent=4)
+        content_to_write = f"[reflect] {output['reflection']}\nI will change next activity departure time to {next_activity_departure_time}."
+        update_cache_concurrent_safe(json_path, persona, content_to_write)
         
         # update cache file for frontend visualization (plans)
         json_path = 'gatsim/cache/curr_plans.json'
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-        data[persona.st_mem.name] = current_plan
-        with open(json_path, 'w') as f:
-            json.dump(data, f, indent=4)
+        content_to_write =  current_plan
+        update_cache_concurrent_safe(json_path, persona, content_to_write)
         
     elif isinstance(plan, list):
         # case 5) update the whole plan
@@ -630,82 +821,37 @@ Plan revisions: {update_info} """
         
         # update cache file for frontend visualization (messages)
         json_path = 'gatsim/cache/curr_messages.json'
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-        data[persona.st_mem.name] = f"[reflect] {output['reflection']}\nI will revise my plan."
-        with open(json_path, 'w') as f:
-            json.dump(data, f, indent=4)
-            
+        content_to_write = f"[reflect] {output['reflection']}\nI will revise my plan."
+        update_cache_concurrent_safe(json_path, persona, content_to_write)
+                
         # update cache file for frontend visualization (plans)
         json_path = 'gatsim/cache/curr_plans.json'
-        with open(json_path, 'r') as f:
-            data = json.load(f)
-        data[persona.st_mem.name] = plan
-        with open(json_path, 'w') as f:
-            json.dump(data, f, indent=4)
+        content_to_write = plan
+        update_cache_concurrent_safe(json_path, persona, content_to_write)
         
-        # update current activity
         first_activity = plan[0]
-        persona.st_mem.activity_index = 0  # remember to update activity index in the new plan
-        # departure time
-        if persona.st_mem.activity_facility == first_activity[0]:
-            # the current activity is kept, update path and travel mode of current activity if needed
-            # departure time no need to change; LLM is instructed to keep the original departure time
-            persona.st_mem.activity_departure_time = convert_time_str_to_datetime(persona.st_mem.curr_time, first_activity[1])
+        persona.st_mem.activity_index = -1 
+        # remember to update activity index in the new plan
+        # the on-going activity is NOT included in the new plan
+        # so we set activity index to -1
+        
+        # update on-going activity duration
+        if first_activity[1] != 'none':
+            first_activity_departure_time = convert_time_str_to_datetime(persona.st_mem.curr_time, first_activity[1])
+            persona.st_mem.activity_duration = first_activity_departure_time - persona.st_mem.activity_departure_time
         else:
-            # the current activity is NOT kept
-            persona.st_mem.activity_facility = first_activity[0]
-            persona.st_mem.activity_departure_time = persona.st_mem.curr_time
-        # activity duration
-        if len(plan) > 1:
-            # if first activity is not last activity
-            second_activity = plan[1]
-            second_activity_departure_time = convert_time_str_to_datetime(persona.st_mem.curr_time, second_activity[1])
-            persona.st_mem.activity_duration = second_activity_departure_time - persona.st_mem.activity_departure_time
-        else:
-            # if first activity is the last going back home activity, set duration to None
-            persona.st_mem.activity_duration = timedelta(hours=24)
-        # reflect every
-        reflect_every_str =first_activity[2]
-        if reflect_every_str == 'none':
-            persona.st_mem.reflect_every = None
-        else:
-            persona.st_mem.reflect_every = timedelta(minutes=int(reflect_every_str))
-            # enforce the constraints on reflect_every
-            if persona.st_mem.activity_facility == persona.st_mem.work_facility:
-                persona.st_mem.reflect_every = max(persona.st_mem.reflect_every, timedelta(minutes=config.min_work_reflect_every))
-            else:
-                persona.st_mem.reflect_every = max(persona.st_mem.reflect_every, timedelta(minutes=config.min_reflect_every))
-        # travel mode
-        persona.st_mem.travel_mode = first_activity[3]
-        # path
-        if first_activity[4] == "none":
-            # no need to find path
-            persona.st_mem.planned_path = []
-        elif first_activity[4] == "shortest":
-            # if use realtime shortest path
-            if persona.st_mem.curr_place == first_activity[0]:
-                # no need to find path if the current place is the same as the first activity
-                persona.st_mem.planned_path = []
-            else:
-                persona.st_mem.planned_path = maze.get_shortest_path(persona.st_mem.curr_place, first_activity[0], travel_mode=persona.st_mem.travel_mode)['original_path']
-        else:
-            # if persona specified a path
-            roads = [k.strip() for k in first_activity[4].split(',')]
-            if persona.st_mem.curr_place == first_activity[0]:
-                # no need to find path if the current place is the same as the first activity
-                persona.st_mem.planned_path = []
-            else:
-                persona.st_mem.planned_path = maze.convert_path_format(persona.st_mem.curr_place, first_activity[0], persona.st_mem.travel_mode, roads)
-        # activity description
-        persona.st_mem.activity_description = first_activity[5]
+            persona.st_mem.activity_duration = None  # if the first activity is 'none', then the duration is None; which means depart immediately upon arrival
        
-        update_info =  f"{persona.name} - plan updated to:\n{plan}"
-        persona.st_mem.plan_revision_description += f"""\n
+        update_info =  f"{persona.name} update future activity plan:\n{plan}"
+        persona.st_mem.plan_revision_description += f"""
 Time: {persona.st_mem.curr_time.strftime('%H:%M')}
 Reflections: 
 {output['reflection']}
-Plan revisions: {update_info} """
+Plan revisions:
+{update_info}
+"""
+
     else:
+        pretty_print(f"Error 505: {persona.name} update future activity plan:\n{plan}")
         raise Exception('Return error')
     

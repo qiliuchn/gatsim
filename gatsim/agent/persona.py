@@ -62,7 +62,7 @@ import os
 import json
 from datetime import datetime, timedelta
 from gatsim import config
-from gatsim.utils import convert_time_str_to_datetime, convert_time_scope_str_to_datetime, pretty_print
+from gatsim.utils import convert_time_str_to_datetime, pretty_print
 from gatsim.agent.memory_modules.short_term_memory import ShortTermMemory
 from gatsim.agent.memory_modules.long_term_memory import LongTermMemory
 from gatsim.agent.cognitive_modules.perceive import perceive
@@ -98,18 +98,18 @@ class Persona:
         self.st_mem.save(persona_folder)
 
 
-    def update_activity(self, maze):
+    def update_activity(self, maze, next_node=None):
         """ 
-        When current activity reached its ending time, update it
-        Called when the duration of an activity is used up, namely curr_time = activity_departure_time + activity_duration
+        When current activity reached its ending time, or agent changed mind and want to pass to next activity, update it.
         
         Args:
             maze (Maze): Maze class object of the world.
+            next_node (str): next node to go to; if ongoing activity is interrupted, next_node is the node where the agent is going to.
         """
         current_plan = self.st_mem.revised_plans[-1]['plan'] if self.st_mem.revised_plans else self.st_mem.original_plans[-1]['plan']
         self.st_mem.activity_index += 1
         next_activity = current_plan[self.st_mem.activity_index]
-        # Each activity is a list of 5 elements:
+        # Each activity is a list of 6 elements:
         #       0                       1                       2               3           4               5
         #[<activity_facility>, <activity_departure_time>, <reflect_every>, <travel_mode>, <path>, <activity_description>]
         self.st_mem.activity_facility = next_activity[0]
@@ -128,12 +128,12 @@ class Persona:
                 self.st_mem.activity_duration = None  # leave immediately after arriving at the facility of next_activity
         else:
             # if next activity is the last going back home activity, set duration to be long enough
-            # note the new plan wil be made and activities will be updated at the start of the new day
+            # note that new plan wil be made and activities will be updated at the start of next (new) day
             self.st_mem.activity_duration = timedelta(hours=24)
         # reflect every
         reflect_every = next_activity[2]
         if reflect_every == 'none':
-            # if the reflect_every is 'none', then reflect_every is None; meaning the activity should not be interrupted
+            # if the reflect_every is 'none', then set reflect_every to be None; which means the activity should not be interrupted
             self.st_mem.reflect_every = None
         else:
             if isinstance(reflect_every, str):
@@ -147,22 +147,49 @@ class Persona:
                 self.st_mem.reflect_every = max(self.st_mem.reflect_every, timedelta(minutes=config.min_reflect_every))
         # travel mode
         self.st_mem.travel_mode = next_activity[3]
+        if self.st_mem.travel_mode not in ["drive", "transit", "none"]:
+            pretty_print(f"{self.st_mem.name} has an invalid travel mode: {self.st_mem.travel_mode}", 2)
+            # failsafe
+            self.st_mem.travel_mode = "transit"
         # path
         path = next_activity[4]
         if path == "none":
             # say for waking up and doing morning routines activity, there is no need to travel.
             self.st_mem.planned_path = []
-        elif next_activity[4] == "shortest":
+            # In case agent output "none" in a wrong way (failsafe)
+            if not maze.same_node(self.st_mem.curr_place, self.st_mem.activity_facility):
+                pretty_print(f"Error 001: {self.st_mem.name} current place: {self.st_mem.curr_place}; next activity: {next_activity[0]}; but path is none", 2)
+                # failsafe
+                path = "shortest"
+
+        if path == "shortest":
             # if use realtime shortest path
-            self.st_mem.planned_path = maze.get_shortest_path(self.st_mem.curr_place, next_activity[0], travel_mode=self.st_mem.travel_mode)['original_path']
-        else:
+            start_node = self.st_mem.curr_place
+            if self.st_mem.curr_place in maze.links_info:
+                if next_node != None:
+                    start_node = next_node
+                else:
+                    raise ValueError(f"next_node not specified when curr_place is a link.")               
+            self.st_mem.planned_path = maze.get_shortest_path(start_node, next_activity[0], travel_mode=self.st_mem.travel_mode)['original_path']
+        elif path != "none":  # "none" case has been handled above
             # if persona specified a path
             roads = [k.strip() for k in next_activity[4].split(',')]
-            self.st_mem.planned_path = maze.convert_path_format(self.st_mem.curr_place, next_activity[0], self.st_mem.travel_mode, roads)
+            start_node = self.st_mem.curr_place
+            if self.st_mem.curr_place in maze.links_info:
+                if next_node != None:
+                    start_node = next_node
+                else:
+                    raise ValueError(f"next_node not specified when curr_place is a link.")
+            self.st_mem.planned_path = maze.convert_path_format(start_node, next_activity[0], self.st_mem.travel_mode, roads)
+            
+        # activity description
         self.st_mem.activity_description = next_activity[5]
-        print()
-        pretty_print(f"{self.name} - current activity updated to:", 2)
-        print()
+        
+        # print
+        pretty_print()
+        pretty_print(f"{self.name} - current place: {self.st_mem.curr_place}; current activity updated to:", 2)
+        pretty_print()
+        pretty_print(f"activity_index: {self.st_mem.activity_index}", 2)
         pretty_print(f"activity_facility: {self.st_mem.activity_facility}", 2)
         pretty_print(f"activity_departure_time: {self.st_mem.activity_departure_time}", 2)
         pretty_print(f"activity_duration: {self.st_mem.activity_duration}", 2)
@@ -212,9 +239,9 @@ class Persona:
         
         # Step 2. If it’s a new day, generate a original daily plan.
         if new_day:
-            print()
-            pretty_print(f"now generating new day activity plan", 1)
-            generate_daily_activity_plan(self, maze, population, perceived, retrieved)
+            pretty_print()
+            pretty_print(f"now {self.st_mem.name} generating new day activity plan", 2)
+            generate_daily_activity_plan(self, maze, population, perceived, traffic_state, retrieved)
             # realtime traffic state not needed
             # but perceived is still needed for scheduled events like exhibition at Museum; they may affect daily activity plan
             # plan saved to self.st_mem.original_plans
@@ -222,12 +249,31 @@ class Persona:
             
             # initialize plan revision list for persona for the new day
             self.st_mem.revised_plans = []  # initialize st_mem.revised_plans to be an empty list for today
+            self.st_mem.plan_revision_description = ""  # initialize today's plan revision description to be an empty string
+            
         # Step 3. During the day, if its time to decide, make a new plan (optional)
         else:
-            print()
-            pretty_print(f"now consider revising activity plan", 1)
+            pretty_print()
+            pretty_print(f"now {self.st_mem.name} consider revising activity plan", 1)
+            pretty_print()
+            pretty_print(f"current condition:", 1)
+            pretty_print(f"curr place: {self.st_mem.curr_place}", 1)
+            pretty_print(f"activity index: {self.st_mem.activity_index}", 1)
+            pretty_print(f"activity facility: {self.st_mem.activity_facility}", 1)
+            pretty_print(f"activity departure time: {self.st_mem.activity_departure_time}", 1)
+            pretty_print(f"activity duration: {self.st_mem.activity_duration}", 1)
+            pretty_print(f"activity reflect every: {self.st_mem.reflect_every}", 1)
+            pretty_print(f"activity travel mode: {self.st_mem.travel_mode}", 1)
+            pretty_print(f"activity planned path: {self.st_mem.planned_path}", 1)
+            pretty_print(f"activity description: {self.st_mem.activity_description}", 1)
+            pretty_print()
+            pretty_print(f"current plan:", 1)
+            current_plan = self.st_mem.revised_plans[-1]['plan'] if self.st_mem.revised_plans else self.st_mem.original_plans[-1]['plan']
+            pretty_print(current_plan, 1)
+            pretty_print()
+            # update plan
             update_daily_activity_plan(self, maze, population, perceived, traffic_state, retrieved)
-        # new plan saved to self.st_mem.revised_plans
+            # new plan saved to self.st_mem.revised_plans
         #====================================================================================
                 
     
@@ -241,7 +287,7 @@ class Persona:
         Returns:
             None.
         """
-        print()
+        pretty_print()
         pretty_print(f"{self.name} - daily reflection", 1)
         daily_reflection(self, maze)
 
@@ -267,9 +313,23 @@ def initialize_population(population_info_file, simulation_folder):
     return population
 
 
+def clean_up_memories(population):
+    """
+    clean up memories of all personas if necessary
+    
+    Args:
+        population (dict): population of personas
+    
+    Outputs:
+        None
+    """
+    for persona_name in population:
+        persona = population[persona_name]
+        persona.lt_mem.clean_up_memory()
+
 
 if __name__ == '__main__':
     # test in population loading
     population = initialize_population(config.agent_path + '/population_info.json', 'gatsim/storage/base_the_town')
-    print()
+    pretty_print()
     

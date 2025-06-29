@@ -1,5 +1,12 @@
+# Note: 
+# transit line direction 0 means the transit go from link_data['endpoints'][0] to link_data['endpoints'][1] when traveling on each transit link
+# this convention should be complied when defining 1) links info; and 2) the transit schedule
+
 import pandas as pd
 from datetime import datetime, timedelta
+
+t = 8  # transit links travel time
+w = 1  # time spending at each stop; default: 1 minute
 
 def create_transit_schedule(file_path, start_date, end_date, headway):
     """
@@ -21,25 +28,24 @@ def create_transit_schedule(file_path, start_date, end_date, headway):
     # Define metro lines and their stops
     metro_lines = {
         "Metro_1": {
-            0: ["Node_4", "Node_5", "Node_6", "Node_7", "Node_8"],
-            1: ["Node_8", "Node_7", "Node_6", "Node_5", "Node_4"]
+            0: ["Node_4", "Node_5", "Node_6", "Node_7", "Node_8", "Node_2"],
+            1: ["Node_2", "Node_8", "Node_7", "Node_6", "Node_5", "Node_4"]
         },
         "Metro_2": {
-            0: ["Node_12", "Node_6", "Node_10", "Node_11", "Node_13"],
-            1: ["Node_13", "Node_11", "Node_10", "Node_6", "Node_12"]
+            0: ["Node_1", "Node_12", "Node_6", "Node_10", "Node_11", "Node_3"],
+            1: ["Node_3", "Node_11", "Node_10", "Node_6", "Node_12", "Node_1"]
         }
     }
     
     # Calculate time between stops based on the example
     stop_interval = {}  # minutes between stops
-    wait_time_at_step = 1  # time spending at each stop is 1 minute
     stop_interval["Metro_1"] = {
-        0: [5 + 1, 5 + 1, 5 + 1, 5 + 1],
-        1: [5 + 1, 5 + 1, 5 + 1, 5 + 1]
+        0: [t + w, t + w, t + w, t + w, t + w],
+        1: [t + w, t + w, t + w, t + w, t + w]
     }
     stop_interval["Metro_2"] = {
-        0: [5 + 1, 5 + 1, 5 + 1, 5 + 1],
-        1: [5 + 1, 5 + 1, 5 + 1, 5 + 1]
+        0: [t + w, t + w, t + w, t + w, t + w],
+        1: [t + w, t + w, t + w, t + w, t + w]
     }
     
     # Initialize list to store schedule entries
@@ -78,4 +84,4 @@ def create_transit_schedule(file_path, start_date, end_date, headway):
     
     
 if __name__ == "__main__":
-    create_transit_schedule("gatsim/map/transit_schedule.csv", "2025-03-10 00:00:00", "2025-03-20 23:59:59", 20)
+    create_transit_schedule("gatsim/map/transit_schedule.csv", "2025-03-10 00:00:00", "2025-03-17 23:59:59", 10)

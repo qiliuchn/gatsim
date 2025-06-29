@@ -1,0 +1,4379 @@
+{
+    "curr_time": "2025-03-13 18:00:00",
+    "concept_nodes": [
+        {
+            "id": 623014035625488,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T00:00:00",
+            "expiration": "2025-03-13T17:15:24.553005",
+            "content": "Morning Museum setup rush causes Ave_3 congestion",
+            "keywords": [
+                "Museum",
+                "Ave_3",
+                "congestion",
+                "setup"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_1",
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014036492092,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T00:00:00",
+            "expiration": "2025-03-13T17:15:24.553005",
+            "content": "School drop-off requires early coordination buffer",
+            "keywords": [
+                "School",
+                "drop-off",
+                "buffer"
+            ],
+            "spatial_scope": [
+                "School"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014037421826,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T08:20:00",
+            "expiration": "2025-03-13T05:01:50.510024",
+            "content": "Coffee shop visit ideal post-morning teaching block",
+            "keywords": [
+                "Coffee shop",
+                "post-teaching",
+                "social"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "09:00:00",
+                "10:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623014038268796,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-11T07:30:00",
+            "expiration": "2025-03-14T04:11:50.510024",
+            "content": "Workday ends at 17:00 with efficient return home possible",
+            "keywords": [
+                "School",
+                "Midtown apartment",
+                "commute"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623022520934885,
+            "type": "thought",
+            "created": "2025-03-10T08:00:00",
+            "last_accessed": "2025-03-10T08:00:00",
+            "expiration": "2025-03-13T04:41:50.510024",
+            "content": "St_1_link_1 moderately congested during early morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623022521797846,
+            "type": "thought",
+            "created": "2025-03-10T08:00:00",
+            "last_accessed": "2025-03-10T08:10:00",
+            "expiration": "2025-03-13T04:51:50.510024",
+            "content": "Ave_2_link_3 and Ave_3_link_2 experience moderate congestion in the morning",
+            "keywords": [
+                "Ave_2_link_3",
+                "Ave_3_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_3",
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623024057496742,
+            "type": "thought",
+            "created": "2025-03-10T08:21:00",
+            "last_accessed": "2025-03-10T08:21:00",
+            "expiration": "2025-03-14T01:36:24.553005",
+            "content": "Ave_2_link_3 consistently experiences morning congestion",
+            "keywords": [
+                "Ave_2_link_3",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623040802102162,
+            "type": "thought",
+            "created": "2025-03-10T17:00:00",
+            "last_accessed": "2025-03-12T17:40:00",
+            "expiration": "2025-03-16T10:55:24.553005",
+            "content": "Midtown apartment to Museum commute requires early departure to accommodate coordination with family members",
+            "keywords": [
+                "Midtown apartment",
+                "Museum",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623042347007964,
+            "type": "event",
+            "created": "2025-03-10T17:49:00",
+            "last_accessed": "2025-03-12T17:28:00",
+            "expiration": "2025-03-13T05:14:44.432290",
+            "content": "Daniel Stewart current activity description: Pick up Mia from Gym after finishing work at 17:00.; current status: Daniel Stewart on the trip from Factory to Gym; planned path []; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13')]; currently traveling on link Ave_4_link_1 after waiting for 17 minutes.",
+            "keywords": [
+                "Daniel Stewart",
+                "Gym",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623043018034968,
+            "type": "thought",
+            "created": "2025-03-10T18:01:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-16T09:39:09.440007",
+            "content": "Ave_4_link_1 frequently experiences severe congestion during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623061522746661,
+            "type": "chat",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-12T17:15:00",
+            "expiration": "2025-03-13T06:09:31.476801",
+            "content": "Daniel Stewart asked Karen Stewart to handle the kids' drop-off at School this morning due to traffic delays on St_1_link_1 and Ave_4_link_1. Karen confirmed she will take Mia directly home from School today instead of having Daniel pick her up from Gym.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "School",
+                "Gym",
+                "St_1_link_1",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623061558323206,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "St_1_link_1 often experiences moderate congestion affecting commutes",
+            "keywords": [
+                "St_1_link_1",
+                "moderate congestion",
+                "commutes"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061600064277,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-14T17:15:24.553005",
+            "content": "Returning home by 17:30 allows quality evening time with family",
+            "keywords": [
+                "returning home",
+                "family time"
+            ],
+            "spatial_scope": [
+                "Midtown apartment"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061600917414,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "Morning coordination with spouse ensures smooth vehicle sharing",
+            "keywords": [
+                "vehicle sharing",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "06:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061601808353,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-12T17:10:00",
+            "expiration": "2025-03-15T13:51:50.510024",
+            "content": "Coffee shop visits are more efficient post-class with adjusted timing",
+            "keywords": [
+                "Coffee shop",
+                "efficient visit"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "09:00:00",
+                "10:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623062725377337,
+            "type": "thought",
+            "created": "2025-03-11T06:55:00",
+            "last_accessed": "2025-03-11T06:55:00",
+            "expiration": "2025-03-15T22:54:09.440007",
+            "content": "St_1_link_1 experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623064258059848,
+            "type": "thought",
+            "created": "2025-03-11T07:30:00",
+            "last_accessed": "2025-03-11T07:30:00",
+            "expiration": "2025-03-15T23:29:09.440007",
+            "content": "Severe congestion observed on St_1_link_1 during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "06:45:00",
+                "08:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623064258984530,
+            "type": "thought",
+            "created": "2025-03-11T07:30:00",
+            "last_accessed": "2025-03-11T07:30:00",
+            "expiration": "2025-03-14T04:11:50.510024",
+            "content": "Alternative route via Node_5 effective for avoiding traffic",
+            "keywords": [
+                "Node_5",
+                "alternative route"
+            ],
+            "spatial_scope": [
+                "Node_5"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623064439538376,
+            "type": "thought",
+            "created": "2025-03-11T07:31:00",
+            "last_accessed": "2025-03-11T07:31:00",
+            "expiration": "2025-03-15T23:30:09.440007",
+            "content": "St_1_link_1 consistently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623065013476951,
+            "type": "thought",
+            "created": "2025-03-11T07:40:00",
+            "last_accessed": "2025-03-11T07:40:00",
+            "expiration": "2025-03-14T04:21:50.510024",
+            "content": "St_2_link_1 moderately congested during morning commute",
+            "keywords": [
+                "St_2_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623071117832602,
+            "type": "thought",
+            "created": "2025-03-11T08:10:00",
+            "last_accessed": "2025-03-11T08:10:00",
+            "expiration": "2025-03-16T00:09:09.440007",
+            "content": "Ave_1_link_1 consistently experiences severe congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623071545121723,
+            "type": "thought",
+            "created": "2025-03-11T08:20:00",
+            "last_accessed": "2025-03-11T08:20:00",
+            "expiration": "2025-03-14T05:01:50.510024",
+            "content": "St_1_link_1 experiences morning delays frequently",
+            "keywords": [
+                "St_1_link_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623083626656216,
+            "type": "chat",
+            "created": "2025-03-11T17:40:00",
+            "last_accessed": "2025-03-12T17:15:00",
+            "expiration": "2025-03-13T05:49:51.512918",
+            "content": "Karen Stewart will pick up Mia from Gym after finishing work at School and head directly home via St_5_link_2 to avoid Ave_3_link_3 congestion, arriving around 18:45. Daniel Stewart is heading home from Factory and will arrive by 18:00. Both coordinated updates to ensure alignment on arrival times and route adjustments.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Mia Stewart",
+                "School",
+                "Gym",
+                "Factory",
+                "St_5_link_2",
+                "Ave_3_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083640161572,
+            "type": "thought",
+            "created": "2025-03-11T17:40:00",
+            "last_accessed": "2025-03-11T17:40:00",
+            "expiration": "2025-03-13T20:08:23.106828",
+            "content": "Ave_3_link_3 moderately congested around 17:40",
+            "keywords": [
+                "Ave_3",
+                "congested",
+                "5PM"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623093801215078,
+            "type": "thought",
+            "created": "2025-03-11T20:00:00",
+            "last_accessed": "2025-03-11T20:00:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "Gym less crowded after 17:30",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "5:30PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623093802087649,
+            "type": "thought",
+            "created": "2025-03-11T20:00:00",
+            "last_accessed": "2025-03-11T20:00:00",
+            "expiration": "2025-03-14T16:41:50.510024",
+            "content": "St_1_link_1 experiences morning congestion due to family drop-offs",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623105038278661,
+            "type": "thought",
+            "created": "2025-03-11T23:55:00",
+            "last_accessed": "2025-03-12T07:09:00",
+            "expiration": "2025-03-16T00:24:24.553005",
+            "content": "Ave_1_link_1 experiences significant congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623105039201627,
+            "type": "thought",
+            "created": "2025-03-11T23:55:00",
+            "last_accessed": "2025-03-12T17:41:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "St_1_link_2 frequently experiences severe congestion during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623110943839370,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-12T06:55:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "St_1_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning rush"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111418674524,
+            "type": "chat",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T17:15:00",
+            "expiration": "2025-03-13T05:49:51.512918",
+            "content": "Daniel Stewart will leave by 6:15 to avoid delays on St_2_link_1 and reach Factory on time. Karen Stewart confirmed she will drop off Mia at School this morning and use the Ave_2 and St_3 route for her Museum visit to avoid yesterday's congestion areas.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Mia Stewart",
+                "School",
+                "Factory",
+                "Museum",
+                "St_2_link_1",
+                "Ave_2",
+                "St_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111515715367,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "St_3 and Ave_2 combination serves as efficient alternate route during Ave_1 congestion",
+            "keywords": [
+                "route",
+                "efficient",
+                "alternate"
+            ],
+            "spatial_scope": [
+                "St_3",
+                "Ave_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111516659882,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "Ave_4-St_4-Ave_3 corridor provides reliable evening return path from Gym",
+            "keywords": [
+                "route",
+                "reliable",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4",
+                "St_4",
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111517511072,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T07:09:00",
+            "expiration": "2025-03-16T23:08:09.440007",
+            "content": "Ave_1_link_1 experiences severe delays in morning",
+            "keywords": [
+                "Ave_1_link_1",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623111519659704,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "Gym pickup requires flexible timing due to unpredictable afternoon traffic patterns",
+            "keywords": [
+                "Gym",
+                "pickup",
+                "traffic"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111621861663,
+            "type": "thought",
+            "created": "2025-03-12T00:24:00",
+            "last_accessed": "2025-03-12T17:41:00",
+            "expiration": "2025-03-17T09:40:09.440007",
+            "content": "St_1_link_2 frequently experiences severe congestion during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623112444916435,
+            "type": "thought",
+            "created": "2025-03-12T06:45:00",
+            "last_accessed": "2025-03-12T06:57:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "St_1_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623112445937960,
+            "type": "thought",
+            "created": "2025-03-12T06:45:00",
+            "last_accessed": "2025-03-12T06:45:00",
+            "expiration": "2025-03-15T03:26:50.510024",
+            "content": "Gym less crowded after 17:30",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623112510820224,
+            "type": "chat",
+            "created": "2025-03-12T06:46:00",
+            "last_accessed": "2025-03-12T17:41:00",
+            "expiration": "2025-03-13T02:28:16.901153",
+            "content": "Karen Stewart will drop Mia and Noah at School by 08:00, then head to the Museum using a congestion-free route. She will return the car home by midday. Daniel Stewart will drive directly to Factory from Midtown apartment and wait for Karen's update before using the car again.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Mia Stewart",
+                "Noah Stewart",
+                "School",
+                "Museum",
+                "Factory",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623112719523000,
+            "type": "chat",
+            "created": "2025-03-12T06:55:00",
+            "last_accessed": "2025-03-12T17:43:00",
+            "expiration": "2025-03-13T06:17:51.512918",
+            "content": "Karen Stewart will drop off Mia at School directly from the Gym before heading to the Museum. Daniel Stewart will handle Noah's drop-off at School and proceed to Factory. Both have coordinated their routes based on current traffic conditions.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Mia Stewart",
+                "Noah Stewart",
+                "School",
+                "Gym",
+                "Museum",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623112848911948,
+            "type": "chat",
+            "created": "2025-03-12T06:57:00",
+            "last_accessed": "2025-03-12T17:41:00",
+            "expiration": "2025-03-13T02:28:16.901153",
+            "content": "Karen Stewart will drop Mia at School on her way to the Museum, taking St_4_link_1, Ave_3_link_2, and Ave_2_link_2. Daniel Stewart confirmed he will pick up Noah from Midtown apartment and drop him at School before heading to Factory via St_1_link_1 with a moderate wait, ensuring both arrive on time.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Mia Stewart",
+                "Noah Stewart",
+                "School",
+                "Museum",
+                "Midtown apartment",
+                "Factory",
+                "St_1_link_1",
+                "St_4_link_1",
+                "Ave_3_link_2",
+                "Ave_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623112917199292,
+            "type": "chat",
+            "created": "2025-03-12T06:57:00",
+            "last_accessed": "2025-03-13T07:20:00",
+            "expiration": "2025-03-13T19:54:51.512918",
+            "content": "Karen Stewart will drop Mia off at School by 7:45 AM on her way to the Museum. Daniel Stewart left Midtown apartment at 6:45 AM, plans to drop Noah off at School by 7:30 AM, and reach Factory before 8:00. Both are coordinating car usage, with Daniel messaging Karen upon arrival at Factory.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Mia Stewart",
+                "Noah Stewart",
+                "School",
+                "Museum",
+                "Factory",
+                "Midtown apartment",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623113414657434,
+            "type": "thought",
+            "created": "2025-03-12T07:06:00",
+            "last_accessed": "2025-03-12T07:06:00",
+            "expiration": "2025-03-16T00:21:24.553005",
+            "content": "St_1_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "06:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623113415692633,
+            "type": "thought",
+            "created": "2025-03-12T07:06:00",
+            "last_accessed": "2025-03-12T18:02:00",
+            "expiration": "2025-03-15T14:43:50.510024",
+            "content": "St_2_link_1 experiences moderate delays in early mornings",
+            "keywords": [
+                "St_2_link_1",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "06:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113518311552,
+            "type": "chat",
+            "created": "2025-03-12T07:09:00",
+            "last_accessed": "2025-03-12T17:50:00",
+            "expiration": "2025-03-13T06:24:51.512918",
+            "content": "Daniel Stewart is delayed due to congestion on St_1_link_1 and expects to arrive at Factory around 8:15 AM. Karen Stewart will adjust her Museum schedule and handle Mia's afternoon pickup from Gym. Daniel asked Karen to coordinate with Miguel regarding their Gym meetup if needed, and he will message her once he arrives at Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Factory",
+                "Museum",
+                "Gym",
+                "Miguel Garcia",
+                "St_1_link_1",
+                "8:15 AM"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623113540081972,
+            "type": "chat",
+            "created": "2025-03-12T07:09:00",
+            "last_accessed": "2025-03-12T17:43:00",
+            "expiration": "2025-03-13T06:17:51.512918",
+            "content": "Daniel Stewart is delayed in traffic on St_1_link_1 and expects to arrive at Factory around 8:15 AM. Karen Stewart will adjust her schedule to pick up Mia from Gym by 17:30.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Mia Stewart",
+                "Factory",
+                "Gym",
+                "St_1_link_1",
+                "8:15 AM",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623114014514684,
+            "type": "thought",
+            "created": "2025-03-12T07:18:00",
+            "last_accessed": "2025-03-12T07:18:00",
+            "expiration": "2025-03-16T00:33:24.553005",
+            "content": "St_1_link_1 consistently congested during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623114015293044,
+            "type": "thought",
+            "created": "2025-03-12T07:18:00",
+            "last_accessed": "2025-03-12T07:18:00",
+            "expiration": "2025-03-15T03:59:50.510024",
+            "content": "Ave_1_link_1 experiences moderate delays in early mornings",
+            "keywords": [
+                "Ave_1_link_1",
+                "moderate delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623114240804863,
+            "type": "chat",
+            "created": "2025-03-12T07:21:00",
+            "last_accessed": "2025-03-12T17:43:00",
+            "expiration": "2025-03-13T02:30:16.901153",
+            "content": "Daniel Stewart will coordinate with Miguel Garcia regarding his delayed arrival at Factory around 8:15 AM. Karen Stewart confirmed she will pick up Mia from Gym at 17:30 as planned.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Miguel Garcia",
+                "Mia Stewart",
+                "Factory",
+                "Gym",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623120916864595,
+            "type": "event",
+            "created": "2025-03-12T08:00:00",
+            "last_accessed": "2025-03-12T23:55:00",
+            "expiration": "2025-03-13T05:40:47.228115",
+            "content": "Diana Robinson current activity description: Drop off Tyler at School by 7:00 AM, following the same path as originally planned for Factory but with adjusted departure timing. current status is Staying at facility School.",
+            "keywords": [
+                "Diana Robinson",
+                "School",
+                "School"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623121025959932,
+            "type": "thought",
+            "created": "2025-03-12T08:01:00",
+            "last_accessed": "2025-03-12T08:10:00",
+            "expiration": "2025-03-16T01:25:24.553005",
+            "content": "St_2_link_2 experiences morning congestion during school drop-off hours",
+            "keywords": [
+                "St_2_link_2",
+                "congestion",
+                "school drop-off"
+            ],
+            "spatial_scope": [
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623121026756426,
+            "type": "thought",
+            "created": "2025-03-12T08:01:00",
+            "last_accessed": "2025-03-12T08:01:00",
+            "expiration": "2025-03-13T18:49:17.115446",
+            "content": "Ave_3_link_1 has recurring light congestion in the early morning affecting travel from Hospital to Coffee shop",
+            "keywords": [
+                "Ave_3_link_1",
+                "congestion",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623121507406441,
+            "type": "thought",
+            "created": "2025-03-12T08:10:00",
+            "last_accessed": "2025-03-12T08:10:00",
+            "expiration": "2025-03-15T04:51:50.510024",
+            "content": "St_5_link_1 moderately congested during morning commute",
+            "keywords": [
+                "St_5_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623121508177024,
+            "type": "thought",
+            "created": "2025-03-12T08:10:00",
+            "last_accessed": "2025-03-12T08:10:00",
+            "expiration": "2025-03-13T18:58:17.115446",
+            "content": "Ave_3_link_2 experiences light congestion in early morning",
+            "keywords": [
+                "Ave_3_link_2",
+                "light congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623122042605548,
+            "type": "event",
+            "created": "2025-03-12T08:21:00",
+            "last_accessed": "2025-03-12T17:28:00",
+            "expiration": "2025-03-13T00:41:35.742705",
+            "content": "Daniel Stewart current activity description: Go to Gym after finishing work at 17:00. Possibly meet Miguel Garcia for an evening workout session.; current status: Daniel Stewart on the trip from Factory to Gym; planned path []; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13')]; currently traveling on link Ave_4_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Daniel Stewart",
+                "Gym",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623122044728367,
+            "type": "event",
+            "created": "2025-03-12T08:21:00",
+            "last_accessed": "2025-03-12T17:19:00",
+            "expiration": "2025-03-13T00:32:35.742705",
+            "content": "Diana Robinson current activity description: Arrive at Factory by 8:00 AM after dropping off Tyler, continuing work as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from School to Factory; planned path [('Ave_4_link_1', 'drive', 'Node_3')]; trip trajectory: [('St_2_link_2', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 3 minutes.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623122054548235,
+            "type": "thought",
+            "created": "2025-03-12T08:21:00",
+            "last_accessed": "2025-03-13T06:55:00",
+            "expiration": "2025-03-17T22:54:09.440007",
+            "content": "St_1_link_2 frequently experiences severe congestion during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623122306308866,
+            "type": "event",
+            "created": "2025-03-12T08:30:00",
+            "last_accessed": "2025-03-12T17:28:00",
+            "expiration": "2025-03-13T00:41:35.742705",
+            "content": "Diana Robinson current activity description: Arrive at Factory by 8:00 AM after dropping off Tyler, continuing work as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from School to Factory; planned path []; trip trajectory: [('St_2_link_2', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13'), ('Ave_4_link_1', 'drive', 'Node_3')]; currently traveling on link Ave_4_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623123851639826,
+            "type": "event",
+            "created": "2025-03-12T10:20:00",
+            "last_accessed": "2025-03-13T07:46:00",
+            "expiration": "2025-03-13T08:00:47.228115",
+            "content": "Jennifer Kim current activity description: Head to Supermarket after work for essential grocery shopping; leave early to avoid evening congestion. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Jennifer Kim",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623123904256900,
+            "type": "thought",
+            "created": "2025-03-12T10:20:00",
+            "last_accessed": "2025-03-12T17:50:00",
+            "expiration": "2025-03-16T11:05:24.553005",
+            "content": "St_1_link_1 often congested during weekday mornings",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623123905069598,
+            "type": "thought",
+            "created": "2025-03-12T10:20:00",
+            "last_accessed": "2025-03-12T10:20:00",
+            "expiration": "2025-03-16T03:35:24.553005",
+            "content": "Ave_2-St_3-Ave_1 reliable return route from Museum to School",
+            "keywords": [
+                "route",
+                "Ave_2",
+                "St_3",
+                "Ave_1"
+            ],
+            "spatial_scope": [
+                "Ave_2",
+                "St_3",
+                "Ave_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623124635020275,
+            "type": "event",
+            "created": "2025-03-12T12:20:00",
+            "last_accessed": "2025-03-13T08:33:00",
+            "expiration": "2025-03-13T10:00:47.228115",
+            "content": "Diana Robinson current activity description: Arrive at Factory by 8:00 AM after dropping off Tyler, continuing work as an accountant from 8:00 to 17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623130659737769,
+            "type": "thought",
+            "created": "2025-03-12T14:20:00",
+            "last_accessed": "2025-03-12T14:20:00",
+            "expiration": "2025-03-14T01:08:17.115446",
+            "content": "St_3_link_2 experiences light congestion during midday hours",
+            "keywords": [
+                "St_3_link_2",
+                "congestion",
+                "midday"
+            ],
+            "spatial_scope": [
+                "St_3_link_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "15:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133356462639,
+            "type": "thought",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:10:00",
+            "expiration": "2025-03-15T13:51:50.510024",
+            "content": "Coffee shop visits are more efficient post-class with adjusted timing",
+            "keywords": [
+                "Coffee shop",
+                "efficient",
+                "post-class"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "09:00:00",
+                "11:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623133357460829,
+            "type": "thought",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-15T13:41:50.510024",
+            "content": "Gym area less congested during early evening when returning via Ave_4-St_4-Ave_3",
+            "keywords": [
+                "Gym",
+                "Ave_4",
+                "St_4",
+                "Ave_3",
+                "less congested"
+            ],
+            "spatial_scope": [
+                "Ave_4",
+                "St_4",
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623133643563045,
+            "type": "event",
+            "created": "2025-03-12T17:10:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T14:50:47.228115",
+            "content": "Diana Robinson current activity description: Head to Coffee shop during lunch break for a quick coffee and light snack before returning to work. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Diana Robinson",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133654667365,
+            "type": "thought",
+            "created": "2025-03-12T17:10:00",
+            "last_accessed": "2025-03-12T17:10:00",
+            "expiration": "2025-03-14T03:58:17.115446",
+            "content": "Ave_4_link_1 experiences light congestion during evening commutes",
+            "keywords": [
+                "Ave_4_link_1",
+                "light congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623133845526961,
+            "type": "chat",
+            "created": "2025-03-12T17:15:00",
+            "last_accessed": "2025-03-12T17:43:00",
+            "expiration": "2025-03-13T02:30:16.901153",
+            "content": "Daniel Stewart informed Karen Stewart that he will return home by 17:30 after finishing at the Gym earlier than planned. Karen confirmed she will pick up Mia from the Gym as scheduled, arriving by 17:15 and leaving by 19:00.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Gym",
+                "Mia Stewart",
+                "17:30",
+                "17:15",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623133954558782,
+            "type": "event",
+            "created": "2025-03-12T17:19:00",
+            "last_accessed": "2025-03-12T18:02:00",
+            "expiration": "2025-03-13T01:15:35.742705",
+            "content": "Diana Robinson current activity description: Drive to School to pick up Tyler Robinson after his classes end. current status is Diana Robinson on the trip from Coffee shop to School; planned path [('Ave_3_link_1', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10')]; currently traveling on link Ave_3_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Diana Robinson",
+                "School",
+                "Ave_3_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134011946545,
+            "type": "chat",
+            "created": "2025-03-12T17:19:00",
+            "last_accessed": "2025-03-12T18:02:00",
+            "expiration": "2025-03-13T02:49:16.901153",
+            "content": "Karen Stewart will pick up Mia from Gym by 17:15 as scheduled. Diana Robinson is heading to School from Coffee shop and will adjust her route to avoid congestion on St_4_link_2, taking Ave_2_link_3 and St_3_link_1 instead, while maintaining her original pickup time for Tyler.",
+            "keywords": [
+                "Karen Stewart",
+                "Diana Robinson",
+                "Gym",
+                "Coffee shop",
+                "School",
+                "St_4_link_2",
+                "Ave_2_link_3",
+                "St_3_link_1",
+                "pickup"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623134027305252,
+            "type": "thought",
+            "created": "2025-03-12T17:19:00",
+            "last_accessed": "2025-03-12T17:19:00",
+            "expiration": "2025-03-15T14:00:50.510024",
+            "content": "St_4_link_2 experiences moderate congestion during late afternoon commute",
+            "keywords": [
+                "St_4_link_2",
+                "congested",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_4_link_2"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623134253527402,
+            "type": "event",
+            "created": "2025-03-12T17:28:00",
+            "last_accessed": "2025-03-12T19:40:00",
+            "expiration": "2025-03-13T02:53:35.742705",
+            "content": "Daniel Stewart current activity description: Go to Gym after finishing work at 17:00. Possibly meet Miguel Garcia for an evening workout session.; current status: Staying at facility Gym.",
+            "keywords": [
+                "Daniel Stewart",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134255300413,
+            "type": "event",
+            "created": "2025-03-12T17:28:00",
+            "last_accessed": "2025-03-12T18:02:00",
+            "expiration": "2025-03-13T01:15:35.742705",
+            "content": "Diana Robinson current activity description: Drive to School to pick up Tyler Robinson after his classes end. current status is Diana Robinson on the trip from Coffee shop to School; planned path [('Ave_2_link_2', 'drive', 'Node_5')]; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10'), ('St_3_link_2', 'drive', 'Node_6')]; currently traveling on link St_3_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Diana Robinson",
+                "School",
+                "St_3_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134308773434,
+            "type": "event",
+            "created": "2025-03-12T17:28:00",
+            "last_accessed": "2025-03-12T17:28:00",
+            "expiration": "2025-03-13T00:41:35.742705",
+            "content": "Karen Stewart travels from Coffee shop to School by travel mode drive; start time is Wed 2025-03-12 17:00; trip time is 28 minutes",
+            "keywords": [
+                "Coffee shop to School",
+                "drive"
+            ],
+            "spatial_scope": "Coffee shop, School, Ave_3, Ave_3, St_2",
+            "time_scope": [
+                "17:00:00",
+                "17:28:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134934981260,
+            "type": "thought",
+            "created": "2025-03-12T17:40:00",
+            "last_accessed": "2025-03-13T07:46:00",
+            "expiration": "2025-03-16T04:27:50.510024",
+            "content": "Gym becomes a meeting point for family coordination after work",
+            "keywords": [
+                "Family",
+                "Gym",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623134936337997,
+            "type": "thought",
+            "created": "2025-03-12T17:40:00",
+            "last_accessed": "2025-03-12T17:40:00",
+            "expiration": "2025-03-17T09:39:09.440007",
+            "content": "St_1_link_2 frequently experiences severe congestion during evening commute",
+            "keywords": [
+                "Traffic",
+                "Congestion",
+                "Evening Commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623135009866271,
+            "type": "event",
+            "created": "2025-03-12T17:41:00",
+            "last_accessed": "2025-03-13T07:46:00",
+            "expiration": "2025-03-13T14:59:35.742705",
+            "content": "Daniel Stewart current activity description: Return home for dinner and evening family time.; current status: Daniel Stewart on the trip from Gym to Midtown apartment; planned path [('St_1_link_1', 'drive', 'Node_4')]; trip trajectory: [('St_1_link_2', 'drive', 'Node_9')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623135201805278,
+            "type": "chat",
+            "created": "2025-03-12T17:43:00",
+            "last_accessed": "2025-03-12T23:55:00",
+            "expiration": "2025-03-13T08:42:16.901153",
+            "content": "Daniel Stewart will leave the Gym by 17:30 and head home. Karen Stewart will pick up Mia from the Gym around 17:15 and they will go to the Midtown apartment together. Both confirmed arriving home before 17:30.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Mia Stewart",
+                "Gym",
+                "Midtown apartment",
+                "17:15",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623135658370218,
+            "type": "event",
+            "created": "2025-03-12T17:50:00",
+            "last_accessed": "2025-03-13T07:45:00",
+            "expiration": "2025-03-13T14:58:35.742705",
+            "content": "Daniel Stewart current activity description: Return home for dinner and evening family time.; current status: Daniel Stewart on the trip from Gym to Midtown apartment; planned path []; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_1_link_1', 'drive', 'Node_4')]; currently traveling on link St_1_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623135700128216,
+            "type": "event",
+            "created": "2025-03-12T17:50:00",
+            "last_accessed": "2025-03-13T07:55:00",
+            "expiration": "2025-03-13T15:08:35.742705",
+            "content": "Diana Robinson current activity description: Drive to School to pick up Tyler Robinson after his classes end. current status is Staying at facility School.",
+            "keywords": [
+                "Diana Robinson",
+                "School",
+                "School"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623140621885128,
+            "type": "event",
+            "created": "2025-03-12T18:02:00",
+            "last_accessed": "2025-03-13T07:55:00",
+            "expiration": "2025-03-13T15:08:35.742705",
+            "content": "Diana Robinson current activity description: Return home to Uptown apartment with Tyler for dinner and evening relaxation. current status is Diana Robinson on the trip from School to Uptown apartment; planned path []; trip trajectory: [('St_2_link_1', 'drive', 'Node_1')]; currently traveling on link St_2_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623140645434100,
+            "type": "event",
+            "created": "2025-03-12T18:02:00",
+            "last_accessed": "2025-03-12T18:02:00",
+            "expiration": "2025-03-13T01:15:35.742705",
+            "content": "Karen Stewart travels from School to Gym by travel mode drive; start time is Wed 2025-03-12 17:40; trip time is 22 minutes",
+            "keywords": [
+                "School to Gym",
+                "drive"
+            ],
+            "spatial_scope": "School, Gym, St_2, St_1",
+            "time_scope": [
+                "17:40:00",
+                "18:02:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624032857004820,
+            "type": "event",
+            "created": "2025-03-12T19:30:00",
+            "last_accessed": "2025-03-13T07:46:00",
+            "expiration": "2025-03-14T03:34:34.810763",
+            "content": "Karen Stewart arrived at Gym at Wed 2025-03-12 18:02; and waits for 88 minutes in queue before starting the activity.",
+            "keywords": [
+                "wait",
+                "Gym"
+            ],
+            "spatial_scope": "Gym",
+            "time_scope": [
+                "18:02:00",
+                "19:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624033548946563,
+            "type": "chat",
+            "created": "2025-03-12T19:40:00",
+            "last_accessed": "2025-03-13T06:55:00",
+            "expiration": "2025-03-13T15:42:16.901153",
+            "content": "Karen Stewart is leaving the Gym and will take Ave_4-St_5-Ave_1 to avoid congestion on St_1_link_2. She expects to arrive home at Midtown apartment by 19:00. Daniel Stewart is already at Midtown apartment and will prepare dinner by that time.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Gym",
+                "Midtown apartment",
+                "Ave_4-St_5-Ave_1",
+                "St_1_link_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624070726988569,
+            "type": "chat",
+            "created": "2025-03-12T20:05:00",
+            "last_accessed": "2025-03-12T20:05:00",
+            "expiration": "2025-03-13T01:01:01.577996",
+            "content": "Karen Stewart is leaving Gym and taking Ave_4-St_5-Ave_1 route to Midtown apartment, expecting to arrive by 19:00. She asked Daniel Stewart if he is already at home and whether he is preparing dinner as planned.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Gym",
+                "Midtown apartment",
+                "Ave_4",
+                "St_5",
+                "Ave_1",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625115335269216,
+            "type": "event",
+            "created": "2025-03-12T23:55:00",
+            "last_accessed": "2025-03-12T23:55:00",
+            "expiration": "2025-03-13T02:17:27.194665",
+            "content": "Daniel Stewart current activity description: Return home for dinner and evening family time.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625115336212636,
+            "type": "event",
+            "created": "2025-03-12T23:55:00",
+            "last_accessed": "2025-03-12T23:55:00",
+            "expiration": "2025-03-13T02:17:27.194665",
+            "content": "Jennifer Kim current activity description: Return home to Midtown apartment after completing grocery shopping at Supermarket. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625115337050543,
+            "type": "event",
+            "created": "2025-03-12T23:55:00",
+            "last_accessed": "2025-03-12T23:55:00",
+            "expiration": "2025-03-13T02:17:27.194665",
+            "content": "Diana Robinson current activity description: Return home to Uptown apartment with Tyler for dinner and evening relaxation. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625115350729700,
+            "type": "thought",
+            "created": "2025-03-12T23:55:00",
+            "last_accessed": "2025-03-13T06:55:00",
+            "expiration": "2025-03-17T00:10:24.553005",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625115351653400,
+            "type": "thought",
+            "created": "2025-03-12T23:55:00",
+            "last_accessed": "2025-03-12T23:55:00",
+            "expiration": "2025-03-16T17:10:24.553005",
+            "content": "Ave_4-St_5-Ave_1 as reliable alternative route in evening",
+            "keywords": [
+                "Ave_4",
+                "St_5",
+                "Ave_1",
+                "alternative route"
+            ],
+            "spatial_scope": [
+                "Ave_4",
+                "St_5",
+                "Ave_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121248853621,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "St_1_link_2 prone to evening congestion",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "unreliable"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121249835611,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Ave_4-St_5-Ave_1 reliable alternate route during St_1_link_2 congestion",
+            "keywords": [
+                "route",
+                "alternative",
+                "efficiency"
+            ],
+            "spatial_scope": [
+                "Ave_4",
+                "St_5",
+                "Ave_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121250641825,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Morning congestion on Ave_1_link_1 affects central-north commutes",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "delay"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121251550663,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "St_2_link_1 often congested during AM commute",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121252636831,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Coordination with spouse improves activity flexibility",
+            "keywords": [
+                "family",
+                "coordination",
+                "scheduling"
+            ],
+            "spatial_scope": [
+                "The town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121253562067,
+            "type": "event",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-13T19:47:34.810763",
+            "content": "Karen Stewart failed to return home by end of day and was teleported home from Gym. This suggests poor time management or unexpected delays!",
+            "keywords": [
+                "failsafe",
+                "teleport",
+                "time management",
+                "end of day"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121709681742,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:13:00",
+            "expiration": "2025-03-13T16:00:16.901153",
+            "content": "Daniel Stewart and Karen Stewart coordinated morning routines - Karen will drive Mia Stewart and Noah Stewart to School at 6:45 AM from Midtown apartment, and Daniel will use the car afterward to commute to Factory, aiming to arrive by 8:00 AM.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Mia Stewart",
+                "Noah Stewart",
+                "Midtown apartment",
+                "School",
+                "Factory",
+                "6:45 AM",
+                "8:00 AM"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121722419090,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:53:00",
+            "expiration": "2025-03-13T20:27:51.512918",
+            "content": "Daniel Stewart and Karen Stewart coordinated morning commutes to avoid St_1_link_1 congestion. Karen will drop off Mia and Noah at School by 6:45 AM, then go to Supermarket. Daniel will take the car after her to commute to Factory by 8:00 AM.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "School",
+                "Supermarket",
+                "Factory",
+                "St_1_link_1",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121724534434,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:45:00",
+            "expiration": "2025-03-13T20:19:51.512918",
+            "content": "Karen Stewart asked Daniel Stewart to drop Noah at School this morning, which he agreed to do by leaving Midtown apartment by 6:30 AM to avoid congestion on St_1_link_1. Karen will leave earlier to handle preparation at the Museum and will pick up Mia from the Gym this evening.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Noah Stewart",
+                "Mia Stewart",
+                "School",
+                "Museum",
+                "Gym",
+                "Midtown apartment",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121737407809,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:44:00",
+            "expiration": "2025-03-13T20:18:51.512918",
+            "content": "Karen Stewart will leave earlier in the morning to go to the Museum before her teaching day, so Daniel Stewart will drop Noah at School this morning. Daniel will depart from Midtown apartment by 6:30 AM to avoid congestion on St_1_link_1. Karen will pick up Mia from the Gym in the evening.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Noah Stewart",
+                "Mia Stewart",
+                "Museum",
+                "School",
+                "Gym",
+                "Midtown apartment",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121809785788,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-17T01:21:24.553005",
+            "content": "Morning congestion on Ave_1_link_1 affects central-north commutes",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121810697997,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T06:55:00",
+            "expiration": "2025-03-16T03:36:50.510024",
+            "content": "St_1_link_2 prone to evening congestion",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121811555091,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-16T17:15:24.553005",
+            "content": "Ave_4-St_5-Ave_1 reliable alternate route during St_1_link_2 congestion",
+            "keywords": [
+                "Ave_4",
+                "St_5",
+                "Ave_1",
+                "alternate route"
+            ],
+            "spatial_scope": [
+                "Ave_4",
+                "St_5",
+                "Ave_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121812368142,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-16T17:15:24.553005",
+            "content": "St_2_link_1 often congested during AM commute",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121813170527,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-16T17:15:24.553005",
+            "content": "Coordination with spouse improves activity flexibility",
+            "keywords": [
+                "spouse",
+                "coordination",
+                "flexibility"
+            ],
+            "spatial_scope": [
+                "Midtown apartment",
+                "School"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625125151829809,
+            "type": "event",
+            "created": "2025-03-13T06:00:00",
+            "last_accessed": "2025-03-13T06:00:00",
+            "expiration": "2025-03-13T06:29:00",
+            "content": "Daniel Stewart current activity description: Sleeping at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125153129214,
+            "type": "event",
+            "created": "2025-03-13T06:00:00",
+            "last_accessed": "2025-03-13T06:00:00",
+            "expiration": "2025-03-13T06:29:00",
+            "content": "Jennifer Kim current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125154042323,
+            "type": "event",
+            "created": "2025-03-13T06:00:00",
+            "last_accessed": "2025-03-13T06:00:00",
+            "expiration": "2025-03-13T06:29:00",
+            "content": "Diana Robinson current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125618878887,
+            "type": "event",
+            "created": "2025-03-13T06:30:00",
+            "last_accessed": "2025-03-13T07:53:00",
+            "expiration": "2025-03-13T10:15:27.194665",
+            "content": "Daniel Stewart current activity description: Sleeping at home.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125619690592,
+            "type": "event",
+            "created": "2025-03-13T06:30:00",
+            "last_accessed": "2025-03-13T07:26:00",
+            "expiration": "2025-03-13T09:48:27.194665",
+            "content": "Jennifer Kim current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125621048647,
+            "type": "event",
+            "created": "2025-03-13T06:30:00",
+            "last_accessed": "2025-03-13T07:55:00",
+            "expiration": "2025-03-13T10:17:27.194665",
+            "content": "Diana Robinson current activity description: Sleeping at home. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125910978313,
+            "type": "event",
+            "created": "2025-03-13T06:45:00",
+            "last_accessed": "2025-03-13T06:45:00",
+            "expiration": "2025-03-13T06:45:00",
+            "content": "Daniel Stewart current activity description: Wake up at home and complete morning routines.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125912986724,
+            "type": "event",
+            "created": "2025-03-13T06:45:00",
+            "last_accessed": "2025-03-13T06:45:00",
+            "expiration": "2025-03-13T06:45:00",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125911952959,
+            "type": "event",
+            "created": "2025-03-13T06:45:00",
+            "last_accessed": "2025-03-13T06:45:00",
+            "expiration": "2025-03-13T06:45:00",
+            "content": "Jennifer Kim current activity description: Head to Gym for a light workout session before starting work; this avoids potential morning congestion and ensures personal wellness time. current status is Jennifer Kim on the trip from Midtown apartment to Gym; planned path []; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Jennifer Kim",
+                "Gym",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625125945768981,
+            "type": "event",
+            "created": "2025-03-13T06:46:00",
+            "last_accessed": "2025-03-13T06:46:00",
+            "expiration": "2025-03-13T06:54:00",
+            "content": "Daniel Stewart current activity description: Wake up at home and complete morning routines.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125947484367,
+            "type": "event",
+            "created": "2025-03-13T06:46:00",
+            "last_accessed": "2025-03-13T06:46:00",
+            "expiration": "2025-03-13T06:54:00",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125946645320,
+            "type": "event",
+            "created": "2025-03-13T06:46:00",
+            "last_accessed": "2025-03-13T06:46:00",
+            "expiration": "2025-03-13T06:54:00",
+            "content": "Jennifer Kim current activity description: Head to Gym for a light workout session before starting work; this avoids potential morning congestion and ensures personal wellness time. current status is Jennifer Kim on the trip from Midtown apartment to Gym; planned path []; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Jennifer Kim",
+                "Gym",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625130216919275,
+            "type": "event",
+            "created": "2025-03-13T06:55:00",
+            "last_accessed": "2025-03-13T06:55:00",
+            "expiration": "2025-03-13T07:03:00",
+            "content": "Daniel Stewart current activity description: Wake up at home and complete morning routines.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130222887935,
+            "type": "event",
+            "created": "2025-03-13T06:55:00",
+            "last_accessed": "2025-03-13T06:55:00",
+            "expiration": "2025-03-13T07:03:00",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130217780192,
+            "type": "event",
+            "created": "2025-03-13T06:55:00",
+            "last_accessed": "2025-03-13T08:05:00",
+            "expiration": "2025-03-13T15:18:35.742705",
+            "content": "Jennifer Kim current activity description: Head to Gym for a light workout session before starting work; this avoids potential morning congestion and ensures personal wellness time. current status is Jennifer Kim on the trip from Midtown apartment to Gym; planned path []; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently traveling on link St_1_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Jennifer Kim",
+                "Gym",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625130621308225,
+            "type": "event",
+            "created": "2025-03-13T07:04:00",
+            "last_accessed": "2025-03-13T07:44:00",
+            "expiration": "2025-03-13T10:06:27.194665",
+            "content": "Daniel Stewart current activity description: Wake up at home and complete morning routines.; current status: Staying at facility Midtown apartment.",
+            "keywords": [
+                "Daniel Stewart",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130623178056,
+            "type": "event",
+            "created": "2025-03-13T07:04:00",
+            "last_accessed": "2025-03-13T07:04:00",
+            "expiration": "2025-03-13T07:12:00",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130622116107,
+            "type": "event",
+            "created": "2025-03-13T07:04:00",
+            "last_accessed": "2025-03-13T07:04:00",
+            "expiration": "2025-03-13T07:12:00",
+            "content": "Jennifer Kim current activity description: Head to Gym for a light workout session before starting work; this avoids potential morning congestion and ensures personal wellness time. current status is Staying at facility Gym.",
+            "keywords": [
+                "Jennifer Kim",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131123450065,
+            "type": "event",
+            "created": "2025-03-13T07:13:00",
+            "last_accessed": "2025-03-13T07:13:00",
+            "expiration": "2025-03-13T14:26:35.742705",
+            "content": "Daniel Stewart current activity description: Drop Noah off at School before heading to work.; current status: Daniel Stewart on the trip from Midtown apartment to School; planned path []; trip trajectory: [('Ave_2_link_1', 'drive', 'Node_5')]; currently traveling on link Ave_2_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Daniel Stewart",
+                "School",
+                "Ave_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131125397746,
+            "type": "event",
+            "created": "2025-03-13T07:13:00",
+            "last_accessed": "2025-03-13T07:44:00",
+            "expiration": "2025-03-13T07:44:00",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625131124530422,
+            "type": "event",
+            "created": "2025-03-13T07:13:00",
+            "last_accessed": "2025-03-13T07:13:00",
+            "expiration": "2025-03-13T07:44:00",
+            "content": "Jennifer Kim current activity description: Head to Gym for a light workout session before starting work; this avoids potential morning congestion and ensures personal wellness time. current status is Staying at facility Gym.",
+            "keywords": [
+                "Jennifer Kim",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131140418620,
+            "type": "chat",
+            "created": "2025-03-13T07:13:00",
+            "last_accessed": "2025-03-13T07:44:00",
+            "expiration": "2025-03-13T16:31:16.901153",
+            "content": "Karen Stewart confirmed Daniel Stewart is en route on Ave_2_link_1 to drop Noah at School by 6:45 AM, avoiding congestion on St_1_link_1. Karen will visit the Museum and return home later tonight.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Noah Stewart",
+                "School",
+                "Museum",
+                "Ave_2_link_1",
+                "St_1_link_1",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625131151693964,
+            "type": "thought",
+            "created": "2025-03-13T07:13:00",
+            "last_accessed": "2025-03-13T07:13:00",
+            "expiration": "2025-03-17T23:12:09.440007",
+            "content": "St_1_link_1 consistently experiences severe congestion in the early morning hours",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 625131206135291,
+            "type": "event",
+            "created": "2025-03-13T07:13:00",
+            "last_accessed": "2025-03-13T07:35:00",
+            "expiration": "2025-03-13T14:48:35.742705",
+            "content": "Karen Stewart travels from Midtown apartment to Museum by travel mode drive; start time is Thu 2025-03-13 06:45; trip time is 28 minutes",
+            "keywords": [
+                "Midtown apartment to Museum",
+                "drive"
+            ],
+            "spatial_scope": "Midtown apartment, Museum, Ave_2, Ave_2, St_3",
+            "time_scope": [
+                "06:45:00",
+                "07:13:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131712179411,
+            "type": "chat",
+            "created": "2025-03-13T07:20:00",
+            "last_accessed": "2025-03-13T07:53:00",
+            "expiration": "2025-03-13T20:27:51.512918",
+            "content": "Daniel Stewart rerouted via Ave_2_link_3 and St_4_link_1 to avoid congestion and successfully dropped Noah off at School before heading to Factory. Karen Stewart coordinated route adjustments and confirmed she would soon leave Museum to head back to School.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Noah Stewart",
+                "School",
+                "Factory",
+                "Museum",
+                "Ave_2_link_1",
+                "Ave_2_link_3",
+                "St_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626103239823835,
+            "type": "chat",
+            "created": "2025-03-13T07:26:00",
+            "last_accessed": "2025-03-13T07:53:00",
+            "expiration": "2025-03-13T16:40:16.901153",
+            "content": "Daniel Stewart informed Karen Stewart about traffic congestion on Ave_2_link_1 and his alternate route to the Factory, arriving by 8:10 AM. Karen will pick up Mia from the Gym around 17:30 and coordinate with Miguel if needed. Daniel will confirm with Miguel later about the evening workout session.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Mia Stewart",
+                "Miguel Garcia",
+                "Factory",
+                "Gym",
+                "Ave_2_link_1",
+                "8:10 AM",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626104413903955,
+            "type": "chat",
+            "created": "2025-03-13T07:35:00",
+            "last_accessed": "2025-03-13T07:45:00",
+            "expiration": "2025-03-13T16:32:16.901153",
+            "content": "Daniel Stewart adjusted his route to Factory due to congestion on Ave_2_link_1 and arrived by 8:10 AM. Karen Stewart will pick up Mia from the Gym around 17:30 as planned. Karen is at the Museum until 09:30, then meets Jennifer at the Coffee shop. Daniel will update Karen later on Miguel's evening workout plans.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Mia Stewart",
+                "Factory",
+                "Gym",
+                "Museum",
+                "Coffee shop",
+                "Jennifer",
+                "Miguel"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626114950865011,
+            "type": "chat",
+            "created": "2025-03-13T07:44:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-14T01:04:51.512918",
+            "content": "Daniel Stewart experienced traffic delays on Ave_2_link_1 and will arrive at the Factory around 8:10 AM. Karen Stewart will handle Mia's pickup from the Gym at 17:30. Karen is at the Museum preparing for an exhibition and will meet Jennifer Kim at the Coffee shop around 09:30. Daniel will confirm with Miguel Garcia about an evening workout session and update Karen.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Mia Stewart",
+                "Factory",
+                "Gym",
+                "Museum",
+                "Coffee shop",
+                "Jennifer Kim",
+                "Miguel Garcia",
+                "Ave_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626130555438811,
+            "type": "event",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-14T03:14:29.634388",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Daniel Stewart on the trip from School to Factory; trip trajectory: [('Ave_2_link_2', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11')]; after waiting for 0 minutes, currently driving on link St_4_link_1; planned path left: [('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "St_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 626130557616273,
+            "type": "event",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T07:45:00",
+            "expiration": "2025-03-13T07:45:00",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626130556733604,
+            "type": "event",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T07:45:00",
+            "expiration": "2025-03-13T07:45:00",
+            "content": "Jennifer Kim current activity description: Head to Gym for a light workout session before starting work; this avoids potential morning congestion and ensures personal wellness time. current status is Staying at facility Gym.",
+            "keywords": [
+                "Jennifer Kim",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626132759617985,
+            "type": "chat",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-14T08:52:10.492267",
+            "content": "Karen Stewart and Daniel Stewart coordinated morning travel adjustments due to congestion on St_1_link_1. Daniel rerouted via Ave_2_link_3 and St_4_link_1 to drop Noah at School before arriving at the Factory at 8:10 AM. Karen will return to School from the Museum after monitoring traffic conditions.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Noah Stewart",
+                "School",
+                "Factory",
+                "Museum",
+                "St_1_link_1",
+                "Ave_2_link_3",
+                "St_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626132826974915,
+            "type": "chat",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T07:53:00",
+            "expiration": "2025-03-13T20:27:51.512918",
+            "content": "Karen Stewart will pick up Mia from the Gym at 17:30, adjusting for congestion on St_1_link_1 and St_2. Daniel Stewart is rerouting to Factory via Ave_2_link_3 and St_4_link_1 and will confirm evening workout plans with Miguel Garcia before lunch. Both are monitoring traffic updates affecting their schedules.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Mia Stewart",
+                "Gym",
+                "Museum",
+                "School",
+                "Factory",
+                "Miguel Garcia",
+                "St_1_link_1",
+                "St_1_link_2",
+                "Ave_2_link_3",
+                "St_4_link_1",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626132853496841,
+            "type": "thought",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T07:45:00",
+            "expiration": "2025-03-13T07:45:00",
+            "content": "St_1 consistently congested during morning commute",
+            "keywords": [
+                "St_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626132854289923,
+            "type": "thought",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T07:45:00",
+            "expiration": "2025-03-16T04:26:50.510024",
+            "content": "Ave_2_link_2 experiences regular moderate congestion",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626132855238482,
+            "type": "thought",
+            "created": "2025-03-13T07:45:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-17T01:21:24.553005",
+            "content": "St_2_link_2 frequently congested in mornings",
+            "keywords": [
+                "St_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626132904962954,
+            "type": "event",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Daniel Stewart on the trip from School to Factory; trip trajectory: [('Ave_2_link_2', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11')];  currently traversing link St_4_link_1; planned path left: [('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "St_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626132906660642,
+            "type": "event",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T07:53:00",
+            "expiration": "2025-03-13T07:54:00",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626132905945474,
+            "type": "event",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T08:33:00",
+            "expiration": "2025-03-13T15:46:35.742705",
+            "content": "Jennifer Kim current activity description: Head to Gym for a light workout session before starting work; this avoids potential morning congestion and ensures personal wellness time. current status is Staying at facility Gym.",
+            "keywords": [
+                "Jennifer Kim",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626132927652871,
+            "type": "chat",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T12:05:00",
+            "expiration": "2025-03-13T20:52:16.901153",
+            "content": "Karen Stewart and Jennifer Kim adjusted their meeting time at the Coffee shop to 10:00 AM due to anticipated traffic congestion on Ave_2_link_2 and St_1_link_2. Karen is traveling from Museum to School, leaving by 07:45 and expecting a slight delay. Jennifer will be at School starting at 08:00 AM and will adjust her schedule as needed.",
+            "keywords": [
+                "Karen Stewart",
+                "Jennifer Kim",
+                "Museum",
+                "School",
+                "Coffee shop",
+                "Ave_2_link_2",
+                "St_1_link_2",
+                "10:00 AM"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626132943261187,
+            "type": "chat",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-14T03:23:51.512918",
+            "content": "Karen Stewart will visit the Museum before heading to School, departing at 07:45 due to congestion on Ave_2_link_2 and St_1_link_2. Karen and Jennifer Kim rescheduled their meetup to 10:00 AM at the Coffee shop.",
+            "keywords": [
+                "Karen Stewart",
+                "Jennifer Kim",
+                "Museum",
+                "School",
+                "Coffee shop",
+                "Ave_2_link_2",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626133006779874,
+            "type": "chat",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-14T03:23:51.512918",
+            "content": "Karen Stewart and Jennifer Kim confirmed their rescheduled meetup at the Coffee shop around 10:00 AM. Karen is traveling from School despite ongoing congestion on Ave_2_link_2 and St_1_link_2, and will provide updates if traffic affects her arrival time.",
+            "keywords": [
+                "Karen Stewart",
+                "Jennifer Kim",
+                "Coffee shop",
+                "10:00 AM",
+                "Ave_2_link_2",
+                "St_1_link_2",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626133018488320,
+            "type": "thought",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T08:15:00",
+            "expiration": "2025-03-18T00:14:09.440007",
+            "content": "Ave_2_link_2 experiences regular moderate to severe congestion during morning commute",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626133020074203,
+            "type": "thought",
+            "created": "2025-03-13T07:46:00",
+            "last_accessed": "2025-03-13T07:46:00",
+            "expiration": "2025-03-17T01:01:24.553005",
+            "content": "St_1 consistently congested during morning commute",
+            "keywords": [
+                "St_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626133925941114,
+            "type": "chat",
+            "created": "2025-03-13T07:53:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-14T03:23:51.512918",
+            "content": "Daniel Stewart is delayed on Ave_2_link_2 due to congestion and reroutes via Ave_3_link_3, expecting to arrive at the Factory by 08:20 AM. Karen Stewart will handle Noah\u2019s pickup from School if needed and coordinate with Miguel on Mia\u2019s Gym pickup at 17:30. Both will confirm plans with Miguel regarding the evening workout session after work.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Miguel Garcia",
+                "Factory",
+                "School",
+                "Gym",
+                "Ave_2_link_2",
+                "Ave_3_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626133956027220,
+            "type": "chat",
+            "created": "2025-03-13T07:53:00",
+            "last_accessed": "2025-03-13T08:33:00",
+            "expiration": "2025-03-13T21:07:51.512918",
+            "content": "Daniel Stewart is rerouting to Factory due to traffic on Ave_2_link_2 and will arrive by 8:20 AM. Karen Stewart will handle Noah\u2019s pickup from School later and coordinate with Miguel Garcia regarding Mia\u2019s Gym pickup at 17:30.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Miguel Garcia",
+                "Factory",
+                "School",
+                "Gym",
+                "Ave_2_link_2",
+                "8:20 AM",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626134020141589,
+            "type": "chat",
+            "created": "2025-03-13T07:53:00",
+            "last_accessed": "2025-03-13T07:53:00",
+            "expiration": "2025-03-13T16:40:16.901153",
+            "content": "Daniel Stewart is delayed on Ave_2_link_2 due to congestion and will arrive at Factory by 08:20 AM. Karen Stewart will confirm with Miguel Garcia about Mia's Gym pickup at 17:30 and handle Noah\u2019s pickup from School if needed.",
+            "keywords": [
+                "Daniel Stewart",
+                "Karen Stewart",
+                "Miguel Garcia",
+                "Factory",
+                "School",
+                "Gym",
+                "Ave_2_link_2",
+                "congestion",
+                "08:20 AM",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626134115225885,
+            "type": "event",
+            "created": "2025-03-13T07:55:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Daniel Stewart on the trip from School to Factory; trip trajectory: [('Ave_2_link_2', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11'), ('St_4_link_2', 'drive', 'Node_3')];  currently traversing link St_4_link_2; planned path left: [];.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "St_4_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626134117178867,
+            "type": "event",
+            "created": "2025-03-13T07:55:00",
+            "last_accessed": "2025-03-13T07:55:00",
+            "expiration": "2025-03-13T10:17:27.194665",
+            "content": "Diana Robinson current activity description: Wake up at home, complete her morning routine including breakfast and preparing for the day. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Diana Robinson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626134116243714,
+            "type": "event",
+            "created": "2025-03-13T07:55:00",
+            "last_accessed": "2025-03-13T08:15:00",
+            "expiration": "2025-03-13T15:28:35.742705",
+            "content": "Jennifer Kim current activity description: Drive to School to teach third-grade class and prepare for upcoming PTA updates. current status is Jennifer Kim on the trip from Gym to School; trip trajectory: [('St_1_link_2', 'drive', 'Node_9')];  currently traversing link St_1_link_2; planned path left: [('St_2_link_2', 'drive', 'Node_5')];.",
+            "keywords": [
+                "Jennifer Kim",
+                "School",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626134134037281,
+            "type": "chat",
+            "created": "2025-03-13T07:55:00",
+            "last_accessed": "2025-03-13T12:05:00",
+            "expiration": "2025-03-13T20:52:16.901153",
+            "content": "Karen Stewart and Jennifer Kim confirmed their meetup at Coffee shop at 10:00 AM despite traffic congestion on Ave_2_link_2. Jennifer will adjust her schedule at School if needed, and Karen will proceed as planned.",
+            "keywords": [
+                "Karen Stewart",
+                "Jennifer Kim",
+                "Coffee shop",
+                "10:00 AM",
+                "Ave_2_link_2",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626134150168837,
+            "type": "thought",
+            "created": "2025-03-13T07:55:00",
+            "last_accessed": "2025-03-13T07:55:00",
+            "expiration": "2025-03-17T01:10:24.553005",
+            "content": "Ave_2_link_2 frequently congested during morning commute",
+            "keywords": [
+                "Ave_2_link_2",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626135447121654,
+            "type": "event",
+            "created": "2025-03-13T08:04:00",
+            "last_accessed": "2025-03-13T08:04:00",
+            "expiration": "2025-03-13T08:04:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135447949048,
+            "type": "event",
+            "created": "2025-03-13T08:04:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-13T15:19:35.742705",
+            "content": "Jennifer Kim current activity description: Drive to School to teach third-grade class and prepare for upcoming PTA updates. current status is Jennifer Kim on the trip from Gym to School; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')]; after waiting for 0 minutes, currently driving on link St_2_link_2; planned path left: [];.",
+            "keywords": [
+                "Jennifer Kim",
+                "School",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135448990084,
+            "type": "event",
+            "created": "2025-03-13T08:04:00",
+            "last_accessed": "2025-03-13T08:04:00",
+            "expiration": "2025-03-13T08:04:00",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from Uptown apartment to Factory; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12')];  currently traversing link Ave_1_link_1; planned path left: [('St_3_link_1', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11'), ('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135506722724,
+            "type": "chat",
+            "created": "2025-03-13T08:04:00",
+            "last_accessed": "2025-03-13T08:04:00",
+            "expiration": "2025-03-13T16:51:16.901153",
+            "content": "Karen Stewart will handle Noah's pickup from School later today and confirm with Miguel Garcia about Mia's Gym pickup at 17:30. Daniel Stewart successfully rerouted via Ave_3_link_3 to reach Factory by 8:20 AM despite congestion on Ave_2_link_2.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Miguel Garcia",
+                "Noah",
+                "Mia",
+                "School",
+                "Gym",
+                "Ave_2_link_2",
+                "Ave_3_link_3",
+                "Factory",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626135521012639,
+            "type": "thought",
+            "created": "2025-03-13T08:04:00",
+            "last_accessed": "2025-03-13T08:04:00",
+            "expiration": "2025-03-13T08:04:00",
+            "content": "Morning congestion on Ave_2_link_2 affects commute timing",
+            "keywords": [
+                "Ave_2_link_2",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626135521937603,
+            "type": "thought",
+            "created": "2025-03-13T08:04:00",
+            "last_accessed": "2025-03-13T08:04:00",
+            "expiration": "2025-03-13T08:04:00",
+            "content": "St_5_link_1 frequently congested during peak hours",
+            "keywords": [
+                "St_5_link_1",
+                "congested",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626135524461820,
+            "type": "event",
+            "created": "2025-03-13T08:04:00",
+            "last_accessed": "2025-03-13T08:04:00",
+            "expiration": "2025-03-13T15:17:35.742705",
+            "content": "Karen Stewart travels from Museum to School by travel mode drive; start time is Thu 2025-03-13 07:45; trip time is 19 minutes",
+            "keywords": [
+                "Museum to School",
+                "drive"
+            ],
+            "spatial_scope": "Museum, School, St_3, Ave_2",
+            "time_scope": [
+                "07:45:00",
+                "08:04:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135531661315,
+            "type": "event",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T08:05:00",
+            "expiration": "2025-03-13T08:05:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135532480205,
+            "type": "event",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-13T15:19:35.742705",
+            "content": "Jennifer Kim current activity description: Drive to School to teach third-grade class and prepare for upcoming PTA updates. current status is Jennifer Kim on the trip from Gym to School; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')];  currently traversing link St_2_link_2; planned path left: [];.",
+            "keywords": [
+                "Jennifer Kim",
+                "School",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135533509065,
+            "type": "event",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T08:05:00",
+            "expiration": "2025-03-13T08:05:00",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from Uptown apartment to Factory; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12')];  currently traversing link Ave_1_link_1; planned path left: [('St_3_link_1', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11'), ('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135556238218,
+            "type": "chat",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T08:05:00",
+            "expiration": "2025-03-13T16:52:16.901153",
+            "content": "Karen Stewart is rerouting via Ave_2_link_3 and St_4_link_1 due to congestion on Ave_2_link_2 and will arrive at School shortly after 8:00 AM. Daniel Stewart has already dropped off Noah at School and arrived at Factory by 8:20 AM via Ave_3_link_3. Both are monitoring traffic updates regarding the ongoing congestion.",
+            "keywords": [
+                "Karen Stewart",
+                "Daniel Stewart",
+                "Noah Stewart",
+                "School",
+                "Factory",
+                "Ave_2_link_2",
+                "Ave_2_link_3",
+                "St_4_link_1",
+                "Ave_3_link_3",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626135616926435,
+            "type": "chat",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T12:05:00",
+            "expiration": "2025-03-13T20:52:16.901153",
+            "content": "Karen Stewart will arrive at School slightly late due to congestion on Ave_2_link_2 and meet Jennifer Kim for coffee at 10:00 AM at Coffee shop. Jennifer Kim will start her class at School at 8:00 AM as scheduled.",
+            "keywords": [
+                "Karen Stewart",
+                "Jennifer Kim",
+                "School",
+                "Coffee shop",
+                "10:00 AM",
+                "Ave_2_link_2",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626135632594523,
+            "type": "chat",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T21:17:16.901153",
+            "content": "Karen Stewart and Jennifer Kim confirmed their coffee meetup at 10:00 AM at the Coffee shop despite Karen's slight delay due to congestion on Ave_2_link_2. Karen will arrive at School just after 8:00 AM.",
+            "keywords": [
+                "Karen Stewart",
+                "Jennifer Kim",
+                "Coffee shop",
+                "Ave_2_link_2",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626135643669462,
+            "type": "thought",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T08:05:00",
+            "expiration": "2025-03-13T08:05:00",
+            "content": "St_5_link_1 frequently congested during peak hours",
+            "keywords": [
+                "St_5_link_1",
+                "congested",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626135646930347,
+            "type": "thought",
+            "created": "2025-03-13T08:05:00",
+            "last_accessed": "2025-03-13T08:05:00",
+            "expiration": "2025-03-13T08:05:00",
+            "content": "Morning congestion on Ave_2_link_2 affects commute timing",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626135655563009,
+            "type": "event",
+            "created": "2025-03-13T08:06:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-13T08:14:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135656818029,
+            "type": "event",
+            "created": "2025-03-13T08:06:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T19:43:35.742705",
+            "content": "Jennifer Kim current activity description: After school ends, head to Supermarket for any additional household items needed; shop before peak hours to avoid crowds. current status is Jennifer Kim on the trip from Gym to Supermarket; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')];  currently traversing link St_2_link_2; planned path left: [('Ave_2_link_2', 'drive', 'Node_6')];.",
+            "keywords": [
+                "Jennifer Kim",
+                "Supermarket",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135657666850,
+            "type": "event",
+            "created": "2025-03-13T08:06:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T19:43:35.742705",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from Uptown apartment to Factory; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12')];  currently traversing link Ave_1_link_1; planned path left: [('St_3_link_1', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11'), ('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135715088829,
+            "type": "chat",
+            "created": "2025-03-13T08:06:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-13T13:02:01.577996",
+            "content": "Karen Stewart informed Jennifer Kim about traffic delays on Ave_2_link_2, but confirmed she will still arrive at School by 8:00 AM. Both agreed to keep their coffee meetup at Coffee shop at 10:00 AM as planned.",
+            "keywords": [
+                "Karen Stewart",
+                "Jennifer Kim",
+                "School",
+                "Coffee shop",
+                "10:00 AM",
+                "Ave_2_link_2",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626135727392331,
+            "type": "thought",
+            "created": "2025-03-13T08:06:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-17T01:21:24.553005",
+            "content": "St_5_link_1 frequently congested during peak hours",
+            "keywords": [
+                "St_5_link_1",
+                "congested",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626135728157350,
+            "type": "thought",
+            "created": "2025-03-13T08:06:00",
+            "last_accessed": "2025-03-13T08:06:00",
+            "expiration": "2025-03-17T01:21:24.553005",
+            "content": "Morning congestion on Ave_2_link_2 affects commute timing",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626140604131105,
+            "type": "event",
+            "created": "2025-03-13T08:15:00",
+            "last_accessed": "2025-03-13T08:15:00",
+            "expiration": "2025-03-13T08:23:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626140605360405,
+            "type": "event",
+            "created": "2025-03-13T08:15:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T19:43:35.742705",
+            "content": "Jennifer Kim current activity description: After school ends, head to Supermarket for any additional household items needed; shop before peak hours to avoid crowds. current status is Jennifer Kim on the trip from Gym to Supermarket; trip trajectory: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5'), ('Ave_2_link_2', 'drive', 'Node_6')];  currently traversing link Ave_2_link_2; planned path left: [];.",
+            "keywords": [
+                "Jennifer Kim",
+                "Supermarket",
+                "Ave_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626140606141535,
+            "type": "event",
+            "created": "2025-03-13T08:15:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T19:43:35.742705",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from Uptown apartment to Factory; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12'), ('St_3_link_1', 'drive', 'Node_6')];  currently traversing link St_3_link_1; planned path left: [('Ave_2_link_3', 'drive', 'Node_7'), ('Ave_2_link_4', 'drive', 'Node_8'), ('Ave_2_link_4', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11'), ('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "St_3_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626141720756941,
+            "type": "event",
+            "created": "2025-03-13T08:24:00",
+            "last_accessed": "2025-03-13T08:24:00",
+            "expiration": "2025-03-13T08:32:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626141721655774,
+            "type": "event",
+            "created": "2025-03-13T08:24:00",
+            "last_accessed": "2025-03-13T08:24:00",
+            "expiration": "2025-03-13T08:32:00",
+            "content": "Jennifer Kim current activity description: After school ends, head to Supermarket for any additional household items needed; shop before peak hours to avoid crowds. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Jennifer Kim",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626141722728762,
+            "type": "event",
+            "created": "2025-03-13T08:24:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T19:43:35.742705",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from Uptown apartment to Factory; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12'), ('St_3_link_1', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7')]; after waiting for 3 minutes, currently driving on link Ave_2_link_3; planned path left: [('St_4_link_1', 'drive', 'Node_11'), ('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Ave_2_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626143629499833,
+            "type": "event",
+            "created": "2025-03-13T08:33:00",
+            "last_accessed": "2025-03-13T08:33:00",
+            "expiration": "2025-03-13T10:04:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626143630769914,
+            "type": "event",
+            "created": "2025-03-13T08:33:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Jennifer Kim current activity description: After school ends, head to Supermarket for any additional household items needed; shop before peak hours to avoid crowds. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Jennifer Kim",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626143631713628,
+            "type": "event",
+            "created": "2025-03-13T08:33:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T19:43:35.742705",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Diana Robinson on the trip from Uptown apartment to Factory; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12'), ('St_3_link_1', 'drive', 'Node_6'), ('Ave_2_link_3', 'drive', 'Node_7'), ('St_4_link_1', 'drive', 'Node_11')]; after waiting for 0 minutes, currently driving on link St_4_link_1; planned path left: [('St_4_link_2', 'drive', 'Node_3')];.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "St_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626143719125000,
+            "type": "event",
+            "created": "2025-03-13T08:33:00",
+            "last_accessed": "2025-03-13T08:33:00",
+            "expiration": "2025-03-13T15:46:35.742705",
+            "content": "Karen Stewart travels from School to Coffee shop by travel mode drive; start time is Thu 2025-03-13 08:05; trip time is 28 minutes",
+            "keywords": [
+                "School to Coffee shop",
+                "drive"
+            ],
+            "spatial_scope": "School, Coffee shop, Ave_2, Ave_2, St_4",
+            "time_scope": [
+                "08:05:00",
+                "08:33:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626153354866650,
+            "type": "event",
+            "created": "2025-03-13T10:05:00",
+            "last_accessed": "2025-03-13T10:05:00",
+            "expiration": "2025-03-13T12:04:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626153355931502,
+            "type": "event",
+            "created": "2025-03-13T10:05:00",
+            "last_accessed": "2025-03-13T10:05:00",
+            "expiration": "2025-03-13T12:04:00",
+            "content": "Jennifer Kim current activity description: Stop by Coffee shop for a quick catch-up with Elizabeth Wilson over coffee before heading back home. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Jennifer Kim",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626153357203937,
+            "type": "event",
+            "created": "2025-03-13T10:05:00",
+            "last_accessed": "2025-03-13T10:05:00",
+            "expiration": "2025-03-13T12:04:00",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626153407360985,
+            "type": "thought",
+            "created": "2025-03-13T10:05:00",
+            "last_accessed": "2025-03-13T10:05:00",
+            "expiration": "2025-03-13T12:04:00",
+            "content": "Morning congestion patterns on Ave_2_link_2",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "8AM"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626153408180817,
+            "type": "thought",
+            "created": "2025-03-13T10:05:00",
+            "last_accessed": "2025-03-13T10:05:00",
+            "expiration": "2025-03-13T12:04:00",
+            "content": "Improved mid-morning traffic conditions across town",
+            "keywords": [
+                "traffic improvement",
+                "mid-morning"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "09:00:00",
+                "11:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626163634109375,
+            "type": "event",
+            "created": "2025-03-13T12:05:00",
+            "last_accessed": "2025-03-13T12:05:00",
+            "expiration": "2025-03-13T12:29:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626163635746871,
+            "type": "event",
+            "created": "2025-03-13T12:05:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Jennifer Kim current activity description: Stop by Coffee shop for a quick catch-up with Elizabeth Wilson over coffee before heading back home. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Jennifer Kim",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626163641752121,
+            "type": "event",
+            "created": "2025-03-13T12:05:00",
+            "last_accessed": "2025-03-13T12:05:00",
+            "expiration": "2025-03-13T12:29:00",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626164207582178,
+            "type": "thought",
+            "created": "2025-03-13T12:05:00",
+            "last_accessed": "2025-03-13T12:05:00",
+            "expiration": "2025-03-13T12:29:00",
+            "content": "Morning congestion patterns on Ave_2_link_2",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626164208550936,
+            "type": "thought",
+            "created": "2025-03-13T12:05:00",
+            "last_accessed": "2025-03-13T12:05:00",
+            "expiration": "2025-03-13T12:29:00",
+            "content": "Improved mid-morning traffic conditions across town",
+            "keywords": [
+                "Town",
+                "traffic improvement",
+                "mid-morning"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "10:00:00",
+                "12:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626210212791029,
+            "type": "event",
+            "created": "2025-03-13T12:30:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T14:04:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626210214066166,
+            "type": "event",
+            "created": "2025-03-13T12:30:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Jennifer Kim current activity description: Return home to Midtown apartment for afternoon routines and quality time with family. current status is Jennifer Kim on the trip from Coffee shop to Midtown apartment; trip trajectory: [('Ave_3_link_2', 'drive', 'Node_10')];  currently at node Node_10; planned path left: [('Ave_3_link_1', 'drive', 'Node_9'), ('St_1_link_1', 'drive', 'Node_4')];.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Node_10"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626210215001042,
+            "type": "event",
+            "created": "2025-03-13T12:30:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Diana Robinson current activity description: Drive to Factory to begin the workday as an accountant from 8:00 to 17:00. current status is Staying at facility Factory.",
+            "keywords": [
+                "Diana Robinson",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626210232200811,
+            "type": "thought",
+            "created": "2025-03-13T12:30:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T14:04:00",
+            "content": "Morning congestion patterns on Ave_2_link_2",
+            "keywords": [
+                "Congestion",
+                "Ave_2_link_2",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626210233331612,
+            "type": "thought",
+            "created": "2025-03-13T12:30:00",
+            "last_accessed": "2025-03-13T12:30:00",
+            "expiration": "2025-03-13T14:04:00",
+            "content": "Improved mid-morning traffic conditions across town",
+            "keywords": [
+                "Traffic improvement",
+                "mid-morning"
+            ],
+            "spatial_scope": [
+                "The town"
+            ],
+            "time_scope": [
+                "10:00:00",
+                "12:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626213408549192,
+            "type": "event",
+            "created": "2025-03-13T14:05:00",
+            "last_accessed": "2025-03-13T14:05:00",
+            "expiration": "2025-03-13T14:29:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626213409451244,
+            "type": "event",
+            "created": "2025-03-13T14:05:00",
+            "last_accessed": "2025-03-13T14:05:00",
+            "expiration": "2025-03-13T14:29:00",
+            "content": "Jennifer Kim current activity description: Return home to Midtown apartment for afternoon routines and quality time with family. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626213410214529,
+            "type": "event",
+            "created": "2025-03-13T14:05:00",
+            "last_accessed": "2025-03-13T14:05:00",
+            "expiration": "2025-03-13T14:29:00",
+            "content": "Diana Robinson current activity description: Head to Coffee shop during lunch break for a quick coffee and light snack before returning to work. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Diana Robinson",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626213423438280,
+            "type": "thought",
+            "created": "2025-03-13T14:05:00",
+            "last_accessed": "2025-03-13T14:05:00",
+            "expiration": "2025-03-15T00:53:17.115446",
+            "content": "Improved mid-morning traffic conditions across town",
+            "keywords": [
+                "traffic",
+                "improved",
+                "mid-morning"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "10:00:00",
+                "12:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626213424439921,
+            "type": "thought",
+            "created": "2025-03-13T14:05:00",
+            "last_accessed": "2025-03-13T14:05:00",
+            "expiration": "2025-03-17T07:20:24.553005",
+            "content": "Morning congestion patterns on Ave_2_link_2",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626214139479629,
+            "type": "event",
+            "created": "2025-03-13T14:30:00",
+            "last_accessed": "2025-03-13T14:30:00",
+            "expiration": "2025-03-13T14:30:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214140306525,
+            "type": "event",
+            "created": "2025-03-13T14:30:00",
+            "last_accessed": "2025-03-13T14:30:00",
+            "expiration": "2025-03-13T14:30:00",
+            "content": "Jennifer Kim current activity description: Return home to Midtown apartment for afternoon routines and quality time with family. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626214141385758,
+            "type": "event",
+            "created": "2025-03-13T14:30:00",
+            "last_accessed": "2025-03-13T14:30:00",
+            "expiration": "2025-03-13T14:30:00",
+            "content": "Diana Robinson current activity description: Head to Coffee shop during lunch break for a quick coffee and light snack before returning to work. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Diana Robinson",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214224454990,
+            "type": "event",
+            "created": "2025-03-13T14:31:00",
+            "last_accessed": "2025-03-13T14:31:00",
+            "expiration": "2025-03-13T14:39:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214225545819,
+            "type": "event",
+            "created": "2025-03-13T14:31:00",
+            "last_accessed": "2025-03-13T14:31:00",
+            "expiration": "2025-03-13T14:39:00",
+            "content": "Jennifer Kim current activity description: Return home to Midtown apartment for afternoon routines and quality time with family. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626214228285833,
+            "type": "event",
+            "created": "2025-03-13T14:31:00",
+            "last_accessed": "2025-03-13T14:31:00",
+            "expiration": "2025-03-13T14:39:00",
+            "content": "Diana Robinson current activity description: Head to Coffee shop during lunch break for a quick coffee and light snack before returning to work. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Diana Robinson",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214352435295,
+            "type": "event",
+            "created": "2025-03-13T14:40:00",
+            "last_accessed": "2025-03-13T14:40:00",
+            "expiration": "2025-03-13T14:48:00",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214353585954,
+            "type": "event",
+            "created": "2025-03-13T14:40:00",
+            "last_accessed": "2025-03-13T14:40:00",
+            "expiration": "2025-03-13T14:48:00",
+            "content": "Jennifer Kim current activity description: Return home to Midtown apartment for afternoon routines and quality time with family. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626214354486536,
+            "type": "event",
+            "created": "2025-03-13T14:40:00",
+            "last_accessed": "2025-03-13T14:40:00",
+            "expiration": "2025-03-13T14:48:00",
+            "content": "Diana Robinson current activity description: Head to Coffee shop during lunch break for a quick coffee and light snack before returning to work. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Diana Robinson",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214547464262,
+            "type": "event",
+            "created": "2025-03-13T14:49:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Daniel Stewart current activity description: Drive to Factory for work as maintenance supervisor. Arrive by 8:10 due to morning congestion.; current status: Staying at facility Factory.",
+            "keywords": [
+                "Daniel Stewart",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214548394787,
+            "type": "event",
+            "created": "2025-03-13T14:49:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T17:11:27.194665",
+            "content": "Jennifer Kim current activity description: Return home to Midtown apartment for afternoon routines and quality time with family. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Jennifer Kim",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626214549195934,
+            "type": "event",
+            "created": "2025-03-13T14:49:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Diana Robinson current activity description: Head to Coffee shop during lunch break for a quick coffee and light snack before returning to work. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Diana Robinson",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214557962955,
+            "type": "event",
+            "created": "2025-03-13T14:49:00",
+            "last_accessed": "2025-03-13T14:49:00",
+            "expiration": "2025-03-13T22:02:35.742705",
+            "content": "Karen Stewart travels from Coffee shop to Gym by travel mode drive; start time is Thu 2025-03-13 14:30; trip time is 19 minutes",
+            "keywords": [
+                "Coffee shop to Gym",
+                "drive"
+            ],
+            "spatial_scope": "Coffee shop, Gym, St_4, Ave_4",
+            "time_scope": [
+                "14:30:00",
+                "14:49:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        }
+    ]
+}

@@ -1,0 +1,3718 @@
+{
+    "curr_time": "2025-03-13 18:00:00",
+    "concept_nodes": [
+        {
+            "id": 623013925670826,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T07:30:00",
+            "expiration": "2025-03-14T00:45:24.553005",
+            "content": "Morning commute on Ave_3 experiences congestion near School node",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "School"
+            ],
+            "spatial_scope": [
+                "Ave_3",
+                "School"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623013926477152,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T17:30:00",
+            "expiration": "2025-03-13T14:11:50.510024",
+            "content": "Gym is less crowded before 19:00",
+            "keywords": [
+                "Gym",
+                "crowd",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623014658224041,
+            "type": "thought",
+            "created": "2025-03-10T07:10:00",
+            "last_accessed": "2025-03-10T07:10:00",
+            "expiration": "2025-03-13T03:51:50.510024",
+            "content": "St_1 experiences moderate congestion during weekday mornings",
+            "keywords": [
+                "St_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623015218451322,
+            "type": "thought",
+            "created": "2025-03-10T07:20:00",
+            "last_accessed": "2025-03-11T07:19:00",
+            "expiration": "2025-03-13T09:47:23.106828",
+            "content": "St_2_link_1 experiences light congestion during weekday mornings",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623015219291384,
+            "type": "thought",
+            "created": "2025-03-10T07:20:00",
+            "last_accessed": "2025-03-12T07:18:00",
+            "expiration": "2025-03-16T23:17:09.440007",
+            "content": "St_1_link_1 frequently experiences severe congestion",
+            "keywords": [
+                "St_1_link_1",
+                "severe congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623015319150750,
+            "type": "thought",
+            "created": "2025-03-10T07:21:00",
+            "last_accessed": "2025-03-10T19:35:00",
+            "expiration": "2025-03-15T11:34:09.440007",
+            "content": "St_1_link_1 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623020547052906,
+            "type": "thought",
+            "created": "2025-03-10T07:39:00",
+            "last_accessed": "2025-03-10T07:39:00",
+            "expiration": "2025-03-14T00:54:24.553005",
+            "content": "Ave_3 experiences congestion near School node during weekday mornings",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "School",
+                "weekday mornings"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623020548033557,
+            "type": "thought",
+            "created": "2025-03-10T07:39:00",
+            "last_accessed": "2025-03-10T19:20:00",
+            "expiration": "2025-03-14T12:35:24.553005",
+            "content": "St_1_link_2 often congested during weekday mornings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "weekday mornings"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623020708413246,
+            "type": "thought",
+            "created": "2025-03-10T07:41:00",
+            "last_accessed": "2025-03-10T07:41:00",
+            "expiration": "2025-03-14T23:40:09.440007",
+            "content": "Ave_1 experiences severe congestion during weekday mornings",
+            "keywords": [
+                "Ave_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623020709237697,
+            "type": "thought",
+            "created": "2025-03-10T07:41:00",
+            "last_accessed": "2025-03-10T07:41:00",
+            "expiration": "2025-03-14T00:56:24.553005",
+            "content": "Ave_2 consistently experiences moderate congestion during morning commute",
+            "keywords": [
+                "Ave_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623030658982972,
+            "type": "thought",
+            "created": "2025-03-10T10:10:00",
+            "last_accessed": "2025-03-11T07:19:00",
+            "expiration": "2025-03-15T00:34:24.553005",
+            "content": "St_2_link_1 frequently congested in mornings",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623030659934523,
+            "type": "thought",
+            "created": "2025-03-10T10:10:00",
+            "last_accessed": "2025-03-10T10:10:00",
+            "expiration": "2025-03-13T06:51:50.510024",
+            "content": "Ave_3 consistently experiences moderate congestion during morning commute",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623041307983659,
+            "type": "thought",
+            "created": "2025-03-10T17:30:00",
+            "last_accessed": "2025-03-11T07:19:00",
+            "expiration": "2025-03-15T00:34:24.553005",
+            "content": "St_2_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623041308960260,
+            "type": "thought",
+            "created": "2025-03-10T17:30:00",
+            "last_accessed": "2025-03-10T17:30:00",
+            "expiration": "2025-03-13T14:11:50.510024",
+            "content": "Ave_3 experiences moderate morning congestion during weekdays",
+            "keywords": [
+                "Ave_3",
+                "congestion",
+                "weekday"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623042018877602,
+            "type": "thought",
+            "created": "2025-03-10T17:43:00",
+            "last_accessed": "2025-03-10T19:05:00",
+            "expiration": "2025-03-13T15:46:50.510024",
+            "content": "Gym less crowded before 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623042019797440,
+            "type": "thought",
+            "created": "2025-03-10T17:43:00",
+            "last_accessed": "2025-03-10T17:43:00",
+            "expiration": "2025-03-13T14:24:50.510024",
+            "content": "Ave_4_link_1 experiences moderate congestion in the evening",
+            "keywords": [
+                "Ave_4_link_1",
+                "congested",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623044748862312,
+            "type": "thought",
+            "created": "2025-03-10T19:05:00",
+            "last_accessed": "2025-03-10T19:05:00",
+            "expiration": "2025-03-13T15:46:50.510024",
+            "content": "Ave_4_link_1 experiences moderate congestion during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623045024454884,
+            "type": "thought",
+            "created": "2025-03-10T19:10:00",
+            "last_accessed": "2025-03-10T19:10:00",
+            "expiration": "2025-03-13T15:51:50.510024",
+            "content": "Ave_4_link_1 often experiences moderate congestion during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623051615849812,
+            "type": "thought",
+            "created": "2025-03-10T20:30:00",
+            "last_accessed": "2025-03-11T07:00:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "St_1_link_2 frequently congested during weekday mornings and evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "commute time"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623052006456702,
+            "type": "thought",
+            "created": "2025-03-10T20:45:00",
+            "last_accessed": "2025-03-10T20:45:00",
+            "expiration": "2025-03-13T17:26:50.510024",
+            "content": "St_1_link_2 often experiences moderate congestion during weekday mornings and evenings.",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "weekday mornings",
+                "weekday evenings"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052007346703,
+            "type": "thought",
+            "created": "2025-03-10T20:45:00",
+            "last_accessed": "2025-03-10T20:45:00",
+            "expiration": "2025-03-13T17:26:50.510024",
+            "content": "Ave_4_link_1 experiences moderate congestion during the evening commute.",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening commute"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052008238312,
+            "type": "thought",
+            "created": "2025-03-10T20:45:00",
+            "last_accessed": "2025-03-11T17:26:00",
+            "expiration": "2025-03-14T14:07:50.510024",
+            "content": "Gym is a good alternative for post-work activities when time allows.",
+            "keywords": [
+                "Gym",
+                "post-work activities"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052226907754,
+            "type": "thought",
+            "created": "2025-03-10T20:55:00",
+            "last_accessed": "2025-03-10T21:25:00",
+            "expiration": "2025-03-13T18:06:50.510024",
+            "content": "St_1_link_2 often experiences moderate congestion during weekday mornings and evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "weekday"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052227693703,
+            "type": "thought",
+            "created": "2025-03-10T20:55:00",
+            "last_accessed": "2025-03-10T20:55:00",
+            "expiration": "2025-03-13T17:36:50.510024",
+            "content": "Ave_4_link_1 experiences moderate congestion during the evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052503864034,
+            "type": "thought",
+            "created": "2025-03-10T21:05:00",
+            "last_accessed": "2025-03-10T21:25:00",
+            "expiration": "2025-03-13T18:06:50.510024",
+            "content": "St_1_link_2 tends to experience moderate congestion during weekday evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052940757676,
+            "type": "thought",
+            "created": "2025-03-10T21:21:00",
+            "last_accessed": "2025-03-10T21:25:00",
+            "expiration": "2025-03-13T18:06:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during weekday evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "weekday evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623052941701906,
+            "type": "thought",
+            "created": "2025-03-10T21:21:00",
+            "last_accessed": "2025-03-10T21:21:00",
+            "expiration": "2025-03-14T14:36:24.553005",
+            "content": "St_4_link_2 and Ave_3_link_3 provide a reliable alternate route avoiding St_1_link_2 congestion",
+            "keywords": [
+                "route alternative",
+                "reliability",
+                "St_1 avoidance"
+            ],
+            "spatial_scope": [
+                "St_4_link_2",
+                "Ave_3_link_3"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623053045674921,
+            "type": "chat",
+            "created": "2025-03-10T21:25:00",
+            "last_accessed": "2025-03-12T12:00:00",
+            "expiration": "2025-03-13T03:34:31.476801",
+            "content": "Michael Chen will wait at Node_1 to accompany Sarah Chen home after she switches from car to Metro_2 due to congestion on St_1_link_2. Sarah is rerouting from her current location on St_1_link_2 to take the metro from Node_9 to Node_1.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Node_1",
+                "Node_9",
+                "St_1_link_2",
+                "Metro_2",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623053059232738,
+            "type": "chat",
+            "created": "2025-03-10T21:25:00",
+            "last_accessed": "2025-03-12T18:11:00",
+            "expiration": "2025-03-13T03:34:31.476801",
+            "content": "Michael Chen will wait at Node_1 to accompany Sarah Chen home after she switches from driving to Metro_2 due to congestion on St_1_link_2. Sarah will notify Michael of any changes.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Node_1",
+                "Metro_2",
+                "St_1_link_2",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623054054714592,
+            "type": "thought",
+            "created": "2025-03-10T21:57:00",
+            "last_accessed": "2025-03-11T07:01:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "St_1_link_2 frequently congested during weekday mornings and evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "weekday"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061520027254,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-13T20:41:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during weekday mornings and evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "weekday"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061520786994,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-14T17:15:24.553005",
+            "content": "Ave_3_link_1 and Ave_3_link_2 provide viable alternatives during St_1 congestion",
+            "keywords": [
+                "Ave_3_link_1",
+                "Ave_3_link_2",
+                "route alternative",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_1",
+                "Ave_3_link_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061521590812,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-14T17:15:24.553005",
+            "content": "Consistent route planning decisions improve travel reliability",
+            "keywords": [
+                "route planning",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061522252584,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T19:26:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "Gym visits after work are more efficient when avoiding St_1_link_2",
+            "keywords": [
+                "Gym",
+                "St_1_link_2",
+                "efficiency"
+            ],
+            "spatial_scope": [
+                "Gym",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623062909007398,
+            "type": "thought",
+            "created": "2025-03-11T07:01:00",
+            "last_accessed": "2025-03-11T07:10:00",
+            "expiration": "2025-03-15T00:25:24.553005",
+            "content": "St_1_link_2 frequently congested during weekday mornings and evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "commute time"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623062909832264,
+            "type": "thought",
+            "created": "2025-03-11T07:01:00",
+            "last_accessed": "2025-03-11T07:10:00",
+            "expiration": "2025-03-15T23:09:09.440007",
+            "content": "St_1_link_2 congestion affects travel between Node_9 and Node_13",
+            "keywords": [
+                "St_1_link_2",
+                "delay",
+                "traffic"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623063152483688,
+            "type": "thought",
+            "created": "2025-03-11T07:10:00",
+            "last_accessed": "2025-03-11T07:10:00",
+            "expiration": "2025-03-15T00:25:24.553005",
+            "content": "St_1_link_2 frequently congested during weekday mornings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623063153411438,
+            "type": "thought",
+            "created": "2025-03-11T07:10:00",
+            "last_accessed": "2025-03-11T07:10:00",
+            "expiration": "2025-03-15T00:25:24.553005",
+            "content": "Ave_3_link_1 provides reliable morning commute alternative to St_1_link_2",
+            "keywords": [
+                "Ave_3_link_1",
+                "reliable route",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623063444330269,
+            "type": "thought",
+            "created": "2025-03-11T07:19:00",
+            "last_accessed": "2025-03-11T07:19:00",
+            "expiration": "2025-03-15T00:34:24.553005",
+            "content": "St_2_link_1 frequently congested during weekday mornings",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623080859437616,
+            "type": "thought",
+            "created": "2025-03-11T15:27:00",
+            "last_accessed": "2025-03-12T07:18:00",
+            "expiration": "2025-03-16T00:33:24.553005",
+            "content": "Gym visits after work are more efficient when avoiding St_1_link_2",
+            "keywords": [
+                "Gym",
+                "St_1_link_2",
+                "efficient"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083142899098,
+            "type": "chat",
+            "created": "2025-03-11T17:26:00",
+            "last_accessed": "2025-03-12T18:25:00",
+            "expiration": "2025-03-13T12:28:10.492267",
+            "content": "Sarah Chen and Sandra White are attending a yoga session at the Gym. Sandra has already arrived, while Sarah is en route despite congestion on Ave_4_link_1. Kevin White is expected to join by 18:30.",
+            "keywords": [
+                "Sarah Chen",
+                "Sandra White",
+                "Kevin White",
+                "Gym",
+                "yoga",
+                "Ave_4_link_1",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623083152518440,
+            "type": "thought",
+            "created": "2025-03-11T17:26:00",
+            "last_accessed": "2025-03-12T18:16:00",
+            "expiration": "2025-03-15T14:57:50.510024",
+            "content": "Ave_4_link_1 experiences moderate congestion in the late afternoon",
+            "keywords": [
+                "Congestion",
+                "Ave_4_link_1",
+                "Afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623085824242232,
+            "type": "thought",
+            "created": "2025-03-11T18:26:00",
+            "last_accessed": "2025-03-11T18:26:00",
+            "expiration": "2025-03-13T20:54:23.106828",
+            "content": "St_4_link_2 experiences moderate congestion in the late afternoon",
+            "keywords": [
+                "St_4_link_2",
+                "congested",
+                "17:00-19:00"
+            ],
+            "spatial_scope": [
+                "St_4_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623091930834610,
+            "type": "thought",
+            "created": "2025-03-11T19:26:00",
+            "last_accessed": "2025-03-11T20:13:00",
+            "expiration": "2025-03-14T16:54:50.510024",
+            "content": "Gym visits after work extend beyond expected duration when group sessions are involved",
+            "keywords": [
+                "Gym",
+                "visit",
+                "session"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623093557357873,
+            "type": "thought",
+            "created": "2025-03-11T19:55:00",
+            "last_accessed": "2025-03-11T19:55:00",
+            "expiration": "2025-03-15T13:10:24.553005",
+            "content": "St_1_link_2 experiences increased morning and evening traffic during weekdays",
+            "keywords": [
+                "traffic",
+                "St_1_link_2",
+                "weekday"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623093558116175,
+            "type": "thought",
+            "created": "2025-03-11T19:55:00",
+            "last_accessed": "2025-03-11T20:13:00",
+            "expiration": "2025-03-14T16:54:50.510024",
+            "content": "Gym visits after work often extend beyond expected duration when group sessions are involved",
+            "keywords": [
+                "Gym",
+                "activity duration",
+                "yoga"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623094611518507,
+            "type": "chat",
+            "created": "2025-03-11T20:13:00",
+            "last_accessed": "2025-03-13T09:30:00",
+            "expiration": "2025-03-13T09:57:34.538754",
+            "content": "Sarah Chen is rerouting via St_2_link_2 to avoid congestion on St_1_link_2 on her way home. Michael Chen is leaving Gym and will take Metro_2_link_5 to Node_11 to meet James Wilson at Coffee shop before heading home. Both will coordinate dinner timing after arrival.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "James Wilson",
+                "Gym",
+                "St_1_link_2",
+                "St_2_link_2",
+                "Metro_2_link_5",
+                "Coffee shop",
+                "Uptown apartment",
+                "dinner"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623094705432318,
+            "type": "thought",
+            "created": "2025-03-11T20:13:00",
+            "last_accessed": "2025-03-11T20:13:00",
+            "expiration": "2025-03-15T13:28:24.553005",
+            "content": "St_1_link_2 frequently experiences congestion during weekday evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623110703658296,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-14T20:40:50.510024",
+            "content": "Gym becomes social hub in the evenings with colleagues",
+            "keywords": [
+                "Gym",
+                "social",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623110704650378,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-15T17:14:24.553005",
+            "content": "St_1_link_2 experiences unexpected congestion during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "unreliable"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111353132744,
+            "type": "chat",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T18:43:00",
+            "expiration": "2025-03-13T02:21:50.703460",
+            "content": "Sarah Chen will use the car for her morning commute to Hospital as Michael Chen plans to take Metro_2 to Museum. Sarah intends to go to Gym after work and aims to arrive at Food court by 20:00 for dinner if her workout finishes by 19:30.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Hospital",
+                "Metro_2",
+                "Museum",
+                "Gym",
+                "Food court",
+                "19:30",
+                "20:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111411969024,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T07:27:00",
+            "expiration": "2025-03-16T00:42:24.553005",
+            "content": "St_1_link_2 experiences recurring congestion during weekday evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111412965198,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "Gym becomes social coordination point in evenings",
+            "keywords": [
+                "Gym",
+                "social",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111413798657,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T15:27:00",
+            "expiration": "2025-03-16T08:42:24.553005",
+            "content": "Route alternatives via St_2_link_2 and Ave_2 effective during St_1 congestion",
+            "keywords": [
+                "route alternative",
+                "St_2_link_2",
+                "Ave_2"
+            ],
+            "spatial_scope": [
+                "St_2_link_2",
+                "Ave_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111414508407,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "Evening yoga sessions improve emotional resilience after hospital shifts",
+            "keywords": [
+                "yoga",
+                "emotional resilience",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111415584012,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T07:18:00",
+            "expiration": "2025-03-15T03:59:50.510024",
+            "content": "Coordination with spouse at Gym simplifies post-work activity synchronization",
+            "keywords": [
+                "spouse",
+                "coordination",
+                "Gym"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113056235706,
+            "type": "thought",
+            "created": "2025-03-12T07:00:00",
+            "last_accessed": "2025-03-12T07:00:00",
+            "expiration": "2025-03-15T03:41:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113134929178,
+            "type": "event",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-12T18:43:00",
+            "expiration": "2025-03-13T01:56:35.742705",
+            "content": "Elizabeth Wilson current activity description: Drive to Gym for an early workout before work. current status is Elizabeth Wilson on the trip from Uptown apartment to Gym; planned path [('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_2_link_1', 'drive', 'Node_5'), ('St_2_link_2', 'drive', 'Node_9')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Gym",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623113136041965,
+            "type": "event",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-13T17:30:00",
+            "expiration": "2025-03-14T13:18:34.810763",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive before 8:00 using reroute to avoid St_1 congestion. current status is Sandra White on the trip from Midtown apartment to Factory; planned path: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13'), ('Ave_4_link_1', 'drive', 'Node_3')] trip trajectory: []; currently at node Node_4.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Node_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113553324299,
+            "type": "event",
+            "created": "2025-03-12T07:09:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T15:18:34.810763",
+            "content": "Sarah Chen waits at St_2_link_1; start time is Wed 2025-03-12 07:01; wait time is 8 minutes",
+            "keywords": [
+                "wait",
+                "St_2_link_1"
+            ],
+            "spatial_scope": "St_2_link_1",
+            "time_scope": [
+                "07:01:00",
+                "07:09:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113941164498,
+            "type": "event",
+            "created": "2025-03-12T07:18:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Elizabeth Wilson current activity description: Drive to Gym for an early workout before work. current status is Elizabeth Wilson on the trip from Uptown apartment to Gym; planned path [('St_2_link_1', 'drive', 'Node_5'), ('St_2_link_2', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_2_link_1', 'drive', 'Node_5'), ('St_2_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5'), ('St_2_link_1', 'drive', 'Node_1')]; currently traveling on link St_2_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Gym",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623113942131308,
+            "type": "event",
+            "created": "2025-03-12T07:18:00",
+            "last_accessed": "2025-03-13T17:30:00",
+            "expiration": "2025-03-14T13:18:34.810763",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive before 8:00 using reroute to avoid St_1 congestion. current status is Sandra White on the trip from Midtown apartment to Factory; planned path [('St_1_link_2', 'drive', 'Node_13'), ('Ave_4_link_1', 'drive', 'Node_3')]; trip trajectory: [('St_1_link_1', 'drive', 'Node_9')]; currently traveling on link St_1_link_1 after waiting for 11 minutes.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623114007752495,
+            "type": "chat",
+            "created": "2025-03-12T07:18:00",
+            "last_accessed": "2025-03-12T18:47:00",
+            "expiration": "2025-03-13T03:34:16.901153",
+            "content": "Sarah Chen rerouted via Ave_2_link_1 and St_2_link_2 to avoid traffic congestion and is expected to arrive at the Hospital by 07:35. Michael Chen will proceed with his original plan to go to Coffee shop via Metro_2_link_1 and Metro_2_link_2.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Hospital",
+                "Coffee shop",
+                "Ave_2_link_1",
+                "St_2_link_2",
+                "Metro_2_link_1",
+                "Metro_2_link_2",
+                "07:35"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623114020756465,
+            "type": "thought",
+            "created": "2025-03-12T07:18:00",
+            "last_accessed": "2025-03-13T07:18:00",
+            "expiration": "2025-03-17T23:17:09.440007",
+            "content": "St_1_link_1 frequently experiences severe congestion",
+            "keywords": [
+                "St_1_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623114521510660,
+            "type": "event",
+            "created": "2025-03-12T07:27:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Elizabeth Wilson current activity description: Drive to Gym for an early workout before work. current status is Elizabeth Wilson on the trip from Uptown apartment to Gym; planned path [('St_2_link_2', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_2_link_1', 'drive', 'Node_5'), ('St_2_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5'), ('St_2_link_1', 'drive', 'Node_1'), ('St_2_link_1', 'drive', 'Node_5')]; currently traveling on link St_2_link_1 after waiting for 3 minutes.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Gym",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623114522689508,
+            "type": "event",
+            "created": "2025-03-12T07:27:00",
+            "last_accessed": "2025-03-12T15:16:00",
+            "expiration": "2025-03-13T03:41:29.634388",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive before 8:00 using reroute to avoid St_1 congestion. current status is On the trip from Midtown apartment to Factory; trip trajectory: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13')]; currently waiting at link St_1_link_2.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623114541135465,
+            "type": "chat",
+            "created": "2025-03-12T07:27:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-13T21:11:34.538754",
+            "content": "Sarah Chen warned Elizabeth Wilson about congestion on St_1_link_2 and suggested alternate routes. Elizabeth adjusted her plan to take Ave_2_link_2 after Node_5 to avoid delays. Both confirmed they will meet later at the Gym.",
+            "keywords": [
+                "Sarah Chen",
+                "Elizabeth Wilson",
+                "Gym",
+                "St_1_link_2",
+                "Ave_2_link_2",
+                "Node_5"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623114553249437,
+            "type": "thought",
+            "created": "2025-03-12T07:27:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-15T16:11:50.510024",
+            "content": "St_2_link_1 moderately congested during morning commute",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623114554788056,
+            "type": "thought",
+            "created": "2025-03-12T07:27:00",
+            "last_accessed": "2025-03-12T15:16:00",
+            "expiration": "2025-03-16T08:31:24.553005",
+            "content": "St_1_link_2 experiences recurring congestion during weekday evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623124406200118,
+            "type": "event",
+            "created": "2025-03-12T12:00:00",
+            "last_accessed": "2025-03-12T18:43:00",
+            "expiration": "2025-03-13T01:56:35.742705",
+            "content": "Michael Chen current activity description: Continues via Metro_2 to Node_6 and walks to Museum for full day of curation and preparation for upcoming exhibits.; current status: Staying at facility Museum.",
+            "keywords": [
+                "Michael Chen",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623124420420407,
+            "type": "thought",
+            "created": "2025-03-12T12:00:00",
+            "last_accessed": "2025-03-12T12:00:00",
+            "expiration": "2025-03-14T14:28:23.106828",
+            "content": "St_2_link_1 experiences occasional delays during morning peak hours",
+            "keywords": [
+                "commute",
+                "delay",
+                "St_2_link_1"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623124421520973,
+            "type": "thought",
+            "created": "2025-03-12T12:00:00",
+            "last_accessed": "2025-03-12T16:26:00",
+            "expiration": "2025-03-13T07:20:00",
+            "content": "Gym sees consistent post-work usage between 17:30-19:00",
+            "keywords": [
+                "Gym",
+                "workout",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623130914905313,
+            "type": "event",
+            "created": "2025-03-12T14:30:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Michael Chen current activity description: Drive to Office at 14:00 to meet with Gloria Campbell and finalize exhibit designs; driving ensures punctuality and safe transport of materials.; current status: Michael Chen currently staying at facility Office engaged in the target activity after waiting for 0 minutes at the facility.",
+            "keywords": [
+                "Michael Chen",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623130916982818,
+            "type": "event",
+            "created": "2025-03-12T14:30:00",
+            "last_accessed": "2025-03-13T17:00:00",
+            "expiration": "2025-03-14T12:48:34.810763",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; arrive before 8:00 using reroute to avoid St_1 congestion. current status is Staying at facility Factory.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623131810067976,
+            "type": "event",
+            "created": "2025-03-12T15:27:00",
+            "last_accessed": "2025-03-13T17:30:00",
+            "expiration": "2025-03-14T13:18:34.810763",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays. current status is Sandra White on the trip from Factory to School; planned path []; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13'), ('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623132202154016,
+            "type": "event",
+            "created": "2025-03-12T15:48:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T13:31:34.810763",
+            "content": "Sandra White current activity description: Pick up Grace from School after shift ends; coordinate timing to allow for potential traffic delays. current status is Staying at facility School.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "School"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623132912094848,
+            "type": "thought",
+            "created": "2025-03-12T16:26:00",
+            "last_accessed": "2025-03-12T17:26:00",
+            "expiration": "2025-03-15T14:07:50.510024",
+            "content": "Gym sees consistent post-work usage between 17:30-19:00",
+            "keywords": [
+                "Gym",
+                "usage",
+                "17:30-19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623132912956403,
+            "type": "thought",
+            "created": "2025-03-12T16:26:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-16T04:08:50.510024",
+            "content": "Gym is a good place for informal coordination with colleagues and family",
+            "keywords": [
+                "Gym",
+                "coordination",
+                "social"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623134240558781,
+            "type": "event",
+            "created": "2025-03-12T17:26:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Elizabeth Wilson current activity description: Manage daily operations at Food court from 8:00-17:00. current status is Staying at facility Food court.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Food court",
+                "Food court"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623134241484570,
+            "type": "event",
+            "created": "2025-03-12T17:26:00",
+            "last_accessed": "2025-03-12T20:40:00",
+            "expiration": "2025-03-13T03:53:35.742705",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time. current status is Just finished the trip from None to Gym; waiting at Gym now.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623141055533186,
+            "type": "thought",
+            "created": "2025-03-12T18:10:00",
+            "last_accessed": "2025-03-13T07:01:00",
+            "expiration": "2025-03-16T03:42:50.510024",
+            "content": "Gym consistently sees post-work activity between 17:30-19:00",
+            "keywords": [
+                "Gym",
+                "activity",
+                "17:30-19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623141137900011,
+            "type": "event",
+            "created": "2025-03-12T18:11:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Michael Chen current activity description: Drive to Office at 14:00 to meet with Gloria Campbell and finalize exhibit designs; driving ensures punctuality and safe transport of materials.; current status: Staying at facility Office.",
+            "keywords": [
+                "Michael Chen",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623141151107730,
+            "type": "thought",
+            "created": "2025-03-12T18:11:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-16T04:08:50.510024",
+            "content": "Gym sees consistent post-work activity between 17:30-19:00",
+            "keywords": [
+                "Gym",
+                "activity",
+                "peak"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623141510513457,
+            "type": "chat",
+            "created": "2025-03-12T18:15:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T01:50:40.091395",
+            "content": "Michael Chen and Sarah Chen coordinated evening plans - Michael will meet Isabella at Supermarket at 18:15 for grocery shopping and will pick up vegetables and fruits for dinner. Sarah will go to Food court for dinner after work.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Isabella",
+                "Supermarket",
+                "Food court",
+                "vegetables",
+                "fruits",
+                "dinner"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623141611436877,
+            "type": "chat",
+            "created": "2025-03-12T18:16:00",
+            "last_accessed": "2025-03-12T18:34:00",
+            "expiration": "2025-03-13T03:21:16.901153",
+            "content": "Michael Chen will drive to Supermarket from Office, arriving around 18:15. Sarah Chen is heading to Food Court from Gym and expects to arrive by 19:30 if traffic remains light.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Office",
+                "Supermarket",
+                "Gym",
+                "Food Court",
+                "18:15",
+                "19:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623141927646094,
+            "type": "event",
+            "created": "2025-03-12T18:20:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Michael Chen current activity description: Drive from Office to Supermarket to meet Isabella Rodriguez for joint grocery shopping.; current status: Michael Chen on the trip from Office to Supermarket; planned path [('Ave_3_link_2', 'drive', 'Node_10'), ('St_3_link_2', 'drive', 'Node_6')]; trip trajectory: [('Ave_3_link_3', 'drive', 'Node_11')]; currently traveling on link Ave_3_link_3 after waiting for 0 minutes.",
+            "keywords": [
+                "Michael Chen",
+                "Supermarket",
+                "Ave_3_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623142249595501,
+            "type": "chat",
+            "created": "2025-03-12T18:25:00",
+            "last_accessed": "2025-03-12T18:43:00",
+            "expiration": "2025-03-13T03:30:16.901153",
+            "content": "Michael Chen and Sarah Chen agreed to meet at Supermarket around 18:15 instead of Food Court for dinner. They will adjust plans after grocery shopping.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Supermarket",
+                "Food Court",
+                "dinner",
+                "grocery shopping",
+                "18:15"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623142509866359,
+            "type": "event",
+            "created": "2025-03-12T18:29:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Michael Chen current activity description: Drive from Office to Supermarket to meet Isabella Rodriguez for joint grocery shopping.; current status: Michael Chen on the trip from Office to Supermarket; planned path [('Ave_2_link_3', 'drive', 'Node_6')]; trip trajectory: [('Ave_3_link_3', 'drive', 'Node_11'), ('St_4_link_1', 'drive', 'Node_7')]; currently traveling on link St_4_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Michael Chen",
+                "Supermarket",
+                "St_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623142527890743,
+            "type": "chat",
+            "created": "2025-03-12T18:29:00",
+            "last_accessed": "2025-03-12T18:43:00",
+            "expiration": "2025-03-13T03:30:16.901153",
+            "content": "Sarah Chen will meet Michael Chen at the Supermarket around 18:30 after her workout at the Gym. Despite moderate congestion on Ave_4_link_1, Sarah expects only a slight delay and plans to arrive on time. Michael will be there as he is meeting Isabella for grocery shopping before coordinating with Sarah.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Supermarket",
+                "Gym",
+                "Ave_4_link_1",
+                "Isabella"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623142615494612,
+            "type": "chat",
+            "created": "2025-03-12T18:29:00",
+            "last_accessed": "2025-03-12T18:34:00",
+            "expiration": "2025-03-13T03:21:16.901153",
+            "content": "Sarah Chen is traveling from the Gym to Supermarket via congested Ave_4_link_1 and expects to arrive by 18:30. Michael Chen is on St_4_link_1 and will arrive at Supermarket around 18:15, where he will wait for Sarah before starting his shopping with Isabella.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Gym",
+                "Supermarket",
+                "Ave_4_link_1",
+                "St_4_link_1",
+                "Isabella",
+                "18:30",
+                "18:15"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623142918580965,
+            "type": "chat",
+            "created": "2025-03-12T18:34:00",
+            "last_accessed": "2025-03-12T18:43:00",
+            "expiration": "2025-03-13T03:30:16.901153",
+            "content": "Michael Chen and Sarah Chen are coordinating their arrival at the Supermarket around 18:30 after work. Michael is traveling from St_4_link_1, while Sarah is coming from the Gym via Ave_4_link_1, which had moderate congestion.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Supermarket",
+                "Gym",
+                "St_4_link_1",
+                "Ave_4_link_1",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623143112993802,
+            "type": "event",
+            "created": "2025-03-12T18:38:00",
+            "last_accessed": "2025-03-12T19:30:00",
+            "expiration": "2025-03-13T02:43:35.742705",
+            "content": "Michael Chen current activity description: Drive from Office to Supermarket to meet Isabella Rodriguez for joint grocery shopping.; current status: Michael Chen on the trip from Office to Supermarket; planned path []; trip trajectory: [('Ave_3_link_3', 'drive', 'Node_11'), ('St_4_link_1', 'drive', 'Node_7'), ('Ave_2_link_3', 'drive', 'Node_6')]; currently traveling on link Ave_2_link_3 after waiting for 0 minutes.",
+            "keywords": [
+                "Michael Chen",
+                "Supermarket",
+                "Ave_2_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623143132958387,
+            "type": "chat",
+            "created": "2025-03-12T18:38:00",
+            "last_accessed": "2025-03-12T20:40:00",
+            "expiration": "2025-03-13T05:27:16.901153",
+            "content": "Sarah Chen and Michael Chen coordinated their arrival at the Supermarket around 18:30. Sarah is en route from the Gym with a slight delay due to congestion on Ave_4_link_1, while Michael is on St_4_link_1. Sarah will pick up a bag of organic apples for Michael.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Supermarket",
+                "Gym",
+                "Ave_4_link_1",
+                "organic apples"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623143145577336,
+            "type": "thought",
+            "created": "2025-03-12T18:38:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-16T14:12:50.510024",
+            "content": "Supermarket becomes a common meeting point for family coordination in evenings",
+            "keywords": [
+                "Supermarket",
+                "family coordination",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623143146408340,
+            "type": "thought",
+            "created": "2025-03-12T18:38:00",
+            "last_accessed": "2025-03-12T18:38:00",
+            "expiration": "2025-03-15T15:19:50.510024",
+            "content": "Ave_4_link_1 frequently experiences moderate congestion during early evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623143345581331,
+            "type": "chat",
+            "created": "2025-03-12T18:43:00",
+            "last_accessed": "2025-03-12T20:40:00",
+            "expiration": "2025-03-13T05:27:16.901153",
+            "content": "Michael Chen and Sarah Chen are meeting at Supermarket around 18:30. Michael is arriving via St_4_link_1 and will wait near the entrance. Sarah is coming from Ave_2_link_3 and is bringing a bag of organic apples.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Supermarket",
+                "St_4_link_1",
+                "Ave_2_link_3",
+                "organic apples"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623143623024953,
+            "type": "event",
+            "created": "2025-03-12T18:47:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Elizabeth Wilson current activity description: Stop by Coffee shop after work to catch up with Gloria Campbell. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623143635313739,
+            "type": "thought",
+            "created": "2025-03-12T18:47:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-16T14:12:50.510024",
+            "content": "Supermarket serves as an effective meeting point for evening coordination between family members",
+            "keywords": [
+                "Supermarket",
+                "meeting point",
+                "evening coordination"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623143636152493,
+            "type": "thought",
+            "created": "2025-03-12T18:47:00",
+            "last_accessed": "2025-03-12T18:47:00",
+            "expiration": "2025-03-15T15:28:50.510024",
+            "content": "Ave_4_link_1 experiences moderate congestion during early evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "18:00-19:00"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624032815305494,
+            "type": "event",
+            "created": "2025-03-12T19:30:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Michael Chen current activity description: Drive from Office to Supermarket to meet Isabella Rodriguez for joint grocery shopping.; current status: Staying at facility Supermarket.",
+            "keywords": [
+                "Michael Chen",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624032816309864,
+            "type": "event",
+            "created": "2025-03-12T19:30:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Elizabeth Wilson current activity description: Return home to Uptown apartment after meeting Gloria Campbell at Coffee shop. current status is Elizabeth Wilson on the trip from Coffee shop to Uptown apartment; planned path []; trip trajectory: [('St_4_link_1', 'drive', 'Node_7'), ('Ave_2_link_3', 'drive', 'Node_6'), ('Ave_2_link_2', 'drive', 'Node_5'), ('St_2_link_1', 'drive', 'Node_1')]; currently traveling on link St_2_link_1 after waiting for 0 minutes.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Uptown apartment",
+                "St_2_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624032817147320,
+            "type": "event",
+            "created": "2025-03-12T19:30:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Sandra White current activity description: Head to Gym for evening yoga session with Maria Lopez and include Grace for family wellness time. current status is Staying at facility Gym.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624072151121537,
+            "type": "thought",
+            "created": "2025-03-12T20:30:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-16T04:08:50.510024",
+            "content": "Gym consistently sees post-work activity between 17:30-19:00",
+            "keywords": [
+                "Gym",
+                "post-work",
+                "activity"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 624082030012107,
+            "type": "event",
+            "created": "2025-03-12T20:49:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-13T04:02:35.742705",
+            "content": "Elizabeth Wilson current activity description: Return home to Uptown apartment after meeting Gloria Campbell at Coffee shop. current status is Staying at home.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 624082041005018,
+            "type": "thought",
+            "created": "2025-03-12T20:49:00",
+            "last_accessed": "2025-03-12T20:49:00",
+            "expiration": "2025-03-14T07:37:17.115446",
+            "content": "Supermarket serves as effective meeting point during evening coordination",
+            "keywords": [
+                "Supermarket",
+                "meeting point",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625121028772090,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-16T17:14:24.553005",
+            "content": "St_2_link_1 prone to morning delays",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121029550547,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Ave_4_link_1 experiences moderate evening congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "traffic",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121030718015,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-14T10:47:17.115446",
+            "content": "Supermarket as effective evening meeting point",
+            "keywords": [
+                "Supermarket",
+                "coordination",
+                "shopping"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625121031530006,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Gym attendance peaks around 16:00-18:00",
+            "keywords": [
+                "Gym",
+                "socializing",
+                "workout"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "15:30:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121032704690,
+            "type": "thought",
+            "created": "2025-03-12T23:59:00",
+            "last_accessed": "2025-03-12T23:59:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Flexible route planning essential during peak hours",
+            "keywords": [
+                "route optimization",
+                "traffic adaptation",
+                "commuting"
+            ],
+            "spatial_scope": [
+                "The town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 625121648403654,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-13T20:01:51.512918",
+            "content": "Sarah Chen will leave the car for Michael Chen tomorrow as he needs to go to the Museum and pick up Emily from School at 3:15PM. Michael will monitor Ave_4_link_1 congestion around 5PM and may take St_3_link_1 as an alternative route if needed. Sarah, working late at the Hospital, requested updates on potential traffic issues.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Emily Chen",
+                "Hospital",
+                "Museum",
+                "School",
+                "Ave_4_link_1",
+                "St_3_link_1",
+                "3:15PM",
+                "5PM",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121700601712,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T06:17:51.512918",
+            "content": "Sarah Chen will use the car in the morning for her Hospital shift, while Michael Chen will pick up Emily from School at 15:15 and head to the Museum. Michael will monitor traffic on Ave_4_link_1 around 17:00 and suggest alternatives if needed due to Sarah's late work schedule.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Emily Chen",
+                "Hospital",
+                "School",
+                "Museum",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625121715268788,
+            "type": "chat",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:31:00",
+            "expiration": "2025-03-13T16:18:16.901153",
+            "content": "Sarah Chen will drive to her Hospital shift in the morning. Michael Chen will pick up Emily from School at 15:15 and go to the Museum. He will monitor traffic on Ave_4_link_1 around 17:00 and inform Sarah of any congestion while she remains at the Hospital late.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Emily Chen",
+                "Hospital",
+                "School",
+                "Museum",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121738138394,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-15T20:41:50.510024",
+            "content": "Ave_4_link_1 experiences moderate evening congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121741245786,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-15T02:28:23.106828",
+            "content": "Supermarket serves as effective evening meeting point",
+            "keywords": [
+                "Supermarket",
+                "meeting point",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:30:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 625121741990553,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-16T04:08:50.510024",
+            "content": "Gym attendance peaks around 16:00-18:00",
+            "keywords": [
+                "Gym",
+                "peak hours",
+                "attendance"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 625121742780838,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-12T23:59:00",
+            "content": "Flexible route planning essential during peak hours",
+            "keywords": [
+                "route planning",
+                "flexibility",
+                "peak hour"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 625121742794503,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-13T06:14:00",
+            "content": "Flexible route planning essential during peak hours",
+            "keywords": [
+                "route planning",
+                "flexibility",
+                "peak hour"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 625121743639545,
+            "type": "thought",
+            "created": "2025-03-13T00:00:00",
+            "last_accessed": "2025-03-13T00:00:00",
+            "expiration": "2025-03-13T06:14:00",
+            "content": "St_2_link_1 prone to morning delays",
+            "keywords": [
+                "St_2_link_1",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625125339283581,
+            "type": "event",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T06:15:00",
+            "expiration": "2025-03-13T06:44:00",
+            "content": "Michael Chen current activity description: Sleeping at home.; current status: Staying at facility Uptown apartment.",
+            "keywords": [
+                "Michael Chen",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125340266086,
+            "type": "event",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T06:15:00",
+            "expiration": "2025-03-13T06:44:00",
+            "content": "Elizabeth Wilson current activity description: Wake up at Uptown apartment and complete morning routines. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125341158078,
+            "type": "event",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T07:00:00",
+            "expiration": "2025-03-13T09:22:27.194665",
+            "content": "Sandra White current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125353586364,
+            "type": "thought",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T06:15:00",
+            "expiration": "2025-03-16T23:30:24.553005",
+            "content": "St_2_link_1 prone to morning delays",
+            "keywords": [
+                "St_2_link_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625125354554069,
+            "type": "thought",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T06:15:00",
+            "expiration": "2025-03-13T06:14:00",
+            "content": "Flexible route planning essential during peak hours",
+            "keywords": [
+                "route planning",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 625125354570453,
+            "type": "thought",
+            "created": "2025-03-13T06:15:00",
+            "last_accessed": "2025-03-13T06:15:00",
+            "expiration": "2025-03-17T22:14:09.440007",
+            "content": "Flexible route planning essential during peak hours",
+            "keywords": [
+                "route planning",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 625125904972283,
+            "type": "event",
+            "created": "2025-03-13T06:45:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-13T09:49:27.194665",
+            "content": "Michael Chen current activity description: Sleeping at home.; current status: Staying at facility Uptown apartment.",
+            "keywords": [
+                "Michael Chen",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125905988604,
+            "type": "event",
+            "created": "2025-03-13T06:45:00",
+            "last_accessed": "2025-03-13T09:30:00",
+            "expiration": "2025-03-13T11:52:27.194665",
+            "content": "Elizabeth Wilson current activity description: Wake up at Uptown apartment and complete morning routines. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625125906786226,
+            "type": "event",
+            "created": "2025-03-13T06:45:00",
+            "last_accessed": "2025-03-13T06:45:00",
+            "expiration": "2025-03-13T06:59:00",
+            "content": "Sandra White current activity description: Wake up and complete morning routines at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130401225307,
+            "type": "event",
+            "created": "2025-03-13T07:00:00",
+            "last_accessed": "2025-03-13T07:00:00",
+            "expiration": "2025-03-13T07:00:00",
+            "content": "Michael Chen current activity description: Wake up at home and complete his morning routine.; current status: Staying at facility Uptown apartment.",
+            "keywords": [
+                "Michael Chen",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130402914205,
+            "type": "event",
+            "created": "2025-03-13T07:00:00",
+            "last_accessed": "2025-03-13T09:30:00",
+            "expiration": "2025-03-13T11:52:27.194665",
+            "content": "Sandra White current activity description: Wake up and complete morning routines at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Sandra White",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130402108582,
+            "type": "event",
+            "created": "2025-03-13T07:00:00",
+            "last_accessed": "2025-03-13T07:00:00",
+            "expiration": "2025-03-13T07:00:00",
+            "content": "Elizabeth Wilson current activity description: Drive to Gym for an early workout before dropping off Emma at School. current status is Elizabeth Wilson on the trip from Uptown apartment to Gym; planned path [('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_2_link_1', 'drive', 'Node_5'), ('St_2_link_2', 'drive', 'Node_9')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Gym",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625130441024838,
+            "type": "event",
+            "created": "2025-03-13T07:01:00",
+            "last_accessed": "2025-03-13T07:01:00",
+            "expiration": "2025-03-13T07:17:00",
+            "content": "Michael Chen current activity description: Wake up at home and complete his morning routine.; current status: Staying at facility Uptown apartment.",
+            "keywords": [
+                "Michael Chen",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625130441903860,
+            "type": "event",
+            "created": "2025-03-13T07:01:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-14T00:44:35.742705",
+            "content": "Elizabeth Wilson current activity description: Drive to Gym for an early workout before dropping off Emma at School. current status is Elizabeth Wilson on the trip from Uptown apartment to Gym; planned path [('St_1_link_2', 'drive', 'Node_13')]; trip trajectory: [('St_2_link_1', 'drive', 'Node_5'), ('St_2_link_2', 'drive', 'Node_9')]; currently traveling on link St_2_link_2 after waiting for 0 minutes.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Gym",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625130442773067,
+            "type": "event",
+            "created": "2025-03-13T07:01:00",
+            "last_accessed": "2025-03-13T17:30:00",
+            "expiration": "2025-03-14T00:43:35.742705",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; depart early to avoid potential congestion on St_1_link_1. current status is Sandra White on the trip from Midtown apartment to Factory; planned path: [('St_1_link_1', 'drive', 'Node_9'), ('St_1_link_2', 'drive', 'Node_13'), ('Ave_4_link_1', 'drive', 'Node_3')] trip trajectory: []; currently at node Node_4.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Node_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625130920416500,
+            "type": "event",
+            "created": "2025-03-13T07:09:00",
+            "last_accessed": "2025-03-13T07:09:00",
+            "expiration": "2025-03-13T14:22:35.742705",
+            "content": "Sarah Chen waits at St_2_link_1; start time is Thu 2025-03-13 07:01; wait time is 8 minutes",
+            "keywords": [
+                "wait",
+                "St_2_link_1"
+            ],
+            "spatial_scope": "St_2_link_1",
+            "time_scope": [
+                "07:01:00",
+                "07:09:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131524108980,
+            "type": "event",
+            "created": "2025-03-13T07:18:00",
+            "last_accessed": "2025-03-13T07:18:00",
+            "expiration": "2025-03-13T07:26:00",
+            "content": "Michael Chen current activity description: Wake up at home and complete his morning routine.; current status: Staying at facility Uptown apartment.",
+            "keywords": [
+                "Michael Chen",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 625131525119689,
+            "type": "event",
+            "created": "2025-03-13T07:18:00",
+            "last_accessed": "2025-03-13T07:18:00",
+            "expiration": "2025-03-13T07:26:00",
+            "content": "Elizabeth Wilson current activity description: Drive to Gym for an early workout before dropping off Emma at School. current status is Staying at facility Gym.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 625131525950534,
+            "type": "event",
+            "created": "2025-03-13T07:18:00",
+            "last_accessed": "2025-03-13T17:00:00",
+            "expiration": "2025-03-14T05:25:29.634388",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; depart early to avoid potential congestion on St_1_link_1. current status is On the trip from Midtown apartment to Factory; trip trajectory: [('St_1_link_1', 'drive', 'Node_9')]; currently waiting at link St_1_link_1.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 625131551434858,
+            "type": "chat",
+            "created": "2025-03-13T07:18:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T06:17:51.512918",
+            "content": "Sarah Chen is delayed in traffic on St_2_link_1 and will update her schedule. Michael Chen will take the car for their planned Museum visit, picking up Emily at 15:15. He will monitor Ave_4_link_1 congestion around 5PM and adjust the route if needed while Sarah focuses on her shift at the Hospital.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Hospital",
+                "Museum",
+                "Ave_4_link_1",
+                "St_2_link_1",
+                "Emily Chen",
+                "15:15",
+                "5PM"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 625131603312071,
+            "type": "thought",
+            "created": "2025-03-13T07:18:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-13T07:26:00",
+            "content": "St_1_link_1 frequently experiences severe congestion",
+            "keywords": [
+                "St_1_link_1",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 625131604233645,
+            "type": "thought",
+            "created": "2025-03-13T07:18:00",
+            "last_accessed": "2025-03-13T07:18:00",
+            "expiration": "2025-03-13T07:26:00",
+            "content": "Ave_2_link_1 often congested during morning commute",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626103351096586,
+            "type": "event",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-13T09:49:27.194665",
+            "content": "Michael Chen current activity description: Wake up at home and complete his morning routine.; current status: Staying at facility Uptown apartment.",
+            "keywords": [
+                "Michael Chen",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626103352012770,
+            "type": "event",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Elizabeth Wilson current activity description: Drive to Gym for an early workout before dropping off Emma at School. current status is Staying at facility Gym.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626103352777615,
+            "type": "event",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-14T00:44:35.742705",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; depart early to avoid potential congestion on St_1_link_1. current status is Sandra White on the trip from Midtown apartment to Factory; trip trajectory: [['St_1_link_1', 'drive', 'Node_9']];  currently traversing link St_1_link_1; planned path left: [['St_1_link_2', 'drive', 'Node_13'], ['Ave_4_link_1', 'drive', 'Node_3']];.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626103407685042,
+            "type": "chat",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T06:17:51.512918",
+            "content": "Sarah Chen warned Elizabeth Wilson about congestion on St_1_link_2 and suggested taking Ave_2_link_2 from Node_5 as an alternate route. Elizabeth accepted the suggestion to avoid delays during her current travel.",
+            "keywords": [
+                "Sarah Chen",
+                "Elizabeth Wilson",
+                "St_1_link_2",
+                "Ave_2_link_2",
+                "Node_5",
+                "congestion",
+                "alternate route"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626103437377313,
+            "type": "chat",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T06:17:51.512918",
+            "content": "Sarah Chen is delayed in traffic on St_2_link_1 and will arrive at the Hospital by 8:15 AM. Michael Chen will take the car to pick up Emily from School and visit the Museum. He will use Ave_4_link_1 unless congested, switching to St_3_link_1 if needed. Michael will coordinate the afternoon schedule based on Sarah's updates.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Emily Chen",
+                "Hospital",
+                "School",
+                "Museum",
+                "Ave_4_link_1",
+                "St_3_link_1",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626103457964321,
+            "type": "chat",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T06:17:51.512918",
+            "content": "Sarah Chen is delayed in traffic on St_2_link_1 and expects to arrive at the Hospital around 8:15 AM. Michael Chen will pick up Emily from School at 15:15 and head to the Museum with her. He will monitor Ave_4_link_1 congestion for an update around 5PM and consider alternative routes if needed for their timely arrival.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Emily Chen",
+                "Hospital",
+                "St_2_link_1",
+                "School",
+                "Museum",
+                "Ave_4_link_1",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626103508136696,
+            "type": "thought",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-17T00:42:24.553005",
+            "content": "Ave_2_link_1 often congested during morning commute",
+            "keywords": [
+                "morning",
+                "commute",
+                "Ave_2_link_1",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626103509063986,
+            "type": "thought",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-17T23:26:09.440007",
+            "content": "St_1_link_1 frequently experiences severe congestion",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 626103510852784,
+            "type": "event",
+            "created": "2025-03-13T07:27:00",
+            "last_accessed": "2025-03-13T07:27:00",
+            "expiration": "2025-03-13T09:49:27.194665",
+            "content": "Sarah Chen travels from Uptown apartment to Hospital by travel mode drive; start time is Thu 2025-03-13 07:00; trip time is 27 minutes",
+            "keywords": [
+                "Uptown apartment to Hospital",
+                "drive"
+            ],
+            "spatial_scope": "Uptown apartment, Hospital, St_2, St_2",
+            "time_scope": [
+                "07:00:00",
+                "07:27:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 626104007876138,
+            "type": "chat",
+            "created": "2025-03-13T07:31:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-14T06:05:51.512918",
+            "content": "Michael Chen will adjust his morning commute to avoid congestion on Ave_2_link_2 and St_1_link_1 by leaving earlier and taking St_3_link_1. He will pick up Emily from School at 15:15 and visit the Museum with her. Sarah Chen will be at the Hospital until 17:00 and asked Michael to update her around 17:00 on conditions on Ave_4_link_1 for evening coordination.",
+            "keywords": [
+                "Michael Chen",
+                "Sarah Chen",
+                "Emily Chen",
+                "School",
+                "Museum",
+                "Hospital",
+                "Ave_2_link_2",
+                "St_1_link_1",
+                "St_3_link_1",
+                "Ave_4_link_1",
+                "15:15",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626145455826352,
+            "type": "event",
+            "created": "2025-03-13T09:30:00",
+            "last_accessed": "2025-03-13T09:30:00",
+            "expiration": "2025-03-13T11:59:00",
+            "content": "Michael Chen current activity description: Takes Metro_2 from Node_1 to Node_11 to grab coffee before heading to work.; current status: Staying at facility Coffee shop.",
+            "keywords": [
+                "Michael Chen",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626145456739900,
+            "type": "event",
+            "created": "2025-03-13T09:30:00",
+            "last_accessed": "2025-03-13T09:30:00",
+            "expiration": "2025-03-13T11:59:00",
+            "content": "Elizabeth Wilson current activity description: Manage daily operations at Food court from 8:00-17:00. current status is Staying at facility Food court.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Food court",
+                "Food court"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626145457514973,
+            "type": "event",
+            "created": "2025-03-13T09:30:00",
+            "last_accessed": "2025-03-13T09:30:00",
+            "expiration": "2025-03-13T11:59:00",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; depart early to avoid potential congestion on St_1_link_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626145512214747,
+            "type": "thought",
+            "created": "2025-03-13T09:30:00",
+            "last_accessed": "2025-03-13T09:30:00",
+            "expiration": "2025-03-13T11:59:00",
+            "content": "St_2_link_1 often experiences moderate congestion during morning rush hours",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 626145513086544,
+            "type": "thought",
+            "created": "2025-03-13T09:30:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-16T14:12:50.510024",
+            "content": "Ave_4_link_1 can be congested in the evenings, requiring monitoring for return trips",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626163006299198,
+            "type": "event",
+            "created": "2025-03-13T12:00:00",
+            "last_accessed": "2025-03-13T12:00:00",
+            "expiration": "2025-03-13T19:13:35.742705",
+            "content": "Michael Chen current activity description: Takes Metro_2 from Node_1 to Node_11 to grab coffee before heading to work.; current status: Staying at facility Coffee shop.",
+            "keywords": [
+                "Michael Chen",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626163007649591,
+            "type": "event",
+            "created": "2025-03-13T12:00:00",
+            "last_accessed": "2025-03-13T12:00:00",
+            "expiration": "2025-03-13T14:29:00",
+            "content": "Elizabeth Wilson current activity description: Manage daily operations at Food court from 8:00-17:00. current status is Staying at facility Food court.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Food court",
+                "Food court"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626163008659299,
+            "type": "event",
+            "created": "2025-03-13T12:00:00",
+            "last_accessed": "2025-03-13T12:00:00",
+            "expiration": "2025-03-13T14:29:00",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; depart early to avoid potential congestion on St_1_link_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 626163325670729,
+            "type": "thought",
+            "created": "2025-03-13T12:00:00",
+            "last_accessed": "2025-03-13T12:00:00",
+            "expiration": "2025-03-13T14:29:00",
+            "content": "St_2_link_1 often experiences moderate congestion during morning rush hours",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning rush"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626214139936592,
+            "type": "event",
+            "created": "2025-03-13T14:30:00",
+            "last_accessed": "2025-03-13T14:30:00",
+            "expiration": "2025-03-13T16:59:00",
+            "content": "Michael Chen current activity description: Return to Museum after lunch meeting to continue curatorial work and prepare for upcoming exhibits.; current status: Staying at facility Museum.",
+            "keywords": [
+                "Michael Chen",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214140782410,
+            "type": "event",
+            "created": "2025-03-13T14:30:00",
+            "last_accessed": "2025-03-13T14:30:00",
+            "expiration": "2025-03-13T16:59:00",
+            "content": "Elizabeth Wilson current activity description: Manage daily operations at Food court from 8:00-17:00. current status is Staying at facility Food court.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Food court",
+                "Food court"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214142143490,
+            "type": "event",
+            "created": "2025-03-13T14:30:00",
+            "last_accessed": "2025-03-13T14:30:00",
+            "expiration": "2025-03-13T16:59:00",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; depart early to avoid potential congestion on St_1_link_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626214206075816,
+            "type": "thought",
+            "created": "2025-03-13T14:30:00",
+            "last_accessed": "2025-03-13T14:30:00",
+            "expiration": "2025-03-16T11:11:50.510024",
+            "content": "St_2_link_1 often experiences moderate congestion during morning rush hours",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 626222050301942,
+            "type": "event",
+            "created": "2025-03-13T17:00:00",
+            "last_accessed": "2025-03-13T17:00:00",
+            "expiration": "2025-03-13T17:29:00",
+            "content": "Michael Chen current activity description: Return to Museum after lunch meeting to continue curatorial work and prepare for upcoming exhibits.; current status: Staying at facility Museum.",
+            "keywords": [
+                "Michael Chen",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626222051068178,
+            "type": "event",
+            "created": "2025-03-13T17:00:00",
+            "last_accessed": "2025-03-13T17:00:00",
+            "expiration": "2025-03-13T17:29:00",
+            "content": "Elizabeth Wilson current activity description: Manage daily operations at Food court from 8:00-17:00. current status is Staying at facility Food court.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Food court",
+                "Food court"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 626222052174747,
+            "type": "event",
+            "created": "2025-03-13T17:00:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Sandra White current activity description: Drive to Factory with Kevin; depart early to avoid potential congestion on St_1_link_1. current status is Staying at facility Factory.",
+            "keywords": [
+                "Sandra White",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627092725604367,
+            "type": "event",
+            "created": "2025-03-13T17:30:00",
+            "last_accessed": "2025-03-13T17:30:00",
+            "expiration": "2025-03-13T17:30:00",
+            "content": "Michael Chen current activity description: Return to Museum after lunch meeting to continue curatorial work and prepare for upcoming exhibits.; current status: Staying at facility Museum.",
+            "keywords": [
+                "Michael Chen",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627092726827766,
+            "type": "event",
+            "created": "2025-03-13T17:30:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Elizabeth Wilson current activity description: Manage daily operations at Food court from 8:00-17:00. current status is Staying at facility Food court.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Food court",
+                "Food court"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627092728178962,
+            "type": "event",
+            "created": "2025-03-13T17:30:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-14T00:44:35.742705",
+            "content": "Sandra White current activity description: Pick up Grace from School; leave Factory early to allow buffer for possible traffic delays. current status is Sandra White on the trip from Factory to School; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13')];  currently traversing link Ave_4_link_1; planned path left: [('St_1_link_2', 'drive', 'Node_9'), ('St_2_link_2', 'drive', 'Node_5')];.",
+            "keywords": [
+                "Sandra White",
+                "School",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627093423617011,
+            "type": "event",
+            "created": "2025-03-13T17:31:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-13T17:42:00",
+            "content": "Michael Chen current activity description: Return to Museum after lunch meeting to continue curatorial work and prepare for upcoming exhibits.; current status: Staying at facility Museum.",
+            "keywords": [
+                "Michael Chen",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627093425091737,
+            "type": "event",
+            "created": "2025-03-13T17:31:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Elizabeth Wilson current activity description: Head to Supermarket after work via St_4_link_1 and Ave_3_link_2 to avoid known congestion on Ave_2_link_3. current status is Elizabeth Wilson on the trip from Food court to Supermarket; trip trajectory: []; currently at node Node_7; planned path left: [('Ave_2_link_3', 'drive', 'Node_6')];.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Supermarket",
+                "Node_7"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627093426177209,
+            "type": "event",
+            "created": "2025-03-13T17:31:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Sandra White current activity description: Arrive at Gym by 18:00 for yoga session with Maria Lopez; take shortest path for efficiency. current status is Sandra White on the trip from Factory to Gym; trip trajectory: [('Ave_4_link_1', 'drive', 'Node_13')];  currently traversing link Ave_4_link_1; planned path left: [];.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Ave_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627093443817360,
+            "type": "chat",
+            "created": "2025-03-13T17:31:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T06:17:51.512918",
+            "content": "Sarah Chen and Michael Chen adjusted their meeting location from Supermarket to Food court due to congestion on Ave_4_link_1. Sarah will go to the Gym after leaving the Hospital and meet Michael at Food court around 18:00.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Hospital",
+                "Gym",
+                "Food court",
+                "Ave_4_link_1",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 627093505549268,
+            "type": "chat",
+            "created": "2025-03-13T17:31:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T06:17:51.512918",
+            "content": "Sarah Chen and Michael Chen adjusted their meeting location from Food court to Supermarket due to traffic congestion on Ave_4_link_1. Sarah will go to the Gym after leaving the Hospital and then proceed to Supermarket around 18:00, where she will meet Michael.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Hospital",
+                "Gym",
+                "Food court",
+                "Supermarket",
+                "Ave_4_link_1",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 627093533247766,
+            "type": "chat",
+            "created": "2025-03-13T17:31:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T02:30:16.901153",
+            "content": "Sarah Chen and Michael Chen adjusted their meeting time at Supermarket from 18:00 to 18:15 due to moderate congestion on Ave_4_link_1. Sarah will go to the Gym first, then travel to Supermarket, while Michael will adjust his route to avoid delays.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Supermarket",
+                "Gym",
+                "Ave_4_link_1",
+                "18:00",
+                "18:15"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 627093544492098,
+            "type": "thought",
+            "created": "2025-03-13T17:31:00",
+            "last_accessed": "2025-03-13T17:31:00",
+            "expiration": "2025-03-16T14:12:50.510024",
+            "content": "Ave_4_link_1 tends to be congested during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 627101505811158,
+            "type": "event",
+            "created": "2025-03-13T17:43:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Michael Chen current activity description: Return to Museum after lunch meeting to continue curatorial work and prepare for upcoming exhibits.; current status: Staying at facility Museum.",
+            "keywords": [
+                "Michael Chen",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627101506749193,
+            "type": "event",
+            "created": "2025-03-13T17:43:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Elizabeth Wilson current activity description: Head to Supermarket after work via St_4_link_1 and Ave_3_link_2 to avoid known congestion on Ave_2_link_3. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Elizabeth Wilson",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627101507532199,
+            "type": "event",
+            "created": "2025-03-13T17:43:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Sandra White current activity description: Arrive at Gym by 18:15 for yoga session with Maria Lopez; take shortest path as previously planned. current status is Sandra White just finished the trip from None to Gym; waiting at Gym now.",
+            "keywords": [
+                "Sandra White",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 627101535956268,
+            "type": "chat",
+            "created": "2025-03-13T17:43:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T11:46:10.492267",
+            "content": "Sarah Chen will leave Hospital around 18:30, adjusting her route to avoid congestion on Ave_4_link_1 by taking St_3_link_2 and Ave_3_link_2 before heading to Supermarket. Michael Chen will leave Museum at 17:45, taking Metro_1_link_4 and Metro_1_link_5 to Node_3, then drive to Supermarket. Both will coordinate real-time updates and aim to arrive by 18:15.",
+            "keywords": [
+                "Sarah Chen",
+                "Michael Chen",
+                "Hospital",
+                "Gym",
+                "Museum",
+                "Supermarket",
+                "Ave_4_link_1",
+                "St_3_link_2",
+                "Ave_3_link_2",
+                "Metro_1_link_4",
+                "Metro_1_link_5",
+                "18:30",
+                "17:45",
+                "18:15"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 627101550845034,
+            "type": "thought",
+            "created": "2025-03-13T17:43:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-16T14:24:50.510024",
+            "content": "Ave_4_link_1 consistently experiences moderate congestion during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 627101551821587,
+            "type": "thought",
+            "created": "2025-03-13T17:43:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-16T14:24:50.510024",
+            "content": "Gym attendance peaks between 17:30-18:30",
+            "keywords": [
+                "Gym",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 627101619702571,
+            "type": "event",
+            "created": "2025-03-13T17:43:00",
+            "last_accessed": "2025-03-13T17:43:00",
+            "expiration": "2025-03-14T00:56:35.742705",
+            "content": "Sarah Chen travels from Hospital to Gym by travel mode drive; start time is Thu 2025-03-13 17:30; trip time is 13 minutes",
+            "keywords": [
+                "Hospital to Gym",
+                "drive"
+            ],
+            "spatial_scope": "Hospital, Gym, St_1",
+            "time_scope": [
+                "17:30:00",
+                "17:43:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        }
+    ]
+}

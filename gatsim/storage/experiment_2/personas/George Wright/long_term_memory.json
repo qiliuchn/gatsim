@@ -1,0 +1,3103 @@
+{
+    "curr_time": "2025-03-12 18:49:00",
+    "concept_nodes": [
+        {
+            "id": 623013709977571,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T00:00:00",
+            "expiration": "2025-03-10T06:59:00",
+            "content": "Metro_1_line experiences high passenger volume between 7:45-8:15 and 16:45-17:15",
+            "keywords": [
+                "Metro_1_line",
+                "high passenger volume"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:45:00",
+                "08:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623013711115813,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T00:00:00",
+            "expiration": "2025-03-10T06:59:00",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "less crowded"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623013711879758,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T00:00:00",
+            "expiration": "2025-03-10T22:00:39.214760",
+            "content": "Coffee shop serves best coffee in the town",
+            "keywords": [
+                "Coffee shop",
+                "best coffee"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.2,
+            "embedding": null
+        },
+        {
+            "id": 623013712716455,
+            "type": "thought",
+            "created": "2025-03-10T00:00:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-14T01:20:24.553005",
+            "content": "Metro_2_line offers reliable transfer options to Node_11 and Node_3",
+            "keywords": [
+                "Metro_2_line",
+                "transfer options"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014507472733,
+            "type": "thought",
+            "created": "2025-03-10T07:00:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-14T01:20:24.553005",
+            "content": "Metro_1_line experiences high passenger volume between 7:45-8:15 and 16:45-17:15",
+            "keywords": [
+                "Metro_1_line",
+                "passenger_volume",
+                "commute_hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:45:00",
+                "08:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623014508290209,
+            "type": "thought",
+            "created": "2025-03-10T07:00:00",
+            "last_accessed": "2025-03-10T07:30:00",
+            "expiration": "2025-03-13T04:11:50.510024",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623015302211476,
+            "type": "event",
+            "created": "2025-03-10T07:20:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T15:18:35.742705",
+            "content": "George Wright waits at Metro_1_link_1; start time is Mon 2025-03-10 07:11; wait time is 9 minutes",
+            "keywords": [
+                "wait",
+                "Metro_1_link_1"
+            ],
+            "spatial_scope": "Metro_1_link_1",
+            "time_scope": [
+                "07:11:00",
+                "07:20:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623015750437582,
+            "type": "thought",
+            "created": "2025-03-10T07:29:00",
+            "last_accessed": "2025-03-10T07:30:00",
+            "expiration": "2025-03-10T07:37:00",
+            "content": "Metro_1 experiences significant delays during peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:45:00",
+                "08:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623015751356477,
+            "type": "thought",
+            "created": "2025-03-10T07:29:00",
+            "last_accessed": "2025-03-10T07:30:00",
+            "expiration": "2025-03-10T07:37:00",
+            "content": "Ave_2_link_1 frequently congested in mornings",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "mornings"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623015820681207,
+            "type": "chat",
+            "created": "2025-03-10T07:30:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T16:52:16.901153",
+            "content": "Robert Hayes mentioned severe congestion on St_1_link_2 affecting his commute to the Office. He and George Wright discussed coordinating their morning plans to account for the delay, though no specific adjustments were finalized.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Office",
+                "St_1_link_2",
+                "Node_13",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623015833949931,
+            "type": "chat",
+            "created": "2025-03-10T07:30:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T13:01:01.577996",
+            "content": "Robert Hayes adjusted his morning commute to avoid congestion on St_1_link_2 after being informed by George Wright. Robert will leave earlier to ensure arrival at the Office by 8:00. George is traveling via Metro_1 and unaffected by the road delay.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Office",
+                "St_1_link_2",
+                "congestion",
+                "Metro_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623020448845165,
+            "type": "thought",
+            "created": "2025-03-10T07:38:00",
+            "last_accessed": "2025-03-10T07:38:00",
+            "expiration": "2025-03-10T07:46:00",
+            "content": "Metro_1 experiences significant delays during peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623020449598368,
+            "type": "thought",
+            "created": "2025-03-10T07:38:00",
+            "last_accessed": "2025-03-10T07:38:00",
+            "expiration": "2025-03-10T07:46:00",
+            "content": "Ave_2_link_1 frequently congested in mornings",
+            "keywords": [
+                "Ave_2_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623021259757319,
+            "type": "thought",
+            "created": "2025-03-10T07:47:00",
+            "last_accessed": "2025-03-10T07:47:00",
+            "expiration": "2025-03-10T07:55:00",
+            "content": "Metro_1 experiences significant delays during peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623021300777486,
+            "type": "thought",
+            "created": "2025-03-10T07:47:00",
+            "last_accessed": "2025-03-10T07:47:00",
+            "expiration": "2025-03-10T07:55:00",
+            "content": "Ave_2_link_1 frequently congested in mornings",
+            "keywords": [
+                "Ave_2_link_1",
+                "congested",
+                "mornings"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623022128167667,
+            "type": "thought",
+            "created": "2025-03-10T07:56:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T08:04:00",
+            "content": "Metro_1 experiences significant delays during peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623022129071799,
+            "type": "thought",
+            "created": "2025-03-10T07:56:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T08:04:00",
+            "content": "Ave_2_link_1 frequently congested in mornings",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623022815318534,
+            "type": "thought",
+            "created": "2025-03-10T08:05:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T09:39:00",
+            "content": "Metro_1 experiences significant delays during peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:45:00",
+                "08:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623022816188231,
+            "type": "thought",
+            "created": "2025-03-10T08:05:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T14:39:00",
+            "content": "Ave_2_link_1 frequently congested in mornings",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623022820108024,
+            "type": "chat",
+            "created": "2025-03-10T08:05:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T16:52:16.901153",
+            "content": "Robert Hayes informed George Wright about unexpected delays on Ave_1_link_1 causing a later arrival at the Office around 8:15 AM. George confirmed he will maintain operations until Robert arrives.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Office",
+                "Ave_1_link_1",
+                "delay",
+                "coordination"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623022859867889,
+            "type": "event",
+            "created": "2025-03-10T08:05:00",
+            "last_accessed": "2025-03-10T08:05:00",
+            "expiration": "2025-03-10T15:18:35.742705",
+            "content": "George Wright travels from Midtown apartment to Office by travel mode transit; start time is Mon 2025-03-10 07:10; trip time is 55 minutes",
+            "keywords": [
+                "Midtown apartment to Office",
+                "transit"
+            ],
+            "spatial_scope": "Midtown apartment, Office, Metro_1, Metro_1, Metro_1, Metro_1, Metro_1",
+            "time_scope": [
+                "07:10:00",
+                "08:05:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623030055569831,
+            "type": "thought",
+            "created": "2025-03-10T09:40:00",
+            "last_accessed": "2025-03-10T09:40:00",
+            "expiration": "2025-03-13T06:21:50.510024",
+            "content": "Ave_1_link_1 experienced unexpected delays during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623030056612551,
+            "type": "thought",
+            "created": "2025-03-10T09:40:00",
+            "last_accessed": "2025-03-10T09:40:00",
+            "expiration": "2025-03-10T14:39:00",
+            "content": "Metro_1 experiences significant delays during peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "peak"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623034929616891,
+            "type": "thought",
+            "created": "2025-03-10T14:40:00",
+            "last_accessed": "2025-03-10T14:40:00",
+            "expiration": "2025-03-14T07:55:24.553005",
+            "content": "Ave_1_link_1 experiences unexpected delays during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623034930435575,
+            "type": "thought",
+            "created": "2025-03-10T14:40:00",
+            "last_accessed": "2025-03-10T14:40:00",
+            "expiration": "2025-03-14T07:55:24.553005",
+            "content": "Metro_1 experiences significant delays during peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623034931302567,
+            "type": "thought",
+            "created": "2025-03-10T14:40:00",
+            "last_accessed": "2025-03-10T14:40:00",
+            "expiration": "2025-03-14T07:55:24.553005",
+            "content": "Ave_2_link_1 frequently congested in mornings",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "mornings"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623041129494790,
+            "type": "thought",
+            "created": "2025-03-10T17:21:00",
+            "last_accessed": "2025-03-10T17:21:00",
+            "expiration": "2025-03-12T04:09:17.115446",
+            "content": "Ave_4_link_1 experiences light congestion during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623041622213779,
+            "type": "thought",
+            "created": "2025-03-10T17:38:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-16T09:59:09.440007",
+            "content": "Ave_4_link_1 experiences severe delays during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "severe delays",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623042210892308,
+            "type": "event",
+            "created": "2025-03-10T17:46:00",
+            "last_accessed": "2025-03-10T17:46:00",
+            "expiration": "2025-03-11T00:59:35.742705",
+            "content": "George Wright waits at Metro_2_link_5; start time is Mon 2025-03-10 17:38; wait time is 8 minutes",
+            "keywords": [
+                "wait",
+                "Metro_2_link_5"
+            ],
+            "spatial_scope": "Metro_2_link_5",
+            "time_scope": [
+                "17:38:00",
+                "17:46:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623042633458944,
+            "type": "thought",
+            "created": "2025-03-10T17:55:00",
+            "last_accessed": "2025-03-10T17:55:00",
+            "expiration": "2025-03-10T20:19:00",
+            "content": "Ave_4_link_1 frequently experiences severe delays during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623043424508424,
+            "type": "event",
+            "created": "2025-03-10T18:12:00",
+            "last_accessed": "2025-03-10T18:12:00",
+            "expiration": "2025-03-11T01:25:35.742705",
+            "content": "George Wright travels from Office to Gym by travel mode transit; start time is Mon 2025-03-10 17:20; trip time is 52 minutes",
+            "keywords": [
+                "Office to Gym",
+                "transit"
+            ],
+            "spatial_scope": "Office, Gym, Ave_3, Metro_2, Ave_4",
+            "time_scope": [
+                "17:20:00",
+                "18:12:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623051209200493,
+            "type": "event",
+            "created": "2025-03-10T20:15:00",
+            "last_accessed": "2025-03-10T20:15:00",
+            "expiration": "2025-03-11T16:03:34.810763",
+            "content": "George Wright arrived at Gym at Mon 2025-03-10 18:12; and waits for 123 minutes in queue before starting the activity.",
+            "keywords": [
+                "wait",
+                "Gym"
+            ],
+            "spatial_scope": "Gym",
+            "time_scope": [
+                "18:12:00",
+                "20:15:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623051337681308,
+            "type": "thought",
+            "created": "2025-03-10T20:20:00",
+            "last_accessed": "2025-03-10T20:20:00",
+            "expiration": "2025-03-10T20:20:00",
+            "content": "Ave_4_link_1 frequently experiences severe delays during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "severe delay",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623051359076864,
+            "type": "thought",
+            "created": "2025-03-10T20:21:00",
+            "last_accessed": "2025-03-10T20:21:00",
+            "expiration": "2025-03-10T20:43:00",
+            "content": "Ave_4_link_1 frequently experiences severe delays during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "severe delays",
+                "evening commute"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623051949836024,
+            "type": "thought",
+            "created": "2025-03-10T20:44:00",
+            "last_accessed": "2025-03-10T20:44:00",
+            "expiration": "2025-03-10T21:06:00",
+            "content": "Ave_4_link_1 frequently experiences severe delays during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "severe delays",
+                "evening commute"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623052521992306,
+            "type": "thought",
+            "created": "2025-03-10T21:07:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-16T09:59:09.440007",
+            "content": "Ave_4_link_1 frequently experiences severe delays during evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "delay",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623052523118609,
+            "type": "event",
+            "created": "2025-03-10T21:07:00",
+            "last_accessed": "2025-03-10T21:07:00",
+            "expiration": "2025-03-11T04:20:35.742705",
+            "content": "George Wright travels from Gym to Midtown apartment by travel mode transit; start time is Mon 2025-03-10 20:21; trip time is 46 minutes",
+            "keywords": [
+                "Gym to Midtown apartment",
+                "transit"
+            ],
+            "spatial_scope": "Gym, Midtown apartment, St_1, St_1",
+            "time_scope": [
+                "20:21:00",
+                "21:07:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623055829396274,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:58:00",
+            "content": "Metro_1 crowded during 07:45-08:15 and 17:00-18:15",
+            "keywords": [
+                "Metro_1",
+                "crowded",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:45:00",
+                "08:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055829473232,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Metro_1 crowded during 07:45-08:15 and 17:00-18:15",
+            "keywords": [
+                "Metro_1",
+                "crowded",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055830363476,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Ave_4_link_1 prone to unexpected congestion affecting transit routes",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "unreliable"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055831437117,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Rerouting via Metro_2 avoids delays from Ave_4_link_1 congestion",
+            "keywords": [
+                "Metro_2",
+                "alternative route",
+                "efficient"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623055832308366,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Leaving Office before 17:30 helps avoid metro crowding",
+            "keywords": [
+                "Office",
+                "departure timing",
+                "crowding"
+            ],
+            "spatial_scope": [
+                "Office"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "17:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623055833113522,
+            "type": "thought",
+            "created": "2025-03-10T23:59:00",
+            "last_accessed": "2025-03-10T23:59:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "senior fitness",
+                "less crowded"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061254868581,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-10T23:59:00",
+            "content": "Metro_1 crowded during 07:45-08:15 and 17:00-18:15",
+            "keywords": [
+                "Metro_1",
+                "crowded",
+                "rush hour"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:45:00",
+                "08:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061254879303,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T00:00:00",
+            "expiration": "2025-03-14T17:15:24.553005",
+            "content": "Metro_1 crowded during 07:45-08:15 and 17:00-18:15",
+            "keywords": [
+                "Metro_1",
+                "crowded",
+                "rush hour"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:15:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061256258921,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-16T09:59:09.440007",
+            "content": "Rerouting via Metro_2 avoids delays from Ave_4_link_1 congestion",
+            "keywords": [
+                "Ave_4_link_1",
+                "Metro_2",
+                "reroute"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1",
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623061257109335,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-16T00:34:24.553005",
+            "content": "Leaving Office before 17:30 helps avoid metro crowding",
+            "keywords": [
+                "Office",
+                "metro crowding",
+                "departure time"
+            ],
+            "spatial_scope": [
+                "Office",
+                "Metro_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "17:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623061257992642,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-14T14:41:50.510024",
+            "content": "Ave_4_link_1 prone to unexpected congestion affecting transit routes",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "disruption"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623061258752135,
+            "type": "thought",
+            "created": "2025-03-11T00:00:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-14T14:41:50.510024",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623062812981453,
+            "type": "thought",
+            "created": "2025-03-11T07:00:00",
+            "last_accessed": "2025-03-11T07:00:00",
+            "expiration": "2025-03-14T03:41:50.510024",
+            "content": "St_1_link_2 prone to moderate congestion",
+            "keywords": [
+                "St_1_link_2",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623063645463977,
+            "type": "event",
+            "created": "2025-03-11T07:20:00",
+            "last_accessed": "2025-03-11T07:20:00",
+            "expiration": "2025-03-11T14:33:35.742705",
+            "content": "George Wright waits at Metro_1_link_1; start time is Tue 2025-03-11 07:11; wait time is 9 minutes",
+            "keywords": [
+                "wait",
+                "Metro_1_link_1"
+            ],
+            "spatial_scope": "Metro_1_link_1",
+            "time_scope": [
+                "07:11:00",
+                "07:20:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623064040162988,
+            "type": "thought",
+            "created": "2025-03-11T07:29:00",
+            "last_accessed": "2025-03-11T07:29:00",
+            "expiration": "2025-03-15T23:28:09.440007",
+            "content": "St_1_link_1 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623064900251865,
+            "type": "thought",
+            "created": "2025-03-11T07:38:00",
+            "last_accessed": "2025-03-11T07:38:00",
+            "expiration": "2025-03-15T23:37:09.440007",
+            "content": "St_1_link_2 frequently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 623064901174547,
+            "type": "thought",
+            "created": "2025-03-11T07:38:00",
+            "last_accessed": "2025-03-11T07:38:00",
+            "expiration": "2025-03-14T04:19:50.510024",
+            "content": "St_2_link_1 prone to moderate congestion affecting transit routes",
+            "keywords": [
+                "St_2_link_1",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623070206057134,
+            "type": "thought",
+            "created": "2025-03-11T07:56:00",
+            "last_accessed": "2025-03-11T07:56:00",
+            "expiration": "2025-03-11T08:04:00",
+            "content": "Morning commute on Metro_1 experiences unexpected delays",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1",
+                "Metro_1_link_2",
+                "Metro_1_link_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623070730275280,
+            "type": "thought",
+            "created": "2025-03-11T08:05:00",
+            "last_accessed": "2025-03-11T08:05:00",
+            "expiration": "2025-03-15T01:20:24.553005",
+            "content": "Morning commute on Metro_1 experiences unexpected delays",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1",
+                "Metro_1_link_2",
+                "Metro_1_link_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623070731185515,
+            "type": "thought",
+            "created": "2025-03-11T08:05:00",
+            "last_accessed": "2025-03-11T08:05:00",
+            "expiration": "2025-03-11T09:39:00",
+            "content": "St_1_link_1 and St_1_link_2 prone to moderate congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623070825603215,
+            "type": "event",
+            "created": "2025-03-11T08:05:00",
+            "last_accessed": "2025-03-11T08:05:00",
+            "expiration": "2025-03-12T03:53:34.810763",
+            "content": "George Wright travels from Midtown apartment to Office by travel mode transit; start time is Tue 2025-03-11 07:10; trip time is 55 minutes",
+            "keywords": [
+                "Midtown apartment to Office",
+                "transit"
+            ],
+            "spatial_scope": "Midtown apartment, Office, Metro_1, Metro_1, Metro_1, Metro_1, Metro_1",
+            "time_scope": [
+                "07:10:00",
+                "08:05:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623072800821532,
+            "type": "thought",
+            "created": "2025-03-11T09:40:00",
+            "last_accessed": "2025-03-11T09:40:00",
+            "expiration": "2025-03-11T12:09:00",
+            "content": "Metro_1 experiences unexpected delays during morning commute",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623072801789733,
+            "type": "thought",
+            "created": "2025-03-11T09:40:00",
+            "last_accessed": "2025-03-11T09:40:00",
+            "expiration": "2025-03-11T17:09:00",
+            "content": "St_1_link_1 and St_1_link_2 prone to moderate congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623073821211648,
+            "type": "thought",
+            "created": "2025-03-11T12:10:00",
+            "last_accessed": "2025-03-11T12:10:00",
+            "expiration": "2025-03-11T17:09:00",
+            "content": "Metro_1 experiences unexpected delays during morning commute",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1",
+                "Metro_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623082646203510,
+            "type": "thought",
+            "created": "2025-03-11T17:10:00",
+            "last_accessed": "2025-03-11T17:10:00",
+            "expiration": "2025-03-11T17:24:00",
+            "content": "Metro_1 experiences unexpected delays during morning commute",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623082647036213,
+            "type": "thought",
+            "created": "2025-03-11T17:10:00",
+            "last_accessed": "2025-03-11T17:10:00",
+            "expiration": "2025-03-11T17:24:00",
+            "content": "St_1_link_1 and St_1_link_2 prone to moderate congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623082647820791,
+            "type": "thought",
+            "created": "2025-03-11T17:10:00",
+            "last_accessed": "2025-03-11T17:10:00",
+            "expiration": "2025-03-11T17:24:00",
+            "content": "Leaving work before 17:30 helps dodge peak crowding on Metro_1",
+            "keywords": [
+                "Metro_1",
+                "peak crowding",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083102979203,
+            "type": "thought",
+            "created": "2025-03-11T17:25:00",
+            "last_accessed": "2025-03-11T17:25:00",
+            "expiration": "2025-03-15T10:40:24.553005",
+            "content": "Metro_1 experiences unexpected delays during morning commute",
+            "keywords": [
+                "Metro_1",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083103984438,
+            "type": "thought",
+            "created": "2025-03-11T17:25:00",
+            "last_accessed": "2025-03-11T17:25:00",
+            "expiration": "2025-03-15T10:40:24.553005",
+            "content": "St_1_link_1 and St_1_link_2 prone to moderate congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1",
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083105009549,
+            "type": "thought",
+            "created": "2025-03-11T17:25:00",
+            "last_accessed": "2025-03-11T17:25:00",
+            "expiration": "2025-03-15T10:40:24.553005",
+            "content": "Leaving work before 17:30 helps dodge peak crowding on Metro_1",
+            "keywords": [
+                "Metro_1",
+                "crowding",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623083118320574,
+            "type": "thought",
+            "created": "2025-03-11T17:26:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-13T20:28:23.106828",
+            "content": "Ave_4_link_1 prone to moderate congestion in the evening",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623083802114961,
+            "type": "thought",
+            "created": "2025-03-11T17:43:00",
+            "last_accessed": "2025-03-11T17:43:00",
+            "expiration": "2025-03-13T04:31:17.115446",
+            "content": "St_4_link_2 experiences light congestion during early evening commute",
+            "keywords": [
+                "St_4_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_4_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623084339116745,
+            "type": "thought",
+            "created": "2025-03-11T17:55:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-11T18:11:00",
+            "content": "Ave_4_link_1 experiences light congestion during early evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623084720618194,
+            "type": "chat",
+            "created": "2025-03-11T18:00:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-11T22:56:01.577996",
+            "content": "Robert Hayes and George Wright discussed potential delays on Ave_4_link_1 with a 4-minute wait time. Robert plans to adjust his driving route to ensure timely arrival at the Gym, while George is already walking on Ave_4_link_1 and will monitor the situation.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Gym",
+                "Ave_4_link_1",
+                "detour",
+                "4-minute wait"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623084731295452,
+            "type": "chat",
+            "created": "2025-03-11T18:00:00",
+            "last_accessed": "2025-03-11T18:00:00",
+            "expiration": "2025-03-11T22:15:18.440790",
+            "content": "Robert Hayes alerted George Wright about light congestion with a 4-minute wait time on Ave_4_link_1, which George is already walking. George will continue as planned to reach the Gym on time while Robert adjusts his driving route.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Ave_4_link_1",
+                "Gym",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.2,
+            "embedding": null
+        },
+        {
+            "id": 623085158895986,
+            "type": "thought",
+            "created": "2025-03-11T18:12:00",
+            "last_accessed": "2025-03-11T18:12:00",
+            "expiration": "2025-03-13T05:00:17.115446",
+            "content": "Ave_4_link_1 experiences light congestion during early evening commute",
+            "keywords": [
+                "Ave_4_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_4_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623085159826639,
+            "type": "thought",
+            "created": "2025-03-11T18:12:00",
+            "last_accessed": "2025-03-11T18:12:00",
+            "expiration": "2025-03-14T14:53:50.510024",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623085200893259,
+            "type": "event",
+            "created": "2025-03-11T18:12:00",
+            "last_accessed": "2025-03-11T18:12:00",
+            "expiration": "2025-03-12T06:37:29.634388",
+            "content": "George Wright travels from Office to Gym by travel mode transit; start time is Tue 2025-03-11 17:25; trip time is 47 minutes",
+            "keywords": [
+                "Office to Gym",
+                "transit"
+            ],
+            "spatial_scope": "Office, Gym, Ave_3, Metro_2, Ave_4",
+            "time_scope": [
+                "17:25:00",
+                "18:12:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623095045570572,
+            "type": "event",
+            "created": "2025-03-11T20:20:00",
+            "last_accessed": "2025-03-11T20:20:00",
+            "expiration": "2025-03-12T16:08:34.810763",
+            "content": "George Wright arrived at Gym at Tue 2025-03-11 18:12; and waits for 128 minutes in queue before starting the activity.",
+            "keywords": [
+                "wait",
+                "Gym"
+            ],
+            "spatial_scope": "Gym",
+            "time_scope": [
+                "18:12:00",
+                "20:20:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623095310700730,
+            "type": "thought",
+            "created": "2025-03-11T20:25:00",
+            "last_accessed": "2025-03-11T20:25:00",
+            "expiration": "2025-03-11T20:29:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623095311554289,
+            "type": "thought",
+            "created": "2025-03-11T20:25:00",
+            "last_accessed": "2025-03-11T20:25:00",
+            "expiration": "2025-03-11T20:29:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623095552186260,
+            "type": "thought",
+            "created": "2025-03-11T20:30:00",
+            "last_accessed": "2025-03-11T20:30:00",
+            "expiration": "2025-03-11T20:34:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623095552997332,
+            "type": "thought",
+            "created": "2025-03-11T20:30:00",
+            "last_accessed": "2025-03-11T20:30:00",
+            "expiration": "2025-03-11T20:34:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623095753355644,
+            "type": "thought",
+            "created": "2025-03-11T20:35:00",
+            "last_accessed": "2025-03-11T20:35:00",
+            "expiration": "2025-03-11T20:39:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623095754186664,
+            "type": "thought",
+            "created": "2025-03-11T20:35:00",
+            "last_accessed": "2025-03-11T20:35:00",
+            "expiration": "2025-03-11T20:39:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623100143338985,
+            "type": "thought",
+            "created": "2025-03-11T20:40:00",
+            "last_accessed": "2025-03-11T20:40:00",
+            "expiration": "2025-03-11T20:44:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "senior fitness"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100144124655,
+            "type": "thought",
+            "created": "2025-03-11T20:40:00",
+            "last_accessed": "2025-03-11T20:40:00",
+            "expiration": "2025-03-11T20:44:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100324891326,
+            "type": "thought",
+            "created": "2025-03-11T20:45:00",
+            "last_accessed": "2025-03-11T20:45:00",
+            "expiration": "2025-03-11T20:49:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "busy"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100325817338,
+            "type": "thought",
+            "created": "2025-03-11T20:45:00",
+            "last_accessed": "2025-03-11T20:45:00",
+            "expiration": "2025-03-11T20:49:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623100625296680,
+            "type": "thought",
+            "created": "2025-03-11T20:50:00",
+            "last_accessed": "2025-03-11T20:50:00",
+            "expiration": "2025-03-11T20:54:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100626111866,
+            "type": "thought",
+            "created": "2025-03-11T20:50:00",
+            "last_accessed": "2025-03-11T20:50:00",
+            "expiration": "2025-03-11T20:54:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100727769647,
+            "type": "thought",
+            "created": "2025-03-11T20:55:00",
+            "last_accessed": "2025-03-11T20:55:00",
+            "expiration": "2025-03-11T20:59:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100728712388,
+            "type": "thought",
+            "created": "2025-03-11T20:55:00",
+            "last_accessed": "2025-03-11T20:55:00",
+            "expiration": "2025-03-11T20:59:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100953880699,
+            "type": "thought",
+            "created": "2025-03-11T21:00:00",
+            "last_accessed": "2025-03-11T21:00:00",
+            "expiration": "2025-03-11T21:04:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623100954771823,
+            "type": "thought",
+            "created": "2025-03-11T21:00:00",
+            "last_accessed": "2025-03-11T21:00:00",
+            "expiration": "2025-03-11T21:04:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623101215988213,
+            "type": "thought",
+            "created": "2025-03-11T21:05:00",
+            "last_accessed": "2025-03-11T21:05:00",
+            "expiration": "2025-03-11T21:09:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623101216901686,
+            "type": "thought",
+            "created": "2025-03-11T21:05:00",
+            "last_accessed": "2025-03-11T21:05:00",
+            "expiration": "2025-03-11T21:09:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623101451487518,
+            "type": "thought",
+            "created": "2025-03-11T21:10:00",
+            "last_accessed": "2025-03-11T21:10:00",
+            "expiration": "2025-03-11T21:14:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623101452414445,
+            "type": "thought",
+            "created": "2025-03-11T21:10:00",
+            "last_accessed": "2025-03-11T21:10:00",
+            "expiration": "2025-03-11T21:14:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623101637697991,
+            "type": "thought",
+            "created": "2025-03-11T21:15:00",
+            "last_accessed": "2025-03-11T21:15:00",
+            "expiration": "2025-03-11T21:15:00",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623101638562258,
+            "type": "thought",
+            "created": "2025-03-11T21:15:00",
+            "last_accessed": "2025-03-11T21:15:00",
+            "expiration": "2025-03-11T21:15:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623101709123925,
+            "type": "thought",
+            "created": "2025-03-11T21:16:00",
+            "last_accessed": "2025-03-11T21:16:00",
+            "expiration": "2025-03-14T17:57:50.510024",
+            "content": "Gym experiences long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623101710068812,
+            "type": "thought",
+            "created": "2025-03-11T21:16:00",
+            "last_accessed": "2025-03-11T21:16:00",
+            "expiration": "2025-03-11T21:38:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623102340908060,
+            "type": "thought",
+            "created": "2025-03-11T21:39:00",
+            "last_accessed": "2025-03-11T21:39:00",
+            "expiration": "2025-03-11T22:01:00",
+            "content": "Gym tends to experience long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623102342136608,
+            "type": "thought",
+            "created": "2025-03-11T21:39:00",
+            "last_accessed": "2025-03-11T21:39:00",
+            "expiration": "2025-03-11T22:01:00",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623103128161863,
+            "type": "thought",
+            "created": "2025-03-11T22:02:00",
+            "last_accessed": "2025-03-11T22:02:00",
+            "expiration": "2025-03-14T18:43:50.510024",
+            "content": "Gym tends to experience long queues after 18:00",
+            "keywords": [
+                "Gym",
+                "queue",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623103128915311,
+            "type": "thought",
+            "created": "2025-03-11T22:02:00",
+            "last_accessed": "2025-03-11T22:02:00",
+            "expiration": "2025-03-14T18:43:50.510024",
+            "content": "St_1_link_2 frequently congested during evening commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623103129849681,
+            "type": "event",
+            "created": "2025-03-11T22:02:00",
+            "last_accessed": "2025-03-11T22:02:00",
+            "expiration": "2025-03-12T05:15:35.742705",
+            "content": "George Wright travels from Gym to Midtown apartment by travel mode transit; start time is Tue 2025-03-11 21:16; trip time is 46 minutes",
+            "keywords": [
+                "Gym to Midtown apartment",
+                "transit"
+            ],
+            "spatial_scope": "Gym, Midtown apartment, St_1, St_1",
+            "time_scope": [
+                "21:16:00",
+                "22:02:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623105514063007,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Metro_1_link_1 prone to unexpected delays during morning commute",
+            "keywords": [
+                "Metro_1_link_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623105515122251,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "St_1_link_2 frequently congested in the evening",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623105515838607,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Gym experiences high demand between 17:00 and 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "senior program"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623105516852317,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Metro_2 provides reliable alternative during St_1 congestion",
+            "keywords": [
+                "Metro_2",
+                "alternative route",
+                "efficiency"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623105517684536,
+            "type": "thought",
+            "created": "2025-03-11T23:59:00",
+            "last_accessed": "2025-03-11T23:59:00",
+            "expiration": "2025-03-11T23:59:00",
+            "content": "Queueing at facilities should be factored into activity timing",
+            "keywords": [
+                "queueing",
+                "scheduling",
+                "Gym"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111054032368,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-12T06:29:00",
+            "content": "Gym experiences high demand between 17:00 and 19:00",
+            "keywords": [
+                "Gym",
+                "demand",
+                "17:00-19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111054856021,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "Queueing at facilities should be factored into activity timing",
+            "keywords": [
+                "queueing",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623111055619234,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-12T06:29:00",
+            "content": "Metro_1_link_1 prone to unexpected delays during morning commute",
+            "keywords": [
+                "Metro_1_link_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111056637974,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-15T17:15:24.553005",
+            "content": "Metro_2 provides reliable alternative during St_1 congestion",
+            "keywords": [
+                "Metro_2",
+                "St_1",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_2",
+                "Metro_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623111057496092,
+            "type": "thought",
+            "created": "2025-03-12T00:00:00",
+            "last_accessed": "2025-03-12T00:00:00",
+            "expiration": "2025-03-14T20:41:50.510024",
+            "content": "St_1_link_2 frequently congested in the evening",
+            "keywords": [
+                "St_1_link_2",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623112232737741,
+            "type": "thought",
+            "created": "2025-03-12T06:30:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-16T00:34:24.553005",
+            "content": "Metro_1_link_1 prone to unexpected delays during morning commute",
+            "keywords": [
+                "Metro_1_link_1",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623112233672300,
+            "type": "thought",
+            "created": "2025-03-12T06:30:00",
+            "last_accessed": "2025-03-12T06:30:00",
+            "expiration": "2025-03-15T03:11:50.510024",
+            "content": "Gym experiences high demand between 17:00 and 19:00",
+            "keywords": [
+                "Gym",
+                "peak hour",
+                "senior fitness"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113000508156,
+            "type": "thought",
+            "created": "2025-03-12T07:00:00",
+            "last_accessed": "2025-03-12T07:00:00",
+            "expiration": "2025-03-12T06:59:00",
+            "content": "St_1_link_2 experiences moderate congestion during the morning and evening",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113000518082,
+            "type": "thought",
+            "created": "2025-03-12T07:00:00",
+            "last_accessed": "2025-03-12T07:00:00",
+            "expiration": "2025-03-15T03:41:50.510024",
+            "content": "St_1_link_2 experiences moderate congestion during the morning and evening",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113001482311,
+            "type": "thought",
+            "created": "2025-03-12T07:00:00",
+            "last_accessed": "2025-03-12T07:00:00",
+            "expiration": "2025-03-16T00:15:24.553005",
+            "content": "Metro_1 can experience unexpected delays in the morning",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623113136677509,
+            "type": "thought",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-16T00:16:24.553005",
+            "content": "Metro_1 experiences delays during morning peak hours",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623113137832184,
+            "type": "thought",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-12T07:00:00",
+            "content": "St_1_link_2 consistently moderately congested during mornings and evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113137842755,
+            "type": "thought",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-12T07:01:00",
+            "expiration": "2025-03-15T03:42:50.510024",
+            "content": "St_1_link_2 consistently moderately congested during mornings and evenings",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113157863640,
+            "type": "chat",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-12T16:06:16.901153",
+            "content": "Robert Hayes and George Wright confirmed participation in a logistics meeting at the Office adjusted to 9:00 AM due to congestion on St_1_link_2. George will arrive by 8:00 AM, and no special preparation is required.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Office",
+                "St_1_link_2",
+                "congestion",
+                "logistics meeting"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113210664558,
+            "type": "chat",
+            "created": "2025-03-12T07:01:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-12T16:06:16.901153",
+            "content": "Robert Hayes and George Wright confirmed attendance at a 9:00 AM logistics meeting at the Office. George is traveling via Metro_1 and expects to arrive on time. Timothy Turner will join by 8:45 AM.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Timothy Turner",
+                "Office",
+                "Metro_1",
+                "9:00 AM",
+                "logistics meeting"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623113621034880,
+            "type": "event",
+            "created": "2025-03-12T07:10:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-12T14:32:35.742705",
+            "content": "George Wright waits at Metro_1_link_1; start time is Wed 2025-03-12 07:01; wait time is 9 minutes",
+            "keywords": [
+                "wait",
+                "Metro_1_link_1"
+            ],
+            "spatial_scope": "Metro_1_link_1",
+            "time_scope": [
+                "07:01:00",
+                "07:10:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 623114034781571,
+            "type": "thought",
+            "created": "2025-03-12T07:19:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-16T00:34:24.553005",
+            "content": "Metro_1 morning peak delays",
+            "keywords": [
+                "Metro_1",
+                "delays",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623114035664399,
+            "type": "thought",
+            "created": "2025-03-12T07:19:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-12T07:36:00",
+            "content": "St_1_link_2 moderate congestion patterns",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623114039622347,
+            "type": "chat",
+            "created": "2025-03-12T07:19:00",
+            "last_accessed": "2025-03-12T07:19:00",
+            "expiration": "2025-03-12T16:06:16.901153",
+            "content": "Robert Hayes and George Wright confirmed their arrival at the Office by 8:00 AM. George is using Metro_1_link_1 to avoid road congestion on St_1_link_1, while Robert is taking a route via Ave_4 and St_5.",
+            "keywords": [
+                "Robert Hayes",
+                "George Wright",
+                "Office",
+                "St_1_link_1",
+                "Metro_1_link_1",
+                "Ave_4",
+                "St_5",
+                "8:00 AM"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623114605935722,
+            "type": "thought",
+            "created": "2025-03-12T07:28:00",
+            "last_accessed": "2025-03-12T07:28:00",
+            "expiration": "2025-03-12T07:36:00",
+            "content": "Metro_1_link_1 experiences increased wait times during weekday mornings",
+            "keywords": [
+                "Metro_1_link_1",
+                "wait time",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623115519493844,
+            "type": "thought",
+            "created": "2025-03-12T07:37:00",
+            "last_accessed": "2025-03-12T07:37:00",
+            "expiration": "2025-03-12T07:54:00",
+            "content": "Metro_1_link_1 experiences increased wait times during weekday mornings",
+            "keywords": [
+                "Metro_1_link_1",
+                "wait time",
+                "weekday mornings"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623115520752564,
+            "type": "thought",
+            "created": "2025-03-12T07:37:00",
+            "last_accessed": "2025-03-12T07:37:00",
+            "expiration": "2025-03-12T16:59:00",
+            "content": "St_1_link_2 moderate congestion patterns",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "moderate"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623115521789054,
+            "type": "thought",
+            "created": "2025-03-12T07:37:00",
+            "last_accessed": "2025-03-12T07:37:00",
+            "expiration": "2025-03-12T07:54:00",
+            "content": "St_1_link_1 has severe congestion in the morning",
+            "keywords": [
+                "St_1_link_1",
+                "severe congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623120601165206,
+            "type": "thought",
+            "created": "2025-03-12T07:55:00",
+            "last_accessed": "2025-03-12T07:55:00",
+            "expiration": "2025-03-12T09:29:00",
+            "content": "Metro_1_link_1 experiences increased wait times during weekday mornings",
+            "keywords": [
+                "Metro_1_link_1",
+                "weekday mornings"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623120602058151,
+            "type": "thought",
+            "created": "2025-03-12T07:55:00",
+            "last_accessed": "2025-03-12T07:55:00",
+            "expiration": "2025-03-12T16:59:00",
+            "content": "St_1_link_1 has severe congestion in the morning",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623120608345647,
+            "type": "event",
+            "created": "2025-03-12T07:55:00",
+            "last_accessed": "2025-03-12T07:55:00",
+            "expiration": "2025-03-12T10:17:27.194665",
+            "content": "George Wright travels from Midtown apartment to Office by travel mode transit; start time is Wed 2025-03-12 07:00; trip time is 55 minutes",
+            "keywords": [
+                "Midtown apartment to Office",
+                "transit"
+            ],
+            "spatial_scope": "Midtown apartment, Office, Metro_1, Metro_1, Metro_1, Metro_1, Metro_1",
+            "time_scope": [
+                "07:00:00",
+                "07:55:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 623123253353196,
+            "type": "thought",
+            "created": "2025-03-12T09:30:00",
+            "last_accessed": "2025-03-12T09:30:00",
+            "expiration": "2025-03-12T16:59:00",
+            "content": "Metro_1_link_1 experiences increased wait times during weekday mornings",
+            "keywords": [
+                "Metro_1_link_1",
+                "wait time",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623133334252502,
+            "type": "thought",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-16T10:15:24.553005",
+            "content": "Metro_1_link_1 experiences increased wait times during weekday mornings",
+            "keywords": [
+                "Metro_1_link_1",
+                "wait time",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623133335051029,
+            "type": "thought",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-16T10:15:24.553005",
+            "content": "St_1_link_1 has severe congestion in the morning",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 623133336017916,
+            "type": "thought",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-14T19:28:23.106828",
+            "content": "St_1_link_2 moderate congestion patterns",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "moderate"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 623133336903846,
+            "type": "thought",
+            "created": "2025-03-12T17:00:00",
+            "last_accessed": "2025-03-12T17:00:00",
+            "expiration": "2025-03-12T17:29:00",
+            "content": "Gym tends to be congested between 17:00 and 19:00",
+            "keywords": [
+                "Gym",
+                "congestion",
+                "17:00-19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623134415284328,
+            "type": "thought",
+            "created": "2025-03-12T17:30:00",
+            "last_accessed": "2025-03-12T17:30:00",
+            "expiration": "2025-03-15T14:11:50.510024",
+            "content": "Gym tends to be congested between 17:00 and 19:00",
+            "keywords": [
+                "Gym",
+                "congestion",
+                "17:00-19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623141100624716,
+            "type": "thought",
+            "created": "2025-03-12T18:10:00",
+            "last_accessed": "2025-03-12T18:10:00",
+            "expiration": "2025-03-15T14:51:50.510024",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 623142508077601,
+            "type": "event",
+            "created": "2025-03-12T18:28:00",
+            "last_accessed": "2025-03-12T18:28:00",
+            "expiration": "2025-03-12T20:50:27.194665",
+            "content": "George Wright travels from Office to Coffee shop by travel mode transit; start time is Wed 2025-03-12 18:10; trip time is 18 minutes",
+            "keywords": [
+                "Office to Coffee shop",
+                "transit"
+            ],
+            "spatial_scope": "Office, Coffee shop, Ave_3",
+            "time_scope": [
+                "18:10:00",
+                "18:28:00"
+            ],
+            "importance": 0.1,
+            "embedding": null
+        }
+    ]
+}

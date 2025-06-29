@@ -1,0 +1,413 @@
+{
+    "name": "Sarah Chen",
+    "age": 40,
+    "gender": "female",
+    "highest_level_of_education": "Master",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "Hospital",
+    "work_time": "8:00-17:00",
+    "occupation": "pediatrician",
+    "preferences_in_transportation": "reliable transportation essential due to on-call schedule, drives to work",
+    "innate": "compassionate, methodical, resilient, dedicated",
+    "lifestyle": "health-conscious, balances demanding career with family time",
+    "home_facility": "Uptown apartment",
+    "household_size": 3,
+    "other_family_members": {
+        "husband": "Michael Chen",
+        "daughter": "Emily Chen"
+    },
+    "number_of_vehicles_in_family": 2,
+    "household_income": "high",
+    "friends": [
+        "Elizabeth Wilson",
+        "Sandra White"
+    ],
+    "other_description": "Sarah is a respected doctor who volunteers at community health initiatives on weekends. She mentors Sandra White at the hospital and co-organizes health awareness workshops with Elizabeth Wilson.",
+    "curr_time": "2025-03-12 18:49:00",
+    "original_plans": [
+        {
+            "reflection": "This past week has been particularly demanding at the hospital, with several on-call shifts extending late into the evening. I managed to maintain my morning routine and stay healthy by waking up early for light exercise before starting the day. Family time was limited due to busy schedules, but Michael and I coordinated well regarding Emily\u2019s school drop-off and pick-up. Socially, I\u2019ve been keeping up with community health initiatives, though I haven\u2019t had much time for casual meetups with friends. On the travel front, I noticed that Ave_3 tends to get congested during weekday mornings, especially near the School node. I\u2019ve started adjusting my departure times accordingly to avoid delays. Looking ahead, I aim to be more consistent with post-work activities, possibly visiting the Gym after work when time allows, and coordinating with Elizabeth or Sandra for weekend volunteering.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:15",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines including a short yoga session."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive to Hospital for scheduled shift from 8:00-17:00."
+                ],
+                [
+                    "Coffee shop",
+                    "none",
+                    "none",
+                    "drive",
+                    "Ave_3_link_2, St_4_link_1",
+                    "Stop by Coffee shop after arriving at work for a quick coffee with colleagues."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Gym for a workout session after work."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment for dinner and rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute on Ave_3 experiences congestion near School node",
+                    "Ave_3, congestion, School",
+                    "Ave_3, School",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym is less crowded before 19:00",
+                    "Gym, crowd, timing",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coffee shop serves as a common meeting point in the morning",
+                    "Coffee shop, social, morning",
+                    "Coffee shop",
+                    "07:30-09:00"
+                ],
+                [
+                    "Shortest path between Hospital and Gym varies based on traffic conditions",
+                    "route planning, traffic sensitivity",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This past week has been demanding at the hospital, particularly with on-call shifts extending into the evenings. Despite this, I've managed to maintain a consistent morning routine and remain committed to staying healthy through light exercise before work. Coordination with Michael for Emily's school drop-off and pick-up has gone smoothly, allowing me flexibility in my schedule. Socially, I\u2019ve stayed engaged with community health initiatives, especially with Elizabeth and Sandra, but casual meetups with friends have taken a backseat due to time constraints. On the travel front, I\u2019ve observed recurring congestion patterns on St_1_link_2 during weekday mornings and evenings, which has prompted me to adjust my routes accordingly. Looking ahead, I plan to continue prioritizing reliable transportation options, explore opportunities for post-work activities like visiting the Gym, and coordinate with colleagues for weekend volunteering events.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:15",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines including a short yoga session."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    120,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "Drive to Hospital for scheduled shift from 8:00-17:00."
+                ],
+                [
+                    "School",
+                    "15:15",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_1",
+                    "Pick up Emily from School after her classes end."
+                ],
+                [
+                    "Gym",
+                    "none",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Gym for a workout session after work."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment for dinner and rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_2 experiences moderate congestion during weekday mornings and evenings",
+                    "St_1_link_2, congestion, weekday",
+                    "St_1_link_2",
+                    "07:00-08:30,17:00-18:30"
+                ],
+                [
+                    "Ave_3_link_1 and Ave_3_link_2 provide viable alternatives during St_1 congestion",
+                    "Ave_3_link_1, Ave_3_link_2, route alternative, congestion",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "all-day"
+                ],
+                [
+                    "Consistent route planning decisions improve travel reliability",
+                    "route planning, reliability",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Gym visits after work are more efficient when avoiding St_1_link_2",
+                    "Gym, St_1_link_2, efficiency",
+                    "Gym, St_1_link_2",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past week has been intense at the hospital, with on-call responsibilities extending into evenings. Despite this, I\u2019ve managed to maintain a consistent morning routine and have started incorporating evening workouts at the Gym, which have also become unexpected social opportunities with colleagues like Sandra and Kevin. Yesterday\u2019s delay due to St_1_link_2 congestion reminded me of the importance of flexible route planning, especially when coordinating with Michael for dinner. I also realized that the Gym has become a regular post-work hub, both for exercise and informal coordination with family and friends. Looking ahead, I\u2019ll continue prioritizing reliable travel options, explore off-peak routes during evening commutes, and aim to balance my demanding work schedule with structured family time.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:15",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines including a short yoga session."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    120,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "Drive to Hospital for scheduled shift from 8:00-17:00."
+                ],
+                [
+                    "School",
+                    "15:15",
+                    20,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_1",
+                    "Pick up Emily from School after her classes end."
+                ],
+                [
+                    "Gym",
+                    "none",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Gym for a workout session after work."
+                ],
+                [
+                    "Food court",
+                    "18:10",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Food court for dinner with Michael if Gym activity finishes by 19:30."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment for rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_2 experiences recurring congestion during weekday evening commute",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "17:00-18:30"
+                ],
+                [
+                    "Gym becomes social coordination point in evenings",
+                    "Gym, social, coordination",
+                    "Gym",
+                    "18:00-20:00"
+                ],
+                [
+                    "Route alternatives via St_2_link_2 and Ave_2 effective during St_1 congestion",
+                    "route alternative, St_2_link_2, Ave_2",
+                    "St_2_link_2, Ave_2",
+                    "all-day"
+                ],
+                [
+                    "Evening yoga sessions improve emotional resilience after hospital shifts",
+                    "yoga, emotional resilience, evening",
+                    "Gym",
+                    "18:30-19:30"
+                ],
+                [
+                    "Coordination with spouse at Gym simplifies post-work activity synchronization",
+                    "spouse, coordination, Gym",
+                    "Gym",
+                    "18:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I am currently traveling from the Gym to the Food court, but there is moderate congestion on Ave_4_link_1, which adds 8 minutes of wait time. This will delay my arrival at the Food court and may affect coordination with Michael, who is heading to the Supermarket for joint grocery shopping with Isabella Rodriguez. Since Michael and I had coordinated earlier that I would proceed to the Food court while he shops, this traffic condition presents an opportunity to adjust plans. Arriving later than expected at the Food court could disrupt any potential timing overlap with Michael\u2019s schedule or inconvenience other diners. Given this situation and real-time awareness of his current location, it makes sense to consider a revised plan.",
+            "plan": [
+                [
+                    "Supermarket",
+                    "18:30",
+                    "60",
+                    "drive",
+                    "St_4_link_2, St_4_link_1",
+                    "Head to Supermarket instead of Food court to meet Michael and assist with grocery shopping before dinner preparation."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment after completing evening activities."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_4_link_1 frequently experiences moderate congestion during early evening commute",
+                    "Ave_4_link_1, congestion, 18:00-19:00",
+                    "Ave_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "Supermarket becomes a common meeting point for family coordination in evenings",
+                    "Supermarket, meeting point, family coordination",
+                    "Supermarket",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 18:20:00"
+        },
+        {
+            "reflection": "I am currently en route from the Gym to the Food court, but there is moderate congestion on Ave_4_link_1, which adds 8 minutes of wait time. This delay will likely affect my coordination with Michael, who is heading to the Supermarket for joint grocery shopping with Isabella Rodriguez. Given that I have already coordinated with Michael via chat and adjusted plans to meet at the Supermarket instead of the Food court, it makes sense to formally update my activity plan accordingly. The current traffic condition reinforces the importance of flexibility in evening coordination and highlights the Supermarket as a strategic meeting point.",
+            "plan": [
+                [
+                    "Supermarket",
+                    "18:30",
+                    "60",
+                    "drive",
+                    "St_4_link_2, St_4_link_1",
+                    "Head to Supermarket instead of Food court to meet Michael and assist with grocery shopping before dinner preparation."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment after completing evening activities."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_4_link_1 frequently experiences moderate congestion during early evening commute",
+                    "Ave_4_link_1, congestion, evening",
+                    "Ave_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "Supermarket becomes a common meeting point for family coordination in evenings",
+                    "Supermarket, coordination, family",
+                    "Supermarket",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 18:29:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today's schedule proceeded mostly as planned, with some notable adjustments due to traffic congestion. Morning commute to the Hospital was rerouted due to severe delays on St_1_link_1 and St_1_link_2, but I arrived on time by using Ave_3_link_1 and Ave_3_link_2. The Coffee shop stop went smoothly despite moderate congestion in parts of Ave_2. Work at the Hospital from 8:00\u201317:00 was uninterrupted. Post-work plans to visit the Gym were executed with a revised route that avoided known congested segments, particularly on St_1_link_2, which showed moderate delays throughout the evening. Multiple revisions were made to my return trip home, all aimed at avoiding St_1_link_2 based on historical patterns, even though real-time data later indicated no congestion. Coordination with Michael regarding Emily\u2019s school pickup was seamless, allowing me flexibility in post-work activities. Overall, the day highlighted the importance of adaptive routing, especially for reliable commutes during peak hours.",
+            "concepts": [
+                [
+                    "St_1_link_2 experiences moderate congestion during weekday mornings and evenings",
+                    "St_1_link_2, congestion, morning/evening commute",
+                    "St_1_link_2",
+                    "07:00-09:00, 17:00-19:00"
+                ],
+                [
+                    "Ave_3_link_1 and Ave_3_link_2 provide viable alternatives during St_1 congestion",
+                    "route alternative, reliability",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "all-day"
+                ],
+                [
+                    "Gym visits after work are more efficient when avoiding St_1_link_2",
+                    "Gym, travel efficiency, congestion avoidance",
+                    "Gym, St_1_link_2",
+                    "17:00-20:00"
+                ],
+                [
+                    "Consistent route planning decisions improve travel reliability",
+                    "route consistency, decision-making",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required significant adjustments, particularly around my extended stay at the Gym. Originally planned to leave work at 17:00, head directly to the Gym for a short session, and return home by 19:30, I ended up staying much longer due to spontaneous coordination with Sandra White and Kevin White for an evening yoga session. Picking up Emily from School went smoothly and on time. The unplanned social interaction at the Gym was energizing and helped offset the day\u2019s stress, aligning well with my health-conscious lifestyle. However, my return trip home faced unexpected congestion on St_1_link_2, which forced a route change using St_2_link_2 and Ave_2 links. This delay may affect dinner coordination with Michael, who was also at the Gym. Overall, today highlighted the importance of flexibility in balancing professional demands, personal wellness, and family commitments. Travel time estimates were inaccurate due to unforeseen congestion, indicating the need for better real-time traffic awareness before departure.",
+            "concepts": [
+                [
+                    "Gym becomes social hub in the evenings with colleagues",
+                    "Gym, social, evening",
+                    "Gym",
+                    "18:00-20:00"
+                ],
+                [
+                    "St_1_link_2 experiences unexpected congestion during evening commute",
+                    "St_1_link_2, congestion, unreliable",
+                    "St_1_link_2",
+                    "19:00-20:00"
+                ],
+                [
+                    "Evening yoga sessions improve emotional resilience after hospital shifts",
+                    "yoga, wellness, emotional balance",
+                    "Gym",
+                    "18:30-19:30"
+                ],
+                [
+                    "Route alternatives via St_2_link_2 and Ave_2 effective during St_1 congestion",
+                    "route planning, alternative routes, driving",
+                    "St_2_link_2, Ave_2",
+                    "all-day"
+                ],
+                [
+                    "Coordination with spouse at Gym simplifies post-work activity synchronization",
+                    "family coordination, Gym, synchronization",
+                    "Gym",
+                    "19:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:18\nReflections: \nI encountered significant congestion on St_2_link_1 during my morning commute, adding 8 minutes of wait time. Given this delay and the real-time traffic state showing severe congestion on St_1_link_1 and moderate congestion on Ave_1_link_1, I need to adjust my route to Hospital for a more reliable arrival time. My current trajectory confirms that I\u2019m navigating via St_2_link_1 toward Node_5, but I must optimize further to ensure punctuality by 8:00. Additionally, Elizabeth is heading to Gym via a path that appears inefficient, reinforcing the importance of optimizing travel routes during peak hours.\nPlan revisions: Sarah Chen update current path to ['Ave_2_link_1', 'Ave_2_link_2', 'St_2_link_2'] \n\nTime: 16:26\nReflections: \nI am currently at the Gym, where I arrived at 15:26 after picking up Emily from School. Sandra White and Grace have just arrived here, which presents a good opportunity to catch up briefly while completing my workout. There is no current congestion in the transportation network, so travel conditions are optimal. My original plan was to go to the Food court for dinner with Michael at 19:45 if the Gym activity finishes by 19:30. Since there\u2019s no traffic concern, I can stick to this plan. However, given that Sandra and Grace are also here, I may extend my time at the Gym slightly to socialize before heading out.\nPlan revisions: Sarah Chen update the departure time of next activity at Food court to 18:10 \n\nTime: 18:20\nReflections: \nI am currently traveling from the Gym to the Food court, but there is moderate congestion on Ave_4_link_1, which adds 8 minutes of wait time. This will delay my arrival at the Food court and may affect coordination with Michael, who is heading to the Supermarket for joint grocery shopping with Isabella Rodriguez. Since Michael and I had coordinated earlier that I would proceed to the Food court while he shops, this traffic condition presents an opportunity to adjust plans. Arriving later than expected at the Food court could disrupt any potential timing overlap with Michael\u2019s schedule or inconvenience other diners. Given this situation and real-time awareness of his current location, it makes sense to consider a revised plan.\nPlan revisions: Sarah Chen update future activity plan:\n[['Supermarket', '18:30', '60', 'drive', 'St_4_link_2, St_4_link_1', 'Head to Supermarket instead of Food court to meet Michael and assist with grocery shopping before dinner preparation.'], ['Uptown apartment', '19:30', 'none', 'drive', 'shortest', 'Return home to Uptown apartment after completing evening activities.']] \n\nTime: 18:29\nReflections: \nI am currently en route from the Gym to the Food court, but there is moderate congestion on Ave_4_link_1, which adds 8 minutes of wait time. This delay will likely affect my coordination with Michael, who is heading to the Supermarket for joint grocery shopping with Isabella Rodriguez. Given that I have already coordinated with Michael via chat and adjusted plans to meet at the Supermarket instead of the Food court, it makes sense to formally update my activity plan accordingly. The current traffic condition reinforces the importance of flexibility in evening coordination and highlights the Supermarket as a strategic meeting point.\nPlan revisions: Sarah Chen update future activity plan:\n[['Supermarket', '18:30', '60', 'drive', 'St_4_link_2, St_4_link_1', 'Head to Supermarket instead of Food court to meet Michael and assist with grocery shopping before dinner preparation.'], ['Uptown apartment', '19:30', 'none', 'drive', 'shortest', 'Return home to Uptown apartment after completing evening activities.']] ",
+    "activity_index": 0,
+    "activity_facility": "Supermarket",
+    "activity_departure_time": "2025-03-12 18:30:00",
+    "activity_duration": 60,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Head to Supermarket instead of Food court to meet Michael and assist with grocery shopping before dinner preparation.",
+    "planned_path": [],
+    "curr_place": "Supermarket",
+    "curr_status": "Just finished the trip from None to Supermarket; waiting at Supermarket now"
+}

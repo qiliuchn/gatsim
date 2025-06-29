@@ -1,0 +1,444 @@
+{
+    "name": "Fatima Hassan",
+    "age": 42,
+    "gender": "female",
+    "highest_level_of_education": "Master",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "Factory",
+    "work_time": "8:00-17:00",
+    "occupation": "Factory manager secretary",
+    "preferences_in_transportation": "walks to work when weather permits, drives otherwise",
+    "innate": "entrepreneurial, warm, culturally aware, community-minded",
+    "lifestyle": "enjoys cooking traditional dishes, supports local arts, hosts cultural events",
+    "home_facility": "Uptown apartment",
+    "household_size": 3,
+    "other_family_members": {
+        "husband": "Ahmed Hassan",
+        "daughter": "Zara Hassan"
+    },
+    "number_of_vehicles_in_family": 2,
+    "household_income": "high",
+    "friends": [
+        "Isabella Rodriguez",
+        "Gloria Campbell"
+    ],
+    "other_description": "Fatima owns a specialty coffee shop known for its warm atmosphere and cultural events. She collaborates with Isabella Rodriguez on coffee sourcing and works with Gloria Campbell to promote local artists through coffee shop exhibitions.",
+    "curr_time": "2025-03-12 18:49:00",
+    "original_plans": [
+        {
+            "reflection": "This past weekend was filled with family time and community activities, including a cultural event at my coffee shop where local artists showcased their work. I coordinated with Gloria Campbell to set up the exhibition space, and it was a great success. Ahmed and I also spent time with Zara, helping her prepare for the upcoming school science fair. On Saturday, we visited the Amusement Park in the afternoon, but found heavy congestion around 18:00 on Ave_3, which delayed our return home. I need to be more mindful of peak travel times this week. Today is Monday, so I have to ensure I drop Zara off at School before heading to Factory for my 8:00 shift. I also plan to stop by my coffee shop briefly in the evening after work if time permits. This week, I aim to balance my managerial responsibilities at the Factory with supporting my daughter\u2019s school events and continuing to host small cultural gatherings at the coffee shop.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "School",
+                    "07:20",
+                    20,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive from Uptown apartment to School to drop off Zara."
+                ],
+                [
+                    "Factory",
+                    "none",
+                    120,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_3",
+                    "Head to Factory for 8:00-17:00 work shift as Factory manager secretary."
+                ],
+                [
+                    "Supermarket",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Visit Supermarket to do some quick grocery shopping after work."
+                ],
+                [
+                    "Coffee shop",
+                    "18:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Stop by my Coffee shop to meet with Isabella Rodriguez about new coffee sourcing and check on evening operations."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment before 22:00."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute on Ave_3 experiences increased wait times between 07:00-08:30 due to school drop-offs",
+                    "Ave_3, traffic, morning commute",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Supermarket and Food court zone sees high foot and vehicle traffic between 17:00-19:00",
+                    "Supermarket, Food court, crowded",
+                    "Supermarket, Food court",
+                    "17:00-19:00"
+                ],
+                [
+                    "School pickup area becomes congested after 17:30",
+                    "School, congestion, afternoon",
+                    "School",
+                    "17:30-18:30"
+                ],
+                [
+                    "Factory workers tend to leave earlier than 17:00, creating lighter outbound traffic from Southeast area starting at 16:45",
+                    "Factory, traffic, departure",
+                    "the town",
+                    "16:45-17:15"
+                ],
+                [
+                    "Coffee shop sees highest customer flow between 18:00-19:00 on weekdays",
+                    "Coffee shop, busy, customer flow",
+                    "Coffee shop",
+                    "18:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a blend of work, family responsibilities, and community engagement. I successfully supported Zara with her school science fair preparations over the weekend and hosted a cultural event at my coffee shop that brought together local artists. The event was a highlight of the week, aligning with my passion for promoting cultural awareness and community bonding. On Monday, Ahmed and I coordinated drop-off and pickup times for Zara to avoid morning congestion near the Hospital, which worked well. However, I noticed delays on Ave_3_link_1 and St_2_link_1 during the morning commute, which slightly disrupted my schedule. I adjusted by revising my route early, ensuring minimal impact on my work start time. Evening errands were smooth, though returning home experienced light congestion on Ave_2_link_2. This week, I aim to maintain this proactive approach to traffic adjustments while balancing my roles at work, home, and in the community. I also plan to continue supporting Isabella with sourcing strategies and collaborate with Gloria Campbell on upcoming exhibitions.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:45",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive from Uptown apartment to Factory via St_2_link_1 and Ave_3_link_1 to begin 8:00-17:00 work shift as Factory manager secretary."
+                ],
+                [
+                    "Supermarket",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Visit Supermarket after work for household essentials before heading back home."
+                ],
+                [
+                    "Uptown apartment",
+                    "18:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment before 22:00 to spend evening with family."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences heavy congestion during school drop-off times",
+                    "Ave_3, congestion, school drop-off",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "St_2_link_1 prone to morning delays near Hospital",
+                    "St_2_link_1, delays, Hospital",
+                    "St_2_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Supermarket is quiet in the early evening",
+                    "Supermarket, quiet, evening",
+                    "Supermarket",
+                    "17:30-18:30"
+                ],
+                [
+                    "Evening travel via Ave_2 occasionally delayed",
+                    "Ave_2, delays, evening",
+                    "Ave_2",
+                    "18:30-19:30"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past week has been rich with professional responsibilities, family coordination, and meaningful cultural engagements. Yesterday was particularly satisfying as I adapted well to morning traffic patterns by rerouting via Ave_2 and St_4, which helped me arrive at work on time despite light congestion on Ave_1_link_1 and Ave_2_link_3. The spontaneous meeting with Gloria Campbell at the Museum in the evening turned into a highlight of my day, offering both relaxation and inspiration for our upcoming coffee shop exhibition. I also appreciated being able to complete grocery shopping without delays after 18:30. This week, I aim to continue optimizing my travel routes based on real-time conditions, support Zara\u2019s school commitments, and maintain my collaborative efforts with both Gloria and Isabella. I also plan to explore opportunities for early morning walks when weather permits, especially since it aligns with my preference for active commuting.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:45",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive from Uptown apartment to Factory via St_2_link_1 and Ave_3_link_1 to begin 8:00-17:00 work shift as Factory manager secretary."
+                ],
+                [
+                    "Museum",
+                    "17:15",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Leave Factory around 17:15 to meet Gloria Campbell at the Museum by 17:40 for a quiet visit before evening crowds."
+                ],
+                [
+                    "Supermarket",
+                    "18:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "After Museum visit, stop at Supermarket for household essentials while traffic remains light."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment by 19:00 to join Ahmed and Zara for dinner and quality family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute improved via Ave_2 and St_4 route adjustments",
+                    "commute, route adjustment, Ave_2, St_4",
+                    "Ave_2, St_4",
+                    "07:00-08:00"
+                ],
+                [
+                    "Museum is best visited between 17:40-18:40 for quieter access",
+                    "Museum, quiet, visit timing",
+                    "Museum",
+                    "17:40-18:40"
+                ],
+                [
+                    "Supermarket accessible without congestion after 18:30",
+                    "Supermarket, congestion, shopping",
+                    "Supermarket",
+                    "18:30-19:00"
+                ],
+                [
+                    "Gloria Campbell coordination enables flexible cultural opportunities",
+                    "Museum, collaboration, cultural event",
+                    "Museum",
+                    "after work"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I am currently en route to the Museum to meet Gloria Campbell, but there is light congestion on Ave_3_link_3 and St_4_link_2, which has slightly delayed my arrival. However, I have already coordinated with Gloria to adjust our meeting time to 18:00, giving me sufficient buffer to arrive by then without rushing. Since this is a minor delay and we've adjusted accordingly, there\u2019s no need for drastic changes to the plan. After the visit to the Museum, I will proceed to the Supermarket before returning home.",
+            "plan": [
+                [
+                    "Museum",
+                    "17:15",
+                    60,
+                    "drive",
+                    "Ave_3_link_3, St_2_link_2",
+                    "Leave Factory around 17:15 and drive via Ave_3_link_3 and St_2_link_2 to reach Museum by 18:00 to meet Gloria Campbell."
+                ],
+                [
+                    "Supermarket",
+                    "18:15",
+                    60,
+                    "drive",
+                    "shortest",
+                    "After Museum visit, head to Supermarket by 18:30 to buy household essentials while traffic remains light."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment by 19:30 for dinner and quality family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3_link_3 experiences light congestion during evening commute",
+                    "Ave_3_link_3, congestion, evening",
+                    "Ave_3_link_3",
+                    "17:00-18:00"
+                ],
+                [
+                    "St_4_link_2 sees moderate delays in late afternoon",
+                    "St_4_link_2, delays, afternoon",
+                    "St_4_link_2",
+                    "16:30-18:00"
+                ]
+            ],
+            "datetime": "2025-03-12 17:33:00"
+        },
+        {
+            "reflection": "I am currently en route from the Factory to the Museum to meet Gloria Campbell, but I have encountered light congestion on Ave_3_link_3 and St_4_link_2. However, due to prior coordination, our meeting time has been adjusted to 18:00, providing a sufficient buffer for me to arrive without rushing. The current traffic state indicates no severe congestion, so my revised path remains viable. Additionally, I perceive that Ahmed is already at the Gym, and both Isabella and Gloria are at their respective destinations, which supports maintaining my current plan.",
+            "plan": [
+                [
+                    "Museum",
+                    "17:15",
+                    60,
+                    "drive",
+                    "Ave_3_link_3, St_2_link_2",
+                    "Leave Factory around 17:15 and drive via Ave_3_link_3 and St_2_link_2 to reach Museum by 18:00 to meet Gloria Campbell."
+                ],
+                [
+                    "Supermarket",
+                    "18:15",
+                    60,
+                    "drive",
+                    "shortest",
+                    "After Museum visit, head to Supermarket by 18:30 to buy household essentials while traffic remains light."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment by 19:30 for dinner and quality family time."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-12 17:42:00"
+        },
+        {
+            "reflection": "I am currently at the Museum and have successfully met with Gloria Campbell around 18:00 as coordinated. Ahmed and Isabella are both at the Gym, which aligns with our household coordination for evening activities. The moderate congestion on Ave_4_link_1 is not affecting my current travel since I'm already at the Museum. My revised plan accounts for a slightly extended visit here and ensures timely arrival at the Supermarket before heading home for dinner.",
+            "plan": [
+                [
+                    "Supermarket",
+                    "18:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Supermarket by 18:30 to buy household essentials while traffic remains light."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment by 19:30 for dinner and quality family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Museum visits after 18:00 less crowded",
+                    "Museum, crowd, 6PM",
+                    "Museum",
+                    "17:45-19:00"
+                ],
+                [
+                    "Gym attendance peaks around 18:00",
+                    "Gym, peak, 6PM",
+                    "Gym",
+                    "17:30-18:30"
+                ]
+            ],
+            "datetime": "2025-03-12 18:15:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "My morning commute required adjustments due to unexpected congestion on key routes near the School and Hospital. By revising my route early, I managed to drop Zara off at School on time before heading to Factory. However, delays on Ave_3_link_1 and St_2_link_1 impacted meeting plans with Isabella Rodriguez, pushing our discussion to 9:10 AM instead of 9:00. Work proceeded smoothly at Factory, and I stayed slightly beyond 17:00 to complete tasks. Evening errands went well\u2014Supermarket was quiet, and travel to Coffee shop was smooth despite a minor delay on Ave_3_link_2. I arrived at the Coffee shop by 18:30 for a productive meeting with Isabella about new sourcing strategies. Returning home took longer than expected due to light congestion on Ave_2_link_2. Overall, the day reinforced the importance of monitoring traffic in real-time and adjusting plans proactively, especially during morning peak hours.",
+            "concepts": [
+                [
+                    "Ave_3 experiences heavy congestion during school drop-off times",
+                    "Ave_3, congestion, school drop-off",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "St_2_link_1 prone to morning delays near Hospital",
+                    "St_2_link_1, delays, morning commute",
+                    "St_2_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Isabella\u2019s arrival affected by Ave_1 congestion",
+                    "Ave_1, Isabella, coffee shop",
+                    "Ave_1_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Evening travel via Ave_3_link_2 occasionally delayed",
+                    "Ave_3_link_2, evening commute, traffic",
+                    "Ave_3_link_2",
+                    "17:30-18:30"
+                ],
+                [
+                    "Morning coordination with spouse improves scheduling accuracy",
+                    "family, coordination, planning",
+                    "The town",
+                    "06:30-07:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "My day started with proactive adjustments to avoid anticipated congestion on St_2_link_2, which helped me avoid major delays despite encountering light congestion on Ave_1_link_1 and Ave_2_link_3. I successfully adapted my route twice during the morning commute, demonstrating flexibility and situational awareness. In the evening, a spontaneous but meaningful change to meet Gloria Campbell at the Museum enriched my cultural engagement and aligned well with personal values. The rescheduled meeting did not disrupt my plans thanks to clear traffic conditions. Grocery shopping after the visit went smoothly, and I\u2019m now back home ahead of schedule, allowing quality family time. Overall, today was a balanced blend of work, personal interests, and family life. I learned the importance of real-time route monitoring and the value of opportunistic social and cultural engagements that enhance community connections.",
+            "concepts": [
+                [
+                    "Morning route adjustments via Ave_2 and St_4 improve reliability",
+                    "route adaptation, Ave_2, St_4",
+                    "Ave_2_link_3, St_4_link_1, St_4_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Museum visits best scheduled between 17:40-18:40 for quiet access",
+                    "Museum, visit timing, cultural activity",
+                    "Museum",
+                    "17:40-18:40"
+                ],
+                [
+                    "Supermarket accessible without congestion after 18:30",
+                    "Supermarket, shopping, post-work",
+                    "Supermarket",
+                    "18:00-19:00"
+                ],
+                [
+                    "Coordination with Gloria enables flexible cultural opportunities",
+                    "Gloria Campbell, scheduling, cultural events",
+                    "Factory, Museum",
+                    "16:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 17:33\nReflections: \nI am currently en route to the Museum to meet Gloria Campbell, but there is light congestion on Ave_3_link_3 and St_4_link_2, which has slightly delayed my arrival. However, I have already coordinated with Gloria to adjust our meeting time to 18:00, giving me sufficient buffer to arrive by then without rushing. Since this is a minor delay and we've adjusted accordingly, there\u2019s no need for drastic changes to the plan. After the visit to the Museum, I will proceed to the Supermarket before returning home.\nPlan revisions: Fatima Hassan update future activity plan:\n[['Museum', '17:15', 60, 'drive', 'Ave_3_link_3, St_2_link_2', 'Leave Factory around 17:15 and drive via Ave_3_link_3 and St_2_link_2 to reach Museum by 18:00 to meet Gloria Campbell.'], ['Supermarket', '18:15', 60, 'drive', 'shortest', 'After Museum visit, head to Supermarket by 18:30 to buy household essentials while traffic remains light.'], ['Uptown apartment', '19:00', 'none', 'drive', 'shortest', 'Return home to Uptown apartment by 19:30 for dinner and quality family time.']] \n\nTime: 17:42\nReflections: \nI am currently en route from the Factory to the Museum to meet Gloria Campbell, but I have encountered light congestion on Ave_3_link_3 and St_4_link_2. However, due to prior coordination, our meeting time has been adjusted to 18:00, providing a sufficient buffer for me to arrive without rushing. The current traffic state indicates no severe congestion, so my revised path remains viable. Additionally, I perceive that Ahmed is already at the Gym, and both Isabella and Gloria are at their respective destinations, which supports maintaining my current plan.\nPlan revisions: Fatima Hassan update future activity plan:\n[['Museum', '17:15', 60, 'drive', 'Ave_3_link_3, St_2_link_2', 'Leave Factory around 17:15 and drive via Ave_3_link_3 and St_2_link_2 to reach Museum by 18:00 to meet Gloria Campbell.'], ['Supermarket', '18:15', 60, 'drive', 'shortest', 'After Museum visit, head to Supermarket by 18:30 to buy household essentials while traffic remains light.'], ['Uptown apartment', '19:00', 'none', 'drive', 'shortest', 'Return home to Uptown apartment by 19:30 for dinner and quality family time.']] \n\nTime: 18:15\nReflections: \nI am currently at the Museum and have successfully met with Gloria Campbell around 18:00 as coordinated. Ahmed and Isabella are both at the Gym, which aligns with our household coordination for evening activities. The moderate congestion on Ave_4_link_1 is not affecting my current travel since I'm already at the Museum. My revised plan accounts for a slightly extended visit here and ensures timely arrival at the Supermarket before heading home for dinner.\nPlan revisions: Fatima Hassan update future activity plan:\n[['Supermarket', '18:30', 60, 'drive', 'shortest', 'Head to Supermarket by 18:30 to buy household essentials while traffic remains light.'], ['Uptown apartment', '19:00', 'none', 'drive', 'shortest', 'Return home to Uptown apartment by 19:30 for dinner and quality family time.']] ",
+    "activity_index": 0,
+    "activity_facility": "Supermarket",
+    "activity_departure_time": "2025-03-12 18:30:00",
+    "activity_duration": 30,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Head to Supermarket by 18:30 to buy household essentials while traffic remains light.",
+    "planned_path": [],
+    "curr_place": "Supermarket",
+    "curr_status": "Staying at facility Supermarket"
+}

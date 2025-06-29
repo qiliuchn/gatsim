@@ -1,0 +1,384 @@
+{
+    "name": "Stephanie Lewis",
+    "age": 25,
+    "gender": "female",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "single",
+    "licensed_driver": false,
+    "work_facility": "Factory",
+    "work_time": "8:00-17:00",
+    "occupation": "Factory clerk",
+    "preferences_in_transportation": "enjoy geen ways to travel; walks for exercise",
+    "innate": "precise, reliable, detail-oriented, caring",
+    "lifestyle": "evening shift worker, enjoys nature walks, studies healthcare management, volunteers at community health fairs",
+    "home_facility": "Midtown apartment",
+    "household_size": 1,
+    "other_family_members": {},
+    "number_of_vehicles_in_family": 0,
+    "household_income": "middle",
+    "friends": [
+        "Maria Lopez",
+        "Rebecca Lee"
+    ],
+    "other_description": "Stephanie manages pharmacy operations and is pursuing her doctorate in pharmacy. She studies with Maria Lopez who shares her healthcare interests and learns rehabilitation techniques from Rebecca Lee.",
+    "curr_time": "2025-03-12 18:49:00",
+    "original_plans": [
+        {
+            "reflection": "This is the start of a new week, and I\u2019m focused on maintaining consistency in my routine while progressing toward personal and professional goals. Last week, I dedicated time to managing pharmacy operations at the Factory and resumed my studies in healthcare management with Maria Lopez. I also practiced rehabilitation techniques with Rebecca Lee, which has been rewarding. I\u2019ve noticed that morning commutes can be smoother if I leave just before 7:30 AM, avoiding any potential congestion on Ave_2. Since I don\u2019t drive, I rely on walking and the metro system, and I\u2019ve found Metro_1 to be reliable for reaching the central commercial area. I plan to continue incorporating walks into my daily schedule, especially after work, to stay healthy and enjoy nature. This week, I aim to balance work, study sessions with friends, and some recreational activities like visiting the museum or gym in the evenings.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, complete morning routines including a short walk around the neighborhood."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_1_link_1, Metro_1_link_2, Metro_1_link_3, Metro_1_link_4, Metro_1_link_5",
+                    "Take Metro_1 from Midtown apartment to Factory, arriving by 8:00 AM to begin work as a Factory clerk."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    20,
+                    "transit",
+                    "St_3_link_1, St_3_link_2",
+                    "Head to Supermarket during lunch break to pick up groceries for the week. Walk from Factory to Node_6 via St_3_link_2, then transfer to St_3_link_1 to reach Node_6."
+                ],
+                [
+                    "Museum",
+                    "17:45",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_2, Metro_2_link_1",
+                    "After work, travel to Museum for a relaxing evening. Take Metro_2 from Node_3 (Factory) to Node_11, then to Node_6, and finally to Node_12 where the Museum is located."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:15",
+                    "none",
+                    "transit",
+                    "shortest",
+                    "Return home using the shortest available transit path."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_1 is reliable during morning commute hours",
+                    "Metro_1, reliable, morning",
+                    "Metro_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Ave_2 experiences light pedestrian traffic during early mornings",
+                    "Ave_2, pedestrian, light traffic",
+                    "Ave_2",
+                    "06:30-07:30"
+                ],
+                [
+                    "Supermarket is less crowded around midday",
+                    "Supermarket, less crowded",
+                    "Supermarket",
+                    "12:00-13:00"
+                ],
+                [
+                    "Museum offers quiet evenings with minimal visitors after 17:00",
+                    "Museum, quiet, evening",
+                    "Museum",
+                    "17:30-19:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This week has been a mix of adapting to shifting schedules and maintaining consistency in my routine. Yesterday, I successfully adjusted my plan when my lunch break was delayed, prioritizing the confirmed study session with Maria Lopez at Coffee shop over visiting the Museum. The transit system remains reliable, particularly Metro_1 and Metro_2, which helped me move efficiently between Factory, Supermarket, and Coffee shop. Evening meetings require punctuality to coordinate with Maria, so timing is crucial. While I missed out on visiting the Museum, flexibility in planning allowed me to maintain productivity and balance. Looking ahead, I aim to be more proactive about confirming evening plans earlier in the day to allow for better scheduling. I also want to incorporate more post-work walks to stay active and enjoy nature, especially if the weather permits.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, complete morning routines including a short walk around the neighborhood."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_1_link_1, Metro_1_link_2, Metro_1_link_3, Metro_1_link_4, Metro_1_link_5",
+                    "Take Metro_1 from Midtown apartment to Factory, arriving by 8:00 AM to begin work as a Factory clerk."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    20,
+                    "transit",
+                    "St_3_link_2, St_3_link_1",
+                    "Head to Supermarket during lunch break to pick up groceries for the week. Walk from Factory to Node_3, then take St_3_link_2 to Node_11 and transfer via St_3_link_1 to reach Node_6."
+                ],
+                [
+                    "Coffee shop",
+                    "17:45",
+                    60,
+                    "transit",
+                    "Metro_2_link_5, Metro_2_link_4, Metro_2_link_3",
+                    "After work, travel to Coffee shop for a study session with Maria Lopez. Take Metro_2 from Node_3 (Factory) to Node_11, then to Node_10, and finally to Node_6 to reach the Coffee shop."
+                ],
+                [
+                    "Gym",
+                    "19:30",
+                    60,
+                    "transit",
+                    "St_3_link_1, St_1_link_2",
+                    "Head to Gym after meeting with Maria for some exercise before heading home."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "transit",
+                    "shortest",
+                    "Return home using the shortest available transit path."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Evening meetings at Coffee shop require punctuality to coordinate with Maria Lopez",
+                    "Meeting, Maria Lopez, Punctuality",
+                    "Coffee shop",
+                    "19:30-20:00"
+                ],
+                [
+                    "Metro_1 reliable for evening commutes",
+                    "Metro_1, Evening Commute",
+                    "Metro_1",
+                    "17:00-20:00"
+                ],
+                [
+                    "Factory commute timing affects downstream activities",
+                    "Factory, Commute Timing",
+                    "Factory, Node_3",
+                    "Morning, Afternoon"
+                ],
+                [
+                    "Supermarket accessible during midday with minimal delays",
+                    "Supermarket, Midday",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Shortened activity windows require flexible plans",
+                    "Flexible Planning",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "This week has been about balancing my work at the Factory with personal goals like studying healthcare management and staying active. Yesterday\u2019s unexpected delay at the Supermarket taught me to allocate more buffer time for shopping trips, especially during midday when queues are long. Fortunately, the metro system remained reliable, allowing me to adjust my schedule without missing key commitments like the study session with Maria Lopez. I also managed to fit in a post-work workout at the Gym, which helped me stay on track with my fitness goals. Looking ahead, I want to be more intentional about confirming plans earlier in the day and planning activities that align with my evening energy levels. I also aim to explore more green spaces or walking routes after work if the weather permits.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, complete morning routines including a short walk around the neighborhood."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_1_link_1, Metro_1_link_2, Metro_1_link_3, Metro_1_link_4, Metro_1_link_5",
+                    "Take Metro_1 from Midtown apartment to Factory, arriving by 8:00 AM to begin work as a Factory clerk."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    20,
+                    "transit",
+                    "St_3_link_2, St_3_link_1",
+                    "Head to Supermarket during lunch break to pick up groceries for the week. Walk from Factory to Node_3, then take St_3_link_2 to Node_11 and transfer via St_3_link_1 to reach Node_6. Will plan for extra time due to potential queuing."
+                ],
+                [
+                    "Coffee shop",
+                    "16:00",
+                    60,
+                    "transit",
+                    "Metro_2_link_5, Metro_2_link_4, Metro_2_link_3",
+                    "After work, travel to Coffee shop for a study session with Maria Lopez. Take Metro_2 from Node_3 (Factory) to Node_11, then to Node_10, and finally to Node_6 to reach the Coffee shop."
+                ],
+                [
+                    "Gym",
+                    "19:30",
+                    60,
+                    "transit",
+                    "St_3_link_1, St_1_link_2",
+                    "Head to Gym after meeting with Maria for some exercise before heading home. Confirmed that it's typically less crowded after 19:00."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "transit",
+                    "shortest",
+                    "Return home using the shortest available transit path."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Buffer time needed after Supermarket visits",
+                    "Supermarket, buffer time",
+                    "Supermarket",
+                    "12:00-13:30"
+                ],
+                [
+                    "Supermarket queues often extend beyond 60 minutes during midday",
+                    "Supermarket, queue, delay",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Metro_1 and Metro_2 remain reliable during peak hours",
+                    "Metro_1, Metro_2, reliability",
+                    "Metro_1, Metro_2",
+                    "all-day"
+                ],
+                [
+                    "Gym less crowded after 19:00",
+                    "Gym, crowded, 19:00",
+                    "Gym",
+                    "19:00-21:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I arrived at the Supermarket at 13:07 and unexpectedly waited 68 minutes in queue before starting my shopping, which significantly delayed my schedule. Originally, I planned to leave Supermarket by 12:30 and arrive at the Coffee shop by 17:45 for a study session with Maria Lopez. However, due to this unexpected delay, I will now be late unless adjustments are made. Since I rely on public transit and cannot drive, I must re-evaluate my departure time or revise the rest of the day's plan accordingly.",
+            "plan": [
+                [
+                    "Coffee shop",
+                    "16:00",
+                    60,
+                    "transit",
+                    "Metro_2_link_5, Metro_2_link_4, Metro_2_link_3",
+                    "Travel to Coffee shop for a study session with Maria Lopez after finishing grocery shopping. Depart Supermarket by 16:00 to ensure arrival at Coffee shop by 17:45 as originally scheduled."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "transit",
+                    "St_3_link_1, St_1_link_2",
+                    "Head to Gym after meeting with Maria for some exercise before heading home. Confirmed that it's typically less crowded after 19:00."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "transit",
+                    "shortest",
+                    "Return home using the shortest available transit path."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Supermarket experiences long queues during midday hours",
+                    "Supermarket, queues, midday",
+                    "Supermarket",
+                    "12:00-14:00"
+                ]
+            ],
+            "datetime": "2025-03-12 15:00:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today\u2019s schedule required adjustments due to a delayed lunch break, which shifted my entire timeline forward. Despite this change, I successfully adapted by prioritizing the confirmed study session with Maria Lopez at Coffee shop over the original plan to visit Museum. The transit system remained efficient throughout the day, particularly Metro_1 and Metro_2 lines, allowing smooth travel between Factory, Supermarket, and Coffee shop. Walking between facilities was comfortable given the uncongested conditions. Social coordination went well\u2014arriving slightly early for the 19:30 meeting allowed for a productive session. My return home via Metro_1 was timely and stress-free. While missing the museum visit was a minor disappointment, the flexibility in planning helped maintain work-life balance and personal growth through study. The late departure from Factory did not significantly impact the rest of the day thanks to adaptable scheduling.",
+            "concepts": [
+                [
+                    "Metro_1 reliable for evening commutes",
+                    "Metro_1, transit, reliability",
+                    "Metro_1",
+                    "19:00-21:00"
+                ],
+                [
+                    "Supermarket accessible during midday with minimal delays",
+                    "Supermarket, shopping, lunchtime",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coffee shop convenient for evening meetings",
+                    "Coffee shop, social, study",
+                    "Coffee shop",
+                    "19:00-20:30"
+                ],
+                [
+                    "Factory commute timing affects downstream activities",
+                    "Factory, schedule shift, planning",
+                    "Factory, Coffee shop",
+                    "12:00-19:30"
+                ],
+                [
+                    "Shortened activity windows require flexible plans",
+                    "Flexibility, time buffer, adaptability",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "My day started as planned, with a smooth commute to Factory using Metro_1. However, my lunchtime visit to the Supermarket turned into an unexpected bottleneck due to an unusually long queue lasting over 113 minutes. This significantly delayed my schedule and required real-time adjustments to ensure I could still meet Maria Lopez at the Coffee shop for our study session. Fortunately, the transit system remained uncongested throughout the day, allowing me to maintain punctuality by slightly revising departure times rather than changing routes. The evening Gym session helped me unwind and stay active, aligning with my personal goal of incorporating more post-work exercise. Overall, while initial time estimates were optimistic for the Supermarket activity, flexibility in scheduling and reliable transit options enabled me to fulfill key commitments without conflict.",
+            "concepts": [
+                [
+                    "Supermarket queues often extend beyond 60 minutes during midday",
+                    "Supermarket, queue, delay",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Metro_1 and Metro_2 remain reliable during peak hours",
+                    "Metro_1, Metro_2, transit reliability",
+                    "Metro_1, Metro_2",
+                    "07:00-09:00, 17:00-19:00"
+                ],
+                [
+                    "Gym less crowded after 19:00",
+                    "Gym, exercise, crowd timing",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Buffer time needed after Supermarket visits",
+                    "Supermarket, buffer time, planning",
+                    "Supermarket",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:30\nReflections: \nThe current traffic state shows severe congestion on St_1_link_2 (Node_9 \u2192 Node_13) with a wait time of 11 minutes, which affects my planned transit route from Factory to Gym via St_3_link_1 and St_1_link_2. Since I rely on public transit and cannot drive, this congestion could delay my arrival at the Gym, potentially affecting my evening plans including returning home before 22:00. However, the rest of the network remains largely uncongested, so alternative transit paths should be viable.\nPlan revisions: Stephanie Lewis update current path to ['Metro_2_link_5', 'Metro_2_link_4', 'Metro_2_link_3', 'Metro_1_link_2', 'Metro_1_link_3'] \n\nTime: 07:31\nReflections: \nThe current traffic state shows severe congestion on St_1_link_2 (Node_9 \u2192 Node_13) with a wait time of 11 minutes, which affects my planned transit route from Factory to Gym via St_3_link_1 and St_1_link_2. Since I rely on public transit and cannot drive, this congestion could delay my arrival at the Gym, potentially affecting my evening plans including returning home before 22:00. However, the rest of the network remains largely uncongested, so alternative transit paths should be viable.\nPlan revisions: Stephanie Lewis update current path to ['Metro_2_link_5', 'Metro_2_link_4', 'Metro_2_link_3', 'Metro_1_link_2', 'Metro_1_link_3'] \n\nTime: 14:30\nReflections: \nI arrived at the Supermarket at 13:07 and unexpectedly waited 68 minutes in queue before starting my shopping, which significantly delayed my schedule. Originally, I planned to leave Supermarket by 12:30 and arrive at the Coffee shop by 17:45 for a study session with Maria Lopez. However, due to this unexpected delay, I will now be late unless adjustments are made. Since I rely on public transit and cannot drive, I must re-evaluate my departure time or revise the rest of the day's plan accordingly.\nPlan revisions: Stephanie Lewis update the departure time of next activity at Coffee shop to 16:00 \n\nTime: 15:00\nReflections: \nI arrived at the Supermarket at 13:07 and unexpectedly waited 68 minutes in queue before starting my shopping, which significantly delayed my schedule. Originally, I planned to leave Supermarket by 12:30 and arrive at the Coffee shop by 17:45 for a study session with Maria Lopez. However, due to this unexpected delay, I will now be late unless adjustments are made. Since I rely on public transit and cannot drive, I must re-evaluate my departure time or revise the rest of the day's plan accordingly.\nPlan revisions: Stephanie Lewis update future activity plan:\n[['Coffee shop', '16:00', 60, 'transit', 'Metro_2_link_5, Metro_2_link_4, Metro_2_link_3', 'Travel to Coffee shop for a study session with Maria Lopez after finishing grocery shopping. Depart Supermarket by 16:00 to ensure arrival at Coffee shop by 17:45 as originally scheduled.'], ['Gym', '19:30', 60, 'transit', 'St_3_link_1, St_1_link_2', \"Head to Gym after meeting with Maria for some exercise before heading home. Confirmed that it's typically less crowded after 19:00.\"], ['Midtown apartment', '21:00', 'none', 'transit', 'shortest', 'Return home using the shortest available transit path.']] \n\nTime: 16:17\nReflections: \nI am currently on my way to the Coffee shop via Metro_2_link_3 and experienced a 7-minute wait at this link, which slightly delays my arrival. However, based on coordination with Maria Lopez, we have adjusted our study session start time from 17:45 to 18:00 to accommodate this minor delay. The network traffic remains uncongested overall, so no significant disruptions are expected for the remainder of the day. I need to ensure that I leave the Coffee shop on time to reach the Gym by 19:30 as planned and return home before 21:00.\nPlan revisions: Stephanie Lewis update the departure time of next activity at Gym to 17:00 ",
+    "activity_index": 1,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-12 17:00:00",
+    "activity_duration": 240,
+    "travel_mode": "transit",
+    "reflect_every": 60,
+    "activity_description": "Head to Gym after meeting with Maria for some exercise before heading home. Confirmed that it's typically less crowded after 19:00.",
+    "planned_path": [],
+    "curr_place": "Gym",
+    "curr_status": "Just finished the trip from None to Gym; waiting at Gym now"
+}

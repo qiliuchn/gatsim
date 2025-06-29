@@ -1,0 +1,470 @@
+{
+    "name": "Andrew Miller",
+    "age": 32,
+    "gender": "male",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "single",
+    "licensed_driver": true,
+    "work_facility": "Factory",
+    "work_time": "8:00-17:00",
+    "occupation": "production coordinator",
+    "preferences_in_transportation": "drives to work, enjoys cycling for fitness",
+    "innate": "organized, analytical, team-oriented, efficiency-focused, problem-solving",
+    "lifestyle": "enjoys data analysis, plays recreational sports, volunteers with youth programs",
+    "home_facility": "Uptown apartment",
+    "household_size": 1,
+    "other_family_members": {},
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+        "Anthony Brown",
+        "Paul Harris"
+    ],
+    "other_description": "Andrew coordinates production schedules and optimizes workflow efficiency. He shares technical knowledge with Anthony Brown and collaborates with Paul Harris on quality improvement initiatives.",
+    "curr_time": "2025-03-13 18:00:00",
+    "original_plans": [
+        {
+            "reflection": "This is the start of a new week, and I'm focused on maintaining my usual routine while staying adaptable to any changes. Last week, I successfully optimized my commute by avoiding congested routes and managed to get some exercise after work a couple of times, which helped with both productivity and well-being. I also made time to catch up with Anthony Brown over coffee, which was great for team cohesion. This week, I plan to be more intentional about scheduling evening workouts at the gym, as late afternoon sessions tend to be less crowded. I should also check in with Paul Harris regarding our quality improvement project timeline. On the personal front, I\u2019d like to improve consistency in recreational sports participation and ensure I\u2019m getting enough rest. Traffic has been generally predictable during peak hours, but I\u2019ve noticed that Ave_3 tends to back up earlier than expected due to occasional bottlenecks near Node_10.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_3",
+                    "Drive to Factory for work from 8:00 to 17:00."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "Ave_4_link_1",
+                    "Head to Gym for a workout session after work."
+                ],
+                [
+                    "Coffee shop",
+                    "18:10",
+                    30,
+                    "drive",
+                    "St_4_link_2",
+                    "Grab a coffee and unwind briefly before heading home."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:15",
+                    "none",
+                    "drive",
+                    "St_3_link_1, St_2_link_1",
+                    "Return home to prepare dinner and relax for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences early morning congestion between 7:00-8:00",
+                    "Ave_3, congestion, morning",
+                    "Ave_3",
+                    "07:00-08:00"
+                ],
+                [
+                    "Gym sees fewer visitors between 17:30-19:00",
+                    "Gym, low traffic, workout",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "St_2_link_2 and Ave_3_link_3 combination leads to reliable morning commute",
+                    "commute, route efficiency",
+                    "St_2_link_2, Ave_3_link_3",
+                    "07:00-08:00"
+                ],
+                [
+                    "Ave_4_link_1 offers quick access to Gym with minimal congestion",
+                    "route efficiency, Gym",
+                    "Ave_4_link_1",
+                    "the town"
+                ],
+                [
+                    "Coffee shop is ideal for post-work relaxation between 18:30-19:00",
+                    "Coffee shop, downtime, relaxation",
+                    "Coffee shop",
+                    "18:30-19:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "The previous day was a productive one, though traffic congestion on Ave_4_link_1 and St_1_link_2 added some unpredictability to my evening plans. I appreciated the flexibility of adjusting my gym session with Anthony Brown and coordinating our departure times to avoid delays. The revised plan allowed us to meet earlier than originally scheduled, which improved efficiency and ensured we had adequate time for our workout. I noticed that leaving Factory at 17:00 via St_4_link_2 was a much smoother route compared to attempting to use Ave_4_link_1 later in the evening. This week, I intend to maintain early departures after work when possible and continue optimizing travel paths based on real-time traffic updates. I also aim to be more consistent with recreational sports and will explore weekend opportunities for community engagement through youth programs.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_3",
+                    "Drive to Factory for work from 8:00 to 17:00."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "drive",
+                    "St_4_link_2",
+                    "Head to Gym with Anthony Brown for an early treadmill session starting at 17:30."
+                ],
+                [
+                    "Coffee shop",
+                    "18:10",
+                    30,
+                    "drive",
+                    "St_4_link_1",
+                    "Grab a coffee and unwind briefly before heading home."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:15",
+                    "none",
+                    "drive",
+                    "Ave_2_link_3, St_2_link_1",
+                    "Return home to prepare dinner and relax for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_4_link_1 prone to severe congestion in the early evening",
+                    "Ave_4_link_1, congestion, evening",
+                    "Ave_4_link_1",
+                    "17:00-18:30"
+                ],
+                [
+                    "Real-time route optimization crucial during peak hours",
+                    "route optimization, peak hours",
+                    "the town",
+                    "07:00-09:00,17:00-19:00"
+                ],
+                [
+                    "Gym less crowded and optimal for sessions starting before 18:30",
+                    "Gym, less crowded, workout timing",
+                    "Gym",
+                    "17:00-18:30"
+                ],
+                [
+                    "St_1_link_2 frequently congested midday to evening",
+                    "St_1_link_2, congestion, afternoon",
+                    "St_1_link_2",
+                    "12:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past day was generally productive, though traffic congestion impacted some of my evening plans. I appreciated the flexibility in coordinating with Anthony Brown for our gym session, which allowed us to adjust departure times and avoid delays. Leaving Factory at 17:00 via St_4_link_2 was a much smoother route compared to attempting Ave_4_link_1 later in the evening. The Gym had longer wait times than expected between 17:00-18:00, which affected our coordination slightly, but we managed to complete our workout together after an hour-long delay. My morning commute was improved by rerouting around St_1_link congestion, allowing timely arrival at Factory. Coffee shop relaxation time was well spent before returning home smoothly. Compared to yesterday, I left work earlier and optimized my route more effectively, showing improvement in adapting to recurring congestion patterns. Personal well-being remained balanced as I maintained both productivity and recreational activity. For this week, I intend to maintain early departures after work when possible and continue optimizing travel paths based on real-time traffic updates. I also aim to be more consistent with recreational sports and will explore weekend opportunities for community engagement through youth programs.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_3",
+                    "Drive to Factory for work from 8:00 to 17:00."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "drive",
+                    "St_4_link_2",
+                    "Head to Gym with Anthony Brown for an early treadmill session starting at 17:30."
+                ],
+                [
+                    "Coffee shop",
+                    "18:10",
+                    30,
+                    "drive",
+                    "St_4_link_1",
+                    "Grab a coffee and unwind briefly before heading home."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:15",
+                    "none",
+                    "drive",
+                    "Ave_2_link_3, St_2_link_1",
+                    "Return home to prepare dinner and relax for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1 prone to morning congestion during commute",
+                    "St_1, congestion, commute",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym experiences peak wait times between 17:00-18:00",
+                    "Gym, peak hours, waiting",
+                    "Gym",
+                    "17:00-18:00"
+                ],
+                [
+                    "Ave_4_link_1 frequently congested in the evening",
+                    "Ave_4_link_1, congestion",
+                    "Ave_4_link_1",
+                    "17:30-19:00"
+                ],
+                [
+                    "Coordination with colleagues improves travel flexibility",
+                    "coordination, travel flexibility",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Leaving Factory by 17:15 avoids peak delays",
+                    "Factory, departure timing",
+                    "Factory, St_4_link_2",
+                    "17:00-17:30"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "The previous day demonstrated both the value of proactive planning and the necessity of adaptability in urban mobility. My morning commute was successful due to route adjustments that avoided indirect congestion effects, allowing timely arrival at Factory by 8:00. However, the evening plans were significantly disrupted by an unexpected 65-minute queue delay at Gym starting from 17:10, which required major coordination with Anthony Brown and Paul Harris. Despite these challenges, I managed to maintain strong collaboration with colleagues, complete urgent work tasks, and still engage in recreational activity. The clear traffic conditions in the evening allowed for flexible routing decisions without additional complications. For today, I aim to be more strategic about departure times and route selection to avoid anticipated congestion at Gym again. I also intend to maintain early departures after work when possible and continue optimizing travel paths based on real-time traffic updates.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_3",
+                    "Drive to Factory for work from 8:00 to 17:00."
+                ],
+                [
+                    "Gym",
+                    "16:45",
+                    60,
+                    "drive",
+                    "St_4_link_2",
+                    "Head to Gym with Anthony Brown for treadmill session starting at 17:30. Depart Factory early to avoid expected delays at Gym."
+                ],
+                [
+                    "Coffee shop",
+                    "18:10",
+                    30,
+                    "drive",
+                    "St_4_link_1",
+                    "Grab a coffee and unwind briefly before heading home."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:15",
+                    "none",
+                    "drive",
+                    "Ave_2_link_3, St_2_link_1",
+                    "Return home to prepare dinner and relax for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Gym experiences heavy queues starting at 17:00",
+                    "Gym, heavy queues, 5PM",
+                    "Gym",
+                    "17:00-18:00"
+                ],
+                [
+                    "Coordination with Anthony improves plan flexibility",
+                    "coordination, Anthony Brown, plan flexibility",
+                    "Factory, Gym",
+                    "all-day"
+                ],
+                [
+                    "Evening production work feasible with clear traffic",
+                    "evening work, clear traffic",
+                    "Factory",
+                    "19:00-22:00"
+                ],
+                [
+                    "St_4_link_2 reliable during evening transitions",
+                    "St_4_link_2, reliable route",
+                    "St_4_link_2",
+                    "16:30-18:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I am currently at Gym with Anthony Brown, having arrived on time for our treadmill session starting at 17:30. Paul Harris is en route and expected to arrive shortly, as he mentioned coordinating timing due to evening congestion. The real-time traffic state shows moderate congestion only on Ave_4_link_1 (Node_3 \u2192 Node_13) with an 8-minute wait, which aligns with Paul\u2019s current trajectory from Factory to Gym. Since I have already reached my destination and the session has begun, there are no further impacts to my current activity. My next plan is to complete the treadmill session with Anthony and coordinate timing for heading back home afterward.",
+            "plan": [
+                [
+                    "Gym",
+                    "17:45",
+                    "60",
+                    "drive",
+                    "none",
+                    "Continue treadmill session with Anthony Brown and await arrival of Paul Harris."
+                ],
+                [
+                    "Gym",
+                    "18:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Head back home after completing the treadmill session. Depart Gym around 18:30 to avoid potential evening congestion."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_4_link_1 experiences moderate congestion during late afternoon commute",
+                    "Ave_4_link_1, congested, 17:30-18:30",
+                    "Ave_4_link_1",
+                    "17:30-18:30"
+                ]
+            ],
+            "datetime": "2025-03-13 17:45:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today's plan mostly went well despite unexpected congestion challenges. My morning commute to Factory via St_2_link_2 and Ave_3_link_3 was smooth, arriving on time for work. However, during the evening, heavy congestion on both St_1_link_2 and Ave_4_link_1 disrupted my initial plans to go directly from Factory to Gym. Thanks to coordination with Anthony Brown, who was also heading to Gym from Supermarket, I adjusted my departure timing and route to ensure we met for our treadmill session at 18:30 as planned. The revised route allowed me to arrive in time, and we had a productive workout. Traffic conditions significantly influenced my decision-making throughout the day, particularly requiring flexibility in routing and timing. Fortunately, real-time traffic updates helped me optimize my return trip home using the shortest available path when roads cleared up after 19:00. Overall, today reinforced the importance of staying adaptable and maintaining communication with friends for better coordination.",
+            "concepts": [
+                [
+                    "Ave_4_link_1 prone to severe congestion in the early evening",
+                    "Ave_4_link_1, congestion, delay",
+                    "Ave_4_link_1",
+                    "17:00-18:00"
+                ],
+                [
+                    "St_1_link_2 frequently congested midday to evening",
+                    "St_1_link_2, bottleneck, traffic",
+                    "St_1_link_2",
+                    "12:00-19:00"
+                ],
+                [
+                    "Gym less crowded and optimal for sessions starting before 18:30",
+                    "Gym, workout, Anthony Brown",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Real-time route optimization crucial during peak hours",
+                    "route adjustment, traffic awareness, efficiency",
+                    "The town",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's activities largely followed the plan, but traffic congestion significantly impacted timing and coordination. Morning commute adjustments were effective, rerouting around St_1_link congestion allowed timely arrival at Factory. Evening plans, however, faced delays due to unexpected queueing at Gym and Ave_4_link_1 congestion affecting Anthony Brown\u2019s schedule. Coordination via messages helped maintain flexibility, ensuring we still managed to complete our workout together despite waiting over an hour. Coffee shop relaxation time was well spent before a smooth return home. Compared to yesterday, I left work earlier and optimized my route more effectively, showing improvement in adapting to recurring congestion patterns. Personal well-being remained balanced as I maintained both productivity and recreational activity.",
+            "concepts": [
+                [
+                    "St_1 prone to morning congestion during commute",
+                    "St_1, congestion, commute",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym experiences peak wait times between 17:00-18:00",
+                    "Gym, wait time, peak hours",
+                    "Gym",
+                    "17:00-18:00"
+                ],
+                [
+                    "Ave_4_link_1 frequently congested in the evening",
+                    "Ave_4_link_1, congestion, unreliable",
+                    "Ave_4_link_1",
+                    "16:00-19:00"
+                ],
+                [
+                    "Coordination with colleagues improves travel flexibility",
+                    "coordination, travel planning, flexibility",
+                    "Factory, Gym",
+                    "16:00-18:00"
+                ],
+                [
+                    "Leaving Factory by 17:15 avoids peak delays",
+                    "Factory, departure timing, efficiency",
+                    "Factory",
+                    "17:00-17:30"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated both effective planning and the need for adaptability. My morning commute was successful due to proactive route adjustments around indirect congestion effects, allowing timely arrival at Factory by 8:00. The major disruption came in the evening with an unexpected 65-minute queue delay at Gym starting from 17:10, which required significant coordination with Anthony Brown and Paul Harris to maintain our social plans while minimizing further delays. We adjusted our meetup location to Coffee shop at 19:00 and later even returned briefly to Factory to handle urgent tasks before concluding the day. Despite these changes, I maintained strong coordination with colleagues and completed all key obligations. The clear traffic conditions throughout the evening allowed for flexible routing decisions without additional complications. Returning home after 22:00 marked a longer than usual day but one that ended productively.",
+            "concepts": [
+                [
+                    "Gym experiences heavy queues starting at 17:00",
+                    "Gym, queues, evening",
+                    "Gym",
+                    "17:00-18:30"
+                ],
+                [
+                    "St_4_link_2 reliable during evening transitions",
+                    "St_4_link_2, drive, efficient",
+                    "St_4_link_2",
+                    "18:00-20:00"
+                ],
+                [
+                    "Evening production work feasible with clear traffic",
+                    "Factory, late work, traffic",
+                    "Factory",
+                    "20:00-22:00"
+                ],
+                [
+                    "Coordination with Anthony improves plan flexibility",
+                    "coordination, Anthony Brown, flexibility",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:31\nReflections: \nCurrent traffic conditions show severe congestion on Ave_2_link_2 and St_1_link_1, which are part of my planned route to work. I am currently traveling via St_2_link_1, which is clear, but need to consider alternate routing to Factory to maintain punctuality. My evening plans with Anthony Brown at Gym remain confirmed for 17:30, and we've coordinated our departure strategies accordingly.\nPlan revisions: Andrew Miller update current path to real-time shortest \n\nTime: 07:42\nReflections: \nI am currently en route to Factory, having departed Uptown apartment at 07:30. My current trajectory is on St_2_link_1 through Node_5. The real-time traffic state indicates that the next segment of my planned path (St_2_link_2) has a moderate congestion with an 8-minute wait time. Additionally, the subsequent link (St_1_link_2) also shows severe congestion with an 11-minute wait. These delays could impact my arrival time at Factory by approximately 19 minutes if I proceed on the current path. Given that my work hours start at 08:00, arriving late may affect my responsibilities as a production coordinator, especially considering coordination plans with Anthony Brown and Paul Harris later in the day.\nPlan revisions: Andrew Miller update current path to real-time shortest \n\nTime: 07:51\nReflections: \nI am currently en route to Factory, having departed Uptown apartment at 07:30. My current trajectory is on St_2_link_1 through Node_5, and I am now at Node_6. The real-time traffic state indicates that my planned path includes Ave_2_link_3 (Node_6 \u2192 Node_7), which has a severe congestion with a 16-minute wait time. Additionally, the subsequent link St_4_link_1 also shows moderate congestion with an 8-minute wait. These delays could impact my arrival time at Factory by approximately 24 minutes if I proceed on the current path. Since my work hours start at 08:00, arriving late may affect my responsibilities as a production coordinator, especially coordination plans with Anthony Brown and Paul Harris later in the day.\nPlan revisions: Andrew Miller update current path to real-time shortest \n\nTime: 08:00\nReflections: \nI am currently en route to Factory after departing Uptown apartment at 07:30. My current trajectory is on St_2_link_1 through Node_5 and now at Node_7. The real-time traffic state shows that Ave_2_link_3 has severe congestion with a 16-minute wait time, which I have already experienced. Additionally, the next segment of my planned path (St_4_link_1) has moderate congestion with an 8-minute wait. If I proceed on this path, these delays could impact my arrival time by approximately 24 minutes. Since my work hours start at 08:00, arriving late may affect my responsibilities as a production coordinator, especially considering coordination plans with Anthony Brown and Paul Harris later in the day.\nPlan revisions: Andrew Miller update current path to real-time shortest \nTime: 17:45\nReflections: \nI am currently at Gym with Anthony Brown, having arrived on time for our treadmill session starting at 17:30. Paul Harris is en route and expected to arrive shortly, as he mentioned coordinating timing due to evening congestion. The real-time traffic state shows moderate congestion only on Ave_4_link_1 (Node_3 \u2192 Node_13) with an 8-minute wait, which aligns with Paul\u2019s current trajectory from Factory to Gym. Since I have already reached my destination and the session has begun, there are no further impacts to my current activity. My next plan is to complete the treadmill session with Anthony and coordinate timing for heading back home afterward.\nPlan revisions:\nAndrew Miller update future activity plan:\n[['Gym', '17:45', '60', 'drive', 'none', 'Continue treadmill session with Anthony Brown and await arrival of Paul Harris.'], ['Gym', '18:30', 'none', 'drive', 'shortest', 'Head back home after completing the treadmill session. Depart Gym around 18:30 to avoid potential evening congestion.']]\n",
+    "activity_index": 0,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-13 17:45:00",
+    "activity_duration": 45,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Continue treadmill session with Anthony Brown and await arrival of Paul Harris.",
+    "planned_path": [],
+    "curr_place": "Gym",
+    "curr_status": "Staying at facility Gym",
+    "trip_start_facility": "Gym",
+    "trip_trajectory": []
+}

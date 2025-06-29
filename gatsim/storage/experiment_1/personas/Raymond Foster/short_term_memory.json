@@ -1,0 +1,495 @@
+{
+    "name": "Raymond Foster",
+    "age": 31,
+    "gender": "male",
+    "highest_level_of_education": "High school",
+    "family_role": "single",
+    "licensed_driver": true,
+    "work_facility": "Factory",
+    "work_time": "8:00-17:00",
+    "occupation": "factory operator",
+    "preferences_in_transportation": "prefers driving to work, enjoys walking for exercise",
+    "innate": "hardworking, dependable, mechanically skilled, team-oriented",
+    "lifestyle": "enjoys auto racing, volunteers at community garage, plays recreational basketball",
+    "home_facility": "Midtown apartment",
+    "household_size": 1,
+    "other_family_members": {},
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+        "Andrew Miller",
+        "Anthony Brown"
+    ],
+    "other_description": "Raymond operates heavy machinery at the factory and is known for his mechanical expertise. He shares technical knowledge with Andrew Miller and collaborates with Anthony Brown on equipment maintenance.",
+    "curr_time": "2025-03-13 18:00:00",
+    "original_plans": [
+        {
+            "reflection": "This is the start of a new week, and I\u2019m feeling motivated to stay productive at work while also maintaining my usual routine of exercise and community involvement. Last week, I managed to balance my factory shift well with some recreational basketball on the weekend, but I noticed morning traffic congestion on Ave_3 during my commute. I should consider alternative routes or adjust my departure time if possible. This week, I plan to continue volunteering at the community garage and catch up with Andrew and Anthony about equipment maintenance ideas. I also want to be more consistent with evening workouts to avoid the midday heat in the future.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:15",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_3, St_4_link_2",
+                    "Drive to Factory for the 8:00 shift as a factory operator."
+                ],
+                [
+                    "Factory",
+                    "12:00",
+                    120,
+                    "none",
+                    "none",
+                    "Have lunch and take a short break at work."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_4_link_2, Ave_3_link_3, St_2_link_2",
+                    "Go to Gym to play basketball with friends after work."
+                ],
+                [
+                    "Supermarket",
+                    "19:00",
+                    20,
+                    "drive",
+                    "St_2_link_2, Ave_2_link_3",
+                    "Stop by Supermarket to pick up groceries on the way back home."
+                ],
+                [
+                    "Midtown apartment",
+                    "20:00",
+                    "none",
+                    "drive",
+                    "Ave_2_link_2, St_2_link_1",
+                    "Return home to Midtown apartment for rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences heavy congestion during weekday mornings",
+                    "Ave_3, congestion, morning",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym attendance peaks between 18:00 and 19:00",
+                    "Gym, peak hours",
+                    "Gym",
+                    "18:00-19:00"
+                ],
+                [
+                    "Supermarket is less crowded before 20:00",
+                    "Supermarket, crowd, shopping",
+                    "Supermarket",
+                    "18:00-20:00"
+                ],
+                [
+                    "St_2_link_2 offers faster travel times when Ave_3 is congested",
+                    "St_2_link_2, alternate route",
+                    "St_2_link_2",
+                    "all-day"
+                ],
+                [
+                    "Evening exercise helps avoid daytime heat and improves sleep quality",
+                    "exercise, sleep, timing",
+                    "the town",
+                    "evening"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This morning's commute showed that Ave_2_link_1 and St_1_link_2 continue to be problematic during peak hours, confirming the need for alternative routing strategies. I successfully avoided major delays by taking St_2_link_1 and St_2_link_2, but still faced moderate congestion on Ave_3_link_3. Coordination with Andrew Miller and Anthony Brown continues to help manage work flexibility and social activities. The basketball game at the Gym ran slightly over schedule again, reinforcing the importance of planning buffer time. I skipped the Supermarket stop yesterday due to evening congestion, so groceries are getting low\u2014need to prioritize this today. This week, I'll continue testing alternate routes in the morning and consider leaving earlier to avoid bottlenecks. Evening travel patterns suggest Ave_4_link_1 is consistently problematic, so rerouting options should be explored.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:20",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:00",
+                    120,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Drive to Factory for the 8:00 shift as a factory operator."
+                ],
+                [
+                    "Factory",
+                    "10:15",
+                    120,
+                    "none",
+                    "none",
+                    "Have lunch and take a short break at work."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_3, St_4_link_2",
+                    "Go to Gym to play basketball with Andrew Miller after work."
+                ],
+                [
+                    "Supermarket",
+                    "18:30",
+                    20,
+                    "drive",
+                    "St_4_link_2, Ave_3_link_2, St_3_link_1",
+                    "Stop by Supermarket to restock groceries after basketball."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_2_link_2, St_2_link_1",
+                    "Return home to Midtown apartment for rest before 22:00."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Gym attendance peaks between 17:30 and 18:30 affecting departure timing",
+                    "Gym, peak, departure timing",
+                    "Gym",
+                    "17:30-18:30"
+                ],
+                [
+                    "Ave_4_link_1 prone to severe congestion during weekday evenings",
+                    "Ave_4_link_1, congestion, evening",
+                    "Ave_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "Ave_2_link_1 often moderately congested in the morning",
+                    "Ave_2_link_1, congestion, morning",
+                    "Ave_2_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Rerouting through St_2_link_1 and St_2_link_2 avoids morning bottlenecks",
+                    "St_2_link_1, St_2_link_2, reroute",
+                    "St_2_link_1, St_2_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "St_1_link_2 experiences significant congestion during morning commute",
+                    "St_1_link_2, congestion, morning",
+                    "St_1_link_2",
+                    "07:00-08:30"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past two days have highlighted persistent congestion issues on key routes like St_1_link_1 and St_1_link_2 during morning commutes, which significantly impacted my arrival time at the Factory yesterday. I've been adapting by using alternate routes via Ave_2 and St_2 links, which has helped reduce delays. Coordination with Andrew Miller and Anthony Brown has remained strong, allowing for flexible rescheduling of both work tasks and social activities like basketball games. Yesterday\u2019s successful grocery restocking after missing it Monday due to congestion was a relief, and I need to maintain this discipline in planning around peak travel times. Evening travel continues to be moderately predictable but still requires careful route selection\u2014Ave_4_link_1 and St_3_link_1 are best avoided if possible. The Gym basketball sessions tend to overrun, so adding buffer time before subsequent commitments like grocery shopping is essential. This week, I\u2019ll continue refining adaptive routing strategies, consider leaving slightly earlier in the mornings, and remain vigilant about coordinating with friends and colleagues.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:20",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:00",
+                    120,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Drive to Factory for the 8:00 shift as a factory operator."
+                ],
+                [
+                    "Factory",
+                    "10:15",
+                    120,
+                    "none",
+                    "none",
+                    "Have lunch and take a short break at work."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_3, St_4_link_2",
+                    "Go to Gym to play basketball with Andrew Miller after work."
+                ],
+                [
+                    "Supermarket",
+                    "18:30",
+                    20,
+                    "drive",
+                    "St_4_link_2, Ave_3_link_2, St_3_link_1",
+                    "Stop by Supermarket to restock groceries after basketball."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_2_link_2, St_2_link_1",
+                    "Return home to Midtown apartment for rest before 22:00."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Alternate route via Ave_2_link_2 and St_2_link_1 avoids St_1 congestion",
+                    "route, avoid, congestion",
+                    "Ave_2_link_2, St_2_link_1, St_1",
+                    "all-day"
+                ],
+                [
+                    "Supermarket visits more reliable after 18:30",
+                    "Supermarket, visit, reliable",
+                    "Supermarket",
+                    "18:30-20:00"
+                ],
+                [
+                    "St_1_link_1 and St_1_link_2 consistently congested during morning rush",
+                    "St_1_link_1, St_1_link_2, congestion, morning rush",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Ave_4_link_1 often delayed during evening commute",
+                    "Ave_4_link_1, delay, evening",
+                    "Ave_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "Gym basketball games regularly run past scheduled end time",
+                    "Gym, basketball, overrun",
+                    "Gym",
+                    "17:00-18:30"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "The past week has reinforced the importance of adaptive route planning, especially during morning commutes where St_1_link_1 and St_1_link_2 remain consistently congested. I\u2019ve successfully adjusted by using Ave_2 and St_2 links, which have proven more reliable under pressure. Coordination with Andrew Miller and Anthony Brown continues to be a strength\u2014helping us reschedule basketball sessions and adjust work tasks seamlessly. Yesterday\u2019s Gym session was slightly delayed due to court availability, but having a buffer before grocery shopping allowed for flexibility. The evening travel remained mostly uncongested, supporting my decision to return home later than usual. This week, I\u2019ll continue leveraging alternate routes in the morning, aim to leave home earlier if possible, and build in extra time after recreational activities to avoid cascading delays.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:20",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Factory",
+                    "07:00",
+                    120,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Drive to Factory for the 8:00 shift as a factory operator."
+                ],
+                [
+                    "Factory",
+                    "10:15",
+                    120,
+                    "none",
+                    "none",
+                    "Have lunch and take a short break at work."
+                ],
+                [
+                    "Gym",
+                    "17:15",
+                    60,
+                    "drive",
+                    "Ave_2_link_4, St_4_link_2",
+                    "Go to Gym to play basketball with Andrew Miller and Anthony Brown after work."
+                ],
+                [
+                    "Supermarket",
+                    "18:30",
+                    20,
+                    "drive",
+                    "St_4_link_2, Ave_3_link_2, St_3_link_1",
+                    "Stop by Supermarket to restock groceries after basketball."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_2_link_2, St_2_link_1",
+                    "Return home to Midtown apartment for rest before 22:00."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_1 and St_1_link_2 frequently congested during morning commute",
+                    "St_1_link_1, St_1_link_2, congestion, morning",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Ave_2 and St_2 links serve as reliable alternatives during St_1 disruptions",
+                    "Ave_2, St_2, alternative route",
+                    "Ave_2, St_2",
+                    "all-day"
+                ],
+                [
+                    "Buffer time essential for post-Gym activities due to variable start times",
+                    "Gym, buffer time, activity delay",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Gym basketball courts often unavailable until after 18:00",
+                    "Gym, basketball court, unavailable",
+                    "Gym",
+                    "18:00-19:00"
+                ],
+                [
+                    "Evening travel generally uncongested, allowing flexible scheduling",
+                    "evening travel, uncongested",
+                    "the town",
+                    "19:00-21:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        }
+    ],
+    "revised_plans": [],
+    "daily_reflections": [
+        {
+            "reflection": "Today's morning commute was significantly affected by congestion on St_1_link_2, which I successfully avoided by rerouting through St_2_link_1 and St_2_link_2. However, delays persisted due to moderate traffic on Ave_2_link_1 and unexpected wait times on St_1_link_2, causing me to arrive at the Factory slightly late. My coordination with Anthony Brown helped maintain flexibility in our work plans. In the evening, my basketball game with Andrew Miller ran longer than expected, which combined with severe congestion on Ave_4_link_1, prompted a decision to skip the Supermarket stop to avoid arriving home too late. Overall, today highlighted the importance of adaptive routing during peak hours and planning buffer time for social activities that may overrun. I learned that St_1_link_2 and Ave_2_link_1 consistently experience congestion in the morning, and Ave_4_link_1 becomes problematic in the evening. Future planning should include earlier departures and alternative routes during these windows.",
+            "concepts": [
+                [
+                    "St_1_link_2 experiences significant congestion during morning commute",
+                    "St_1_link_2, congestion, morning",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Ave_2_link_1 often moderately congested in the morning",
+                    "Ave_2_link_1, congestion, morning",
+                    "Ave_2_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Ave_4_link_1 prone to severe congestion during weekday evenings",
+                    "Ave_4_link_1, congestion, evening",
+                    "Ave_4_link_1",
+                    "17:30-19:30"
+                ],
+                [
+                    "Gym activities may overrun scheduled time; plan buffer accordingly",
+                    "Gym, basketball, buffer time",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Rerouting through St_2_link_1 and St_2_link_2 avoids morning bottlenecks",
+                    "St_2_link_1, St_2_link_2, route optimization",
+                    "St_2_link_1, St_2_link_2",
+                    "07:00-09:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule was significantly impacted by recurring congestion on St_1_link_1 and St_1_link_2 during the morning commute, causing a 2-hour delay in arriving at the Factory. This required rescheduling of work coordination with Anthony Brown and Andrew Miller, pushing back all subsequent activities. Evening travel remained moderately predictable, though Ave_4_link_1 and St_3_link_1 added minor delays to the basketball game and grocery shopping plans. The Gym session ran slightly over schedule, which is consistent with past experiences, requiring adjustments to the Supermarket visit timing. Despite these disruptions, I successfully completed the necessary grocery restocking that had been missed the previous day due to congestion. Coordination with friends remained effective through real-time communication, allowing for flexible rescheduling of activities. Travel mode choices were appropriate given conditions, though driving still resulted in notable delays due to bottlenecks on primary routes. Overall, today highlighted the importance of adaptive routing strategies and incorporating buffer time around key commitments.",
+            "concepts": [
+                [
+                    "St_1_link_1 and St_1_link_2 consistently congested during morning rush",
+                    "St_1_link_1, St_1_link_2, congestion, morning commute",
+                    "St_1_link_1, St_1_link_2",
+                    "06:30-09:00"
+                ],
+                [
+                    "Gym basketball games regularly run past scheduled end time",
+                    "Gym, basketball, scheduling",
+                    "Gym",
+                    "17:00-18:30"
+                ],
+                [
+                    "Ave_4_link_1 often delayed during evening commute",
+                    "Ave_4_link_1, traffic, evening",
+                    "Ave_4_link_1",
+                    "16:30-18:30"
+                ],
+                [
+                    "Supermarket visits more reliable after 18:30",
+                    "Supermarket, shopping, timing",
+                    "Supermarket",
+                    "18:30-20:00"
+                ],
+                [
+                    "Alternate route via Ave_2_link_2 and St_2_link_1 avoids St_1 congestion",
+                    "route planning, detour, traffic avoidance",
+                    "Ave_2_link_2, St_2_link_1",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today\u2019s morning commute was more challenging than expected due to severe congestion on St_1_link_1 and moderate delays on St_1_link_2, forcing multiple route adjustments. Despite these disruptions, I arrived at the Factory on time thanks to buffer planning and adaptive routing via Ave_2 and St_2 links. My afternoon plans at the Gym were significantly delayed due to court unavailability, pushing back my departure for the Supermarket. Fortunately, minimal evening congestion allowed flexibility in rescheduling without further delays. Coordination with Andrew Miller and Anthony Brown remained strong throughout the day, culminating in a successful meetup at the Coffee shop before returning home. The experience reinforced the importance of route adaptability, activity timing buffers, and leveraging real-time traffic awareness to maintain schedule reliability.",
+            "concepts": [
+                [
+                    "St_1_link_1 and St_1_link_2 frequently congested during morning commute",
+                    "St_1_link_1, St_1_link_2, congestion, morning commute",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym basketball courts often unavailable until after 18:00",
+                    "Gym, basketball, availability",
+                    "Gym",
+                    "17:00-18:30"
+                ],
+                [
+                    "Evening travel generally uncongested, allowing flexible scheduling",
+                    "evening travel, low congestion",
+                    "the town",
+                    "18:00-20:00"
+                ],
+                [
+                    "Buffer time essential for post-Gym activities due to variable start times",
+                    "buffer time, Gym, coordination",
+                    "Gym, Supermarket",
+                    "17:00-19:00"
+                ],
+                [
+                    "Ave_2 and St_2 links serve as reliable alternatives during St_1 disruptions",
+                    "route alternative, Ave_2, St_2",
+                    "Ave_2, St_2",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:13\nReflections: \nI am currently en route to the Factory from Midtown apartment, but there is severe congestion on St_1_link_1 with a 16-minute wait time. This will delay my arrival at work if I continue on this link. My original plan was to use St_2_link_1 and St_2_link_2, which are currently clear and reliable, as confirmed by Anthony Brown\u2019s smooth transit toward the Gym. Since I'm already on St_1_link_1 (Node_9), continuing would result in unnecessary delay. Adjusting my path now to reroute via Ave_2_link_2 and St_2_link_2 will avoid congestion and ensure I arrive at work before 8:00. Andrew Miller and Anthony Brown have confirmed our basketball plans for later, so punctuality today remains important.\nPlan revisions: Raymond Foster update current path to ['Ave_2_link_2', 'St_2_link_2'] ",
+    "activity_index": 3,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-13 17:15:00",
+    "activity_duration": 75,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Go to Gym to play basketball with Andrew Miller and Anthony Brown after work.",
+    "planned_path": [],
+    "curr_place": "Gym",
+    "curr_status": "Raymond Foster just finished the trip from None to Gym; waiting at Gym now",
+    "trip_start_facility": null,
+    "trip_trajectory": null
+}

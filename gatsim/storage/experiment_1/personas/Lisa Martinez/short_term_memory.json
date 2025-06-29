@@ -1,0 +1,493 @@
+{
+    "name": "Lisa Martinez",
+    "age": 33,
+    "gender": "female",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "Supermarket",
+    "work_time": "10:00-19:00",
+    "occupation": "store manager",
+    "preferences_in_transportation": "drives to work, appreciates flexible schedule",
+    "innate": "organized, customer-focused, diplomatic, energetic",
+    "lifestyle": "active in PTA, enjoys cooking, hosts neighborhood gatherings",
+    "home_facility": "Midtown apartment",
+    "household_size": 3,
+    "other_family_members": {
+        "husband": "David Martinez",
+        "son": "Carlos Martinez"
+    },
+    "number_of_vehicles_in_family": 2,
+    "household_income": "middle",
+    "friends": [
+        "Patricia Johnson",
+        "Sandra White"
+    ],
+    "other_description": "Lisa manages the town's main supermarket and is known for exceptional customer service. She collaborates with Patricia Johnson on school fundraising events and shares parenting experiences with Sandra White.",
+    "curr_time": "2025-03-13 18:00:00",
+    "original_plans": [
+        {
+            "reflection": "This past week has been quite busy for me. I've managed the supermarket efficiently despite a few unexpected inventory issues, and I'm proud of how smoothly things have run at work. On the personal front, I haven't had much time to exercise, so I plan to make up for it by visiting the gym after work this week. Family-wise, Carlos has been doing well in school, and I\u2019ve enjoyed being involved in PTA meetings. Socially, Patricia and I finalized plans for a school fundraiser, and I\u2019m looking forward to coordinating that event later in the week. Travel-wise, I noticed that Ave_3 gets consistently congested during the morning commute, especially around 07:30-08:30, so I\u2019ll try to adjust my departure times accordingly.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "School",
+                    "07:25",
+                    20,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive Carlos to School."
+                ],
+                [
+                    "Supermarket",
+                    "08:15",
+                    120,
+                    "drive",
+                    "Ave_3_link_1, St_2_link_2",
+                    "Head to Supermarket for work from 10:00 to 19:00."
+                ],
+                [
+                    "School",
+                    "18:45",
+                    20,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_1",
+                    "Pick up Carlos from School after finishing work."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_3_link_1, St_2_link_1",
+                    "Return home with Carlos to Midtown apartment and prepare dinner."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences congestion during morning commute hours",
+                    "Ave_3, congestion, morning",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "School afternoon pickup is crowded between 18:00-18:45",
+                    "School, crowded, pickup",
+                    "School",
+                    "18:00-18:45"
+                ],
+                [
+                    "Travel time on St_2_link_1 increases significantly during peak hours",
+                    "St_2_link_1, travel time, peak hour",
+                    "St_2_link_1",
+                    "07:00-09:00, 17:00-19:00"
+                ],
+                [
+                    "Supermarket area sees increased traffic around noon",
+                    "Supermarket, traffic, noon",
+                    "Supermarket",
+                    "11:00-13:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a balance of work, family responsibilities, and social coordination. I've managed the Supermarket efficiently despite some traffic challenges during morning commutes. Personally, I'm glad to have found time for exercise at the Gym with Patricia and Michelle. Family-wise, coordinating with David and Patricia ensured smooth school drop-off and pickup for Carlos. Socially, I\u2019ve enjoyed connecting with friends over coffee and planning community events. Travel-wise, I've noticed that Ave_2 and St_1_link_1 can be congested in the early morning, but taking an alternate route via St_2_link_1 and Ave_3_link_1 helps avoid delays. Looking ahead, I plan to maintain this efficient routine while ensuring I make time for personal wellness and family activities.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Supermarket",
+                    "06:50",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive to Supermarket for work from 10:00 to 19:00."
+                ],
+                [
+                    "Gym",
+                    "18:45",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym to play basketball with Patricia Johnson after work."
+                ],
+                [
+                    "Coffee shop",
+                    "19:45",
+                    20,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "Head to Coffee shop to meet Michelle Harris for a casual evening meetup."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:30",
+                    "none",
+                    "drive",
+                    "Ave_3_link_2, St_2_link_1",
+                    "Return home to Midtown apartment and prepare for restful sleep."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning departure before 07:30 avoids Ave_2 congestion",
+                    "morning departure, Ave_2, congestion",
+                    "Ave_2",
+                    "07:00-07:30"
+                ],
+                [
+                    "Alternate route via St_2_link_1 and Ave_3_link_1 is reliable during rush hour",
+                    "alternate route, rush hour",
+                    "St_2_link_1, Ave_3_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Gym less crowded between 18:30 and 20:00",
+                    "Gym, crowded, 6PM",
+                    "Gym",
+                    "18:30-20:00"
+                ],
+                [
+                    "Coffee shop accessible with minimal travel delay after 20:00",
+                    "Coffee shop, delay, accessibility",
+                    "Coffee shop",
+                    "20:00-21:00"
+                ],
+                [
+                    "Coordination with Patricia ensures school pickup reliability",
+                    "school pickup, Patricia, coordination",
+                    "School",
+                    "17:30-18:00"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a mix of routine work, family coordination, and social commitments. I\u2019ve successfully managed the Supermarket while navigating morning traffic using alternative routes like St_2_link_1 and Ave_3_link_1 to avoid congestion. Patricia and I have been coordinating our Gym plans, which helps keep me motivated for exercise. Yesterday\u2019s last-minute change in plans reminded me how important it is to build flexibility into my schedule, especially when coordinating with others. Looking ahead, I aim to maintain a good balance between work, wellness, and time with David and Carlos. I\u2019ll also continue to refine my commute strategy based on observed traffic patterns.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "School",
+                    "07:15",
+                    20,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive to School to drop off Carlos before work."
+                ],
+                [
+                    "Supermarket",
+                    "none",
+                    120,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "Arrive at Supermarket to manage operations from 10:00 to 19:00."
+                ],
+                [
+                    "Gym",
+                    "19:15",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Gym after work to meet Patricia Johnson for an evening walk."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "St_5_link_1",
+                    "Return home to Midtown apartment and prepare for restful sleep."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_2_link_1 and Ave_3_link_1 provide reliable morning commute alternative",
+                    "commute, route reliability",
+                    "St_2_link_1, Ave_3_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym attendance more enjoyable with companionship than solo visits",
+                    "Gym, companionship",
+                    "Gym",
+                    "all-day"
+                ],
+                [
+                    "Evening family time most valuable between 20:00-22:00",
+                    "family time",
+                    "Midtown apartment",
+                    "20:00-22:00"
+                ],
+                [
+                    "Ave_2 clear during evening commute",
+                    "traffic, Ave_2",
+                    "Ave_2",
+                    "18:00-19:30"
+                ],
+                [
+                    "Evening activity plans should include contingency options for social cancellations",
+                    "contingency planning",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a mix of professional responsibilities, family coordination, and maintaining personal wellness. I\u2019ve successfully managed my Supermarket duties while navigating the town\u2019s evolving traffic conditions. Yesterday highlighted the importance of flexibility\u2014unexpected congestion on Ave_2_link_1 and St_1_link_2 forced route changes, but proactive adjustments kept me on schedule. Patricia and Sandra were instrumental in helping me stay connected and informed about real-time travel conditions. The late evening delay at Gym was a reminder to be more cautious with departure timing, especially during peak hours. Looking ahead, I plan to continue refining my commute strategy, ensuring that I avoid known bottlenecks like St_1_link_2 in the evening. I also aim to maintain strong social ties through regular meetups at the Gym or Coffee shop, and ensure Carlos\u2019 school drop-off and pickup are well-coordinated to minimize stress.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "School",
+                    "07:15",
+                    20,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "Drive to School to drop off Carlos before work."
+                ],
+                [
+                    "Supermarket",
+                    "none",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Arrive at Supermarket to manage operations from 10:00 to 19:00."
+                ],
+                [
+                    "Midtown apartment",
+                    "18:45",
+                    20,
+                    "drive",
+                    "shortest",
+                    "Return home briefly before heading to Gym with David and Carlos."
+                ],
+                [
+                    "Gym",
+                    "19:30",
+                    60,
+                    "drive",
+                    "St_5_link_1, Ave_4_link_1",
+                    "Go to Gym with David and Carlos for a family evening walk."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "St_5_link_1",
+                    "Drive back home to Midtown apartment and prepare for restful sleep."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_2 experiences severe delays during evening commute",
+                    "St_1_link_2, severe delays, evening",
+                    "St_1_link_2",
+                    "17:00-18:30"
+                ],
+                [
+                    "Ave_3_link_1 and Ave_3_link_2 provide efficient alternatives during morning rush hour",
+                    "Ave_3_link_1, Ave_3_link_2, efficient route, morning",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Alternate routes via Ave_4 and St_4 reliably bypass St_1_link_2 delays",
+                    "Ave_4, St_4, alternate route, St_1_link_2",
+                    "Ave_4_link_1, St_4_link_1",
+                    "all-day"
+                ],
+                [
+                    "Rescheduling evening activities after 19:00 avoids peak congestion",
+                    "evening activity, reschedule, peak congestion",
+                    "the town",
+                    "19:00-20:00"
+                ],
+                [
+                    "Gym less crowded between 19:30 and 20:30",
+                    "Gym, crowd, 19:30",
+                    "Gym",
+                    "19:30-20:30"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I am currently at Supermarket, managing operations until 19:00. Patricia Johnson is en route and will wait in the parking lot until 19:00 so we can depart together for dinner at Midtown apartment with Robert. David and Sandra have already reached Gym with Carlos, and traffic conditions are generally favorable except for severe congestion on Ave_4_link_1 (Node_3 \u2192 Node_13), which should be avoided. Since I need to coordinate with Patricia and ensure a timely arrival home, it makes sense to leave slightly earlier than originally planned to account for any unforeseen delays. The original plan was to return home briefly before heading to Gym, but since I\u2019ve already coordinated with Patricia to go directly home after work, I should revise my activity plan accordingly.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "18:55",
+                    "20",
+                    "drive",
+                    "Ave_3_link_2, St_3_link_2, Node_6, Node_9",
+                    "Depart Supermarket with Patricia Johnson at 18:55 via Node_9 to avoid Ave_4_link_1 congestion and head straight home for dinner with Robert."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:00",
+                    "none",
+                    "none",
+                    "none",
+                    "Complete evening routines and prepare for restful sleep."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_4_link_1 consistently congested during evening commute",
+                    "Ave_4_link_1, congested, evening",
+                    "Ave_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "Supermarket shift ends at 19:00, requiring timely departure",
+                    "Supermarket, departure, 19:00",
+                    "Supermarket",
+                    "18:45-19:00"
+                ]
+            ],
+            "datetime": "2025-03-13 17:42:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today's schedule required several adjustments due to morning traffic congestion, particularly on Ave_2 and St_1_link_1, where David was delayed. I managed to avoid major delays by revising my route from School to Supermarket, opting for ['St_2_link_1', 'Ave_3_link_1'], which remained clear. Patricia\u2019s help with picking up Carlos allowed me flexibility to focus on getting to work on time. The evening went smoothly\u2014traffic was clear, enabling me to meet Patricia and Carlos at the Gym as planned, and later join Michelle Harris at the Coffee shop without issue. Departure timing was key in maintaining punctuality throughout the day. Overall, it was a productive day balancing work, family, and social commitments.",
+            "concepts": [
+                [
+                    "Morning departure before 07:30 avoids Ave_2 congestion",
+                    "Ave_2, congestion, morning commute",
+                    "Ave_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Alternate route via St_2_link_1 and Ave_3_link_1 is reliable during rush hour",
+                    "route efficiency, traffic avoidance",
+                    "St_2_link_1, Ave_3_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym less crowded between 18:30 and 20:00",
+                    "Gym, exercise, timing",
+                    "Gym",
+                    "18:00-20:00"
+                ],
+                [
+                    "Coffee shop accessible with minimal travel delay after 20:00",
+                    "Coffee shop, evening activity",
+                    "Coffee shop",
+                    "20:00-22:00"
+                ],
+                [
+                    "Coordination with Patricia ensures school pickup reliability",
+                    "school pickup, coordination, PTA",
+                    "School",
+                    "16:00-17:30"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required two significant adjustments that highlighted the importance of flexibility in both transportation and social planning. The morning began as expected, with my revised route via St_2_link_1 and Ave_3_link_1 allowing me to drop Carlos at School on time and reach Supermarket without congestion delays. However, the evening brought an unexpected change when Patricia canceled our Gym plans, prompting a decision to return home directly for family time instead of exercising alone. This shift emphasized how social coordination impacts activity scheduling and personal well-being. Overall, my travel time estimates were accurate, and I managed to maintain good work-life balance despite the changes. Moving forward, better communication with friends earlier in the day could prevent last-minute disruptions to evening wellness routines.",
+            "concepts": [
+                [
+                    "St_2_link_1 and Ave_3_link_1 provide reliable morning commute alternative",
+                    "commute, traffic avoidance, efficient routing",
+                    "St_2_link_1, Ave_3_link_1",
+                    "06:30-08:00"
+                ],
+                [
+                    "Gym attendance more enjoyable with companionship than solo visits",
+                    "Gym, social motivation, wellness",
+                    "Gym",
+                    "18:00-20:00"
+                ],
+                [
+                    "Evening activity plans should include contingency options for social cancellations",
+                    "flexibility, coordination, planning",
+                    "The town",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required multiple adjustments due to unexpected traffic congestion, particularly on Ave_2_link_1 and St_1_link_2 during both morning and evening commutes. Despite these challenges, I managed to fulfill my professional responsibilities at the Supermarket and maintain social commitments with Patricia Johnson by rescheduling our Gym walk to a more optimal time. The morning commute was delayed due to heavy congestion, which prompted a route change from Ave_3 to St_3_link_1 and Ave_2_link_2 \u2014 a successful adaptation that minimized further delays. In the evening, I faced congestion again on St_1_link_2, prompting a reroute via Ave_3 and later Ave_4/St_4, ultimately avoiding significant delays. Coordination with Patricia and Sandra helped inform better decisions throughout the day. My well-being remained positive overall, especially after the evening walk despite the delay, and I maintained good work-life balance by adjusting return plans without compromising family time. Key lessons include the importance of monitoring traffic before departure, maintaining flexible scheduling for personal commitments, and leveraging trusted alternate routes.",
+            "concepts": [
+                [
+                    "St_1_link_2 experiences severe delays during evening commute",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "17:00-20:00"
+                ],
+                [
+                    "Ave_3_link_1 and Ave_3_link_2 provide efficient alternatives during morning rush hour",
+                    "Ave_3, alternative route, morning",
+                    "Ave_3",
+                    "07:00-09:00"
+                ],
+                [
+                    "Rescheduling evening activities after 19:00 avoids peak congestion",
+                    "evening activity, timing, congestion avoidance",
+                    "Gym",
+                    "18:00-20:00"
+                ],
+                [
+                    "Check real-time traffic updates before departing from Gym",
+                    "traffic check, evening commute, planning",
+                    "The town",
+                    "19:00-20:00"
+                ],
+                [
+                    "Alternate routes via Ave_4 and St_4 reliably bypass St_1_link_2 delays",
+                    "route planning, reliability, congestion",
+                    "Ave_4, St_4",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:16\nReflections: \nDavid is already handling Carlos' drop-off at School via Ave_3_link_1, which avoids the moderate congestion currently on St_1_link_1 and St_1_link_2. Since we coordinated earlier to use Ave_3_link_1 as a reliable alternative during morning hours, I should follow that plan rather than continuing with my originally scheduled path of Ave_2_link_1. Taking Ave_2_link_1 now would expose me to unnecessary delays due to ongoing traffic on St_1_link_1, which connects into that route. My priority is to arrive at Supermarket by 10:00 AM, so optimizing the route while maintaining schedule alignment with David\u2019s revised commute makes sense.\nPlan revisions: Lisa Martinez update current path to ['Ave_3_link_1', 'St_3_link_1'] \n\nTime: 07:41\nReflections: \nI have successfully dropped off Carlos at School and am now en route to Supermarket. However, traffic conditions on several key roads\u2014particularly St_2_link_1 (with a 12-minute wait) and Ave_2_link_1 (8-minute wait)\u2014could impact my arrival time if I follow the originally planned path. Given that I need to be at work by 10:00 AM, it's prudent to avoid these congested links. The previously updated plan used 'Ave_3_link_1' and 'St_3_link_1', which were less affected by congestion. However, based on current traffic and real-time observations, a more optimal route would be to take Ave_3_link_1 followed by Ave_3_link_2, as this avoids known bottlenecks and aligns with David\u2019s earlier adjustments.\nPlan revisions: Lisa Martinez update current path to ['Ave_3_link_1', 'Ave_3_link_2'] \n\nTime: 07:42\nReflections: \nI've successfully dropped off Carlos at School and am now ready to head to work. Current traffic conditions show severe congestion on St_1_link_1 and St_1_link_2, which were already avoided in my last plan revision. My updated route using Ave_3_link_1 followed by Ave_3_link_2 remains optimal given the current network state. I need to ensure arrival at Supermarket by 10:00 AM to manage operations as scheduled.\nPlan revisions: Lisa Martinez update current path to ['Ave_3_link_1', 'Ave_3_link_2'] \n\nTime: 07:43\nReflections: \nI am currently en route to Supermarket after dropping off Carlos at School, and I've already adjusted my path twice this morning to avoid congestion on St_1_link_1 and St_2_link_2. My latest route using Ave_3_link_1 followed by Ave_3_link_2 remains optimal based on current traffic conditions. However, there is severe congestion on St_2_link_2 (Node_5 \u2192 Node_9) with a 12-minute wait time, which is part of the planned path from School to Supermarket. Since I'm currently at Node_5 and preparing to take Ave_2_link_2 toward Node_6, I must reassess this leg of the trip. Taking into account the ongoing delays on links connected to St_1 and the need to arrive at work by 10:00 AM, it makes sense to bypass Ave_2_link_2 and instead proceed directly via Ave_3_link_2 to Node_7, then transfer to St_3_link_2 toward Node_6. This avoids further exposure to congestion while maintaining schedule alignment.\nPlan revisions: Lisa Martinez update current path to ['Ave_3_link_2', 'St_3_link_2'] \nTime: 15:12\nReflections: \nThe morning traffic was more congested than usual, particularly on St_1_link_1 and St_2_link_2. I adjusted my route multiple times to avoid delays, ultimately taking Ave_3_link_1 followed by Ave_3_link_2 to reach Supermarket on time. Currently, there is no congestion reported across the network, so travel conditions are favorable for the remainder of the day. Since I am currently at work and must remain until 19:00, no immediate changes are necessary. However, Patricia Johnson and I coordinated earlier about meeting at Gym around 18:30 before coordinating with Robert for pickup at 18:35. This suggests a need to leave Supermarket slightly earlier than planned to accommodate this arrangement.\nPlan revisions:\nLisa Martinez update the departure time of next activity at Midtown apartment to 18:45\n\nTime: 17:42\nReflections: \nI am currently at Supermarket, managing operations until 19:00. Patricia Johnson is en route and will wait in the parking lot until 19:00 so we can depart together for dinner at Midtown apartment with Robert. David and Sandra have already reached Gym with Carlos, and traffic conditions are generally favorable except for severe congestion on Ave_4_link_1 (Node_3 \u2192 Node_13), which should be avoided. Since I need to coordinate with Patricia and ensure a timely arrival home, it makes sense to leave slightly earlier than originally planned to account for any unforeseen delays. The original plan was to return home briefly before heading to Gym, but since I\u2019ve already coordinated with Patricia to go directly home after work, I should revise my activity plan accordingly.\nPlan revisions:\nLisa Martinez update future activity plan:\n[['Midtown apartment', '18:55', '20', 'drive', 'Ave_3_link_2, St_3_link_2, Node_6, Node_9', 'Depart Supermarket with Patricia Johnson at 18:55 via Node_9 to avoid Ave_4_link_1 congestion and head straight home for dinner with Robert.'], ['Midtown apartment', '21:00', 'none', 'none', 'none', 'Complete evening routines and prepare for restful sleep.']]\n",
+    "activity_index": -1,
+    "activity_facility": "Supermarket",
+    "activity_departure_time": "2025-03-13 07:42:00",
+    "activity_duration": 673,
+    "travel_mode": "drive",
+    "reflect_every": 150,
+    "activity_description": "Arrive at Supermarket to manage operations from 10:00 to 19:00.",
+    "planned_path": [],
+    "curr_place": "Supermarket",
+    "curr_status": "Staying at facility Supermarket",
+    "trip_start_facility": null,
+    "trip_trajectory": null
+}

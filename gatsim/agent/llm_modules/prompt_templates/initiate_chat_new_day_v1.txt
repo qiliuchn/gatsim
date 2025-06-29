@@ -9,32 +9,84 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<Args: 0>!
 
+
 !<Args: 1>!
+
 
 You play the role of the person:
 !<Args: 2>!
 
 
-Before you make a daily activity plan for day !<Args: 3>!, you may want to chat with your family members or friends. For example, a person may want to talk to his or her spouse about who shall drop off (or pick up) child to (or from) school, and decide who shall drive the only vehicle of the family. And a person may want to invite friends to go to Gym or Food court after work today, and so on.
-Remember the purpose of chatting is to help the person you play to decide on the daily activity plan in a later step.
+-----TASK INSTRUCTION-----
+You are preparing your daily activity plan for !<Args: 3>!. Before finalizing your plan, you may need to coordinate with family members or friends.
+Consider initiating a chat if you need to:
+- Coordinate shared resources (vehicles, childcare duties)
+- Plan joint activities (meals, recreation, social events)
+- Confirm or modify previous arrangements
+- Share important schedule changes
 
 
-Return a dict in Json format. The dict should contain the following keys:
- - "person name": a string, the name of the person you want to chat with;
- - "query": a string, the query for the person you want to chat with.
+-----CHAT GUIDELINES-----
+WHEN TO CHAT:
+- Coordinating who drives the family car
+- Arranging childcare pickup/dropoff
+- Planning social activities with friends
+- Confirming changed plans
+- Discussing household tasks
+
+WHEN NOT TO CHAT:
+- Routine activities already established
+- Personal activities requiring no coordination
+- Repeating recently confirmed plans
+- General greetings without purpose
+
+
+-----OUTPUT FORMAT-----
+Return a dict in Json format:
+{
+    "person_name": "[Valid family member or friend name, or 'none']",
+    "query": "[Your specific question or proposal]"
+}
 Return just the json file content. DO NOT include any other information.
 
-Notes:
-1) "person name" should be a valid name of your family member or a friend, or "none" if you don't need to chat with anyone to make your daily activity plan.
-2) Avoid unnecessary chatting, like confirming schedules decided before (chat only if changes need to be made)! Avoid repeated chatting with the same person! Be concise!
-3) person name, facility name, that appears in the chatting should all be valid name (case sensitive).
 
-The context:
+-----EXAMPLES-----
+Example 1 - Coordinating childcare:
+{
+    "person_name": "Daniel Nguyen",
+    "query": "Can you pick up Jason from school today? I have a client meeting until 6pm."
+}
+
+Example 2 - Planning social activity:
+{
+    "person_name": "Linda Parker",
+    "query": "Want to grab dinner at Food Court after work? Maybe around 6:30?"
+}
+
+Example 3 - Coordinating vehicle use:
+{
+    "person_name": "Olivia Zhao",
+    "query": "I need the car for grocery shopping this afternoon. Can you take the metro to work?"
+}
+
+Example 4 - No chat needed:
+{
+    "person_name": "none",
+    "query": ""
+}
+
+
+-----CONTEXT-----
+Current time: !<Args: 3>!
 !<Args: 4>!
 
 
-Example output:
-{
-    "person name": "Daniel Nguyen",
-    "query": "How about going to Gym to play basketball after work today?"
-}
+-----IMPORTANT NOTES-----
+1. "person_name" should be a valid name of your family member or a friend, or "none" if you don't need to chat with anyone to make your daily activity plan.
+2. Pay attention to CHAT SUMMARY SECTION section; avoid repetition! 
+3. Avoid unnecessary chatting, like confirming decisions made before! Avoid repeated chatting with the same person! Be concise!
+4. Travel mode ("drive" | "transit") is decided at the start of the day and fixed for the whole day; you may want to coordinate vehicle usage with your spouse.
+5. If you have child, discuss with your spouse about who will take the kid to school in the morning, and who will take back the kid from school in the evening (Drive or transit both are fine).
+6. person name, facility name, that appears in the chat should all be valid name (case sensitive).
+
+Now generate your JSON chat request:

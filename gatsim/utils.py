@@ -8,8 +8,45 @@ from os import listdir
 import json
 import re
 import textwrap
+from gatsim import config
 
-def pretty_print(text, num_indent=0):
+        
+def update_cache(file, persona, content):
+    """ 
+    Update cache file for frontend visualization with concurrency safety
+    
+    Args:
+        file (str): file path; e.g. 
+            - plan file: 'gatsim/cache/curr_plans.json'
+            - message file: 'gatsim/cache/curr_messages.json'
+        persona (Persona): persona
+        content (str): content to be added
+    """
+    with open(file, 'r') as f:
+        data = json.load(f)
+    data[persona.st_mem.name] =  content
+    with open(file, 'w') as f:
+        json.dump(data, f, indent=4)
+
+def update_cache_concurrent_safe(file, persona, content):
+    """ 
+    Update cache file for frontend visualization with concurrency safety
+    
+    Args:
+        file (str): file path; e.g. 
+            - plan file: 'gatsim/cache/curr_plans.json'
+            - message file: 'gatsim/cache/curr_messages.json'
+        persona (Persona): persona
+        content (str): content to be added
+    """
+    with persona._population_lock:
+        with open(file, 'r') as f:
+            data = json.load(f)
+        data[persona.st_mem.name] =  content
+        with open(file, 'w') as f:
+            json.dump(data, f, indent=4)
+
+def pretty_print(text=None, num_indent=0):
     """ 
     Print with margin.
     
@@ -20,10 +57,29 @@ def pretty_print(text, num_indent=0):
     Returns:
         None
     """
+    if text == None:
+        text = ""
+    
+    output_redirect_to_file = config.output_redirect_to_file  # if True then output to file
+    redirect_file = config.redirect_file
+    
     text = str(text)  # Convert to string if necessary
     single_indent = "    "  # default: 4 spaces
     indented_text = textwrap.fill(text, width=120, initial_indent=single_indent * num_indent, subsequent_indent=single_indent * num_indent)
-    print(indented_text)
+    #print(indented_text)
+    
+    if config.concurrent_call:
+        with config.lock:
+            if output_redirect_to_file:
+                with open(redirect_file, "a", encoding="utf-8") as f:
+                    print(indented_text, file=f)
+    else:
+        if output_redirect_to_file:
+            with open(redirect_file, "a", encoding="utf-8") as f:
+                print(indented_text, file=f)
+        else:
+            print(indented_text)
+        
     
 def parse_command(command: str) -> int:
     """ 
@@ -120,7 +176,9 @@ def extract_json_from_string(s):
         a dict
         
     Example:
-        '```json\n{"output": "3"}\n```' -> {'output': '3'}
+        '```json\n{"output": "3"}\n```' 
+        -> 
+        {'output': '3'}
     """
     match = re.search(r'\{.*?\}', s, re.DOTALL)
     if match:

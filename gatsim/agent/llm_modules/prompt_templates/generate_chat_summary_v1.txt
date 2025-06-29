@@ -3,37 +3,105 @@ generate_chat_summary_v1.txt
 Variables: 
 !<Args: 0>! -- simulation description
 !<Args: 1>! -- maze description
-!<Args: 2>! -- persona description
+!<Args: 2>! -- the initiator person description
 !<Args: 3>! -- the other persona description
 !<Args: 4>! -- Chat history
 
 <commentblockmarker>###</commentblockmarker>
 !<Args: 0>! -- simulation description
+
+
 !<Args: 1>! -- maze description
 
-You need to generate summary for a given chat history between two persons (listed below).
-The initiator of the chat:
+
+-----TASK INSTRUCTION-----
+Generate a summary of the chat conversation between two agents, focusing on actionable information for activity planning.
+
+
+-----PARTICIPANTS-----
+Initiator: 
 !<Args: 2>!
 
-The respondent of the chat:
+Respondent: 
 !<Args: 3>!
 
-The chat history to summarize:
+
+-----OUTPUT FORMAT-----
+{
+    "summary": "string - comprehensive summary of key decisions and plans",
+    "keywords": "comma-separated keywords"
+}
+
+
+-----SUMMARY GUIDELINES-----
+**Focus Areas (in priority order):**
+1. Scheduled activities (who, what, where, when)
+2. Plan changes or cancellations
+3. Responsibilities divided between participants
+4. Constraints mentioned (traffic, timing, obligations)
+5. Future commitments made
+
+**Summary Structure:**
+- 2-4 sentences typical (max 100 words)
+- Use full names on first mention
+- Include specific times and locations
+- Preserve exact facility names
+- Note any conditional plans
+
+**Temporal Clarity:**
+- Use clear time references (e.g., "at 16:30", "after work")
+- Indicate sequence of activities
+- Highlight any timing conflicts discussed
+
+
+-----KEYWORD GUIDELINES-----
+**Include keywords for:**
+- All person names mentioned
+- All facility names mentioned
+- Key activities (e.g., "pickup", "meeting", "gym")
+- Important times (e.g., "morning", "evening")
+- NOT common words like "chat", "plan", "go"
+
+**Format:**
+- 3-8 keywords typical
+- Exact names as mentioned
+- No articles or prepositions
+- Most specific term (e.g., "Coffee shop" not "shop")
+
+
+-----EXAMPLES-----
+Family coordination:
+{
+    "summary": "Michael Chen and wife Sarah divided childcare duties - Michael will drop Leo at School at 7:30, Sarah will pick him up at 16:30 after work. Michael plans to visit Gym until 19:30, while Sarah will see a movie with Anna from 17:30-20:00.",
+    "keywords": "Michael Chen, Sarah Chen, Leo Chen, School, Gym, Anna, movie"
+}
+
+Work meeting:
+{
+    "summary": "Thomas Kim confirmed meeting with Fatima Hassan at Office conference room at 14:00 to discuss Q3 budget. Both will prepare reports beforehand.",
+    "keywords": "Thomas Kim, Fatima Hassan, Office, Q3 budget, 14:00"
+}
+
+Plan cancellation:
+{
+    "summary": "Gloria Campbell canceled dinner plans with Margaret Brown due to traffic delays on Ave_3. They rescheduled for same time tomorrow at Food court.",
+    "keywords": "Gloria Campbell, Margaret Brown, Food court, Ave_3, traffic, dinner"
+}
+
+Simple confirmation:
+{
+    "summary": "Tyler Robinson confirmed he'll meet Kevin Martinez at Coffee shop at 10:30 as previously planned.",
+    "keywords": "Tyler Robinson, Kevin Martinez, Coffee shop, 10:30"
+}
+
+-----IMPORTANT NOTES-----
+- Preserve all proper names exactly as written
+- Focus on concrete plans, not social pleasantries
+- Omit greetings and small talk
+- Include only definite plans (not maybes)
+
+
+-----CHAT HISTORY-----
 !<Args: 4>!
 
-
-Return a dict in Json format. The dict should contain the following keys:
- - "summary": a string, the summary of the chat history;
- The summary should be a short, concise, and informative summary of the chat history.
- - "keywords": a string of keywords separated by comma.
-
-Notes:
-1) Return just the json file content. DO NOT include any other information.
-2) The person names, facility names or other names should be kept precise as they are in the chat history (case sensitive).
-
-
-Example output:
-{
-    "summary": "Michael Fillips chatted with his wife Sarah. Michael will drop off their child, Leo, at school, while Sarah will pick him up after finishing her work at 16:30. Michael plans to go to the gym after today's work and go back home at 19:30. Sarah want to go see a movie with Anna around 17:30 and go back home around 20:00.",
-    "keywords": "Michael, Sarah, Leo, school, gym"
-}
+Generate your JSON response:

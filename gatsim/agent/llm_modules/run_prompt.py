@@ -1,6 +1,4 @@
 """
-Author: Joon Sung Park (joonspk@stanford.edu)
-
 File: run_prompt.py
 Description: Defines all run gpt prompt functions. These functions directly
 interface with the llm_safe_generate function.
@@ -12,44 +10,31 @@ import random
 import string
 import ast
 from gatsim import config
-from gatsim import utils
+from gatsim.utils import extract_json_from_string
 from gatsim.agent.llm_modules.llm import (generate_prompt, 
-                                        llm_generate,
+                                        llm_generate, llm_generate_with_json_extraction_and_retries,
                                         llm_safe_generate, 
                                         llm_formated_safe_generate,
                                         print_run_prompts)
 
 
 def generate_importance_score(persona, maze, event_type, content):
-    prompt_input = [config.simulation_description,  # simulation purpose description
-                    maze.network_description,  # transportation environment description
-                    persona.st_mem.get_str_persona_identity(),  # persona description
-                    event_type,
-                    content
+    prompt_input = [config.simulation_description,  # 0 simulation purpose description
+                    maze.network_description,  # 1 transportation environment description
+                    persona.st_mem.get_str_persona_identity(), # 2 persona description
+                    event_type,  # 3 concept type
+                    content  # 4 concept content
                     ]
     
     prompt_template = config.agent_path + "/llm_modules/prompt_templates/generate_importance_score_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
-    output= llm_generate(prompt)
-    output = json.loads(output)
-    return output['score']
+    output= llm_generate_with_json_extraction_and_retries(prompt) #llm_generate(prompt)
+    return float(output['score']) / 10.0  
+    # Here we can normalize score to [0,1], and this value will be stored in the concept node
+    # We can do this because importance score is only used for the retrieval propose;
+    # the score is not shown to the AI agent again (otherwise agent will be confused about the scale!). 
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

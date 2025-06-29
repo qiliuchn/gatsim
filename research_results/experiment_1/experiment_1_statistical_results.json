@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "total_questions": 50,
+    "ai_wins": 23,
+    "human_wins": 20,
+    "ties": 7,
+    "ai_win_rate": 0.46,
+    "tie_rate": 0.14,
+    "ai_at_least_as_good_rate": 0.6
+  },
+  "sign_test": {
+    "statistic": 0.5348837209302325,
+    "pvalue": 0.38039582128067195
+  },
+  "bayesian_analysis": {
+    "posterior_mean": 0.5961538461538461,
+    "credible_interval": [
+      0.46114098957980765,
+      0.7241570394874148
+    ],
+    "prob_ai_at_least_as_good": 0.9196101990940058,
+    "posterior_alpha": 31,
+    "posterior_beta": 21
+  },
+  "effect_sizes": {
+    "cohens_h": 0.13964832996672394,
+    "cohens_h_interpretation": "Small effect",
+    "odds_ratio": 1.15,
+    "log_odds_ratio": 0.13976194237515863,
+    "odds_ratio_ci": [
+      0.6316039977361727,
+      2.0938752837856818
+    ],
+    "proportional_reduction_error": 0.19000000000000003
+  },
+  "sensitivity_analysis": {
+    "ties_favor_ai": {
+      "ai_win_rate": 0.6,
+      "p_value": 0.10131937553227033
+    },
+    "ties_favor_human": {
+      "ai_win_rate": 0.46,
+      "p_value": 0.7600561691508361
+    },
+    "exclude_ties": {
+      "ai_win_rate": 0.5348837209302325,
+      "p_value": 0.38039582128067195
+    }
+  },
+  "interpretation": {
+    "tie_interpretation": "Low tie rate suggests clear differences between AI and human responses",
+    "overall_conclusion": "Weak"
+  }
+}

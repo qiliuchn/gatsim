@@ -29,7 +29,7 @@
                         <p><strong>Simulation:</strong> <span id="sim-name">-</span></p>
                         <p><strong>Step:</strong> <span id="sim-step">-</span></p>
                         <p><strong>Time:</strong> <span id="sim-time">-</span></p>
-                        <p><strong>Usage:</strong><br>1. Fill fork name, simulation run name, command; then click "Submit".<br>2. Click "Start".</p>
+                        <p><strong>Usage:</strong><br>1. Fill fork name, run name, command (optional);<br>2. Click "<b><span style="color: green;">Submit</span></b>" button;<br>3. Click "<b><span style="color: blue;">Start</span></b>" button;<br>4. Click "<b><span style="color: red;">Stop</span></b>" button to interrupt.</p>
                     </div>
                 </div>
                 <div class="map-info">
@@ -54,8 +54,8 @@
                 <button id="stop-button" class="btn btn-danger" disabled>Stop</button>
             </div>
             <div class="control-inputs">
-                <input type="text" id="fork-name" placeholder="Fork name (default: base_the_town); 'none' for creating a new simulation">
-                <input type="text" id="sim-name-input" placeholder="Simulation name (default: sim_<MMDD>_<HHmm>)">
+                <input type="text" id="fork-name" placeholder="Fork name (default: creating a new simulation)">
+                <input type="text" id="sim-name-input" placeholder="Simulation run name (default: sim_<MMDD>_<HHmm>)">
 				<input type="text" id="cmd-input" placeholder="Command (default: 'run 1 day')">
                 <button id="submit-button" class="btn btn-success">Submit</button>
             </div>

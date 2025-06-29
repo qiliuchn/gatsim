@@ -1,0 +1,488 @@
+{
+    "name": "Carol Green",
+    "age": 42,
+    "gender": "female",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "Hospital",
+    "work_time": "8:00-17:00",
+    "occupation": "night shift nurse",
+    "preferences_in_transportation": "use transit work for night shift safety, walks during day",
+    "innate": "compassionate, resilient, reliable, calm under pressure",
+    "lifestyle": "sleeps during day, enjoys gardening, volunteers at health screenings",
+    "home_facility": "Midtown apartment",
+    "household_size": 2,
+    "other_family_members": {
+        "husband": "Oliver Green"
+    },
+    "number_of_vehicles_in_family": 2,
+    "household_income": "middle",
+    "friends": [
+        "Sarah Chen"
+    ],
+    "other_description": "Carol provides critical overnight patient care and is valued for her calm presence during emergencies. She learns from Sarah Chen's medical expertise and shares nursing experiences.",
+    "curr_time": "2025-03-13 18:00:00",
+    "original_plans": [
+        {
+            "reflection": "This past week has been fairly routine, with my usual night shifts at the Hospital. I've managed to balance sleep during the day and some gardening time in the late afternoon when it's quiet. I spoke with Oliver about coordinating our schedules, and we\u2019ve agreed that he will handle commuting to the Factory while I focus on my night shifts and errands during daylight hours. Sarah mentioned a community health screening event next weekend where we can volunteer together \u2014 looking forward to that! Travel-wise, I\u2019ve noticed that taking the metro for night shifts feels safer and avoids congestion near the Supermarket and Food court around 18:00. I\u2019ll try to avoid driving through those zones during peak times.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "12:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes her morning routine after daytime sleep."
+                ],
+                [
+                    "Supermarket",
+                    "13:00",
+                    20,
+                    "drive",
+                    "Ave_2_link_1, Ave_2_link_2",
+                    "Drive from Midtown apartment to Supermarket to do grocery shopping for the week."
+                ],
+                [
+                    "Museum",
+                    "14:00",
+                    60,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Visit Museum to explore new exhibits before heading back."
+                ],
+                [
+                    "Midtown apartment",
+                    "15:30",
+                    "none",
+                    "drive",
+                    "St_2_link_2, St_2_link_1",
+                    "Return home for rest and prepare for the night shift."
+                ],
+                [
+                    "Hospital",
+                    "19:30",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take metro from Midtown apartment to Hospital for the night shift."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    "none",
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_2, Metro_2_link_1",
+                    "After finishing the shift, take the metro back home to rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "The traffic is congested in the afternoon peak hour around 18:00",
+                    "network, congested, afternoon",
+                    "the town",
+                    "17:30-19:00"
+                ],
+                [
+                    "Supermarket and Food court zone around 6PM is very congested",
+                    "Supermarket, Food court, congested",
+                    "Supermarket, Food court",
+                    "18:00-19:00"
+                ],
+                [
+                    "Metro_2 provides reliable service during off-peak hours",
+                    "Metro_2, reliable",
+                    "Metro_2",
+                    "19:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This past week has been relatively stable, with my usual night shifts at the Hospital and some daylight gardening time. I\u2019ve noticed that the Supermarket can be unexpectedly busy during midday, so I should plan for more buffer time in the future or consider alternative shopping times. I appreciated coordinating with Oliver at the Museum yesterday \u2014 it was a nice way to share some quality time despite our differing schedules. I also learned that nighttime metro travel remains reliable and safe for getting to and from my shifts. Looking ahead, Sarah and I are excited about the community health screening event next weekend where we can volunteer together. I\u2019ll continue prioritizing rest during the day, supporting household needs, and ensuring reliable transit for work. Travel-wise, I\u2019ll stick to the metro for night shifts and avoid peak congestion zones like the Supermarket and Food court around 18:00.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "12:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes her morning routine after daytime sleep."
+                ],
+                [
+                    "Supermarket",
+                    "13:45",
+                    20,
+                    "drive",
+                    "Ave_2_link_1, Ave_2_link_2",
+                    "Drive from Midtown apartment to Supermarket to pick up coffee filters and snacks for Thursday evening."
+                ],
+                [
+                    "Museum",
+                    "14:15",
+                    60,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Visit Museum to relax and explore exhibits before returning home."
+                ],
+                [
+                    "Midtown apartment",
+                    "15:45",
+                    "none",
+                    "drive",
+                    "St_2_link_2, St_2_link_1",
+                    "Return home for rest and prepare for tonight's shift."
+                ],
+                [
+                    "Hospital",
+                    "19:30",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take metro from Midtown apartment to Hospital for the night shift."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    "none",
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_2, Metro_2_link_1",
+                    "After finishing the shift, take the metro back home to rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Supermarket experiences unexpected delays during midday",
+                    "Supermarket, delays, midday",
+                    "Supermarket",
+                    "12:00-15:00"
+                ],
+                [
+                    "Nighttime metro travel reliable and safe for hospital shifts",
+                    "metro, reliable, safe, night",
+                    "Metro_2, Metro_1",
+                    "22:00-06:00"
+                ],
+                [
+                    "Meeting point coordination effective at Museum with Oliver",
+                    "coordination, Museum, meeting",
+                    "Museum",
+                    "all-day"
+                ],
+                [
+                    "Museum accessible via St_2 with minimal travel time",
+                    "Museum, St_2, travel time",
+                    "St_2_link_1, St_2_link_2",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "Yesterday was a reminder of how important flexibility is in my schedule, especially during daytime errands. The unexpected congestion at the Supermarket threw off my original plan, forcing me to skip the Museum visit. However, I managed to adapt by prioritizing rest before my night shift, which remained unaffected. Travel-wise, using the metro for my hospital shift continues to be reliable and safe, reinforcing my trust in this mode of transport during late hours. Looking ahead, I will avoid midday shopping at the Supermarket and instead consider early mornings or evenings when it's likely less crowded. I also need to better coordinate evening Gym visits with Oliver to ensure smooth vehicle use transitions.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "12:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes her morning routine after daytime sleep."
+                ],
+                [
+                    "Supermarket",
+                    "13:00",
+                    20,
+                    "drive",
+                    "Ave_2_link_1",
+                    "Drive from Midtown apartment to Supermarket to pick up essentials during an earlier, hopefully quieter time."
+                ],
+                [
+                    "Gym",
+                    "14:00",
+                    60,
+                    "drive",
+                    "St_1_link_1, St_1_link_2",
+                    "Visit Gym for light exercise and relaxation before returning home."
+                ],
+                [
+                    "Midtown apartment",
+                    "15:30",
+                    "none",
+                    "drive",
+                    "St_1_link_2, St_1_link_1",
+                    "Return home for rest and prepare for tonight's shift."
+                ],
+                [
+                    "Hospital",
+                    "19:30",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take metro from Midtown apartment to Hospital for the night shift."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    "none",
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_2, Metro_2_link_1",
+                    "After finishing the shift, take the metro back home to rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Supermarket experiences unexpected delays during midday",
+                    "Supermarket, delay, midday",
+                    "Supermarket",
+                    "12:00-15:00"
+                ],
+                [
+                    "Driving to Gym via St_1_link_1, St_1_link_2 is efficient during afternoon",
+                    "Gym, route efficiency, afternoon",
+                    "St_1_link_1, St_1_link_2",
+                    "13:30-15:00"
+                ],
+                [
+                    "Metro_2 remains reliable and safe for nighttime travel",
+                    "Metro_2, reliable, safe, night",
+                    "Metro_2",
+                    "19:00-22:00"
+                ],
+                [
+                    "Midtown apartment to Supermarket drive time can be reduced in early afternoon",
+                    "Supermarket, early errand, drive time",
+                    "Ave_2_link_1",
+                    "12:30-13:30"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a balance of managing my night shift responsibilities, maintaining personal well-being, and coordinating with Oliver for household logistics. I've noticed that daytime errands are more efficient when planned earlier or later in the day to avoid congestion at places like the Supermarket. My reliance on the metro for night shifts continues to be justified due to its safety and reliability, while driving is best reserved for off-peak hours. I\u2019ve also learned to incorporate buffer times into my schedule to accommodate unexpected queuing delays. Looking ahead, I plan to maintain this structured approach to ensure smooth transitions between work, rest, and personal activities.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "12:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home after daytime sleep and complete morning routine."
+                ],
+                [
+                    "Supermarket",
+                    "13:00",
+                    20,
+                    "drive",
+                    "Ave_2_link_1",
+                    "Drive from Midtown apartment to Supermarket to pick up essentials during an earlier, quieter time."
+                ],
+                [
+                    "Gym",
+                    "14:10",
+                    60,
+                    "drive",
+                    "St_1_link_1, St_1_link_2",
+                    "Visit Gym for light exercise and relaxation before returning home."
+                ],
+                [
+                    "Midtown apartment",
+                    "15:40",
+                    "none",
+                    "drive",
+                    "St_1_link_2, St_1_link_1",
+                    "Return home for rest and prepare for tonight's shift."
+                ],
+                [
+                    "Hospital",
+                    "19:30",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take metro from Midtown apartment to Hospital for the night shift."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    "none",
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_2, Metro_2_link_1",
+                    "After finishing the shift, take the metro back home to rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Supermarket experiences queuing delays around midday",
+                    "Supermarket, queuing, midday",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Gym accessible with minimal travel time when roads are clear",
+                    "Gym, travel time, road clear",
+                    "Gym",
+                    "14:00-16:00"
+                ],
+                [
+                    "Midtown apartment to Hospital via Metro_2 is reliable for night shifts",
+                    "Hospital, Metro_2, reliable",
+                    "Metro_2",
+                    "19:00-20:00"
+                ],
+                [
+                    "Buffer of 20 minutes should be considered for midday errands",
+                    "buffer, errands, delay",
+                    "the town",
+                    "12:00-15:00"
+                ],
+                [
+                    "St_1_link_2 frequently experiences delays during evening hours",
+                    "St_1_link_2, delays, evening",
+                    "St_1_link_2",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I completed my shopping at the Supermarket and am now at Node_6, which is the facility node for the Supermarket. Since I arrived earlier than planned and finished my errand efficiently, I have flexibility in my schedule. There is no congestion reported on any road links, so travel conditions are favorable. My next activity was originally to go to the Gym, which aligns with my routine of maintaining physical well-being before heading back home to prepare for tonight's shift. I will proceed as planned while ensuring I allocate sufficient time for exercise.",
+            "plan": [
+                [
+                    "Gym",
+                    "14:10",
+                    60,
+                    "drive",
+                    "St_1_link_2, St_1_link_1, St_1_link_2",
+                    "Drive from Supermarket to Gym via Node_9 and Node_13 for a relaxing afternoon workout session."
+                ],
+                [
+                    "Midtown apartment",
+                    "15:40",
+                    "none",
+                    "drive",
+                    "St_1_link_2, St_1_link_1",
+                    "Return home to rest and prepare for tonight's hospital shift."
+                ],
+                [
+                    "Hospital",
+                    "19:30",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take the metro from Midtown apartment to Hospital for the night shift as previously scheduled."
+                ],
+                [
+                    "Hospital",
+                    "07:00",
+                    "none",
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_2, Metro_2_link_1",
+                    "After finishing the shift, take the metro back home to rest."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-13 13:19:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today started with a significant delay at the Supermarket, where I waited over 100 minutes due to unexpectedly long queues. This disrupted my original plan, causing me to miss the intended Museum visit time. Fortunately, there was no congestion in the transportation network, allowing me to adjust my route efficiently and proceed directly to the Museum after shopping. I managed to spend a full hour exploring exhibits, though slightly later than planned. Coordination with Oliver went smoothly \u2014 we met at the Museum around 17:45 as he arrived from the Factory, and then I returned home in time to rest before my night shift. The metro ride to the Hospital was reliable and safe, as expected during nighttime hours. After completing my shift, I took the metro back home without any issues. Overall, despite the early disruption, I was able to adapt and fulfill most of my planned activities. I learned that peak times at the Supermarket can be unpredictable and should include more buffer time for errands. Additionally, coordinating with Oliver in person at the Museum strengthened our shared time together.",
+            "concepts": [
+                [
+                    "Supermarket experiences unexpected delays during midday",
+                    "Supermarket, delays, shopping",
+                    "Supermarket",
+                    "12:30-14:00"
+                ],
+                [
+                    "Museum accessible via St_2_link_1 and St_2_link_2 with minimal travel time",
+                    "Museum, travel route, St_2",
+                    "St_2_link_1, St_2_link_2",
+                    "all-day"
+                ],
+                [
+                    "Meeting point coordination effective at Museum with Oliver",
+                    "coordination, Museum, family",
+                    "Museum",
+                    "17:30-18:00"
+                ],
+                [
+                    "Nighttime metro travel reliable and safe for hospital shifts",
+                    "Metro_2, transit safety, night shift",
+                    "Metro_2",
+                    "19:00-22:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "My day started with a solid plan: wake up, run errands at the Supermarket, enjoy some time at the Museum, then rest before my night shift at the Hospital. However, the unexpected 131-minute delay at the Supermarket due to midday congestion completely disrupted my schedule. I had to cancel the Museum visit and returned directly home to preserve rest time. While traffic was consistently uncongested and allowed for smooth travel, the lack of buffer in my original plan left no room for such disruptions. I realized that midday shopping at the Supermarket is riskier than anticipated, and future plans should either avoid it during those hours or include sufficient padding. Fortunately, I could adapt by simplifying the activity chain, which helped me still arrive home with enough time to prepare mentally and physically for my hospital shift.",
+            "concepts": [
+                [
+                    "Supermarket unexpectedly busy during midday causing long delays",
+                    "Supermarket, congestion, shopping, midday",
+                    "Supermarket",
+                    "12:00-15:00"
+                ],
+                [
+                    "Direct return home after unexpected delay preserves rest before night shift",
+                    "rest, scheduling flexibility, plan adaptation",
+                    "Ave_2_link_1, Ave_2_link_2",
+                    "16:00-18:00"
+                ],
+                [
+                    "Museum visit can be optional if schedule pressure arises",
+                    "Museum, optional activity, flexibility",
+                    "Museum",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required adjustments due to unexpected queuing delays at the Supermarket, which pushed back my Gym visit by nearly 20 minutes. However, clear traffic conditions allowed me to proceed with a revised plan without further complications. I managed to complete my Gym session and return home on time for rest before tonight\u2019s hospital shift. The use of driving between Supermarket \u2192 Gym \u2192 Midtown apartment was efficient given the absence of congestion. My reliance on metro for night shift remains justified due to its reliability and safety. Overall, today reinforced the importance of buffer times during daytime errands and confirmed that my current transportation preferences align well with my schedule and needs.",
+            "concepts": [
+                [
+                    "Supermarket experiences queuing delays around midday",
+                    "Supermarket, queuing, midday",
+                    "Supermarket",
+                    "12:30-14:00"
+                ],
+                [
+                    "Gym accessible with minimal travel time when roads are clear",
+                    "Gym, travel efficiency, drive",
+                    "St_1_link_1, St_1_link_2",
+                    "14:00-15:30"
+                ],
+                [
+                    "Midtown apartment to Hospital via Metro_2 is reliable for night shifts",
+                    "Metro_2, transit, night commute",
+                    "Metro_2",
+                    "19:30-20:30"
+                ],
+                [
+                    "Buffer of 20 minutes should be considered for midday errands",
+                    "buffer time, scheduling, flexibility",
+                    "The town",
+                    "12:00-16:00"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        }
+    ],
+    "plan_revision_description": "Time: 13:19\nReflections: \nI completed my shopping at the Supermarket and am now at Node_6, which is the facility node for the Supermarket. Since I arrived earlier than planned and finished my errand efficiently, I have flexibility in my schedule. There is no congestion reported on any road links, so travel conditions are favorable. My next activity was originally to go to the Gym, which aligns with my routine of maintaining physical well-being before heading back home to prepare for tonight's shift. I will proceed as planned while ensuring I allocate sufficient time for exercise.\nPlan revisions:\nCarol Green update future activity plan:\n[['Gym', '14:10', 60, 'drive', 'St_1_link_2, St_1_link_1, St_1_link_2', 'Drive from Supermarket to Gym via Node_9 and Node_13 for a relaxing afternoon workout session.'], ['Midtown apartment', '15:40', 'none', 'drive', 'St_1_link_2, St_1_link_1', \"Return home to rest and prepare for tonight's hospital shift.\"], ['Hospital', '19:30', 120, 'transit', 'Metro_2_link_1, Metro_2_link_2, Metro_2_link_3', 'Take the metro from Midtown apartment to Hospital for the night shift as previously scheduled.'], ['Hospital', '07:00', 'none', 'transit', 'Metro_2_link_3, Metro_2_link_2, Metro_2_link_1', 'After finishing the shift, take the metro back home to rest.']] Time: 15:10\nReflections:\nI've completed my workout session at the Gym and am currently staying there as planned. The drive from the Supermarket to the Gym was smooth with no reported congestion, taking 31 minutes total. I followed the planned path (St_1_link_2, St_1_link_1, St_1_link_2) without issues. Since I arrived at 14:10 and planned to stay for 1.5 hours, I've likely been exercising for about an hour already. With the current time at 15:10, it's time to consider returning home to rest before my night shift at the Hospital. There is no reported congestion in the network, so travel conditions remain favorable.\nPlan revisions:\nCarol Green update current path to ['St_1_link_2', 'St_1_link_1']\n\nTime: 15:40\nReflections:\nI have completed my afternoon workout session at the Gym as planned and am now ready to return home. There is no congestion reported on any road links, so travel conditions remain favorable. Since I arrived at the Gym on time and finished my activity efficiently, there's no need for significant revisions to my plan. My next step is to return home to rest before preparing for my night shift at the Hospital.\nPlan revisions:\nCarol Green update current path to ['St_1_link_2', 'St_1_link_1']\n\n",
+    "activity_index": 1,
+    "activity_facility": "Midtown apartment",
+    "activity_departure_time": "2025-03-13 15:40:00",
+    "activity_duration": 230,
+    "travel_mode": "drive",
+    "reflect_every": null,
+    "activity_description": "Return home to rest and prepare for tonight's hospital shift.",
+    "planned_path": [],
+    "curr_place": "Midtown apartment",
+    "curr_status": "Staying at facility Midtown apartment",
+    "trip_start_facility": null,
+    "trip_trajectory": null
+}

@@ -1,60 +1,146 @@
-daily_reflect_v1.txt
+daily_reflection_v1.txt
 
 Variables: 
 !<Args: 0>! -- Simulation description
 !<Args: 1>! -- Network description
 !<Args: 2>! -- Person description
 !<Args: 3>! -- Simulation datetime now
-!<Args: 4>! -- Today original plan and reflection
+!<Args: 4>! -- Today original plan and reflections
 !<Args: 5>! -- Today Revised plans and reflections
 
 
 <commentblockmarker>###</commentblockmarker>
 !<Args: 0>!
 
+
 !<Args: 1>!
+
 
 You play the role of the person:
 !<Args: 2>!
 
-Current time is !<Args: 3>!. Now you need to reflect on your daily experiences. Insights and important events should be recorded to help you to making better activity plans in the future.
+
+-----TASK INSTRUCTION-----
+Current time is !<Args: 3>!.
+Reflect on today's experiences to identify patterns, lessons, and insights that will improve future planning.
 You can also generate concepts (especially traffic related concepts) about important things or ideas to be remembered in the long term memory (optional but recommended). 
 
 
+-----OUTPUT FORMAT-----
+{
+    "reflection": "string - narrative reflection on the day",
+    "concepts": [[<content>, <keywords>, <spatial_scope>, <time_scope>], ...]
+}
 
-The output should be a dict in Json format with the following keys:
- - "reflection": Insights from today's activity plan revisions.
- - "concepts": a list of concepts; Here "concept" means an idea or thought to be remembered. These memories will help you to make better future decisions. 
- A concept should be a list of four elements:
+
+-----REFLECTION GUIDELINES-----
+"reflection" is a string that summaries what's happened today.
+
+**Structure your reflection around:**
+1. **Plan Adherence**
+- Which activities went as planned?
+- What required adjustment and why?
+- Were time estimates accurate?
+
+2. **Traffic & Transportation**
+- Route performance vs. expectations
+- Congestion patterns observed
+- Travel mode effectiveness
+
+3. **Social & Family**
+- Coordination successes/challenges
+- Commitments kept or missed
+- Relationship impacts of schedule
+
+4. **Personal Well-being**
+- Work-life balance today
+- Stress points in schedule
+- Activities that energized/drained you
+
+5. **Key Learnings**
+- What would you do differently?
+- Patterns worth remembering
+- Planning improvements for tomorrow
+
+
+-----CONCEPTS GUIDELINES-----
+"concepts" a list of concepts to be remembered (optional but recommended). These memories will help you to make better future decisions.
+
+Generate 0-5 concepts for long-term memory. Focus on:
+- Recurring patterns (not one-time events); especially traffic related patterns
+- Actionable insights for future planning
+- Specific locations and time windows
+
+
+**Content Types:**
+- Traffic patterns: "Ave_3 consistently congested during morning commute"
+- Facility patterns: "Gym less crowded after 19:00"
+- Activity timing: "Client meetings often run 30 minutes over scheduled time"
+- Coordination insights: "School pickup requires 15-minute buffer for parking"
+DO NOT fabricate concepts; base patterns on your actual experiences.
+
+**Required Format for each concept:**
 [<content>, <keywords>, <spatial_scope>, <time_scope>]
-where 
-<content> is a string, which is the content of the concept;
-<keywords> is a string composed of keywords separated by comma, like "Gym, crowded, 6PM";
-<spatial_scope>:  a string that describe the spatial scope related to the concept. It must be a list of entities separated by comma. An entity can be a link name or road name or facility name or maze name.
-If the concept content is about a link, say "Ave_3_link_2 is very congested in the morning", then spatial_scope is "Ave_3_link_2";
-If the concept content is about a facility, say "Food court is crowded during 5PM - 6PM", then spatial_scope is "Food court";
-If the concept content is about a road or a metro line, say "The Metro_2 is very crowded during 7AM - 9AM", then spatial_scope is "Metro_2";
-If the concept is about a path, say "The path from Uptown apartment to Office (St_2_link_1 -> St_2_link_2 -> Ave_3_link_1 -> Ave_3_link_2 -> Ave_3_link_3) has long delay in the morning", then the spatial_scope should be "Uptown apartment, Office, St_2, Ave_3";
-If the <content> is about the whole network, then the <spatial_scope> is "The town".
-<time_scope>: time scope of the concept, it must be two time string separated by '-', like "11:00-13:30", and the time should be in 24-hour format. Do NOT include anything else in the time string (e.g. "11:00PM-1:30PM", '2025-03-10 12:00-16:00' are not allowed)!
-
-Notes:
-1) Person names, facility names, link names, road names, etc. should all be valid names (case sensitive).
-2) Return just the json file content. DO NOT include any other information.
 
 
+**Field Definitions:**
+<content>: a string; content of the concept;
+<keywords>: a string composed of keywords separated by comma, like "Gym, crowded, 6PM";
+<spatial_scope>: a string that describe the spatial scope related to the concept. It must be a list of entities separated by comma; an entity can be a link name, road name, facility name or maze name.
+<time_scope>: time scope of the concept; it must be two time string separated by '-', like "11:00-13:30", and the time should be in 24-hour format. Do NOT include anything else in the time string (for example, "11:00PM-1:30PM", '2025-03-10 12:00-16:00', 'all-day' are not allowed)!
+
+
+**Spatial Scope Options:**
+- Specific link: e.g. "Ave_3_link_2"
+- Road/Metro: e.g. "Ave_3", "Metro_2"  
+- Facility: e.g. "Supermarket"
+- Area: e.g. "Food court, Coffee shop"
+- Whole network: "the town"
+
+
+-----EXAMPLES-----
+Balanced day:
+{
+    "reflection": "Morning commute went smoothly using Metro_2 instead of driving - saved 20 minutes versus yesterday. Successfully balanced work deadline with family dinner by leaving Office promptly at 17:30. Evening gym session with friends was energizing after stressful work day. Should continue prioritizing these social exercise sessions.",
+    "concepts": [
+        ["Metro_2 faster than driving during morning rush hour", "Metro_2, efficient, morning commute", "Metro_2", "07:00-09:00"],
+        ["Leaving Office by 17:30 enables family dinner", "Office, family time, work-life balance", "Office", "17:00-18:00"]
+    ]
+}
+
+Challenging day:
+{
+    "reflection": "Unexpected Ave_3 closure caused 45-minute delay reaching Office, missing important 9AM meeting. Rushed between appointments all day trying to catch up. Skipped lunch and gym plans. Need buffer time between activities and backup routes. Traffic apps could help avoid major delays.",
+    "concepts": [
+        ["Check traffic conditions before morning departure", "traffic, morning routine, planning", "The town", "06:30-07:00"],
+        ["Ave_3 prone to incidents during rush hours", "Ave_3, incidents, unreliable", "Ave_3", "07:00-09:00"],
+        ["30-minute buffers needed between critical meetings", "meetings, scheduling, buffer time", "Office", "09:00-17:00"]
+    ]
+}
+
+Family-focused day:
+{
+    "reflection": "Working from home allowed flexible schedule for daughter's school event at 14:00. Coordinating pickup with spouse via morning chat prevented afternoon confusion. Early departure to Supermarket beat usual 18:00 crowds. More remote work days would improve family participation.",
+    "concepts": [
+        ["Supermarket less crowded before 17:30", "Supermarket, shopping, timing", "Supermarket", "16:00-17:30"],
+        ["Morning coordination chats prevent afternoon conflicts", "family, coordination, morning planning", "The town", "07:00-08:00"]
+    ]
+}
+
+
+-----IMPORTANT NOTES-----
+- Focus on patterns, not just single events
+- Consider both successes and challenges
+- Connect observations to future improvements
+- Keep facility/road names exact
+
+
+-----TODAY'S CONTEXT-----
+Current time: !<Args: 3>!
 Your today's original activity plan and plan revisions are listed below as context:
+
 !<Args: 4>!
 
 !<Args: 5>!
 
-
-Example output:
-{
-    "reflection":"Today there is a car crash at Ave_3_link_2 on my way to Office to work in the morning. I got late due to the accident. Maybe I should go to work earlier next time. The school is really crowded in the afternoon peak hour. I should try to avoid School area in the afternoon peak hour.",
-    "concepts": [
-        ["Supermarket and Food court area around 6PM is very congested", "Supermarket, Food court, congested", "Supermarket, Food court", "18:00-19:00"],
-        ["Ave_3_link_2 has long waiting time in morning peak hour", "Ave_3_link_2, long waiting time, morning peak hour", "Ave_3_link_2", "07:00-08:00"],
-        ["School is crowded in the afternoon", "School, crowded, afternoon", "School", "17:30-18:30"]
-    ]
-}
+Now generate the JSON output:

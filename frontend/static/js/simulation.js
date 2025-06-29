@@ -256,9 +256,10 @@ function positionSpeechBubble(bubble, px, py, container) {
 
   // Function to calculate offset for overlapping avatars
   function calculateAvatarOffset(personas, index, tileX, tileY) {
+    // Offset is added to the avatar's position to avoid overlap!!
     const avatarSize = 24;
-    const radius = avatarSize / 2;
-    const angle = (Math.PI * 2 / personas.length) * index;
+    const radius = avatarSize * 1.5 * ((index % 4) * 0.25);  // radius of the circle; configurable parameter
+    const angle = (Math.PI * 4 / personas.length) * index;
     
     // Base position
     const px = tileX * mapMeta.sq_tile_size;
@@ -522,6 +523,7 @@ function chooseAvatar(person) {
         'licensed_driver',
         'home_facility',
         'work_facility',
+        'work_time',
         'occupation',
         'household_size',
         'number_of_vehicles_in_family',
@@ -539,7 +541,22 @@ function chooseAvatar(person) {
           const label = key
             .replace(/_/g,' ')
             .replace(/\b\w/g, m => m.toUpperCase());
-          html += `<p><strong>${label}:</strong> ${person[key]}</p>`;
+          //html += `<p><strong>${label}:</strong> ${person[key]}</p>`;
+
+          // handle dictionary values
+          let value = person[key];
+          if (typeof value === 'object') {
+            try {
+              value = JSON.stringify(value, null, 4)  // or use a custom formatter
+                .replace(/^{|}$/g, '')                // remove outer braces
+                .replace(/"([^"]+)":/g, '<br>&nbsp;&nbsp;<strong>$1:</strong>') // indent keys
+                .replace(/"/g, '');                   // strip remaining quotes
+            } catch (e) {
+              value = '[Object]';
+            }
+          }
+          html += `<p><strong>${label}:</strong> ${value}</p>`;
+
         }
       });
   

@@ -5,7 +5,8 @@
             4
         ],
         "description": "A residential apartment in the northwestern part of the town.",
-        "base capacity": 30
+        "base_capacity": 50,
+        "average_stay": 600
     },
     "Midtown apartment": {
         "coord": [
@@ -13,7 +14,8 @@
             16
         ],
         "description": "A residential apartment in the western part of the town.",
-        "base capacity": 30
+        "base_capacity": 50,
+        "average_stay": 600
     },
     "Office": {
         "coord": [
@@ -21,7 +23,8 @@
             31
         ],
         "description": "An office building in the town. One of the two major industries in the town.",
-        "base capacity": 30
+        "base_capacity": 30,
+        "average_stay": 480
     },
     "Factory": {
         "coord": [
@@ -29,7 +32,8 @@
             43
         ],
         "description": "A factory in the town. One of the two major industries in the town.",
-        "base capacity": 30
+        "base_capacity": 30,
+        "average_stay": 480
     },
     "School": {
         "coord": [
@@ -37,7 +41,8 @@
             16
         ],
         "description": "The only school in the town that enrolls both elementary and high school students.",
-        "base capacity": 30
+        "base_capacity": 30,
+        "average_stay": 480
     },
     "Supermarket": {
         "coord": [
@@ -45,23 +50,26 @@
             16
         ],
         "description": "A supermarket in the town where you can buy household items.",
-        "base capacity": 10
+        "base_capacity": 8,
+        "average_stay": 60
     },
     "Hospital": {
         "coord": [
-            16,
-            27
+            13,
+            33
         ],
         "description": "The only hospital in the town.",
-        "base capacity": 10
+        "base_capacity": 8,
+        "average_stay": 120
     },
     "Gym": {
         "coord": [
             25,
             38
         ],
-        "description": "A gym where you can do various sports, such as basketball, swimming, and yoga. A good place for exercise.",
-        "base capacity": 10
+        "description": "A gym where you can do various sports, such as basketball, swimming, yoga, and all sorts of training. A good place for exercise.",
+        "base_capacity": 8,
+        "average_stay": 120
     },
     "Food court": {
         "coord": [
@@ -69,7 +77,8 @@
             16
         ],
         "description": "An open, shared seating area surrounded by multiple food vendors or kiosks. A good place for socializing and eating.",
-        "base capacity": 10
+        "base_capacity": 8,
+        "average_stay": 80
     },
     "Coffee shop": {
         "coord": [
@@ -77,7 +86,8 @@
             27
         ],
         "description": "A nice coffee shop. A good place for socializing and drinking.",
-        "base capacity": 10
+        "base_capacity": 8,
+        "average_stay": 120
     },
     "Amusement park": {
         "coord": [
@@ -85,7 +95,8 @@
             16
         ],
         "description": "A theme park with various entertainment facilities (such as a Ferris wheel, roller coaster, and water park. A good place for family relaxation and fun.",
-        "base capacity": 20
+        "base_capacity": 8,
+        "average_stay": 240
     },
     "Cinema": {
         "coord": [
@@ -93,7 +104,8 @@
             27
         ],
         "description": "A cinema. A good place for relaxation and watching movies.",
-        "base capacity": 10
+        "base_capacity": 8,
+        "average_stay": 100
     },
     "Museum": {
         "coord": [
@@ -101,6 +113,7 @@
             4
         ],
         "description": "A museum with exhibitions of various cultural, artistic, and technological artifacts. A good place for learning about history and culture, and to discover new things.",
-        "base capacity": 10
+        "base_capacity": 8,
+        "average_stay": 180
     }
 }

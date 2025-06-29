@@ -1,0 +1,62 @@
+I'm writing a python project to simulation the dynamics of human mobility. I need to create a synthetic population of 50 personas.
+The setting is a town with 13 nodes, 13 facilities and 27 links (road links and metro line links). This town has four avenues, five streets, and two metro lines. The network is described below.
+
+TRANSPORTATION NETWORK: the town
+
+NETWORK OVERVIEW:
+This transportation network consists of 13 nodes connected by 27 links.
+There are 13 facilities located at various nodes throughout the network.
+
+-----NETWORK SECTION START-----
+...
+-----NETWORK SECTION END-----
+
+
+Each persona has the following properties:
+# Personal attributes:
+ - name (str)
+ - gender (str: 'male'/'female')
+ - age (int)
+ - highest_level_of_education
+ - family_role (str: 'husband'/'wife'/'son'/'daughter'/'single')
+ - licensed_driver (Bool)
+ - work_facility (str: 'School'/'Museum'/'Hospital'/'Cinema'/'Supermarket'/'Food court'/'Amusement park'/'Coffee shop'/'Factory'/'Office'/'Gym')
+ - occupation (str)
+ - preferences_in_transportation (str)
+ - innate (str)
+ - lifestyle (str)
+# Household attributes
+ - home_facility (str: 'Uptown apartment'/'Midtown apartment')
+ - household_size (int)
+ - other_family_members (a list of names)
+ - number_of_vehicles_in_family (int)
+ - household_income (str: "high", "middle", "low")
+# Social attributes:
+ - friends (a list of names)
+# Additional
+ - other_description (str)
+
+Requirements:
+ - The number of family members could be 1 (single), 2 (husband and wife), 3 (husband and wife and child), or 4 (husband and wife and two children).
+ - Single persona's age should be in range of 18 to 75. Husband and wife's age should also be in range of 25 to 75. Children's age should be in range of 1 to 17. 
+ - Child （age < 18) cannot have driving license. Elderly whose age is larger than or equal to 70 cannot have driving license.
+ - Number of vehicles in a family should be 0, 1 or 2.
+ - Home location should be one of the following: Uptown apartment, Midtown apartment.
+ - Work location should be one of the following: School, Museum, Hospital, Cinema, Supermarket, Food court, Amusement park, Coffee shop, Factory, Office, Gym.
+ - The population is half male half female.
+ - Occupation should match the work_facility.
+ - Work locations other than Office and Factory can only have 1 to 2 workers. Office and Factory have no bound on their number of workers.
+ - The are two ways of to travel around: 1. drive; 2. walk and transit.
+ - Personas of the same family should have the same home_facility, household_size, household_income, number_of_vehicles_in_family. Their "other_family_members" attribute should be consistent.
+ - 30% of the population is single adult. 50% of the population is married adult. 20% of the population is children.
+ - 10% of the population is elderly (60 - 75 years old).
+ - Number of friends range from 0 to 3. Social relationship added to "other_description". Social relationship of personas should be realistic and consistent.
+ - The socioeconomic statistics of the population should be realistic. Attributes of a persona should be realistic and consistent.
+
+
+Output the population in JSON format. 
+
+Output example:
+-----EXAMPLE SECTION START-----
+...
+-----EXAMPLE SECTION END-----

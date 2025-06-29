@@ -1,0 +1,628 @@
+{
+    "name": "Jessica Adams",
+    "age": 29,
+    "gender": "female",
+    "highest_level_of_education": "Master",
+    "family_role": "single",
+    "licensed_driver": true,
+    "work_facility": "Office",
+    "work_time": "8:00-17:00",
+    "occupation": "human resources manager",
+    "preferences_in_transportation": "drives to work, enjoys walking meetings",
+    "innate": "empathetic, diplomatic, organized, professional",
+    "lifestyle": "enjoys professional development, mentors young professionals, practices meditation",
+    "home_facility": "Uptown apartment",
+    "household_size": 1,
+    "other_family_members": {},
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+        "Emma Davis"
+    ],
+    "other_description": "Jessica manages employee relations and professional development programs. She collaborates with Emma Davis on workplace wellness initiatives.",
+    "curr_time": "2025-03-12 18:49:00",
+    "original_plans": [
+        {
+            "reflection": "This past week has been quite busy with work responsibilities, mentoring sessions, and managing workplace wellness initiatives with Emma. I've managed to maintain my meditation practice early in the morning but haven't found time for physical exercise yet. With a new week starting today, I plan to prioritize a visit to the gym after work to stay active. Since I live alone, there are no family coordination challenges, which gives me flexibility in planning my day. I noticed that driving during the morning peak hours can be stressful due to congestion on Ave_3, so I aim to leave earlier than usual today. I also recall that the Supermarket tends to get crowded around 17:00, so if I need groceries, it's better to go earlier or choose another time.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:00",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes her morning routine including meditation."
+                ],
+                [
+                    "Office",
+                    "07:40",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive to the Office before work starts at 8:00, taking St_2_link_1 towards Node_5 and then Ave_3_link_1 to Node_2."
+                ],
+                [
+                    "Coffee shop",
+                    "none",
+                    30,
+                    "drive",
+                    "St_4_link_1, Ave_3_link_3",
+                    "After finishing some urgent emails, drive to Coffee shop via St_4_link_1 and Ave_3_link_3 to meet Emma Davis for a discussion about upcoming wellness programs."
+                ],
+                [
+                    "Gym",
+                    "08:45",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym after work for physical exercise to balance out the sedentary weekday routine."
+                ],
+                [
+                    "Uptown apartment",
+                    "09:15",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment after a full day of activities."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences heavy congestion during morning commute hours.",
+                    "Ave_3, congestion, morning",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "The Gym is more accessible and less crowded before 19:30.",
+                    "Gym, accessibility, crowd",
+                    "Gym",
+                    "17:00-19:30"
+                ],
+                [
+                    "The Coffee shop serves as a common meeting point for professionals in the afternoon.",
+                    "Coffee shop, meetings, professionals",
+                    "Coffee shop",
+                    "14:00-16:00"
+                ],
+                [
+                    "Traveling from Uptown apartment to Office via Node_5 (School) is faster during rush hour.",
+                    "route optimization, rush hour",
+                    "Node_5, Node_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym is located near Factory, making it convenient post-work for industrial workers.",
+                    "proximity, convenience, Gym",
+                    "Factory, Gym",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "The past day was filled with unexpected delays, particularly at Supermarket and Coffee shop, which affected my schedule more than road congestion did. While I managed to complete most of my planned activities, including the productive discussion with Emma Davis about wellness initiatives, I missed my intended Gym session due to shifting priorities and time constraints. I realized that facility dwell times\u2014like long queues at Supermarket\u2014are a bigger disruption than traffic bottlenecks. Moving forward, I will build in buffer times for any activity involving external facilities. I also need to prioritize physical activity, especially since I\u2019ve been sedentary during workdays. I\u2019m grateful for the flexibility living alone provides, allowing me to adjust plans without coordination issues. Tomorrow, I\u2019ll aim to visit Gym earlier in the evening to avoid potential crowding and ensure I stick to my fitness goals.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:00",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes her morning routine including meditation."
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive to the Office before work starts at 8:00, taking St_2_link_1 towards Node_5 and then Ave_3_link_1 to Node_2."
+                ],
+                [
+                    "Coffee shop",
+                    "15:15",
+                    30,
+                    "drive",
+                    "Ave_3_link_3, St_4_link_1",
+                    "After finishing midday tasks, drive to Coffee shop via Ave_3_link_3 and St_4_link_1 to meet Emma Davis for an update on workplace wellness programs."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym after work for physical exercise to balance out the sedentary weekday routine."
+                ],
+                [
+                    "Supermarket",
+                    "19:00",
+                    30,
+                    "drive",
+                    "St_5_link_1",
+                    "Head to Supermarket before it gets crowded around evening peak hours for grocery shopping."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment after a full day of activities."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Facility wait times impact schedule more than traffic",
+                    "Facility wait times, scheduling",
+                    "Supermarket, Coffee shop",
+                    "all-day"
+                ],
+                [
+                    "Morning route planning should account for Ave_2 and Ave_3 congestion",
+                    "morning commute, congestion",
+                    "Ave_2, Ave_3",
+                    "07:00-09:00"
+                ],
+                [
+                    "Supermarket less crowded before 14:00",
+                    "Supermarket, crowd",
+                    "Supermarket",
+                    "before 14:00"
+                ],
+                [
+                    "Coffee shop experiences delays before 09:00",
+                    "Coffee shop, delay",
+                    "Coffee shop",
+                    "before 09:00"
+                ],
+                [
+                    "Gym is less crowded after 19:00",
+                    "Gym, crowd",
+                    "Gym",
+                    "after 19:00"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past day was filled with unexpected delays, especially at the Gym and during my morning commute. I successfully adapted by adjusting my schedule and maintaining flexibility in coordination with Emma Davis. Facility dwell times, such as the long queue at the Gym, were more disruptive than road congestion. Moving forward, I will build greater buffer times between activities to account for both travel and facility variability. I\u2019m grateful for the ability to make real-time decisions based on traffic conditions and communication. This week, I aim to prioritize physical activity earlier in the day and ensure that my schedule is more resilient to disruptions. I also need to be mindful of St_2_link_1\u2019s tendency for morning congestion.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:00",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes her morning routine including meditation."
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2, Ave_3",
+                    "Drive to the Office before work starts at 8:00, taking St_2 towards Node_5 and then Ave_3 to Node_2."
+                ],
+                [
+                    "Coffee shop",
+                    "15:15",
+                    30,
+                    "drive",
+                    "Ave_3, St_4",
+                    "After finishing midday tasks, drive to Coffee shop via Ave_3 and St_4 to meet Emma Davis for an update on workplace wellness programs."
+                ],
+                [
+                    "Coffee shop",
+                    "17:00",
+                    30,
+                    "drive",
+                    "St_4, Ave_3",
+                    "Meet Emma Davis for a walk around 17:00 at Coffee shop before heading to Gym session."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym after work for physical exercise to balance out the sedentary weekday routine."
+                ],
+                [
+                    "Supermarket",
+                    "19:00",
+                    30,
+                    "drive",
+                    "St_5",
+                    "Head to Supermarket before it gets crowded around evening peak hours for grocery shopping."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment after a full day of activities."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Facility dwell times are more disruptive than road congestion",
+                    "facility dwell time, disruption",
+                    "Gym, Supermarket, Coffee shop",
+                    "all-day"
+                ],
+                [
+                    "Unexpected long queues at Gym during typical off-peak hours",
+                    "Gym, queue, off-peak",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "St_2_link_1 prone to morning congestion affecting northwest-southeast commutes",
+                    "St_2_link_1, congestion, commute",
+                    "St_2_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Coordination with Emma Davis requires real-time communication and flexibility",
+                    "Emma Davis, coordination, communication",
+                    "Coffee shop, Office",
+                    "all-day"
+                ],
+                [
+                    "Supermarket less crowded before 20:00",
+                    "Supermarket, crowd, evening",
+                    "Supermarket",
+                    "before 20:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "Jessica is currently at her Uptown apartment completing her morning routine. The traffic state shows congestion on St_1_link_1 and St_1_link_2, which are part of Emma Davis\u2019s planned route to the Office. Jessica has already coordinated with Emma to reschedule their 15:15 Coffee shop meeting to 15:45 at the Museum due to expected travel delays. Since she is about to depart for work, it's important to consider avoiding congested links. Her original plan was to drive via St_2 and Ave_3, but adjustments may help avoid delays or improve coordination.",
+            "plan": [
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2, Ave_3",
+                    "Drive to the Office before work starts at 8:00, taking St_2 towards Node_5 and then Ave_3 to Node_2."
+                ],
+                [
+                    "Museum",
+                    "15:45",
+                    30,
+                    "drive",
+                    "Ave_3, St_3",
+                    "Meet Emma Davis at Museum around 15:45 instead of Coffee shop to discuss workplace wellness initiatives, traveling via Ave_3 and St_3."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Gym after work for physical exercise to balance out the sedentary weekday routine."
+                ],
+                [
+                    "Supermarket",
+                    "19:00",
+                    30,
+                    "drive",
+                    "St_5",
+                    "Head to Supermarket before it gets crowded during evening peak hours for grocery shopping."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment after a full day of activities."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_1 and St_1_link_2 experience regular morning congestion",
+                    "St_1_link_1, St_1_link_2, congestion",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Museum serves as an effective alternative meeting point during transit disruptions",
+                    "Museum, meeting point, alternative",
+                    "Museum",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 07:30:00"
+        },
+        {
+            "reflection": "I'm currently en route to the Gym from the Museum, where I had a rescheduled meeting with Emma Davis. There's light congestion on Ave_3_link_3 toward Node_2, which affects our originally planned post-work walk route. To maintain coordination and avoid delays, we've agreed to meet at the Museum entrance at 17:45 instead of proceeding directly to the Gym. This adjustment allows both of us to avoid the congested link while preserving our collaborative plans for the evening walk.",
+            "plan": [
+                [
+                    "Museum",
+                    "17:45",
+                    60,
+                    "drive",
+                    "St_3, Ave_3",
+                    "Redirect from Gym to Museum to meet Emma Davis at 17:45 for an evening walk and discussion on wellness initiatives."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "St_2, Ave_1",
+                    "Return home to Uptown apartment after the walk, taking St_2 and Ave_1 to avoid congestion on St_5_link_1 during peak evening hours."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3_link_3 consistently experiences light congestion around 17:40",
+                    "Ave_3_link_3, congestion, 17:40",
+                    "Ave_3_link_3",
+                    "17:30-18:00"
+                ]
+            ],
+            "datetime": "2025-03-12 17:40:00"
+        },
+        {
+            "reflection": "Jessica is currently en route from the Museum to the Gym, redirected to meet Emma Davis at the Museum entrance by 17:45 due to light congestion on Ave_3_link_3. Traffic conditions are generally clear except for that specific link. Both Jessica and Emma have coordinated their paths to avoid delays. Jessica's current travel path is clear with no congestion encountered so far. Given that Emma will arrive at the Gym shortly before 17:45 and then proceed to the Museum entrance, it makes sense for Jessica to complete her trip to the Gym as originally planned before heading back to the Museum for the meeting. This ensures she arrives at the Gym on time and allows Emma to transition smoothly to the new meeting point.",
+            "plan": [
+                [
+                    "Gym",
+                    "18:00",
+                    60,
+                    "drive",
+                    "St_3, Ave_2",
+                    "Arrive at Gym by 18:00 to wait for Emma Davis before proceeding to the Museum entrance for an evening walk."
+                ],
+                [
+                    "Museum",
+                    "18:15",
+                    60,
+                    "drive",
+                    "Ave_2, St_3",
+                    "Meet Emma Davis at the Museum entrance at 18:15 for a collaborative evening walk and discussion on wellness initiatives."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "St_2, Ave_1",
+                    "Return home to Uptown apartment after the walk, taking St_2 and Ave_1 to avoid any residual congestion on other routes."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences light congestion around 17:40 during weekday evenings",
+                    "Ave_3, congestion, 17:40",
+                    "Ave_3",
+                    "17:30-18:00"
+                ]
+            ],
+            "datetime": "2025-03-12 17:49:00"
+        },
+        {
+            "reflection": "I'm currently en route to the Gym from Museum, and I've arrived at Node_12 (Museum) after some path adjustments due to earlier congestion on Ave_3_link_3. Emma Davis is already waiting at the Gym, where she completed her yoga session with Maria Lopez and Sandra White. We've coordinated our plans so that I will head to the Gym to meet her before proceeding to our evening walk starting at the Museum entrance at 18:15. The current light congestion on St_3_link_2 (Node_10 \u2192 Node_6) could impact my next trip if not accounted for in routing.",
+            "plan": [
+                [
+                    "Gym",
+                    "18:10",
+                    60,
+                    "drive",
+                    "St_3",
+                    "Drive to Gym via St_3 to meet Emma Davis by 18:15, avoiding congested segments by departing promptly."
+                ],
+                [
+                    "Museum",
+                    "18:25",
+                    60,
+                    "drive",
+                    "St_3",
+                    "Meet Emma Davis at Museum entrance for evening collaborative walk and discussion on workplace wellness initiatives."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_1",
+                    "Return home to Uptown apartment after the walk, taking Ave_1 to avoid any residual congestion on other routes."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_3 experiences light congestion around 17:40 during weekday evenings",
+                    "St_3, congestion, weekday evening",
+                    "St_3",
+                    "17:00-19:00"
+                ],
+                [
+                    "Gym less crowded after 19:00",
+                    "Gym, crowded, 19:00",
+                    "Gym",
+                    "19:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-12 18:08:00"
+        },
+        {
+            "reflection": "I'm currently en route to the Gym via St_3_link_1 after a series of adjustments made throughout the day to accommodate coordination with Emma Davis and avoid congestion. At 18:17, I perceive that Emma has already finished her yoga session and is waiting at the Gym. The current traffic state shows no severe congestion, and my trip so far has been smooth without any wait times. Given that I am already close to the Gym and Emma is there waiting, it makes sense to proceed directly to the Gym as planned before starting our evening walk from the Museum entrance at 18:25. This maintains our coordinated plan while ensuring efficiency in travel.",
+            "plan": [
+                [
+                    "Gym",
+                    "18:10",
+                    60,
+                    "drive",
+                    "St_3",
+                    "Drive to Gym via St_3 to meet Emma Davis by 18:15, avoiding congested segments by departing promptly."
+                ],
+                [
+                    "Museum",
+                    "18:25",
+                    60,
+                    "drive",
+                    "St_3",
+                    "Meet Emma Davis at Museum entrance for evening collaborative walk and discussion on workplace wellness initiatives."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_1",
+                    "Return home to Uptown apartment after the walk, taking Ave_1 to avoid any residual congestion on other routes."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-12 18:17:00"
+        },
+        {
+            "reflection": "I'm currently en route to the Gym via Ave_2_link_2 after a series of coordinated adjustments with Emma Davis. At 18:26, I perceive that Emma has already finished her yoga session and is waiting at the Gym. Our evening walk is confirmed to start from the Museum entrance at 18:25. Given my current location on Ave_2_link_2 and the overall light congestion in the network (only Ave_4_link_1 showing 4-minute delays), I can maintain my current path to the Gym. Since I'm already close to the Gym and Emma is there waiting, it makes sense to proceed directly to the Gym as planned before starting our evening walk from the Museum entrance at 18:25. This maintains our coordinated plan while ensuring efficiency in travel.",
+            "plan": [
+                [
+                    "Gym",
+                    "18:30",
+                    60,
+                    "drive",
+                    "Ave_2",
+                    "Arrive at Gym by 18:30 to meet Emma Davis before proceeding to the Museum entrance for an evening collaborative walk."
+                ],
+                [
+                    "Museum",
+                    "18:25",
+                    60,
+                    "drive",
+                    "St_3",
+                    "Meet Emma Davis at Museum entrance for evening collaborative walk and discussion on workplace wellness initiatives."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_1",
+                    "Return home to Uptown apartment after the walk, taking Ave_1 to avoid any residual congestion on other routes."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-12 18:26:00"
+        },
+        {
+            "reflection": "I'm currently en route to the Museum entrance for an evening collaborative walk with Emma Davis, who has already finished her yoga session and is waiting at the Gym. My current trip from the Museum to the Museum via Ave_1_link_1 appears to be a navigation error, as I should have departed toward the Gym or directly to the Museum entrance for the evening walk. Given that Emma is already at the Gym and our confirmed plan to start the walk from the Museum entrance at 18:25, I need to correct my current trajectory. Fortunately, traffic conditions are clear across the network, so any adjustments to my path should be efficient.",
+            "plan": [
+                [
+                    "Museum",
+                    "18:45",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Redirect immediately to the Museum entrance to meet Emma Davis for our planned evening collaborative walk starting at 18:25. Since I've been traveling without congestion, I can still arrive by 18:45."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_1",
+                    "Return home to Uptown apartment after completing the evening walk with Emma Davis, taking Ave_1 which remains free of congestion."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-12 18:44:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "My day started with adjustments due to traffic congestion on Ave_2_link_1 and St_2_link_1, which prompted an earlier-than-planned departure to the Office. I arrived on time despite heavier than usual morning traffic. The meeting at Coffee shop with Emma Davis was productive, though a 23-minute wait before starting the activity delayed my schedule. Originally planning to go to Gym after work, I ended up returning home early due to shifting priorities, allowing me to focus on remote work and personal development. Later in the day, I made a grocery trip to Supermarket, but unexpectedly long queues there caused another delay of nearly an hour. Overall, today\u2019s plan required multiple revisions, primarily due to waiting times at facilities rather than road congestion. I maintained good work-life balance by completing wellness-related tasks, mentoring work, and meditation. However, better estimation of facility dwell times would have improved my scheduling accuracy.",
+            "concepts": [
+                [
+                    "Congestion on Ave_2_link_1 during morning commute",
+                    "Ave_2_link_1, congestion, morning rush",
+                    "Ave_2_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Coffee shop experiences delays before 09:00",
+                    "Coffee shop, delays, queue",
+                    "Coffee shop",
+                    "08:00-09:00"
+                ],
+                [
+                    "Supermarket less crowded before 14:00",
+                    "Supermarket, shopping, timing",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Facility wait times impact schedule more than traffic",
+                    "scheduling, wait time, reliability",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Morning route planning should account for Ave_2 and Ave_3 congestion",
+                    "route planning, congestion, commuting",
+                    "Ave_2, Ave_3",
+                    "07:00-09:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule was significantly impacted by unexpected delays, particularly the 116-minute queue at the Gym, which forced multiple revisions to my activity plan. My morning commute also faced challenges due to congestion on St_2_link_1 and Ave_3_link_1, prompting route adjustments that ultimately allowed me to arrive at work only slightly late. The meeting with Emma Davis at the Coffee shop went smoothly without traffic issues. I successfully adapted by shifting the Gym session earlier in the day as planned but underestimated facility dwell times, a recurring issue from yesterday. Social coordination with Emma and Maria required flexibility, especially when we adjusted our walk time and combined it with evening grocery shopping. Despite the disruptions, real-time communication and awareness of traffic conditions enabled effective decision-making. I managed to fulfill all commitments, including a favor for Emma, although returning home was delayed until 21:40. Moving forward, I need to account more rigorously for both travel and facility dwell time variability and build greater buffer periods between activities.",
+            "concepts": [
+                [
+                    "Unexpected long queues at Gym during typical off-peak hours",
+                    "Gym, queue, dwell time",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "St_2_link_1 prone to morning congestion affecting northwest-southeast commutes",
+                    "St_2_link_1, congestion, commute",
+                    "St_2_link_1",
+                    "07:30-08:30"
+                ],
+                [
+                    "Supermarket less crowded before 20:00",
+                    "Supermarket, shopping, timing",
+                    "Supermarket",
+                    "19:00-20:00"
+                ],
+                [
+                    "Coordination with Emma Davis requires real-time communication and flexibility",
+                    "Emma Davis, coordination, social",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Facility dwell times are more disruptive than road congestion",
+                    "facility dwell time, planning, disruption",
+                    "Coffee shop, Supermarket, Gym",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:30\nReflections: \nJessica is currently at her Uptown apartment completing her morning routine. The traffic state shows congestion on St_1_link_1 and St_1_link_2, which are part of Emma Davis\u2019s planned route to the Office. Jessica has already coordinated with Emma to reschedule their 15:15 Coffee shop meeting to 15:45 at the Museum due to expected travel delays. Since she is about to depart for work, it's important to consider avoiding congested links. Her original plan was to drive via St_2 and Ave_3, but adjustments may help avoid delays or improve coordination.\nPlan revisions: Jessica Adams update future activity plan:\n[['Office', '07:30', 120, 'drive', 'St_2, Ave_3', 'Drive to the Office before work starts at 8:00, taking St_2 towards Node_5 and then Ave_3 to Node_2.'], ['Museum', '15:45', 30, 'drive', 'Ave_3, St_3', 'Meet Emma Davis at Museum around 15:45 instead of Coffee shop to discuss workplace wellness initiatives, traveling via Ave_3 and St_3.'], ['Gym', '17:30', 60, 'drive', 'shortest', 'Go to Gym after work for physical exercise to balance out the sedentary weekday routine.'], ['Supermarket', '19:00', 30, 'drive', 'St_5', 'Head to Supermarket before it gets crowded during evening peak hours for grocery shopping.'], ['Uptown apartment', '21:00', 'none', 'drive', 'shortest', 'Return home to Uptown apartment after a full day of activities.']] \n\nTime: 08:00\nReflections: \nJessica is currently en route to the Office via Ave_3_link_1, with no current delays. There is moderate congestion on St_5_link_1 (Node_12 \u2192 Node_8), which may affect her evening trip from Supermarket to Uptown apartment. Emma Davis is also on schedule, traveling without delays on St_4_link_1 toward the Office. The previously coordinated plan to meet at the Museum at 15:45 remains intact, and all current travel paths are clear except for known congestion on St_5_link_1 later in the day. Jessica should consider adjusting her return path from Supermarket to home to avoid St_5_link_1 during peak evening hours.\nPlan revisions: Jessica Adams update current path to ['St_4', 'Ave_2'] \n\nTime: 08:09\nReflections: \nI'm currently en route to the Office via Ave_3_link_2 (Node_10 \u2192 Node_11) with light congestion causing a 4-minute wait, but still on schedule to arrive by 8:00. Emma Davis is also traveling without delays on Ave_3_link_3 toward the Office. Our rescheduled meeting at the Museum for 15:45 remains coordinated. The moderate congestion on St_5_link_1 (Node_12 \u2192 Node_8) in the evening will affect my return trip from Supermarket, so I should adjust my path home to avoid this link during peak hours.\nPlan revisions: Jessica Adams update current path to ['St_4', 'Ave_2'] \n\nTime: 17:40\nReflections: \nI'm currently en route to the Gym from the Museum, where I had a rescheduled meeting with Emma Davis. There's light congestion on Ave_3_link_3 toward Node_2, which affects our originally planned post-work walk route. To maintain coordination and avoid delays, we've agreed to meet at the Museum entrance at 17:45 instead of proceeding directly to the Gym. This adjustment allows both of us to avoid the congested link while preserving our collaborative plans for the evening walk.\nPlan revisions: Jessica Adams update future activity plan:\n[['Museum', '17:45', 60, 'drive', 'St_3, Ave_3', 'Redirect from Gym to Museum to meet Emma Davis at 17:45 for an evening walk and discussion on wellness initiatives.'], ['Uptown apartment', '19:00', 'none', 'drive', 'St_2, Ave_1', 'Return home to Uptown apartment after the walk, taking St_2 and Ave_1 to avoid congestion on St_5_link_1 during peak evening hours.']] \n\nTime: 17:49\nReflections: \nJessica is currently en route from the Museum to the Gym, redirected to meet Emma Davis at the Museum entrance by 17:45 due to light congestion on Ave_3_link_3. Traffic conditions are generally clear except for that specific link. Both Jessica and Emma have coordinated their paths to avoid delays. Jessica's current travel path is clear with no congestion encountered so far. Given that Emma will arrive at the Gym shortly before 17:45 and then proceed to the Museum entrance, it makes sense for Jessica to complete her trip to the Gym as originally planned before heading back to the Museum for the meeting. This ensures she arrives at the Gym on time and allows Emma to transition smoothly to the new meeting point.\nPlan revisions: Jessica Adams update future activity plan:\n[['Gym', '18:00', 60, 'drive', 'St_3, Ave_2', 'Arrive at Gym by 18:00 to wait for Emma Davis before proceeding to the Museum entrance for an evening walk.'], ['Museum', '18:15', 60, 'drive', 'Ave_2, St_3', 'Meet Emma Davis at the Museum entrance at 18:15 for a collaborative evening walk and discussion on wellness initiatives.'], ['Uptown apartment', '19:30', 'none', 'drive', 'St_2, Ave_1', 'Return home to Uptown apartment after the walk, taking St_2 and Ave_1 to avoid any residual congestion on other routes.']] \n\nTime: 18:08\nReflections: \nI'm currently en route to the Gym from Museum, and I've arrived at Node_12 (Museum) after some path adjustments due to earlier congestion on Ave_3_link_3. Emma Davis is already waiting at the Gym, where she completed her yoga session with Maria Lopez and Sandra White. We've coordinated our plans so that I will head to the Gym to meet her before proceeding to our evening walk starting at the Museum entrance at 18:15. The current light congestion on St_3_link_2 (Node_10 \u2192 Node_6) could impact my next trip if not accounted for in routing.\nPlan revisions: Jessica Adams update future activity plan:\n[['Gym', '18:10', 60, 'drive', 'St_3', 'Drive to Gym via St_3 to meet Emma Davis by 18:15, avoiding congested segments by departing promptly.'], ['Museum', '18:25', 60, 'drive', 'St_3', 'Meet Emma Davis at Museum entrance for evening collaborative walk and discussion on workplace wellness initiatives.'], ['Uptown apartment', '19:30', 'none', 'drive', 'Ave_1', 'Return home to Uptown apartment after the walk, taking Ave_1 to avoid any residual congestion on other routes.']] \n\nTime: 18:17\nReflections: \nI'm currently en route to the Gym via St_3_link_1 after a series of adjustments made throughout the day to accommodate coordination with Emma Davis and avoid congestion. At 18:17, I perceive that Emma has already finished her yoga session and is waiting at the Gym. The current traffic state shows no severe congestion, and my trip so far has been smooth without any wait times. Given that I am already close to the Gym and Emma is there waiting, it makes sense to proceed directly to the Gym as planned before starting our evening walk from the Museum entrance at 18:25. This maintains our coordinated plan while ensuring efficiency in travel.\nPlan revisions: Jessica Adams update future activity plan:\n[['Gym', '18:10', 60, 'drive', 'St_3', 'Drive to Gym via St_3 to meet Emma Davis by 18:15, avoiding congested segments by departing promptly.'], ['Museum', '18:25', 60, 'drive', 'St_3', 'Meet Emma Davis at Museum entrance for evening collaborative walk and discussion on workplace wellness initiatives.'], ['Uptown apartment', '19:30', 'none', 'drive', 'Ave_1', 'Return home to Uptown apartment after the walk, taking Ave_1 to avoid any residual congestion on other routes.']] \n\nTime: 18:26\nReflections: \nI'm currently en route to the Gym via Ave_2_link_2 after a series of coordinated adjustments with Emma Davis. At 18:26, I perceive that Emma has already finished her yoga session and is waiting at the Gym. Our evening walk is confirmed to start from the Museum entrance at 18:25. Given my current location on Ave_2_link_2 and the overall light congestion in the network (only Ave_4_link_1 showing 4-minute delays), I can maintain my current path to the Gym. Since I'm already close to the Gym and Emma is there waiting, it makes sense to proceed directly to the Gym as planned before starting our evening walk from the Museum entrance at 18:25. This maintains our coordinated plan while ensuring efficiency in travel.\nPlan revisions: Jessica Adams update future activity plan:\n[['Gym', '18:30', 60, 'drive', 'Ave_2', 'Arrive at Gym by 18:30 to meet Emma Davis before proceeding to the Museum entrance for an evening collaborative walk.'], ['Museum', '18:25', 60, 'drive', 'St_3', 'Meet Emma Davis at Museum entrance for evening collaborative walk and discussion on workplace wellness initiatives.'], ['Uptown apartment', '19:30', 'none', 'drive', 'Ave_1', 'Return home to Uptown apartment after the walk, taking Ave_1 to avoid any residual congestion on other routes.']] \n\nTime: 18:44\nReflections: \nI'm currently en route to the Museum entrance for an evening collaborative walk with Emma Davis, who has already finished her yoga session and is waiting at the Gym. My current trip from the Museum to the Museum via Ave_1_link_1 appears to be a navigation error, as I should have departed toward the Gym or directly to the Museum entrance for the evening walk. Given that Emma is already at the Gym and our confirmed plan to start the walk from the Museum entrance at 18:25, I need to correct my current trajectory. Fortunately, traffic conditions are clear across the network, so any adjustments to my path should be efficient.\nPlan revisions: Jessica Adams update future activity plan:\n[['Museum', '18:45', 60, 'drive', 'shortest', \"Redirect immediately to the Museum entrance to meet Emma Davis for our planned evening collaborative walk starting at 18:25. Since I've been traveling without congestion, I can still arrive by 18:45.\"], ['Uptown apartment', '19:30', 'none', 'drive', 'Ave_1', 'Return home to Uptown apartment after completing the evening walk with Emma Davis, taking Ave_1 which remains free of congestion.']] ",
+    "activity_index": 0,
+    "activity_facility": "Museum",
+    "activity_departure_time": "2025-03-12 18:45:00",
+    "activity_duration": 45,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Redirect immediately to the Museum entrance to meet Emma Davis for our planned evening collaborative walk starting at 18:25. Since I've been traveling without congestion, I can still arrive by 18:45.",
+    "planned_path": [],
+    "curr_place": "Museum",
+    "curr_status": "Staying at facility Museum"
+}

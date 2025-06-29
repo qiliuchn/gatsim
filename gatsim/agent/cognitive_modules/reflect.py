@@ -1,7 +1,7 @@
 from datetime import datetime, time, timedelta
 from gatsim import config
 from gatsim.utils import extract_json_from_string, pretty_print
-from gatsim.agent.llm_modules.llm import llm_generate, generate_prompt
+from gatsim.agent.llm_modules.llm import llm_generate, generate_prompt, llm_generate_with_json_extraction_and_retries
 from gatsim.agent.llm_modules.run_prompt import generate_importance_score
 from gatsim.agent.memory_modules.long_term_memory import convert_concept_tuple_to_concept_node
 
@@ -19,16 +19,17 @@ def daily_reflection(persona, maze):
                     ] 
     prompt_template = config.agent_path + "/llm_modules/prompt_templates/daily_reflection_v1.txt"
     prompt = generate_prompt(prompt_input, prompt_template)
-    output = llm_generate(prompt)
-    output = extract_json_from_string(output)
+    
+    output= llm_generate_with_json_extraction_and_retries(prompt) #llm_generate(prompt)
+    
     # print out
-    print()
+    pretty_print()
     pretty_print(f"{persona.name} reflections:", 2)
-    print()
+    pretty_print()
     pretty_print(output['reflection'], 2)
-    print()
+    pretty_print()
     pretty_print(f"{persona.name} concepts:", 2)
-    print()
+    pretty_print()
     pretty_print(output['concepts'], 2)
     output['datetime'] = persona.st_mem.curr_time
     # add concepts to lt_mem
@@ -55,10 +56,4 @@ def reflection_trigger(persona):
   Returns: 
     True if we are running a new reflection. False otherwise. 
   """
-  pass
-
-
-
-
-
-
+  raise NotImplementedError()

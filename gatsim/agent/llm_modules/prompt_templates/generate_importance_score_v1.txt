@@ -3,28 +3,116 @@ generate_importance_score_v1.txt
 !<Args: 0>! -- Simulation description
 !<Args: 1>! -- Network description
 !<Args: 2>! -- Person description
-!<Args: 3>! -- "event" | "chat" | thought
-!<Args: 4>! -- event description
+!<Args: 3>! -- concept type: event | chat | thought
+!<Args: 4>! -- concept description
 
 <commentblockmarker>###</commentblockmarker>
 !<Args: 0>!
 
+
 !<Args: 1>!
 
-Your play the role of the person:
+
+You play the role of the person:
 !<Args: 2>!
 
-On the scale of 0 to 10, where 0 is purely mundane () and 10 is extremely important (e.g., a break up, college acceptance), rate the likely importance of the following !<Args: 3>! for this person.
 
-Event: !<Args: 3>!
+-----TASK INSTRUCTION-----
+You are evaluating the importance of a !<Args: 3>! from the perspective of the person described above. 
+Importance reflects how significantly this !<Args: 3>! will impact the person's:
+- Immediate travel plans and route choices
+- Daily commute patterns and schedules
+- Safety and travel time efficiency
+- Long-term transportation habits and preferences
+- Social commitments that require travel
 
-Return a dict in Json format. The dict should contain the following keys:
-"score": The importance of the !<Args: 3>!. It should be a (return a number between 1 to 10):
 
-Note:
-Do NOT include any other information in your response.
+-----SCORING CRITERIA-----
+Rate on a scale of 1-10 where:
 
-Example output:
+**1-2: Routine, no impact on travel plans**
+- Daily habits and regular observations
+- Expected traffic conditions
+- Information about rarely-used routes or times
+
+One-time examples:
+- [event] "Completed morning routine, taking Jason Chen to school as usual"
+- [event] "Normal traffic flow observed on Highway 101 this morning"
+- [chat] "Colleague mentioned the Coffee shop has great pastries"
+Recurring pattern examples:
+- [thought] "Traffic on St_5 is always light after 8 PM"
+- [thought] "The 6 AM metro is usually empty and on time"
+
+**3-4: Minor impact, might consider alternatives**
+- Small inconveniences or slight delays (5-10 minutes)
+- Weather beginning to affect traffic
+- Useful information about secondary routes
+
+One-time examples:
+- [event] "Light rain starting, traffic becoming heavier on main roads"
+- [event] "Small accident on 3rd Avenue causing 10-minute delay"
+- [chat] "Coworker mentioned finding street parking was difficult today"
+Recurring pattern examples:
+- [thought] "Metro Line 1 occasionally has 6-minute delays during rush hour"
+- [thought] "Oak Street tends to get busy on Friday afternoons"
+
+**5-6: Moderate impact, likely to change plans**
+- Significant delays (10-20 minutes) on regular routes
+- Events affecting travel in the next few days
+- Transportation service changes affecting routine
+
+One-time examples:
+- [event] "Construction starting on Main Street next week for 5 days"
+- [chat] "Friend invited me to museum exhibition tomorrow at 10 AM downtown"
+- [event] "The metro is running on reduced frequency today due to maintenance"
+Recurring pattern examples:
+- [thought] "Ave_2_link_2 regularly has 15 minute delays during morning peak"
+- [thought] "Parking near office is becoming scarce after 8:30 AM most days"
+
+**7-8: Major impact, must revise travel plans**
+- Severe delays (20+ minutes) or route closures
+- Recurring patterns significantly affecting daily commute
+- Safety concerns requiring permanent route changes
+
+One-time examples:
+- [event] "Ave_2_link_2 on usual route to work closed for emergency repairs today"
+- [event] "Major accident blocking highway, all traffic diverted to city streets"
+- [chat] "My manager just called an emergency team meeting in 30 minutes"
+Recurring pattern examples:
+- [thought] "School zone traffic at 3 PM makes that area impassable - must find alternative"
+- [thought] "Morning rush hour on Ave_2_link_2 consistently adds 30 minutes - need new route"
+- [thought] "Downtown parking has become too expensive and scarce - should switch to transit"
+
+**9-10: Critical impact, profound effects on daily life**
+- System-wide transportation failures
+- Emergency situations requiring immediate action
+- Long-term changes forcing lifestyle adjustments
+
+One-time examples:
+- [event] "All roads closed due to flooding, shelter-in-place order issued"
+- [event] "Wildfire near Amusement Park, mandatory evacuation of surrounding areas"
+- [event] "Spouse texted that they're feeling very sick and need to go to hospital"
+Recurring pattern examples:
+- [thought] "Monday morning traffic has become completely gridlocked - may need to change work schedule"
+- [thought] "Transportation network regularly fails during peak hours - city is becoming unlivable"
+
+
+---IMPORTANT NOTES---
+- Recurring patterns generally score 1-2 points higher than similar one-time events
+- Long-term impacts (weeks/months) score higher than short-term (hours/days)
+- Issues on your regular routes score higher
+- Problems near your frequent destinations (home, work, school) score higher
+
+
+-----OUTPUT FORMAT-----
 {
-    "score": 3.5
+"score": [integer between 1 and 10]
 }
+
+
+-----YOUR EVALUATION-----
+The event you need to generate importance score for:
+Event type: !<Args: 3>!
+Event content: !<Args: 4>!
+
+Now generate your JSON output:

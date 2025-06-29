@@ -12,11 +12,11 @@ opening = """
 print(opening)
 print("=======================================Generative-Agent Transport Simulation (GATSim)========================================")
 
-default_fork = "base_the_town"
-fork_name = input(f"Enter the name of the forked simulation: (default: {default_fork}); type 'none' for creating a new simulation\n").strip()
+default_fork = "none"  #"base_the_town"
+fork_name = input(f"Enter the name of the forked simulation: (default: creating a new simulation)\n").strip()
 if not fork_name:  # If user just presses Enter (empty string)
     fork_name = default_fork  # Set to default value
-elif fork_name.lower() == "none":
+if "none" in fork_name.lower():
     fork_name = None
 
 if fork_name:
@@ -40,17 +40,17 @@ backend = BackendServer(fork_name, simulation_name)
 # print simulation info
 # Get list of personas and facilities
 persona_names = list(backend.population.keys())
-pretty_print(f"Initialized {len(persona_names)} personas", 1)
+print(f"    Initialized {len(persona_names)} personas")
 
 facilities = list(backend.maze.facilities_info.keys())
-pretty_print(f"Available facilities: {len(facilities)}", 1)
+print(f"    Available facilities: {len(facilities)}")
 print()
 
 # Print initial state
-pretty_print("\nInitial State:", 1)
+print("\n    Initial State:")
 for persona_name in persona_names:
     home_facility = backend.population[persona_name].st_mem.curr_place
-    pretty_print(f"{persona_name} is at {home_facility}", 2)
+    print(f"{persona_name} is at {home_facility}")
 print()
 
 # run simulation

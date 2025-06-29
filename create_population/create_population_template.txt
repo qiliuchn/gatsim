@@ -1,4 +1,4 @@
-I'm writing a python project to simulation the dynamics of human mobility. I need to create a synthetic population of 50 personas.
+I'm writing a python project to simulation the dynamics of human mobility. I need to create a synthetic population. The population should have 65 people; 50 fo them are adults (>= 18), 15 children.
 The setting is a town with 13 nodes, 13 facilities and 27 links (road links and metro line links). This town has four avenues, five streets, and two metro lines. The network is described below.
 
 TRANSPORTATION NETWORK: the town
@@ -82,117 +82,183 @@ Facilities at this node: 1
 
 Each persona has the following properties:
 # Personal attributes:
- - name (str)
- - gender (str: 'male'/'female')
- - age (int)
- - highest_level_of_education
- - family_role (str: 'husband'/'wife'/'son'/'daughter'/'single')
- - licensed_driver (Bool)
- - work_facility (str: 'School'/'Museum'/'Hospital'/'Cinema'/'Supermarket'/'Food court'/'Amusement park'/'Coffee shop'/'Factory'/'Office'/'Gym')
- - occupation (str)
- - preferences_in_transportation (str)
- - innate (str)
- - lifestyle (str)
+ - name (str): name of the person
+ - gender (str): 'male' |'female'
+ - age (int): age of the person
+ - highest_level_of_education: High school | Bacheler | Master | PhD
+ - family_role (str): 'husband' | 'wife' | 'son' | 'daughter' | 'single'
+ - licensed_driver (Bool): true | false
+ - work_facility (str): 'School' | 'Museum' | 'Hospital' | 'Cinema' | 'Supermarket' | 'Food court' | 'Amusement park' | 'Coffee shop' | 'Factory' | 'Office' | 'Gym'
+ - work_time (str): e.g. "8:00-11:30, 13:30-17:00", "8:00-16:00", etc.
+ - occupation (str): job name
+ - preferences_in_transportation (str): person's preference towards transportation
+ - innate (str): innate of the person
+ - lifestyle (str): lifestyle of the person
 # Household attributes
- - home_facility (str: 'Uptown apartment'/'Midtown apartment')
- - household_size (int)
- - other_family_members (a list of names)
- - number_of_vehicles_in_family (int)
- - household_income (str: "high", "middle", "low")
+ - home_facility (str): 'Uptown apartment' | 'Midtown apartment'
+ - household_size (int): 1 | 2 | 3 | 4
+ - other_family_members (list): a dict like: {"wife": "Sarah Chen", "daughter": "Emily Chen"}
+ - number_of_vehicles_in_family (int): 0 | 1 | 2
+ - household_income (str) : "high" | "middle" | "low"
 # Social attributes:
- - friends (a list of names)
+ - friends (list): a list of names
 # Additional
- - other_description (str)
+ - other_description (str): description of other aspect of the person.
 
 Requirements:
  - The number of family members could be 1 (single), 2 (husband and wife), 3 (husband and wife and child), or 4 (husband and wife and two children).
- - Single persona's age should be in range of 18 to 75. Husband and wife's age should also be in range of 25 to 75. Children's age should be in range of 1 to 17. 
- - Child （age < 18) cannot have driving license. Elderly whose age is larger than or equal to 70 cannot have driving license.
+ - Single persona's age should be in range of 18 to 75. Husband and wife's age should also be in range of 25 to 75. Children's age should be in range of 1 to 17.
+ - Child (age < 18) cannot have driving license. Elderly whose age is larger than or equal to 70 cannot have driving license.
  - Number of vehicles in a family should be 0, 1 or 2.
  - Home location should be one of the following: Uptown apartment, Midtown apartment.
  - Work location should be one of the following: School, Museum, Hospital, Cinema, Supermarket, Food court, Amusement park, Coffee shop, Factory, Office, Gym.
- - The population is half male half female.
- - Occupation should match the work_facility.
+ - The population should be approximately half male, half female.
+ - Occupation should match the work_facility!
  - Work locations other than Office and Factory can only have 1 to 2 workers. Office and Factory have no bound on their number of workers.
- - The are two ways of to travel around: 1. drive; 2. walk and transit.
- - Personas of the same family should have the same home_facility, household_size, household_income, number_of_vehicles_in_family. Their "other_family_members" attribute should be consistent.
- - 30% of the population is single adult. 50% of the population is married adult. 20% of the population is children.
- - 10% of the population is elderly (60 - 75 years old).
- - Number of friends range from 0 to 3. Social relationship added to "other_description". Social relationship of personas should be realistic and consistent.
+ - The are two ways of to travel around: drive, or use transit (possibly with walking).
+ - People from the same family should have the same home_facility, household_size, household_income, number_of_vehicles_in_family. And their "other_family_members" attribute should be consistent!
+ - Approximately 30% of the population should be single adult; 50% be married adult, and 20% be children.
+ - 10% of the population should be elderly (60 - 75 years old).
+ - Number of friends range from 0 to 3. Remember to add social relationship to "other_description". Social relationship of personas should be realistic and consistent.
  - The socioeconomic statistics of the population should be realistic. Attributes of a persona should be realistic and consistent.
 
 
 Output the population in JSON format. Example:
 ```json
 {
-    "Isabella Rodriguez": {
-        "gender": "female",
-        "age": 34,
-        "highest_level_of_education": "master",
-        "family_role": "single",
-        "licensed_driver": true,
-        "work_facility": "Coffee shop",
-        "occupation": "barista",
-        "preferences_in_transportation": "prefer to travel alone and prefer safer way to travel; mainly drive around",
-        "innate": "friendly, outgoing, hospitable",
-        "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
-        "home_facility": "Uptown apartment",
-        "household_size": 1,
-        "other_family_members": [],
-        "number of vehicles": 1,
-        "household_income": "medium",
-        "friends": [
-            "Jennifer Moore"
-        ],
-        "other_description": "Isabella Rodriguez is a cafe owner who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves."
+  "Isabella Rodriguez": {
+    "name": "Isabella Rodriguez",
+    "gender": "female",
+    "age": 34,
+    "highest_level_of_education": "master's degree",
+    "family_role": "single",
+    "licensed_driver": true,
+    "work_facility": "Coffee shop",
+    "work_time": "6:00 - 14:00",
+    "occupation": "coffee shop manager",
+    "preferences_in_transportation": "prefers to drive for convenience and flexibility",
+    "innate": "friendly, outgoing, hospitable, detail-oriented",
+    "lifestyle": "early riser, enjoys morning yoga, works long hours, socializes with friends on weekends",
+    "home_facility": "Uptown apartment",
+    "household_size": 1,
+    "other_family_members": [],
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+      "Maria Gonzalez",
+      "Sophia Nguyen"
+    ],
+    "other_description": "Isabella runs the town's popular coffee shop with a personal touch, knowing most regular customers by name. She attends morning yoga classes with Maria Gonzalez three times a week and hosts monthly coffee tasting events where Sophia Nguyen supplies specialty pastries."
+  },
+  "Michael Chen": {
+    "name": "Michael Chen",
+    "gender": "male",
+    "age": 42,
+    "highest_level_of_education": "PhD",
+    "family_role": "husband",
+    "licensed_driver": true,
+    "work_facility": "Museum",
+    "work_time": "9:00 - 17:00",
+    "occupation": "museum curator",
+    "preferences_in_transportation": "environmentally conscious, prefers public transit when possible",
+    "innate": "intellectual, patient, meticulous",
+    "lifestyle": "reads extensively, collects antiques, enjoys quiet evenings with family",
+    "home_facility": "Uptown apartment",
+    "household_size": 4,
+    "other_family_members": {
+      "wife": "Sarah Chen",
+      "daughter": "Emily Chen",
+      "son": "Jason Chen"
     },
-    "John Lin": {
-        "gender": "male",
-        "age": 45,
-        "highest_level_of_education": "high school",
-        "family_role": "father",
-        "licensed_driver": false,
-        "work_facility": "Factory",
-        "occupation": "worker",
-        "preferences_in_transportation": "prefer to economic and reliable ways of transportation; mainly take transit to work",
-        "innate": "patient, kind, organized",
-        "lifestyle": "John Lin goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
-        "home_facility": "Midtown apartment",
-        "household_size": 3,
-        "other_family_members": [
-            "May Lin",
-            "Marie Lin"
-        ],
-        "number_of_vehicles_in_family": 1,
-        "household_income": "medium",
-        "friends": [
-            "Klaus Mueller"
-        ],
-        "other_description": "John Lin holds traditional values, live a healthy lifestyle, and is a good listener. He takes care of his family and children."
+    "number_of_vehicles_in_family": 1,
+    "household_income": "high",
+    "friends": [
+      "Gloria Campbell",
+      "James Wilson"
+    ],
+    "other_description": "Michael specializes in historical artifacts and has transformed the local museum into an educational gem. He collaborates frequently with Gloria Campbell on special exhibitions and participates in a monthly book club with James Wilson where they discuss historical non-fiction."
+  },
+  "Sarah Chen": {
+    "name": "Sarah Chen",
+    "gender": "female",
+    "age": 40,
+    "highest_level_of_education": "master's degree",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "Hospital",
+    "work_time": "9:00 - 17:00",
+    "occupation": "pediatrician",
+    "preferences_in_transportation": "reliable transportation essential due to on-call schedule, drives to work",
+    "innate": "compassionate, methodical, resilient",
+    "lifestyle": "health-conscious, balances demanding career with family time",
+    "home_facility": "Uptown apartment",
+    "household_size": 4,
+    "other_family_members": {
+      "husband": "Michael Chen",
+      "daughter": "Emily Chen",
+      "son": "Jason Chen"
     },
-    "Maria Lin": {
-        "gender": "female",
-        "age": 10,
-        "highest_level_of_education": "None",
-        "family_role": "daughter",
-        "licensed_driver": false,
-        "work_facility": null,
-        "occupation": "elementary school student (5-th grade)",
-        "preferences_in_transportation": "prefer to be accompanied by parent; prefer mom to drive her to school",
-        "innate": "kind, a little bit of shy",
-        "lifestyle": "Maria Lin goes to bed around 7:30 pm, awakes up around 7:00 am, eats dinner around 5pm.",
-        "home_facility": "Midtown apartment",
-        "household_size": 3,
-        "other_family_members": [
-            "John Lin",
-            "May Lin"
-        ],
-        "number_of_vehicles_in_family": 1,
-        "household_income": "medium",
-        "friends": [
-            "Hailey Johnson"
-        ],
-        "other_description": "Maria Lin is a kind, shy girl. She is very good at school and has a good GPA. She is very happy with her life."
-    }
+    "number_of_vehicles_in_family": 1,
+    "household_income": "high",
+    "friends": [
+      "Elizabeth Wilson",
+      "Sandra White"
+    ],
+    "other_description": "Sarah is a respected doctor who volunteers at community health initiatives on weekends. She mentors Sandra White at the hospital and co-organizes health awareness workshops with Elizabeth Wilson."
+  },
+  "Emily Chen": {
+    "name": "Emily Chen",
+    "gender": "female",
+    "age": 15,
+    "highest_level_of_education": "high school (in progress)",
+    "family_role": "daughter",
+    "licensed_driver": false,
+    "work_facility": "School",
+    "work_time": "8:00 - 15:00",
+    "occupation": "high school student",
+    "preferences_in_transportation": "uses metro to school, enjoys independence",
+    "innate": "creative, sociable, ambitious",
+    "lifestyle": "active in school newspaper, enjoys art and literature",
+    "home_facility": "Uptown apartment",
+    "household_size": 4,
+    "other_family_members": {
+      "father": "Michael Chen",
+      "mother": "Sarah Chen",
+      "brother": "Jason Chen"
+    },
+    "number_of_vehicles_in_family": 1,
+    "household_income": "high",
+    "friends": [
+      "Zara Hassan",
+      "Miguel Garcia"
+    ],
+    "other_description": "Emily excels academically and dreams of becoming a journalist or author. She and Zara Hassan co-edit the school newspaper and attend the same creative writing club. She often studies with Miguel Garcia, who shares her interest in literature."
+  },
+  "Patricia Johnson": {
+    "name": "Patricia Johnson",
+    "gender": "female",
+    "age": 65,
+    "highest_level_of_education": "associate's degree",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "School",
+    "work_time": "8:00 - 15:00",
+    "occupation": "school librarian",
+    "preferences_in_transportation": "drives to work, careful driver",
+    "innate": "nurturing, organized, patient",
+    "lifestyle": "book club member, enjoys cooking and community volunteering",
+    "home_facility": "Midtown apartment",
+    "household_size": 2,
+    "other_family_members": {
+      "husband": "Robert Johnson"
+    },
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+      "Gloria Campbell",
+      "Elizabeth Wilson"
+    ],
+    "other_description": "Patricia has a gift for recommending the perfect book to reluctant young readers. She co-hosts a monthly book club with Gloria Campbell and shares recipes with Elizabeth Wilson from their respective family collections."
+  }
 }
 ```

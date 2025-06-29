@@ -1,0 +1,441 @@
+{
+    "name": "Kevin White",
+    "age": 41,
+    "gender": "male",
+    "highest_level_of_education": "Master",
+    "family_role": "husband",
+    "licensed_driver": true,
+    "work_facility": "Factory",
+    "work_time": "8:00-17:00",
+    "occupation": "factory manager",
+    "preferences_in_transportation": "drives to work, values reliability",
+    "innate": "leadership-oriented, practical, decisive, fair",
+    "lifestyle": "enjoys weekend projects, community involvement, sports coaching",
+    "home_facility": "Midtown apartment",
+    "household_size": 3,
+    "other_family_members": {
+        "wife": "Sandra White",
+        "daughter": "Grace White"
+    },
+    "number_of_vehicles_in_family": 2,
+    "household_income": "middle",
+    "friends": [
+        "Marcus Thompson",
+        "Ahmed Hassan"
+    ],
+    "other_description": "Kevin oversees factory operations and is respected for his fair management style. He collaborates with Marcus Thompson on community development initiatives and shares engineering interests with Ahmed Hassan.",
+    "curr_time": "2025-03-12 18:49:00",
+    "original_plans": [
+        {
+            "reflection": "This past week has been fairly routine, with consistent work hours at the Factory and morning coordination with Sandra for getting Grace to school. I managed to stay on top of factory operations without major disruptions, though I noticed traffic congestion on Ave_3 during my commute again. I\u2019d like to get more exercise this week\u2014last week was too sedentary beyond work and weekend chores. This week, I\u2019ll try to make time in the evenings for a quick trip to the Gym before heading home. Socially, Marcus mentioned catching up over coffee sometime soon, so I should plan for that later in the week. Overall, the transportation system has been reliable, but I\u2019ve observed recurring delays on Ave_3_link_2 during peak hours. I'll consider alternative routes or earlier departures when possible.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:15",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines including breakfast and preparing for the day."
+                ],
+                [
+                    "School",
+                    "07:00",
+                    20,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive Grace to School before heading to work."
+                ],
+                [
+                    "Factory",
+                    "none",
+                    120,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2, Ave_3_link_3",
+                    "Arrive at the Factory by 8:00 to start managing operations for the day."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to the Gym after work for light exercise and a swim."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment for dinner and evening family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3_link_2 experiences high congestion during morning commute",
+                    "Ave_3_link_2, congestion, morning",
+                    "Ave_3_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym is less crowded after 19:00",
+                    "Gym, less crowded, evening",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "School drop-off requires early arrival buffer to avoid parking issues",
+                    "School, drop-off, parking",
+                    "School",
+                    "07:00-08:00"
+                ],
+                [
+                    "The town's central corridor sees increased traffic between 17:00-18:00",
+                    "central corridor, afternoon traffic",
+                    "Node_6, Node_7, Node_8",
+                    "17:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This past week has been relatively stable, with consistent routines and minimal disruptions. I\u2019ve maintained my work schedule at the Factory without delays, thanks to reliable route choices\u2014especially avoiding St_1_link_2 during evening commutes. I\u2019ve managed to sneak in some exercise at the Gym after work, which has helped balance the long hours at the plant. Yesterday was particularly smooth: traffic on Ave_3 held up well during the morning commute, and I successfully met Ahmed Hassan for a workout session. However, I noticed that St_1_link_2 still experiences moderate congestion in the evenings, so it\u2019s best to allow extra buffer time when using that route. This week, I plan to continue prioritizing post-work exercise and explore scheduling an early-week coffee meetup with Marcus Thompson. Coordination with Sandra remains solid, especially regarding Grace\u2019s school routine. Overall, staying aware of peak-hour congestion points like Ave_3_link_2 and St_1_link_2 is key to maintaining travel reliability.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:15",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines including breakfast and preparing for the day."
+                ],
+                [
+                    "School",
+                    "07:00",
+                    20,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive Grace to School before heading to work."
+                ],
+                [
+                    "Factory",
+                    "none",
+                    120,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2, Ave_3_link_3",
+                    "Arrive at the Factory by 8:00 to start managing operations for the day."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to the Gym after work for light exercise and a swim."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment for dinner and evening family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_2 prone to congestion during evening travel",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Ave_3 reliable for morning commutes during peak hours",
+                    "Ave_3, reliable, morning commute",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym less crowded around 18:00",
+                    "Gym, less crowded, 18:00",
+                    "Gym",
+                    "17:30-18:30"
+                ],
+                [
+                    "Evening buffer helps manage unexpected delays",
+                    "buffer, delay, evening",
+                    "the town",
+                    "17:00-20:00"
+                ],
+                [
+                    "Morning route confirmation improves travel reliability",
+                    "morning route, reliability",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past day was a reminder of how critical flexibility is in managing both personal and professional commitments. Despite unexpected congestion on St_1_link_2, I managed to adapt by rerouting through Ave_4_link_1, which proved reliable once again. Coordination with Sandra around Grace\u2019s school drop-off went smoothly, and our shared evening plans were successful despite delays. The meetup at the Gym with Ahmed, Maria, and others reinforced the importance of maintaining social and fitness routines even during busy weeks. Looking ahead, I should prioritize earlier departures from evening activities and consider alternative routes proactively. I also need to be more mindful of time buffers when coordinating with Marcus for upcoming coffee meetups.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:15",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines including breakfast and preparing for the day."
+                ],
+                [
+                    "School",
+                    "06:30",
+                    20,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive Grace to School before heading to work as agreed with Sandra."
+                ],
+                [
+                    "Factory",
+                    "none",
+                    120,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2, Ave_3_link_3",
+                    "Arrive at the Factory by 8:00 to start managing operations for the day."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to the Gym after work for light exercise and possibly meet with friends."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_4_link_1",
+                    "Return home to Midtown apartment via Ave_4_link_1 to avoid expected congestion on St_1_link_2, for dinner and evening family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_4_link_1 serves as a reliable alternative during evening commutes",
+                    "Ave_4_link_1, reliable route, evening",
+                    "Ave_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "St_1_link_2 experiences recurring evening congestion",
+                    "St_1_link_2, congestion, evening",
+                    "St_1_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Evening activity departures should be earlier to avoid delays",
+                    "evening departure, delay avoidance",
+                    "the town",
+                    "17:00-19:00"
+                ],
+                [
+                    "Direct route home may not always be optimal; flexibility is key",
+                    "route flexibility, optimal path",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Gym meetup coordination requires precise timing",
+                    "Gym, meetup, timing",
+                    "Gym",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I am currently en route from the School to the Factory via St_1_link_2, but there is severe congestion on St_1_link_1 where Sandra is stuck with a 11-minute wait. I experienced a 5-minute delay on St_1_link_2 earlier, which slightly delayed my arrival at the School, but I successfully dropped Grace off on time. Since Sandra is now delayed and will arrive late at the Factory, she confirmed in our earlier chat that I should handle Grace\u2019s afternoon pickup at 15:15. This requires an adjustment to my schedule to ensure I can accommodate this new responsibility. Additionally, I need to plan for a potential evening yoga session as previously discussed.",
+            "plan": [
+                [
+                    "Factory",
+                    "08:00",
+                    "none",
+                    "drive",
+                    "St_1_link_2",
+                    "Arrive at the Factory by 8:00 to start managing operations for the day."
+                ],
+                [
+                    "School",
+                    "15:15",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Pick up Grace from School at 15:15 as agreed due to Sandra's morning delay."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to the Gym after work for light exercise or an evening yoga session."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_4_link_1",
+                    "Return home to Midtown apartment via Ave_4_link_1 to avoid expected congestion on St_1_link_2, for dinner and evening family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_1 consistently congested during morning commute",
+                    "St_1_link_1, congested, morning",
+                    "St_1_link_1",
+                    "06:30-08:00"
+                ],
+                [
+                    "Grace pickup required at 15:15 when Sandra delayed",
+                    "School, pickup, Grace, 15:15",
+                    "School",
+                    "15:00-15:30"
+                ]
+            ],
+            "datetime": "2025-03-12 07:03:00"
+        },
+        {
+            "reflection": "I just picked up Grace from School at 15:15 as planned, and according to the latest update from Sandra, she will head directly to the Gym for a family wellness session instead of joining us at School. This means I should now drive with Grace to the Gym to meet Sandra around 16:00, and later join Ahmed for the basketball session at 17:30. Traffic is currently clear, so travel time should be smooth along the route.",
+            "plan": [
+                [
+                    "Gym",
+                    "16:00",
+                    60,
+                    "drive",
+                    "St_2_link_2, Ave_3_link_1, Ave_3_link_2, Ave_3_link_3",
+                    "Drive to Gym with Grace to join Sandra for family wellness session starting around 16:00."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Stay at Gym for scheduled basketball session with Ahmed starting at 17:30."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "Ave_4_link_1",
+                    "Return home via Ave_4_link_1 to avoid potential congestion on St_1_link_2 for dinner and evening family time."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Family coordination requires early confirmation of pickup arrangements",
+                    "Grace, School, pickup",
+                    "School",
+                    "all-day"
+                ],
+                [
+                    "Evening sports sessions at Gym can be combined with family wellness time",
+                    "Gym, basketball, wellness",
+                    "Gym",
+                    "16:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-12 15:46:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today followed a generally consistent routine with some adjustments to manage traffic conditions. Morning plans went smoothly as I dropped Grace off at School on time and headed to the Factory. Although there was severe congestion on St_1_link_2, I avoided it by sticking to my original route via Ave_3, ensuring timely arrival at work. My ability to adapt to real-time traffic information helped maintain reliability in my commute. In the evening, I successfully made it to the Gym for a workout session with Ahmed Hassan, which was energizing after a full day at the Factory. On the return trip home, I chose to use St_1_link_2 despite moderate congestion, as I had already accounted for potential delays in my planning. Coordination with Sandra worked well, and family routines remained intact. Overall, today\u2019s schedule reinforced the importance of proactive planning, real-time awareness, and flexibility in managing both professional and personal commitments.",
+            "concepts": [
+                [
+                    "Ave_3 reliable for morning commutes during peak hours",
+                    "Ave_3, reliable, morning commute",
+                    "Ave_3",
+                    "07:00-09:00"
+                ],
+                [
+                    "St_1_link_2 prone to congestion during evening travel",
+                    "St_1_link_2, congestion, unreliable",
+                    "St_1_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Gym less crowded around 18:00",
+                    "Gym, exercise, timing",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Morning route confirmation improves travel reliability",
+                    "route planning, traffic awareness, reliability",
+                    "The town",
+                    "06:30-07:30"
+                ],
+                [
+                    "Evening buffer helps manage unexpected delays",
+                    "buffer time, scheduling, reliability",
+                    "Factory, Midtown apartment",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule started with a necessary adjustment as I took Grace to School when Sandra faced morning congestion on St_1_link_2. My commute to the Factory was unexpectedly delayed due to severe traffic on the same link, which required rerouting via Ave_4_link_1. Evening plans proceeded smoothly after work, with coordinated timing allowing me to meet Sandra, Maria, and Ahmed at the Gym for yoga and basketball. However, returning home proved more complex than expected due to recurring congestion on St_1_link_2, prompting multiple route revisions to stick to the plan. Despite delays in arriving home by 22:00, the day highlighted effective coordination with both family and friends, reinforced the importance of flexible routing, and reaffirmed that Ave_4_link_1 serves as a reliable alternative during evening commutes. The repeated need for adjustments suggests future planning should include earlier departures from evening activities and consistent use of less-congested routes.",
+            "concepts": [
+                [
+                    "Ave_4_link_1 serves as a reliable alternative during evening commutes",
+                    "route optimization, traffic avoidance, Ave_4_link_1",
+                    "Ave_4_link_1",
+                    "17:00-20:00"
+                ],
+                [
+                    "St_1_link_2 experiences recurring evening congestion",
+                    "St_1_link_2, congestion, evening commute",
+                    "St_1_link_2",
+                    "17:00-20:00"
+                ],
+                [
+                    "Gym meetup coordination requires precise timing",
+                    "Gym, meetup, coordination",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Evening activity departures should be earlier to avoid delays",
+                    "scheduling, buffer time, evening routine",
+                    "The town",
+                    "all-day"
+                ],
+                [
+                    "Direct route home may not always be optimal; flexibility is key",
+                    "route choice, adaptability, traffic response",
+                    "Factory, Midtown apartment, Gym",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\n\nTime: 07:03\nReflections: \nI am currently en route from the School to the Factory via St_1_link_2, but there is severe congestion on St_1_link_1 where Sandra is stuck with a 11-minute wait. I experienced a 5-minute delay on St_1_link_2 earlier, which slightly delayed my arrival at the School, but I successfully dropped Grace off on time. Since Sandra is now delayed and will arrive late at the Factory, she confirmed in our earlier chat that I should handle Grace\u2019s afternoon pickup at 15:15. This requires an adjustment to my schedule to ensure I can accommodate this new responsibility. Additionally, I need to plan for a potential evening yoga session as previously discussed.\nPlan revisions: Kevin White update future activity plan:\n[['Factory', '08:00', 'none', 'drive', 'St_1_link_2', 'Arrive at the Factory by 8:00 to start managing operations for the day.'], ['School', '15:15', 60, 'drive', 'shortest', \"Pick up Grace from School at 15:15 as agreed due to Sandra's morning delay.\"], ['Gym', '17:30', 60, 'drive', 'shortest', 'Head to the Gym after work for light exercise or an evening yoga session.'], ['Midtown apartment', '19:30', 'none', 'drive', 'Ave_4_link_1', 'Return home to Midtown apartment via Ave_4_link_1 to avoid expected congestion on St_1_link_2, for dinner and evening family time.']] \n\nTime: 15:46\nReflections: \nI just picked up Grace from School at 15:15 as planned, and according to the latest update from Sandra, she will head directly to the Gym for a family wellness session instead of joining us at School. This means I should now drive with Grace to the Gym to meet Sandra around 16:00, and later join Ahmed for the basketball session at 17:30. Traffic is currently clear, so travel time should be smooth along the route.\nPlan revisions: Kevin White update future activity plan:\n[['Gym', '16:00', 60, 'drive', 'St_2_link_2, Ave_3_link_1, Ave_3_link_2, Ave_3_link_3', 'Drive to Gym with Grace to join Sandra for family wellness session starting around 16:00.'], ['Gym', '17:30', 60, 'drive', 'shortest', 'Stay at Gym for scheduled basketball session with Ahmed starting at 17:30.'], ['Midtown apartment', '19:30', 'none', 'drive', 'Ave_4_link_1', 'Return home via Ave_4_link_1 to avoid potential congestion on St_1_link_2 for dinner and evening family time.']] ",
+    "activity_index": 1,
+    "activity_facility": "Gym",
+    "activity_departure_time": "2025-03-12 17:30:00",
+    "activity_duration": 120,
+    "travel_mode": "drive",
+    "reflect_every": 60,
+    "activity_description": "Stay at Gym for scheduled basketball session with Ahmed starting at 17:30.",
+    "planned_path": [],
+    "curr_place": "Gym",
+    "curr_status": "Staying at facility Gym"
+}

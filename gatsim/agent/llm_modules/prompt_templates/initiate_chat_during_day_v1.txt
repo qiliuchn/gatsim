@@ -11,38 +11,85 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<Args: 0>!
 
+
 !<Args: 1>!
+
 
 You play the role of the person:
 !<Args: 2>!
 
-Current time is !<Args: 3>!. You will be given the original activity plan, revisions, perceived events, and retrieved events and thoughts as context to decide whether you want to talk to someone.
-Remember that the purpose of chatting is to help you to make revisions on the daily activity plan in a later step.
-For example, in the original plan, you have arranged a gathering with your friend at Food court. But you may want to cancel that activity due to traffic jam. In that case you need to talk to your friend to about it.
 
-Return a dict in Json format. The dict should contain the following keys:
-"person name": The name of the person, which is a string.
-"query": The query to ask the person, which is a string.
+-----TASK INSTRUCTION-----
+Current time: !<Args: 3>!
+You are in the middle of your day and considering whether to revise your activity plan. Before making changes, you may need to coordinate with others affected by these potential revisions.
+Evaluate whether recent events, traffic conditions, or new information warrant contacting someone about changing plans.
 
-Notes:
-1) "person name" should be a valid name of your family member or a friend, or "none" if you don't need to chat with anyone to make your daily activity plan.
-2) Avoid unnecessary chatting, like confirming decisions made before! Avoid repeated chatting with the same person! Be concise!
-3) Changing plans too frequent may cause inconvenience to other people and yourself (say it may affect your arrangements with your family members of friends); avoid unnecessary changes to your last activity plan.
-4) person name, facility name, that appears in the chatting should all be valid name (case sensitive).
+Consider chatting when:
+- Canceling or rescheduling joint activities due to unexpected events
+- Warning others about traffic/delays that affect shared plans
+- Proposing alternative arrangements due to changed circumstances
+- Informing family about schedule changes that impact them
+- Responding to urgent situations requiring coordination
+
+DO NOT chat for:
+- Minor timing adjustments (< 15 minutes)
+- Personal activity changes that don't affect others
+- Confirming existing plans that haven't changed
+- Past events or completed activities
+
+Ask yourself:
+1. Does my potential plan change affect others?
+2. Do others need advance notice to adjust their plans?
+3. Is this change significant enough to warrant disruption?
+4. Can I handle this without involving others?
 
 
+-----OUTPUT FORMAT-----
+Return a dict in Json format:
+{
+    "person_name": "[Valid family member or friend name, or 'none']",
+    "query": "[Specific message about the plan change]"
+}
+Return just the json file content. DO NOT include any other information.
 
-The context for the query includes:
 
+-----EXAMPLES-----
+Canceling due to traffic:
+{
+    "person_name": "Lisa Garcia",
+    "query": "Hey Lisa, traffic is terrible on Ave_3. I won't make it to Food Court by 6pm. Should we reschedule dinner or meet somewhere else?"
+}
+
+Emergency affecting family:
+{
+    "person_name": "George Williams",
+    "query": "Work emergency came up - I need to stay until 7pm. Can you pick up Max from school today?"
+}
+
+Warning about conditions:
+{
+    "person_name": "Tyler Robinson",
+    "query": "FYI - huge crowd at the Gym right now. Maybe postpone basketball until tomorrow?"
+}
+
+No chat needed:
+{
+    "person_name": "none",
+    "query": ""
+}
+
+
+-----CONTEXT-----
+Current time: !<Args: 3>!
 !<Args: 4>!
 
-!<Args: 5>!
 
-!<Args: 6>!
+-----IMPORTANT NOTES-----
+- "person_name" should be a valid name of your family member or a friend, or "none" if you don't need to chat with anyone to make your daily activity plan.
+- Pay attention to CHAT SUMMARY SECTION section; avoid repetition! Avoid unnecessary chatting, like confirming decisions made before! Avoid repeated chatting with the same person! Be concise!
+- Avoid unnecessary chatting!
+- Changing plans too frequent may cause inconvenience to other people and yourself! avoid unnecessary changes to your last activity plan.
+- Only contact people about FUTURE activities (not past events)
+- person name, facility name, that appears in the chatting should all be valid name (case sensitive).
 
-
-Example output:
-{
-    "person name": "",
-    "query":"",
-}
+Now generate your JSON chat request:

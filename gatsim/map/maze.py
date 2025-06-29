@@ -9,9 +9,8 @@ Here the backend only handles abstract network.
 Frontend will deal with the tile world for visualization.
   
 # How agents move on the map
-• Persona needs to identify the destination.
-• A path will be found by get_shortest_path
-• The path has be either driving or walk + transit.
+• A real-time shortest path can be found by get_shortest_path.
+• The travel mode can be either driving or walk + transit.
 """
 import json
 import networkx as nx
@@ -39,9 +38,7 @@ An event is a dictionary, example:
       "duration": 40,
       "content": "Ave_2_link_2 direction 0 realtime capacity drop from 2 to 1 due to car accident from 2025-03-10 08:00; duration is 40 minutes",
       "keywords": ["Ave_2_link_2", "car accident", "morning"],
-      "spatial_level": "link",
       "spatial_scope": "Ave_1_link_2",
-      "spatial_coverage": [],
       "time_scope": ["08:10:00", "08:50:00"],    
       "broadcast": false
     }
@@ -83,7 +80,7 @@ class NetworkEvent:
         - spatial_scope (str): "Node_1" | "St_3_link_2" | "Ave_1" | "Uptown apartment to Office" | "School zone" | "the town" | None
                 None if the concept does not contain spatial information;
         - time_scope (list[datetime.time]): time scope of the concept; a list of two elements; e.g. [time(8, 0), time(9,0)]
-        - broadcast:  # whether this event should be broadcast to the whole maze
+        - broadcast:  # whether this event should be broadcast to the whole network
         """
         self.place = place
         self.direction = direction
@@ -108,8 +105,10 @@ class Maze:
         # we only consider bidirectional network.
         # V: nodes; facilities are attached with nodes;
         # E: links; links are the roads or transit segments connecting the nodes;
+        if not maze_name:
+            maze_name = config.maze_name
         self.maze_name = maze_name
-        self.broadcast_news = []
+        self.broadcast_news = []  # the list of broadcast news
         # load vertices and facilities info
         self.nodes_info = json.load(open(f"{config.maze_assets_loc}/nodes_info.json"))
         self.num_nodes = len(self.nodes_info)
@@ -137,10 +136,10 @@ class Maze:
         for link, attr in self.links_info.items():
             # initialize realtime capacity to base capacity
             # if accidents happen, realtime capacity may be adjusted smaller
-            self.links_info[link]['realtime capacity'] = (attr['base capacity'], attr['base capacity'])  # bi-directional
+            self.links_info[link]['realtime_capacity'] = (attr['base_capacity'], attr['base_capacity'])  # bi-directional
             self.links_info[link]['events'] = [[], []]  # bi-directional
-            wait_time = int(self.links_info[link]['wait time'])
-            self.links_info[link]['wait time'] = [wait_time, wait_time]  # wait time of link for each direction
+            wait_time = int(self.links_info[link]['wait_time'])
+            self.links_info[link]['wait_time'] = [wait_time, wait_time]  # wait time of link for each direction
             if self.links_info[link]['type'] == 'road':
                 self.links_info[link]['driving'] = [[], []]  # bi-directional
                 # personas currently driving on the link; a list of persona names
@@ -156,8 +155,8 @@ class Maze:
                 self.links_info[link]['arrival'] = [False, False]  # whether the train currently arrived at the station for each direction
                 
         for facility, attr in self.facilities_info.items():
-            self.facilities_info[facility]['realtime capacity'] = attr['base capacity']
-            self.facilities_info[facility]['wait time'] = 0  # wait time of the facility
+            self.facilities_info[facility]['realtime_capacity'] = attr['base_capacity']
+            self.facilities_info[facility]['wait_time'] = 0  # wait time of the facility
             self.facilities_info[facility]['events'] = []  # a list NetworkEvent objects
             self.facilities_info[facility]['staying'] = []  # personas currently staying at the facility, engaging by their activities; a list of persona names
             self.facilities_info[facility]['waiting'] = []  # personas currently waiting at the the facility; a list of persona names
@@ -178,6 +177,9 @@ class Maze:
             self.graph.add_node(node_name, **node_data)
         
         # Collect information about metro lines and stations
+        # Follow Spiess and Florian (1989) transit network representation:
+        #  - add artificial node for each metro line;
+        #  - add artificial boarding/alighting links.
         self.pseudo_nodes = {}
         for link_name, link_data in self.links_info.items():
             if link_data['type'] == 'metro':
@@ -188,8 +190,8 @@ class Maze:
                     pseudo_node = f"{node}_metro_{line_num}"
                     if pseudo_node not in self.pseudo_nodes:
                         node_data = self.nodes_info[node].copy()
-                        # Shift the pseudo node by exactly 1 unit
-                        # Use different directions based on line number to avoid overlaps
+                        # Shift the pseudo node by exactly 1 unit for display
+                        # Use different directions based on line number to avoid overlaps when displaying
                         line_int = int(line_num)
                         if line_int % 4 == 0:  # Shift lower right
                             node_data['coord'] = [node_data['coord'][0] + 1, node_data['coord'][1] + 1]
@@ -208,7 +210,7 @@ class Maze:
         # Add edges to the graph (road links and boarding/alighting links)
         for link_name, link_data in self.links_info.items():
             source, target = link_data['endpoints']
-            travel_time = link_data['travel time']
+            travel_time = link_data['travel_time']
             link_type = link_data['type']
             
             if link_type == 'road':
@@ -216,15 +218,15 @@ class Maze:
                 self.graph.add_edge(source, target, 
                                    name=link_name, 
                                    travel_time=travel_time,
-                                   wait_time=link_data.get('wait time', (0, 0))[0],  # Direction 0
-                                   **link_data)
+                                   wait_time=link_data.get('wait_time', (0, 0))[0],  # Direction 0
+                                   **{k: v for k, v in link_data.items() if k != 'travel_time' and k != 'wait_time'})
                 
                 # For bidirectional road links, add the reverse edge too
                 self.graph.add_edge(target, source, 
                                    name=f"{link_name}_reverse", 
                                    travel_time=travel_time,
-                                   wait_time=link_data.get('wait time', (0, 0))[1],  # Direction 1
-                                   **link_data)
+                                   wait_time=link_data.get('wait_time', (0, 0))[1],  # Direction 1
+                                   **{k: v for k, v in link_data.items() if k != 'travel_time' and k != 'wait_time'})
             elif link_type == 'metro':
                 # Get metro line for this link
                 line_num = link_name.split('_')[1]
@@ -237,17 +239,17 @@ class Maze:
                 self.graph.add_edge(pseudo_source, pseudo_target,
                                    name=link_name,
                                    travel_time=travel_time,
-                                   wait_time=0,  # Wait time moved to boarding link
+                                   wait_time=0,  # Wait time moved to boarding link, traversal has no wait time!
                                    metro_line=line_num,
-                                   **{k: v for k, v in link_data.items() if k != 'wait time'})
+                                   **{k: v for k, v in link_data.items() if  k != 'travel_time' and k != 'wait_time'})
                 
                 # For bidirectional metro links, add the reverse edge too
                 self.graph.add_edge(pseudo_target, pseudo_source,
                                    name=f"{link_name}_reverse",
                                    travel_time=travel_time,
-                                   wait_time=0,  # Wait time moved to boarding link
+                                   wait_time=0,  # Wait time moved to boarding link, traversal has no wait time
                                    metro_line=line_num,
-                                   **{k: v for k, v in link_data.items() if k != 'wait time'})
+                                   **{k: v for k, v in link_data.items() if  k != 'travel_time' and k != 'wait_time'})
                 
                 # Add boarding and alighting links if they don't already exist
                 # Source boarding link
@@ -255,7 +257,7 @@ class Maze:
                     self.graph.add_edge(source, pseudo_source,
                                        name=f"{source}_board_{line_num}",
                                        travel_time=0,
-                                       wait_time=link_data.get('wait time', (0, 0))[0],  # Direction 0
+                                       wait_time=link_data.get('wait_time', (0, 0))[0],  # Direction 0: wait time
                                        type='board',
                                        metro_line=line_num,
                                        original_node=source,
@@ -268,7 +270,7 @@ class Maze:
                     self.graph.add_edge(target, pseudo_target,
                                        name=f"{target}_board_{line_num}",
                                        travel_time=0,
-                                       wait_time=link_data.get('wait time', (0, 0))[1],  # Direction 1
+                                       wait_time=link_data.get('wait_time', (0, 0))[1],  # Direction 1: wait time
                                        type='board',
                                        metro_line=line_num,
                                        original_node=target,
@@ -311,19 +313,23 @@ class Maze:
         # load events after graph created, otherwise it may report self.graph nonexistence.
         self._load_events()
         
+        # generate statistics
+        self._statistics()
+        
         # generate descriptions
         self.nodes_description = self._generate_nodes_description()
         self.links_description = self._generate_links_description()
         self.network_description = self._generate_network_description()
         self.coverage_dict = self._generate_coverage()  # used for memory retrieval
-    
 
     
-    #============================Methods for loading files========================
+    
+
+    #============================Methods for memory retrieval========================
     def get_coverage(self, spatial_scope):
         """
         Generate spatial coverage for concept nodes
-        Note: concept node's spatial coverage should be generated before insertion into long term memory
+        Invoked by long term memory to compute relevance on the fly - coverage is Not stored in the concept node.
         
         Args:
             spatial_scope (list[str]): list of entities (link_name, facility_name, road_name, maze_name).
@@ -333,16 +339,19 @@ class Maze:
             
         spatial_coverage = set()
         for entity in spatial_scope:
-            entity = entity.strip()
-            # fail safe
+            entity = entity.strip().lower()
+            # failsafe
             if entity not in self.coverage_dict:
-                pretty_print(f"Warning: {entity} not found in coverage dict when getting coverage for spatial scope {spatial_coverage}", 2)
+                pretty_print(f"Error 013: {entity} not found in coverage dict when getting coverage for spatial scope {spatial_coverage}", 2)
                 continue
             spatial_coverage.update(self.coverage_dict[entity])
         return list(spatial_coverage)
         
     def _generate_coverage(self):
         """
+        stored as maze instance obj;
+        will be used by get_coverage method;
+        
         coverage[link_name] = [link_name]
         coverage[road_name] = list of links on the road
         coverage[node_name] = the list of all links connected to this node; for temporary use
@@ -350,29 +359,29 @@ class Maze:
         coverage['the town'] = list of all nodes and links on the network
         """
         coverage = {}
-        coverage[self.maze_name] = []
+        coverage[self.maze_name.lower()] = []
         for link_name in self.links_info:
             road_name = link_name.split('_')[0] + "_" + link_name.split('_')[1]  # Ave_1, Metro_1, etc.
-            if road_name not in coverage:
-                coverage[road_name] = []
-            coverage[link_name] = [link_name]
-            coverage[road_name].append(link_name)
-            coverage[self.maze_name].append(link_name)
+            if road_name.lower() not in coverage:
+                coverage[road_name.lower()] = []
+            coverage[link_name.lower()] = [link_name]
+            coverage[road_name.lower()].append(link_name)
+            coverage[self.maze_name.lower()].append(link_name)
             
             pt0 = self.links_info[link_name]['endpoints'][0]
             pt1 = self.links_info[link_name]['endpoints'][1]
-            if pt0 not in coverage:
-                coverage[pt0] = []
-            coverage[pt0].append(link_name)
-            if pt1 not in coverage:
-                coverage[pt1] = []
-            coverage[pt1].append(link_name)
+            if pt0.lower() not in coverage:
+                coverage[pt0.lower()] = []
+            coverage[pt0.lower()].append(link_name)
+            if pt1.lower() not in coverage:
+                coverage[pt1.lower()] = []
+            coverage[pt1.lower()].append(link_name)
          
         # generate coverage for a facility - the node and all links connected to the node
         for facility in self.facilities_info:
             node = self.facility2node[facility]
-            coverage[self.maze_name].append(node)
-            coverage[facility] = [node] + coverage[node]
+            coverage[self.maze_name.lower()].append(node)
+            coverage[facility.lower()] = [node] + coverage[node.lower()]
         
         # ensure no duplicates
         for key, value in coverage.items():
@@ -382,6 +391,8 @@ class Maze:
     
     
     
+    
+    #============================Methods for loading files========================
     def _load_transit_schedule(self):
         """
         Load transit schedule from the transit_schedule.csv file.
@@ -416,7 +427,7 @@ class Maze:
                     
                     # Check if we have enough elements
                     if len(row) < 4:
-                        print(f"Skipping invalid transit schedule row: {row} (insufficient elements)")
+                        pretty_print(f"Skipping invalid transit schedule row: {row} (insufficient elements)", 2)
                         continue
                     
                     # Parse transit attributes
@@ -424,7 +435,7 @@ class Maze:
                     try:
                         direction = int(row[1])  # 0 or 1
                     except ValueError:
-                        print(f"Skipping invalid direction in transit schedule: {row}")
+                        pretty_print(f"Skipping invalid direction in transit schedule: {row}", 2)
                         continue
                         
                     node_name = row[2]
@@ -447,10 +458,10 @@ class Maze:
                         for node in transit_schedule[metro_line][direction]:
                             transit_schedule[metro_line][direction][node].sort()
                 
-                pretty_print(f"Loaded {loaded_entries} transit schedule entries from {transit_file}", 1)
+                pretty_print(f"Loaded {loaded_entries} transit schedule entries from {transit_file}", 2)
                 
         except Exception as e:
-            pretty_print(f"Error loading transit schedule from {transit_file}: {str(e)}", 1)
+            pretty_print(f"Error loading transit schedule from {transit_file}: {str(e)}", 2)
         
         return transit_schedule
     
@@ -497,12 +508,12 @@ class Maze:
                     try:
                         start_time = datetime.strptime(start_time_str, "%Y-%m-%d %H:%M:%S")
                     except (ValueError, TypeError):
-                        pretty_print(f"Warning: Invalid start_time format in event: {event_obj}", 1)
+                        pretty_print(f"Error 022: Invalid start_time format in event: {event_obj}", 2)
                         continue
                     try:
                         preview_time = datetime.strptime(preview_time_str, "%Y-%m-%d %H:%M:%S")
                     except (ValueError, TypeError):
-                        pretty_print(f"Warning: Invalid preview_time format in event: {event_obj}", 1)
+                        pretty_print(f"Error 021: Invalid preview_time format in event: {event_obj}", 2)
                         continue
                     
                     # Handle duration (convert to timedelta)
@@ -511,7 +522,7 @@ class Maze:
                         try:
                             duration = timedelta(minutes=int(duration))
                         except (ValueError, TypeError):
-                            pretty_print(f"Warning: Invalid duration in event: {event_obj}", 1)
+                            pretty_print(f"Error 020: Invalid duration in event: {event_obj}", 2)
                             duration = None
                     
                     # Get new fields
@@ -528,7 +539,7 @@ class Maze:
                                 t = datetime.strptime(time_str, "%H:%M:%S").time()
                                 time_scope.append(t)
                         except (ValueError, TypeError):
-                            pretty_print(f"Warning: Invalid time_scope format in event: {event_obj}", 1)
+                            pretty_print(f"Error 019: Invalid time_scope format in event: {event_obj}", 2)
                             time_scope = None
                     
                     broadcast = event_obj.get('broadcast', False)
@@ -551,7 +562,7 @@ class Maze:
                     )
                     
                     try:
-                        self.add_concept_node(event)
+                        self.add_network_event(event)
                         loaded_events += 1
                     except Exception as e:
                         pretty_print(f"Error adding event {event}: {str(e)}", 1)
@@ -559,14 +570,14 @@ class Maze:
                 pretty_print(f"Loaded {loaded_events} events from {events_file}", 1)
                 
         except Exception as e:
-            pretty_print(f"Error loading events from {events_file}: {str(e)}", 1)
+            pretty_print(f"Error 023: Error loading events from {events_file}: {str(e)}", 1)
             
     
-    def add_concept_node(self, event):
+    def add_network_event(self, event):
         """
         Add an event to network. This method only stores the event in the appropriate 
         collection without updating any network attributes. Attribute updates are handled 
-        in the update() method based on current time.
+        in the update() method based on current time of the simulation.
             
         Args: 
             event: NetworkEvent object
@@ -610,11 +621,43 @@ class Maze:
             self.broadcast_news.append(event)
     
     
+    def _check_if_significant_event(self, event):
+        """
+        Check if an event is significant enough to be broadcast.
+        
+        Args:
+            event: NetworkEvent object
+            
+        Returns:
+            bool: True if event should be broadcast, False otherwise
+        """
+        # Events that affect capacity drastically
+        if event.attribute == 'realtime_capacity' and event.new_value is not None:
+            if event.place in self.links_info:
+                base_capacity = self.links_info[event.place]['base_capacity']
+                if event.new_value <= base_capacity * 0.5:  # At least 50% reduction
+                    return True
+        
+        # Events with long durations
+        if event.duration and event.duration >= timedelta(minutes=120):  # 2+ hours
+            return True
+        
+        # Events with specific critical descriptions
+        critical_terms = ['accident', 'fire', 'emergency', 'disaster', 'closed', 'blocked']
+        if event.content and any(term in event.content.lower() for term in critical_terms):
+            return True
+            
+        return False
+    
+    
+    
+    #============================Methods for computing agent loc for display========================
     def get_coordinates(self, mobility_event, curr_time):
         """ 
         Compute the coordinates of the mobility event.
         A mobility event describes a persona's current movement on the network.
         
+        Cases:
         1) "staying": Returns the coordinates of the facility or node where the persona is staying.
         2) "waiting":
             If waiting at a link, returns the coordinates of the source node of that link
@@ -727,7 +770,7 @@ class Maze:
             elapsed_minutes = (curr_time - start_time).total_seconds() / 60
             
             # Get travel time for interpolation
-            travel_time = link_data['travel time']
+            travel_time = link_data['travel_time']
             
             # Special case: if walking on a road link, multiply travel time by walk_time_factor
             if status == "walking" and link_data['type'] == 'road':
@@ -746,38 +789,6 @@ class Maze:
         else:
             raise ValueError(f"Unknown status: {status}")
         
-    
-    
-    def _check_if_significant_event(self, event):
-        """
-        Check if an event is significant enough to be broadcast.
-        
-        Args:
-            event: NetworkEvent object
-            
-        Returns:
-            bool: True if event should be broadcast, False otherwise
-        """
-        # Events that affect capacity drastically
-        if event.attribute == 'realtime capacity' and event.new_value is not None:
-            if event.place in self.links_info:
-                base_capacity = self.links_info[event.place]['base capacity']
-                if event.new_value <= base_capacity * 0.5:  # At least 50% reduction
-                    return True
-        
-        # Events with long durations
-        if event.duration and event.duration >= timedelta(minutes=120):  # 2+ hours
-            return True
-        
-        # Events with specific critical descriptions
-        critical_terms = ['accident', 'fire', 'emergency', 'disaster', 'closed', 'blocked']
-        if event.content and any(term in event.content.lower() for term in critical_terms):
-            return True
-            
-        return False
-    
-    
-    
     
     
     #============================Methods for update network state========================
@@ -802,13 +813,16 @@ class Maze:
         self._update_events(curr_time)
         network_changed = True  # We'll be conservative and assume changes happened
         
-        # 2. Update transit arrivals based on schedule
+        # 2. Update road links and facilities wait time
+        self._update_wait_time()
+        
+        # 3. Update transit arrivals based on schedule
         self._update_transit_arrivals(curr_time)
         
-        # 3. Remove expired events from the network
+        # 4. Remove expired events from the network
         self._remove_expired_events(curr_time)
         
-        # 4. If network topology changed, recalculate all pairs shortest paths
+        # 5. If network topology changed, recalculate all pairs shortest paths
         if network_changed:
             self.all_pairs_paths = {}
             self.all_pairs_distance = self.find_all_pairs_distance()
@@ -868,6 +882,7 @@ class Maze:
             if entity_type == 'node':
                 # Update node attribute
                 self.nodes_info[entity_name][event.attribute] = event.new_value
+                self.graph.nodes[entity_name][event.attribute] = event.new_value
                 
                 # Also update any pseudo nodes associated with this node
                 for pseudo_node in self.pseudo_nodes:
@@ -877,7 +892,7 @@ class Maze:
             elif entity_type == 'link':
                 # Update link attribute for the specified direction
                 if direction is not None:
-                    if isinstance(self.links_info[entity_name][event.attribute], tuple):
+                    if isinstance(self.links_info[entity_name][event.attribute], (tuple, list)):
                         # For directional attributes (stored as tuples)
                         current_values = list(self.links_info[entity_name][event.attribute])
                         current_values[direction] = event.new_value
@@ -899,7 +914,7 @@ class Maze:
                             self.graph[target][source][event.attribute] = event.new_value
                 else:
                     # Apply to both directions
-                    if isinstance(self.links_info[entity_name][event.attribute], tuple):
+                    if isinstance(self.links_info[entity_name][event.attribute], (tuple, list)):
                         self.links_info[entity_name][event.attribute] = (event.new_value, event.new_value)
                     else:
                         self.links_info[entity_name][event.attribute] = event.new_value
@@ -973,6 +988,81 @@ class Maze:
 
     
     
+    def _update_wait_time(self):
+        """ 
+        Road links wait time is updated based on the current length of the queue, realtime capacity and travel time
+        Calculation:
+        
+        wait_time = (queue_length / realtime_capacity) * travel_time
+        
+        default wait time is 0
+        
+        Update both self.links_info and networkx graph
+        """
+        for link_name, link_data in self.links_info.items():
+            # Only process road links
+            if link_data['type'] != 'road':
+                continue
+                
+            # Get base travel time for this link
+            base_travel_time = link_data['travel_time']
+            
+            # Get realtime capacity for both directions
+            realtime_capacity = link_data['realtime_capacity']
+            
+            # Calculate wait time for each direction
+            new_wait_times = [0, 0]  # Initialize both directions to 0
+            
+            for direction in [0, 1]:               
+                # Count personas driving in this direction                    
+                # Count personas waiting in this direction
+                if 'waiting' in link_data:
+                    queue_length = len(link_data['waiting'][direction])
+                
+                # Get realtime capacity for this direction
+                capacity = realtime_capacity[direction]
+                
+                # Calculate wait time using the formula: (queue_length / realtime_capacity) * travel_time
+                if capacity > 0 and queue_length > 0:
+                    wait_time = int((queue_length / capacity + 0.5) * base_travel_time)    
+                    # 0.5 * travel time component is for the expected traversal time left
+                    # Apply a reasonable upper bound to prevent extremely long wait times
+                    wait_time = min(wait_time, base_travel_time * 5)  # Max 5x base travel time
+                else:
+                    wait_time = 0
+                    
+                new_wait_times[direction] = wait_time
+            
+            # Update the wait time in links_info
+            self.links_info[link_name]['wait_time'] = [new_wait_times[0], new_wait_times[1]]
+            
+            # Update the wait time in the networkx graph
+            endpoints = link_data['endpoints']
+            source, target = endpoints[0], endpoints[1]
+            
+            # Update direction 0: source -> target
+            if self.graph.has_edge(source, target):
+                self.graph[source][target]['wait_time'] = new_wait_times[0]
+                
+            # Update direction 1: target -> source
+            if self.graph.has_edge(target, source):
+                self.graph[target][source]['wait_time'] = new_wait_times[1]
+    
+    
+        # Update facility wait times and crowdedness
+        for facility_name in self.facilities_info:
+            # Calculate occupancy
+            capacity = self.facilities_info[facility_name]['realtime_capacity']
+            queue_length = len(self.facilities_info[facility_name]['waiting'])
+            if queue_length > 0:
+                wait_time = int((queue_length / capacity +  0.5) * self.facilities_info[facility_name]['average_stay'])
+            else:
+                wait_time = 0
+            self.facilities_info[facility_name]['wait_time'] = wait_time
+        
+
+    
+    
     def _update_transit_arrivals(self, curr_datetime):
         """
         Update transit arrival status based on the schedule.
@@ -1014,6 +1104,7 @@ class Maze:
                                     node_name in link_data['endpoints']):
                                     
                                     # Set the appropriate direction's arrival state to True
+                                    # Note: direction 0 means the transit go from link_data['endpoints'][0] to link_data['endpoints'][1]
                                     if direction == 0 and node_name == link_data['endpoints'][0]:
                                         self.links_info[link_name]['arrival'][0] = True
                                     elif direction == 1 and node_name == link_data['endpoints'][1]:
@@ -1042,7 +1133,49 @@ class Maze:
     
         
     
-    #============================Generate description========================
+    #============================Utilities========================
+    def same_node(self, node1, node2):
+        """ 
+        Check if two places are at the same node.
+        """
+        if (node1 not in self.nodes_info) and (node1 not in self.facilities_info):
+            return False
+        
+        if (node2 not in self.nodes_info) and (node2 not in self.facilities_info):
+            return False
+        
+        if node1 in self.facilities_info:
+            node1 = self.facility2node[node1]
+        if node2 in self.facilities_info:
+            node2 = self.facility2node[node2]
+        
+        if  node1 == node2:
+            return True
+        else:
+            return False
+        
+        
+    def _statistics(self):
+        """ 
+        Do some statistics of the network, like counting how many roads, transit lines are there in the network.
+        """
+        roads = []
+        transit_lines = []
+        
+        for link_name in self.links_info:
+            road_name = link_name.split("_")[0] + '_' + link_name.split("_")[1]
+            if "Metro" in road_name:
+                transit_lines.append(road_name)
+            else:
+                roads.append(road_name)
+        
+        roads = list(set(roads))
+        transit_lines = list(set(transit_lines))
+        self.roads = ', '.join(sorted(roads))
+        self.transit_lines = ', '.join(sorted(transit_lines))
+        
+    
+    
     def _generate_nodes_description(self):
         """Generate a description of network nodes and facilities that's optimized for LLM understanding."""
         description = "NODES AND FACILITIES DESCRIPTION:\n"
@@ -1068,6 +1201,7 @@ class Maze:
         
         return description
 
+    
     def _generate_links_description(self):
         """Generate a description of network links that's optimized for LLM understanding."""
         description = "LINKS DESCRIPTION:\n"
@@ -1088,9 +1222,9 @@ class Maze:
             
             description += f"Link: {link_name}\n"
             description += f"Connects: {source} to {target}\n"
-            description += f"Travel time: {link_data['travel time']} minutes\n"
-            description += f"Base capacity: {link_data['base capacity']}\n\n"
-            #description += f"Wait time: {link_data.get('wait time', 0)} minutes\n\n"  # Not necessary; congestion is displayed in get_congestion_info method.
+            description += f"Travel time: {link_data['travel_time']} minutes\n"
+            description += f"Base capacity: {link_data['base_capacity']}\n\n"
+            #description += f"Wait time: {link_data.get('wait_time', 0)} minutes\n\n"  # Not necessary; congestion is displayed in get_congestion_info method.
         
         # Metro links section
         description += "METRO LINKS:\n"
@@ -1100,36 +1234,48 @@ class Maze:
             
             description += f"Link: {link_name}\n"
             description += f"Connects: {source} to {target}\n"
-            description += f"Travel time: {link_data['travel time']} minutes\n"
-            description += f"Wait time: {link_data.get('wait time', 0)} minutes\n\n"
+            description += f"Travel time: {link_data['travel_time']} minutes\n"
+            description += f"Wait time: {link_data.get('wait_time', [5, 5])[0]} minutes\n\n"
         
         # Add notes section with simple formatting
         description += "ADDITIONAL NOTES:\n"
         description += "1. Link name convention: 'Ave_<avenue number>_link_<link index>' or 'St_<street number>_link_<link index>'.\n"
-        description += "2. 'Travel time' represents the vehicle or metro traversal time in minutes.\n"
+        description += "2. 'travel_time' represents the vehicle or metro traversal time in minutes.\n"
         description += f"3. Walking time on a road link is {config.walk_time_factor} times the vehicle travel time.\n"
-        description += "4. 'base capacity' is the designed capacity of the link or facility.\n"
-        description += "5. 'wait time' represents the average delays due to congestion or service frequency. A road link has zero wait time when there is no congestion. Wait time due to congestion is shown in the realtime traffic state section. Metro links have constant wait time.\n"
+        description += "4. 'base_capacity' is the designed capacity of the link or facility.\n"
+        description += "5. 'wait_time' represents the average delays due to congestion or service frequency. A road link has zero wait time when there is no congestion. Wait time due to congestion is shown in the realtime traffic state section. Metro links have constant wait time.\n"
         
         return description
 
     def _generate_network_description(self):
-        """Generate a comprehensive network description that's optimized for LLM understanding."""
-        description = f"TRANSPORTATION NETWORK: {self.maze_name}\n\n"
-        
+        """Generate a comprehensive network description that's optimized for LLM understanding."""        
         # Simple overview with key statistics
-        description += "NETWORK OVERVIEW:\n"
-        description += f"This transportation network consists of {self.num_nodes} nodes connected by {self.num_links} links.\n"
-        description += f"There are {self.num_facilities} facilities located at various nodes throughout the network.\n\n"
+        description = f"""-----URBAN ENVIRONMENT OVERVIEW-----
+The name of the urban environment is {self.maze_name}.
+{self.maze_name} is a small urban area with a grid-based layout. {self.maze_name} features distinct areas:
+- Northwest: Residential and educational area
+- Central: Commercial and service area
+- Southeast: Working and industrial area
+
+
+-----TRANSPORTATION NETWORK-----
+The transportation network has {len(self.roads)} roads and {len(self.transit_lines)} metro lines. 
+ - roads: {self.roads}
+ - transit lines: {self.transit_lines}
+ 
+The transportation network is represented by a graph which consists of {self.num_nodes} nodes connected by {self.num_links} links.
+There are {self.num_facilities} facilities serving various urban functions located at various nodes throughout the network.
+
+"""
         
         # Add the detailed descriptions with clear section demarcation
-        description += "-----NODES SECTION START-----\n"
+        description += "---NODES AND FACILITIES DESCRIPTION SECTION START---\n"
         description += self.nodes_description
-        description += "-----NODES SECTION END-----\n\n"
+        description += "---NODES AND FACILITIES DESCRIPTION SECTION END---\n\n"
         
-        description += "-----LINKS SECTION START-----\n"
+        description += "---LINKS DESCRIPTION SECTION START---\n"
         description += self.links_description
-        description += "-----LINKS SECTION END-----\n"
+        description += "---LINKS DESCRIPTION SECTION END---"
         
         return description
     
@@ -1374,44 +1520,11 @@ class Maze:
                 else:
                     i += 1
             
-            # Keep the original clean_modes for backward compatibility
-            clean_modes = []
-            real_nodes_in_path = [node for node in path if node not in self.pseudo_nodes]
-            
-            for i in range(len(real_nodes_in_path) - 1):
-                curr_node, next_node = real_nodes_in_path[i], real_nodes_in_path[i+1]
-                
-                # Find the mode of transportation between these nodes
-                for j in range(len(path) - 1):
-                    if path[j] == curr_node:
-                        edge_data = self.graph[path[j]][path[j+1]]
-                        if edge_data.get('type') == 'board':
-                            # This is a transit segment
-                            clean_modes.append({
-                                'from': curr_node,
-                                'to': next_node,
-                                'mode': 'metro',
-                                'line': edge_data.get('metro_line', ''),
-                                'total_time': sum(mode.get('total_time', 0) for mode in modes[j:j+3])  # Approximate
-                            })
-                            break
-                        elif edge_data.get('type') == 'road':
-                            # Road segment
-                            mode_type = 'walk' if not drive else 'road'
-                            clean_modes.append({
-                                'from': curr_node,
-                                'to': next_node,
-                                'mode': mode_type,
-                                'total_time': edge_data.get('travel_time', 0) + edge_data.get('wait_time', 0)
-                            })
-                            break
-            
             return {
                 'path': path,
                 'original_path': original_path,
                 'travel_time': total_time,
                 'modes': modes,
-                'clean_modes': clean_modes
             }
             
         except nx.NetworkXNoPath:
@@ -1420,7 +1533,6 @@ class Maze:
                 'original_path': [],
                 'travel_time': float('inf'),
                 'modes': [],
-                'clean_modes': []
             }
         
         finally:
@@ -1459,10 +1571,27 @@ class Maze:
         if end_node in self.facilities_info:
             end_node = self.facility2node[end_node]
         
+        if start_node == end_node:
+            pretty_print(f"Warning: start_node and end_node coincide: {start_node}, path not updated", 2)
+            return []
+        
         # Split the roads string into a list of road names
         if isinstance(roads, str):
             roads = roads.split(",")
         road_names = [road.strip() for road in roads]
+        
+        # failsafe
+        # sometimes, link names are included in road_names
+        road_names_tmp = []
+        for road_name in road_names:
+            if road_name in self.roads:
+                road_names_tmp.append(road_name)
+            elif road_name in self.links_info:
+                    road_names_tmp.append(road_name.split("_")[0] + "_" + road_name.split("_")[1])
+            else:
+                # an error road name is found
+                # we still add it to the list; there will be failsafe in the next step
+                road_names_tmp.append(road_name)
         
         # Initialize the result path and current node
         path_result = []
@@ -1491,17 +1620,17 @@ class Maze:
                     subgraph.add_edge(tgt, src, name=link_name, type=link_type)
             
             if not road_links:
-                print(f"Warning: No links found for road {road_name}, attempting failsafe path finding")
+                pretty_print(f"Error 014: No links found for road {road_name}, attempting failsafe path finding", 2)
                 # Failsafe: Use get_shortest_path to find a path from current_node to end_node
                 shortest_path = self.get_shortest_path(current_node, end_node, travel_mode)
                 
                 if shortest_path['original_path']:
-                    print(f"Failsafe: Found alternative path from {current_node} to {end_node}")
+                    pretty_print(f"Found alternative path from {current_node} to {end_node}", 1)
                     # Add the alternative path segments to our result
                     path_result.extend(shortest_path['original_path'])
                     return path_result
                 else:
-                    raise ValueError(f"No links found for road {road_name} and failsafe path finding failed")
+                    raise ValueError(f"Error 015: No links found for road {road_name} and failsafe path finding failed", 2)
             
             # Determine the target node for this road segment
             target_node = None
@@ -1520,17 +1649,17 @@ class Maze:
                                     connecting_nodes.add(node)
                 
                 if not connecting_nodes:
-                    pretty_print(f"Warning: Cannot find a connection between {road_name} and {next_road}, attempting failsafe path finding", 2)
+                    pretty_print(f"Error 016: Cannot find a connection between {road_name} and {next_road}, attempting failsafe path finding", 2)
                     # Failsafe: Use get_shortest_path to find a path from current_node to end_node
                     shortest_path = self.get_shortest_path(current_node, end_node, travel_mode)
                     
                     if shortest_path['original_path']:
-                        print(f"Failsafe: Found alternative path from {current_node} to {end_node}")
+                        pretty_print(f"Found alternative path from {current_node} to {end_node}", 2)
                         # Add the alternative path segments to our result
                         path_result.extend(shortest_path['original_path'])
                         return path_result
                     else:
-                        raise ValueError(f"Cannot find a connection between {road_name} and {next_road} and failsafe path finding failed")
+                        raise ValueError(f"Error 018: Cannot find a connection between {road_name} and {next_road} and failsafe path finding failed")
                 
                 # If multiple connecting nodes, choose the one closest to current_node in the subgraph
                 if len(connecting_nodes) > 1:
@@ -1585,30 +1714,30 @@ class Maze:
                 current_node = target_node
                 
             except (nx.NetworkXNoPath, nx.NodeNotFound):
-                print(f"Warning: Cannot find a path on {road_name} from {current_node} to {target_node}, attempting failsafe path finding")
+                pretty_print(f"Error 024: Cannot find a path on {road_name} from {current_node} to {target_node}, attempting failsafe path finding", 2)
                 # Failsafe: Use get_shortest_path to find a path from current_node to end_node
                 shortest_path = self.get_shortest_path(current_node, end_node, travel_mode)
                 
                 if shortest_path['original_path']:
-                    print(f"Failsafe: Found alternative path from {current_node} to {end_node}")
+                    pretty_print(f"Found alternative path from {current_node} to {end_node}")
                     # Add the alternative path segments to our result
                     path_result.extend(shortest_path['original_path'])
                     return path_result
                 else:
-                    raise ValueError(f"Cannot find a path on {road_name} from {current_node} to {target_node} and failsafe path finding failed")
+                    raise ValueError(f"Error 025: Cannot find a path on {road_name} from {current_node} to {target_node} and failsafe path finding failed", 2)
         
         # Final check that we've reached the destination
         if current_node != end_node:
-            print(f"Warning: The provided road sequence does not lead to the destination. Ended at {current_node} instead of {end_node}, attempting failsafe path finding")
+            pretty_print(f"Error 026: The provided road sequence does not lead to the destination. Ended at {current_node} instead of {end_node}, attempting failsafe path finding", 2)
             # Failsafe: Use get_shortest_path to find a path from current_node to end_node
             shortest_path = self.get_shortest_path(current_node, end_node, travel_mode)
             
             if shortest_path['original_path']:
-                print(f"Failsafe: Found alternative path from {current_node} to {end_node}")
+                print(f"Error 027: Found alternative path from {current_node} to {end_node}")
                 # Add the alternative path segments to our result
                 path_result.extend(shortest_path['original_path'])
             else:
-                raise ValueError(f"The provided road sequence does not lead to the destination and failsafe path finding failed")
+                raise ValueError(f"Error 028: The provided road sequence does not lead to the destination and failsafe path finding failed", 2)
         
         return path_result
     
@@ -1617,7 +1746,7 @@ class Maze:
     def get_road_congestion_info(self):
         """Return a string describing the congestion information (wait time) of all road links."""
         result = "Road Congestion Information (Wait Times):\n"
-        result += "=" * 50 + "\n"
+        #result += "=" * 50 + "\n"
         
         # Get all road links
         road_links = [(link_name, link_data) for link_name, link_data in self.links_info.items() 
@@ -1630,7 +1759,7 @@ class Maze:
         congestion_data = []
         
         for link_name, link_data in road_links:
-            wait_time = link_data.get('wait time', (0, 0))
+            wait_time = link_data.get('wait_time', (0, 0))
             endpoints = link_data['endpoints']
             source, target = endpoints
             
@@ -1687,24 +1816,24 @@ class Maze:
             result += "\n".join(light_congestion) + "\n"
         
         # Add summary statistics
-        result += "\nSummary:\n"
-        result += f"- Total road links: {len(road_links)} (bi-directional)\n"
-        result += f"- Links with severe congestion: {len(severe_congestion)}\n"
-        result += f"- Links with moderate congestion: {len(moderate_congestion)}\n"
-        result += f"- Links with light congestion: {len(light_congestion)}\n"
-        result += f"- Links with no congestion: {no_congestion}\n"
+        result += "\nSummary:"
+        result += f"\n- Total road links: {len(road_links)} (bi-directional)"
+        result += f"\n- Links with severe congestion: {len(severe_congestion)}"
+        result += f"\n- Links with moderate congestion: {len(moderate_congestion)}"
+        result += f"\n- Links with light congestion: {len(light_congestion)}"
+        result += f"\n- Links with no congestion: {no_congestion}"
         
         # Calculate average wait time for congested directions only
         if congestion_data:
             avg_wait_time = sum(item['wait_time'] for item in congestion_data) / len(congestion_data)
-            result += f"- Average wait time for congested directions: {avg_wait_time:.2f} min\n"
+            result += f"\n- Average wait time for congested directions: {avg_wait_time:.2f} min"
         
         # Calculate overall average wait time across all directions
         total_directions = len(road_links) * 2  # Each link has two directions
         if total_directions > 0:
             total_wait_time = sum(item['wait_time'] for item in congestion_data)
             overall_avg = total_wait_time / total_directions
-            result += f"- Overall average wait time across all directions: {overall_avg:.2f} min\n"
+            result += f"\n- Overall average wait time across all directions: {overall_avg:.2f} min"
         
         return result
 
@@ -1833,9 +1962,9 @@ class Maze:
             # Classify edge
             if d.get('type') == 'road':
                 # Check for congestion
-                if show_congestion and d.get('wait time', (0, 0))[0] > 0:
+                if show_congestion and d.get('wait_time', 0) > 0:
                     congested_edges.append((u, v))
-                elif show_congestion and d.get('wait time', (0, 0))[1] > 0:
+                elif show_congestion and d.get('wait_time', 0) > 0:
                     congested_edges.append((v, u))
                 else:
                     road_edges.append((u, v))
@@ -2126,7 +2255,7 @@ class Maze:
         for node in nodes_to_visualize:
             if node in pos and node in nodes_label_pos:
                 x, y = nodes_label_pos[node]
-                font_size = 9 if node in self.pseudo_nodes else 10
+                font_size = 18 if node in self.pseudo_nodes else 20
                 plt.text(x, y, node, horizontalalignment='right', verticalalignment='center',
                         fontsize=font_size, fontweight='normal',
                         bbox=dict(facecolor='white', alpha=0.8, boxstyle='round,pad=0.2', edgecolor='none'),
@@ -2151,7 +2280,7 @@ class Maze:
                 if node in pos:
                     x, y = facility_pos[node]
                     plt.text(x, y, label, horizontalalignment='center', 
-                            fontsize=10, color='darkred', 
+                            fontsize=20, color='darkred', 
                             bbox=dict(facecolor='white', alpha=0.8, boxstyle='round,pad=0.3', edgecolor='none'),
                             zorder=950)
         
@@ -2167,14 +2296,14 @@ class Maze:
                     time_labels[node] = f"{time_value:.1f} min"
         
         # Position travel time labels below nodes with more space
-        time_pos = {k: (v[0] + 0.5, v[1] - 1.0) for k, v in pos.items() if k in nodes_to_visualize}
+        time_pos = {k: (v[0] + 0.5, v[1] - 2.0) for k, v in pos.items() if k in nodes_to_visualize}
         
         # Draw travel time labels with white background
         for node, label in time_labels.items():
             if node in time_pos:
                 x, y = time_pos[node]
                 plt.text(x, y, label, horizontalalignment='center', 
-                        fontsize=9, color='black', fontweight='bold',
+                        fontsize=18, color='black', fontweight='bold',
                         bbox=dict(facecolor='white', alpha=0.8, boxstyle='round,pad=0.2', edgecolor='none'),
                         zorder=900)
         
@@ -2195,7 +2324,7 @@ class Maze:
                 bbox=dict(facecolor='white', alpha=0.9, boxstyle='round,pad=0.3', edgecolor='darkgreen'))
         
         # Create legend
-        plt.figtext(0.92, 0.9, "Travel Time Legend", fontsize=14, fontweight='bold')
+        plt.figtext(0.92, 0.9, "Accessibility\n(start from Node_1)", fontsize=20, fontweight='bold')
         
         # Legend entries
         legend_y = 0.87
@@ -2203,36 +2332,36 @@ class Maze:
         x_text = 0.94
         
         # Start node
-        plt.figtext(x_node, legend_y, "●", color='lightgreen', fontsize=16, ha='center')
-        plt.figtext(x_text, legend_y, "Start Node", fontsize=12)
+        plt.figtext(x_node, legend_y, "●", color='lightgreen', fontsize=20, ha='center')
+        plt.figtext(x_text, legend_y, "Start Node", fontsize=18)
         
         # Nearby node (blue)
         legend_y -= 0.03
-        plt.figtext(x_node, legend_y, "●", color='blue', fontsize=16, ha='center')
-        plt.figtext(x_text, legend_y, "Nearby (Fast)", fontsize=12)
+        plt.figtext(x_node, legend_y, "●", color='blue', fontsize=20, ha='center')
+        plt.figtext(x_text, legend_y, "Nearby (Fast)", fontsize=18)
         
         # Middle distance node (purple)
         legend_y -= 0.03
-        plt.figtext(x_node, legend_y, "●", color='purple', fontsize=16, ha='center')
-        plt.figtext(x_text, legend_y, "Medium Distance", fontsize=12)
+        plt.figtext(x_node, legend_y, "●", color='purple', fontsize=20, ha='center')
+        plt.figtext(x_text, legend_y, "Medium Distance", fontsize=18)
         
         # Far node (red)
         legend_y -= 0.03
-        plt.figtext(x_node, legend_y, "●", color='red', fontsize=16, ha='center')
-        plt.figtext(x_text, legend_y, "Far (Slow)", fontsize=12)
+        plt.figtext(x_node, legend_y, "●", color='red', fontsize=20, ha='center')
+        plt.figtext(x_text, legend_y, "Far (Slow)", fontsize=18)
         
         # Separator line
         legend_y -= 0.03
-        plt.figtext(x_text, legend_y, "───────────", fontsize=12)
+        plt.figtext(x_text, legend_y, "───────────", fontsize=18)
         
         # Facility info 
         if show_facilities:
             legend_y -= 0.03
-            plt.figtext(x_text, legend_y, "Facility Names", fontsize=12, color='darkred')
+            plt.figtext(x_text, legend_y, "Facility Names", fontsize=18, color='darkred')
         
         # Add additional information
         legend_y -= 0.03
-        plt.figtext(x_text, legend_y, "Travel Time (min)", fontsize=12)
+        plt.figtext(x_text, legend_y, "Travel Time (min)", fontsize=18)
         
         # Add title
         plt.title(f"Travel Times from {start_node}", fontsize=18)
@@ -2398,22 +2527,22 @@ class Maze:
         """
         if direction_specific:
             # Update congestion for specific direction
-            base_capacity = self.links_info[link_name]['base capacity']
-            realtime_capacity = self.links_info[link_name]['realtime capacity'][direction]
+            base_capacity = self.links_info[link_name]['base_capacity']
+            realtime_capacity = self.links_info[link_name]['realtime_capacity'][direction]
             
             # Simple congestion model: travel time increases as capacity decreases
             if realtime_capacity < base_capacity:
                 congestion_factor = base_capacity / realtime_capacity
-                base_travel_time = self.links_info[link_name]['travel time']
+                base_travel_time = self.links_info[link_name]['travel_time']
                 wait_time = base_travel_time * (congestion_factor - 1)
                 
                 # Update wait time
-                if 'wait time' not in self.links_info[link_name]:
-                    self.links_info[link_name]['wait time'] = (0, 0)
+                if 'wait_time' not in self.links_info[link_name]:
+                    self.links_info[link_name]['wait_time'] = (0, 0)
                 
-                wait_times = list(self.links_info[link_name]['wait time'])
+                wait_times = list(self.links_info[link_name]['wait_time'])
                 wait_times[direction] = wait_time
-                self.links_info[link_name]['wait time'] = tuple(wait_times)
+                self.links_info[link_name]['wait_time'] = tuple(wait_times)
                 
                 # Update travel time in the graph
                 if direction == 0:
@@ -2426,24 +2555,24 @@ class Maze:
                         self.graph[target][source]['travel_time'] = base_travel_time + wait_time
         else:
             # Update congestion for both directions
-            base_capacity = self.links_info[link_name]['base capacity']
+            base_capacity = self.links_info[link_name]['base_capacity']
             
             for dir_idx in [0, 1]:
-                realtime_capacity = self.links_info[link_name]['realtime capacity'][dir_idx]
+                realtime_capacity = self.links_info[link_name]['realtime_capacity'][dir_idx]
                 
                 # Simple congestion model: travel time increases as capacity decreases
                 if realtime_capacity < base_capacity:
                     congestion_factor = base_capacity / realtime_capacity
-                    base_travel_time = self.links_info[link_name]['travel time']
+                    base_travel_time = self.links_info[link_name]['travel_time']
                     wait_time = base_travel_time * (congestion_factor - 1)
                     
                     # Update wait time
-                    if 'wait time' not in self.links_info[link_name]:
-                        self.links_info[link_name]['wait time'] = (0, 0)
+                    if 'wait_time' not in self.links_info[link_name]:
+                        self.links_info[link_name]['wait_time'] = (0, 0)
                     
-                    wait_times = list(self.links_info[link_name]['wait time'])
+                    wait_times = list(self.links_info[link_name]['wait_time'])
                     wait_times[dir_idx] = wait_time
-                    self.links_info[link_name]['wait time'] = tuple(wait_times)
+                    self.links_info[link_name]['wait_time'] = tuple(wait_times)
                     
                     # Update travel time in the graph
                     if dir_idx == 0:
@@ -2468,9 +2597,9 @@ class Maze:
         """
         if direction_specific:
             # Update wait time for specific direction
-            wait_times = list(self.links_info[link_name]['wait time'])
+            wait_times = list(self.links_info[link_name]['wait_time'])
             wait_times[direction] = new_value
-            self.links_info[link_name]['wait time'] = tuple(wait_times)
+            self.links_info[link_name]['wait_time'] = tuple(wait_times)
             
             # Update graph edge wait time
             if direction == 0:
@@ -2496,7 +2625,7 @@ class Maze:
                         self.graph[u][v]['wait_time'] = new_value
         else:
             # Update wait time for both directions
-            self.links_info[link_name]['wait time'] = (new_value, new_value)
+            self.links_info[link_name]['wait_time'] = (new_value, new_value)
             
             # Update graph edge wait times
             source, target = self.links_info[link_name]['endpoints']
@@ -2523,15 +2652,17 @@ class Maze:
 if __name__ == "__main__":
     maze = Maze("the town")
     print("Maze initialized successfully")
-    print(maze.nodes_description)
-    print()
-    print(maze.links_description)
-    print()
+    #print(maze.nodes_description)
+    #print()
+    #print(maze.links_description)
+    #print()
     print(maze.network_description)
     
     plt.figure()
     maze.visualize_node_grid()
     plt.savefig(f"{config.maze_assets_loc}/node_grid.png", dpi=150, bbox_inches='tight')
+    
+    maze.update(datetime.strptime("2025-03-10 08:30:00", "%Y-%m-%d %H:%M:%S"))
     
     # Test 1: Normal conditions driving path finding
     print("\n=== TEST 1: Default road conditions ===")
@@ -2603,6 +2734,6 @@ if __name__ == "__main__":
     print(maze.convert_path_format('Node_1', 'Node_11', 'drive', 'St_2, Ave_3'))
     
     # Test 6: convert path format (when path is erroneous)
-    print("\n=== TEST 6: Get road congestion ===")
+    print("\n=== TEST 6: convert path format ===")
     print(maze.convert_path_format('Node_1', 'Node_2', 'transit', 'St_2, Metro_1, Ave_3'))
     
