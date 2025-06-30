@@ -3,8 +3,6 @@
 ![Feature: Multi-Agent](https://img.shields.io/badge/✨%20Feature-Multi--Agent-800080)[![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289da?style=flat&logo=discord)](https://discord.gg/7qPv9TGg)![Feature: Visualization](https://img.shields.io/badge/✨%20Feature-Visualization-9b59b6)![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)[![arXiv cs.AI](https://img.shields.io/badge/arXiv-cs.AI%2F0000.00000-b31b1b)](https://arxiv.org/abs/0000.00000)![Feature: Easy-to-use](https://img.shields.io/badge/✨%20Feature-Easy--to--use-f1c40f)![Feature: Transparent](https://img.shields.io/badge/✨%20Feature-Transparent-7ed321)![Feature: Customization](https://img.shields.io/badge/✨%20Feature-Customization-5dade2)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 
-
-
 ![intro](assets/intro.png)
 
 GATSim is a novel framework that leverages generative agents 🤖 to simulate urban transportation systems. Unlike traditional rule-based approaches, GATSim creates autonomous agents capable of human-like decision-making in complex mobility scenarios.
@@ -22,6 +20,8 @@ This prototype implementation enables generative agents 🤖 in urban simulation
  - **React** to to unexpected events and changing traffic patterns by re-routing, changing departure time, revising activity plan, etc.
 
 This project is inspired by the work of Park et al. (2023) [Generative Agents](https://arxiv.org/abs/2304.03442).
+
+The framework of GATSim:
 ![Framework](assets/framework.png)
 
 
