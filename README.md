@@ -88,8 +88,11 @@ Long-term reflections summarize key personal experiences over the past week, enc
 
 
 **📺 Demo Video**
-**Simulation running demo**
-![Demo](assets/gatsim_demo2.mp4)
+
+<video width="100%" controls>
+  <source src="assets/gatsim_demo2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 **Examples of agent flexible reactive behaviors**
@@ -136,7 +139,11 @@ I've learned to adjust my routines to avoid traffic bottlenecks by leaving earli
 
 **Traffic state visualization**
 A traffic state visualizer tool is provided: `traffic_state_animator.py`. Demo video:
-![Demo](assets/gatsim_demo2.mp4)
+
+<video width="100%" controls>
+  <source src="assets/gatsim_demo3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## 📢News
