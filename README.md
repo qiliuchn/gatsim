@@ -44,6 +44,7 @@ By bridging the gap between individual intelligence and collective dynamics, GAT
 
 ### Contributors
 Qi Liu, Can Li, Wanjing Ma
+
 MAGIC Lab, College of Transportation, Tongji University
 
 ### How to cite
@@ -279,11 +280,13 @@ First, change directory to the project root. Then run
 
 
 **Notes on stdout**
+
 By default, the standard output of the simulation process is redirected to a file named `[root]/terminal_output.txt` (configurable in `[root]/gatsim/config.py`). 
 
 If you want to see the standard output shown in the terminal, you can change the variable  `output_redirect_to_file` in file `[root]/gatsim/config.py` to be `False`.
 
 **Notes on backend and frontend**
+
 `[root]/gatsim/agent` contains the simulation agent scripts;
 
 `[root]/gatsim/backend` loads the map and population; starts the simulation loop; saves results to `[root]/gatsim/storage` and updates dynamic visual elements information in `[root]/gatsim/cache`;
@@ -291,6 +294,7 @@ If you want to see the standard output shown in the terminal, you can change the
 `[root]/frontend` is independent from the simulation backend; it loads the dynamic visual elements information from `[root]/gatsim/cache` and update the frontend accordingly; you can customize the frontend to your own needs, or you can embed the backend into your own frontend.
 
 **Notes on concurrent LLM calling**
+
 The simulation backend is designed to handle concurrent LLM calls. By default, 8 concurrent calls are allowed. You can adjust this number by modifying the `max_planning_threads` constant in `[root]/gatsim/config.py`. 
 Beware of the token rate limit of your LLM model. Every additional concurrent call will consume ~ 70K more tokens consumption per minute for our simple example.
 
