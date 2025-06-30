@@ -21,6 +21,7 @@ This prototype implementation enables generative agents 🤖 in urban simulation
  - **React** to to unexpected events and changing traffic patterns by re-routing, changing departure time, revising activity plan, etc.
 
 This project is inspired by the work of Park et al. (2023) [Generative Agents](https://arxiv.org/abs/2304.03442).
+![Framework](assets/framework.png)
 
 
 ### Motivation
@@ -88,7 +89,7 @@ Long-term reflections summarize key personal experiences over the past week, enc
 
 **📺 Demo Video**
 **Simulation running demo**
-[Demo](assets/gatsim_demo2.mp4)
+![Demo](assets/gatsim_demo2.mp4)
 
 
 **Examples of agent flexible reactive behaviors**
@@ -135,7 +136,7 @@ I've learned to adjust my routines to avoid traffic bottlenecks by leaving earli
 
 **Traffic state visualization**
 A traffic state visualizer tool is provided: `traffic_state_animator.py`. Demo video:
-[Demo](assets/gatsim_demo2.mp4)
+![Demo](assets/gatsim_demo2.mp4)
 
 
 ## 📢News
