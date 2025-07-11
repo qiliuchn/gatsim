@@ -142,7 +142,7 @@ I've learned to adjust my routines to avoid traffic bottlenecks by leaving earli
 A traffic state visualizer tool is provided: `traffic_state_animator.py`. Demo video:
 
 [Watch Demo Video](https://youtu.be/Tlj9tNdKAb4)
-[![Demo Video](https://img.youtube.com/vi/Tlj9tNdKAb4/maxresdefault.jpg)](https://youtu.be/BS1Ds7aClPc "Click to watch demo")
+[![Demo Video](https://img.youtube.com/vi/Tlj9tNdKAb4/maxresdefault.jpg)](https://youtu.be/Tlj9tNdKAb4 "Click to watch demo")
 
 
 ## 📢News

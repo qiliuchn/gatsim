@@ -1,0 +1,5258 @@
+{
+    "curr_time": "2025-03-21 00:00:00",
+    "concept_nodes": [
+        {
+            "id": 704202551489153,
+            "type": "thought",
+            "created": "2025-03-13T07:33:00",
+            "last_accessed": "2025-03-18T07:50:00",
+            "expiration": "2025-03-22T01:05:24.553005",
+            "content": "Ave_1_link_1 consistently congested during afternoon commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 704204613825169,
+            "type": "thought",
+            "created": "2025-03-13T07:50:00",
+            "last_accessed": "2025-03-15T17:10:00",
+            "expiration": "2025-03-20T09:09:09.440007",
+            "content": "St_5_link_1 consistently experiences severe congestion during late afternoon commute",
+            "keywords": [
+                "St_5_link_1",
+                "congested",
+                "17:00-19:00"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 704204614679924,
+            "type": "thought",
+            "created": "2025-03-13T07:50:00",
+            "last_accessed": "2025-03-16T14:55:00",
+            "expiration": "2025-03-19T11:36:50.510024",
+            "content": "Grabbing coffee to-go after Cinema avoids St_5_link_1 congestion",
+            "keywords": [
+                "Cinema",
+                "Coffee shop",
+                "St_5_link_1",
+                "congestion avoidance"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705023421628115,
+            "type": "thought",
+            "created": "2025-03-13T23:59:00",
+            "last_accessed": "2025-03-15T14:40:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Metro_2 reliable for peak hour travel avoiding road congestion",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "commuting"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705151928998306,
+            "type": "thought",
+            "created": "2025-03-15T00:00:00",
+            "last_accessed": "2025-03-15T00:00:00",
+            "expiration": "2025-03-19T15:59:09.440007",
+            "content": "St_2_link_1 and St_2_link_2 frequently congested during morning rush",
+            "keywords": [
+                "St_2_link_1",
+                "St_2_link_2",
+                "congestion",
+                "morning rush"
+            ],
+            "spatial_scope": [
+                "St_2_link_1",
+                "St_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705152737353707,
+            "type": "thought",
+            "created": "2025-03-15T06:30:00",
+            "last_accessed": "2025-03-15T06:30:00",
+            "expiration": "2025-03-19T22:29:09.440007",
+            "content": "Metro_2 reliable for peak hour travel avoiding road congestion",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "road congestion"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705155156633796,
+            "type": "thought",
+            "created": "2025-03-15T07:50:00",
+            "last_accessed": "2025-03-16T14:55:00",
+            "expiration": "2025-03-19T11:36:50.510024",
+            "content": "Museum 8.3% occupancy indicates early visit ideal",
+            "keywords": [
+                "Museum",
+                "occupancy",
+                "visit timing"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705180228455760,
+            "type": "thought",
+            "created": "2025-03-15T12:15:00",
+            "last_accessed": "2025-03-16T14:55:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Museum experiences severe congestion on weekends around 10:00 AM",
+            "keywords": [
+                "Museum",
+                "congestion",
+                "weekend",
+                "10AM"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "09:30:00",
+                "11:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705190320329051,
+            "type": "event",
+            "created": "2025-03-15T14:45:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-20T20:33:27.395691",
+            "content": "Emma Davis current activity description: Meet Maria Lopez at Supermarket instead of Coffee shop due to severe congestion at Coffee shop with 75-minute wait time. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705200219849855,
+            "type": "thought",
+            "created": "2025-03-15T17:10:00",
+            "last_accessed": "2025-03-16T14:55:00",
+            "expiration": "2025-03-19T11:36:50.510024",
+            "content": "Museum experiences severe congestion on weekends around 10:00 AM",
+            "keywords": [
+                "Museum",
+                "congestion",
+                "weekend"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "10:00:00",
+                "11:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705201526187230,
+            "type": "thought",
+            "created": "2025-03-15T17:31:00",
+            "last_accessed": "2025-03-19T12:15:00",
+            "expiration": "2025-03-24T04:14:09.440007",
+            "content": "St_5_link_1 experiences severe congestion during afternoon hours",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705203404061150,
+            "type": "thought",
+            "created": "2025-03-15T18:11:00",
+            "last_accessed": "2025-03-18T14:00:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Amusement park consistently congested during late afternoon",
+            "keywords": [
+                "Amusement park",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 706152447463747,
+            "type": "thought",
+            "created": "2025-03-16T06:30:00",
+            "last_accessed": "2025-03-16T06:30:00",
+            "expiration": "2025-03-19T03:11:50.510024",
+            "content": "Coffee shop experiences peak congestion around 17:00",
+            "keywords": [
+                "Coffee shop",
+                "congestion",
+                "17:00"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "16:30:00",
+                "17:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706152448419055,
+            "type": "thought",
+            "created": "2025-03-16T06:30:00",
+            "last_accessed": "2025-03-16T17:40:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "St_5_link_1 frequently congested during afternoon",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706152449319699,
+            "type": "thought",
+            "created": "2025-03-16T06:30:00",
+            "last_accessed": "2025-03-16T06:30:00",
+            "expiration": "2025-03-19T03:11:50.510024",
+            "content": "Gym less crowded before 19:00",
+            "keywords": [
+                "Gym",
+                "crowd",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706152450204789,
+            "type": "thought",
+            "created": "2025-03-16T06:30:00",
+            "last_accessed": "2025-03-18T14:00:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Amusement park consistently congested during late afternoon",
+            "keywords": [
+                "Amusement park",
+                "congestion",
+                "late afternoon"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706154006685936,
+            "type": "thought",
+            "created": "2025-03-16T07:33:00",
+            "last_accessed": "2025-03-16T07:33:00",
+            "expiration": "2025-03-20T00:48:24.553005",
+            "content": "St_1_link_2 frequently congested during afternoon",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706162812669912,
+            "type": "thought",
+            "created": "2025-03-16T09:45:00",
+            "last_accessed": "2025-03-19T12:15:00",
+            "expiration": "2025-03-22T08:56:50.510024",
+            "content": "Amusement park consistently congested during late afternoon",
+            "keywords": [
+                "Amusement park",
+                "congestion",
+                "late afternoon"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706162813496974,
+            "type": "thought",
+            "created": "2025-03-16T09:45:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-23T09:15:24.553005",
+            "content": "St_5_link_1 frequently congested during afternoon",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706180312926455,
+            "type": "thought",
+            "created": "2025-03-16T14:45:00",
+            "last_accessed": "2025-03-16T14:45:00",
+            "expiration": "2025-03-20T08:00:24.553005",
+            "content": "Meeting coordination requires buffer near congested facilities",
+            "keywords": [
+                "coordination",
+                "buffer",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Supermarket",
+                "Food court"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706185712187001,
+            "type": "thought",
+            "created": "2025-03-16T16:46:00",
+            "last_accessed": "2025-03-16T16:46:00",
+            "expiration": "2025-03-19T13:27:50.510024",
+            "content": "Gym frequently congested during early evening hours",
+            "keywords": [
+                "Gym",
+                "congested",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706195940871752,
+            "type": "thought",
+            "created": "2025-03-16T18:41:00",
+            "last_accessed": "2025-03-16T18:41:00",
+            "expiration": "2025-03-19T15:22:50.510024",
+            "content": "Ave_3 consistently clear during evening hours",
+            "keywords": [
+                "Ave_3",
+                "clear",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706201218798750,
+            "type": "thought",
+            "created": "2025-03-16T19:11:00",
+            "last_accessed": "2025-03-16T19:11:00",
+            "expiration": "2025-03-19T15:52:50.510024",
+            "content": "Gym less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707010650144268,
+            "type": "thought",
+            "created": "2025-03-17T00:00:00",
+            "last_accessed": "2025-03-17T17:48:00",
+            "expiration": "2025-03-20T14:29:50.510024",
+            "content": "Gym consistently crowded in early evening",
+            "keywords": [
+                "Gym",
+                "crowded"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707010650983550,
+            "type": "thought",
+            "created": "2025-03-17T00:00:00",
+            "last_accessed": "2025-03-17T00:00:00",
+            "expiration": "2025-03-20T17:15:24.553005",
+            "content": "Metro_2 reliable for morning and afternoon commutes",
+            "keywords": [
+                "Metro_2",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707010652084979,
+            "type": "thought",
+            "created": "2025-03-17T00:00:00",
+            "last_accessed": "2025-03-17T00:00:00",
+            "expiration": "2025-03-20T17:15:24.553005",
+            "content": "Coordination with Emma requires real-time updates",
+            "keywords": [
+                "Emma",
+                "coordination",
+                "real-time"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707011829914431,
+            "type": "thought",
+            "created": "2025-03-17T07:00:00",
+            "last_accessed": "2025-03-17T07:00:00",
+            "expiration": "2025-03-21T00:15:24.553005",
+            "content": "Metro_2 consistently reliable during peak hours",
+            "keywords": [
+                "Metro_2",
+                "commute",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707012428843113,
+            "type": "thought",
+            "created": "2025-03-17T07:15:00",
+            "last_accessed": "2025-03-17T07:15:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Metro_2 reliable during peak hours",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707012429888212,
+            "type": "thought",
+            "created": "2025-03-17T07:15:00",
+            "last_accessed": "2025-03-18T14:00:00",
+            "expiration": "2025-03-20T00:48:17.115446",
+            "content": "Museum quieter in late evening",
+            "keywords": [
+                "Museum",
+                "quiet",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707014038159871,
+            "type": "chat",
+            "created": "2025-03-17T07:33:00",
+            "last_accessed": "2025-03-18T07:31:00",
+            "expiration": "2025-03-19T01:34:10.492267",
+            "content": "Maria Lopez and Emma Davis decided to move their meetup from Coffee shop to Supermarket due to severe congestion on Ave_2_link_1 and St_2_link_1. Maria will leave Hospital at 16:45 to meet Emma at Supermarket by 17:00.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Coffee shop",
+                "Supermarket",
+                "Ave_2_link_1",
+                "St_2_link_1",
+                "congestion",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707014133104840,
+            "type": "thought",
+            "created": "2025-03-17T07:33:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-22T14:59:50.510024",
+            "content": "Coffee shop meetup should be reconsidered during morning peak hours",
+            "keywords": [
+                "Coffee shop",
+                "meetup",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707015919739573,
+            "type": "thought",
+            "created": "2025-03-17T07:50:00",
+            "last_accessed": "2025-03-17T07:50:00",
+            "expiration": "2025-03-21T23:49:09.440007",
+            "content": "St_2_link_1 experiences severe delays in early morning hours",
+            "keywords": [
+                "St_2_link_1",
+                "delay",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707015920892934,
+            "type": "thought",
+            "created": "2025-03-17T07:50:00",
+            "last_accessed": "2025-03-18T07:50:00",
+            "expiration": "2025-03-22T01:05:24.553005",
+            "content": "Ave_2_link_1 consistently congested during morning commute",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707024514416478,
+            "type": "thought",
+            "created": "2025-03-17T09:45:00",
+            "last_accessed": "2025-03-17T09:45:00",
+            "expiration": "2025-03-21T03:00:24.553005",
+            "content": "Metro_2 reliable during peak hours",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707024515308069,
+            "type": "thought",
+            "created": "2025-03-17T09:45:00",
+            "last_accessed": "2025-03-18T07:31:00",
+            "expiration": "2025-03-22T23:30:09.440007",
+            "content": "St_2_link_1 severe delays morning",
+            "keywords": [
+                "St_2_link_1",
+                "traffic",
+                "delays"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707025426023923,
+            "type": "event",
+            "created": "2025-03-17T10:21:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-19T21:46:44.432290",
+            "content": "Emma Davis current activity description: Meet Jessica Adams at Museum for modern art exhibition after completing errands. current status is Staying at facility Museum.",
+            "keywords": [
+                "Emma Davis",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707030244207197,
+            "type": "thought",
+            "created": "2025-03-17T10:38:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-23T14:29:50.510024",
+            "content": "Museum less crowded in the morning",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "11:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707031441012530,
+            "type": "thought",
+            "created": "2025-03-17T11:14:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-23T14:29:50.510024",
+            "content": "Museum less crowded in early morning",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "10:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707031442030447,
+            "type": "thought",
+            "created": "2025-03-17T11:14:00",
+            "last_accessed": "2025-03-17T11:14:00",
+            "expiration": "2025-03-21T04:29:24.553005",
+            "content": "Metro_2 reliable during morning commute",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "06:00:00",
+                "10:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707044731664635,
+            "type": "event",
+            "created": "2025-03-17T17:31:00",
+            "last_accessed": "2025-03-18T07:33:00",
+            "expiration": "2025-03-19T03:21:34.810763",
+            "content": "Emma Davis current activity description: Meet Maria Lopez at Supermarket to discuss next health outreach event. current status is Emma Davis on the trip from Office to Supermarket; trip trajectory: []; currently at node Node_2; planned path left: [('Ave_3_link_3', 'drive', 'Node_11'), ('Ave_3_link_2', 'drive', 'Node_10'), ('St_3_link_2', 'drive', 'Node_6')];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Node_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707045300071393,
+            "type": "event",
+            "created": "2025-03-17T17:40:00",
+            "last_accessed": "2025-03-18T07:50:00",
+            "expiration": "2025-03-19T03:38:34.810763",
+            "content": "Emma Davis current activity description: Meet Maria Lopez at Supermarket to discuss next health outreach event. current status is Emma Davis on the trip from Office to Supermarket; trip trajectory: [('Ave_3_link_3', 'drive', 'Node_11')]; after waiting for 8 minutes, currently driving on link Ave_3_link_3; planned path left: [('Ave_3_link_2', 'drive', 'Node_10'), ('St_3_link_2', 'drive', 'Node_6')];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Ave_3_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707045323850692,
+            "type": "chat",
+            "created": "2025-03-17T17:40:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T11:31:10.492267",
+            "content": "Maria Lopez and Emma Davis rescheduled their Supermarket meeting to 18:00 due to severe congestion on Ave_3_link_3. Emma switched to Metro_2 at Node_11 to bypass the traffic delay and expects to arrive by 18:00. Maria will wait at the Supermarket until then.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Supermarket",
+                "Ave_3_link_3",
+                "Metro_2",
+                "Node_11",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707045346798834,
+            "type": "chat",
+            "created": "2025-03-17T17:40:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T11:31:10.492267",
+            "content": "Maria Lopez and Emma Davis rescheduled their meetup at Supermarket to 18:00 due to severe congestion on Ave_3_link_3. Emma is switching to Metro_2 from Node_11 to bypass traffic and expects to arrive by 18:00. Maria will wait at the Supermarket until 18:00.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Supermarket",
+                "Ave_3_link_3",
+                "Metro_2",
+                "Node_11",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707045405638344,
+            "type": "chat",
+            "created": "2025-03-17T17:40:00",
+            "last_accessed": "2025-03-19T07:33:00",
+            "expiration": "2025-03-19T23:49:31.476801",
+            "content": "Maria Lopez and Emma Davis rescheduled their meetup to 18:00 at the Supermarket due to severe congestion on Ave_3_link_3. Emma will switch to Metro_2 from Node_11 to bypass traffic, and Maria will wait until 18:00.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Supermarket",
+                "Ave_3_link_3",
+                "Metro_2",
+                "18:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707045938306549,
+            "type": "event",
+            "created": "2025-03-17T17:49:00",
+            "last_accessed": "2025-03-18T07:50:00",
+            "expiration": "2025-03-19T03:38:34.810763",
+            "content": "Emma Davis current activity description: Meet Maria Lopez at Supermarket using Metro_2 to bypass Ave_3_link_3 congestion, discussing next health outreach event. current status is Emma Davis on the trip from Office to Supermarket; trip trajectory: [('Ave_3_link_3', 'drive', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10')]; currently waiting at link Metro_2_link_4; planned path left: [('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6')];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Metro_2_link_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707050632002730,
+            "type": "event",
+            "created": "2025-03-17T18:00:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T05:25:44.432290",
+            "content": "Emma Davis current activity description: Meet Maria Lopez at Supermarket using Metro_2 to bypass Ave_3_link_3 congestion, discussing next health outreach event. current status is Emma Davis on the trip from Office to Supermarket; trip trajectory: [('Ave_3_link_3', 'drive', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6')];  currently traversing link Metro_2_link_3; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Metro_2_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707052253159248,
+            "type": "event",
+            "created": "2025-03-17T18:29:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-21T11:14:30.256154",
+            "content": "Emma Davis current activity description: Meet Maria Lopez at Supermarket using Metro_2 to bypass Ave_3_link_3 congestion, discussing next health outreach event. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707052303684398,
+            "type": "thought",
+            "created": "2025-03-17T18:29:00",
+            "last_accessed": "2025-03-17T18:29:00",
+            "expiration": "2025-03-21T11:44:24.553005",
+            "content": "Ave_3_link_3 frequently experiences severe congestion during late afternoon",
+            "keywords": [
+                "Ave_3_link_3",
+                "congestion",
+                "17:00-18:00"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707052305188414,
+            "type": "thought",
+            "created": "2025-03-17T18:29:00",
+            "last_accessed": "2025-03-17T18:29:00",
+            "expiration": "2025-03-19T05:17:17.115446",
+            "content": "Supermarket is a reliable meeting point during evening hours with minimal congestion",
+            "keywords": [
+                "Supermarket",
+                "meeting",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707064105037683,
+            "type": "thought",
+            "created": "2025-03-17T23:59:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-22T04:36:17.115446",
+            "content": "Museum quieter in early morning",
+            "keywords": [
+                "Museum",
+                "activity",
+                "crowd pattern"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "10:00:00",
+                "12:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707065949109311,
+            "type": "chat",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T06:02:51.512918",
+            "content": "Maria Lopez and Emma Davis changed their plans from visiting the Museum to meeting at the Gym this evening after work. Maria will go directly from Hospital to Gym, and Emma will drive from Office. They plan to meet at 17:30.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Hospital",
+                "Office",
+                "Gym",
+                "17:30",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707065958650705,
+            "type": "chat",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T17:01:00",
+            "expiration": "2025-03-19T01:48:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed their plan to meet at the Gym after work at 17:30. Maria will go directly from Hospital, and Emma will drive directly from Office.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Hospital",
+                "Office",
+                "Gym",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070018962054,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T00:00:00",
+            "expiration": "2025-03-20T20:41:50.510024",
+            "content": "Coordination with friends benefits from real-time updates",
+            "keywords": [
+                "coordination",
+                "real-time updates"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070020132568,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-23T14:29:50.510024",
+            "content": "Supermarket visit optimal after 17:30",
+            "keywords": [
+                "Supermarket",
+                "optimal time"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070021089185,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T00:00:00",
+            "expiration": "2025-03-22T15:59:09.440007",
+            "content": "Metro_2 enables quick and reliable inter-district travel",
+            "keywords": [
+                "Metro_2",
+                "transit reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707070022170311,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T07:50:00",
+            "expiration": "2025-03-21T04:31:50.510024",
+            "content": "Ave_3_link_3 prone to afternoon congestion",
+            "keywords": [
+                "Ave_3_link_3",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070023154595,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-19T17:46:00",
+            "expiration": "2025-03-22T14:27:50.510024",
+            "content": "Gym less crowded after 17:00",
+            "keywords": [
+                "Gym",
+                "crowded"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707073031240883,
+            "type": "chat",
+            "created": "2025-03-18T07:31:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T06:02:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Gym at 17:30. Maria is on her way to Hospital via St_2_link_2 and expects no delays from the Ave_2_link_2 accident. Emma will leave Office at 17:00 to arrive at Gym by 17:30.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Gym",
+                "Office",
+                "Hospital",
+                "Ave_2_link_2",
+                "St_2_link_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707073359640073,
+            "type": "chat",
+            "created": "2025-03-18T07:33:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T02:15:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed their plan to meet at Gym for a workout session at 17:30. Maria will take Metro_2 from Hospital after work, and Emma will travel directly from Office using transit. The accident on Ave_2_link_2 does not affect their routes.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Gym",
+                "Hospital",
+                "Office",
+                "Metro_2",
+                "17:30",
+                "Ave_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707074723021672,
+            "type": "chat",
+            "created": "2025-03-18T07:49:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T02:15:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their Gym session at 17:30. Maria is traveling to the Hospital via St_2_link_2 unaffected by an accident on Ave_2_link_2. She plans to head to the Gym after 17:00 using Metro_2.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Hospital",
+                "Gym",
+                "Ave_2_link_2",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707074844314838,
+            "type": "event",
+            "created": "2025-03-18T07:50:00",
+            "last_accessed": "2025-03-18T07:50:00",
+            "expiration": "2025-03-20T01:46:09.131897",
+            "content": "Ave_2_link_2 direction 0 realtime capacity drop from 2 to 1 due to car accident from 07:30 2025-03-16; duration is about 60 minutes.",
+            "keywords": [
+                "Ave_2_link_2",
+                "car accident",
+                "morning rush hour"
+            ],
+            "spatial_scope": "Ave_1_link_2",
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707074903588731,
+            "type": "chat",
+            "created": "2025-03-18T07:50:00",
+            "last_accessed": "2025-03-18T17:19:00",
+            "expiration": "2025-03-19T02:06:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed their 17:30 meetup at the Gym despite an accident on Ave_2_link_2. Emma will use Metro_2 links from Office to avoid delays, while Maria will take Metro_2 from Hospital as originally planned.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Hospital",
+                "Office",
+                "Gym",
+                "Metro_2",
+                "17:30",
+                "Ave_2_link_2",
+                "accident"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707084736633473,
+            "type": "thought",
+            "created": "2025-03-18T09:45:00",
+            "last_accessed": "2025-03-18T09:45:00",
+            "expiration": "2025-03-23T01:44:09.440007",
+            "content": "Ave_2_link_2 prone to morning congestion due to accidents",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "accident"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707084737537189,
+            "type": "thought",
+            "created": "2025-03-18T09:45:00",
+            "last_accessed": "2025-03-18T09:45:00",
+            "expiration": "2025-03-23T01:44:09.440007",
+            "content": "Metro_2 reliable during morning commute in avoiding road disruptions",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707094429616267,
+            "type": "chat",
+            "created": "2025-03-18T14:00:00",
+            "last_accessed": "2025-03-18T19:00:00",
+            "expiration": "2025-03-19T07:34:51.512918",
+            "content": "Emma Davis and Maria Lopez decided to move their workout session from the Gym to the Food court due to severe congestion at the Gym. They will meet at the Food court at 17:30, adjusting their routes accordingly after work.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Gym",
+                "Food court",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707094445109983,
+            "type": "chat",
+            "created": "2025-03-18T14:00:00",
+            "last_accessed": "2025-03-19T17:46:00",
+            "expiration": "2025-03-20T11:49:10.492267",
+            "content": "Emma Davis and Maria Lopez agreed to change their workout plan from Gym to Food court due to severe congestion at the Gym. Maria will take Metro_2 to Node_7 after work and they will meet at Food court at 17:30.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Gym",
+                "Food court",
+                "Metro_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707094500048452,
+            "type": "chat",
+            "created": "2025-03-18T14:00:00",
+            "last_accessed": "2025-03-18T19:01:00",
+            "expiration": "2025-03-19T03:48:16.901153",
+            "content": "Emma Davis and Maria Lopez changed their 17:30 workout session location from Gym to Food court due to congestion at the Gym. Maria will still take Metro_2 to Node_7 as planned.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Gym",
+                "Food court",
+                "Metro_2",
+                "Node_7",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707100409807316,
+            "type": "event",
+            "created": "2025-03-18T14:45:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T00:41:35.742705",
+            "content": "Emma Davis current activity description: Commute to Office via metro for scheduled work session from 9:00-17:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707100423819266,
+            "type": "thought",
+            "created": "2025-03-18T14:45:00",
+            "last_accessed": "2025-03-19T17:46:00",
+            "expiration": "2025-03-22T14:27:50.510024",
+            "content": "Gym crowded around 5PM",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "5PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707100428125487,
+            "type": "thought",
+            "created": "2025-03-18T14:45:00",
+            "last_accessed": "2025-03-18T14:45:00",
+            "expiration": "2025-03-20T01:33:17.115446",
+            "content": "Food court less crowded during weekday evenings",
+            "keywords": [
+                "Food court",
+                "weekday",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707103459923846,
+            "type": "chat",
+            "created": "2025-03-18T16:30:00",
+            "last_accessed": "2025-03-18T19:01:00",
+            "expiration": "2025-03-19T03:48:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed meeting at Food court at 17:30. Maria will take Metro_2 to Node_7 as planned.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Metro_2",
+                "Node_7",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707104442339264,
+            "type": "chat",
+            "created": "2025-03-18T17:01:00",
+            "last_accessed": "2025-03-18T19:10:00",
+            "expiration": "2025-03-19T07:44:51.512918",
+            "content": "Emma Davis and Maria Lopez revised their plans to meet at Gym instead of Food court at 17:30. Both will use Metro_2 for travel, with Maria traveling directly to Gym from her location.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Gym",
+                "Food court",
+                "Metro_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707104459076492,
+            "type": "chat",
+            "created": "2025-03-18T17:01:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T06:02:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Food court by 17:30 after revising from Gym due to high occupancy. Maria will take Metro_2 from Hospital to Node_7, while Emma will take Metro_1 from Office.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Gym",
+                "Metro_1",
+                "Metro_2",
+                "Hospital",
+                "Office",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707104653361570,
+            "type": "event",
+            "created": "2025-03-18T17:15:00",
+            "last_accessed": "2025-03-19T18:03:00",
+            "expiration": "2025-03-20T13:51:34.810763",
+            "content": "Emma Davis current activity description: Travel from Office to Food court via metro to meet Maria Lopez for an outdoor workout session at 17:30. current status is Emma Davis on the trip from Office to Food court; trip trajectory: [('Metro_1_link_5', 'ride', 'Node_8')];  currently traversing link Metro_1_link_5; planned path left: [('Metro_1_link_4', 'ride', 'Node_7')];.",
+            "keywords": [
+                "Emma Davis",
+                "Food court",
+                "Metro_1_link_5"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707104834217108,
+            "type": "chat",
+            "created": "2025-03-18T17:19:00",
+            "last_accessed": "2025-03-18T17:28:00",
+            "expiration": "2025-03-19T02:15:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed meeting at Food court by 17:30. Emma is traveling from Office via Metro_1, while Maria is leaving Hospital and taking Metro_2 directly to Node_7.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Office",
+                "Hospital",
+                "Metro_1",
+                "Metro_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707105206811115,
+            "type": "chat",
+            "created": "2025-03-18T17:28:00",
+            "last_accessed": "2025-03-18T19:00:00",
+            "expiration": "2025-03-19T03:47:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their workout plans at Food court at 17:30. Emma is traveling via Metro_1 while Maria is on Metro_2 to Node_7. Despite Gym becoming available, they decided to stick with Food court as previously arranged.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Gym",
+                "Metro_1",
+                "Metro_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707110758314963,
+            "type": "thought",
+            "created": "2025-03-18T18:07:00",
+            "last_accessed": "2025-03-19T17:46:00",
+            "expiration": "2025-03-22T14:27:50.510024",
+            "content": "Food court is a good alternative when Gym is congested",
+            "keywords": [
+                "Food court",
+                "Gym",
+                "congestion",
+                "alternative"
+            ],
+            "spatial_scope": [
+                "Food court",
+                "Gym"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707110759106656,
+            "type": "thought",
+            "created": "2025-03-18T18:07:00",
+            "last_accessed": "2025-03-18T18:07:00",
+            "expiration": "2025-03-22T11:22:24.553005",
+            "content": "Metro_2 provides reliable access to central area facilities",
+            "keywords": [
+                "Metro_2",
+                "reliability",
+                "accessibility"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707110906109973,
+            "type": "event",
+            "created": "2025-03-18T18:07:00",
+            "last_accessed": "2025-03-18T18:07:00",
+            "expiration": "2025-03-19T01:20:35.742705",
+            "content": "Maria Lopez travels from Hospital to Food court by travel mode transit; start time is Tue 2025-03-18 17:30; trip time is 37 minutes",
+            "keywords": [
+                "Hospital to Food court",
+                "transit"
+            ],
+            "spatial_scope": "Hospital, Food court, St_2, Metro_1, Metro_1",
+            "time_scope": [
+                "17:30:00",
+                "18:07:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707111946495253,
+            "type": "thought",
+            "created": "2025-03-18T18:30:00",
+            "last_accessed": "2025-03-19T18:03:00",
+            "expiration": "2025-03-23T11:18:24.553005",
+            "content": "Gym consistently experiences high congestion in late afternoon",
+            "keywords": [
+                "Gym",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707111947473463,
+            "type": "thought",
+            "created": "2025-03-18T18:30:00",
+            "last_accessed": "2025-03-18T18:30:00",
+            "expiration": "2025-03-21T15:11:50.510024",
+            "content": "Food court offers flexible meeting alternative during peak hours",
+            "keywords": [
+                "Food court",
+                "alternative",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707113144933626,
+            "type": "event",
+            "created": "2025-03-18T19:00:00",
+            "last_accessed": "2025-03-19T12:15:00",
+            "expiration": "2025-03-20T08:03:34.810763",
+            "content": "Emma Davis current activity description: Travel from Office to Food court via metro to meet Maria Lopez for an outdoor workout session at 17:30. current status is Staying at facility Food court.",
+            "keywords": [
+                "Emma Davis",
+                "Food court",
+                "Food court"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707113306293264,
+            "type": "event",
+            "created": "2025-03-18T19:01:00",
+            "last_accessed": "2025-03-18T20:19:00",
+            "expiration": "2025-03-19T03:32:35.742705",
+            "content": "Emma Davis current activity description: Return home via metro for dinner and evening relaxation. current status is Emma Davis on the trip from Food court to Midtown apartment; trip trajectory: []; currently at node Node_7; planned path left: [('Metro_1_link_3', 'ride', 'Node_6'), ('Metro_1_link_2', 'ride', 'Node_5'), ('Metro_1_link_1', 'ride', 'Node_4')];.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Node_7"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707113609780965,
+            "type": "event",
+            "created": "2025-03-18T19:10:00",
+            "last_accessed": "2025-03-18T20:19:00",
+            "expiration": "2025-03-19T03:32:35.742705",
+            "content": "Emma Davis current activity description: Return home via metro for dinner and evening relaxation. current status is Emma Davis on the trip from Food court to Midtown apartment; trip trajectory: [('Metro_1_link_3', 'ride', 'Node_6')];  currently traversing link Metro_1_link_3; planned path left: [('Metro_1_link_2', 'ride', 'Node_5'), ('Metro_1_link_1', 'ride', 'Node_4')];.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Metro_1_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707114314076681,
+            "type": "event",
+            "created": "2025-03-18T19:30:00",
+            "last_accessed": "2025-03-18T20:19:00",
+            "expiration": "2025-03-19T03:32:35.742705",
+            "content": "Emma Davis current activity description: Return home via metro for dinner and evening relaxation. current status is Emma Davis on the trip from Food court to Midtown apartment; trip trajectory: [('Metro_1_link_3', 'ride', 'Node_6'), ('Metro_1_link_2', 'ride', 'Node_5'), ('Metro_1_link_1', 'ride', 'Node_4')];  currently traversing link Metro_1_link_1; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Metro_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707115825842284,
+            "type": "thought",
+            "created": "2025-03-18T20:00:00",
+            "last_accessed": "2025-03-18T20:00:00",
+            "expiration": "2025-03-21T16:41:50.510024",
+            "content": "Food court serves as a flexible alternative during peak hours",
+            "keywords": [
+                "Food court",
+                "flexible meetup",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707115846527981,
+            "type": "thought",
+            "created": "2025-03-18T20:01:00",
+            "last_accessed": "2025-03-18T20:01:00",
+            "expiration": "2025-03-21T16:42:50.510024",
+            "content": "Food court serves as flexible meeting alternative during peak hours",
+            "keywords": [
+                "Food court",
+                "flexible",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707120300864221,
+            "type": "event",
+            "created": "2025-03-18T20:19:00",
+            "last_accessed": "2025-03-18T20:19:00",
+            "expiration": "2025-03-19T03:32:35.742705",
+            "content": "Emma Davis current activity description: Return home via metro for dinner and evening relaxation. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707120308364883,
+            "type": "thought",
+            "created": "2025-03-18T20:19:00",
+            "last_accessed": "2025-03-19T18:03:00",
+            "expiration": "2025-03-23T11:18:24.553005",
+            "content": "Gym experiences high congestion in late afternoon",
+            "keywords": [
+                "Gym",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707120309188723,
+            "type": "thought",
+            "created": "2025-03-18T20:19:00",
+            "last_accessed": "2025-03-18T20:19:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Food court serves as flexible alternative during peak hours",
+            "keywords": [
+                "Food court",
+                "meeting spot",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707120310472112,
+            "type": "event",
+            "created": "2025-03-18T20:19:00",
+            "last_accessed": "2025-03-18T20:19:00",
+            "expiration": "2025-03-19T03:32:35.742705",
+            "content": "Maria Lopez travels from Supermarket to Uptown apartment by travel mode drive; start time is Tue 2025-03-18 20:00; trip time is 19 minutes",
+            "keywords": [
+                "Supermarket to Uptown apartment",
+                "drive"
+            ],
+            "spatial_scope": "Supermarket, Uptown apartment, St_3, Ave_1",
+            "time_scope": [
+                "20:00:00",
+                "20:19:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707122421839780,
+            "type": "thought",
+            "created": "2025-03-18T23:59:00",
+            "last_accessed": "2025-03-18T23:59:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Metro_2 is reliable during post-work hours",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707122422819661,
+            "type": "thought",
+            "created": "2025-03-18T23:59:00",
+            "last_accessed": "2025-03-18T23:59:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Food court accessible and less crowded around 17:30",
+            "keywords": [
+                "Food court",
+                "meeting",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707122424093262,
+            "type": "thought",
+            "created": "2025-03-18T23:59:00",
+            "last_accessed": "2025-03-18T23:59:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "St_3 and Ave_2 routes less congested after 18:00",
+            "keywords": [
+                "St_3",
+                "Ave_2",
+                "driving",
+                "low congestion"
+            ],
+            "spatial_scope": [
+                "St_3",
+                "Ave_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707122425322857,
+            "type": "thought",
+            "created": "2025-03-18T23:59:00",
+            "last_accessed": "2025-03-18T23:59:00",
+            "expiration": "2025-03-18T23:59:00",
+            "content": "Flexible activity planning improves social coordination",
+            "keywords": [
+                "flexibility",
+                "social",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708004139383627,
+            "type": "chat",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T06:30:00",
+            "expiration": "2025-03-19T15:17:16.901153",
+            "content": "Maria Lopez and Emma Davis changed their plans from Gym to Food court and will meet there at 17:30 after work.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Food court",
+                "Gym",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708004202556225,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-21T20:41:50.510024",
+            "content": "St_3 and Ave_2 routes less congested after 18:00",
+            "keywords": [
+                "St_3",
+                "Ave_2",
+                "less congested"
+            ],
+            "spatial_scope": [
+                "St_3",
+                "Ave_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708004203601698,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-22T17:15:24.553005",
+            "content": "Metro_2 is reliable during post-work hours",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "post-work"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708004205433312,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T12:15:00",
+            "expiration": "2025-03-21T14:43:23.106828",
+            "content": "Food court accessible and less crowded around 17:30",
+            "keywords": [
+                "Food court",
+                "less crowded"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "18:30:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708004206538187,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-21T20:41:50.510024",
+            "content": "Flexible activity planning improves social coordination",
+            "keywords": [
+                "Flexible planning",
+                "social coordination"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708004207667941,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-21T20:41:50.510024",
+            "content": "Food court serves as flexible alternative during peak hours",
+            "keywords": [
+                "Food court",
+                "flexible alternative"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708005153751959,
+            "type": "event",
+            "created": "2025-03-19T06:30:00",
+            "last_accessed": "2025-03-19T08:31:00",
+            "expiration": "2025-03-19T10:53:27.194665",
+            "content": "Emma Davis current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 708005506462515,
+            "type": "event",
+            "created": "2025-03-19T07:00:00",
+            "last_accessed": "2025-03-19T07:00:00",
+            "expiration": "2025-03-19T07:14:00",
+            "content": "Emma Davis current activity description: Wake up at home and complete morning routines before heading out. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 708010208598369,
+            "type": "event",
+            "created": "2025-03-19T07:15:00",
+            "last_accessed": "2025-03-19T07:15:00",
+            "expiration": "2025-03-19T07:15:00",
+            "content": "Emma Davis current activity description: Wake up at home and complete morning routines before heading out. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 708010328335125,
+            "type": "event",
+            "created": "2025-03-19T07:16:00",
+            "last_accessed": "2025-03-19T08:31:00",
+            "expiration": "2025-03-19T10:53:27.194665",
+            "content": "Emma Davis current activity description: Wake up at home and complete morning routines before heading out. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 708011107218532,
+            "type": "event",
+            "created": "2025-03-19T07:33:00",
+            "last_accessed": "2025-03-19T17:58:00",
+            "expiration": "2025-03-20T01:11:35.742705",
+            "content": "Emma Davis current activity description: Take metro from Midtown apartment to Supermarket for weekly grocery shopping and household supplies. current status is Emma Davis on the trip from Midtown apartment to Supermarket; trip trajectory: [('Metro_1_link_1', 'ride', 'Node_5')]; currently waiting at link Metro_1_link_1; planned path left: [('Metro_1_link_1', 'ride', 'Node_5'), ('Metro_1_link_2', 'ride', 'Node_6')];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Metro_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708011131830539,
+            "type": "chat",
+            "created": "2025-03-19T07:33:00",
+            "last_accessed": "2025-03-19T13:30:00",
+            "expiration": "2025-03-19T22:17:16.901153",
+            "content": "Maria Lopez and Emma Davis plan to meet at Supermarket after work despite initial concerns about congestion on Ave_2_link_1 and Ave_1_link_1. Emma is already en route via Metro_1 and confirms no congestion at Supermarket. Both agree to remain flexible and communicate in real time if conditions change.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Supermarket",
+                "Food court",
+                "Ave_2_link_1",
+                "Ave_1_link_1",
+                "Metro_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708011146920563,
+            "type": "chat",
+            "created": "2025-03-19T07:33:00",
+            "last_accessed": "2025-03-19T13:30:00",
+            "expiration": "2025-03-19T22:17:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed their plan to meet at Supermarket after work. Maria noted congestion on Ave_1_link_1 and Ave_2_link_1, but Emma confirmed her Metro_1 route remains unaffected.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Supermarket",
+                "Ave_1_link_1",
+                "Ave_2_link_1",
+                "Metro_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708011206763436,
+            "type": "chat",
+            "created": "2025-03-19T07:33:00",
+            "last_accessed": "2025-03-19T08:31:00",
+            "expiration": "2025-03-19T17:18:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed their plan to meet at Supermarket after work. Emma is traveling via Metro_1 which remains unaffected by congestion on Ave_1_link_1 and Ave_2_link_1. Maria will head to Supermarket from Hospital after her shift ends.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Supermarket",
+                "Hospital",
+                "Metro_1",
+                "Ave_1_link_1",
+                "Ave_2_link_1",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708011217265739,
+            "type": "thought",
+            "created": "2025-03-19T07:33:00",
+            "last_accessed": "2025-03-19T07:33:00",
+            "expiration": "2025-03-23T00:48:24.553005",
+            "content": "Ave_2_link_1 frequently congested during morning commute",
+            "keywords": [
+                "Ave_2_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708011218308907,
+            "type": "thought",
+            "created": "2025-03-19T07:33:00",
+            "last_accessed": "2025-03-19T07:33:00",
+            "expiration": "2025-03-23T23:32:09.440007",
+            "content": "Metro_2 remains reliable alternative during road congestion",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708012720062551,
+            "type": "chat",
+            "created": "2025-03-19T07:49:00",
+            "last_accessed": "2025-03-19T13:30:00",
+            "expiration": "2025-03-19T19:50:40.091395",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Supermarket after work despite traffic congestion on St_1_link_1. Emma is currently experiencing a 9-minute delay on Metro_1_link_1, but Supermarket remains unaffected. Both agreed to proceed with the original plan and stay in contact for any changes.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Supermarket",
+                "Hospital",
+                "Metro_1_link_1",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708012736966750,
+            "type": "chat",
+            "created": "2025-03-19T07:49:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T00:47:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their meetup at Supermarket after work. Emma is currently on Metro_1_link_1 with a 9-minute delay but expects no congestion at Supermarket. Maria is traveling to Hospital via Metro_2 and will notify Emma of any changes based on traffic conditions.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Supermarket",
+                "Metro_1_link_1",
+                "Metro_2",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012753831200,
+            "type": "chat",
+            "created": "2025-03-19T07:49:00",
+            "last_accessed": "2025-03-19T13:30:00",
+            "expiration": "2025-03-19T22:17:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Supermarket after work. Emma is traveling via Metro_1_link_1 with a 9-minute delay but expects to arrive at Supermarket around 17:30. Maria is en route to Hospital via Metro_2 with no delays and will go directly to Supermarket from Hospital after her shift ends at 17:00.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Supermarket",
+                "Hospital",
+                "Metro_1_link_1",
+                "Metro_2",
+                "17:00",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012828342782,
+            "type": "event",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-19T20:01:00",
+            "expiration": "2025-03-20T03:14:35.742705",
+            "content": "Emma Davis current activity description: Take metro from Midtown apartment to Supermarket for weekly grocery shopping and household supplies. current status is Emma Davis on the trip from Midtown apartment to Supermarket; trip trajectory: [('Metro_1_link_1', 'ride', 'Node_5'), ('Metro_1_link_2', 'ride', 'Node_6')]; after waiting for 0 minutes, currently riding on Metro_1_link_2; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Metro_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708012846432650,
+            "type": "chat",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-19T08:31:00",
+            "expiration": "2025-03-19T17:18:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed meeting at Supermarket after work. Maria will go directly from Hospital after 17:00, while Emma expects to arrive around 17:30 via Metro_1, unaffected by road congestion on St_1_link_1 and Ave_1_link_1.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Hospital",
+                "Supermarket",
+                "Metro_1",
+                "St_1_link_1",
+                "Ave_1_link_1",
+                "17:00",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012905924514,
+            "type": "chat",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-19T08:31:00",
+            "expiration": "2025-03-19T17:18:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed meeting at Supermarket after work. Maria will leave Hospital at 17:00 via Metro_2 and arrive around 17:30. Emma is already en route on Metro_1 with a slight delay but expects to arrive at Supermarket around 08:00.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Hospital",
+                "Supermarket",
+                "Metro_1",
+                "Metro_2",
+                "17:00",
+                "08:00",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012927943718,
+            "type": "chat",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-19T13:30:00",
+            "expiration": "2025-03-19T22:17:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed their plan to meet at Supermarket around 17:30. Maria noted congestion on St_1_link_1 and Ave_1_link_1, but confirmed Emma's Metro_1 route remains unaffected.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Supermarket",
+                "St_1_link_1",
+                "Ave_1_link_1",
+                "Metro_1",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012940136467,
+            "type": "thought",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-19T07:50:00",
+            "expiration": "2025-03-23T23:49:09.440007",
+            "content": "St_1_link_1 consistently experiences severe congestion during morning commute",
+            "keywords": [
+                "St_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708012940900758,
+            "type": "thought",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-20T07:49:00",
+            "expiration": "2025-03-24T01:04:24.553005",
+            "content": "Ave_1_link_1 frequently congested during peak hours",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708012941664297,
+            "type": "thought",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-19T07:50:00",
+            "expiration": "2025-03-23T23:49:09.440007",
+            "content": "Metro_2 remains reliable during road congestion",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "road congestion"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708012955150218,
+            "type": "event",
+            "created": "2025-03-19T07:50:00",
+            "last_accessed": "2025-03-19T07:50:00",
+            "expiration": "2025-03-19T15:03:35.742705",
+            "content": "Maria Lopez travels from Uptown apartment to Hospital by travel mode transit; start time is Wed 2025-03-19 07:15; trip time is 35 minutes",
+            "keywords": [
+                "Uptown apartment to Hospital",
+                "transit"
+            ],
+            "spatial_scope": "Uptown apartment, Hospital, St_2, St_2",
+            "time_scope": [
+                "07:15:00",
+                "07:50:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708020414184440,
+            "type": "chat",
+            "created": "2025-03-19T08:31:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T00:47:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their meeting at Food court at 17:30. Emma will adjust her route considering congestion on St_1_link_2, while Maria will take Metro_2 to Hospital and is unaffected by the traffic issue.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "St_1_link_2",
+                "Metro_2",
+                "Hospital",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708021811275036,
+            "type": "event",
+            "created": "2025-03-19T09:45:00",
+            "last_accessed": "2025-03-19T09:45:00",
+            "expiration": "2025-03-19T12:14:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00-17:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708024313521624,
+            "type": "event",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-19T13:30:00",
+            "expiration": "2025-03-19T14:44:00",
+            "content": "Amusement park has wild fire this afternoon (2025-03-19).",
+            "keywords": [
+                "Amusement park",
+                "wild fire",
+                "afternoon"
+            ],
+            "spatial_scope": "Amusement park",
+            "time_scope": [
+                "12:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708024314869697,
+            "type": "event",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-19T13:30:00",
+            "expiration": "2025-03-19T14:44:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00-17:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708024331465772,
+            "type": "chat",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-20T17:08:00",
+            "expiration": "2025-03-21T18:40:40.952815",
+            "content": "Maria Lopez and Emma Davis agreed to reschedule their meetup from Amusement park to Food court at 17:30 due to a wildfire. Emma will take Metro_1 from Office, while Maria will likely drive or use another mode of transport to reach the Food court.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Amusement park",
+                "wildfire",
+                "Food court",
+                "Metro_1",
+                "Office",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708024348199618,
+            "type": "chat",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-19T22:20:40.091395",
+            "content": "Maria Lopez and Emma Davis confirmed meeting at Food court by 17:30. Both will arrive via metro lines as previously planned, unaffected by the wildfire at Amusement park.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Food court",
+                "Amusement park",
+                "Metro_2",
+                "Metro_1",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708024404140072,
+            "type": "chat",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-20T17:08:00",
+            "expiration": "2025-03-21T18:40:40.952815",
+            "content": "Maria Lopez and Emma Davis confirmed their meeting at Food court at 17:30 despite the wildfire at Amusement park. Maria will use Metro_2 for her commute and update if there are any changes.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Food court",
+                "Amusement park",
+                "wildfire",
+                "Metro_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708024416581645,
+            "type": "thought",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-23T09:15:24.553005",
+            "content": "St_5_link_1 frequently congested during afternoon",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708024417382841,
+            "type": "thought",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-19T12:15:00",
+            "expiration": "2025-03-22T08:56:50.510024",
+            "content": "Amusement park consistently congested during late afternoon",
+            "keywords": [
+                "Amusement park",
+                "congestion",
+                "late afternoon"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708024418118733,
+            "type": "thought",
+            "created": "2025-03-19T12:15:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-26T11:27:19.472905",
+            "content": "Wildfire at Amusement park affects adjacent road safety",
+            "keywords": [
+                "St_5_link_1",
+                "wildfire",
+                "road safety"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708032039826135,
+            "type": "chat",
+            "created": "2025-03-19T13:30:00",
+            "last_accessed": "2025-03-20T07:30:00",
+            "expiration": "2025-03-21T09:02:40.952815",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Food court at 17:30 despite a wildfire at Amusement park potentially affecting nearby roads. Both will use metro routes\u2014Emma on Metro_1 and Maria on Metro_2\u2014and aim to arrive early. They agreed to reassess the situation around 17:00 based on real-time updates.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Amusement park",
+                "wildfire",
+                "Metro_1",
+                "Metro_2",
+                "17:30",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708032056719364,
+            "type": "chat",
+            "created": "2025-03-19T13:30:00",
+            "last_accessed": "2025-03-20T17:08:00",
+            "expiration": "2025-03-22T04:32:25.786336",
+            "content": "Emma Davis and Maria Lopez plan to meet at Food court after work despite a wildfire at Amusement park. Emma will travel via Metro_1 after leaving Office at 17:00, while Maria will head directly from Hospital. They agreed to confirm plans around 17:00.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Office",
+                "Hospital",
+                "wildfire",
+                "Metro_1",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708032118429886,
+            "type": "chat",
+            "created": "2025-03-19T13:30:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T00:47:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their meetup at Food court after work. Emma will leave Office at 17:00 via Metro_1 and arrive around 17:30. Maria will depart Hospital at 17:00 via Metro_2 and meet Emma at the same time. The wildfire event at Amusement park does not affect their plans.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Office",
+                "Hospital",
+                "Metro_1",
+                "Metro_2",
+                "17:00",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708034920649333,
+            "type": "event",
+            "created": "2025-03-19T14:45:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-22T18:59:52.143328",
+            "content": "Amusement park has wild fire this afternoon (2025-03-19).",
+            "keywords": [
+                "Amusement park",
+                "wild fire",
+                "afternoon"
+            ],
+            "spatial_scope": "Amusement park",
+            "time_scope": [
+                "12:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708034921617887,
+            "type": "event",
+            "created": "2025-03-19T14:45:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-19T17:14:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00-17:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708040714292693,
+            "type": "chat",
+            "created": "2025-03-19T16:00:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T06:19:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their meetup at Food court at 17:30. Maria will take Metro_2 from Hospital to Node_6, then walk to Food court. Emma will leave Office at 17:00 and take Metro_1 directly to Food court.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Hospital",
+                "Office",
+                "Metro_1",
+                "Metro_2",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708040731892401,
+            "type": "chat",
+            "created": "2025-03-19T16:00:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T00:47:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Food court at 17:30. Maria will leave Hospital after work at 17:00 and take Metro_2 directly. Emma will depart from Office at 17:00 and take Metro_1 directly.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Hospital",
+                "Office",
+                "Metro_1",
+                "Metro_2",
+                "17:00",
+                "17:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708042826805384,
+            "type": "event",
+            "created": "2025-03-19T17:15:00",
+            "last_accessed": "2025-03-19T17:15:00",
+            "expiration": "2025-03-19T17:29:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00-17:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708043725965331,
+            "type": "event",
+            "created": "2025-03-19T17:30:00",
+            "last_accessed": "2025-03-19T17:30:00",
+            "expiration": "2025-03-19T17:30:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00-17:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708043858586260,
+            "type": "event",
+            "created": "2025-03-19T17:31:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-20T01:31:35.742705",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00-17:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708044611751247,
+            "type": "chat",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-20T03:05:16.901153",
+            "content": "Emma Davis and Maria Lopez changed their plans from Food court to Cinema. Emma will go directly to Cinema, and Maria will meet her there around 19:00.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Cinema",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708044626916767,
+            "type": "chat",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-19T18:11:00",
+            "expiration": "2025-03-20T02:58:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their meeting at the Cinema by 19:00. Both will travel via Metro_1_link_5 and Metro_2_link_4 to reach the venue.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Cinema",
+                "Metro_1_link_5",
+                "Metro_2_link_4",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708044642389731,
+            "type": "chat",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T02:32:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed meeting at Food court as originally planned, despite Emma's initial suggestion to meet at Cinema. Both are traveling via metro and expect to meet soon.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Food court",
+                "Cinema",
+                "Metro_1_link_5",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708044714641346,
+            "type": "chat",
+            "created": "2025-03-19T17:46:00",
+            "last_accessed": "2025-03-19T17:46:00",
+            "expiration": "2025-03-20T02:33:16.901153",
+            "content": "Emma Davis and Maria Lopez adjusted their plans to meet at Cinema by 19:00 instead of Food court. Originally, Emma was meeting Jessica Adams there for a discussion on workplace wellness initiatives, but Maria changed her route via Metro_2 to join them at Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica Adams",
+                "Cinema",
+                "Food court",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708044730828638,
+            "type": "chat",
+            "created": "2025-03-19T17:46:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-21T06:22:51.512918",
+            "content": "Emma Davis and Maria Lopez changed their meeting location to Cinema at 19:00. Emma will arrive via Metro_2, skipping Food court. Jessica Adams will join them at Cinema after a stop at Gym. Maria will travel from Hospital to Cinema via Metro_2.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica Adams",
+                "Cinema",
+                "Food court",
+                "Gym",
+                "Hospital",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708044747226694,
+            "type": "chat",
+            "created": "2025-03-19T17:46:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-20T06:52:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed meeting at Cinema around 19:00. Emma will arrive via Metro_2, while Maria will adjust her route to be there on time. Jessica Adams will join them after a stop at Gym for a discussion on workplace wellness initiatives.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica Adams",
+                "Cinema",
+                "Gym",
+                "workplace wellness initiatives",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708044829214804,
+            "type": "event",
+            "created": "2025-03-19T17:48:00",
+            "last_accessed": "2025-03-19T17:48:00",
+            "expiration": "2025-03-19T17:57:00",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Emma Davis on the trip from Office to Cinema; trip trajectory: [('Ave_3_link_3', 'walk', 'Node_11')];  currently traversing link Ave_3_link_3; planned path left: [('Metro_2_link_4', 'ride', 'Node_10')];.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Ave_3_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708044846373361,
+            "type": "chat",
+            "created": "2025-03-19T17:48:00",
+            "last_accessed": "2025-03-19T18:03:00",
+            "expiration": "2025-03-20T06:37:51.512918",
+            "content": "Maria Lopez and Emma Davis adjusted their plans to meet at the Cinema by 19:00 instead of the Food court. Emma is en route to the Cinema via Metro_2, and Jessica Adams will join them there after stopping at the Gym. Maria will take Metro_2 from the Hospital directly to the Cinema.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Jessica Adams",
+                "Cinema",
+                "Gym",
+                "Hospital",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708044904088319,
+            "type": "chat",
+            "created": "2025-03-19T17:48:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-20T06:52:51.512918",
+            "content": "Maria Lopez and Emma Davis are meeting at the Cinema by 19:00 via Metro_2 to discuss workplace wellness initiatives with Jessica. Both confirmed their attendance at the planned time and location.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Jessica Adams",
+                "Cinema",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708044917125981,
+            "type": "thought",
+            "created": "2025-03-19T17:48:00",
+            "last_accessed": "2025-03-19T17:48:00",
+            "expiration": "2025-03-21T04:36:17.115446",
+            "content": "Cinema around 19:00 sees increased foot traffic during social meetups",
+            "keywords": [
+                "Cinema",
+                "meetup",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708044918090844,
+            "type": "thought",
+            "created": "2025-03-19T17:48:00",
+            "last_accessed": "2025-03-19T17:48:00",
+            "expiration": "2025-03-22T14:29:50.510024",
+            "content": "Metro_2 experiences higher usage during evening commute for social coordination",
+            "keywords": [
+                "Metro_2",
+                "evening",
+                "social"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708045339431491,
+            "type": "event",
+            "created": "2025-03-19T17:58:00",
+            "last_accessed": "2025-03-19T19:10:00",
+            "expiration": "2025-03-20T02:23:35.742705",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Emma Davis on the trip from Office to Cinema; trip trajectory: [('Ave_3_link_3', 'walk', 'Node_11')];  currently traversing link Ave_3_link_3; planned path left: [('Metro_2_link_4', 'ride', 'Node_10')];.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Ave_3_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708045349652242,
+            "type": "thought",
+            "created": "2025-03-19T17:58:00",
+            "last_accessed": "2025-03-19T17:58:00",
+            "expiration": "2025-03-22T14:39:50.510024",
+            "content": "Metro_2 sees increased usage during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "usage",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708045350741882,
+            "type": "thought",
+            "created": "2025-03-19T17:58:00",
+            "last_accessed": "2025-03-19T17:58:00",
+            "expiration": "2025-03-21T20:26:23.106828",
+            "content": "Cinema around 19:00 experiences higher foot traffic during social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708045659570082,
+            "type": "chat",
+            "created": "2025-03-19T18:03:00",
+            "last_accessed": "2025-03-19T18:03:00",
+            "expiration": "2025-03-20T02:50:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their meetup with Jessica at Cinema at 19:00. Both are traveling via Metro_2 and expect to arrive on time.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica",
+                "Cinema",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708045715269136,
+            "type": "chat",
+            "created": "2025-03-19T18:03:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-21T06:22:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their meetup with Jessica at Cinema at 19:00. Both are en route via Metro_2 and expect to arrive on time.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica",
+                "Cinema",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708045731621301,
+            "type": "chat",
+            "created": "2025-03-19T18:03:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-20T06:52:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Cinema by 19:00. Maria is switching from Metro_1 to Metro_2 at Node_6 to optimize her route and ensure timely arrival at Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Cinema",
+                "Metro_1",
+                "Metro_2",
+                "Node_6"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708045839448660,
+            "type": "event",
+            "created": "2025-03-19T18:07:00",
+            "last_accessed": "2025-03-19T20:10:00",
+            "expiration": "2025-03-20T03:23:35.742705",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Emma Davis on the trip from Office to Cinema; trip trajectory: [('Ave_3_link_3', 'walk', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10')]; currently waiting at link Metro_2_link_4; planned path left: [('Metro_2_link_4', 'ride', 'Node_10')];.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Metro_2_link_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708045853602710,
+            "type": "thought",
+            "created": "2025-03-19T18:07:00",
+            "last_accessed": "2025-03-19T18:07:00",
+            "expiration": "2025-03-19T18:10:00",
+            "content": "Metro_2 heavily used during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "commute",
+                "social"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708045854469771,
+            "type": "thought",
+            "created": "2025-03-19T18:07:00",
+            "last_accessed": "2025-03-19T18:07:00",
+            "expiration": "2025-03-19T18:10:00",
+            "content": "Cinema around 19:00 experiences increased foot traffic during social meetups",
+            "keywords": [
+                "Cinema",
+                "meetup",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708045944433969,
+            "type": "event",
+            "created": "2025-03-19T18:07:00",
+            "last_accessed": "2025-03-19T18:07:00",
+            "expiration": "2025-03-20T01:20:35.742705",
+            "content": "Maria Lopez travels from Hospital to Food court by travel mode transit; start time is Wed 2025-03-19 17:30; trip time is 37 minutes",
+            "keywords": [
+                "Hospital to Food court",
+                "transit"
+            ],
+            "spatial_scope": "Hospital, Food court, St_2, Metro_1, Metro_1",
+            "time_scope": [
+                "17:30:00",
+                "18:07:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708045949753035,
+            "type": "event",
+            "created": "2025-03-19T18:10:00",
+            "last_accessed": "2025-03-19T19:10:00",
+            "expiration": "2025-03-20T02:23:35.742705",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Emma Davis on the trip from Office to Cinema; trip trajectory: [('Ave_3_link_3', 'walk', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10')]; after waiting for 6 minutes, currently riding on Metro_2_link_4; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Metro_2_link_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708050057156003,
+            "type": "event",
+            "created": "2025-03-19T18:11:00",
+            "last_accessed": "2025-03-19T19:10:00",
+            "expiration": "2025-03-20T02:23:35.742705",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Emma Davis on the trip from Office to Cinema; trip trajectory: [('Ave_3_link_3', 'walk', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10')];  currently traversing link Metro_2_link_4; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Metro_2_link_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708050109238954,
+            "type": "thought",
+            "created": "2025-03-19T18:11:00",
+            "last_accessed": "2025-03-19T18:11:00",
+            "expiration": "2025-03-19T18:26:00",
+            "content": "Metro_2 heavily used during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "commute",
+                "social"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708050110467812,
+            "type": "thought",
+            "created": "2025-03-19T18:11:00",
+            "last_accessed": "2025-03-19T18:11:00",
+            "expiration": "2025-03-21T04:59:17.115446",
+            "content": "Cinema around 19:00 experiences increased foot traffic during social meetups",
+            "keywords": [
+                "Cinema",
+                "meetup",
+                "foot traffic"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708050358445697,
+            "type": "chat",
+            "created": "2025-03-19T18:18:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-20T03:05:16.901153",
+            "content": "Emma Davis and Maria Lopez coordinated their arrival times at Cinema for a meeting with Jessica before 19:00. Maria will arrive by 18:50 after transferring at Node_6, while Emma expects to arrive by 18:55 from Metro_2_link_4.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica Adams",
+                "Cinema",
+                "19:00",
+                "18:50",
+                "18:55",
+                "Metro_2_link_4",
+                "Node_6"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708050410609402,
+            "type": "event",
+            "created": "2025-03-19T18:18:00",
+            "last_accessed": "2025-03-19T18:18:00",
+            "expiration": "2025-03-20T01:31:35.742705",
+            "content": "Maria Lopez waits at Metro_1_link_3; start time is Wed 2025-03-19 18:11; wait time is 7 minutes",
+            "keywords": [
+                "wait",
+                "Metro_1_link_3"
+            ],
+            "spatial_scope": "Metro_1_link_3",
+            "time_scope": [
+                "18:11:00",
+                "18:18:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708050646633863,
+            "type": "event",
+            "created": "2025-03-19T18:27:00",
+            "last_accessed": "2025-03-19T18:27:00",
+            "expiration": "2025-03-19T18:36:00",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708050656688647,
+            "type": "thought",
+            "created": "2025-03-19T18:27:00",
+            "last_accessed": "2025-03-19T18:27:00",
+            "expiration": "2025-03-19T18:36:00",
+            "content": "Metro_2 heavily used during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "social",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708050657651056,
+            "type": "thought",
+            "created": "2025-03-19T18:27:00",
+            "last_accessed": "2025-03-19T18:27:00",
+            "expiration": "2025-03-19T18:36:00",
+            "content": "Cinema experiences increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "meetup",
+                "foot traffic"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708051223361741,
+            "type": "event",
+            "created": "2025-03-19T18:37:00",
+            "last_accessed": "2025-03-19T18:37:00",
+            "expiration": "2025-03-19T19:09:00",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708051233039704,
+            "type": "thought",
+            "created": "2025-03-19T18:37:00",
+            "last_accessed": "2025-03-19T18:37:00",
+            "expiration": "2025-03-19T19:59:00",
+            "content": "Cinema experiences increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708051234064301,
+            "type": "thought",
+            "created": "2025-03-19T18:37:00",
+            "last_accessed": "2025-03-19T18:37:00",
+            "expiration": "2025-03-19T19:59:00",
+            "content": "Metro_2 heavily used during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "transit usage",
+                "social coordination"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708051235097344,
+            "type": "event",
+            "created": "2025-03-19T18:37:00",
+            "last_accessed": "2025-03-19T18:37:00",
+            "expiration": "2025-03-20T01:50:35.742705",
+            "content": "Maria Lopez travels from Food court to Cinema by travel mode transit; start time is Wed 2025-03-19 18:10; trip time is 27 minutes",
+            "keywords": [
+                "Food court to Cinema",
+                "transit"
+            ],
+            "spatial_scope": "Food court, Cinema, Metro_1, Metro_2",
+            "time_scope": [
+                "18:10:00",
+                "18:37:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708052752188896,
+            "type": "event",
+            "created": "2025-03-19T19:10:00",
+            "last_accessed": "2025-03-19T20:19:00",
+            "expiration": "2025-03-20T03:32:35.742705",
+            "content": "Emma Davis current activity description: Travel via metro to Cinema for a meetup with Jessica Adams at 19:00 to discuss workplace wellness initiatives. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708054718520724,
+            "type": "event",
+            "created": "2025-03-19T20:00:00",
+            "last_accessed": "2025-03-19T20:00:00",
+            "expiration": "2025-03-19T20:00:00",
+            "content": "Emma Davis current activity description: Return home via metro for a restful night, following the conclusion of the meetup at Cinema. current status is Emma Davis on the trip from Cinema to Midtown apartment; trip trajectory: [('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_1_link_2', 'ride', 'Node_5')];  currently traversing link Metro_1_link_2; planned path left: [('Metro_1_link_1', 'ride', 'Node_4')];.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Metro_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708054729631959,
+            "type": "thought",
+            "created": "2025-03-19T20:00:00",
+            "last_accessed": "2025-03-19T20:00:00",
+            "expiration": "2025-03-21T06:48:17.115446",
+            "content": "Cinema experiences increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708054730596719,
+            "type": "thought",
+            "created": "2025-03-19T20:00:00",
+            "last_accessed": "2025-03-19T20:00:00",
+            "expiration": "2025-03-19T20:09:00",
+            "content": "Metro_2 heavily used during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "evening commute",
+                "social"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708054752775722,
+            "type": "event",
+            "created": "2025-03-19T20:01:00",
+            "last_accessed": "2025-03-19T20:28:00",
+            "expiration": "2025-03-20T03:41:35.742705",
+            "content": "Emma Davis current activity description: Return home via metro for a restful night, following the conclusion of the meetup at Cinema. current status is Emma Davis on the trip from Cinema to Midtown apartment; trip trajectory: [('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_1_link_2', 'ride', 'Node_5')];  currently traversing link Metro_1_link_2; planned path left: [('Metro_1_link_1', 'ride', 'Node_4')];.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Metro_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708054805845951,
+            "type": "thought",
+            "created": "2025-03-19T20:01:00",
+            "last_accessed": "2025-03-19T20:01:00",
+            "expiration": "2025-03-19T20:09:00",
+            "content": "Cinema sees increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708054806751876,
+            "type": "thought",
+            "created": "2025-03-19T20:01:00",
+            "last_accessed": "2025-03-19T20:01:00",
+            "expiration": "2025-03-23T13:16:24.553005",
+            "content": "Metro_2 heavily utilized during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "evening commute",
+                "social"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708054957100058,
+            "type": "event",
+            "created": "2025-03-19T20:10:00",
+            "last_accessed": "2025-03-19T20:28:00",
+            "expiration": "2025-03-20T03:41:35.742705",
+            "content": "Emma Davis current activity description: Return home via metro for a restful night, following the conclusion of the meetup at Cinema. current status is Emma Davis on the trip from Cinema to Midtown apartment; trip trajectory: [('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_1_link_2', 'ride', 'Node_5'), ('Metro_1_link_1', 'ride', 'Node_4')];  currently traversing link Metro_1_link_1; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Metro_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708055013554798,
+            "type": "thought",
+            "created": "2025-03-19T20:10:00",
+            "last_accessed": "2025-03-19T20:10:00",
+            "expiration": "2025-03-19T20:18:00",
+            "content": "Cinema sees increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708055014679911,
+            "type": "thought",
+            "created": "2025-03-19T20:10:00",
+            "last_accessed": "2025-03-19T20:10:00",
+            "expiration": "2025-03-19T20:18:00",
+            "content": "Metro_2 heavily used during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "commute",
+                "social"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708055312056274,
+            "type": "event",
+            "created": "2025-03-19T20:19:00",
+            "last_accessed": "2025-03-19T20:19:00",
+            "expiration": "2025-03-19T20:27:00",
+            "content": "Emma Davis current activity description: Return home via metro for a restful night, following the conclusion of the meetup at Cinema. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708055322294199,
+            "type": "thought",
+            "created": "2025-03-19T20:19:00",
+            "last_accessed": "2025-03-19T20:19:00",
+            "expiration": "2025-03-19T20:27:00",
+            "content": "Cinema sees increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "meetup",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708055323117768,
+            "type": "thought",
+            "created": "2025-03-19T20:19:00",
+            "last_accessed": "2025-03-19T20:19:00",
+            "expiration": "2025-03-23T13:34:24.553005",
+            "content": "Metro_2 heavily used during evening commutes for social coordination",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708055531108234,
+            "type": "event",
+            "created": "2025-03-19T20:28:00",
+            "last_accessed": "2025-03-19T20:28:00",
+            "expiration": "2025-03-20T03:41:35.742705",
+            "content": "Emma Davis current activity description: Return home via metro for a restful night, following the conclusion of the meetup at Cinema. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708055543243645,
+            "type": "thought",
+            "created": "2025-03-19T20:28:00",
+            "last_accessed": "2025-03-19T20:28:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Cinema sees increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "social meetup",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708055619337820,
+            "type": "event",
+            "created": "2025-03-19T20:28:00",
+            "last_accessed": "2025-03-19T20:28:00",
+            "expiration": "2025-03-20T03:41:35.742705",
+            "content": "Maria Lopez travels from Cinema to Uptown apartment by travel mode drive; start time is Wed 2025-03-19 20:00; trip time is 28 minutes",
+            "keywords": [
+                "Cinema to Uptown apartment",
+                "drive"
+            ],
+            "spatial_scope": "Cinema, Uptown apartment, Ave_3, St_2, St_2",
+            "time_scope": [
+                "20:00:00",
+                "20:28:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708062130778239,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Metro_2 effective for midday social travel",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "flexibility"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708062131660683,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-22T20:40:50.510024",
+            "content": "Food court to Cinema transfer feasible with metro links",
+            "keywords": [
+                "Cinema",
+                "transfer",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_3",
+                "Metro_2_link_4"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708062132600835,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Shortest return route reliable during evening off-peak",
+            "keywords": [
+                "Driving",
+                "shortest path",
+                "efficiency"
+            ],
+            "spatial_scope": [
+                "St_2_link_1",
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "20:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708062133688071,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-22T04:36:17.115446",
+            "content": "Mid-evening Supermarket trip avoids crowds",
+            "keywords": [
+                "Supermarket",
+                "shopping",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709122509967724,
+            "type": "chat",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T16:00:00",
+            "expiration": "2025-03-21T00:47:16.901153",
+            "content": "Maria Lopez and Emma Davis confirmed their meeting at Cinema after work. Maria will take Metro_2 from Uptown apartment and arrive by 19:00. Emma will take Metro_1 from Office and meet Maria at Cinema at 19:00.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Cinema",
+                "Uptown apartment",
+                "Office",
+                "Metro_1",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122533493939,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-22T20:41:50.510024",
+            "content": "Metro_2 effective for midday social travel",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "social"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122534366981,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-22T20:41:50.510024",
+            "content": "Evening Gym sessions less crowded after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "7PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122535258160,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-20T06:59:00",
+            "content": "Shortest return route reliable during evening off-peak",
+            "keywords": [
+                "route",
+                "shortest",
+                "off-peak"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "20:00:00",
+                "22:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122536120156,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-20T06:29:00",
+            "content": "Cinema sees increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709123418778707,
+            "type": "event",
+            "created": "2025-03-20T06:30:00",
+            "last_accessed": "2025-03-20T07:49:00",
+            "expiration": "2025-03-20T10:11:27.194665",
+            "content": "Emma Davis current activity description: Sleeping at home. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709123431644800,
+            "type": "thought",
+            "created": "2025-03-20T06:30:00",
+            "last_accessed": "2025-03-20T06:30:00",
+            "expiration": "2025-03-20T06:59:00",
+            "content": "Metro_2 effective for midday and evening social travel",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709123433037960,
+            "type": "thought",
+            "created": "2025-03-20T06:30:00",
+            "last_accessed": "2025-03-20T06:30:00",
+            "expiration": "2025-03-20T06:59:00",
+            "content": "Cinema sees increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709123740836586,
+            "type": "event",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-20T07:14:00",
+            "content": "Emma Davis current activity description: Wake up at home and complete morning routines before heading out. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709123754767770,
+            "type": "thought",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-24T00:15:24.553005",
+            "content": "Metro_2 effective for midday and evening social travel",
+            "keywords": [
+                "Metro_2",
+                "commuting",
+                "effective"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709123755706235,
+            "type": "thought",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-21T17:48:17.115446",
+            "content": "Cinema sees increased foot traffic around 19:00 due to social meetups",
+            "keywords": [
+                "Cinema",
+                "foot traffic",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709123756523117,
+            "type": "thought",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-23T03:41:50.510024",
+            "content": "Shortest return route reliable during evening off-peak",
+            "keywords": [
+                "return route",
+                "shortest path",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709124117055042,
+            "type": "event",
+            "created": "2025-03-20T07:15:00",
+            "last_accessed": "2025-03-20T07:15:00",
+            "expiration": "2025-03-20T07:15:00",
+            "content": "Emma Davis current activity description: Wake up at home and complete morning routines before heading out. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709124156016623,
+            "type": "event",
+            "created": "2025-03-20T07:16:00",
+            "last_accessed": "2025-03-20T07:49:00",
+            "expiration": "2025-03-20T10:11:27.194665",
+            "content": "Emma Davis current activity description: Wake up at home and complete morning routines before heading out. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Emma Davis",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709125239993776,
+            "type": "chat",
+            "created": "2025-03-20T07:30:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T08:12:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet with Jessica Adams at the Cinema at 19:00. Maria will drive from Cinema to Gym and then home, adjusting her route to avoid congestion on St_1_link_2.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica Adams",
+                "Cinema",
+                "Gym",
+                "St_1_link_2",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709125257077594,
+            "type": "chat",
+            "created": "2025-03-20T07:30:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T08:12:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at the Cinema by 19:00. Maria will leave the Hospital earlier at 17:20 to avoid congestion on St_1_link_2, ensuring she reaches the Cinema on time.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Hospital",
+                "Cinema",
+                "St_1_link_2",
+                "17:20",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709125316398270,
+            "type": "chat",
+            "created": "2025-03-20T07:30:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T08:12:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Cinema at 19:00. Maria will commute via Metro_2 for her work at Hospital, and both will use the metro system to reach Cinema, avoiding potential delays on St_1_link_2.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Hospital",
+                "Cinema",
+                "Metro_2",
+                "Metro_1",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709125608056593,
+            "type": "event",
+            "created": "2025-03-20T07:33:00",
+            "last_accessed": "2025-03-20T07:50:00",
+            "expiration": "2025-03-20T15:03:35.742705",
+            "content": "Emma Davis current activity description: Take metro from Midtown apartment to Supermarket for weekly grocery shopping and household supplies. current status is Emma Davis on the trip from Midtown apartment to Supermarket; trip trajectory: [('Metro_1_link_1', 'ride', 'Node_5')]; currently waiting at link Metro_1_link_1; planned path left: [('Metro_1_link_1', 'ride', 'Node_5'), ('Metro_1_link_2', 'ride', 'Node_6')];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Metro_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709125619602554,
+            "type": "thought",
+            "created": "2025-03-20T07:33:00",
+            "last_accessed": "2025-03-20T07:33:00",
+            "expiration": "2025-03-24T00:48:24.553005",
+            "content": "St_2_link_1 frequently congested during morning commute",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709125620381458,
+            "type": "thought",
+            "created": "2025-03-20T07:33:00",
+            "last_accessed": "2025-03-20T07:33:00",
+            "expiration": "2025-03-24T00:48:24.553005",
+            "content": "Metro_2 reliable alternative during road congestion",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "congestion relief"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709131239951193,
+            "type": "chat",
+            "created": "2025-03-20T07:49:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T08:12:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plan to meet at Cinema at 19:00. Maria will leave Hospital early at 17:20 to avoid congestion on St_1_link_2 and take Metro_2. Emma will confirm if Jessica Adams can join them for the discussion on workplace wellness initiatives.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica Adams",
+                "Hospital",
+                "Cinema",
+                "Metro_2",
+                "St_1_link_2",
+                "19:00",
+                "17:20"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709131330540058,
+            "type": "chat",
+            "created": "2025-03-20T07:49:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-21T02:35:16.901153",
+            "content": "Emma Davis and Maria Lopez confirmed their evening plans to meet at Cinema. Maria will depart Hospital at 17:20 via Metro_2, unaffected by St_1_link_2 congestion, and expects to arrive by 19:00. Emma will travel from Office to Cinema via Metro_1 as planned. Jessica Adams will join them at 19:00.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Jessica Adams",
+                "Hospital",
+                "Cinema",
+                "Metro_2",
+                "Metro_1",
+                "Office",
+                "17:20",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709131343379519,
+            "type": "event",
+            "created": "2025-03-20T07:50:00",
+            "last_accessed": "2025-03-20T07:50:00",
+            "expiration": "2025-03-20T15:03:35.742705",
+            "content": "Emma Davis current activity description: Take metro from Midtown apartment to Supermarket for weekly grocery shopping and household supplies. current status is Emma Davis on the trip from Midtown apartment to Supermarket; trip trajectory: [('Metro_1_link_1', 'ride', 'Node_5'), ('Metro_1_link_2', 'ride', 'Node_6')]; after waiting for 0 minutes, currently riding on Metro_1_link_2; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Supermarket",
+                "Metro_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709131402573587,
+            "type": "chat",
+            "created": "2025-03-20T07:50:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-21T06:22:51.512918",
+            "content": "Maria Lopez and Emma Davis confirmed their meeting with Jessica Adams at Cinema at 19:00. Maria will leave Hospital at 16:50 and take Metro_2 to avoid congestion on Ave_1_link_1 and St_1_link_2. Emma will coordinate with Jessica to wrap up work by 16:50 and travel via Metro_1.",
+            "keywords": [
+                "Maria Lopez",
+                "Emma Davis",
+                "Jessica Adams",
+                "Hospital",
+                "Metro_2",
+                "Metro_1",
+                "Cinema",
+                "19:00",
+                "16:50",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709131415317628,
+            "type": "thought",
+            "created": "2025-03-20T07:50:00",
+            "last_accessed": "2025-03-20T07:50:00",
+            "expiration": "2025-03-20T07:49:00",
+            "content": "Ave_1_link_1 consistently congested during morning and evening commutes",
+            "keywords": [
+                "Ave_1_link_1",
+                "congested",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709131415329969,
+            "type": "thought",
+            "created": "2025-03-20T07:50:00",
+            "last_accessed": "2025-03-20T07:50:00",
+            "expiration": "2025-03-20T12:14:00",
+            "content": "Ave_1_link_1 consistently congested during morning and evening commutes",
+            "keywords": [
+                "Ave_1_link_1",
+                "congested",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709131416110802,
+            "type": "thought",
+            "created": "2025-03-20T07:50:00",
+            "last_accessed": "2025-03-20T07:50:00",
+            "expiration": "2025-03-20T12:14:00",
+            "content": "Metro_2 is a reliable alternative during road congestion",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709131509586446,
+            "type": "event",
+            "created": "2025-03-20T07:50:00",
+            "last_accessed": "2025-03-20T07:50:00",
+            "expiration": "2025-03-20T15:03:35.742705",
+            "content": "Maria Lopez travels from Uptown apartment to Hospital by travel mode transit; start time is Thu 2025-03-20 07:15; trip time is 35 minutes",
+            "keywords": [
+                "Uptown apartment to Hospital",
+                "transit"
+            ],
+            "spatial_scope": "Uptown apartment, Hospital, St_2, St_2",
+            "time_scope": [
+                "07:15:00",
+                "07:50:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709140011040901,
+            "type": "event",
+            "created": "2025-03-20T09:45:00",
+            "last_accessed": "2025-03-20T09:45:00",
+            "expiration": "2025-03-20T12:14:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00\u201317:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710011317193547,
+            "type": "event",
+            "created": "2025-03-20T12:15:00",
+            "last_accessed": "2025-03-20T12:15:00",
+            "expiration": "2025-03-20T14:44:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00\u201317:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710011332204592,
+            "type": "thought",
+            "created": "2025-03-20T12:15:00",
+            "last_accessed": "2025-03-20T12:15:00",
+            "expiration": "2025-03-20T12:14:00",
+            "content": "Ave_1_link_1 consistently congested during morning and evening commutes",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710011332218185,
+            "type": "thought",
+            "created": "2025-03-20T12:15:00",
+            "last_accessed": "2025-03-20T12:15:00",
+            "expiration": "2025-03-24T05:30:24.553005",
+            "content": "Ave_1_link_1 consistently congested during morning and evening commutes",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "commute"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710011333138796,
+            "type": "thought",
+            "created": "2025-03-20T12:15:00",
+            "last_accessed": "2025-03-20T12:15:00",
+            "expiration": "2025-03-24T05:30:24.553005",
+            "content": "Metro_2 is a reliable alternative during road congestion",
+            "keywords": [
+                "Metro_2",
+                "reliability",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710015944146682,
+            "type": "event",
+            "created": "2025-03-20T14:45:00",
+            "last_accessed": "2025-03-20T16:00:00",
+            "expiration": "2025-03-20T16:49:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00\u201317:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710021357851198,
+            "type": "chat",
+            "created": "2025-03-20T16:00:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T08:12:51.512918",
+            "content": "Emma Davis and Maria Lopez confirmed their plans to meet at Cinema by 19:00. Maria will leave Hospital at 17:20 via Metro_2 and Metro_1 transfer to avoid congestion on St_1_link_2, while Emma will leave Office on time to reach Cinema by 19:00.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Office",
+                "Hospital",
+                "Cinema",
+                "Metro_2",
+                "Metro_1",
+                "St_1_link_2",
+                "19:00",
+                "17:20"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710024914709316,
+            "type": "event",
+            "created": "2025-03-20T16:50:00",
+            "last_accessed": "2025-03-20T16:50:00",
+            "expiration": "2025-03-20T16:50:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00\u201317:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710024929046311,
+            "type": "thought",
+            "created": "2025-03-20T16:50:00",
+            "last_accessed": "2025-03-20T16:50:00",
+            "expiration": "2025-03-24T10:05:24.553005",
+            "content": "Metro_2 is consistently reliable during evening commutes",
+            "keywords": [
+                "Metro_2",
+                "reliability",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710024930135563,
+            "type": "thought",
+            "created": "2025-03-20T16:50:00",
+            "last_accessed": "2025-03-20T16:50:00",
+            "expiration": "2025-03-20T17:49:00",
+            "content": "Cinema less crowded after 18:00",
+            "keywords": [
+                "Cinema",
+                "crowd",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710024956565775,
+            "type": "event",
+            "created": "2025-03-20T16:51:00",
+            "last_accessed": "2025-03-20T16:51:00",
+            "expiration": "2025-03-20T17:07:00",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00\u201317:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710025420967770,
+            "type": "event",
+            "created": "2025-03-20T17:08:00",
+            "last_accessed": "2025-03-20T17:08:00",
+            "expiration": "2025-03-21T00:21:35.742705",
+            "content": "Emma Davis current activity description: Commute to Office via metro to begin scheduled work session from 9:00\u201317:00. current status is Staying at facility Office.",
+            "keywords": [
+                "Emma Davis",
+                "Office",
+                "Office"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710025432707273,
+            "type": "event",
+            "created": "2025-03-20T17:08:00",
+            "last_accessed": "2025-03-20T17:08:00",
+            "expiration": "2025-03-21T00:21:35.742705",
+            "content": "Maria Lopez travels from Hospital to Cinema by travel mode transit; start time is Thu 2025-03-20 16:50; trip time is 18 minutes",
+            "keywords": [
+                "Hospital to Cinema",
+                "transit"
+            ],
+            "spatial_scope": "Hospital, Cinema, Ave_3",
+            "time_scope": [
+                "16:50:00",
+                "17:08:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710032400445362,
+            "type": "chat",
+            "created": "2025-03-20T17:48:00",
+            "last_accessed": "2025-03-20T17:48:00",
+            "expiration": "2025-03-20T22:44:01.577996",
+            "content": "Emma Davis and Maria Lopez confirmed their evening plans. Maria will drive from Cinema to Gym via Node_10 \u2192 Node_6 \u2192 Node_13 by 19:30 despite congestion on Ave_4_link_1, which does not affect her route. Emma will meet Maria at Cinema by 19:00.",
+            "keywords": [
+                "Emma Davis",
+                "Maria Lopez",
+                "Cinema",
+                "Gym",
+                "Node_10",
+                "Node_6",
+                "Node_13",
+                "Ave_4_link_1",
+                "19:00",
+                "19:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710032537264546,
+            "type": "event",
+            "created": "2025-03-20T17:50:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T02:51:35.742705",
+            "content": "Emma Davis current activity description: Travel directly from Office to Cinema via metro to meet Maria Lopez at 19:00 for a movie night and discussion about workplace wellness initiatives with Jessica Adams. current status is Emma Davis on the trip from Office to Cinema; trip trajectory: [('Ave_3_link_3', 'walk', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10')]; after waiting for 1 minutes, currently riding on Metro_2_link_4; planned path left: [];.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Metro_2_link_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710032547971533,
+            "type": "thought",
+            "created": "2025-03-20T17:50:00",
+            "last_accessed": "2025-03-20T17:50:00",
+            "expiration": "2025-03-22T04:38:17.115446",
+            "content": "Cinema less crowded after 18:00",
+            "keywords": [
+                "Cinema",
+                "crowd",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710032548969025,
+            "type": "thought",
+            "created": "2025-03-20T17:50:00",
+            "last_accessed": "2025-03-20T17:50:00",
+            "expiration": "2025-03-23T14:31:50.510024",
+            "content": "Gym high occupancy in the evening",
+            "keywords": [
+                "Gym",
+                "occupancy",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710040353259918,
+            "type": "event",
+            "created": "2025-03-20T18:50:00",
+            "last_accessed": "2025-03-20T18:50:00",
+            "expiration": "2025-03-20T19:09:00",
+            "content": "Emma Davis current activity description: Travel directly from Office to Cinema via metro to meet Maria Lopez at 19:00 for a movie night and discussion about workplace wellness initiatives with Jessica Adams. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710040403648243,
+            "type": "thought",
+            "created": "2025-03-20T18:50:00",
+            "last_accessed": "2025-03-20T18:50:00",
+            "expiration": "2025-03-20T19:09:00",
+            "content": "Gym high occupancy during evening hours",
+            "keywords": [
+                "Gym",
+                "high occupancy",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041408033159,
+            "type": "event",
+            "created": "2025-03-20T19:10:00",
+            "last_accessed": "2025-03-20T19:10:00",
+            "expiration": "2025-03-20T19:10:00",
+            "content": "Emma Davis current activity description: Travel directly from Office to Cinema via metro to meet Maria Lopez at 19:00 for a movie night and discussion about workplace wellness initiatives with Jessica Adams. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710041418670364,
+            "type": "thought",
+            "created": "2025-03-20T19:10:00",
+            "last_accessed": "2025-03-20T19:10:00",
+            "expiration": "2025-03-20T19:10:00",
+            "content": "Gym high occupancy during evening hours",
+            "keywords": [
+                "Gym",
+                "high occupancy",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041513445692,
+            "type": "event",
+            "created": "2025-03-20T19:11:00",
+            "last_accessed": "2025-03-20T19:11:00",
+            "expiration": "2025-03-20T19:19:00",
+            "content": "Emma Davis current activity description: Travel directly from Office to Cinema via metro to meet Maria Lopez at 19:00 for a movie night and discussion about workplace wellness initiatives with Jessica Adams. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041521209889,
+            "type": "thought",
+            "created": "2025-03-20T19:11:00",
+            "last_accessed": "2025-03-20T19:11:00",
+            "expiration": "2025-03-20T19:28:00",
+            "content": "Gym high occupancy during evening hours",
+            "keywords": [
+                "Gym",
+                "high occupancy",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041802619618,
+            "type": "event",
+            "created": "2025-03-20T19:20:00",
+            "last_accessed": "2025-03-20T19:20:00",
+            "expiration": "2025-03-20T19:28:00",
+            "content": "Emma Davis current activity description: Travel directly from Office to Cinema via metro to meet Maria Lopez at 19:00 for a movie night and discussion about workplace wellness initiatives with Jessica Adams. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710041931389302,
+            "type": "event",
+            "created": "2025-03-20T19:29:00",
+            "last_accessed": "2025-03-20T19:29:00",
+            "expiration": "2025-03-20T19:37:00",
+            "content": "Emma Davis current activity description: Travel directly from Office to Cinema via metro to meet Maria Lopez at 19:00 for a movie night and discussion about workplace wellness initiatives with Jessica Adams. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041939681126,
+            "type": "thought",
+            "created": "2025-03-20T19:29:00",
+            "last_accessed": "2025-03-20T19:29:00",
+            "expiration": "2025-03-20T19:37:00",
+            "content": "Gym high occupancy during evening hours",
+            "keywords": [
+                "Gym",
+                "evening",
+                "high-occupancy"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710042121648422,
+            "type": "event",
+            "created": "2025-03-20T19:38:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T15:26:34.810763",
+            "content": "Emma Davis current activity description: Travel directly from Office to Cinema via metro to meet Maria Lopez at 19:00 for a movie night and discussion about workplace wellness initiatives with Jessica Adams. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Emma Davis",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710042131307117,
+            "type": "thought",
+            "created": "2025-03-20T19:38:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-20T23:58:00",
+            "content": "Gym high occupancy during evening hours",
+            "keywords": [
+                "Gym",
+                "high occupancy",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710042132260118,
+            "type": "event",
+            "created": "2025-03-20T19:38:00",
+            "last_accessed": "2025-03-20T19:38:00",
+            "expiration": "2025-03-21T02:51:35.742705",
+            "content": "Maria Lopez travels from Cinema to Uptown apartment by travel mode drive; start time is Thu 2025-03-20 19:10; trip time is 28 minutes",
+            "keywords": [
+                "Cinema to Uptown apartment",
+                "drive"
+            ],
+            "spatial_scope": "Cinema, Uptown apartment, Ave_3, St_2, St_2",
+            "time_scope": [
+                "19:10:00",
+                "19:38:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710045356515201,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-24T17:14:24.553005",
+            "content": "Metro_2 reliable during morning commute",
+            "keywords": [
+                "Metro_2",
+                "commuting",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710045357711007,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-24T17:14:24.553005",
+            "content": "St_2_link_1 prone to congestion during morning hours",
+            "keywords": [
+                "St_2_link_1",
+                "congestion",
+                "morning rush"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710045358584496,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Leaving work by 16:50 allows buffer for evening meetings",
+            "keywords": [
+                "work departure",
+                "buffer time",
+                "scheduling"
+            ],
+            "spatial_scope": [
+                "Hospital"
+            ],
+            "time_scope": [
+                "16:30:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045359575319,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Gym high occupancy during evening hours",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045400769616,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Direct return from Cinema to Uptown apartment is efficient",
+            "keywords": [
+                "Cinema",
+                "Uptown apartment",
+                "drive route"
+            ],
+            "spatial_scope": [
+                "St_3_link_2",
+                "Ave_2_link_4",
+                "Ave_2_link_3",
+                "Ave_2_link_2",
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        }
+    ]
+}

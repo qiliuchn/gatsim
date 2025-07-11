@@ -1,0 +1,1474 @@
+{
+    "name": "Rachel Stone",
+    "age": 30,
+    "gender": "female",
+    "highest_level_of_education": "Master",
+    "family_role": "single",
+    "licensed_driver": true,
+    "work_facility": "Office",
+    "work_time": "8:00-17:00",
+    "occupation": "data analyst",
+    "preferences_in_transportation": "mostly drives to work, takes transit for punctuality is traffic is congested",
+    "innate": "analytical, detail-oriented, innovative, tech-savvy",
+    "lifestyle": "enjoys coding bootcamps, attends data science meetups, practices rock climbing",
+    "home_facility": "Uptown apartment",
+    "household_size": 1,
+    "other_family_members": {},
+    "number_of_vehicles_in_family": 1,
+    "household_income": "high",
+    "friends": [
+        "Jonathan Lee",
+        "Marcus Reed"
+    ],
+    "other_description": "Rachel analyzes business data and creates predictive models for the office. She collaborates with Jonathan Lee on technical projects and shares data visualization techniques with Marcus Reed. He likes to stay at home and do coding stuff.",
+    "curr_time": "2025-03-21 00:00:00",
+    "original_plans": [
+        {
+            "reflection": "This is the first day of the simulation, so I don't have any previous experiences or patterns to reflect on. As a data analyst with a tech-savvy and detail-oriented mindset, I aim to establish efficient routines for both work and personal activities. I live alone at the Uptown apartment in the northwestern residential area, and I work at the Office in the central commercial district. My daily commute will be a key focus today in terms of travel time and route optimization. I also plan to incorporate some leisure activities later in the evening, such as visiting the Gym or Cinema, depending on how my schedule unfolds. Since I drive most days, I'll pay attention to traffic flow and consider alternatives like transit if congestion arises.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines"
+                ],
+                [
+                    "Office",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1",
+                    "Drive to the Office for work from 8:00 to 17:00"
+                ],
+                [
+                    "Food court",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_2, Metro_2_link_3",
+                    "Head to Food court during lunch break to grab a quick bite"
+                ],
+                [
+                    "Gym",
+                    "15:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to the Gym for rock climbing practice after work"
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home before bedtime"
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute on St_2_link_1 and Ave_3_link_1 is typically smooth",
+                    "commute, traffic, morning",
+                    "St_2_link_1, Ave_3_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Food court sees moderate crowd during lunch hours",
+                    "crowd, lunch, Food court",
+                    "Food court",
+                    "12:00-13:00"
+                ],
+                [
+                    "Gym is less crowded before 19:00",
+                    "Gym, crowd, rock climbing",
+                    "Gym",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "Yesterday was a challenging but enlightening day in terms of understanding the town's transportation dynamics and adapting my behavior accordingly. My usual morning drive to work was disrupted by severe congestion on Ave_1_link_1, which forced me to switch to Metro_2 for the first time. I learned that public transit can be a reliable alternative during peak hours, especially when unexpected delays occur. During lunch, I successfully adjusted my schedule to maintain productivity after visiting the Food court, showing how flexibility can improve efficiency. The evening presented further challenges: heavy congestion on Ave_4_link_1 delayed my arrival at the Gym, where I also encountered full capacity. However, coordinating with Marcus Reed allowed us to pivot to the Coffee shop, turning a potentially stressful situation into a relaxed social interaction. Overall, yesterday emphasized the importance of adaptive route planning, real-time traffic awareness, and flexible coordination with friends. This week, I will continue optimizing my commute and ensure leisure activities are scheduled during off-peak times to avoid congestion.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines"
+                ],
+                [
+                    "Office",
+                    "07:15",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take Metro_2 to Office for work from 8:00 to 17:00 to avoid morning congestion on Ave_1"
+                ],
+                [
+                    "Food court",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_2, Metro_2_link_3",
+                    "Head to Food court during lunch break to grab a quick bite"
+                ],
+                [
+                    "Coffee shop",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1, Ave_3_link_2",
+                    "Meet Marcus Reed at Coffee shop after work to avoid early evening Gym congestion"
+                ],
+                [
+                    "Supermarket",
+                    "19:00",
+                    20,
+                    "drive",
+                    "shortest",
+                    "Stop by Supermarket to pick up groceries before heading back home"
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "Ave_2_link_3, Ave_2_link_2, Ave_2_link_1",
+                    "Return home before bedtime"
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_2 is a reliable alternative during morning rush hour congestion",
+                    "Metro_2, reliable, morning rush hour",
+                    "Metro_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Ave_1_link_1 prone to severe morning congestion",
+                    "Ave_1_link_1, congestion, morning",
+                    "Ave_1_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "St_4_link_2 and Ave_3_link_3 can serve as viable detour during Ave_4_link_1 congestion",
+                    "detour, St_4_link_2, Ave_3_link_3, Ave_4_link_1",
+                    "St_4_link_2, Ave_3_link_3",
+                    "anytime"
+                ],
+                [
+                    "Coffee shop serves as effective meeting point with minimal wait time",
+                    "Coffee shop, meeting point, minimal wait",
+                    "Coffee shop",
+                    "all-day"
+                ],
+                [
+                    "Gym experiences high congestion in early evening (post 17:00)",
+                    "Gym, congestion, evening",
+                    "Gym",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past few days have highlighted the importance of flexibility in both my travel and activity planning. Unexpected congestion on Ave_1_link_1 and St_1_link_2 forced me to rethink my usual driving route, and I discovered that combining metro lines can be a reliable alternative during peak hours. My gym plans were initially disrupted by high evening occupancy, but shifting sessions after 19:00 proved effective. Social coordination with Marcus has required extra buffer times, especially around the Coffee shop\u2019s midday crowding. This week, I\u2019ll continue leveraging real-time traffic insights and facility usage patterns to optimize my schedule. I also plan to explore new options like the Food court\u2019s new Mexican restaurant during lunch while avoiding typical congestion hotspots.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines"
+                ],
+                [
+                    "Office",
+                    "07:15",
+                    180,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take Metro_2 to Office for work from 8:00 to 17:00 to avoid morning road congestion"
+                ],
+                [
+                    "Food court",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_4",
+                    "Head to Food court during lunch break to try the newly opened Mexican restaurant with special discounts"
+                ],
+                [
+                    "Cinema",
+                    "17:30",
+                    60,
+                    "transit",
+                    "Metro_1_link_5, Metro_2_link_4, Metro_2_link_5",
+                    "Meet Marcus Reed at Cinema at 17:30; I will board Metro_1_link_5 from Node_2 at 17:25 to arrive on time"
+                ],
+                [
+                    "Gym",
+                    "19:00",
+                    60,
+                    "drive",
+                    "St_2_link_2, Ave_1_link_1",
+                    "Go to Gym after movie night since it tends to be less crowded after 19:00 based on yesterday's experience"
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "Ave_1_link_1, St_2_link_1",
+                    "Return home before bedtime"
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute on St_1_link_2 prone to severe congestion",
+                    "commute, congestion, St_1_link_2",
+                    "St_1_link_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "Coffee shop reaches high occupancy around 17:00-18:00",
+                    "Coffee shop, occupancy, crowd",
+                    "Coffee shop",
+                    "17:00-18:00"
+                ],
+                [
+                    "Combining Metro_1 and Metro_2 more reliable during peak hours",
+                    "metro, combination, reliability",
+                    "Metro_1, Metro_2",
+                    "all-day"
+                ],
+                [
+                    "Gym experiences peak occupancy between 17:30-19:00",
+                    "Gym, peak, occupancy",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "Evening traffic in the town is generally clear after 19:00",
+                    "evening traffic, network",
+                    "the town",
+                    "19:00-21:00"
+                ],
+                [
+                    "Food court new Mexican restaurant open 14:00-19:00",
+                    "Food court, restaurant, lunch",
+                    "Food court",
+                    "14:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "This week has emphasized the need for flexibility in both travel and activity planning. Unexpected congestion on key links like St_2_link_2 forced a shift from my usual driving route, but leveraging Metro_1 proved effective for punctuality. My gym plans were initially disrupted by evening occupancy patterns, but shifting sessions after 19:00 worked well based on past experience. Coordination with Marcus required tighter buffers around high-traffic nodes like Supermarket and Cinema, especially during lunch and movie hours. Leveraging real-time traffic insights helped me avoid peak congestion at Food court by pivoting to Supermarket. Looking ahead, I\u2019ll continue using transit during peak hours, maintain buffer times around social commitments, and explore new dining options while avoiding known bottlenecks.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:15",
+                    180,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take Metro_2 to Office for work from 8:00 to 17:00 to avoid morning road congestion."
+                ],
+                [
+                    "Supermarket",
+                    "12:50",
+                    60,
+                    "transit",
+                    "Metro_1_link_2, Metro_1_link_3",
+                    "Head to Supermarket during lunch break to meet Marcus Reed for lunch before the movie at Cinema."
+                ],
+                [
+                    "Cinema",
+                    "14:00",
+                    60,
+                    "transit",
+                    "Metro_1_link_3, Metro_1_link_4, Metro_1_link_5",
+                    "Watch 'Captain America: Brave New World' at Cinema with Marcus Reed starting at 14:00."
+                ],
+                [
+                    "Gym",
+                    "19:00",
+                    60,
+                    "drive",
+                    "St_2_link_2, Ave_1_link_1",
+                    "Go to Gym after movie night since it tends to be less crowded after 19:00 based on consistent attendance patterns."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "Ave_1_link_1, St_2_link_1",
+                    "Return home before bedtime."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_1 is a reliable alternative during morning rush hour when avoiding St_2_link_2 congestion",
+                    "Metro_1, reliable, morning rush hour",
+                    "Metro_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym is consistently less crowded after 19:00",
+                    "Gym, less crowded, 19:00",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Food court experiences severe facility congestion during dinner hours (17:30-19:00)",
+                    "Food court, congestion, dinner hours",
+                    "Food court",
+                    "17:30-19:00"
+                ],
+                [
+                    "Supermarket is a resilient option during midday congestion due to its stable accessibility",
+                    "Supermarket, resilient, midday",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coordination with Marcus Reed requires tighter scheduling buffers around high-traffic nodes",
+                    "Marcus Reed, coordination, buffers",
+                    "Supermarket, Cinema",
+                    "12:00-15:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        },
+        {
+            "reflection": "This week has highlighted the importance of balancing professional obligations with personal well-being and social coordination. My reliance on real-time traffic insights helped me avoid congestion, particularly by leveraging Metro_2 during peak hours. The unexpected congestion around Node_7 (Food court) reinforced the need for flexible meetup plans with Marcus Reed, who I\u2019ve been coordinating lunch and movie outings with. My gym routine benefited from consistent post-19:00 attendance patterns, which allowed me to exercise without disruption. Looking ahead, I\u2019ll continue prioritizing transit during rush hours, maintain buffer times around social events, and consider exploring new dining options while avoiding known bottlenecks like Food court during lunch.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:15",
+                    180,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take Metro_2 to Office for work from 8:00 to 17:00 to avoid morning road congestion."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_1_link_2, Metro_1_link_3",
+                    "Head to Supermarket during lunch break to meet Marcus Reed for lunch before the movie at Cinema."
+                ],
+                [
+                    "Coffee shop",
+                    "14:00",
+                    60,
+                    "transit",
+                    "Metro_1_link_3, Metro_1_link_4",
+                    "Meet Marcus Reed at Coffee shop by 15:15 after leaving Supermarket and before heading to Cinema."
+                ],
+                [
+                    "Gym",
+                    "19:00",
+                    60,
+                    "drive",
+                    "St_2_link_2, Ave_1_link_1",
+                    "Go to Gym after movie plans since it tends to be less crowded after 19:00 based on consistent attendance patterns."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "Ave_1_link_1, St_2_link_1",
+                    "Return home before bedtime."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Gym less crowded after 19:00",
+                    "Gym, less crowded, 19:00",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Metro_2 efficient alternative during road congestion",
+                    "Metro_2, transit efficiency",
+                    "Metro_2",
+                    "all-day"
+                ],
+                [
+                    "Cinema severely congested in early afternoon",
+                    "Cinema, congestion, afternoon",
+                    "Cinema",
+                    "13:00-15:00"
+                ],
+                [
+                    "Coffee shop optimal meetup point before Cinema visits",
+                    "Coffee shop, meetup point",
+                    "Coffee shop",
+                    "all-day"
+                ],
+                [
+                    "St_2_link_1 prone to morning congestion",
+                    "St_2_link_1, congestion, morning",
+                    "St_2_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "The town traffic congested during 17:00-18:00",
+                    "traffic congestion, evening peak",
+                    "the town",
+                    "17:00-18:00"
+                ],
+                [
+                    "Supermarket accessible during midday without congestion",
+                    "Supermarket, accessible, midday",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coordination with Marcus Reed requires tighter scheduling buffers around high-traffic nodes",
+                    "Marcus Reed, coordination, high-traffic",
+                    "Food court, Cinema",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-14 00:00:00"
+        },
+        {
+            "reflection": "This week has reinforced the value of proactive planning and adaptability in managing both professional responsibilities and personal interests. My reliance on transit during peak hours proved effective, particularly with Metro_2 maintaining consistent service reliability. The unexpected congestion at Supermarket during lunch hours required significant adjustments to meetup plans with Marcus Reed, highlighting the importance of real-time communication and flexible coordination strategies. Fortunately, shifting our plans to meet directly at Cinema worked well and provided a smoother experience. I also benefited from revisiting Supermarket after 19:30, where conditions were favorable and allowed for a quick errand completion. Looking ahead, I\u2019ll continue prioritizing off-peak times for essential tasks, maintain buffer windows around social events, and explore cultural opportunities like the Museum's modern art exhibition while being mindful of surrounding traffic dynamics.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "08:00",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Museum",
+                    "09:30",
+                    60,
+                    "drive",
+                    "Ave_1_link_1, St_3_link_1",
+                    "Drive to Museum to attend the modern art exhibition before it opens to the public."
+                ],
+                [
+                    "Coffee shop",
+                    "12:45",
+                    60,
+                    "drive",
+                    "St_3_link_2, Ave_3_link_2",
+                    "Meet Marcus Reed at Coffee shop around 13:00 for lunch after visiting the Museum."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_4_link_2, Ave_3_link_3",
+                    "Go to Gym after lunch with Marcus since it tends to be less crowded after 17:00 based on previous attendance patterns."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "Ave_2_link_3, St_2_link_1",
+                    "Return home before bedtime to rest for the upcoming week."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Supermarket experiences heavy congestion between 12:00-14:00",
+                    "Supermarket, congestion, lunch hour",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Metro_2 remains efficient during peak hours with consistent service",
+                    "Metro_2, reliable, peak hour",
+                    "Metro_2",
+                    "07:00-09:00, 17:00-19:00"
+                ],
+                [
+                    "Supermarket less crowded after 19:30 with minimal wait times",
+                    "Supermarket, less crowded, evening",
+                    "Supermarket",
+                    "19:30-20:30"
+                ],
+                [
+                    "Cinema is an effective alternative meetup location when plans change",
+                    "Cinema, meetup point, flexibility",
+                    "Cinema",
+                    "all-day"
+                ],
+                [
+                    "Town traffic congested during 17:00-18:00",
+                    "network, congestion, afternoon",
+                    "the town",
+                    "17:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-15 00:00:00"
+        },
+        {
+            "reflection": "This week has reinforced the importance of adaptability in managing both professional responsibilities and personal interests. My decision to use transit during peak hours proved effective, particularly with Metro_2 maintaining consistent service reliability. The unexpected congestion at Supermarket during lunch hours required significant adjustments to meetup plans with Marcus Reed, highlighting the need for real-time communication and flexible coordination strategies. Fortunately, shifting our plans to meet directly at Cinema worked well and provided a smoother experience. I also benefited from revisiting Supermarket after 19:30, where conditions were favorable and allowed for a quick errand completion. Looking ahead, I\u2019ll continue prioritizing off-peak times for essential tasks, maintain buffer windows around social events, and explore cultural opportunities like the Museum's modern art exhibition while being mindful of surrounding traffic dynamics.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "08:00",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Amusement park",
+                    "10:00",
+                    60,
+                    "drive",
+                    "St_2_link_1, Ave_2_link_3, St_4_link_1, Ave_3_link_3",
+                    "Drive to Amusement park to see the circus show with Marcus Reed. Meet him at 10:30AM."
+                ],
+                [
+                    "Food court",
+                    "13:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Go to Food court for lunch with Marcus Reed after visiting the Amusement park since it tends to be less crowded around noon based on previous attendance patterns."
+                ],
+                [
+                    "Gym",
+                    "17:00",
+                    60,
+                    "drive",
+                    "Ave_3_link_3, St_4_link_2, Ave_4_link_1",
+                    "Go to Gym after lunch with Marcus since it tends to be less crowded after 17:00 based on previous attendance patterns."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home before bedtime to rest for the upcoming week."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Coffee shop experiences severe midday congestion",
+                    "Coffee shop, congested, midday",
+                    "Coffee shop",
+                    "12:00-14:00"
+                ],
+                [
+                    "Amusement park less crowded on Saturdays afternoon",
+                    "Amusement park, Saturday, crowd",
+                    "Amusement park",
+                    "10:00-18:00"
+                ],
+                [
+                    "Coordination with Marcus Reed requires early afternoon updates for optimal meetup planning",
+                    "Marcus Reed, meetup, planning",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Town traffic congested during 17:00-18:00",
+                    "traffic, congestion, peak hour",
+                    "the town",
+                    "17:00-18:00"
+                ],
+                [
+                    "Ave_1 remains reliable for morning and evening commutes",
+                    "Ave_1, reliable, commute",
+                    "Ave_1",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-16 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a mix of professional commitments and social engagements. Work-wise, I've made progress on several data visualization projects with Jonathan Lee, which required focused attention during office hours. Socially, my meetup with Marcus Reed at the Museum was a success, and we found that adjusting plans based on real-time conditions significantly improved our experience. The traffic patterns observed yesterday showed that Ave_3_link_3 and St_4_link_1 were reliable for mid-morning transitions, while Amusement park was more crowded than expected during daytime events. Looking ahead, I plan to maintain flexibility in my schedule, especially around peak hours, and explore new activities like attending evening meetups or visiting underutilized facilities after 19:00 when they tend to be less congested.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "07:00",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Coffee shop",
+                    "10:00",
+                    60,
+                    "drive",
+                    "St_2_link_1, Ave_2_link_3",
+                    "Drive to Coffee shop to meet Marcus Reed at 10:00 AM before heading to Museum for modern art exhibition."
+                ],
+                [
+                    "Museum",
+                    "10:30",
+                    60,
+                    "drive",
+                    "Ave_2_link_3, St_3_link_1",
+                    "Arrive at Museum by 10:30 AM to view the modern art exhibition with Marcus Reed. This time is chosen to avoid crowds based on previous attendance patterns."
+                ],
+                [
+                    "Office",
+                    "16:00",
+                    180,
+                    "drive",
+                    "shortest",
+                    "Return to Office by 12:30 PM to resume work for the afternoon session. The shortest path will be taken to ensure punctuality."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_4, Metro_2_link_5",
+                    "After work, take transit to Gym via Metro_2 links to participate in evening rock climbing sessions, which tend to be less crowded after 17:00."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Drive back home to Uptown apartment by 19:30 to prepare dinner and unwind before the upcoming week."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3_link_3 and St_4_link_1 are reliable for mid-morning travel",
+                    "Ave_3_link_3, St_4_link_1, reliable, mid-morning",
+                    "Ave_3_link_3, St_4_link_1",
+                    "10:00-12:00"
+                ],
+                [
+                    "Museum is less crowded during daytime events compared to Amusement park",
+                    "Museum, Amusement park, crowded, daytime",
+                    "Museum, Amusement park",
+                    "all-day"
+                ],
+                [
+                    "Gym attendance is lower after 19:00",
+                    "Gym, low attendance, 7PM",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Coffee shop is ideal for pre-event meetups due to proximity to Museum",
+                    "Coffee shop, meetup, Museum",
+                    "Coffee shop, Museum",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-17 00:00:00"
+        },
+        {
+            "reflection": "The past week has been productive, both professionally and socially. At work, I've made steady progress on predictive modeling projects with Jonathan Lee, while also sharing visualization techniques with Marcus Reed during our meetup at the Museum. My flexibility in adjusting plans based on traffic and crowd conditions improved my overall experience, especially when extending the museum visit without congestion delays. However, the evening Gym session was disappointing due to overcrowding\u2014this highlights the importance of checking real-time occupancy before heading out. Looking ahead, I\u2019ll continue leveraging transit options like Metro_2 for mid-day and evening travel, and aim to attend recreational activities after 19:00 when facilities are typically less crowded. I\u2019ll also coordinate more closely with Marcus to avoid overlapping peak hours.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "07:00",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "08:00",
+                    120,
+                    "drive",
+                    "St_2_link_1, Ave_3_link_1, Ave_3_link_2",
+                    "Drive to Office by 8:00 AM using St_2 and Ave_3 links which are typically uncongested in early mornings."
+                ],
+                [
+                    "Coffee shop",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+                    "Take Metro_2 at 12:30 PM to Coffee shop for lunch break and informal meeting with Marcus Reed around 13:00."
+                ],
+                [
+                    "Museum",
+                    "14:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "After coffee, drive to Museum via shortest path available; weekday afternoon is ideal for low crowds as observed yesterday."
+                ],
+                [
+                    "Coffee shop",
+                    "19:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_4, Metro_2_link_5",
+                    "Meet Marcus Reed at Coffee shop at 19:30 as rescheduled; avoids Gym's typical peak usage between 17:00-19:00."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home by 21:30 using shortest path available; wrap up day reviewing data visualizations."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Gym experiences high utilization between 17:00-19:00",
+                    "Gym, peak, crowded",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "Museum attendance remains low after 11AM on weekdays",
+                    "Museum, low crowd",
+                    "Museum",
+                    "11:00-15:00"
+                ],
+                [
+                    "Coffee shop sees increased activity around 19:30 on weekdays",
+                    "Coffee shop, meetup, social",
+                    "Coffee shop",
+                    "19:00-20:00"
+                ],
+                [
+                    "Metro_2 provides reliable service during mid-day and evening transitions",
+                    "Metro_2, reliable, transit",
+                    "Metro_2",
+                    "all-day"
+                ],
+                [
+                    "Avoiding Ave_3_link_3 and St_4_link_1 during mid-morning is unnecessary as they remain uncongested",
+                    "Ave_3_link_3, St_4_link_1, uncongested",
+                    "Ave_3_link_3, St_4_link_1",
+                    "10:00-12:00"
+                ]
+            ],
+            "datetime": "2025-03-18 00:00:00"
+        },
+        {
+            "reflection": "The past day was a success in adapting to unexpected congestion while maintaining productivity and social commitments. My rerouting during the Ave_2_link_2 accident this morning demonstrated effective decision-making under pressure, and my reliance on Metro_2 for evening travel allowed me to meet Marcus Reed at the Museum without delay. The observation that the Museum is less crowded after 18:00 continues to prove valuable, offering an ideal environment for focused discussions. Looking ahead, I should continue using real-time traffic insights to adjust my routes, especially during peak hours, and plan recreational activities later in the evening to avoid congestion. I also need to be mindful of recurring patterns like post-17:00 Gym crowding and evening traffic calming down after 21:00.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:45",
+                    120,
+                    "drive",
+                    "Ave_1, St_3, Ave_3",
+                    "Drive to Office by 8:00 AM via Ave_1-St_3-Ave_3 as rerouted yesterday; avoids potential Ave_2_link_2 congestion due to ongoing accident."
+                ],
+                [
+                    "Coffee shop",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2",
+                    "Take Metro_2 from Office to Coffee shop around 12:30 PM for lunch break; quick bite before returning to work."
+                ],
+                [
+                    "Office",
+                    "13:35",
+                    120,
+                    "transit",
+                    "Metro_2",
+                    "Return to Office via Metro_2 by 13:30 to continue afternoon data modeling session with Jonathan Lee."
+                ],
+                [
+                    "Museum",
+                    "19:00",
+                    60,
+                    "transit",
+                    "Metro_2",
+                    "Meet Marcus Reed at Museum by 19:30 via Metro_2 to discuss new visualization techniques in a relaxed setting after confirming low occupancy."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:15",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Head back home via shortest path available by 21:15; review predictive models and prepare for Thursday's tasks."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commute reroute via Ave_1-St_3-Ave_3 effective during Ave_2 accidents",
+                    "reroute, Ave_1, St_3, Ave_3, Ave_2",
+                    "Ave_1, St_3, Ave_3, Ave_2_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Museum less crowded after 18:00",
+                    "Museum, less crowded",
+                    "Museum",
+                    "18:00-21:00"
+                ],
+                [
+                    "Evening traffic optimal post-21:00",
+                    "evening traffic, optimal",
+                    "the town",
+                    "21:00-22:00"
+                ],
+                [
+                    "Marcus Reed often reroutes via Node_6 during Ave_1 congestion",
+                    "Marcus Reed, Node_6, reroute",
+                    "Node_6",
+                    "all-day"
+                ],
+                [
+                    "Metro_2 reliable for midday and evening transit avoiding congestion",
+                    "Metro_2, transit, reliable",
+                    "Metro_2",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-19 00:00:00"
+        },
+        {
+            "reflection": "The past day required significant adaptability due to the wildfire at Node_8, which disrupted my usual travel patterns. I successfully avoided affected areas by rerouting via St_4_link_2 and using Metro_2 for reliability during peak congestion. The unexpected overcrowding at Coffee shop prompted a smooth transition to Food court with Jonathan Lee, demonstrating flexibility in maintaining productivity. Evening discussions with Marcus Reed confirmed the value of real-time insights and crowd awareness. Looking ahead, I should continue leveraging transit options during incidents, remain flexible with meeting locations, and prioritize punctuality by factoring in incident-related delays. Also, Gym occupancy patterns suggest better timing may exist for future workouts.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routines."
+                ],
+                [
+                    "Office",
+                    "07:45",
+                    120,
+                    "drive",
+                    "Ave_1, St_3, Ave_3",
+                    "Drive to Office by 8:00 AM; take Ave_1-St_3-Ave_3 route as it has proven reliable and avoids potential Ave_2_link_2 congestion from ongoing issues."
+                ],
+                [
+                    "Food court",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2",
+                    "Take Metro_2 from Office to Food court around 12:30 PM for lunch break; meet Jonathan Lee there after yesterday\u2019s successful rescheduling due to Coffee shop crowding."
+                ],
+                [
+                    "Office",
+                    "13:30",
+                    120,
+                    "transit",
+                    "Metro_2",
+                    "Return to Office via Metro_2 by 13:30 to resume afternoon work session with focus on predictive modeling updates."
+                ],
+                [
+                    "Museum",
+                    "19:00",
+                    60,
+                    "transit",
+                    "Metro_2",
+                    "Meet Marcus Reed at Museum by 19:30 via Metro_2 to discuss new visualization techniques in a relaxed setting\u2014confirmed optimal post-18:00 attendance pattern continues."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:15",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Head back home via shortest available path by 21:15; prepare for Friday tasks and review data models."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Avoid Node_8 and St_5_link_1 during wildfires",
+                    "Node_8, St_5_link_1, wildfires",
+                    "Node_8, St_5_link_1",
+                    "all-day"
+                ],
+                [
+                    "Coffee shop often crowded at midday",
+                    "Coffee shop, crowded, midday",
+                    "Coffee shop",
+                    "12:00-13:30"
+                ],
+                [
+                    "Metro_2 reliable during peak hours and incidents",
+                    "Metro_2, reliable, peak hours, incidents",
+                    "Metro_2",
+                    "07:00-09:00,17:00-19:00"
+                ],
+                [
+                    "Food court less crowded in late afternoon",
+                    "Food court, less crowded, late afternoon",
+                    "Food court",
+                    "16:00-18:00"
+                ],
+                [
+                    "Ave_3_link_3 prone to moderate congestion in mornings",
+                    "Ave_3_link_3, congestion, mornings",
+                    "Ave_3_link_3",
+                    "07:00-08:30"
+                ]
+            ],
+            "datetime": "2025-03-20 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "Since arriving at the Office at 8:42 AM, I've been focused on data analysis and predictive modeling tasks. The morning congestion on Ave_3_link_2 impacted both my arrival time and Marcus Reed\u2019s commute to Factory, prompting us to coordinate an adjusted meetup at the Museum from 19:00 to 19:15. Jonathan Lee has also changed his lunch plans\u2014he is currently en route to Museum instead of Food court via Metro_1. This shift indicates that Food court may be less crowded than usual, which could present a better opportunity for lunch today. My original plan included a transit-based trip to Food court at 12:30 PM, but real-time perception shows no significant congestion at Food court, and Jonathan\u2019s movement suggests it's not as busy as feared. Since I am still within the planned work window and have flexibility in my afternoon schedule, I can adjust my lunch activity to capitalize on this information and avoid potential future crowding.",
+            "plan": [
+                [
+                    "Food court",
+                    "12:45",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Food court by 12:45 PM via the shortest available path; take advantage of lower occupancy observed in real-time data and Jonathan Lee\u2019s change of plans."
+                ],
+                [
+                    "Office",
+                    "13:45",
+                    120,
+                    "drive",
+                    "shortest",
+                    "Return to Office by 13:45 PM to resume afternoon work session focusing on predictive modeling updates."
+                ],
+                [
+                    "Museum",
+                    "19:00",
+                    60,
+                    "transit",
+                    "Metro_2",
+                    "Meet Marcus Reed at Museum by 19:00 via Metro_2\u2014confirmed earlier meetup due to morning congestion and his adjusted schedule."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:15",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Head back home via shortest available path by 21:15; prepare for Friday tasks and review data models."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Food court sees reduced crowd post-12:30 when Jonathan Lee skips visit",
+                    "Food court, crowd, 12:30",
+                    "Food court",
+                    "12:30-14:00"
+                ],
+                [
+                    "Marcus Reed adjusts evening meetup time due to morning traffic",
+                    "Marcus Reed, meetup, adjustment",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-20 12:30:00"
+        },
+        {
+            "reflection": "Since returning to the Office at 13:45, I've been focused on predictive modeling tasks. At 16:15, I observe that Coffee shop is severely congested with a 75-minute wait and full occupancy, confirming earlier perceptions of high demand in that area. Meanwhile, Museum has a 75% occupancy rate with no wait time, indicating it's currently an optimal time to visit before potential evening crowds increase. Jonathan Lee remains at the Office working with Ahmed Hassan, and Marcus Reed successfully avoided midday crowds at Supermarket with a 0-minute wait. With work hours ending soon (at 17:00), my revised plan will transition smoothly from work to leisure, leveraging current network conditions\u2014no congestion exists across roads\u2014and maintaining punctuality for planned evening activities.",
+            "plan": [
+                [
+                    "Museum",
+                    "19:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Meet Marcus Reed at Museum by 19:00 via the shortest available path; confirmed earlier meetup due to morning congestion and his adjusted schedule."
+                ],
+                [
+                    "Uptown apartment",
+                    "21:15",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Head back home via shortest available path by 21:15; prepare for Friday tasks and review data models."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Coffee shop reaches full capacity around noon",
+                    "Coffee shop, full, capacity, noon",
+                    "Coffee shop",
+                    "12:00-14:00"
+                ],
+                [
+                    "Office area traffic improves post-13:00",
+                    "Office, traffic, improved, 13:00",
+                    "Office",
+                    "13:00-15:00"
+                ]
+            ],
+            "datetime": "2025-03-20 16:15:00"
+        },
+        {
+            "reflection": "At 18:45, I am still at the Office, working on predictive modeling tasks. Traffic conditions are clear with no congestion across any road links, which means my planned departure and travel to Museum should proceed without delays. Marcus Reed has already arrived at Museum and is waiting for me, as confirmed via our earlier chat. Jonathan Lee has left for home, so there\u2019s no need to coordinate further with him today. Since Museum currently has no wait time and 50% occupancy, it's an optimal time to visit before potential evening crowds increase. My revised plan includes departing Office now to arrive at Museum by 19:00 via the shortest driving path.",
+            "plan": [
+                [
+                    "Museum",
+                    "18:45",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Drive to Museum immediately via the shortest available path to meet Marcus Reed by 19:00; current traffic conditions are optimal for a punctual arrival."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Head back home via the shortest available path by 21:15; prepare for Friday tasks and review data models."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Museum attendance peaks after 19:30",
+                    "Museum, peak, 19:30",
+                    "Museum",
+                    "19:00-20:00"
+                ],
+                [
+                    "Office area traffic improves post-17:00",
+                    "Office, traffic, improved",
+                    "Office",
+                    "17:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-20 18:45:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "My morning commute required significant adjustments due to unexpected congestion on my usual route. Initially, I attempted to drive via Ave_1 and Ave_3 to avoid delays on St_2_link_1, but encountered severe congestion on Ave_1_link_1, which forced me to switch to Metro_2 for the first time. This decision saved time and allowed me to reach the Office with minimal delay. During lunch, I successfully adjusted my schedule to accommodate a later departure from the Food court, which helped maintain productivity in the afternoon. However, my evening plans faced challenges: heavy congestion on Ave_4_link_1 delayed my arrival at the Gym, where I encountered full occupancy and long wait times. Coordinating with Marcus Reed allowed us to pivot to a more relaxed meetup at the Coffee shop, which was a positive social interaction without the stress of waiting at the Gym. Overall, today highlighted the importance of flexibility in route planning, real-time traffic awareness, and adaptive coordination with friends.",
+            "concepts": [
+                [
+                    "Metro_2 is a reliable alternative during morning rush hour congestion",
+                    "Metro_2, transit, morning commute",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Ave_1_link_1 prone to severe morning congestion",
+                    "Ave_1_link_1, congestion, unreliable",
+                    "Ave_1_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym experiences high congestion in early evening (post 17:00)",
+                    "Gym, crowded, peak hours",
+                    "Gym",
+                    "17:00-18:30"
+                ],
+                [
+                    "Coffee shop serves as effective meeting point with minimal wait time",
+                    "Coffee shop, meeting, timing",
+                    "Coffee shop",
+                    "17:30-19:00"
+                ],
+                [
+                    "St_4_link_2 and Ave_3_link_3 can serve as viable detour during Ave_4_link_1 congestion",
+                    "route detour, traffic adaptation",
+                    "St_4_link_2, Ave_3_link_3",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's travel experience highlighted the importance of adaptive route planning and facility timing awareness. My morning commute required multiple adjustments due to unexpected congestion on St_1_link_2, but switching to a hybrid Metro_1 and Metro_2 path ensured punctual arrival at the Office. Throughout the day, coordination with Marcus Reed faced challenges due to his delays, particularly around the Coffee shop\u2019s peak occupancy. The evening presented dynamic changes\u2014initially full Gym capacity forced rescheduling and rerouting considerations, but returning later revealed favorable conditions. Ultimately, I managed to complete my climbing session efficiently after 19:00 when the Gym was less crowded. Key takeaways include the value of real-time traffic monitoring, understanding facility usage patterns, and maintaining flexibility in both personal and social activity planning.",
+            "concepts": [
+                [
+                    "Metro_1 and Metro_2 combination more reliable than single line during peak hours",
+                    "transit, metro efficiency, route optimization",
+                    "Metro_1, Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym experiences peak occupancy between 17:30-19:00",
+                    "Gym, peak hours, crowding",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "St_1_link_2 prone to severe congestion early morning",
+                    "St_1_link_2, morning traffic, bottleneck",
+                    "St_1_link_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "Coffee shop reaches high occupancy by midday",
+                    "Coffee shop, crowding, lunch rush",
+                    "Coffee shop",
+                    "12:00-14:00"
+                ],
+                [
+                    "Facility occupancy fluctuates significantly throughout the day",
+                    "facility dynamics, usage patterns, planning",
+                    "Gym, Coffee shop",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated the importance of adaptive planning in response to congestion patterns and facility occupancy. My morning commute was adjusted to avoid moderate congestion on St_2_link_2 by switching from Metro_2 to Metro_1, which ensured punctual arrival at the Office. During lunch, I successfully pivoted to Supermarket instead of Food court due to traffic concerns, which proved efficient and aligned with coordination updates with Marcus Reed. However, my evening plans faced significant disruption due to severe facility congestion at Food court, where a 70-minute wait time caused a delay in attending Gym. Despite this, leveraging social coordination (Marcus dropping me off) allowed me to reach Gym by 19:20, only slightly later than planned. Travel mode choices were generally effective\u2014transit minimized delays during peak hours, while driving was reliable in the absence of congestion. The day highlighted the need for more realistic buffer times around high-occupancy facilities and reinforced the value of real-time traffic monitoring.",
+            "concepts": [
+                [
+                    "Metro_1 is a reliable alternative to Metro_2 during morning rush hour when avoiding St_2_link_2 congestion",
+                    "Metro_1, Metro_2, transit alternative, morning commute",
+                    "Metro_1, Metro_2, St_2_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Food court experiences severe facility congestion during dinner hours (17:30-19:00)",
+                    "Food court, congestion, dinner timing",
+                    "Food court",
+                    "17:30-19:00"
+                ],
+                [
+                    "Gym is less crowded after 19:00 based on consistent attendance patterns",
+                    "Gym, crowd avoidance, evening workout",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Supermarket is a resilient option during midday congestion due to its stable accessibility",
+                    "Supermarket, shopping, lunch break",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coordination with Marcus Reed requires tighter scheduling buffers around high-traffic nodes",
+                    "Marcus Reed, coordination, meetup reliability",
+                    "Food court, Cinema",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        },
+        {
+            "reflection": "Today's plan demonstrated effective adaptability in response to congestion and facility crowding while maintaining key commitments. Morning departures were adjusted due to delays on St_2_link_1 and St_1_link_2, but switching to Metro_2 ensured punctual arrival at Office. The lunch plans with Marcus Reed proceeded smoothly via Metro_1 despite clear traffic conditions, and the decision to shift meetup location to Coffee shop ahead of the Cinema movie was well-timed given the extreme congestion at Cinema later in the afternoon. Returning to Office briefly after the movie allowed for completion of pending tasks before heading to Gym. Departing Office early avoided peak 17:00-18:00 congestion, and arriving at Gym by 18:00 enabled a full session before meeting Marcus Reed there around 19:00. Extending my stay slightly until 20:30 supported social coordination without compromising schedule integrity. Overall, today balanced professional obligations, personal interests, and social interactions effectively through proactive route and timing adjustments.",
+            "concepts": [
+                [
+                    "St_2_link_1 prone to morning congestion",
+                    "morning commute, congestion, road bottleneck",
+                    "St_2_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Cinema severely congested in early afternoon",
+                    "Cinema, crowd, movie hours",
+                    "Cinema",
+                    "13:00-16:00"
+                ],
+                [
+                    "Metro_2 efficient alternative during road congestion",
+                    "Metro_2, transit, reliability",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym less crowded after 19:00",
+                    "Gym, attendance, timing",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Coffee shop optimal meetup point before Cinema visits",
+                    "Coffee shop, meetup, Cinema",
+                    "Coffee shop, Cinema",
+                    "14:00-16:00"
+                ]
+            ],
+            "datetime": "2025-03-13 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required significant adjustments due to unexpected congestion at Supermarket during lunch hours. Multiple revisions were made between 12:30 and 16:30 as Marcus Reed and I coordinated to find a feasible meetup plan. Initially planning to meet at Supermarket, we shifted to Coffee shop, then ultimately decided to skip both and meet directly at Cinema by 17:30. Despite these changes, transit options remained reliable\u2014particularly Metro_2, which provided smooth travel throughout the day. After the movie, revisiting Supermarket around 19:55 proved successful with favorable conditions and minimal occupancy. The day reinforced the importance of real-time traffic awareness, flexible coordination with friends, and strategic timing of errands. Personal well-being was maintained through effective adaptation, social engagement, and completing all intended activities by 21:00.",
+            "concepts": [
+                [
+                    "Supermarket experiences heavy congestion between 12:00-14:00",
+                    "Supermarket, congestion, lunch hour",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Metro_2 remains efficient during peak hours with consistent service",
+                    "Metro_2, transit efficiency, rush hour",
+                    "Metro_2",
+                    "07:00-09:00, 16:00-18:00"
+                ],
+                [
+                    "Cinema is an effective alternative meetup location when plans change",
+                    "Cinema, meetup flexibility, social coordination",
+                    "Cinema",
+                    "16:00-18:00"
+                ],
+                [
+                    "Supermarket less crowded after 19:30 with minimal wait times",
+                    "Supermarket, shopping, evening timing",
+                    "Supermarket",
+                    "19:00-20:00"
+                ],
+                [
+                    "Coordination with Marcus Reed requires early afternoon updates for optimal meetup planning",
+                    "Marcus Reed, social coordination, midday check-in",
+                    "the town",
+                    "12:00-14:00"
+                ]
+            ],
+            "datetime": "2025-03-14 23:59:00"
+        },
+        {
+            "reflection": "Today's activities required significant adjustments due to facility congestion and shifting meetup plans, but proactive planning and flexibility helped maintain productivity and social connections. Arriving early at the Museum allowed me to avoid peak crowds successfully, validating my strategy of front-loading activities during off-peak hours. Rescheduling from Coffee shop to Food court due to congestion was a smooth transition, facilitated by real-time communication with Marcus Reed. The spontaneous meetup at Amusement park with both Marcus and Jonathan Lee added unexpected value to the day, though the subsequent rescheduling back to Coffee shop highlighted the importance of dynamic decision-making. I successfully balanced personal interests, social coordination, and time constraints despite changing conditions. Stress points included managing multiple reschedules and ensuring punctual transitions between locations, but overall traffic remained favorable throughout the day.",
+            "concepts": [
+                [
+                    "Museum attendance peaks before noon",
+                    "Museum, art exhibition, crowds",
+                    "Museum",
+                    "09:00-12:00"
+                ],
+                [
+                    "Coffee shop experiences severe midday congestion",
+                    "Coffee shop, wait time, lunch hour",
+                    "Coffee shop",
+                    "12:00-14:00"
+                ],
+                [
+                    "Amusement park congestion shifts in late afternoon",
+                    "Amusement park, peak hours, wait time",
+                    "Amusement park",
+                    "16:00-18:30"
+                ],
+                [
+                    "Ave_1 remains reliable for morning and evening commutes",
+                    "Ave_1, drive, reliability",
+                    "Ave_1",
+                    "07:00-09:00, 18:00-20:00"
+                ],
+                [
+                    "Rescheduling flexibility improves meetup success",
+                    "meetup, coordination, adaptability",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-15 23:59:00"
+        },
+        {
+            "reflection": "Today's plan started smoothly with optimal traffic conditions allowing timely arrival at Amusement park for the circus show with Marcus Reed. The decision to revise our plans and move to Museum at 12:00 was effective, as Ave_3_link_3 and St_4_link_1 experienced minimal congestion, enabling a seamless transition. Museum provided a quieter, less crowded environment to enjoy the same performance, which improved overall experience. However, returning home by 14:00 meant missing out on potential afternoon activities such as visiting Supermarket or attending a meetup. Time estimates were accurate, especially for travel between Amusement park and Museum. I should consider keeping buffer time after early-afternoon events for spontaneous yet valuable errands or social engagements. Overall, today reinforced the importance of flexibility, real-time decision-making, and leveraging low-congestion periods for efficient mobility.",
+            "concepts": [
+                [
+                    "Museum less crowded than Amusement park during daytime events",
+                    "Museum, Amusement park, attendance, crowd avoidance",
+                    "Museum, Amusement park",
+                    "11:00-13:00"
+                ],
+                [
+                    "Ave_3_link_3 and St_4_link_1 reliable during mid-morning transitions",
+                    "Ave_3_link_3, St_4_link_1, traffic reliability, route efficiency",
+                    "Ave_3_link_3, St_4_link_1",
+                    "11:00-12:30"
+                ],
+                [
+                    "Early return home limits afternoon opportunities",
+                    "schedule buffer, activity planning, timing",
+                    "Uptown apartment",
+                    "13:00-15:00"
+                ]
+            ],
+            "datetime": "2025-03-16 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule was marked by significant flexibility and adaptation, especially in the afternoon when I extended my museum visit multiple times due to favorable traffic conditions and a relaxed atmosphere. The Museum proved to be an ideal post-11AM weekday destination with fewer crowds, allowing for focused observation. My return to the Office was delayed from 12:30 PM to 16:00 PM without any travel disruption thanks to the uncongested network. However, my planned evening rock climbing session at the Gym was impacted by severe congestion\u2014arriving at 18:22, I found a 75-minute wait time with full occupancy, aligning with the observed peak usage between 17:00-19:00. Coordinating with Marcus Reed, we rescheduled the session for tomorrow and instead met at the Coffee shop at 19:30. Real-time facility data showed high but manageable occupancy (87.5%) there. Transit remained efficient throughout the day, particularly Metro_2 links used for returning home after our meetup.",
+            "concepts": [
+                [
+                    "Museum less crowded after 11AM on weekdays",
+                    "Museum, crowd, timing",
+                    "Museum",
+                    "11:00-14:00"
+                ],
+                [
+                    "Gym peak utilization between 17:00-19:00",
+                    "Gym, utilization, peak hours",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "Metro_2 reliable during mid-day and evening transitions",
+                    "Metro_2, transit reliability",
+                    "Metro_2",
+                    "16:00-21:00"
+                ],
+                [
+                    "Coffee shop peaks around 19:30 on weekdays",
+                    "Coffee shop, crowd, timing",
+                    "Coffee shop",
+                    "19:00-20:00"
+                ],
+                [
+                    "Monitor real-time facility occupancy before heading out",
+                    "facility occupancy, planning, real-time",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-17 23:59:00"
+        },
+        {
+            "reflection": "The day started with unexpected congestion on Ave_2_link_2 due to a car accident, prompting me to reroute my morning commute via Ave_1, St_3, and Ave_3. This decision helped me avoid delays and arrive at the Office on time. My midday coffee meetup with Marcus Reed at Coffee shop went smoothly using the original Metro_2 plan. The afternoon Museum visit was rescheduled for the evening after confirming low occupancy, which turned out to be a great choice as the space remained lightly occupied throughout. We had productive discussions on data visualization in a relaxed environment. I successfully avoided the Gym during its peak hours, validating yesterday\u2019s observation about congestion patterns. Evening traffic was optimal, allowing a smooth return home via the shortest path. Overall, today's planning adjustments improved both productivity and comfort.",
+            "concepts": [
+                [
+                    "Morning congestion on Ave_2_link_2 due to accidents",
+                    "Ave_2_link_2, congestion, incidents",
+                    "Ave_2_link_2",
+                    "07:30-09:00"
+                ],
+                [
+                    "Rerouting via Ave_1-St_3-Ave_3 effective during morning rush",
+                    "route alternative, Ave_1, St_3, Ave_3",
+                    "Ave_1, St_3, Ave_3",
+                    "07:30-09:00"
+                ],
+                [
+                    "Museum less crowded after 18:00",
+                    "Museum, occupancy, timing",
+                    "Museum",
+                    "18:00-21:00"
+                ],
+                [
+                    "Marcus Reed often reroutes via Node_6 during Ave_1 congestion",
+                    "Marcus Reed, coordination, reroute",
+                    "Node_6, Ave_1_link_1",
+                    "18:00-20:00"
+                ],
+                [
+                    "Evening travel optimal post-21:00 with minimal congestion",
+                    "evening commute, traffic-free",
+                    "the town",
+                    "21:00-22:00"
+                ]
+            ],
+            "datetime": "2025-03-18 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated effective adaptability in response to both environmental and facility-based disruptions. The wildfire at the Amusement park required proactive route adjustments, particularly avoiding Node_8 and St_5_link_1, which were handled smoothly through early coordination with Marcus Reed and reliance on Metro_2. My morning reroute via St_4_link_2 was efficient despite Ave_3_link_3 congestion, validating my trust in real-time traffic data for decision-making. The unexpected overcrowding at Coffee shop led to a successful rescheduling of our meetup to Food court, where conditions were optimal\u2014this flexibility improved the quality of our discussion. I also maintained work-life balance by completing tasks on time and avoiding Gym due to high occupancy, recognizing patterns from past experiences. Overall, today reinforced the importance of dynamic planning, transit reliability, and using crowd insights to optimize activity locations.",
+            "concepts": [
+                [
+                    "Metro_2 reliable during peak hours and incidents",
+                    "Metro_2, transit, reliability",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Ave_3_link_3 prone to moderate congestion in mornings",
+                    "Ave_3_link_3, congestion, delay",
+                    "Ave_3_link_3",
+                    "07:00-09:00"
+                ],
+                [
+                    "Coffee shop often crowded at midday",
+                    "Coffee shop, crowded, lunch",
+                    "Coffee shop",
+                    "12:00-14:00"
+                ],
+                [
+                    "Food court less crowded in late afternoon",
+                    "Food court, timing, availability",
+                    "Food court",
+                    "17:00-19:00"
+                ],
+                [
+                    "Avoid Node_8 and St_5_link_1 during wildfires",
+                    "wildfire, safety, detour",
+                    "Node_8, St_5_link_1",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-19 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated both adaptability and successful coordination despite initial traffic challenges. Morning congestion on Ave_3_link_2 caused a minor delay to the Office, but proactive route adjustment and communication with Marcus Reed allowed us to reschedule our Museum meetup without disruption. My decision to revise lunch plans based on real-time occupancy data proved effective, as Food court was less crowded than anticipated. Evening travel to Museum proceeded smoothly under clear traffic conditions, enabling timely arrival for the discussion with Marcus. The revised departure time from Museum ensured an efficient return home. Overall, today reinforced the importance of real-time data usage, flexible scheduling, and effective communication in maintaining productivity and personal commitments.",
+            "concepts": [
+                [
+                    "Ave_3_link_2 prone to morning congestion",
+                    "Ave_3_link_2, congestion, unreliable",
+                    "Ave_3_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Food court less crowded when Coffee shop is busy",
+                    "Food court, timing, crowd avoidance",
+                    "Food court, Coffee shop",
+                    "12:00-14:00"
+                ],
+                [
+                    "Museum optimal visit window after 18:00",
+                    "Museum, visit timing, occupancy pattern",
+                    "Museum",
+                    "18:00-20:00"
+                ],
+                [
+                    "Coordination chats before noon improve evening plans",
+                    "coordination, planning, punctuality",
+                    "The town",
+                    "11:00-12:00"
+                ]
+            ],
+            "datetime": "2025-03-20 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\nTime: 08:22\nReflections:\nAt 08:22, I am en route to the Office and currently at Node_10. There is moderate congestion on Ave_3_link_2, which is part of my planned path to the Office. This will likely delay my arrival by approximately 8 minutes. However, since I have already departed at 07:45 and the workday starts at 08:00, I am slightly behind schedule but not significantly late. My friend Marcus Reed is also affected by this congestion as he travels toward Factory via Ave_3_link_2. We have coordinated to adjust our evening meetup time at the Museum to 19:15 due to this ongoing traffic issue. Since I'm already in transit and nearing the Office, no major changes are necessary now, but I should consider alternative paths for future trips.\nPlan revisions:\nRachel Stone update current path to ['St_3_link_2', 'Ave_3_link_2 (with expected wait)', 'Ave_3_link_3']\n\nTime: 12:30\nReflections: \nSince arriving at the Office at 8:42 AM, I've been focused on data analysis and predictive modeling tasks. The morning congestion on Ave_3_link_2 impacted both my arrival time and Marcus Reed\u2019s commute to Factory, prompting us to coordinate an adjusted meetup at the Museum from 19:00 to 19:15. Jonathan Lee has also changed his lunch plans\u2014he is currently en route to Museum instead of Food court via Metro_1. This shift indicates that Food court may be less crowded than usual, which could present a better opportunity for lunch today. My original plan included a transit-based trip to Food court at 12:30 PM, but real-time perception shows no significant congestion at Food court, and Jonathan\u2019s movement suggests it's not as busy as feared. Since I am still within the planned work window and have flexibility in my afternoon schedule, I can adjust my lunch activity to capitalize on this information and avoid potential future crowding.\nPlan revisions:\nRachel Stone update future activity plan:\n[['Food court', '12:45', 60, 'drive', 'shortest', 'Head to Food court by 12:45 PM via the shortest available path; take advantage of lower occupancy observed in real-time data and Jonathan Lee\u2019s change of plans.'], ['Office', '13:45', 120, 'drive', 'shortest', 'Return to Office by 13:45 PM to resume afternoon work session focusing on predictive modeling updates.'], ['Museum', '19:00', 60, 'transit', 'Metro_2', 'Meet Marcus Reed at Museum by 19:00 via Metro_2\u2014confirmed earlier meetup due to morning congestion and his adjusted schedule.'], ['Uptown apartment', '21:15', 'none', 'drive', 'shortest', 'Head back home via shortest available path by 21:15; prepare for Friday tasks and review data models.']]\n\nTime: 16:15\nReflections: \nSince returning to the Office at 13:45, I've been focused on predictive modeling tasks. At 16:15, I observe that Coffee shop is severely congested with a 75-minute wait and full occupancy, confirming earlier perceptions of high demand in that area. Meanwhile, Museum has a 75% occupancy rate with no wait time, indicating it's currently an optimal time to visit before potential evening crowds increase. Jonathan Lee remains at the Office working with Ahmed Hassan, and Marcus Reed successfully avoided midday crowds at Supermarket with a 0-minute wait. With work hours ending soon (at 17:00), my revised plan will transition smoothly from work to leisure, leveraging current network conditions\u2014no congestion exists across roads\u2014and maintaining punctuality for planned evening activities.\nPlan revisions:\nRachel Stone update future activity plan:\n[['Museum', '19:00', 60, 'drive', 'shortest', 'Meet Marcus Reed at Museum by 19:00 via the shortest available path; confirmed earlier meetup due to morning congestion and his adjusted schedule.'], ['Uptown apartment', '21:15', 'none', 'drive', 'shortest', 'Head back home via shortest available path by 21:15; prepare for Friday tasks and review data models.']]\n\nTime: 18:45\nReflections: \nAt 18:45, I am still at the Office, working on predictive modeling tasks. Traffic conditions are clear with no congestion across any road links, which means my planned departure and travel to Museum should proceed without delays. Marcus Reed has already arrived at Museum and is waiting for me, as confirmed via our earlier chat. Jonathan Lee has left for home, so there\u2019s no need to coordinate further with him today. Since Museum currently has no wait time and 50% occupancy, it's an optimal time to visit before potential evening crowds increase. My revised plan includes departing Office now to arrive at Museum by 19:00 via the shortest driving path.\nPlan revisions:\nRachel Stone update future activity plan:\n[['Museum', '18:45', 60, 'drive', 'shortest', 'Drive to Museum immediately via the shortest available path to meet Marcus Reed by 19:00; current traffic conditions are optimal for a punctual arrival.'], ['Uptown apartment', '21:15', 'none', 'drive', 'shortest', 'Head back home via the shortest available path by 21:15; prepare for Friday tasks and review data models.']]\n\nTime: 19:45\nReflections: \nAt 19:45, I am currently at the Museum with Marcus Reed, where we've been discussing new data visualization techniques. The earlier congestion on Ave_3_link_2 slightly delayed my arrival at work but did not significantly impact evening plans due to timely coordination with Marcus. Traffic conditions are now clear across all roads, and there is no delay expected for my return home. Additionally, while the Cinema is quite crowded (87.5% occupancy), the Museum remains at a comfortable 75% capacity, making it an ideal setting for our discussion. Since I have already completed my planned activity at the Museum and the time is approaching 20:00, it is appropriate to proceed with heading back home as originally scheduled.\nPlan revisions:\nRachel Stone update the departure time of next activity at Uptown apartment to 20:00\n\nTime: 20:00\nReflections: \nAt 20:00, I am currently at the Museum with Marcus Reed, where we've been discussing new data visualization techniques. The earlier congestion on Ave_3_link_2 slightly delayed my arrival at work but did not significantly impact evening plans due to timely coordination with Marcus. Traffic conditions are now clear across all roads, and there is no delay expected for my return home. Additionally, while the Cinema is quite crowded (87.5% occupancy), the Museum remains at a comfortable 75% capacity, making it an ideal setting for our discussion. Since I have already completed my planned activity at the Museum and the time is approaching 20:00, it is appropriate to proceed with heading back home as originally scheduled.\nPlan revisions:\nRachel Stone update the departure time of next activity at Uptown apartment to 20:00\n",
+    "activity_index": 1,
+    "activity_facility": "Uptown apartment",
+    "activity_departure_time": "2025-03-20 20:00:00",
+    "activity_duration": 1440,
+    "travel_mode": "drive",
+    "reflect_every": null,
+    "activity_description": "Head back home via the shortest available path by 21:15; prepare for Friday tasks and review data models.",
+    "planned_path": [],
+    "curr_place": "Uptown apartment",
+    "curr_status": "Staying at facility Uptown apartment",
+    "trip_start_facility": null,
+    "trip_trajectory": null
+}

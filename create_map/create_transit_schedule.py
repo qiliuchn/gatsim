@@ -84,4 +84,4 @@ def create_transit_schedule(file_path, start_date, end_date, headway):
     
     
 if __name__ == "__main__":
-    create_transit_schedule("gatsim/map/transit_schedule.csv", "2025-03-10 00:00:00", "2025-03-17 23:59:59", 10)
+    create_transit_schedule("gatsim/map/transit_schedule.csv", "2025-03-10 00:00:00", "2025-03-20 23:59:59", 10)

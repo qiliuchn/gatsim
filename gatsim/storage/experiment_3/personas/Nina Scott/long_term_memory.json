@@ -1,0 +1,2883 @@
+{
+    "curr_time": "2025-03-21 00:00:00",
+    "concept_nodes": [
+        {
+            "id": 705022641475920,
+            "type": "thought",
+            "created": "2025-03-13T22:00:00",
+            "last_accessed": "2025-03-20T07:44:00",
+            "expiration": "2025-03-24T00:59:24.553005",
+            "content": "Evening commute from Office to western nodes requires early departure due to frequent St_5_link_1 delays",
+            "keywords": [
+                "Office",
+                "Uptown apartment",
+                "St_5_link_1",
+                "delays"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 705025559050512,
+            "type": "thought",
+            "created": "2025-03-14T00:00:00",
+            "last_accessed": "2025-03-18T07:30:00",
+            "expiration": "2025-03-22T23:29:09.440007",
+            "content": "Driving via St_5_link_1 risky after 20:00 due to congestion",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "driving"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "20:00:00",
+                "22:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705032933643245,
+            "type": "thought",
+            "created": "2025-03-14T07:20:00",
+            "last_accessed": "2025-03-18T07:30:00",
+            "expiration": "2025-03-22T23:29:09.440007",
+            "content": "Ave_1_link_1 consistently experiences severe congestion during morning rush hour",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705034046986104,
+            "type": "thought",
+            "created": "2025-03-14T07:31:00",
+            "last_accessed": "2025-03-18T18:46:00",
+            "expiration": "2025-03-21T15:27:50.510024",
+            "content": "Supermarket and Food court area is heavily congested in evening rush hour",
+            "keywords": [
+                "Supermarket",
+                "Food court",
+                "congested",
+                "evening rush hour"
+            ],
+            "spatial_scope": [
+                "Supermarket",
+                "Food court"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705053246207830,
+            "type": "thought",
+            "created": "2025-03-14T10:30:00",
+            "last_accessed": "2025-03-18T18:55:00",
+            "expiration": "2025-03-21T15:36:50.510024",
+            "content": "Supermarket and Food court area heavily congested in evening rush hour",
+            "keywords": [
+                "Supermarket",
+                "Food court",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Supermarket",
+                "Food court"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705075706836469,
+            "type": "thought",
+            "created": "2025-03-14T17:10:00",
+            "last_accessed": "2025-03-19T08:10:00",
+            "expiration": "2025-03-22T04:51:50.510024",
+            "content": "Supermarket experiences heavy congestion during 12:00-19:00",
+            "keywords": [
+                "Supermarket",
+                "congestion",
+                "12PM-7PM"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706180130091029,
+            "type": "thought",
+            "created": "2025-03-16T14:40:00",
+            "last_accessed": "2025-03-18T18:55:00",
+            "expiration": "2025-03-21T15:36:50.510024",
+            "content": "Food court experiences severe congestion on weekends by mid-afternoon",
+            "keywords": [
+                "Food court",
+                "congestion",
+                "weekend"
+            ],
+            "spatial_scope": [
+                "Food court"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707004931986063,
+            "type": "thought",
+            "created": "2025-03-16T23:59:00",
+            "last_accessed": "2025-03-18T07:30:00",
+            "expiration": "2025-03-21T04:11:50.510024",
+            "content": "St_5_link_2 prone to afternoon weekend delays",
+            "keywords": [
+                "St_5_link_2",
+                "delays",
+                "weekend traffic"
+            ],
+            "spatial_scope": [
+                "St_5_link_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707010742766846,
+            "type": "thought",
+            "created": "2025-03-17T00:00:00",
+            "last_accessed": "2025-03-18T07:15:00",
+            "expiration": "2025-03-21T03:56:50.510024",
+            "content": "Gym remains crowded past 16:30, best avoided unless necessary",
+            "keywords": [
+                "Gym",
+                "crowded"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "16:30:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707061608189868,
+            "type": "thought",
+            "created": "2025-03-17T20:14:00",
+            "last_accessed": "2025-03-18T13:15:00",
+            "expiration": "2025-03-21T09:56:50.510024",
+            "content": "Museum visit quality improves after 17:00",
+            "keywords": [
+                "Museum",
+                "visit",
+                "quality"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707064434730047,
+            "type": "thought",
+            "created": "2025-03-17T23:59:00",
+            "last_accessed": "2025-03-18T07:30:00",
+            "expiration": "2025-03-22T00:45:24.553005",
+            "content": "Ave_2_link_1 experiences morning congestion affecting central-east routes",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707064435709640,
+            "type": "thought",
+            "created": "2025-03-17T23:59:00",
+            "last_accessed": "2025-03-19T12:00:00",
+            "expiration": "2025-03-22T08:41:50.510024",
+            "content": "Amusement park is ideal for extended social visits when traffic is light",
+            "keywords": [
+                "Amusement park",
+                "social",
+                "traffic"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707064437696188,
+            "type": "thought",
+            "created": "2025-03-17T23:59:00",
+            "last_accessed": "2025-03-17T23:59:00",
+            "expiration": "2025-03-22T15:58:09.440007",
+            "content": "Driving offers greater scheduling flexibility during dynamic plans",
+            "keywords": [
+                "Driving",
+                "flexibility",
+                "adaptability"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707064438559235,
+            "type": "thought",
+            "created": "2025-03-17T23:59:00",
+            "last_accessed": "2025-03-17T23:59:00",
+            "expiration": "2025-03-21T17:14:24.553005",
+            "content": "Social coordination benefits from real-time updates and shared location awareness",
+            "keywords": [
+                "Coordination",
+                "communication",
+                "flexibility"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707070048670656,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T07:49:00",
+            "expiration": "2025-03-22T01:04:24.553005",
+            "content": "Morning departure before 07:30 avoids congestion on Ave_2_link_1",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707070049541372,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-19T15:20:00",
+            "expiration": "2025-03-22T12:01:50.510024",
+            "content": "Driving to Amusement park is more efficient when arriving before 14:00 on weekdays",
+            "keywords": [
+                "Amusement park",
+                "weekday",
+                "driving efficiency"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "13:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070054265608,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T00:00:00",
+            "expiration": "2025-03-21T17:15:24.553005",
+            "content": "Metro_2 offers faster travel during evening commute than driving",
+            "keywords": [
+                "Metro_2",
+                "transit efficiency",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707072943749855,
+            "type": "thought",
+            "created": "2025-03-18T07:30:00",
+            "last_accessed": "2025-03-19T15:20:00",
+            "expiration": "2025-03-23T08:35:24.553005",
+            "content": "Midday departure before 12:30 avoids afternoon congestion on Ave_2",
+            "keywords": [
+                "departure time",
+                "Ave_2"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707074032925811,
+            "type": "thought",
+            "created": "2025-03-18T07:40:00",
+            "last_accessed": "2025-03-20T07:26:00",
+            "expiration": "2025-03-24T00:41:24.553005",
+            "content": "St_1_link_2 frequently congested during early morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "06:30:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707074737563110,
+            "type": "thought",
+            "created": "2025-03-18T07:49:00",
+            "last_accessed": "2025-03-18T08:19:00",
+            "expiration": "2025-03-23T00:18:09.440007",
+            "content": "Ave_2_link_2 prone to morning congestion and accidents",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "accident"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707074738797130,
+            "type": "thought",
+            "created": "2025-03-18T07:49:00",
+            "last_accessed": "2025-03-18T07:58:00",
+            "expiration": "2025-03-22T01:13:24.553005",
+            "content": "Morning departure before 07:30 avoids congestion on Ave_2_link_1",
+            "keywords": [
+                "Ave_2_link_1",
+                "departure time",
+                "early morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "07:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707075516381094,
+            "type": "thought",
+            "created": "2025-03-18T07:58:00",
+            "last_accessed": "2025-03-18T08:19:00",
+            "expiration": "2025-03-23T00:18:09.440007",
+            "content": "Ave_2_link_2 experiences frequent morning congestion and accidents",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "accident"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707075517330265,
+            "type": "thought",
+            "created": "2025-03-18T07:58:00",
+            "last_accessed": "2025-03-18T12:46:00",
+            "expiration": "2025-03-21T09:27:50.510024",
+            "content": "Moderate congestion on Ave_2_link_3 during morning commute affects travel time",
+            "keywords": [
+                "Ave_2_link_3",
+                "congestion",
+                "travel time"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_3"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707080409110892,
+            "type": "thought",
+            "created": "2025-03-18T08:07:00",
+            "last_accessed": "2025-03-18T08:07:00",
+            "expiration": "2025-03-23T00:06:09.440007",
+            "content": "St_5_link_1 experiences severe congestion during mid-morning",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "mid-morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "10:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707081240239499,
+            "type": "thought",
+            "created": "2025-03-18T08:16:00",
+            "last_accessed": "2025-03-18T08:19:00",
+            "expiration": "2025-03-23T00:18:09.440007",
+            "content": "Ave_2_link_2 prone to morning congestion and accidents",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "accident"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707090925262088,
+            "type": "thought",
+            "created": "2025-03-18T12:00:00",
+            "last_accessed": "2025-03-18T12:00:00",
+            "expiration": "2025-03-23T03:59:09.440007",
+            "content": "Ave_2_link_2 prone to morning accidents",
+            "keywords": [
+                "Ave_2_link_2",
+                "accident",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707090926123036,
+            "type": "thought",
+            "created": "2025-03-18T12:00:00",
+            "last_accessed": "2025-03-18T18:45:00",
+            "expiration": "2025-03-21T15:26:50.510024",
+            "content": "Museum less crowded after 17:30",
+            "keywords": [
+                "Museum",
+                "crowded",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:30:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707091040173664,
+            "type": "thought",
+            "created": "2025-03-18T12:10:00",
+            "last_accessed": "2025-03-18T12:10:00",
+            "expiration": "2025-03-21T08:51:50.510024",
+            "content": "Traffic on Ave_2_link_2 can significantly impact afternoon plans",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "impact"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707091041038256,
+            "type": "thought",
+            "created": "2025-03-18T12:10:00",
+            "last_accessed": "2025-03-18T12:10:00",
+            "expiration": "2025-03-22T05:25:24.553005",
+            "content": "Morning departures benefit from alternative routes avoiding Ave_2_link_2",
+            "keywords": [
+                "morning departure",
+                "route planning"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707091042014357,
+            "type": "thought",
+            "created": "2025-03-18T12:10:00",
+            "last_accessed": "2025-03-18T12:10:00",
+            "expiration": "2025-03-22T05:25:24.553005",
+            "content": "Metro_2 provides reliable transit option during peak hours",
+            "keywords": [
+                "Metro_2",
+                "reliable transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707091423243795,
+            "type": "thought",
+            "created": "2025-03-18T12:28:00",
+            "last_accessed": "2025-03-19T15:20:00",
+            "expiration": "2025-03-22T12:01:50.510024",
+            "content": "Amusement park accessible without congestion during weekday afternoons",
+            "keywords": [
+                "Amusement park",
+                "accessible",
+                "weekday afternoon"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "13:00:00",
+                "15:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707095429150556,
+            "type": "thought",
+            "created": "2025-03-18T14:20:00",
+            "last_accessed": "2025-03-18T14:20:00",
+            "expiration": "2025-03-21T11:01:50.510024",
+            "content": "Amusement park meetings benefit from weekday light occupancy",
+            "keywords": [
+                "Amusement park",
+                "meeting",
+                "weekday"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "13:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707101642103815,
+            "type": "event",
+            "created": "2025-03-18T15:20:00",
+            "last_accessed": "2025-03-20T08:02:00",
+            "expiration": "2025-03-21T02:45:44.432290",
+            "content": "Isabella Rodriguez current activity description: Head to Amusement park to meet Nina Scott at the Ferris wheel by 13:15; enjoy some leisure time and outdoor scenery. current status is Staying at facility Amusement park.",
+            "keywords": [
+                "Isabella Rodriguez",
+                "Amusement park",
+                "Amusement park"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707103810499298,
+            "type": "thought",
+            "created": "2025-03-18T16:40:00",
+            "last_accessed": "2025-03-19T12:00:00",
+            "expiration": "2025-03-22T08:41:50.510024",
+            "content": "Amusement park afternoon visit less crowded",
+            "keywords": [
+                "Amusement park",
+                "afternoon",
+                "leisure"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707103812362806,
+            "type": "thought",
+            "created": "2025-03-18T16:40:00",
+            "last_accessed": "2025-03-18T16:40:00",
+            "expiration": "2025-03-21T13:21:50.510024",
+            "content": "Metro_2 reliable during mid-afternoon",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707104257360065,
+            "type": "thought",
+            "created": "2025-03-18T16:58:00",
+            "last_accessed": "2025-03-18T16:58:00",
+            "expiration": "2025-03-21T13:39:50.510024",
+            "content": "Metro_2 is reliable for mid-afternoon trips between Amusement park and Museum",
+            "keywords": [
+                "Metro_2",
+                "reliability",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707104258258840,
+            "type": "thought",
+            "created": "2025-03-18T16:58:00",
+            "last_accessed": "2025-03-19T15:20:00",
+            "expiration": "2025-03-22T12:01:50.510024",
+            "content": "Amusement park afternoons tend to be less crowded during weekdays",
+            "keywords": [
+                "Amusement park",
+                "crowds",
+                "weekday"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707104803296524,
+            "type": "thought",
+            "created": "2025-03-18T17:16:00",
+            "last_accessed": "2025-03-18T17:16:00",
+            "expiration": "2025-03-22T10:31:24.553005",
+            "content": "Metro_2 reliable during late afternoon",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "16:30-18:00"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "16:30:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707105635655842,
+            "type": "thought",
+            "created": "2025-03-18T17:40:00",
+            "last_accessed": "2025-03-18T18:55:00",
+            "expiration": "2025-03-21T15:36:50.510024",
+            "content": "Museum less crowded after 17:00",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "17:00"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707114315795486,
+            "type": "event",
+            "created": "2025-03-18T19:30:00",
+            "last_accessed": "2025-03-20T17:15:00",
+            "expiration": "2025-03-21T06:55:44.432290",
+            "content": "Isabella Rodriguez current activity description: Visit Cinema to catch a matinee show after Amusement park and meet Helen Jones as confirmed. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Isabella Rodriguez",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707114515985781,
+            "type": "thought",
+            "created": "2025-03-18T19:31:00",
+            "last_accessed": "2025-03-19T08:06:00",
+            "expiration": "2025-03-22T04:47:50.510024",
+            "content": "Museum reaches full occupancy frequently on weekdays evenings",
+            "keywords": [
+                "Museum",
+                "full occupancy",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707115348453089,
+            "type": "thought",
+            "created": "2025-03-18T19:48:00",
+            "last_accessed": "2025-03-18T19:48:00",
+            "expiration": "2025-03-21T16:29:50.510024",
+            "content": "Metro_2 remains efficient during evening hours",
+            "keywords": [
+                "Metro_2",
+                "transit efficiency",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707120724395808,
+            "type": "thought",
+            "created": "2025-03-18T20:49:00",
+            "last_accessed": "2025-03-18T20:49:00",
+            "expiration": "2025-03-21T17:30:50.510024",
+            "content": "Ave_3 consistently clear during evening hours",
+            "keywords": [
+                "Ave_3",
+                "traffic",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_3"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707121057670627,
+            "type": "thought",
+            "created": "2025-03-18T21:07:00",
+            "last_accessed": "2025-03-19T07:48:00",
+            "expiration": "2025-03-22T04:29:50.510024",
+            "content": "Ave_1_link_1 experiences moderate congestion during evening commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707121058624693,
+            "type": "thought",
+            "created": "2025-03-18T21:07:00",
+            "last_accessed": "2025-03-18T21:07:00",
+            "expiration": "2025-03-21T17:48:50.510024",
+            "content": "Coffee shop is a good meeting point for creative discussions in the late afternoon",
+            "keywords": [
+                "Coffee shop",
+                "meeting",
+                "creative discussion"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707122833719509,
+            "type": "thought",
+            "created": "2025-03-18T23:59:00",
+            "last_accessed": "2025-03-18T23:59:00",
+            "expiration": "2025-03-22T17:14:24.553005",
+            "content": "Ave_2_link_2 prone to incidents affecting morning commutes",
+            "keywords": [
+                "Ave_2_link_2",
+                "incidents",
+                "unreliable"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707122834906727,
+            "type": "thought",
+            "created": "2025-03-18T23:59:00",
+            "last_accessed": "2025-03-18T23:59:00",
+            "expiration": "2025-03-23T15:58:09.440007",
+            "content": "St_5_link_1 experiences severe congestion mid-morning",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "delay"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "11:00:00",
+                "13:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708004300672126,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-22T17:15:24.553005",
+            "content": "Morning commute on Ave_2_link_2 often congested around 7:30-8:30",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708004301629303,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-22T17:15:24.553005",
+            "content": "St_5_link_1 frequently experiences delays mid-morning",
+            "keywords": [
+                "St_5_link_1",
+                "delays",
+                "mid-morning"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "10:00:00",
+                "12:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708004302448114,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-21T20:41:50.510024",
+            "content": "Amusement park best visited before 16:00 for relaxed experience",
+            "keywords": [
+                "Amusement park",
+                "relaxed visit"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708004304208519,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T12:30:00",
+            "expiration": "2025-03-22T09:11:50.510024",
+            "content": "Coffee shop meetup requires precise timing coordination",
+            "keywords": [
+                "Coffee shop",
+                "timing coordination"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708010431041426,
+            "type": "thought",
+            "created": "2025-03-19T07:20:00",
+            "last_accessed": "2025-03-20T07:53:00",
+            "expiration": "2025-03-23T04:34:50.510024",
+            "content": "Museum occupancy low before 18:00",
+            "keywords": [
+                "Museum",
+                "quiet",
+                "artistic inspiration"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "00:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708010810002002,
+            "type": "thought",
+            "created": "2025-03-19T07:30:00",
+            "last_accessed": "2025-03-20T07:26:00",
+            "expiration": "2025-03-24T00:41:24.553005",
+            "content": "St_1_link_2 frequently congested during early morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708011733334175,
+            "type": "thought",
+            "created": "2025-03-19T07:39:00",
+            "last_accessed": "2025-03-19T07:39:00",
+            "expiration": "2025-03-23T23:38:09.440007",
+            "content": "Ave_2_link_1 consistently experiences heavy congestion during morning commute",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708012552017327,
+            "type": "chat",
+            "created": "2025-03-19T07:48:00",
+            "last_accessed": "2025-03-20T07:53:00",
+            "expiration": "2025-03-21T01:56:10.492267",
+            "content": "Nina Scott and Linda Parker adjusted their morning commute due to severe congestion on Ave_1_link_1. Nina will leave earlier to reach Office on time, while Linda will take St_2_link_1 and Ave_3_link_1 as planned but may depart a few minutes earlier. Both confirmed meeting at Amusement park at 17:00.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Office",
+                "Amusement park",
+                "Ave_1_link_1",
+                "St_2_link_1",
+                "Ave_3_link_1",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708013451804010,
+            "type": "thought",
+            "created": "2025-03-19T07:57:00",
+            "last_accessed": "2025-03-19T07:57:00",
+            "expiration": "2025-03-23T01:12:24.553005",
+            "content": "Ave_2_link_2 frequently experiences moderate congestion during morning commute",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708014056863768,
+            "type": "event",
+            "created": "2025-03-19T08:06:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T16:58:34.810763",
+            "content": "Rachel Thompson current activity description: Drive directly to Museum for an 11:00 AM meeting with Amanda Turner to discuss film festival programming. Depart early to allow buffer for possible congestion on St_3_link_1. current status is Staying at facility Museum.",
+            "keywords": [
+                "Rachel Thompson",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708014230271912,
+            "type": "thought",
+            "created": "2025-03-19T08:06:00",
+            "last_accessed": "2025-03-19T08:06:00",
+            "expiration": "2025-03-24T00:05:09.440007",
+            "content": "St_5_link_1 frequently experiences severe congestion during morning and afternoon commutes",
+            "keywords": [
+                "St_5_link_1",
+                "congestion",
+                "morning",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708014231305485,
+            "type": "thought",
+            "created": "2025-03-19T08:06:00",
+            "last_accessed": "2025-03-19T08:06:00",
+            "expiration": "2025-03-22T04:47:50.510024",
+            "content": "Ave_3_link_3 often moderately congested during late morning and early afternoon",
+            "keywords": [
+                "Ave_3_link_3",
+                "congestion",
+                "moderate"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_3"
+            ],
+            "time_scope": [
+                "10:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708023827898385,
+            "type": "chat",
+            "created": "2025-03-19T12:00:00",
+            "last_accessed": "2025-03-20T12:30:00",
+            "expiration": "2025-03-21T14:02:40.952815",
+            "content": "Nina Scott and Linda Parker decided to move their meetup from the Amusement park to the Coffee shop due to a wildfire alert. They will meet at the Coffee shop starting at 17:00.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Amusement park",
+                "Coffee shop",
+                "wildfire",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708023901929577,
+            "type": "chat",
+            "created": "2025-03-19T12:00:00",
+            "last_accessed": "2025-03-20T07:44:00",
+            "expiration": "2025-03-21T09:16:40.952815",
+            "content": "Nina Scott and Linda Parker decided to move their meetup from the Amusement park to the Coffee shop due to a wildfire alert. Both plan to arrive at the Coffee shop by 17:00 after work.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Amusement park",
+                "Coffee shop",
+                "wildfire alert",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708023919243160,
+            "type": "thought",
+            "created": "2025-03-19T12:00:00",
+            "last_accessed": "2025-03-19T12:30:00",
+            "expiration": "2025-03-23T05:45:24.553005",
+            "content": "Coffee shop as alternative meetup location due to emergencies",
+            "keywords": [
+                "Coffee shop",
+                "meetup",
+                "emergency"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708024738625950,
+            "type": "chat",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-20T16:43:00",
+            "expiration": "2025-03-21T18:15:40.952815",
+            "content": "Nina Scott and Linda Parker rescheduled their meetup from the Amusement park to the Coffee shop at 17:00 due to a wildfire alert. Linda will take Metro_2 directly from the Office to Node_11, and Nina will head there after work.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Coffee shop",
+                "Amusement park",
+                "Metro_2",
+                "Office",
+                "wildfire alert",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708024751064601,
+            "type": "thought",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-19T15:20:00",
+            "expiration": "2025-03-26T10:47:19.472905",
+            "content": "Amusement park wildfire alert affecting accessibility",
+            "keywords": [
+                "wildfire",
+                "alert",
+                "accessibility"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708024751923073,
+            "type": "thought",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-19T12:30:00",
+            "expiration": "2025-03-22T09:11:50.510024",
+            "content": "Coffee shop as alternative meetup location during emergencies",
+            "keywords": [
+                "meetup",
+                "alternative",
+                "emergency"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708024953335305,
+            "type": "thought",
+            "created": "2025-03-19T12:31:00",
+            "last_accessed": "2025-03-19T12:40:00",
+            "expiration": "2025-03-25T05:25:15.544179",
+            "content": "Wildfire alerts can unexpectedly disrupt recreational plans",
+            "keywords": [
+                "wildfire",
+                "alert",
+                "disruption"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708024954283606,
+            "type": "thought",
+            "created": "2025-03-19T12:31:00",
+            "last_accessed": "2025-03-19T12:31:00",
+            "expiration": "2025-03-22T09:12:50.510024",
+            "content": "Coffee shop serves as a reliable alternative meeting location",
+            "keywords": [
+                "Coffee shop",
+                "meetup",
+                "alternative"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708025418256263,
+            "type": "thought",
+            "created": "2025-03-19T12:40:00",
+            "last_accessed": "2025-03-19T12:40:00",
+            "expiration": "2025-03-24T04:39:09.440007",
+            "content": "St_4_link_2 consistently experiences severe congestion during weekday afternoons",
+            "keywords": [
+                "St_4_link_2",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_4_link_2"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708025419283806,
+            "type": "thought",
+            "created": "2025-03-19T12:40:00",
+            "last_accessed": "2025-03-19T13:19:00",
+            "expiration": "2025-03-26T08:46:19.472905",
+            "content": "Amusement park area requires alternative plans due to unexpected wildfire alerts",
+            "keywords": [
+                "Amusement park",
+                "wildfire",
+                "alerts"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708025927229390,
+            "type": "chat",
+            "created": "2025-03-19T12:49:00",
+            "last_accessed": "2025-03-20T16:15:00",
+            "expiration": "2025-03-21T17:47:40.952815",
+            "content": "Nina Scott and Linda Parker confirmed meetup at Coffee shop by 17:00 due to wildfire alert at Amusement park. Nina will drive via St_4 and Ave_3, while Linda will take Metro_2 directly from Office to Node_11.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Coffee shop",
+                "Amusement park",
+                "wildfire alert",
+                "Metro_2",
+                "Office",
+                "Node_11",
+                "St_4",
+                "Ave_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708031512088209,
+            "type": "thought",
+            "created": "2025-03-19T13:19:00",
+            "last_accessed": "2025-03-19T19:18:00",
+            "expiration": "2025-03-22T15:59:50.510024",
+            "content": "Coffee shop as reliable alternative meetup location",
+            "keywords": [
+                "Coffee shop",
+                "meetup",
+                "Linda Parker"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708032446605283,
+            "type": "thought",
+            "created": "2025-03-19T13:37:00",
+            "last_accessed": "2025-03-19T15:20:00",
+            "expiration": "2025-03-26T10:47:19.472905",
+            "content": "Amusement park wildfire alerts affecting accessibility",
+            "keywords": [
+                "Amusement park",
+                "wildfire",
+                "alert"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708032447805692,
+            "type": "thought",
+            "created": "2025-03-19T13:37:00",
+            "last_accessed": "2025-03-19T13:37:00",
+            "expiration": "2025-03-22T10:18:50.510024",
+            "content": "Coffee shop provides good environment for remote work and creative ideation",
+            "keywords": [
+                "Coffee shop",
+                "remote work",
+                "inspiration"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708032448715917,
+            "type": "thought",
+            "created": "2025-03-19T13:37:00",
+            "last_accessed": "2025-03-19T13:37:00",
+            "expiration": "2025-03-22T10:18:50.510024",
+            "content": "Metro_2 reliable for evening return trips from Coffee shop",
+            "keywords": [
+                "Metro_2",
+                "reliable transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708033052774511,
+            "type": "chat",
+            "created": "2025-03-19T14:00:00",
+            "last_accessed": "2025-03-20T16:16:00",
+            "expiration": "2025-03-21T17:48:40.952815",
+            "content": "Linda Parker and Nina Scott rescheduled their meetup from Amusement park to Coffee shop due to a wildfire alert. Linda will take Metro_2 from Office to Node_11 after work, while Nina will drive via Ave_2 and St_4, departing Office by 16:20. They plan to meet at 17:00 at Coffee shop.",
+            "keywords": [
+                "Linda Parker",
+                "Nina Scott",
+                "Office",
+                "Coffee shop",
+                "Metro_2",
+                "Ave_2",
+                "St_4",
+                "16:20",
+                "17:00",
+                "wildfire"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708035854789996,
+            "type": "event",
+            "created": "2025-03-19T15:20:00",
+            "last_accessed": "2025-03-19T15:20:00",
+            "expiration": "2025-03-22T18:19:52.143328",
+            "content": "Amusement park has wild fire this afternoon (2025-03-19).",
+            "keywords": [
+                "Amusement park",
+                "wild fire",
+                "afternoon"
+            ],
+            "spatial_scope": "Amusement park",
+            "time_scope": [
+                "12:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708050425598477,
+            "type": "thought",
+            "created": "2025-03-19T18:20:00",
+            "last_accessed": "2025-03-19T18:20:00",
+            "expiration": "2025-03-21T05:08:17.115446",
+            "content": "Coffee shop reaches high occupancy after 16:00",
+            "keywords": [
+                "Coffee shop",
+                "high occupancy",
+                "16:00"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708050426539286,
+            "type": "thought",
+            "created": "2025-03-19T18:20:00",
+            "last_accessed": "2025-03-19T18:20:00",
+            "expiration": "2025-03-22T15:01:50.510024",
+            "content": "Metro_2 reliable for evening travel between Office and Coffee shop",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708053318268395,
+            "type": "thought",
+            "created": "2025-03-19T19:27:00",
+            "last_accessed": "2025-03-19T19:27:00",
+            "expiration": "2025-03-21T21:55:23.106828",
+            "content": "Coffee shop as reliable alternative meetup location",
+            "keywords": [
+                "Coffee shop",
+                "meetup",
+                "Linda Parker"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708053319179286,
+            "type": "thought",
+            "created": "2025-03-19T19:27:00",
+            "last_accessed": "2025-03-19T19:27:00",
+            "expiration": "2025-03-22T16:08:50.510024",
+            "content": "St_1_link_1 congested during evenings",
+            "keywords": [
+                "St_1_link_1",
+                "congested",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_1_link_1"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708054201741450,
+            "type": "thought",
+            "created": "2025-03-19T19:45:00",
+            "last_accessed": "2025-03-20T08:02:00",
+            "expiration": "2025-03-25T00:01:09.440007",
+            "content": "Ave_1_link_1 consistently experiences severe congestion during evening commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708062507432486,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-26T19:26:19.472905",
+            "content": "Wildfire alerts impact major recreational nodes like Amusement park",
+            "keywords": [
+                "wildfire alert",
+                "public safety",
+                "node closure"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 709122510928669,
+            "type": "chat",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T22:42:40.952815",
+            "content": "Linda Parker and Nina Scott changed their evening meeting location from Amusement park to Coffee shop due to wildfire concerns. They confirmed meeting at Coffee shop at 17:00.",
+            "keywords": [
+                "Linda Parker",
+                "Nina Scott",
+                "Amusement park",
+                "Coffee shop",
+                "17:00",
+                "wildfire"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 709122631446167,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-23T17:15:24.553005",
+            "content": "St_4_link_2 frequently experiences severe congestion in the late afternoon",
+            "keywords": [
+                "St_4_link_2",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_4_link_2"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709122632271344,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-22T20:41:50.510024",
+            "content": "Ave_2 and Ave_3 serve as effective alternatives during St_5 congestion",
+            "keywords": [
+                "Ave_2",
+                "Ave_3",
+                "alternative routes",
+                "St_5"
+            ],
+            "spatial_scope": [
+                "Ave_2",
+                "Ave_3",
+                "St_5"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122633082131,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T08:02:00",
+            "expiration": "2025-03-23T04:43:50.510024",
+            "content": "Museum is ideal for quiet reflection before 18:00 when less occupied",
+            "keywords": [
+                "Museum",
+                "quiet",
+                "reflection"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122634073866,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-22T20:41:50.510024",
+            "content": "Coffee shop is an ideal remote work location with reliable accessibility",
+            "keywords": [
+                "Coffee shop",
+                "remote work",
+                "accessibility"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122634914492,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-22T20:41:50.510024",
+            "content": "Coordination with friends via messaging prevents schedule conflicts during disruptions",
+            "keywords": [
+                "coordination",
+                "messaging",
+                "disruption"
+            ],
+            "spatial_scope": [
+                "Coffee shop",
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709124129137382,
+            "type": "thought",
+            "created": "2025-03-20T07:15:00",
+            "last_accessed": "2025-03-20T07:15:00",
+            "expiration": "2025-03-24T00:30:24.553005",
+            "content": "St_5_link_1 frequently experiences delays during evening commute",
+            "keywords": [
+                "St_5_link_1",
+                "delays",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_5_link_1"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709124129980945,
+            "type": "thought",
+            "created": "2025-03-20T07:15:00",
+            "last_accessed": "2025-03-20T12:30:00",
+            "expiration": "2025-03-23T09:11:50.510024",
+            "content": "Coffee shop serves as reliable meeting point for creative discussions with Linda Parker",
+            "keywords": [
+                "Coffee shop",
+                "Linda Parker",
+                "creative discussions"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709124208546429,
+            "type": "thought",
+            "created": "2025-03-20T07:16:00",
+            "last_accessed": "2025-03-20T07:16:00",
+            "expiration": "2025-03-23T03:57:50.510024",
+            "content": "Ave_2 may experience congestion during morning commute",
+            "keywords": [
+                "Ave_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709124209677903,
+            "type": "thought",
+            "created": "2025-03-20T07:16:00",
+            "last_accessed": "2025-03-20T16:15:00",
+            "expiration": "2025-03-23T12:56:50.510024",
+            "content": "Coffee shop reliable meeting point for creative discussions",
+            "keywords": [
+                "Coffee shop",
+                "meeting",
+                "Linda Parker"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709124825453714,
+            "type": "thought",
+            "created": "2025-03-20T07:26:00",
+            "last_accessed": "2025-03-20T07:26:00",
+            "expiration": "2025-03-24T00:41:24.553005",
+            "content": "St_2_link_1 frequently congested during early morning commute",
+            "keywords": [
+                "St_2_link_1",
+                "congested",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709125814494370,
+            "type": "thought",
+            "created": "2025-03-20T07:35:00",
+            "last_accessed": "2025-03-20T07:35:00",
+            "expiration": "2025-03-23T04:16:50.510024",
+            "content": "St_5 often delayed during evening commutes",
+            "keywords": [
+                "St_5",
+                "delay",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_5"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709130613936220,
+            "type": "thought",
+            "created": "2025-03-20T07:44:00",
+            "last_accessed": "2025-03-20T07:44:00",
+            "expiration": "2025-03-24T00:59:24.553005",
+            "content": "Ave_2 consistently experiences morning congestion during commute hours",
+            "keywords": [
+                "Ave_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709131715548846,
+            "type": "event",
+            "created": "2025-03-20T07:53:00",
+            "last_accessed": "2025-03-20T19:30:00",
+            "expiration": "2025-03-21T02:43:35.742705",
+            "content": "Rachel Thompson current activity description: Drive directly to Museum for an 11:00 AM meeting with Amanda Turner to discuss film festival programming. Depart early to allow buffer for possible congestion on St_3_link_1. current status is Rachel Thompson on the trip from Uptown apartment to Museum; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12')]; currently waiting at link Ave_1_link_1; planned path left: [('Ave_1_link_1', 'drive', 'Node_12')].",
+            "keywords": [
+                "Rachel Thompson",
+                "Museum",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709132421883568,
+            "type": "event",
+            "created": "2025-03-20T08:02:00",
+            "last_accessed": "2025-03-20T19:30:00",
+            "expiration": "2025-03-21T02:43:35.742705",
+            "content": "Rachel Thompson current activity description: Drive directly to Museum for an 11:00 AM meeting with Amanda Turner to discuss film festival programming. Depart early to allow buffer for possible congestion on St_3_link_1. current status is Rachel Thompson on the trip from Uptown apartment to Museum; trip trajectory: [('Ave_1_link_1', 'drive', 'Node_12')];  currently traversing link Ave_1_link_1; planned path left: [];.",
+            "keywords": [
+                "Rachel Thompson",
+                "Museum",
+                "Ave_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709132435522452,
+            "type": "thought",
+            "created": "2025-03-20T08:02:00",
+            "last_accessed": "2025-03-20T08:02:00",
+            "expiration": "2025-03-25T00:01:09.440007",
+            "content": "Ave_1_link_1 consistently experiences severe congestion during morning commute",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 709132436394961,
+            "type": "thought",
+            "created": "2025-03-20T08:02:00",
+            "last_accessed": "2025-03-20T08:02:00",
+            "expiration": "2025-03-23T04:43:50.510024",
+            "content": "St_5 experiences frequent delays during evening commutes",
+            "keywords": [
+                "St_5",
+                "delay",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_5"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709132437303339,
+            "type": "thought",
+            "created": "2025-03-20T08:02:00",
+            "last_accessed": "2025-03-20T16:15:00",
+            "expiration": "2025-03-23T12:56:50.510024",
+            "content": "Coffee shop serves as reliable meeting point for creative discussions with Linda Parker",
+            "keywords": [
+                "Coffee shop",
+                "Linda Parker",
+                "creative discussion"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709141135000003,
+            "type": "thought",
+            "created": "2025-03-20T10:53:00",
+            "last_accessed": "2025-03-20T10:53:00",
+            "expiration": "2025-03-22T13:21:23.106828",
+            "content": "Ave_1_link_1 occasionally experiences morning congestion",
+            "keywords": [
+                "Ave_1_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 709141136150546,
+            "type": "thought",
+            "created": "2025-03-20T10:53:00",
+            "last_accessed": "2025-03-20T10:53:00",
+            "expiration": "2025-03-24T04:08:24.553005",
+            "content": "St_5 frequently congested during evening commutes",
+            "keywords": [
+                "St_5",
+                "congestion",
+                "evening"
+            ],
+            "spatial_scope": [
+                "St_5"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710011742252286,
+            "type": "event",
+            "created": "2025-03-20T12:30:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T04:23:35.742705",
+            "content": "Isabella Rodriguez current activity description: Arrive at Coffee shop by 09:15 to open and prepare for the day\u2019s operations. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Isabella Rodriguez",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710012431724929,
+            "type": "thought",
+            "created": "2025-03-20T12:40:00",
+            "last_accessed": "2025-03-20T12:40:00",
+            "expiration": "2025-03-24T05:55:24.553005",
+            "content": "St_4_link_2 consistently experiences severe congestion during midday",
+            "keywords": [
+                "St_4_link_2",
+                "congestion",
+                "midday"
+            ],
+            "spatial_scope": [
+                "St_4_link_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710012432608839,
+            "type": "thought",
+            "created": "2025-03-20T12:40:00",
+            "last_accessed": "2025-03-20T12:40:00",
+            "expiration": "2025-03-23T09:21:50.510024",
+            "content": "St_5_link_2 frequently faces moderate delays in the afternoon",
+            "keywords": [
+                "St_5_link_2",
+                "delays",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_5_link_2"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710013643939508,
+            "type": "event",
+            "created": "2025-03-20T13:16:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T04:23:35.742705",
+            "content": "Isabella Rodriguez current activity description: Return to Coffee shop by 13:30 to oversee midday operations and assist with the lunch rush. current status is Isabella Rodriguez on the trip from Supermarket to Coffee shop; trip trajectory: [('St_3_link_2', 'drive', 'Node_10'), ('Ave_3_link_2', 'drive', 'Node_11')];  currently traversing link Ave_3_link_2; planned path left: [];.",
+            "keywords": [
+                "Isabella Rodriguez",
+                "Coffee shop",
+                "Ave_3_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710023833974972,
+            "type": "chat",
+            "created": "2025-03-20T16:15:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T09:44:51.512918",
+            "content": "Nina Scott and Linda Parker rescheduled their meetup from Coffee shop to Museum due to a 75-minute wait at the original location. Linda will take Metro_2 from Office to Museum, and they agreed to meet at 18:30 at Museum.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Coffee shop",
+                "Museum",
+                "Metro_2",
+                "18:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710023857674794,
+            "type": "chat",
+            "created": "2025-03-20T16:15:00",
+            "last_accessed": "2025-03-20T19:30:00",
+            "expiration": "2025-03-21T08:04:51.512918",
+            "content": "Nina Scott and Linda Parker changed their meetup location from Coffee shop to Museum due to congestion. Both will arrive by 17:00 - Nina directly from Ave_2_link_3 and Linda via Metro_2 from Office to Node_12.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Coffee shop",
+                "Museum",
+                "Ave_2_link_3",
+                "Metro_2",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710023918717426,
+            "type": "chat",
+            "created": "2025-03-20T16:15:00",
+            "last_accessed": "2025-03-20T18:15:00",
+            "expiration": "2025-03-21T06:49:51.512918",
+            "content": "Nina Scott and Linda Parker rescheduled their meetup from Coffee shop to Museum at 18:30. Linda will take Metro_2 directly from Office to Museum, while Nina will travel via Ave_2_link_3 after leaving Office.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Museum",
+                "Coffee shop",
+                "Office",
+                "Ave_2_link_3",
+                "Metro_2",
+                "18:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710024002721172,
+            "type": "chat",
+            "created": "2025-03-20T16:16:00",
+            "last_accessed": "2025-03-20T16:43:00",
+            "expiration": "2025-03-21T05:17:51.512918",
+            "content": "Nina Scott and Linda Parker rescheduled their meetup to Museum due to congestion at Coffee shop. Nina is traveling via Ave_2_link_3 and Ave_2_link_2, while Linda is taking Metro_2 from Office. Both plan to arrive by 17:00.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Museum",
+                "Coffee shop",
+                "Ave_2_link_3",
+                "Ave_2_link_2",
+                "Metro_2",
+                "Office",
+                "traffic",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710024021990125,
+            "type": "chat",
+            "created": "2025-03-20T16:16:00",
+            "last_accessed": "2025-03-20T16:43:00",
+            "expiration": "2025-03-21T05:17:51.512918",
+            "content": "Nina Scott and Linda Parker changed their meeting location from Coffee shop to Museum due to severe congestion at Coffee shop. Nina is driving via Ave_2_link_3 and Ave_2_link_2, while Linda is taking Metro_2 from Office. Both plan to arrive at Museum by 17:00.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Coffee shop",
+                "Museum",
+                "Office",
+                "Ave_2_link_3",
+                "Ave_2_link_2",
+                "Metro_2",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710024040259875,
+            "type": "chat",
+            "created": "2025-03-20T16:16:00",
+            "last_accessed": "2025-03-20T18:15:00",
+            "expiration": "2025-03-21T03:02:16.901153",
+            "content": "Nina Scott and Linda Parker changed their meetup location from Coffee shop to Museum due to congestion. Nina will drive via Ave_2_link_3 and Ave_2_link_2, arriving by 17:00. Linda will take Metro_2 from Office to Node_12, also arriving by 17:00.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Coffee shop",
+                "Museum",
+                "Ave_2_link_3",
+                "Ave_2_link_2",
+                "Metro_2",
+                "Office",
+                "Node_12",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710024050285815,
+            "type": "thought",
+            "created": "2025-03-20T16:16:00",
+            "last_accessed": "2025-03-20T16:16:00",
+            "expiration": "2025-03-22T18:44:23.106828",
+            "content": "Coffee shop experiences severe congestion during afternoon hours",
+            "keywords": [
+                "Coffee shop",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 710024303697783,
+            "type": "chat",
+            "created": "2025-03-20T16:25:00",
+            "last_accessed": "2025-03-20T17:15:00",
+            "expiration": "2025-03-21T05:49:51.512918",
+            "content": "Nina Scott and Linda Parker rescheduled their meetup from Coffee shop to Museum due to congestion. Nina is driving via Ave_2_link_3 and Ave_2_link_2, expected to arrive by 17:00. Linda is taking Metro_2 from Office to Museum and will also arrive by 17:00.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Coffee shop",
+                "Museum",
+                "Office",
+                "Ave_2_link_3",
+                "Ave_2_link_2",
+                "Metro_2",
+                "17:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710024315467651,
+            "type": "thought",
+            "created": "2025-03-20T16:25:00",
+            "last_accessed": "2025-03-20T19:30:00",
+            "expiration": "2025-03-23T16:11:50.510024",
+            "content": "Coffee shop experiences severe afternoon congestion",
+            "keywords": [
+                "Coffee shop",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710024557053728,
+            "type": "chat",
+            "created": "2025-03-20T16:34:00",
+            "last_accessed": "2025-03-20T17:15:00",
+            "expiration": "2025-03-21T05:49:51.512918",
+            "content": "Nina Scott and Linda Parker confirmed their meetup at Museum by 17:00. Nina is driving via Ave_2_link_3 and Ave_2_link_2, while Linda is traveling via Metro_2. The meeting was moved from Coffee shop due to congestion.",
+            "keywords": [
+                "Nina Scott",
+                "Linda Parker",
+                "Museum",
+                "Coffee shop",
+                "Ave_2_link_3",
+                "Ave_2_link_2",
+                "Metro_2",
+                "17:00",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710024614189201,
+            "type": "thought",
+            "created": "2025-03-20T16:34:00",
+            "last_accessed": "2025-03-20T16:34:00",
+            "expiration": "2025-03-22T03:22:17.115446",
+            "content": "Congestion at Coffee shop typically peaks around mid-afternoon",
+            "keywords": [
+                "Coffee shop",
+                "congestion",
+                "mid-afternoon"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710024615313271,
+            "type": "thought",
+            "created": "2025-03-20T16:34:00",
+            "last_accessed": "2025-03-20T18:15:00",
+            "expiration": "2025-03-23T14:56:50.510024",
+            "content": "Museum offers a viable alternative meeting space during afternoon hours",
+            "keywords": [
+                "Museum",
+                "alternative meeting space"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710025541292072,
+            "type": "event",
+            "created": "2025-03-20T17:15:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T04:23:35.742705",
+            "content": "Rachel Thompson current activity description: Return to Cinema by 1:00 PM to manage afternoon operations and review upcoming event logistics. current status is Staying at facility Cinema.",
+            "keywords": [
+                "Rachel Thompson",
+                "Cinema",
+                "Cinema"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710025542158631,
+            "type": "event",
+            "created": "2025-03-20T17:15:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T16:58:34.810763",
+            "content": "Linda Parker current activity description: Take Metro_2 directly from Office to Node_12 to meet Nina Scott at Museum. This change was made earlier today due to expected high congestion at Coffee shop. current status is Linda Parker on the trip from Office to Museum; trip trajectory: [('Metro_1_link_5', 'ride', 'Node_8')];  currently traversing link Metro_1_link_5; planned path left: [('Metro_1_link_4', 'ride', 'Node_7'), ('Metro_1_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Linda Parker",
+                "Museum",
+                "Metro_1_link_5"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710025554589580,
+            "type": "thought",
+            "created": "2025-03-20T17:15:00",
+            "last_accessed": "2025-03-20T17:15:00",
+            "expiration": "2025-03-23T13:56:50.510024",
+            "content": "Museum provides good alternative for afternoon creative meetings",
+            "keywords": [
+                "Museum",
+                "meetings",
+                "creative"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710033900518587,
+            "type": "event",
+            "created": "2025-03-20T18:15:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T04:23:35.742705",
+            "content": "Rachel Thompson current activity description: Drive to Museum to join Marcus Thompson's community development discussion. The Museum is currently at 91.7% capacity, matching my artistic interests and providing quality family time. current status is Rachel Thompson on the trip from Cinema to Museum; trip trajectory: [('St_3_link_2', 'drive', 'Node_6')];  currently traversing link St_3_link_2; planned path left: [('St_3_link_1', 'drive', 'Node_12')];.",
+            "keywords": [
+                "Rachel Thompson",
+                "Museum",
+                "St_3_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710033901341542,
+            "type": "event",
+            "created": "2025-03-20T18:15:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T16:58:34.810763",
+            "content": "Linda Parker current activity description: Take Metro_2 directly from Office to Node_12 to meet Nina Scott at Museum. This change was made earlier today due to expected high congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Linda Parker",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710033912048001,
+            "type": "thought",
+            "created": "2025-03-20T18:15:00",
+            "last_accessed": "2025-03-20T18:15:00",
+            "expiration": "2025-03-23T14:56:50.510024",
+            "content": "Museum offers good alternative for afternoon creative meetings",
+            "keywords": [
+                "Museum",
+                "creative",
+                "meeting"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041941738472,
+            "type": "event",
+            "created": "2025-03-20T19:30:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T16:58:34.810763",
+            "content": "Rachel Thompson current activity description: Drive to Museum to join Marcus Thompson's community development discussion. The Museum is currently at 91.7% capacity, matching my artistic interests and providing quality family time. current status is Staying at facility Museum.",
+            "keywords": [
+                "Rachel Thompson",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041943430748,
+            "type": "event",
+            "created": "2025-03-20T19:30:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T16:58:34.810763",
+            "content": "Isabella Rodriguez current activity description: Meet with Helen Jones and Hannah Markowitz at Coffee shop around 17:30; discuss museum exhibits, artifact preservation, and exchange coffee and baking tips. current status is Staying at facility Coffee shop.",
+            "keywords": [
+                "Isabella Rodriguez",
+                "Coffee shop",
+                "Coffee shop"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710042000459571,
+            "type": "thought",
+            "created": "2025-03-20T19:30:00",
+            "last_accessed": "2025-03-20T19:30:00",
+            "expiration": "2025-03-23T16:11:50.510024",
+            "content": "Museum as reliable venue for creative meetings",
+            "keywords": [
+                "Museum",
+                "creative meetings"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710042001221215,
+            "type": "thought",
+            "created": "2025-03-20T19:30:00",
+            "last_accessed": "2025-03-20T19:30:00",
+            "expiration": "2025-03-22T06:18:17.115446",
+            "content": "Coffee shop experiences mid-afternoon congestion peaks",
+            "keywords": [
+                "Coffee shop",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710043840651227,
+            "type": "thought",
+            "created": "2025-03-20T21:00:00",
+            "last_accessed": "2025-03-20T21:00:00",
+            "expiration": "2025-03-22T07:48:17.115446",
+            "content": "Museum remains quiet after 19:00",
+            "keywords": [
+                "Museum",
+                "quiet",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710043841508187,
+            "type": "thought",
+            "created": "2025-03-20T21:00:00",
+            "last_accessed": "2025-03-20T21:00:00",
+            "expiration": "2025-03-23T17:41:50.510024",
+            "content": "Cinema consistently reaches full capacity by late afternoon",
+            "keywords": [
+                "Cinema",
+                "full capacity",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Cinema"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710044036099685,
+            "type": "event",
+            "created": "2025-03-20T21:10:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-21T04:23:35.742705",
+            "content": "Rachel Thompson current activity description: Return home by 7:30 PM for dinner with Marcus and Daniel Thompson. Taking advantage of clear traffic conditions to ensure timely arrival. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Rachel Thompson",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710044051039327,
+            "type": "thought",
+            "created": "2025-03-20T21:10:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-23T17:51:50.510024",
+            "content": "Museum remains a viable alternative meeting spot during evening hours",
+            "keywords": [
+                "Museum",
+                "meeting",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710044052365448,
+            "type": "thought",
+            "created": "2025-03-20T21:10:00",
+            "last_accessed": "2025-03-20T21:10:00",
+            "expiration": "2025-03-22T07:58:17.115446",
+            "content": "Coffee shop experiences periodic congestion during mid-afternoon",
+            "keywords": [
+                "Coffee shop",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710045724483035,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Ave_1_link_1 prone to morning congestion",
+            "keywords": [
+                "morning commute",
+                "traffic",
+                "Ave_1"
+            ],
+            "spatial_scope": [
+                "Ave_1_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045725408448,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-22T10:47:17.115446",
+            "content": "Coffee shop highly congested in late afternoon",
+            "keywords": [
+                "Coffee shop",
+                "crowded",
+                "16:00"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "15:30:00",
+                "17:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710045726170706,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Museum as effective alternative meeting spot",
+            "keywords": [
+                "Museum",
+                "meetup",
+                "creative space"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045726953859,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Flexible routing improves punctuality",
+            "keywords": [
+                "route adaptation",
+                "congestion avoidance"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045727863759,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T02:27:23.106828",
+            "content": "Creative meetups benefit from multiple venue options",
+            "keywords": [
+                "creative collaboration",
+                "venue switching"
+            ],
+            "spatial_scope": [
+                "Coffee shop",
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        }
+    ]
+}

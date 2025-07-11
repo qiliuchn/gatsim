@@ -1,0 +1,5081 @@
+{
+    "curr_time": "2025-03-21 00:00:00",
+    "concept_nodes": [
+        {
+            "id": 705032555547000,
+            "type": "thought",
+            "created": "2025-03-14T07:17:00",
+            "last_accessed": "2025-03-18T07:30:00",
+            "expiration": "2025-03-22T23:29:09.440007",
+            "content": "Metro_2 remains reliable during periods of road congestion",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "congestion"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 705052828745823,
+            "type": "thought",
+            "created": "2025-03-14T09:46:00",
+            "last_accessed": "2025-03-17T15:30:00",
+            "expiration": "2025-03-20T12:11:50.510024",
+            "content": "Supermarket accessible during lunch break",
+            "keywords": [
+                "Supermarket",
+                "accessibility"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705061456632565,
+            "type": "thought",
+            "created": "2025-03-14T13:01:00",
+            "last_accessed": "2025-03-17T15:30:00",
+            "expiration": "2025-03-20T12:11:50.510024",
+            "content": "Supermarket experiences high congestion during mid-day hours",
+            "keywords": [
+                "Supermarket",
+                "congestion",
+                "mid-day"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705080618687491,
+            "type": "thought",
+            "created": "2025-03-14T17:25:00",
+            "last_accessed": "2025-03-16T07:30:00",
+            "expiration": "2025-03-20T00:45:24.553005",
+            "content": "Amusement park accessible via Metro_2 by 17:30",
+            "keywords": [
+                "Amusement park",
+                "Metro_2",
+                "meetup",
+                "17:30"
+            ],
+            "spatial_scope": [
+                "Metro_2",
+                "Amusement park"
+            ],
+            "time_scope": [
+                "17:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 705080619776966,
+            "type": "thought",
+            "created": "2025-03-14T17:25:00",
+            "last_accessed": "2025-03-17T15:30:00",
+            "expiration": "2025-03-20T12:11:50.510024",
+            "content": "Supermarket experiences high mid-day congestion during sale periods",
+            "keywords": [
+                "Supermarket",
+                "congestion",
+                "sale"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "15:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705150412716086,
+            "type": "thought",
+            "created": "2025-03-14T23:59:00",
+            "last_accessed": "2025-03-17T15:30:00",
+            "expiration": "2025-03-20T12:11:50.510024",
+            "content": "Supermarket experiences severe congestion during lunch breaks due to sales and social clusters",
+            "keywords": [
+                "Supermarket",
+                "sales",
+                "congestion",
+                "Carol Green"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705151944891989,
+            "type": "thought",
+            "created": "2025-03-15T00:00:00",
+            "last_accessed": "2025-03-17T15:30:00",
+            "expiration": "2025-03-20T12:11:50.510024",
+            "content": "Supermarket experiences severe congestion during lunch breaks due to sales",
+            "keywords": [
+                "Supermarket",
+                "congestion",
+                "sale"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705160606345470,
+            "type": "thought",
+            "created": "2025-03-15T08:17:00",
+            "last_accessed": "2025-03-16T13:30:00",
+            "expiration": "2025-03-20T06:45:24.553005",
+            "content": "Buffer time of at least 60 minutes should be allocated when meeting friends after work",
+            "keywords": [
+                "Meeting",
+                "buffer time"
+            ],
+            "spatial_scope": [
+                "Factory",
+                "Amusement park"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 705181108143346,
+            "type": "thought",
+            "created": "2025-03-15T12:31:00",
+            "last_accessed": "2025-03-17T12:54:00",
+            "expiration": "2025-03-20T09:35:50.510024",
+            "content": "Museum attendance peaks around midday",
+            "keywords": [
+                "Museum",
+                "peak",
+                "midday"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 705183936480689,
+            "type": "thought",
+            "created": "2025-03-15T13:45:00",
+            "last_accessed": "2025-03-17T12:54:00",
+            "expiration": "2025-03-20T09:35:50.510024",
+            "content": "Museum attendance peaks around midday with extended wait times",
+            "keywords": [
+                "Museum",
+                "congestion",
+                "midday peak"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "11:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706151601890015,
+            "type": "thought",
+            "created": "2025-03-16T00:00:00",
+            "last_accessed": "2025-03-17T12:54:00",
+            "expiration": "2025-03-20T09:35:50.510024",
+            "content": "Museum experiences peak congestion during midday",
+            "keywords": [
+                "Museum",
+                "congested",
+                "midday"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "11:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 706153552739173,
+            "type": "thought",
+            "created": "2025-03-16T07:30:00",
+            "last_accessed": "2025-03-16T12:48:00",
+            "expiration": "2025-03-20T06:03:24.553005",
+            "content": "St_1_link_2 experiences significant delays during morning hours",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706153553632434,
+            "type": "thought",
+            "created": "2025-03-16T07:30:00",
+            "last_accessed": "2025-03-16T17:40:00",
+            "expiration": "2025-03-20T10:55:24.553005",
+            "content": "Amusement park attendance peaks after 16:00 requiring earlier departure times",
+            "keywords": [
+                "Amusement park",
+                "crowd",
+                "4PM"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "15:30:00",
+                "16:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706160536433643,
+            "type": "thought",
+            "created": "2025-03-16T08:35:00",
+            "last_accessed": "2025-03-18T07:45:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Morning congestion patterns on Ave_2_link_1",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706160537593945,
+            "type": "thought",
+            "created": "2025-03-16T08:35:00",
+            "last_accessed": "2025-03-17T12:54:00",
+            "expiration": "2025-03-21T06:09:24.553005",
+            "content": "Factory work hours require presence between 8:00-17:00",
+            "keywords": [
+                "Factory",
+                "work hours"
+            ],
+            "spatial_scope": [
+                "Factory"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 706180142068640,
+            "type": "thought",
+            "created": "2025-03-16T14:40:00",
+            "last_accessed": "2025-03-18T07:45:00",
+            "expiration": "2025-03-21T04:26:50.510024",
+            "content": "St_4_link_2 moderately congested in afternoon",
+            "keywords": [
+                "St_4_link_2",
+                "congestion",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "St_4_link_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707004851374624,
+            "type": "thought",
+            "created": "2025-03-16T23:59:00",
+            "last_accessed": "2025-03-16T23:59:00",
+            "expiration": "2025-03-20T17:14:24.553005",
+            "content": "Metro_2 provides reliable midday and evening travel options",
+            "keywords": [
+                "Metro_2",
+                "efficient",
+                "transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707010702655198,
+            "type": "thought",
+            "created": "2025-03-17T00:00:00",
+            "last_accessed": "2025-03-17T00:00:00",
+            "expiration": "2025-03-21T15:59:09.440007",
+            "content": "Transit along Metro_2 avoids congestion compared to road alternatives",
+            "keywords": [
+                "Metro_2",
+                "traffic avoidance"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707011830990896,
+            "type": "thought",
+            "created": "2025-03-17T07:00:00",
+            "last_accessed": "2025-03-17T07:00:00",
+            "expiration": "2025-03-21T00:15:24.553005",
+            "content": "Metro_2 provides consistent midday and evening travel options",
+            "keywords": [
+                "transit",
+                "reliable",
+                "Metro_2"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707015428729112,
+            "type": "thought",
+            "created": "2025-03-17T07:45:00",
+            "last_accessed": "2025-03-18T08:28:00",
+            "expiration": "2025-03-22T01:43:24.553005",
+            "content": "Morning congestion patterns on Ave_2_link_1",
+            "keywords": [
+                "Ave_2_link_1",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707015429574252,
+            "type": "thought",
+            "created": "2025-03-17T07:45:00",
+            "last_accessed": "2025-03-17T07:45:00",
+            "expiration": "2025-03-20T04:26:50.510024",
+            "content": "Gym reaches full capacity during lunch breaks",
+            "keywords": [
+                "Gym",
+                "capacity",
+                "lunch"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707025052385576,
+            "type": "thought",
+            "created": "2025-03-17T10:15:00",
+            "last_accessed": "2025-03-17T10:15:00",
+            "expiration": "2025-03-21T03:30:24.553005",
+            "content": "Metro_2 consistently reliable during midday and evening hours",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707032421899352,
+            "type": "thought",
+            "created": "2025-03-17T12:30:00",
+            "last_accessed": "2025-03-17T15:30:00",
+            "expiration": "2025-03-20T12:11:50.510024",
+            "content": "Gym less crowded after 18:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707042218269451,
+            "type": "thought",
+            "created": "2025-03-17T15:49:00",
+            "last_accessed": "2025-03-19T14:01:00",
+            "expiration": "2025-03-22T10:42:50.510024",
+            "content": "Carol Green available at Gym during midday",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "midday"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707043458542143,
+            "type": "thought",
+            "created": "2025-03-17T16:30:00",
+            "last_accessed": "2025-03-17T16:30:00",
+            "expiration": "2025-03-21T09:45:24.553005",
+            "content": "Metro_2 reliable during midday and evening hours",
+            "keywords": [
+                "Metro_2",
+                "transit reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707043459560974,
+            "type": "thought",
+            "created": "2025-03-17T16:30:00",
+            "last_accessed": "2025-03-17T16:30:00",
+            "expiration": "2025-03-20T13:11:50.510024",
+            "content": "Museum less crowded after 16:00",
+            "keywords": [
+                "Museum",
+                "crowd pattern"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707043500502728,
+            "type": "thought",
+            "created": "2025-03-17T16:30:00",
+            "last_accessed": "2025-03-17T16:30:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Amusement park optimal arrival before 16:00",
+            "keywords": [
+                "Amusement park",
+                "crowd avoidance"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707044542613677,
+            "type": "thought",
+            "created": "2025-03-17T17:27:00",
+            "last_accessed": "2025-03-17T17:27:00",
+            "expiration": "2025-03-20T14:08:50.510024",
+            "content": "Museum less crowded after 6PM",
+            "keywords": [
+                "Museum",
+                "crowded",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707045042381868,
+            "type": "event",
+            "created": "2025-03-17T17:36:00",
+            "last_accessed": "2025-03-20T18:48:00",
+            "expiration": "2025-03-21T10:21:30.256154",
+            "content": "Victoria Bell current activity description: Head to Museum with Stephanie Lewis for Carol Green's meetup at 17:00; departing from Amusement park by 16:45. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707053803488430,
+            "type": "event",
+            "created": "2025-03-17T19:00:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T06:25:44.432290",
+            "content": "Carol Green current activity description: Take Metro_2 from Gym to Museum for an evening meetup with Stephanie Lewis and potentially Sarah Chen. current status is Staying at facility Museum.",
+            "keywords": [
+                "Carol Green",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707053816589334,
+            "type": "thought",
+            "created": "2025-03-17T19:00:00",
+            "last_accessed": "2025-03-17T19:00:00",
+            "expiration": "2025-03-20T15:41:50.510024",
+            "content": "Museum less crowded after 18:00",
+            "keywords": [
+                "Museum",
+                "crowded",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707053817416389,
+            "type": "thought",
+            "created": "2025-03-17T19:00:00",
+            "last_accessed": "2025-03-17T19:00:00",
+            "expiration": "2025-03-21T12:15:24.553005",
+            "content": "Metro_2 reliable midday and evening hours",
+            "keywords": [
+                "Metro_2",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707070013381509,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T00:00:00",
+            "expiration": "2025-03-20T20:41:50.510024",
+            "content": "Gym highly congested after 18:00",
+            "keywords": [
+                "Gym",
+                "congested",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070014273375,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T00:00:00",
+            "expiration": "2025-03-20T20:41:50.510024",
+            "content": "Mid-afternoon flexibility enables better social coordination",
+            "keywords": [
+                "social coordination",
+                "flexibility"
+            ],
+            "spatial_scope": [
+                "Coffee shop",
+                "Museum"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070015142676,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T00:00:00",
+            "expiration": "2025-03-20T20:41:50.510024",
+            "content": "Amusement park optimal arrival before 16:00",
+            "keywords": [
+                "Amusement park",
+                "recreation"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707070019930795,
+            "type": "thought",
+            "created": "2025-03-18T00:00:00",
+            "last_accessed": "2025-03-18T00:00:00",
+            "expiration": "2025-03-21T17:15:24.553005",
+            "content": "Metro_2 reliable during midday and early evening",
+            "keywords": [
+                "Metro_2",
+                "transit reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707072857062586,
+            "type": "thought",
+            "created": "2025-03-18T07:30:00",
+            "last_accessed": "2025-03-18T16:08:00",
+            "expiration": "2025-03-22T09:23:24.553005",
+            "content": "Ave_2_link_2 experiences frequent congestion during morning hours",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707074513338735,
+            "type": "chat",
+            "created": "2025-03-18T07:45:00",
+            "last_accessed": "2025-03-19T12:45:00",
+            "expiration": "2025-03-20T06:48:10.492267",
+            "content": "Stephanie Lewis will leave Factory early to stop by Gym and reach Amusement park by 16:00. Victoria Bell will adjust her arrival time at the Ferris wheel to 15:45 due to moderate congestion on Ave_2_link_2 caused by an accident.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Factory",
+                "Gym",
+                "Amusement park",
+                "Ferris wheel",
+                "Ave_2_link_2",
+                "traffic"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707080432403986,
+            "type": "chat",
+            "created": "2025-03-18T08:08:00",
+            "last_accessed": "2025-03-19T12:45:00",
+            "expiration": "2025-03-20T06:48:10.492267",
+            "content": "Victoria Bell and Stephanie Lewis confirmed their plan to meet at the Ferris wheel in Amusement park. Victoria will arrive by 15:45 after work at Factory, while Stephanie will leave Factory at 12:30 PM, go to Gym via Metro_2, and reach the Ferris wheel by 16:00.",
+            "keywords": [
+                "Victoria Bell",
+                "Stephanie Lewis",
+                "Factory",
+                "Gym",
+                "Amusement park",
+                "Ferris wheel",
+                "Metro_2",
+                "15:45",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707081619701039,
+            "type": "thought",
+            "created": "2025-03-18T08:19:00",
+            "last_accessed": "2025-03-18T16:08:00",
+            "expiration": "2025-03-22T09:23:24.553005",
+            "content": "Ave_2_link_2 frequently experiences congestion during morning hours",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707081621534693,
+            "type": "thought",
+            "created": "2025-03-18T08:19:00",
+            "last_accessed": "2025-03-18T08:19:00",
+            "expiration": "2025-03-22T01:34:24.553005",
+            "content": "Metro_1 provides an effective alternative to Ave_2_link_2 congestion",
+            "keywords": [
+                "Metro_1",
+                "transit",
+                "alternative"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707082257481979,
+            "type": "event",
+            "created": "2025-03-18T08:28:00",
+            "last_accessed": "2025-03-18T16:08:00",
+            "expiration": "2025-03-20T10:04:09.131897",
+            "content": "Ave_2_link_2 direction 0 realtime capacity drop from 2 to 1 due to car accident from 07:30 2025-03-16; duration is about 60 minutes.",
+            "keywords": [
+                "Ave_2_link_2",
+                "car accident",
+                "morning rush hour"
+            ],
+            "spatial_scope": "Ave_1_link_2",
+            "time_scope": [
+                "07:30:00",
+                "08:30:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707083305259417,
+            "type": "thought",
+            "created": "2025-03-18T08:46:00",
+            "last_accessed": "2025-03-18T08:46:00",
+            "expiration": "2025-03-23T00:45:09.440007",
+            "content": "Metro_1 provides a reliable alternative during road congestion",
+            "keywords": [
+                "Metro_1",
+                "transit",
+                "accident"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707083306362256,
+            "type": "thought",
+            "created": "2025-03-18T08:46:00",
+            "last_accessed": "2025-03-18T08:46:00",
+            "expiration": "2025-03-21T05:27:50.510024",
+            "content": "Gym remains less crowded before 13:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "1PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "13:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707085431483275,
+            "type": "thought",
+            "created": "2025-03-18T10:30:00",
+            "last_accessed": "2025-03-18T10:30:00",
+            "expiration": "2025-03-22T03:45:24.553005",
+            "content": "Metro_2 provides reliable midday and evening transit options",
+            "keywords": [
+                "transit",
+                "Metro_2"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707091435488540,
+            "type": "event",
+            "created": "2025-03-18T12:30:00",
+            "last_accessed": "2025-03-20T12:30:00",
+            "expiration": "2025-03-20T23:55:44.432290",
+            "content": "Carol Green current activity description: Drive to Hospital for 8:00 AM shift; avoid known morning congestion by taking St_3_link_1 and St_3_link_2 based on yesterday's successful route adjustment. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707091450282814,
+            "type": "thought",
+            "created": "2025-03-18T12:30:00",
+            "last_accessed": "2025-03-18T12:30:00",
+            "expiration": "2025-03-22T05:45:24.553005",
+            "content": "Metro_1 provides a reliable alternative during morning transit disruptions",
+            "keywords": [
+                "Metro_1",
+                "reliable",
+                "transit"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707091451476884,
+            "type": "thought",
+            "created": "2025-03-18T12:30:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-22T12:41:50.510024",
+            "content": "Amusement park less crowded before 16:00",
+            "keywords": [
+                "Amusement park",
+                "crowd",
+                "4PM"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707091554399547,
+            "type": "event",
+            "created": "2025-03-18T12:31:00",
+            "last_accessed": "2025-03-20T15:00:00",
+            "expiration": "2025-03-20T23:56:44.432290",
+            "content": "Carol Green current activity description: Take Metro_2 after lunch break to visit Gym for light exercise and catch up with Sarah Chen. current status is Carol Green on the trip from Hospital to Gym; trip trajectory: []; currently at node Node_9; planned path left: [('St_1_link_2', 'walk', 'Node_13')];.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Node_9"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707092015190347,
+            "type": "thought",
+            "created": "2025-03-18T12:48:00",
+            "last_accessed": "2025-03-18T13:30:00",
+            "expiration": "2025-03-21T10:11:50.510024",
+            "content": "Gym less crowded before 16:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "16:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707092016131528,
+            "type": "thought",
+            "created": "2025-03-18T12:48:00",
+            "last_accessed": "2025-03-18T12:48:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Metro_2 reliable during midday travel",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "midday"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "15:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707093457362098,
+            "type": "thought",
+            "created": "2025-03-18T13:30:00",
+            "last_accessed": "2025-03-18T13:30:00",
+            "expiration": "2025-03-21T10:11:50.510024",
+            "content": "Gym reaches full capacity during midday hours",
+            "keywords": [
+                "Gym",
+                "capacity",
+                "crowded"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "15:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707100921288380,
+            "type": "chat",
+            "created": "2025-03-18T15:00:00",
+            "last_accessed": "2025-03-19T15:16:00",
+            "expiration": "2025-03-20T09:19:10.492267",
+            "content": "Carol Green and Stephanie Lewis decided to shift their meetup from Coffee shop to Supermarket due to severe congestion at Coffee shop. Carol is heading to Supermarket via Metro_2, and Stephanie will meet her there.",
+            "keywords": [
+                "Carol Green",
+                "Stephanie Lewis",
+                "Coffee shop",
+                "Supermarket",
+                "Metro_2",
+                "congestion"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707102445332696,
+            "type": "event",
+            "created": "2025-03-18T15:48:00",
+            "last_accessed": "2025-03-19T07:45:00",
+            "expiration": "2025-03-20T13:20:10.085385",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Amusement park near the Ferris wheel as coordinated; arrive by 15:45 to avoid late afternoon crowds and accommodate traffic adjustments due to Ave_2_link_2 congestion. current status is Victoria Bell on the trip from Factory to Amusement park; trip trajectory: [('St_4_link_2', 'drive', 'Node_11')];  currently traversing link St_4_link_2; planned path left: [('St_4_link_1', 'drive', 'Node_7'), ('Ave_2_link_4', 'drive', 'Node_8')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Amusement park",
+                "St_4_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707102718070883,
+            "type": "event",
+            "created": "2025-03-18T15:59:00",
+            "last_accessed": "2025-03-19T07:45:00",
+            "expiration": "2025-03-20T13:20:10.085385",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Amusement park near the Ferris wheel as coordinated; arrive by 15:45 to avoid late afternoon crowds and accommodate traffic adjustments due to Ave_2_link_2 congestion. current status is Victoria Bell on the trip from Factory to Amusement park; trip trajectory: [('St_4_link_2', 'drive', 'Node_11'), ('St_4_link_1', 'drive', 'Node_7')];  currently traversing link St_4_link_1; planned path left: [('Ave_2_link_4', 'drive', 'Node_8')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Amusement park",
+                "St_4_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707102744363492,
+            "type": "thought",
+            "created": "2025-03-18T15:59:00",
+            "last_accessed": "2025-03-18T15:59:00",
+            "expiration": "2025-03-22T09:14:24.553005",
+            "content": "Metro_2 reliable during midday travel",
+            "keywords": [
+                "transit",
+                "Metro_2",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707102745257057,
+            "type": "thought",
+            "created": "2025-03-18T15:59:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-22T12:41:50.510024",
+            "content": "Amusement park less crowded in early afternoon",
+            "keywords": [
+                "Amusement park",
+                "recreation",
+                "4PM"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707103151029202,
+            "type": "event",
+            "created": "2025-03-18T16:17:00",
+            "last_accessed": "2025-03-19T12:30:00",
+            "expiration": "2025-03-20T18:05:10.085385",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Amusement park near the Ferris wheel as coordinated; arrive by 15:45 to avoid late afternoon crowds and accommodate traffic adjustments due to Ave_2_link_2 congestion. current status is Staying at facility Amusement park.",
+            "keywords": [
+                "Victoria Bell",
+                "Amusement park",
+                "Amusement park"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707103742204960,
+            "type": "thought",
+            "created": "2025-03-18T16:36:00",
+            "last_accessed": "2025-03-18T16:36:00",
+            "expiration": "2025-03-21T13:17:50.510024",
+            "content": "Amusement park less crowded before 16:30",
+            "keywords": [
+                "Amusement park",
+                "crowd",
+                "16:30"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707103743788502,
+            "type": "thought",
+            "created": "2025-03-18T16:36:00",
+            "last_accessed": "2025-03-18T16:36:00",
+            "expiration": "2025-03-21T13:17:50.510024",
+            "content": "Museum has lower occupancy during early evening hours",
+            "keywords": [
+                "Museum",
+                "occupancy",
+                "early evening"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707104654070873,
+            "type": "event",
+            "created": "2025-03-18T17:15:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T13:33:34.810763",
+            "content": "Victoria Bell current activity description: After visiting Amusement park, head to Museum via metro for an early evening cultural outing; avoids expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707111652597786,
+            "type": "chat",
+            "created": "2025-03-18T18:21:00",
+            "last_accessed": "2025-03-19T12:30:00",
+            "expiration": "2025-03-20T06:33:10.492267",
+            "content": "Stephanie Lewis is traveling from the Amusement park via Metro_1 to meet Victoria Bell at the Museum by 19:00.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Amusement park",
+                "Metro_1",
+                "Museum",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 707112325240324,
+            "type": "event",
+            "created": "2025-03-18T18:38:00",
+            "last_accessed": "2025-03-20T14:01:00",
+            "expiration": "2025-03-21T06:03:44.432290",
+            "content": "Victoria Bell current activity description: Head directly to Museum to meet Stephanie Lewis who is rescheduled to arrive by 19:00; ensures timely coordination and avoids unnecessary stop at Coffee shop. current status is Victoria Bell on the trip from Amusement park to Museum; trip trajectory: [('Metro_1_link_4', 'ride', 'Node_7'), ('St_4_link_1', 'walk', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10')]; currently waiting at link Metro_2_link_4; planned path left: [('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Metro_2_link_4"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707112759435460,
+            "type": "thought",
+            "created": "2025-03-18T18:47:00",
+            "last_accessed": "2025-03-18T18:47:00",
+            "expiration": "2025-03-22T12:02:24.553005",
+            "content": "Metro_1 reliable for evening travel",
+            "keywords": [
+                "Metro_1",
+                "transit",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 707113029146369,
+            "type": "event",
+            "created": "2025-03-18T18:56:00",
+            "last_accessed": "2025-03-19T15:01:00",
+            "expiration": "2025-03-20T10:49:34.810763",
+            "content": "Victoria Bell current activity description: Head directly to Museum to meet Stephanie Lewis who is rescheduled to arrive by 19:00; ensures timely coordination and avoids unnecessary stop at Coffee shop. current status is Victoria Bell on the trip from Amusement park to Museum; trip trajectory: [('Metro_1_link_4', 'ride', 'Node_7'), ('St_4_link_1', 'walk', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6')];  currently traversing link Metro_2_link_3; planned path left: [('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Metro_2_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707115814324808,
+            "type": "event",
+            "created": "2025-03-18T20:00:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T13:33:34.810763",
+            "content": "Victoria Bell current activity description: Head directly to Museum to meet Stephanie Lewis who is rescheduled to arrive by 19:00; ensures timely coordination and avoids unnecessary stop at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707115845215188,
+            "type": "thought",
+            "created": "2025-03-18T20:01:00",
+            "last_accessed": "2025-03-18T20:01:00",
+            "expiration": "2025-03-21T16:42:50.510024",
+            "content": "Museum less crowded after 18:00",
+            "keywords": [
+                "Museum",
+                "crowded",
+                "18:00"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707120635709024,
+            "type": "thought",
+            "created": "2025-03-18T20:45:00",
+            "last_accessed": "2025-03-18T20:45:00",
+            "expiration": "2025-03-20T07:33:17.115446",
+            "content": "Metro_1_link_2 occasionally experiences minor wait times during evening commute",
+            "keywords": [
+                "Metro_1_link_2",
+                "wait time",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Metro_1_link_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 707120636674990,
+            "type": "thought",
+            "created": "2025-03-18T20:45:00",
+            "last_accessed": "2025-03-18T20:45:00",
+            "expiration": "2025-03-21T17:26:50.510024",
+            "content": "Museum less crowded in the late evening with relaxed visitation patterns",
+            "keywords": [
+                "Museum",
+                "low occupancy",
+                "7PM"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 707122757673763,
+            "type": "thought",
+            "created": "2025-03-18T23:59:00",
+            "last_accessed": "2025-03-18T23:59:00",
+            "expiration": "2025-03-21T20:40:50.510024",
+            "content": "Rescheduling coordination possible via real-time chat",
+            "keywords": [
+                "coordination",
+                "communication",
+                "flexibility"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708004238308321,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-22T17:15:24.553005",
+            "content": "Metro_1 effective during morning congestion",
+            "keywords": [
+                "Metro_1",
+                "effective",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708004239248757,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T15:16:00",
+            "expiration": "2025-03-21T02:04:17.115446",
+            "content": "Coffee shop often fully occupied midday",
+            "keywords": [
+                "Coffee shop",
+                "full",
+                "midday"
+            ],
+            "spatial_scope": [
+                "Coffee shop"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708004241305641,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-20T10:48:17.115446",
+            "content": "Supermarket less crowded before 16:30",
+            "keywords": [
+                "Supermarket",
+                "crowded",
+                "16:30"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "16:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708004242096807,
+            "type": "thought",
+            "created": "2025-03-19T00:00:00",
+            "last_accessed": "2025-03-19T00:00:00",
+            "expiration": "2025-03-22T17:15:24.553005",
+            "content": "Transit coordination improves on-time arrival",
+            "keywords": [
+                "coordination",
+                "metro",
+                "on-time"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708005521633242,
+            "type": "thought",
+            "created": "2025-03-19T07:00:00",
+            "last_accessed": "2025-03-19T07:00:00",
+            "expiration": "2025-03-23T00:15:24.553005",
+            "content": "Morning commute via Metro_1 reliable during 7:00-9:00",
+            "keywords": [
+                "Metro_1",
+                "commute",
+                "7:00-9:00"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708005522515818,
+            "type": "thought",
+            "created": "2025-03-19T07:00:00",
+            "last_accessed": "2025-03-19T12:30:00",
+            "expiration": "2025-03-23T05:45:24.553005",
+            "content": "Amusement park best accessed before 16:00",
+            "keywords": [
+                "Amusement park",
+                "access",
+                "16:00"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708012339732551,
+            "type": "thought",
+            "created": "2025-03-19T07:45:00",
+            "last_accessed": "2025-03-19T07:45:00",
+            "expiration": "2025-03-22T04:26:50.510024",
+            "content": "Ave_2_link_2 experiences moderate congestion during morning hours",
+            "keywords": [
+                "Ave_2_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012438569130,
+            "type": "event",
+            "created": "2025-03-19T07:46:00",
+            "last_accessed": "2025-03-20T12:31:00",
+            "expiration": "2025-03-21T08:19:34.810763",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, avoiding morning congestion after yesterday's delays on St_1_link_2. Ensure punctuality for patient care responsibilities. current status is Carol Green on the trip from Midtown apartment to Hospital; trip trajectory: [('St_1_link_1', 'walk', 'Node_9')];  currently traversing link St_1_link_1; planned path left: [];.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012439351999,
+            "type": "event",
+            "created": "2025-03-19T07:46:00",
+            "last_accessed": "2025-03-20T08:35:00",
+            "expiration": "2025-03-21T04:23:34.810763",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Victoria Bell on the trip from Uptown apartment to Factory; trip trajectory: []; currently at node Node_1; planned path left: [('Metro_2_link_1', 'ride', 'Node_12'), ('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_2_link_3', 'ride', 'Node_10'), ('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Node_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708012503269270,
+            "type": "chat",
+            "created": "2025-03-19T07:46:00",
+            "last_accessed": "2025-03-19T12:48:00",
+            "expiration": "2025-03-20T06:51:10.492267",
+            "content": "Stephanie Lewis and Victoria Bell coordinated their afternoon plans considering traffic congestion. Stephanie adjusted her departure time from Factory to 12:45 to travel via Metro_2 to Gym and eventually Amusement park, aiming to arrive at the Ferris wheel by 16:00. Victoria will leave Factory by 15:15 to reach the Amusement park around 16:00 and meet Stephanie at the Ferris wheel.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Factory",
+                "Metro_2",
+                "Gym",
+                "Amusement park",
+                "Ferris wheel",
+                "12:45",
+                "15:15",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708013729810860,
+            "type": "thought",
+            "created": "2025-03-19T07:59:00",
+            "last_accessed": "2025-03-19T07:59:00",
+            "expiration": "2025-03-23T01:14:24.553005",
+            "content": "Metro_1 is reliable during morning commute hours",
+            "keywords": [
+                "transit",
+                "reliable",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708013731207893,
+            "type": "thought",
+            "created": "2025-03-19T07:59:00",
+            "last_accessed": "2025-03-19T07:59:00",
+            "expiration": "2025-03-22T04:40:50.510024",
+            "content": "Ave_2_link_3 experiences moderate congestion during morning hours",
+            "keywords": [
+                "Ave_2_link_3",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_2_link_3"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708020020574253,
+            "type": "thought",
+            "created": "2025-03-19T08:26:00",
+            "last_accessed": "2025-03-19T12:48:00",
+            "expiration": "2025-03-24T04:47:09.440007",
+            "content": "St_1_link_2 consistently experiences severe congestion during morning hours",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708020707127276,
+            "type": "event",
+            "created": "2025-03-19T08:35:00",
+            "last_accessed": "2025-03-19T08:35:00",
+            "expiration": "2025-03-20T04:23:34.810763",
+            "content": "Stephanie Lewis travels from Midtown apartment to Factory by travel mode transit; start time is Wed 2025-03-19 07:45; trip time is 50 minutes",
+            "keywords": [
+                "Midtown apartment to Factory",
+                "transit"
+            ],
+            "spatial_scope": "Midtown apartment, Factory, Metro_1, Metro_1, Metro_2, Metro_2, Metro_2",
+            "time_scope": [
+                "07:45:00",
+                "08:35:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708024737169895,
+            "type": "chat",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-20T08:26:00",
+            "expiration": "2025-03-21T09:58:40.952815",
+            "content": "Stephanie Lewis and Victoria Bell changed their meeting location from Amusement park to Museum due to a wildfire. Victoria will leave Factory by 15:15 via Metro_2 and meet Stephanie near Museum entrance at 16:00.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Amusement park",
+                "Museum",
+                "Factory",
+                "Metro_2",
+                "wildfire"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708024752482150,
+            "type": "chat",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-20T07:59:00",
+            "expiration": "2025-03-21T09:31:40.952815",
+            "content": "Stephanie Lewis and Victoria Bell changed their meeting location from the Amusement park to the Museum due to a wildfire. Stephanie will go to the Museum via Metro_2 after her Supermarket errand, aiming to arrive by 16:00. Victoria will head to the Museum via Metro_2 after leaving Factory at 15:15 and expects to arrive by 16:00.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Amusement park",
+                "Museum",
+                "Supermarket",
+                "Factory",
+                "Metro_2",
+                "wildfire"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708024805864506,
+            "type": "chat",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-20T08:08:00",
+            "expiration": "2025-03-21T09:40:40.952815",
+            "content": "Stephanie Lewis and Victoria Bell agreed to change their meeting location from the Amusement park to the Museum near the entrance due to a wildfire. They will meet by 16:00. Stephanie will arrive via Metro_2 after a Supermarket errand, and Victoria will leave Factory by 15:15 to ensure timely arrival.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Supermarket",
+                "Factory",
+                "Metro_2",
+                "Amusement park",
+                "wildfire"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.8,
+            "embedding": null
+        },
+        {
+            "id": 708024824623624,
+            "type": "thought",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Amusement park area unsafe during wildfires",
+            "keywords": [
+                "Amusement park",
+                "wildfire",
+                "safety"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "18:00:00"
+            ],
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708024825764392,
+            "type": "thought",
+            "created": "2025-03-19T12:30:00",
+            "last_accessed": "2025-03-19T12:30:00",
+            "expiration": "2025-03-22T09:11:50.510024",
+            "content": "Museum serves as good alternate recreational destination",
+            "keywords": [
+                "Museum",
+                "alternate",
+                "recreation"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708024927330241,
+            "type": "event",
+            "created": "2025-03-19T12:31:00",
+            "last_accessed": "2025-03-20T18:48:00",
+            "expiration": "2025-03-21T14:36:34.810763",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, avoiding morning congestion after yesterday's delays on St_1_link_2. Ensure punctuality for patient care responsibilities. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708024938399058,
+            "type": "thought",
+            "created": "2025-03-19T12:31:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-26T11:27:19.472905",
+            "content": "Amusement park unsafe during wildfires",
+            "keywords": [
+                "Amusement park",
+                "wildfire",
+                "safety"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708025506416632,
+            "type": "chat",
+            "created": "2025-03-19T12:45:00",
+            "last_accessed": "2025-03-19T17:18:00",
+            "expiration": "2025-03-20T11:21:10.492267",
+            "content": "Victoria Bell and Stephanie Lewis confirmed their plan to meet at the Museum near the entrance by 16:00 despite a wildfire at the Amusement park. Victoria will leave Factory via Metro_2 at 15:15. Stephanie is traveling to Gym via Metro_2, then heading to Supermarket before joining Victoria at Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Stephanie Lewis",
+                "Museum",
+                "Factory",
+                "Gym",
+                "Supermarket",
+                "Metro_2",
+                "wildfire",
+                "Amusement park",
+                "16:00",
+                "15:15",
+                "13:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708025523952750,
+            "type": "chat",
+            "created": "2025-03-19T12:45:00",
+            "last_accessed": "2025-03-19T17:27:00",
+            "expiration": "2025-03-20T06:01:51.512918",
+            "content": "Victoria Bell and Stephanie Lewis plan to meet at the Museum entrance at 16:00. Victoria will leave Factory via Metro_2 at 15:15, while Stephanie will head to the Museum via Metro_2 after finishing at Supermarket.",
+            "keywords": [
+                "Victoria Bell",
+                "Stephanie Lewis",
+                "Museum",
+                "Supermarket",
+                "Factory",
+                "Metro_2",
+                "15:15",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708025743967954,
+            "type": "thought",
+            "created": "2025-03-19T12:48:00",
+            "last_accessed": "2025-03-19T12:48:00",
+            "expiration": "2025-03-23T06:03:24.553005",
+            "content": "Metro_2 reliable for midday trips between Factory and Museum",
+            "keywords": [
+                "transit reliability",
+                "Metro_2"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708025745053294,
+            "type": "thought",
+            "created": "2025-03-19T12:48:00",
+            "last_accessed": "2025-03-19T14:29:00",
+            "expiration": "2025-03-26T09:56:19.472905",
+            "content": "Amusement park area unsafe during wildfires",
+            "keywords": [
+                "wildfire",
+                "safety"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708033200077860,
+            "type": "event",
+            "created": "2025-03-19T14:01:00",
+            "last_accessed": "2025-03-20T15:00:00",
+            "expiration": "2025-03-21T10:48:34.810763",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. Delayed slightly to allow for more flexibility in returning to Hospital post-activity. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708033218529480,
+            "type": "thought",
+            "created": "2025-03-19T14:01:00",
+            "last_accessed": "2025-03-19T14:01:00",
+            "expiration": "2025-03-21T00:49:17.115446",
+            "content": "Museum quiet in early afternoon",
+            "keywords": [
+                "Museum",
+                "quiet",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "13:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708033219382842,
+            "type": "thought",
+            "created": "2025-03-19T14:01:00",
+            "last_accessed": "2025-03-19T14:01:00",
+            "expiration": "2025-03-22T10:42:50.510024",
+            "content": "Gym less crowded after 14:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "14:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708034649555923,
+            "type": "event",
+            "created": "2025-03-19T14:38:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T11:48:34.810763",
+            "content": "Carol Green current activity description: Proceed to Museum via Metro_2 to enjoy afternoon exhibits before meeting Stephanie Lewis. current status is Carol Green on the trip from Gym to Museum; trip trajectory: [('Ave_4_link_1', 'walk', 'Node_3'), ('Metro_2_link_5', 'ride', 'Node_11')]; currently waiting at link Metro_2_link_5; planned path left: [('Metro_2_link_5', 'ride', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Carol Green",
+                "Museum",
+                "Metro_2_link_5"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708034707745966,
+            "type": "chat",
+            "created": "2025-03-19T14:38:00",
+            "last_accessed": "2025-03-19T16:01:00",
+            "expiration": "2025-03-20T04:35:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell confirmed their plan to meet at the Museum entrance by 16:00. Stephanie is traveling via Metro_2 from the Supermarket, while Victoria will depart from Factory at 15:15 via Metro_2.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Supermarket",
+                "Factory",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708034718120034,
+            "type": "thought",
+            "created": "2025-03-19T14:38:00",
+            "last_accessed": "2025-03-19T14:38:00",
+            "expiration": "2025-03-21T01:26:17.115446",
+            "content": "Supermarket less crowded before 16:00",
+            "keywords": [
+                "Supermarket",
+                "crowded",
+                "16:00"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708035053762375,
+            "type": "thought",
+            "created": "2025-03-19T14:47:00",
+            "last_accessed": "2025-03-20T17:30:00",
+            "expiration": "2025-03-24T10:45:24.553005",
+            "content": "Museum visit coordination with Victoria Bell and Carol Green",
+            "keywords": [
+                "Museum",
+                "Victoria Bell",
+                "Carol Green"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708035325755154,
+            "type": "chat",
+            "created": "2025-03-19T15:00:00",
+            "last_accessed": "2025-03-19T16:01:00",
+            "expiration": "2025-03-20T04:35:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell confirmed their plan to meet at the Museum entrance by 16:00. Stephanie will depart from Supermarket via Metro_2 shortly after finishing her errands, while Victoria will leave Factory via Metro_2 at 15:15 to arrive on time.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Supermarket",
+                "Factory",
+                "Metro_2",
+                "16:00",
+                "15:15"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708035413529815,
+            "type": "event",
+            "created": "2025-03-19T15:01:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T04:25:29.634388",
+            "content": "Carol Green current activity description: Proceed to Museum via Metro_2 to enjoy afternoon exhibits before meeting Stephanie Lewis. current status is Carol Green on the trip from Gym to Museum; trip trajectory: [('Ave_4_link_1', 'walk', 'Node_3'), ('Metro_2_link_5', 'ride', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6')];  currently traversing link Metro_2_link_3; planned path left: [('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Carol Green",
+                "Museum",
+                "Metro_2_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708035552109380,
+            "type": "chat",
+            "created": "2025-03-19T15:07:00",
+            "last_accessed": "2025-03-19T16:01:00",
+            "expiration": "2025-03-20T00:48:16.901153",
+            "content": "Carol Green and Stephanie Lewis coordinated plans to meet at the Museum entrance. Carol will arrive by 14:30 and wait for Stephanie, who will arrive around 16:00 via Metro_2.",
+            "keywords": [
+                "Carol Green",
+                "Stephanie Lewis",
+                "Museum",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708035615348576,
+            "type": "chat",
+            "created": "2025-03-19T15:07:00",
+            "last_accessed": "2025-03-19T16:01:00",
+            "expiration": "2025-03-20T04:35:51.512918",
+            "content": "Carol Green and Stephanie Lewis agreed to meet at the Museum entrance around 15:30. Carol is arriving via Metro_2 by 14:30 and will stay until approximately 16:00, while Stephanie is en route and expects to arrive by 16:00 as planned.",
+            "keywords": [
+                "Carol Green",
+                "Stephanie Lewis",
+                "Museum",
+                "Metro_2",
+                "15:30",
+                "14:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708035755209415,
+            "type": "event",
+            "created": "2025-03-19T15:16:00",
+            "last_accessed": "2025-03-20T14:29:00",
+            "expiration": "2025-03-21T10:17:34.810763",
+            "content": "Victoria Bell current activity description: Depart Factory via Metro_2 at 15:15 to reach Museum by 16:00 for meetup with Stephanie Lewis near entrance. current status is Victoria Bell on the trip from Factory to Museum; trip trajectory: []; currently at node Node_3; planned path left: [('Metro_2_link_5', 'ride', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Node_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708035812390430,
+            "type": "chat",
+            "created": "2025-03-19T15:16:00",
+            "last_accessed": "2025-03-19T15:16:00",
+            "expiration": "2025-03-20T00:03:16.901153",
+            "content": "Stephanie Lewis and Victoria Bell confirmed their plan to meet at the Museum entrance at 16:00. Stephanie is traveling from Supermarket via Metro_2, while Victoria is coming from Factory via Metro_2. Both expect to arrive on time.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Supermarket",
+                "Factory",
+                "Metro_2",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708035815487596,
+            "type": "chat",
+            "created": "2025-03-19T15:16:00",
+            "last_accessed": "2025-03-19T15:16:00",
+            "expiration": "2025-03-20T00:03:16.901153",
+            "content": "Carol Green and Stephanie Lewis confirmed their meetup at the Museum entrance at 16:00. Carol is already at the Museum and will stay until around 16:00, while Stephanie is en route via Metro_2 and expects no delays.",
+            "keywords": [
+                "Carol Green",
+                "Stephanie Lewis",
+                "Museum",
+                "Metro_2",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708040313570160,
+            "type": "chat",
+            "created": "2025-03-19T15:45:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T06:19:51.512918",
+            "content": "Carol Green and Stephanie Lewis confirmed meeting at Museum entrance around 16:00 before heading to Supermarket together. Carol is already at the Museum and will wait for Stephanie who is en route via Metro_2.",
+            "keywords": [
+                "Carol Green",
+                "Stephanie Lewis",
+                "Museum",
+                "Supermarket",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708040324575567,
+            "type": "chat",
+            "created": "2025-03-19T15:45:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-20T00:47:16.901153",
+            "content": "Carol Green is currently at the Museum and will remain there until approximately 16:00. Stephanie Lewis is traveling via Metro_2 and may receive an update from Carol later.",
+            "keywords": [
+                "Carol Green",
+                "Stephanie Lewis",
+                "Museum",
+                "Metro_2",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708040652722027,
+            "type": "event",
+            "created": "2025-03-19T16:00:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-22T18:59:52.143328",
+            "content": "Amusement park has wild fire this afternoon (2025-03-19).",
+            "keywords": [
+                "Amusement park",
+                "wild fire",
+                "afternoon"
+            ],
+            "spatial_scope": "Amusement park",
+            "time_scope": [
+                "12:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.9,
+            "embedding": null
+        },
+        {
+            "id": 708040653568169,
+            "type": "event",
+            "created": "2025-03-19T16:00:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T15:03:34.810763",
+            "content": "Carol Green current activity description: Proceed to Museum via Metro_2 to enjoy afternoon exhibits before meeting Stephanie Lewis. current status is Staying at facility Museum.",
+            "keywords": [
+                "Carol Green",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708040707352515,
+            "type": "thought",
+            "created": "2025-03-19T16:00:00",
+            "last_accessed": "2025-03-19T16:00:00",
+            "expiration": "2025-03-22T12:41:50.510024",
+            "content": "Museum visit during early afternoon typically less crowded",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708040836843776,
+            "type": "chat",
+            "created": "2025-03-19T16:01:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T06:19:51.512918",
+            "content": "Carol Green and Stephanie Lewis planned to meet at the Museum entrance at 16:00. After their brief meetup, Carol will return to the Hospital via Metro_2 before joining Oliver at the Supermarket. Stephanie will head to the Gym and later meet Victoria at the Amusement park.",
+            "keywords": [
+                "Carol Green",
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Hospital",
+                "Supermarket",
+                "Gym",
+                "Amusement park",
+                "16:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708042641735372,
+            "type": "event",
+            "created": "2025-03-19T17:09:00",
+            "last_accessed": "2025-03-19T17:09:00",
+            "expiration": "2025-03-20T05:34:29.634388",
+            "content": "Stephanie Lewis waits at Metro_2_link_2; start time is Wed 2025-03-19 17:01; wait time is 8 minutes",
+            "keywords": [
+                "wait",
+                "Metro_2_link_2"
+            ],
+            "spatial_scope": "Metro_2_link_2",
+            "time_scope": [
+                "17:01:00",
+                "17:09:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708043133655330,
+            "type": "thought",
+            "created": "2025-03-19T17:18:00",
+            "last_accessed": "2025-03-19T17:18:00",
+            "expiration": "2025-03-22T13:59:50.510024",
+            "content": "Museum less crowded in early afternoon",
+            "keywords": [
+                "Museum",
+                "crowded",
+                "early afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "16:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708043555230972,
+            "type": "event",
+            "created": "2025-03-19T17:27:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T15:03:34.810763",
+            "content": "Carol Green current activity description: Return to Hospital using Metro_2 from Museum to ensure punctuality for patient care responsibilities and\u4ea4\u63a5 with arriving colleagues. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708043613086595,
+            "type": "chat",
+            "created": "2025-03-19T17:27:00",
+            "last_accessed": "2025-03-19T17:27:00",
+            "expiration": "2025-03-20T06:01:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell coordinated their departure on Metro_2 from Museum to Factory to ensure arrival before 17:00. Both were at the Museum and planned to return to work at the Factory.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Factory",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708044128666711,
+            "type": "event",
+            "created": "2025-03-19T17:36:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T06:10:29.634388",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before returning home. current status is Carol Green on the trip from Hospital to Supermarket; trip trajectory: [('St_2_link_2', 'drive', 'Node_5')];  currently traversing link St_2_link_2; planned path left: [('Ave_2_link_2', 'drive', 'Node_6')];.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "St_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 708044554017955,
+            "type": "event",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T00:58:35.742705",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before returning home. current status is Carol Green on the trip from Hospital to Supermarket; trip trajectory: [('St_2_link_2', 'drive', 'Node_5'), ('Ave_2_link_2', 'drive', 'Node_6')];  currently traversing link Ave_2_link_2; planned path left: [];.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "Ave_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708044554890639,
+            "type": "event",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-20T18:48:00",
+            "expiration": "2025-03-21T14:36:34.810763",
+            "content": "Victoria Bell current activity description: Depart Factory via Metro_2 at 15:15 to reach Museum by 16:00 for meetup with Stephanie Lewis near entrance. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708044605441337,
+            "type": "thought",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-20T17:30:00",
+            "expiration": "2025-03-23T14:11:50.510024",
+            "content": "Museum visit coordination with Victoria Bell and Carol Green",
+            "keywords": [
+                "Museum",
+                "Victoria Bell",
+                "Carol Green",
+                "meetup"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "16:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708044606269710,
+            "type": "thought",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-23T11:00:24.553005",
+            "content": "Metro_2 reliable for mid-afternoon travel between Museum and Factory",
+            "keywords": [
+                "Metro_2",
+                "reliable transit",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708044653958188,
+            "type": "event",
+            "created": "2025-03-19T17:45:00",
+            "last_accessed": "2025-03-19T17:45:00",
+            "expiration": "2025-03-20T13:33:34.810763",
+            "content": "Stephanie Lewis travels from Museum to Factory by travel mode transit; start time is Wed 2025-03-19 17:00; trip time is 45 minutes",
+            "keywords": [
+                "Museum to Factory",
+                "transit"
+            ],
+            "spatial_scope": "Museum, Factory, Metro_2, Metro_2, Metro_2, Metro_2",
+            "time_scope": [
+                "17:00:00",
+                "17:45:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 708062422842818,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Metro_1 reliable during morning rush hour",
+            "keywords": [
+                "Metro_1",
+                "transit",
+                "commuting"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708062424091031,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Supermarket less crowded before 16:30",
+            "keywords": [
+                "Supermarket",
+                "shopping",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708062425425338,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Museum quieter in early afternoon",
+            "keywords": [
+                "Museum",
+                "visit",
+                "crowd pattern"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 708062426321032,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Proactive communication prevents coordination failures",
+            "keywords": [
+                "coordination",
+                "planning",
+                "communication"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 708062427452838,
+            "type": "thought",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-19T23:59:00",
+            "content": "Unexpected events require flexible backup plans",
+            "keywords": [
+                "flexibility",
+                "disruption",
+                "adaptation"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 708062428364495,
+            "type": "event",
+            "created": "2025-03-19T23:59:00",
+            "last_accessed": "2025-03-19T23:59:00",
+            "expiration": "2025-03-21T17:55:09.131897",
+            "content": "Stephanie Lewis failed to return home by end of day and was teleported home from Factory. This suggests poor time management or unexpected delays!",
+            "keywords": [
+                "failsafe",
+                "teleport",
+                "time management",
+                "end of day"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 709122510374647,
+            "type": "chat",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T14:01:00",
+            "expiration": "2025-03-21T08:04:10.492267",
+            "content": "Stephanie Lewis and Victoria Bell rescheduled their meetup from the Amusement park to the Museum due to yesterday's wildfire. They plan to meet at the Museum today at 14:30.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Amusement park",
+                "Museum",
+                "14:30",
+                "wildfire"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 709122520486098,
+            "type": "chat",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-20T08:47:16.901153",
+            "content": "Stephanie Lewis and Victoria Bell confirmed their meetup at the Museum today at 14:30.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "14:30"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709122552686391,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-21T10:48:17.115446",
+            "content": "Supermarket less crowded before 16:30",
+            "keywords": [
+                "Supermarket",
+                "crowded",
+                "16:30"
+            ],
+            "spatial_scope": [
+                "Supermarket"
+            ],
+            "time_scope": [
+                "15:00:00",
+                "16:30:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709122553593814,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-23T17:15:24.553005",
+            "content": "Proactive communication prevents coordination failures",
+            "keywords": [
+                "coordination",
+                "communication"
+            ],
+            "spatial_scope": [
+                "the town"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709122554364228,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-24T15:59:09.440007",
+            "content": "Unexpected events require flexible backup plans",
+            "keywords": [
+                "wildfire",
+                "flexible plans"
+            ],
+            "spatial_scope": [
+                "Amusement park"
+            ],
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 709122555142467,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-20T06:59:00",
+            "content": "Metro_1 reliable during morning rush hour",
+            "keywords": [
+                "Metro_1",
+                "rush hour"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709122555839059,
+            "type": "thought",
+            "created": "2025-03-20T00:00:00",
+            "last_accessed": "2025-03-20T00:00:00",
+            "expiration": "2025-03-20T06:59:00",
+            "content": "Museum quieter in early afternoon",
+            "keywords": [
+                "Museum",
+                "quiet"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "15:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709123740854712,
+            "type": "event",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-20T07:29:00",
+            "content": "Carol Green current activity description: Wake up at home and complete morning routine before heading to work. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Carol Green",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709123741676719,
+            "type": "event",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-20T07:29:00",
+            "content": "Victoria Bell current activity description: Wake up and complete morning routines including a light stretching session before leaving. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Victoria Bell",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709123752982084,
+            "type": "thought",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-24T00:15:24.553005",
+            "content": "Metro_1 reliable during morning rush hour",
+            "keywords": [
+                "Metro_1",
+                "transit",
+                "reliable"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709123753685437,
+            "type": "thought",
+            "created": "2025-03-20T07:00:00",
+            "last_accessed": "2025-03-20T07:00:00",
+            "expiration": "2025-03-21T17:48:17.115446",
+            "content": "Museum quieter in early afternoon",
+            "keywords": [
+                "Museum",
+                "less crowded"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "13:00:00",
+                "15:00:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709125153868976,
+            "type": "event",
+            "created": "2025-03-20T07:30:00",
+            "last_accessed": "2025-03-20T07:45:00",
+            "expiration": "2025-03-20T10:07:27.194665",
+            "content": "Carol Green current activity description: Wake up at home and complete morning routine before heading to work. current status is Staying at facility Midtown apartment.",
+            "keywords": [
+                "Carol Green",
+                "Midtown apartment",
+                "Midtown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709125154710223,
+            "type": "event",
+            "created": "2025-03-20T07:30:00",
+            "last_accessed": "2025-03-20T07:30:00",
+            "expiration": "2025-03-20T07:44:00",
+            "content": "Victoria Bell current activity description: Wake up and complete morning routines including a light stretching session before leaving. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Victoria Bell",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709125205138215,
+            "type": "thought",
+            "created": "2025-03-20T07:30:00",
+            "last_accessed": "2025-03-20T07:30:00",
+            "expiration": "2025-03-20T07:44:00",
+            "content": "St_1_link_2 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709125206237494,
+            "type": "thought",
+            "created": "2025-03-20T07:30:00",
+            "last_accessed": "2025-03-20T07:30:00",
+            "expiration": "2025-03-20T07:44:00",
+            "content": "Metro_1 reliable during peak hours",
+            "keywords": [
+                "Metro_1",
+                "transit",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709130738239397,
+            "type": "event",
+            "created": "2025-03-20T07:45:00",
+            "last_accessed": "2025-03-20T07:45:00",
+            "expiration": "2025-03-20T10:07:27.194665",
+            "content": "Victoria Bell current activity description: Wake up and complete morning routines including a light stretching session before leaving. current status is Staying at facility Uptown apartment.",
+            "keywords": [
+                "Victoria Bell",
+                "Uptown apartment",
+                "Uptown apartment"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709130737340590,
+            "type": "event",
+            "created": "2025-03-20T07:45:00",
+            "last_accessed": "2025-03-20T07:45:00",
+            "expiration": "2025-03-20T07:45:00",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Carol Green on the trip from Midtown apartment to Hospital; trip trajectory: [('St_1_link_1', 'walk', 'Node_9')];  currently traversing link St_1_link_1; planned path left: [];.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709130749197633,
+            "type": "thought",
+            "created": "2025-03-20T07:45:00",
+            "last_accessed": "2025-03-20T12:48:00",
+            "expiration": "2025-03-24T06:03:24.553005",
+            "content": "St_1_link_2 frequently congested during morning commute",
+            "keywords": [
+                "St_1_link_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "St_1_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709130750090187,
+            "type": "thought",
+            "created": "2025-03-20T07:45:00",
+            "last_accessed": "2025-03-20T07:45:00",
+            "expiration": "2025-03-24T01:00:24.553005",
+            "content": "Metro_1 reliable during peak hours",
+            "keywords": [
+                "Metro_1",
+                "reliable",
+                "peak hour"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709130905894456,
+            "type": "event",
+            "created": "2025-03-20T07:46:00",
+            "last_accessed": "2025-03-20T12:31:00",
+            "expiration": "2025-03-20T19:44:35.742705",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Carol Green on the trip from Midtown apartment to Hospital; trip trajectory: [('St_1_link_1', 'walk', 'Node_9')];  currently traversing link St_1_link_1; planned path left: [];.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "St_1_link_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709130906774762,
+            "type": "event",
+            "created": "2025-03-20T07:46:00",
+            "last_accessed": "2025-03-20T13:30:00",
+            "expiration": "2025-03-20T20:43:35.742705",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Victoria Bell on the trip from Uptown apartment to Factory; trip trajectory: []; currently at node Node_1; planned path left: [('Metro_2_link_1', 'ride', 'Node_12'), ('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_2_link_3', 'ride', 'Node_10'), ('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Node_1"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709132158006013,
+            "type": "event",
+            "created": "2025-03-20T07:59:00",
+            "last_accessed": "2025-03-20T07:59:00",
+            "expiration": "2025-03-20T08:07:00",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709132158989608,
+            "type": "event",
+            "created": "2025-03-20T07:59:00",
+            "last_accessed": "2025-03-20T13:30:00",
+            "expiration": "2025-03-21T09:18:34.810763",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Victoria Bell on the trip from Uptown apartment to Factory; trip trajectory: [('Metro_2_link_1', 'ride', 'Node_12')];  currently at node Node_12; planned path left: [('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_2_link_3', 'ride', 'Node_10'), ('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Node_12"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709132912641785,
+            "type": "event",
+            "created": "2025-03-20T08:08:00",
+            "last_accessed": "2025-03-20T13:30:00",
+            "expiration": "2025-03-20T20:43:35.742705",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Victoria Bell on the trip from Uptown apartment to Factory; trip trajectory: [('Metro_2_link_1', 'ride', 'Node_12'), ('Metro_2_link_2', 'ride', 'Node_6')];  currently at node Node_6; planned path left: [('Metro_2_link_3', 'ride', 'Node_10'), ('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Node_6"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709132911814837,
+            "type": "event",
+            "created": "2025-03-20T08:08:00",
+            "last_accessed": "2025-03-20T08:08:00",
+            "expiration": "2025-03-20T08:16:00",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709132926082549,
+            "type": "thought",
+            "created": "2025-03-20T08:08:00",
+            "last_accessed": "2025-03-20T08:08:00",
+            "expiration": "2025-03-24T01:23:24.553005",
+            "content": "Metro_1 reliable during morning rush hour",
+            "keywords": [
+                "transit",
+                "reliability",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709132926962853,
+            "type": "thought",
+            "created": "2025-03-20T08:08:00",
+            "last_accessed": "2025-03-20T08:08:00",
+            "expiration": "2025-03-24T01:23:24.553005",
+            "content": "Factory requires arrival before 8:00",
+            "keywords": [
+                "work",
+                "punctuality"
+            ],
+            "spatial_scope": [
+                "Factory"
+            ],
+            "time_scope": [
+                "07:45:00",
+                "08:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709132927768377,
+            "type": "thought",
+            "created": "2025-03-20T08:08:00",
+            "last_accessed": "2025-03-20T08:08:00",
+            "expiration": "2025-03-23T04:49:50.510024",
+            "content": "Gym visits effective during lunch break",
+            "keywords": [
+                "exercise",
+                "wellness",
+                "lunch"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709133528303150,
+            "type": "event",
+            "created": "2025-03-20T08:17:00",
+            "last_accessed": "2025-03-20T08:17:00",
+            "expiration": "2025-03-20T08:25:00",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709133529103986,
+            "type": "event",
+            "created": "2025-03-20T08:17:00",
+            "last_accessed": "2025-03-20T13:30:00",
+            "expiration": "2025-03-20T20:43:35.742705",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Victoria Bell on the trip from Uptown apartment to Factory; trip trajectory: [('Metro_2_link_1', 'ride', 'Node_12'), ('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_2_link_3', 'ride', 'Node_10')];  currently at node Node_10; planned path left: [('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Node_10"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709133541344474,
+            "type": "thought",
+            "created": "2025-03-20T08:17:00",
+            "last_accessed": "2025-03-20T08:17:00",
+            "expiration": "2025-03-23T04:58:50.510024",
+            "content": "Metro_2 experiences moderate congestion during morning commute on Ave_3_link_2",
+            "keywords": [
+                "Metro_2",
+                "congestion",
+                "morning"
+            ],
+            "spatial_scope": [
+                "Ave_3_link_2"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709133542584426,
+            "type": "thought",
+            "created": "2025-03-20T08:17:00",
+            "last_accessed": "2025-03-20T08:17:00",
+            "expiration": "2025-03-23T04:58:50.510024",
+            "content": "Node_10 to Node_11 travel time increases during peak hours",
+            "keywords": [
+                "Node_10",
+                "Node_11",
+                "peak hours"
+            ],
+            "spatial_scope": [
+                "Node_10",
+                "Node_11"
+            ],
+            "time_scope": [
+                "07:30:00",
+                "09:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709133545522990,
+            "type": "chat",
+            "created": "2025-03-20T08:17:00",
+            "last_accessed": "2025-03-20T14:18:00",
+            "expiration": "2025-03-20T23:05:16.901153",
+            "content": "Victoria Bell and Stephanie Lewis confirmed their travel plans to Factory. Stephanie is traveling via Metro_2 links from Node_10 without delays. Both plan to meet later at the Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Stephanie Lewis",
+                "Factory",
+                "Node_10",
+                "Metro_2",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709134319670074,
+            "type": "event",
+            "created": "2025-03-20T08:26:00",
+            "last_accessed": "2025-03-20T13:30:00",
+            "expiration": "2025-03-20T20:43:35.742705",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Victoria Bell on the trip from Uptown apartment to Factory; trip trajectory: [('Metro_2_link_1', 'ride', 'Node_12'), ('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_2_link_3', 'ride', 'Node_10'), ('Metro_2_link_4', 'ride', 'Node_11')];  currently at node Node_11; planned path left: [('Metro_2_link_5', 'ride', 'Node_3')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Node_11"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 709134318731774,
+            "type": "event",
+            "created": "2025-03-20T08:26:00",
+            "last_accessed": "2025-03-20T08:26:00",
+            "expiration": "2025-03-20T08:34:00",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 709134732825369,
+            "type": "event",
+            "created": "2025-03-20T08:35:00",
+            "last_accessed": "2025-03-20T08:35:00",
+            "expiration": "2025-03-20T10:57:27.194665",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Victoria Bell on the trip from Uptown apartment to Factory; trip trajectory: [('Metro_2_link_1', 'ride', 'Node_12'), ('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_2_link_3', 'ride', 'Node_10'), ('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3')];  currently at node Node_3; planned path left: [];.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Node_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709134731968515,
+            "type": "event",
+            "created": "2025-03-20T08:35:00",
+            "last_accessed": "2025-03-20T08:35:00",
+            "expiration": "2025-03-20T10:14:00",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709134747367214,
+            "type": "event",
+            "created": "2025-03-20T08:35:00",
+            "last_accessed": "2025-03-20T08:35:00",
+            "expiration": "2025-03-21T04:23:34.810763",
+            "content": "Stephanie Lewis travels from Midtown apartment to Factory by travel mode transit; start time is Thu 2025-03-20 07:45; trip time is 50 minutes",
+            "keywords": [
+                "Midtown apartment to Factory",
+                "transit"
+            ],
+            "spatial_scope": "Midtown apartment, Factory, Metro_1, Metro_1, Metro_2, Metro_2, Metro_2",
+            "time_scope": [
+                "07:45:00",
+                "08:35:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 709140339484526,
+            "type": "event",
+            "created": "2025-03-20T10:15:00",
+            "last_accessed": "2025-03-20T10:15:00",
+            "expiration": "2025-03-20T12:29:00",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Staying at facility Factory.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 709140338623666,
+            "type": "event",
+            "created": "2025-03-20T10:15:00",
+            "last_accessed": "2025-03-20T10:15:00",
+            "expiration": "2025-03-20T12:29:00",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 709140350974267,
+            "type": "thought",
+            "created": "2025-03-20T10:15:00",
+            "last_accessed": "2025-03-20T10:15:00",
+            "expiration": "2025-03-24T03:30:24.553005",
+            "content": "Metro_1 reliable during morning rush hour",
+            "keywords": [
+                "transit",
+                "reliability",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "09:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 709140351776527,
+            "type": "thought",
+            "created": "2025-03-20T10:15:00",
+            "last_accessed": "2025-03-20T10:15:00",
+            "expiration": "2025-03-24T03:30:24.553005",
+            "content": "Factory work hours require punctuality",
+            "keywords": [
+                "work schedule",
+                "Factory"
+            ],
+            "spatial_scope": [
+                "Factory"
+            ],
+            "time_scope": [
+                "08:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710011741633433,
+            "type": "event",
+            "created": "2025-03-20T12:30:00",
+            "last_accessed": "2025-03-20T12:30:00",
+            "expiration": "2025-03-20T12:30:00",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Staying at facility Factory.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710011740135329,
+            "type": "event",
+            "created": "2025-03-20T12:30:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T15:03:34.810763",
+            "content": "Carol Green current activity description: Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1. current status is Staying at facility Hospital.",
+            "keywords": [
+                "Carol Green",
+                "Hospital",
+                "Hospital"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710011909731064,
+            "type": "event",
+            "created": "2025-03-20T12:31:00",
+            "last_accessed": "2025-03-20T12:31:00",
+            "expiration": "2025-03-20T12:47:00",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Staying at facility Factory.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.1,
+            "embedding": null
+        },
+        {
+            "id": 710011908688953,
+            "type": "event",
+            "created": "2025-03-20T12:31:00",
+            "last_accessed": "2025-03-20T15:00:00",
+            "expiration": "2025-03-20T22:13:35.742705",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Carol Green on the trip from Hospital to Gym; trip trajectory: []; currently at node Node_9; planned path left: [('St_1_link_2', 'walk', 'Node_13')];.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Node_9"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710011922247628,
+            "type": "thought",
+            "created": "2025-03-20T12:31:00",
+            "last_accessed": "2025-03-20T12:31:00",
+            "expiration": "2025-03-23T09:12:50.510024",
+            "content": "Metro_2 reliable for midday travel",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "midday"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "14:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710011923413814,
+            "type": "thought",
+            "created": "2025-03-20T12:31:00",
+            "last_accessed": "2025-03-20T12:48:00",
+            "expiration": "2025-03-23T09:29:50.510024",
+            "content": "Gym less crowded during weekday lunch breaks",
+            "keywords": [
+                "Gym",
+                "weekday",
+                "lunch"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "13:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710012757333559,
+            "type": "event",
+            "created": "2025-03-20T12:48:00",
+            "last_accessed": "2025-03-20T15:00:00",
+            "expiration": "2025-03-20T22:13:35.742705",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Carol Green on the trip from Hospital to Gym; trip trajectory: [('St_1_link_2', 'walk', 'Node_13')];  currently traversing link St_1_link_2; planned path left: [];.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "St_1_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710012758517649,
+            "type": "event",
+            "created": "2025-03-20T12:48:00",
+            "last_accessed": "2025-03-20T12:48:00",
+            "expiration": "2025-03-20T13:29:00",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Staying at facility Factory.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710012907916406,
+            "type": "event",
+            "created": "2025-03-20T12:48:00",
+            "last_accessed": "2025-03-20T12:48:00",
+            "expiration": "2025-03-20T20:01:35.742705",
+            "content": "Stephanie Lewis travels from Factory to Gym by travel mode transit; start time is Thu 2025-03-20 12:30; trip time is 18 minutes",
+            "keywords": [
+                "Factory to Gym",
+                "transit"
+            ],
+            "spatial_scope": "Factory, Gym, Ave_4",
+            "time_scope": [
+                "12:30:00",
+                "12:48:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710014209618345,
+            "type": "event",
+            "created": "2025-03-20T13:30:00",
+            "last_accessed": "2025-03-20T13:30:00",
+            "expiration": "2025-03-20T20:43:35.742705",
+            "content": "Victoria Bell current activity description: Take the metro to Factory and begin work duties from 8:00\u201317:00; aim to arrive slightly earlier than usual to ensure readiness for safety training sessions scheduled today. current status is Staying at facility Factory.",
+            "keywords": [
+                "Victoria Bell",
+                "Factory",
+                "Factory"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710014208537233,
+            "type": "event",
+            "created": "2025-03-20T13:30:00",
+            "last_accessed": "2025-03-20T13:30:00",
+            "expiration": "2025-03-20T13:59:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710015102874468,
+            "type": "event",
+            "created": "2025-03-20T14:00:00",
+            "last_accessed": "2025-03-20T14:00:00",
+            "expiration": "2025-03-20T14:00:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710015104036721,
+            "type": "event",
+            "created": "2025-03-20T14:00:00",
+            "last_accessed": "2025-03-20T19:06:00",
+            "expiration": "2025-03-22T00:41:10.085385",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Victoria Bell on the trip from Factory to Museum; trip trajectory: [('Metro_2_link_5', 'ride', 'Node_11')]; currently waiting at link Metro_2_link_5; planned path left: [('Metro_2_link_5', 'ride', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Metro_2_link_5"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710015139649504,
+            "type": "event",
+            "created": "2025-03-20T14:01:00",
+            "last_accessed": "2025-03-20T14:01:00",
+            "expiration": "2025-03-20T14:17:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710015140852724,
+            "type": "event",
+            "created": "2025-03-20T14:01:00",
+            "last_accessed": "2025-03-20T18:31:00",
+            "expiration": "2025-03-21T14:19:34.810763",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Victoria Bell on the trip from Factory to Museum; trip trajectory: [('Metro_2_link_5', 'ride', 'Node_11')]; after waiting for 9 minutes, currently riding on Metro_2_link_5; planned path left: [('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Metro_2_link_5"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710015450489367,
+            "type": "event",
+            "created": "2025-03-20T14:18:00",
+            "last_accessed": "2025-03-20T14:18:00",
+            "expiration": "2025-03-20T14:28:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710015451412451,
+            "type": "event",
+            "created": "2025-03-20T14:18:00",
+            "last_accessed": "2025-03-20T18:48:00",
+            "expiration": "2025-03-21T14:36:34.810763",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Victoria Bell on the trip from Factory to Museum; trip trajectory: [('Metro_2_link_5', 'ride', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10')];  currently at node Node_10; planned path left: [('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Node_10"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710015553431068,
+            "type": "event",
+            "created": "2025-03-20T14:29:00",
+            "last_accessed": "2025-03-20T14:29:00",
+            "expiration": "2025-03-20T14:37:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710015554325555,
+            "type": "event",
+            "created": "2025-03-20T14:29:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T15:03:34.810763",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Victoria Bell on the trip from Factory to Museum; trip trajectory: [('Metro_2_link_5', 'ride', 'Node_11'), ('Metro_2_link_4', 'ride', 'Node_10'), ('Metro_2_link_3', 'ride', 'Node_6'), ('Metro_2_link_2', 'ride', 'Node_12')];  currently traversing link Metro_2_link_2; planned path left: [];.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Metro_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710015851972525,
+            "type": "event",
+            "created": "2025-03-20T14:38:00",
+            "last_accessed": "2025-03-20T14:38:00",
+            "expiration": "2025-03-20T14:46:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710015853026202,
+            "type": "event",
+            "created": "2025-03-20T14:38:00",
+            "last_accessed": "2025-03-20T14:38:00",
+            "expiration": "2025-03-20T14:46:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710015905545901,
+            "type": "thought",
+            "created": "2025-03-20T14:38:00",
+            "last_accessed": "2025-03-20T14:38:00",
+            "expiration": "2025-03-23T11:19:50.510024",
+            "content": "Metro_2 maintains consistent service during mid-afternoon hours",
+            "keywords": [
+                "transit",
+                "reliability",
+                "Metro_2"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "12:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710015906470782,
+            "type": "thought",
+            "created": "2025-03-20T14:38:00",
+            "last_accessed": "2025-03-20T14:38:00",
+            "expiration": "2025-03-23T11:19:50.510024",
+            "content": "Museum is less crowded in early afternoon",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "2PM"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "15:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020055316412,
+            "type": "event",
+            "created": "2025-03-20T14:47:00",
+            "last_accessed": "2025-03-20T14:47:00",
+            "expiration": "2025-03-20T14:55:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710020056365685,
+            "type": "event",
+            "created": "2025-03-20T14:47:00",
+            "last_accessed": "2025-03-20T14:47:00",
+            "expiration": "2025-03-20T14:55:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020106929861,
+            "type": "thought",
+            "created": "2025-03-20T14:47:00",
+            "last_accessed": "2025-03-20T14:47:00",
+            "expiration": "2025-03-23T11:28:50.510024",
+            "content": "Museum less crowded in early afternoon",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020107994391,
+            "type": "thought",
+            "created": "2025-03-20T14:47:00",
+            "last_accessed": "2025-03-20T14:47:00",
+            "expiration": "2025-03-22T17:15:23.106828",
+            "content": "Metro_2 maintains consistent service mid-afternoon",
+            "keywords": [
+                "Metro_2",
+                "transit",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 710020147109757,
+            "type": "event",
+            "created": "2025-03-20T14:56:00",
+            "last_accessed": "2025-03-20T14:56:00",
+            "expiration": "2025-03-20T14:59:00",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710020147998485,
+            "type": "event",
+            "created": "2025-03-20T14:56:00",
+            "last_accessed": "2025-03-20T14:56:00",
+            "expiration": "2025-03-20T14:59:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020200428997,
+            "type": "thought",
+            "created": "2025-03-20T14:56:00",
+            "last_accessed": "2025-03-20T14:56:00",
+            "expiration": "2025-03-20T14:59:00",
+            "content": "Museum less crowded during early afternoon hours",
+            "keywords": [
+                "Museum",
+                "crowd-pattern",
+                "early-afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020201349817,
+            "type": "thought",
+            "created": "2025-03-20T14:56:00",
+            "last_accessed": "2025-03-20T14:56:00",
+            "expiration": "2025-03-20T14:59:00",
+            "content": "Metro_2 maintains consistent service throughout the day",
+            "keywords": [
+                "Metro_2",
+                "reliable-transit"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020202547112,
+            "type": "event",
+            "created": "2025-03-20T14:56:00",
+            "last_accessed": "2025-03-20T14:56:00",
+            "expiration": "2025-03-21T10:44:34.810763",
+            "content": "Stephanie Lewis travels from Gym to Museum by travel mode transit; start time is Thu 2025-03-20 14:00; trip time is 56 minutes",
+            "keywords": [
+                "Gym to Museum",
+                "transit"
+            ],
+            "spatial_scope": "Gym, Museum, Ave_4, Metro_2, Metro_2, Metro_2, Metro_2",
+            "time_scope": [
+                "14:00:00",
+                "14:56:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020221745256,
+            "type": "event",
+            "created": "2025-03-20T15:00:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T02:28:35.742705",
+            "content": "Carol Green current activity description: Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit. current status is Staying at facility Gym.",
+            "keywords": [
+                "Carol Green",
+                "Gym",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710020222762061,
+            "type": "event",
+            "created": "2025-03-20T15:00:00",
+            "last_accessed": "2025-03-20T15:00:00",
+            "expiration": "2025-03-20T15:59:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020236877745,
+            "type": "thought",
+            "created": "2025-03-20T15:00:00",
+            "last_accessed": "2025-03-20T15:00:00",
+            "expiration": "2025-03-20T16:29:00",
+            "content": "Museum less crowded during early afternoon hours",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710020237794206,
+            "type": "thought",
+            "created": "2025-03-20T15:00:00",
+            "last_accessed": "2025-03-20T15:00:00",
+            "expiration": "2025-03-24T08:15:24.553005",
+            "content": "Metro_2 maintains consistent service throughout the day",
+            "keywords": [
+                "Metro_2",
+                "service",
+                "reliability"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710021331327499,
+            "type": "event",
+            "created": "2025-03-20T16:00:00",
+            "last_accessed": "2025-03-20T16:00:00",
+            "expiration": "2025-03-20T16:29:00",
+            "content": "Carol Green current activity description: Travel via Metro_2 from Gym to Museum to join Stephanie Lewis and explore afternoon exhibits before continuing with the day's plans. current status is Staying at facility Museum.",
+            "keywords": [
+                "Carol Green",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710021332512767,
+            "type": "event",
+            "created": "2025-03-20T16:00:00",
+            "last_accessed": "2025-03-20T16:00:00",
+            "expiration": "2025-03-20T16:29:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710024319863708,
+            "type": "event",
+            "created": "2025-03-20T16:30:00",
+            "last_accessed": "2025-03-20T16:30:00",
+            "expiration": "2025-03-20T17:29:00",
+            "content": "Carol Green current activity description: Travel via Metro_2 from Gym to Museum to join Stephanie Lewis and explore afternoon exhibits before continuing with the day's plans. current status is Staying at facility Museum.",
+            "keywords": [
+                "Carol Green",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710024320887350,
+            "type": "event",
+            "created": "2025-03-20T16:30:00",
+            "last_accessed": "2025-03-20T16:30:00",
+            "expiration": "2025-03-20T17:29:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710024337430583,
+            "type": "thought",
+            "created": "2025-03-20T16:30:00",
+            "last_accessed": "2025-03-20T16:30:00",
+            "expiration": "2025-03-20T17:29:00",
+            "content": "Museum less crowded during early afternoon hours",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "17:00:00"
+            ],
+            "importance": 0.4,
+            "embedding": null
+        },
+        {
+            "id": 710024338213287,
+            "type": "thought",
+            "created": "2025-03-20T16:30:00",
+            "last_accessed": "2025-03-20T16:30:00",
+            "expiration": "2025-03-20T17:29:00",
+            "content": "Gym less crowded after 18:00",
+            "keywords": [
+                "Gym",
+                "crowd",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710030352537471,
+            "type": "event",
+            "created": "2025-03-20T17:30:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T02:28:35.742705",
+            "content": "Carol Green current activity description: Travel via Metro_2 from Gym to Museum to join Stephanie Lewis and explore afternoon exhibits before continuing with the day's plans. current status is Staying at facility Museum.",
+            "keywords": [
+                "Carol Green",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710030353527523,
+            "type": "event",
+            "created": "2025-03-20T17:30:00",
+            "last_accessed": "2025-03-20T17:30:00",
+            "expiration": "2025-03-20T17:59:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710030408166476,
+            "type": "thought",
+            "created": "2025-03-20T17:30:00",
+            "last_accessed": "2025-03-20T17:30:00",
+            "expiration": "2025-03-23T14:11:50.510024",
+            "content": "Museum less crowded during early afternoon hours",
+            "keywords": [
+                "Museum",
+                "crowd",
+                "afternoon"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710030409031000,
+            "type": "thought",
+            "created": "2025-03-20T17:30:00",
+            "last_accessed": "2025-03-20T17:30:00",
+            "expiration": "2025-03-23T14:11:50.510024",
+            "content": "Gym less crowded after 18:00",
+            "keywords": [
+                "Gym",
+                "crowd",
+                "6PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710033055708230,
+            "type": "event",
+            "created": "2025-03-20T18:00:00",
+            "last_accessed": "2025-03-20T18:00:00",
+            "expiration": "2025-03-20T18:29:00",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710033056529767,
+            "type": "event",
+            "created": "2025-03-20T18:00:00",
+            "last_accessed": "2025-03-20T18:00:00",
+            "expiration": "2025-03-20T18:29:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710033112112603,
+            "type": "thought",
+            "created": "2025-03-20T18:00:00",
+            "last_accessed": "2025-03-20T18:00:00",
+            "expiration": "2025-03-20T18:29:00",
+            "content": "Gym less crowded before 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710034939703396,
+            "type": "event",
+            "created": "2025-03-20T18:30:00",
+            "last_accessed": "2025-03-20T18:30:00",
+            "expiration": "2025-03-20T18:30:00",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710034940688067,
+            "type": "event",
+            "created": "2025-03-20T18:30:00",
+            "last_accessed": "2025-03-20T18:30:00",
+            "expiration": "2025-03-20T18:30:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710034955276921,
+            "type": "thought",
+            "created": "2025-03-20T18:30:00",
+            "last_accessed": "2025-03-20T18:30:00",
+            "expiration": "2025-03-20T18:30:00",
+            "content": "Gym less crowded before 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710035105239769,
+            "type": "event",
+            "created": "2025-03-20T18:31:00",
+            "last_accessed": "2025-03-20T18:31:00",
+            "expiration": "2025-03-20T18:47:00",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710035106194029,
+            "type": "event",
+            "created": "2025-03-20T18:31:00",
+            "last_accessed": "2025-03-20T18:31:00",
+            "expiration": "2025-03-20T18:47:00",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710035126961680,
+            "type": "chat",
+            "created": "2025-03-20T18:31:00",
+            "last_accessed": "2025-03-20T18:31:00",
+            "expiration": "2025-03-21T03:18:16.901153",
+            "content": "Stephanie Lewis and Victoria Bell planned to leave the Museum immediately to arrive at the Gym by 19:00 for an evening workout session. They will take Metro_2 from Node_12 to Node_13 to avoid peak congestion and ensure timely arrival.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Gym",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710035140657676,
+            "type": "chat",
+            "created": "2025-03-20T18:31:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T13:18:10.492267",
+            "content": "Stephanie Lewis and Victoria Bell decided to leave the Museum immediately to reach the Gym by 19:00, aiming to avoid the expected crowd due to its current 87.5% occupancy. They plan to travel via Metro_2.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Gym",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 710035155891951,
+            "type": "chat",
+            "created": "2025-03-20T18:31:00",
+            "last_accessed": "2025-03-20T18:55:00",
+            "expiration": "2025-03-21T07:29:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell planned to travel to the Gym via Metro_2 departing from Museum to arrive at Node_13 by 19:00 to avoid crowds.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Gym",
+                "Museum",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710035206846403,
+            "type": "thought",
+            "created": "2025-03-20T18:31:00",
+            "last_accessed": "2025-03-20T18:31:00",
+            "expiration": "2025-03-20T18:47:00",
+            "content": "Gym less crowded before 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710035651069694,
+            "type": "event",
+            "created": "2025-03-20T18:39:00",
+            "last_accessed": "2025-03-20T18:39:00",
+            "expiration": "2025-03-21T01:52:35.742705",
+            "content": "Stephanie Lewis waits at Metro_2_link_2; start time is Thu 2025-03-20 18:31; wait time is 8 minutes",
+            "keywords": [
+                "wait",
+                "Metro_2_link_2"
+            ],
+            "spatial_scope": "Metro_2_link_2",
+            "time_scope": [
+                "18:31:00",
+                "18:39:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710040219741841,
+            "type": "event",
+            "created": "2025-03-20T18:48:00",
+            "last_accessed": "2025-03-20T18:48:00",
+            "expiration": "2025-03-20T19:05:00",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710040220591183,
+            "type": "event",
+            "created": "2025-03-20T18:48:00",
+            "last_accessed": "2025-03-20T18:48:00",
+            "expiration": "2025-03-21T14:36:34.810763",
+            "content": "Victoria Bell current activity description: Meet Stephanie Lewis at Museum as agreed via chat; arrive by 14:30 to explore exhibits and enjoy an early evening cultural outing while avoiding expected congestion at Coffee shop. current status is Staying at facility Museum.",
+            "keywords": [
+                "Victoria Bell",
+                "Museum",
+                "Museum"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710040237096355,
+            "type": "chat",
+            "created": "2025-03-20T18:48:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T13:18:10.492267",
+            "content": "Stephanie Lewis and Victoria Bell agreed to leave immediately via Metro_2 to reach the Gym by 19:00 and avoid overcrowding. Both are coordinating their departure to ensure timely arrival at the Gym.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Gym",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 710040254833775,
+            "type": "chat",
+            "created": "2025-03-20T18:48:00",
+            "last_accessed": "2025-03-20T18:55:00",
+            "expiration": "2025-03-21T07:29:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell confirmed plans to travel together via Metro_2 from Museum to Gym, aiming to arrive by 19:00 for a workout session before the facility gets crowded.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Museum",
+                "Gym",
+                "Metro_2",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710040310325624,
+            "type": "thought",
+            "created": "2025-03-20T18:48:00",
+            "last_accessed": "2025-03-20T18:48:00",
+            "expiration": "2025-03-23T15:29:50.510024",
+            "content": "Gym less crowded before 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:30:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710040419078774,
+            "type": "chat",
+            "created": "2025-03-20T18:50:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T13:18:10.492267",
+            "content": "Victoria Bell and Stephanie Lewis confirmed their plan to go to Gym via Metro_2 despite current full occupancy. Victoria will take Metro_2_link_3 toward Node_6 to meet Stephanie, who is traveling on Metro_1_link_2 toward Node_5 and will transfer to Metro_2_link_2 at Node_6. They aim to arrive at Gym by 19:00.",
+            "keywords": [
+                "Victoria Bell",
+                "Stephanie Lewis",
+                "Gym",
+                "Metro_1_link_2",
+                "Metro_2_link_2",
+                "Node_6",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.7,
+            "embedding": null
+        },
+        {
+            "id": 710040627159768,
+            "type": "chat",
+            "created": "2025-03-20T18:55:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T07:49:51.512918",
+            "content": "Victoria Bell and Stephanie Lewis confirmed their plan to meet at Node_6 by 19:00 to go to the Gym despite the current capacity issues. Stephanie is traveling via Metro_2_link_2, while Victoria is taking Metro_2_link_3.",
+            "keywords": [
+                "Victoria Bell",
+                "Stephanie Lewis",
+                "Node_6",
+                "Metro_2_link_2",
+                "Metro_2_link_3",
+                "Gym"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710040740078613,
+            "type": "event",
+            "created": "2025-03-20T18:57:00",
+            "last_accessed": "2025-03-20T18:57:00",
+            "expiration": "2025-03-21T02:10:35.742705",
+            "content": "Stephanie Lewis waits at Metro_1_link_2; start time is Thu 2025-03-20 18:48; wait time is 9 minutes",
+            "keywords": [
+                "wait",
+                "Metro_1_link_2"
+            ],
+            "spatial_scope": "Metro_1_link_2",
+            "time_scope": [
+                "18:48:00",
+                "18:57:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710041229519457,
+            "type": "event",
+            "created": "2025-03-20T19:06:00",
+            "last_accessed": "2025-03-20T19:06:00",
+            "expiration": "2025-03-20T19:14:00",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710041230381622,
+            "type": "event",
+            "created": "2025-03-20T19:06:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T15:03:34.810763",
+            "content": "Victoria Bell current activity description: Travel with Stephanie Lewis via Metro_2 to Gym, departing immediately to arrive by 19:00 despite Gym being at full capacity. current status is Victoria Bell on the trip from Museum to Gym; trip trajectory: [('Metro_2_link_2', 'ride', 'Node_6')];  currently traversing link Metro_2_link_2; planned path left: [('Metro_2_link_3', 'ride', 'Node_10'), ('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3'), ('Ave_4_link_1', 'walk', 'Node_13')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Gym",
+                "Metro_2_link_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041249438624,
+            "type": "chat",
+            "created": "2025-03-20T19:06:00",
+            "last_accessed": "2025-03-20T19:06:00",
+            "expiration": "2025-03-21T07:40:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell plan to meet at Node_6 by 19:00 before proceeding to the Gym. If the Gym is at full capacity, they will take a short walk around Node_13 and reassess availability.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Node_6",
+                "Node_13",
+                "Gym",
+                "Coffee shop",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710041308055470,
+            "type": "chat",
+            "created": "2025-03-20T19:06:00",
+            "last_accessed": "2025-03-20T19:06:00",
+            "expiration": "2025-03-21T07:40:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell agreed to meet at Node_6 by 19:00. They will take a short walk around Node_13 while waiting for Gym capacity to improve, before reassessing availability at Gym.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Node_6",
+                "Node_13",
+                "Gym",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710041322156486,
+            "type": "chat",
+            "created": "2025-03-20T19:06:00",
+            "last_accessed": "2025-03-20T19:06:00",
+            "expiration": "2025-03-21T03:53:16.901153",
+            "content": "Stephanie Lewis and Victoria Bell planned to meet at Node_6 by 19:00 to walk around Node_13 while waiting for the Gym to clear, due to the Gym being at full capacity.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Node_6",
+                "Node_13",
+                "Gym",
+                "19:00"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041544661638,
+            "type": "event",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T02:28:35.742705",
+            "content": "Carol Green current activity description: Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema. current status is Staying at facility Supermarket.",
+            "keywords": [
+                "Carol Green",
+                "Supermarket",
+                "Supermarket"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710041545490720,
+            "type": "event",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T02:28:35.742705",
+            "content": "Victoria Bell current activity description: Continue traveling via Metro_2 to Gym; arrive by 19:00 even though Stephanie Lewis is no longer joining due to her early departure. current status is Victoria Bell on the trip from Museum to Gym; trip trajectory: [('Metro_2_link_2', 'ride', 'Node_6'), ('Metro_2_link_3', 'ride', 'Node_10')];  currently traversing link Metro_2_link_3; planned path left: [('Metro_2_link_4', 'ride', 'Node_11'), ('Metro_2_link_5', 'ride', 'Node_3'), ('Ave_4_link_1', 'walk', 'Node_13')];.",
+            "keywords": [
+                "Victoria Bell",
+                "Gym",
+                "Metro_2_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710041600656077,
+            "type": "chat",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T07:49:51.512918",
+            "content": "Stephanie Lewis and Victoria Bell planned to meet at Node_6 by 19:00 before reassessing Gym availability. Both are using Metro_2 and will take a short walk around Node_13 after meeting.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Node_6",
+                "Node_13",
+                "Gym",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710041618307069,
+            "type": "chat",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T04:02:16.901153",
+            "content": "Stephanie Lewis and Victoria Bell are en route via Metro_2 to meet at Node_6 by 19:00. After regrouping, they plan to take a short walk around Node_13 before reassessing the Gym's capacity, which is currently at 100%.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Node_6",
+                "Node_13",
+                "Gym",
+                "Metro_2"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041640078864,
+            "type": "chat",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T04:02:16.901153",
+            "content": "Stephanie Lewis and Victoria Bell confirmed their plan to meet at Node_6 by 19:00. After arriving separately via Metro, they will take a short walk around Node_13 to reassess the Gym's availability, which is currently at full capacity.",
+            "keywords": [
+                "Stephanie Lewis",
+                "Victoria Bell",
+                "Node_6",
+                "Node_13",
+                "Gym",
+                "Metro_2_link_2",
+                "Metro_2_link_3"
+            ],
+            "spatial_scope": null,
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041649781717,
+            "type": "thought",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-23T15:56:50.510024",
+            "content": "Gym reaches full capacity consistently after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "7PM"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710041650789072,
+            "type": "thought",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-24T12:30:24.553005",
+            "content": "Metro_2 provides reliable evening connections between Museum and residential areas",
+            "keywords": [
+                "Metro_2",
+                "reliable",
+                "evening"
+            ],
+            "spatial_scope": [
+                "Metro_2"
+            ],
+            "time_scope": [
+                "18:00:00",
+                "20:00:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710041652006884,
+            "type": "event",
+            "created": "2025-03-20T19:15:00",
+            "last_accessed": "2025-03-20T19:15:00",
+            "expiration": "2025-03-21T02:28:35.742705",
+            "content": "Stephanie Lewis travels from Museum to Midtown apartment by travel mode transit; start time is Thu 2025-03-20 18:48; trip time is 27 minutes",
+            "keywords": [
+                "Museum to Midtown apartment",
+                "transit"
+            ],
+            "spatial_scope": "Museum, Midtown apartment, Metro_2, Metro_1, Metro_1",
+            "time_scope": [
+                "18:48:00",
+                "19:15:00"
+            ],
+            "importance": 0.3,
+            "embedding": null
+        },
+        {
+            "id": 710045648245261,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-24T17:14:24.553005",
+            "content": "Metro_1 is reliable during morning rush hour",
+            "keywords": [
+                "Metro_1",
+                "transit",
+                "morning commute"
+            ],
+            "spatial_scope": [
+                "Metro_1"
+            ],
+            "time_scope": [
+                "07:00:00",
+                "08:30:00"
+            ],
+            "importance": 0.6,
+            "embedding": null
+        },
+        {
+            "id": 710045649457285,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Gym reaches full capacity after 19:00",
+            "keywords": [
+                "Gym",
+                "crowded",
+                "19:00"
+            ],
+            "spatial_scope": [
+                "Gym"
+            ],
+            "time_scope": [
+                "19:00:00",
+                "21:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045650379214,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Museum less crowded in early afternoon",
+            "keywords": [
+                "Museum",
+                "visit",
+                "timing"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": [
+                "14:00:00",
+                "16:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045651524031,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Adjust departure time based on real-time gym occupancy",
+            "keywords": [
+                "Gym",
+                "flexibility",
+                "scheduling"
+            ],
+            "spatial_scope": [
+                "Gym",
+                "Museum"
+            ],
+            "time_scope": [
+                "18:30:00",
+                "19:00:00"
+            ],
+            "importance": 0.5,
+            "embedding": null
+        },
+        {
+            "id": 710045652317722,
+            "type": "thought",
+            "created": "2025-03-20T23:59:00",
+            "last_accessed": "2025-03-20T23:59:00",
+            "expiration": "2025-03-23T20:40:50.510024",
+            "content": "Spontaneous social coordination enhances community connection",
+            "keywords": [
+                "social",
+                "museum",
+                "coordination"
+            ],
+            "spatial_scope": [
+                "Museum"
+            ],
+            "time_scope": null,
+            "importance": 0.5,
+            "embedding": null
+        }
+    ]
+}

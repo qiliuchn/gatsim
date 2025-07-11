@@ -205,7 +205,7 @@ def perceive(persona, maze, population, save_memories=True):
     # must be new;
     # we just returned it as description string.
     if not new_day:
-        network_traffic_state_description = maze.get_road_congestion_info()
+        network_traffic_state_description = maze.get_congestion_info()
     else:
         network_traffic_state_description = ""
     

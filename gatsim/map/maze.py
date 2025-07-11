@@ -1025,7 +1025,7 @@ class Maze:
                 # Calculate wait time using the formula: (queue_length / realtime_capacity) * travel_time
                 if capacity > 0 and queue_length > 0:
                     wait_time = int((queue_length / capacity + 0.5) * base_travel_time)    
-                    # 0.5 * travel time component is for the expected traversal time left
+                    # 0.5 * travel time component is for the expected traversal time left for the people already being served
                     # Apply a reasonable upper bound to prevent extremely long wait times
                     wait_time = min(wait_time, base_travel_time * 5)  # Max 5x base travel time
                 else:
@@ -1743,9 +1743,10 @@ There are {self.num_facilities} facilities serving various urban functions locat
     
     
 
-    def get_road_congestion_info(self):
+    def get_congestion_info(self):
         """Return a string describing the congestion information (wait time) of all road links."""
-        result = "Road Congestion Information (Wait Times):\n"
+        # === road congestion ===
+        result = "Road Congestion Information (Wait Time in Minutes):\n"
         #result += "=" * 50 + "\n"
         
         # Get all road links
@@ -1835,6 +1836,111 @@ There are {self.num_facilities} facilities serving various urban functions locat
             overall_avg = total_wait_time / total_directions
             result += f"\n- Overall average wait time across all directions: {overall_avg:.2f} min"
         
+        
+        # === facility congestion info ===
+        # Also add facility congestion info to the results
+        home_facilities = ['Uptown apartment', 'Midtown apartment', 'School', 'Office', 'Factory']  # home has no congestion
+        result += "\n\n\n"
+        result += "FACILITY CONGESTION (Wait Times in Minutes):\n"
+        #result += "-" * 30 + "\n"
+        
+        if not self.facilities_info:
+            result += "No facilities found in the network.\n"
+        else:
+            # Prepare facility congestion data
+            facility_congestion_data = []
+            
+            for facility_name, facility_data in self.facilities_info.items():
+                if facility_name in home_facilities:
+                    # home has no congestion
+                    continue
+                wait_time = facility_data.get('wait_time', 0)
+                capacity = facility_data.get('realtime_capacity', facility_data.get('base_capacity', 0))
+                queue_length = len(facility_data.get('waiting', []))
+                occupancy = len(facility_data.get('staying', []))
+                
+                # Calculate occupancy rate
+                occupancy_rate = (occupancy / capacity * 100) if capacity > 0 else 0
+                
+                facility_congestion_data.append({
+                    'name': facility_name,
+                    'wait_time': wait_time,
+                    'capacity': capacity,
+                    'queue_length': queue_length,
+                    'occupancy': occupancy,
+                    'occupancy_rate': occupancy_rate,
+                    'node': self.facility2node.get(facility_name, 'Unknown')
+                })
+            
+            # Sort by wait time (highest first) to highlight congestion
+            facility_congestion_data.sort(key=lambda x: x['wait_time'], reverse=True)
+            
+            # Group facilities by congestion level
+            severe_facility_congestion = []
+            moderate_facility_congestion = []
+            light_facility_congestion = []
+            no_facility_congestion = []
+            
+            for facility_info in facility_congestion_data:
+                facility_str = (f"{facility_info['name']} (at {facility_info['node']}): "
+                            f"Wait Time: {facility_info['wait_time']} min, "
+                            f"Queue: {facility_info['queue_length']}, "
+                            f"Occupancy: {facility_info['occupancy']}/{facility_info['capacity']} "
+                            f"({facility_info['occupancy_rate']:.1f}%)")
+                
+                if facility_info['wait_time'] >= 60:
+                    severe_facility_congestion.append(facility_str)
+                elif facility_info['wait_time'] >= 30:
+                    moderate_facility_congestion.append(facility_str)
+                elif facility_info['wait_time'] > 0:
+                    light_facility_congestion.append(facility_str)
+                else:
+                    no_facility_congestion.append(facility_str)
+            
+            # Add facility congestion groups to result
+            if severe_facility_congestion:
+                result += "\nSevere Facility Congestion (≥ 60 min):\n"
+                result += "\n".join(severe_facility_congestion) + "\n"
+            
+            if moderate_facility_congestion:
+                result += "\nModerate Facility Congestion (30-60 min):\n"
+                result += "\n".join(moderate_facility_congestion) + "\n"
+            
+            if light_facility_congestion:
+                result += "\nLight Facility Congestion (1-30 min):\n"
+                result += "\n".join(light_facility_congestion) + "\n"
+            
+            if no_facility_congestion:
+                result += "\nNo Facility Congestion (0 min):\n"
+                result += "\n".join(no_facility_congestion) + "\n"
+            
+            # Add facility summary statistics
+            result += "\nFacility Summary:\n"
+            result += f"- Total facilities: {len(self.facilities_info)}\n"
+            result += f"- Facilities with severe congestion: {len(severe_facility_congestion)}\n"
+            result += f"- Facilities with moderate congestion: {len(moderate_facility_congestion)}\n"
+            result += f"- Facilities with light congestion: {len(light_facility_congestion)}\n"
+            result += f"- Facilities with no congestion: {len(no_facility_congestion)}\n"
+            
+            # Calculate average wait time for all facilities
+            if facility_congestion_data:
+                avg_facility_wait = sum(item['wait_time'] for item in facility_congestion_data) / len(facility_congestion_data)
+                result += f"- Average facility wait time: {avg_facility_wait:.2f} min\n"
+                
+                # Calculate average occupancy rate
+                avg_occupancy = sum(item['occupancy_rate'] for item in facility_congestion_data) / len(facility_congestion_data)
+                result += f"- Average facility occupancy rate: {avg_occupancy:.1f}%\n"
+                
+                # Find most congested facility
+                most_congested = max(facility_congestion_data, key=lambda x: x['wait_time'])
+                if most_congested['wait_time'] > 0:
+                    result += f"- Most congested facility: {most_congested['name']} ({most_congested['wait_time']} min wait)\n"
+                
+                # Find most crowded facility by occupancy rate
+                most_crowded = max(facility_congestion_data, key=lambda x: x['occupancy_rate'])
+                if most_crowded['occupancy_rate'] > 0:
+                    result += f"- Most crowded facility: {most_crowded['name']} ({most_crowded['occupancy_rate']:.1f}% occupancy)\n"
+                
         return result
 
 
@@ -2727,7 +2833,7 @@ if __name__ == "__main__":
     
     # Test 4: Get road congestion
     print("\n=== TEST 4: Get road congestion ===")
-    print(maze.get_road_congestion_info())
+    print(maze.get_congestion_info())
     
     # Test 5: convert path format
     print("\n=== TEST 5: Convert path format ===")

@@ -1,0 +1,895 @@
+{
+    "meta": {
+        "curr_time": "2025-03-18 08:26:00"
+    },
+    "mobility_events": {
+        "Isabella Rodriguez": {
+            "name": "Isabella Rodriguez",
+            "place": "Gym",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:31:00",
+            "description": "Staying at Gym",
+            "coord": [
+                25,
+                38
+            ]
+        },
+        "Harry Campbell": {
+            "name": "Harry Campbell",
+            "place": "Ave_2_link_1",
+            "next_node": "Node_5",
+            "status": "driving",
+            "start_time": "2025-03-18 08:21:00",
+            "description": "going to Factory",
+            "coord": [
+                2.0,
+                18.0
+            ]
+        },
+        "Maria Lopez": {
+            "name": "Maria Lopez",
+            "place": "Hospital",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:50:00",
+            "description": "Staying at Hospital",
+            "coord": [
+                13,
+                33
+            ]
+        },
+        "Benjamin Taylor": {
+            "name": "Benjamin Taylor",
+            "place": "Gym",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:13:00",
+            "description": "Staying at Gym",
+            "coord": [
+                25,
+                38
+            ]
+        },
+        "Catherine Young": {
+            "name": "Catherine Young",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:13:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Linda Parker": {
+            "name": "Linda Parker",
+            "place": "Ave_2_link_3",
+            "next_node": "Node_7",
+            "status": "driving",
+            "start_time": "2025-03-18 08:19:00",
+            "description": "going to Office",
+            "coord": [
+                25.0,
+                18.0
+            ]
+        },
+        "Brian Carter": {
+            "name": "Brian Carter",
+            "place": "Food court",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:58:00",
+            "description": "Staying at Food court",
+            "coord": [
+                36,
+                16
+            ]
+        },
+        "Christopher Evans": {
+            "name": "Christopher Evans",
+            "place": "Gym",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:31:00",
+            "description": "Staying at Gym",
+            "coord": [
+                25,
+                38
+            ]
+        },
+        "Andrew Miller": {
+            "name": "Andrew Miller",
+            "place": "Node_13",
+            "next_node": null,
+            "status": "waiting",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "going to Factory",
+            "coord": [
+                24,
+                40
+            ]
+        },
+        "Jessica Adams": {
+            "name": "Jessica Adams",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:23:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Anthony Brown": {
+            "name": "Anthony Brown",
+            "place": "Gym",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "Staying at Gym",
+            "coord": [
+                25,
+                38
+            ]
+        },
+        "Stephanie Lewis": {
+            "name": "Stephanie Lewis",
+            "place": "Metro_1_link_2",
+            "next_node": "Node_6",
+            "status": "riding",
+            "start_time": "2025-03-18 08:19:00",
+            "description": "going to Factory",
+            "coord": [
+                14.0,
+                18.0
+            ]
+        },
+        "Miguel Garcia": {
+            "name": "Miguel Garcia",
+            "place": "St_5_link_1",
+            "next_node": "Node_8",
+            "status": "driving",
+            "start_time": "2025-03-18 08:08:00",
+            "description": "going to Amusement park",
+            "coord": [
+                25.0,
+                6.0
+            ]
+        },
+        "Nina Scott": {
+            "name": "Nina Scott",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:16:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "George Wright": {
+            "name": "George Wright",
+            "place": "Node_8",
+            "next_node": null,
+            "status": "waiting",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "going to Office",
+            "coord": [
+                48,
+                18
+            ]
+        },
+        "Helen Jones": {
+            "name": "Helen Jones",
+            "place": "Metro_2_link_1",
+            "next_node": "Node_12",
+            "status": "riding",
+            "start_time": "2025-03-18 08:20:00",
+            "description": "going to Museum",
+            "coord": [
+                14.0,
+                6.0
+            ]
+        },
+        "Raymond Foster": {
+            "name": "Raymond Foster",
+            "place": "Factory",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:51:00",
+            "description": "Staying at Factory",
+            "coord": [
+                36,
+                43
+            ]
+        },
+        "Victoria Bell": {
+            "name": "Victoria Bell",
+            "place": "Node_11",
+            "next_node": null,
+            "status": "waiting",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "going to Factory",
+            "coord": [
+                36,
+                29
+            ]
+        },
+        "Marcus Reed": {
+            "name": "Marcus Reed",
+            "place": "Ave_2_link_3",
+            "next_node": "Node_7",
+            "status": "driving",
+            "start_time": "2025-03-18 08:19:00",
+            "description": "going to Factory",
+            "coord": [
+                25.0,
+                18.0
+            ]
+        },
+        "Samantha Price": {
+            "name": "Samantha Price",
+            "place": "St_2_link_2",
+            "next_node": "Node_9",
+            "status": "driving",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "going to Factory",
+            "coord": [
+                14.0,
+                18.0
+            ]
+        },
+        "Derek Collins": {
+            "name": "Derek Collins",
+            "place": "Factory",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:02:00",
+            "description": "Staying at Factory",
+            "coord": [
+                36,
+                43
+            ]
+        },
+        "Rachel Stone": {
+            "name": "Rachel Stone",
+            "place": "St_3_link_2",
+            "next_node": "Node_10",
+            "status": "driving",
+            "start_time": "2025-03-18 08:23:00",
+            "description": "going to Office",
+            "coord": [
+                25.0,
+                18.0
+            ]
+        },
+        "Kevin Murphy": {
+            "name": "Kevin Murphy",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:18:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Lisa Woods": {
+            "name": "Lisa Woods",
+            "place": "Ave_3_link_3",
+            "next_node": "Node_2",
+            "status": "driving",
+            "start_time": "2025-03-18 08:19:00",
+            "description": "going to Office",
+            "coord": [
+                36.0,
+                29.0
+            ]
+        },
+        "Robert Hayes": {
+            "name": "Robert Hayes",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:58:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Sophie Clark": {
+            "name": "Sophie Clark",
+            "place": "Museum",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "Staying at Museum",
+            "coord": [
+                25,
+                4
+            ]
+        },
+        "Frank Markowitz": {
+            "name": "Frank Markowitz",
+            "place": "Midtown apartment",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-17 19:25:00",
+            "description": "Staying at Midtown apartment",
+            "coord": [
+                2,
+                16
+            ]
+        },
+        "Hannah Markowitz": {
+            "name": "Hannah Markowitz",
+            "place": "Food court",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:06:00",
+            "description": "Staying at Food court",
+            "coord": [
+                36,
+                16
+            ]
+        },
+        "Oliver Green": {
+            "name": "Oliver Green",
+            "place": "Node_11",
+            "next_node": null,
+            "status": "waiting",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "going to Factory",
+            "coord": [
+                36,
+                29
+            ]
+        },
+        "Carol Green": {
+            "name": "Carol Green",
+            "place": "Hospital",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:43:00",
+            "description": "Staying at Hospital",
+            "coord": [
+                13,
+                33
+            ]
+        },
+        "Ryan Mitchell": {
+            "name": "Ryan Mitchell",
+            "place": "Amusement park",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:38:00",
+            "description": "Staying at Amusement park",
+            "coord": [
+                48,
+                16
+            ]
+        },
+        "Ashley Mitchell": {
+            "name": "Ashley Mitchell",
+            "place": "Amusement park",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:22:00",
+            "description": "Staying at Amusement park",
+            "coord": [
+                48,
+                16
+            ]
+        },
+        "Jonathan Lee": {
+            "name": "Jonathan Lee",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:53:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Rebecca Lee": {
+            "name": "Rebecca Lee",
+            "place": "Gym",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:58:00",
+            "description": "Staying at Gym",
+            "coord": [
+                25,
+                38
+            ]
+        },
+        "Timothy Turner": {
+            "name": "Timothy Turner",
+            "place": "Ave_3_link_2",
+            "next_node": "Node_11",
+            "status": "driving",
+            "start_time": "2025-03-18 08:22:00",
+            "description": "going to Office",
+            "coord": [
+                25.0,
+                29.0
+            ]
+        },
+        "Amanda Turner": {
+            "name": "Amanda Turner",
+            "place": "Cinema",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:22:00",
+            "description": "Staying at Cinema",
+            "coord": [
+                27,
+                27
+            ]
+        },
+        "William Davis": {
+            "name": "William Davis",
+            "place": "Midtown apartment",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-17 21:25:00",
+            "description": "Staying at Midtown apartment",
+            "coord": [
+                2,
+                16
+            ]
+        },
+        "Emma Davis": {
+            "name": "Emma Davis",
+            "place": "Supermarket",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:58:00",
+            "description": "Staying at Supermarket",
+            "coord": [
+                27,
+                16
+            ]
+        },
+        "Robert Johnson": {
+            "name": "Robert Johnson",
+            "place": "Gym",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:53:00",
+            "description": "Staying at Gym",
+            "coord": [
+                25,
+                38
+            ]
+        },
+        "Patricia Johnson": {
+            "name": "Patricia Johnson",
+            "place": "Factory",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:19:00",
+            "description": "Staying at Factory",
+            "coord": [
+                36,
+                43
+            ]
+        },
+        "Paul Harris": {
+            "name": "Paul Harris",
+            "place": "Factory",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:25:00",
+            "description": "Staying at Factory",
+            "coord": [
+                36,
+                43
+            ]
+        },
+        "Michelle Harris": {
+            "name": "Michelle Harris",
+            "place": "Midtown apartment",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-17 21:58:00",
+            "description": "Staying at Midtown apartment",
+            "coord": [
+                2,
+                16
+            ]
+        },
+        "Marcus Thompson": {
+            "name": "Marcus Thompson",
+            "place": "Museum",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:10:00",
+            "description": "Staying at Museum",
+            "coord": [
+                25,
+                4
+            ]
+        },
+        "Rachel Thompson": {
+            "name": "Rachel Thompson",
+            "place": "St_3_link_1",
+            "next_node": "Node_6",
+            "status": "driving",
+            "start_time": "2025-03-18 08:18:00",
+            "description": "going to Cinema",
+            "coord": [
+                25.0,
+                6.0
+            ]
+        },
+        "Kevin White": {
+            "name": "Kevin White",
+            "place": "Ave_4_link_1",
+            "next_node": "Node_3",
+            "status": "driving",
+            "start_time": "2025-03-18 08:21:00",
+            "description": "going to Factory",
+            "coord": [
+                24.0,
+                40.0
+            ]
+        },
+        "Sandra White": {
+            "name": "Sandra White",
+            "place": "Factory",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:19:00",
+            "description": "Staying at Factory",
+            "coord": [
+                36,
+                43
+            ]
+        },
+        "Steven Robinson": {
+            "name": "Steven Robinson",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:38:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Diana Robinson": {
+            "name": "Diana Robinson",
+            "place": "Uptown apartment",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-17 19:18:00",
+            "description": "Staying at Uptown apartment",
+            "coord": [
+                14,
+                4
+            ]
+        },
+        "David Martinez": {
+            "name": "David Martinez",
+            "place": "Ave_3_link_2",
+            "next_node": "Node_11",
+            "status": "driving",
+            "start_time": "2025-03-18 08:22:00",
+            "description": "going to Factory",
+            "coord": [
+                25.0,
+                29.0
+            ]
+        },
+        "Lisa Martinez": {
+            "name": "Lisa Martinez",
+            "place": "Supermarket",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:14:00",
+            "description": "Staying at Supermarket",
+            "coord": [
+                27,
+                16
+            ]
+        },
+        "Michael Chen": {
+            "name": "Michael Chen",
+            "place": "Metro_2_link_3",
+            "next_node": "Node_6",
+            "status": "waiting",
+            "start_time": "2025-03-18 08:24:00",
+            "description": "going to Coffee shop",
+            "coord": [
+                25,
+                29
+            ]
+        },
+        "Sarah Chen": {
+            "name": "Sarah Chen",
+            "place": "Hospital",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:49:00",
+            "description": "Staying at Hospital",
+            "coord": [
+                13,
+                33
+            ]
+        },
+        "James Wilson": {
+            "name": "James Wilson",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:04:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Elizabeth Wilson": {
+            "name": "Elizabeth Wilson",
+            "place": "Food court",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:06:00",
+            "description": "Staying at Food court",
+            "coord": [
+                36,
+                16
+            ]
+        },
+        "Ahmed Hassan": {
+            "name": "Ahmed Hassan",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:25:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Fatima Hassan": {
+            "name": "Fatima Hassan",
+            "place": "Factory",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:54:00",
+            "description": "Staying at Factory",
+            "coord": [
+                36,
+                43
+            ]
+        },
+        "Thomas Kim": {
+            "name": "Thomas Kim",
+            "place": "Office",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:40:00",
+            "description": "Staying at Office",
+            "coord": [
+                48,
+                31
+            ]
+        },
+        "Jennifer Kim": {
+            "name": "Jennifer Kim",
+            "place": "Museum",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:06:00",
+            "description": "Staying at Museum",
+            "coord": [
+                25,
+                4
+            ]
+        },
+        "Daniel Stewart": {
+            "name": "Daniel Stewart",
+            "place": "Factory",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 08:06:00",
+            "description": "Staying at Factory",
+            "coord": [
+                36,
+                43
+            ]
+        },
+        "Karen Stewart": {
+            "name": "Karen Stewart",
+            "place": "Museum",
+            "next_node": null,
+            "status": "staying",
+            "start_time": "2025-03-18 07:21:00",
+            "description": "Staying at Museum",
+            "coord": [
+                25,
+                4
+            ]
+        }
+    },
+    "queues": {
+        "Uptown apartment": {
+            "staying": [
+                "Diana Robinson"
+            ]
+        },
+        "Midtown apartment": {
+            "staying": [
+                "Frank Markowitz",
+                "William Davis",
+                "Michelle Harris"
+            ]
+        },
+        "Office": {
+            "staying": [
+                "Ahmed Hassan",
+                "Steven Robinson",
+                "Thomas Kim",
+                "Jonathan Lee",
+                "Robert Hayes",
+                "James Wilson",
+                "Catherine Young",
+                "Nina Scott",
+                "Kevin Murphy",
+                "Jessica Adams"
+            ]
+        },
+        "Factory": {
+            "staying": [
+                "Raymond Foster",
+                "Fatima Hassan",
+                "Derek Collins",
+                "Daniel Stewart",
+                "Patricia Johnson",
+                "Sandra White",
+                "Paul Harris"
+            ]
+        },
+        "School": {},
+        "Supermarket": {
+            "staying": [
+                "Lisa Martinez",
+                "Emma Davis"
+            ]
+        },
+        "Hospital": {
+            "staying": [
+                "Carol Green",
+                "Sarah Chen",
+                "Maria Lopez"
+            ]
+        },
+        "Gym": {
+            "staying": [
+                "Isabella Rodriguez",
+                "Christopher Evans",
+                "Robert Johnson",
+                "Rebecca Lee",
+                "Benjamin Taylor",
+                "Anthony Brown"
+            ]
+        },
+        "Food court": {
+            "staying": [
+                "Brian Carter",
+                "Hannah Markowitz",
+                "Elizabeth Wilson"
+            ]
+        },
+        "Coffee shop": {},
+        "Amusement park": {
+            "staying": [
+                "Ashley Mitchell",
+                "Ryan Mitchell"
+            ]
+        },
+        "Cinema": {
+            "staying": [
+                "Amanda Turner"
+            ]
+        },
+        "Museum": {
+            "staying": [
+                "Marcus Thompson",
+                "Karen Stewart",
+                "Jennifer Kim",
+                "Sophie Clark"
+            ]
+        },
+        "Node_8": {
+            "waiting": [
+                "George Wright"
+            ]
+        },
+        "Node_11": {
+            "waiting": [
+                "Victoria Bell",
+                "Oliver Green"
+            ]
+        },
+        "Node_13": {
+            "waiting": [
+                "Andrew Miller"
+            ]
+        },
+        "Ave_2_link_1": {
+            "driving": [
+                "Harry Campbell"
+            ]
+        },
+        "Ave_2_link_3": {
+            "driving": [
+                "Linda Parker",
+                "Marcus Reed"
+            ]
+        },
+        "Ave_3_link_2": {
+            "driving": [
+                "Timothy Turner",
+                "David Martinez"
+            ]
+        },
+        "Ave_3_link_3": {
+            "driving": [
+                "Lisa Woods"
+            ]
+        },
+        "Ave_4_link_1": {
+            "driving": [
+                "Kevin White"
+            ]
+        },
+        "St_2_link_2": {
+            "driving": [
+                "Samantha Price"
+            ]
+        },
+        "St_3_link_1": {
+            "driving": [
+                "Rachel Thompson"
+            ]
+        },
+        "St_3_link_2": {
+            "driving": [
+                "Rachel Stone"
+            ]
+        },
+        "St_5_link_1": {
+            "driving": [
+                "Miguel Garcia"
+            ]
+        },
+        "Metro_1_link_2": {
+            "riding": [
+                "Stephanie Lewis"
+            ]
+        },
+        "Metro_2_link_1": {
+            "riding": [
+                "Helen Jones"
+            ]
+        },
+        "Metro_2_link_3": {
+            "waiting": [
+                "Michael Chen"
+            ]
+        }
+    }
+}

@@ -190,17 +190,17 @@ def run_visualization(sim_name, root_dir, steps=None):
 
     ani = animation.FuncAnimation(
         fig, update, frames=sorted(step_data.keys()), init_func=init,
-        blit=True, interval=200, repeat=False
+        blit=True, interval=25, repeat=False
     )
     plt.show()
 
 
 # mobility_visualizer/main.py
-sim_name = "sim_0623_0136"
+sim_name = "experiment_3"
 root_dir = "gatsim/storage"
 one_day = 1440
 morning_6_to_10 = list(range(360, 541))
 
-steps = morning_6_to_10 + [i + one_day for i in morning_6_to_10] + [i + one_day * 2 for i in morning_6_to_10]
-
+#steps = morning_6_to_10 + [i + one_day for i in morning_6_to_10] + [i + one_day * 2 for i in morning_6_to_10]
+steps = list(range(0, 14400))
 run_visualization(sim_name, root_dir, steps)

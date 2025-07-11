@@ -1,0 +1,1440 @@
+{
+    "name": "Andrew Miller",
+    "age": 32,
+    "gender": "male",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "single",
+    "licensed_driver": true,
+    "work_facility": "Factory",
+    "work_time": "8:00-17:00",
+    "occupation": "production coordinator",
+    "preferences_in_transportation": "drives to work if traffic not too bad, enjoys cycling for fitness",
+    "innate": "organized, analytical, team-oriented, efficiency-focused, problem-solving",
+    "lifestyle": "enjoys data analysis, plays recreational sports, volunteers with youth programs",
+    "home_facility": "Uptown apartment",
+    "household_size": 1,
+    "other_family_members": {},
+    "number_of_vehicles_in_family": 1,
+    "household_income": "middle",
+    "friends": [
+        "Raymond Foster",
+        "Paul Harris"
+    ],
+    "other_description": "Andrew coordinates production schedules and optimizes workflow efficiency. He shares technical knowledge with Raymond Foster and Paul Harris on quality improvement initiatives. He likes to go to Amusement park and watch movies.",
+    "curr_time": "2025-03-21 00:00:00",
+    "original_plans": [
+        {
+            "reflection": "This is the start of a new week, and I\u2019m focused on maintaining efficiency both at work and in my personal routines. Last week was productive at the Factory as we implemented some workflow optimizations that Raymond Foster and I had been planning. I also managed to squeeze in some exercise at the Gym over the weekend, which helped me stay balanced. This week, I plan to keep up with my fitness goals by heading to the Gym after work when possible. Since I enjoy recreational sports, I might reach out to Paul Harris to see if he wants to join me for a game of basketball later this week. The traffic patterns last week were fairly predictable; Ave_3 and parts of St_2 tended to get congested during morning rush hour, so I adjusted my departure times accordingly. I\u2019ll continue to monitor conditions and make sure my travel choices remain efficient.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine including breakfast and checking emails."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "Ave_1, St_2, Ave_2, St_4",
+                    "Drive to Factory for the start of the workday at 8:00 AM. Focus on production coordination tasks and team check-ins."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_4, Ave_2, St_3, Ave_4",
+                    "Head to the Gym after work to play basketball and maintain fitness. Possibly meet up with friends or colleagues."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home before dinner time. Prepare a light meal and unwind before bedtime."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences heavy congestion between 07:00-08:30 during weekday mornings",
+                    "Ave_3, congestion, morning commute",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "St_2_link_1 has consistent delays during peak hours",
+                    "St_2_link_1, delays, peak hour",
+                    "St_2_link_1",
+                    "07:30-09:00"
+                ],
+                [
+                    "Gym sees lower attendance after 19:00",
+                    "Gym, low attendance, evening",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Travel from Factory to Gym takes approximately 25 minutes by car depending on route",
+                    "Factory, Gym, travel time",
+                    "Factory, Gym",
+                    "17:00-18:00"
+                ],
+                [
+                    "The shortest path algorithm often favors Ave_2 and Metro_2 links during off-peak hours",
+                    "route optimization, shortest path",
+                    "Ave_2, Metro_2",
+                    "the town"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This is the start of a new week, and I\u2019m focused on maintaining efficiency both at work and in my personal routines. Last week was productive at the Factory as we implemented some workflow optimizations that Raymond Foster and I had been planning. I also managed to squeeze in some exercise at the Gym over the weekend, which helped me stay balanced. This week, I plan to keep up with my fitness goals by heading to the Gym after work when possible. Since I enjoy recreational sports, I might reach out to Paul Harris to see if he wants to join me for a game of basketball later this week. The traffic patterns last week were fairly predictable; Ave_3 and parts of St_2 tended to get congested during morning rush hour, so I adjusted my departure times accordingly. I\u2019ll continue to monitor conditions and make sure my travel choices remain efficient.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine including breakfast and checking emails."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "Ave_1, St_2, Ave_2, St_4",
+                    "Drive to Factory for the start of the workday at 8:00 AM. Focus on production coordination tasks and team check-ins."
+                ],
+                [
+                    "Amusement park",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_4, Ave_2, St_3, Ave_4",
+                    "Head to Amusement park after work to meet Paul Harris for rides and dinner at Food court. Avoid Gym congestion observed yesterday."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home before dinner time. Prepare a light meal and unwind before bedtime."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Amusement park accessible via Ave_3_link_2 and St_4_link_1 during evenings",
+                    "Amusement park, evening access",
+                    "Ave_3_link_2, St_4_link_1",
+                    "17:00-19:00"
+                ],
+                [
+                    "Gym experiences high occupancy in early evening",
+                    "Gym, crowded",
+                    "Gym",
+                    "17:00-18:30"
+                ],
+                [
+                    "St_1_link_2 prone to delays affecting northwest-southeast travel",
+                    "St_1_link_2, delay",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Ave_1_link_1 frequently congested during early morning",
+                    "Ave_1_link_1, congestion",
+                    "Ave_1_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Coordination flexibility with Raymond Foster and Paul Harris improves plan adaptability",
+                    "coordination, flexibility",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The previous day was largely successful in terms of both productivity and social engagement. I coordinated effectively with Paul Harris to meet at the Amusement park, which provided a good balance between recreation and relaxation. The new Mexican restaurant at Food court seems promising, and it's worth considering for future gatherings. Traffic during the evening commute was manageable, though Ave_2 experienced moderate congestion near Node_7, as expected. This morning, I should plan accordingly to avoid delays on my way to work. I also need to ensure that my schedule remains flexible enough to accommodate any unexpected events or adjustments to travel plans.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine including breakfast and checking emails."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "Ave_1, St_2, Ave_2, St_4",
+                    "Drive to Factory for the start of the workday at 8:00 AM. Focus on production coordination tasks and team check-ins."
+                ],
+                [
+                    "Amusement park",
+                    "17:00",
+                    60,
+                    "drive",
+                    "St_4, Ave_2, St_3, Ave_4",
+                    "Head to Amusement park after work to meet Paul Harris as planned. We will enjoy rides before heading to the new Mexican restaurant at Food court."
+                ],
+                [
+                    "Food court",
+                    "none",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Dine at the newly opened Mexican restaurant at Food court with Paul Harris. The restaurant offers discounts today and is open until 19:00."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:45",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home before dinner time. Prepare a light meal and unwind before bedtime."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Evening dining at Food court best before 20:00",
+                    "dining, Food court, 20:00",
+                    "Food court",
+                    "18:00-20:00"
+                ],
+                [
+                    "Ave_2 experiences moderate congestion near Node_7 in the evening",
+                    "Ave_2, congestion, Node_7, evening",
+                    "Ave_2_link_3",
+                    "17:00-19:00"
+                ],
+                [
+                    "Amusement park visits more enjoyable with low occupancy",
+                    "Amusement park, low occupancy",
+                    "Amusement park",
+                    "17:00-19:00"
+                ],
+                [
+                    "Mexican restaurant opens with discounts today from 14:00 to 19:00",
+                    "Mexican restaurant, discounts",
+                    "Food court",
+                    "14:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "The previous day highlighted the importance of adaptability in managing evening plans due to unexpected congestion. While my morning commute to Factory was smooth, the evening social activities required adjustments as both Food court and Coffee shop experienced severe delays. Thanks to coordination with Raymond Foster, I managed to salvage the evening by shifting plans to Cinema, where Paul Harris and I enjoyed a movie premiere. Looking ahead, I need to be more cautious about planning leisure activities during peak hours without alternative options. My work performance remains solid, but I should consider incorporating more fitness routines into my schedule. Socially, maintaining connections with friends through recreational activities is important, though better contingency planning will help avoid future disruptions.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine including breakfast and checking emails."
+                ],
+                [
+                    "Factory",
+                    "07:30",
+                    120,
+                    "drive",
+                    "Ave_1, St_2, Ave_2, St_4",
+                    "Drive to Factory for the start of the workday at 8:00 AM. Focus on production coordination tasks and team check-ins."
+                ],
+                [
+                    "Cinema",
+                    "17:00",
+                    60,
+                    "drive",
+                    "St_4, Ave_2, St_3, Ave_3",
+                    "Head to Cinema after work to meet Paul Harris for the Marvel premiere starting at 18:45. We will arrive by 18:30 to secure good seats."
+                ],
+                [
+                    "Uptown apartment",
+                    "20:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home before bedtime. Prepare a light meal and unwind before sleeping."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Food court heavily congested between 17:00-19:00",
+                    "Food court, congested, peak hour",
+                    "Food court",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coffee shop severely congested between 18:00-19:00",
+                    "Coffee shop, congested, peak hour",
+                    "Coffee shop",
+                    "18:00-19:00"
+                ],
+                [
+                    "Cinema less crowded and good alternative in evening",
+                    "Cinema, alternative, recreation",
+                    "Cinema",
+                    "18:00-20:00"
+                ],
+                [
+                    "Plan for alternate venues when visiting popular locations between 17:00-19:00",
+                    "popular locations, alternative venues, peak hour",
+                    "Food court, Coffee shop, Cinema",
+                    "17:00-19:00"
+                ],
+                [
+                    "Ave_3_link_2 frequently congested during weekday afternoons",
+                    "Ave_3_link_2, congestion, afternoon",
+                    "Ave_3_link_2",
+                    "16:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        },
+        {
+            "reflection": "This past week has emphasized the need for flexibility in both work and social activities due to traffic unpredictability. My morning commute to Factory was generally stable, though occasional bottlenecks on Ave_2 and St_4 required route recalculations. Evening plans have been more volatile\u2014yesterday\u2019s attempt to attend a movie premiere at Cinema was disrupted by unexpected congestion on St_4_link_2, which led to a shift toward fitness instead. Coordination with Raymond Foster helped maintain some structure, though we were ultimately unable to make it to Gym as planned. I\u2019ve learned that weekday evenings are best reserved for either early-start recreational activities or flexible meetups with contingency options. Looking ahead, I should consider leaving Factory earlier during peak days and possibly shifting evening workouts to mornings if feasible. Socially, maintaining connections through shared activities like movies or sports remains important, but better planning around facility crowding and transit reliability will be key.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up and complete morning routine including breakfast and checking messages."
+                ],
+                [
+                    "Factory",
+                    "07:15",
+                    120,
+                    "drive",
+                    "Ave_1, St_2_link_2, Ave_2_link_1",
+                    "Arrive at Factory before 8:00 to begin production coordination tasks, team meetings, and workflow optimization discussions."
+                ],
+                [
+                    "Supermarket",
+                    "12:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Head to Supermarket during lunch break to take advantage of today's sale. Purchase groceries for the upcoming weekend meals."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_2_link_2, Ave_1",
+                    "Meet Raymond Foster after work for a workout session at Gym. Focus on strength training and cardio exercises to stay fit."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home before dinner time. Prepare a healthy meal and relax for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_4 prone to severe delays during evening commute",
+                    "St_4, delays, evening",
+                    "St_4_link_1, St_4_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Gym less crowded after 19:00",
+                    "Gym, crowded, 6PM",
+                    "Gym",
+                    "19:00-21:00"
+                ],
+                [
+                    "Supermarket experiences higher footfall during mid-afternoon sales",
+                    "Supermarket, sales, crowd",
+                    "Supermarket",
+                    "12:00-15:00"
+                ],
+                [
+                    "Ave_2 experiences moderate congestion near Node_7 in the evening",
+                    "Ave_2, congestion, Node_7",
+                    "Ave_2_link_4",
+                    "17:30-19:00"
+                ],
+                [
+                    "Morning departure before 7:15 ensures smoother Factory commute",
+                    "commute, departure, Factory",
+                    "Factory",
+                    "07:00-07:30"
+                ]
+            ],
+            "datetime": "2025-03-14 00:00:00"
+        },
+        {
+            "reflection": "This past week has been a mix of routine adherence and adaptive adjustments. My morning coordination with Raymond Foster for workout sessions has become a consistent habit, though the locations have shifted based on real-time availability and congestion insights. Traffic unpredictability continues to be a challenge\u2014particularly around St_2_link_2 during peak hours\u2014but leveraging alternative routes like Ave_1 and St_3 has improved commute reliability. I\u2019ve learned that Gym attendance is more efficient earlier in the day, especially on weekends when Factory isn\u2019t time-sensitive. Socially, maintaining flexibility with Raymond Foster has allowed us to stay connected despite changing conditions. Looking ahead, I plan to continue prioritizing fitness early in the day, especially on weekends, and remain attentive to facility-specific patterns such as Museum exhibitions or Cinema events that could enhance recreational options.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete his morning routine including breakfast and checking messages."
+                ],
+                [
+                    "Gym",
+                    "07:00",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Meet Raymond Foster for a workout session at Gym before heading to work."
+                ],
+                [
+                    "Factory",
+                    "08:00",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_2_link_1",
+                    "Arrive at Factory by 8:30 to begin production coordination tasks, team meetings, and workflow optimization discussions."
+                ],
+                [
+                    "Museum",
+                    "12:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Visit Museum for its modern art exhibition during lunch break to experience cultural enrichment."
+                ],
+                [
+                    "Coffee shop",
+                    "17:30",
+                    20,
+                    "drive",
+                    "shortest",
+                    "Stop by Coffee shop after work for a quick coffee and casual conversation before heading back home."
+                ],
+                [
+                    "Uptown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment, prepare dinner, and unwind for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_2_link_2 frequently congested during morning commute",
+                    "St_2_link_2, congested, morning",
+                    "St_2_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym occupancy peaks between 17:30-18:30",
+                    "Gym, occupancy, peak",
+                    "Gym",
+                    "17:30-18:30"
+                ],
+                [
+                    "Museum less crowded during lunch breaks",
+                    "Museum, lunch break, less crowded",
+                    "Museum",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coffee shop provides good alternative for mid-evening meetups",
+                    "Coffee shop, meetup, mid-evening",
+                    "Coffee shop",
+                    "17:00-19:00"
+                ],
+                [
+                    "Leaving Factory earlier improves access to recreational activities",
+                    "Factory, recreational activity, early departure",
+                    "Factory",
+                    "17:00-17:30"
+                ]
+            ],
+            "datetime": "2025-03-15 00:00:00"
+        },
+        {
+            "reflection": "The past week has emphasized the importance of balancing efficiency with flexibility. My routine work at Factory and morning workouts have become well-established habits, contributing to both professional productivity and personal fitness goals. I\u2019ve successfully adjusted plans based on real-time congestion insights\u2014especially avoiding St_2_link_2 during peak hours\u2014and this adaptability improved my overall travel experience. The decision to skip the Museum during lunch was wise, as it allowed me to redirect toward more rewarding activities like Cinema visits. Yesterday\u2019s successful pivot from Coffee shop to Supermarket and then to Cinema demonstrated that being responsive to network conditions can enhance leisure experiences. Looking ahead, I intend to continue prioritizing early-morning fitness routines, maintain coordination with friends like Paul Harris for recreational outings, and explore underutilized venues such as Amusement park during off-peak times to avoid overcrowding.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete his morning routine including breakfast and checking messages."
+                ],
+                [
+                    "Gym",
+                    "07:00",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Meet Raymond Foster for a workout session at Gym before heading to work."
+                ],
+                [
+                    "Factory",
+                    "08:00",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_2_link_1",
+                    "Arrive at Factory by 8:30 to begin production coordination tasks, team meetings, and workflow optimization discussions."
+                ],
+                [
+                    "Amusement park",
+                    "12:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Meet Paul Harris at Amusement park around 12:00 for the circus show which starts at 10:00."
+                ],
+                [
+                    "Cinema",
+                    "15:00",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Head to Cinema after the circus show to watch a movie and relax."
+                ],
+                [
+                    "Uptown apartment",
+                    "18:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment, prepare dinner, and unwind for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_2_link_2 prone to midday congestion",
+                    "St_2_link_2, congestion, midday",
+                    "St_2_link_2",
+                    "12:00-14:00"
+                ],
+                [
+                    "Museum less crowded during lunch breaks",
+                    "Museum, lunch, crowd",
+                    "Museum",
+                    "12:00-13:30"
+                ],
+                [
+                    "Cinema underutilized on Saturday evenings",
+                    "Cinema, utilization, Saturday",
+                    "Cinema",
+                    "19:00-21:00"
+                ],
+                [
+                    "Supermarket flexible alternative for casual meetup",
+                    "Supermarket, meetup, flexibility",
+                    "Supermarket",
+                    "17:00-18:30"
+                ],
+                [
+                    "Coffee shop often congested in early evening",
+                    "Coffee shop, congestion, evening",
+                    "Coffee shop",
+                    "17:30-18:30"
+                ],
+                [
+                    "Amusement park often reaches full occupancy by late afternoon",
+                    "Amusement park, occupancy, afternoon",
+                    "Amusement park",
+                    "16:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-16 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a blend of structured routines and spontaneous adjustments. My mornings at Gym have consistently improved my fitness and focus, while work at Factory remains productive. Yesterday\u2019s experience highlighted the importance of real-time coordination with friends\u2014especially when Amusement park attendance peaks unexpectedly. I learned to check venue capacity before committing to plans and to build in tighter arrival windows for social events. Travel decisions were largely informed by observed traffic patterns; avoiding St_2_link_2 during peak hours saved time. Looking ahead, I aim to maintain early-morning workouts, refine leisure coordination with Paul Harris, and explore Amusement park during off-peak times to avoid overcrowding.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete his morning routine including breakfast and checking messages."
+                ],
+                [
+                    "Gym",
+                    "07:00",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Go to Gym to do some exercise before starting work."
+                ],
+                [
+                    "Factory",
+                    "08:20",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_2_link_1",
+                    "Arrive at Factory by 8:30 to begin production coordination tasks, team meetings, and workflow optimization discussions."
+                ],
+                [
+                    "Amusement park",
+                    "10:30",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Leave work early to meet Paul Harris at Amusement park around 11:30 for the circus show. Confirm venue capacity upon arrival before finalizing plans."
+                ],
+                [
+                    "Cinema",
+                    "14:00",
+                    30,
+                    "drive",
+                    "shortest",
+                    "If Amusement park is full, pivot to Cinema as an alternative plan to watch a movie and relax."
+                ],
+                [
+                    "Food court",
+                    "15:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Food court after the movie to grab lunch before heading back home."
+                ],
+                [
+                    "Uptown apartment",
+                    "17:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment, prepare dinner, and unwind for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Amusement park reaches full capacity by mid-afternoon",
+                    "Amusement park, full capacity, afternoon",
+                    "Amusement park",
+                    "14:00-16:00"
+                ],
+                [
+                    "Gym less crowded between 17:00 and 18:00",
+                    "Gym, less crowded, 17:00",
+                    "Gym",
+                    "17:00-18:00"
+                ],
+                [
+                    "Food court visit before 16:00 avoids peak crowds",
+                    "Food court, peak crowd, 16:00",
+                    "Food court",
+                    "15:00-16:00"
+                ],
+                [
+                    "St_2_link_2 often congested during morning commute",
+                    "St_2_link_2, congestion, morning",
+                    "St_2_link_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "Coordination with friends benefits from updated arrival windows",
+                    "coordination, friends, arrival window",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-17 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a balance of structured routines and adaptive adjustments. My morning workouts at Gym have consistently improved my fitness and focus, while work at Factory remains productive. Yesterday\u2019s experience reinforced the importance of real-time coordination with friends\u2014especially when Amusement park attendance peaks unexpectedly. I learned to check venue capacity upon arrival before committing to plans and to build in tighter arrival windows for social events. Travel decisions were largely informed by observed traffic patterns; avoiding St_2_link_1 during peak hours saved time. Looking ahead, I aim to maintain early-morning workouts, refine leisure coordination with Paul Harris, and explore Amusement park during off-peak times to avoid overcrowding.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete his morning routine including breakfast and checking messages."
+                ],
+                [
+                    "Gym",
+                    "07:00",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Go to Gym to do some exercise before starting work."
+                ],
+                [
+                    "Factory",
+                    "08:25",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_2_link_1",
+                    "Arrive at Factory by 8:30 to begin production coordination tasks, team meetings, and workflow optimization discussions."
+                ],
+                [
+                    "Amusement park",
+                    "10:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Leave work early to meet Paul Harris at Amusement park around 11:30 for the circus show. Confirm venue capacity upon arrival before finalizing plans."
+                ],
+                [
+                    "Cinema",
+                    "14:00",
+                    30,
+                    "drive",
+                    "shortest",
+                    "If Amusement park is full, pivot to Cinema as an alternative plan to watch a movie and relax."
+                ],
+                [
+                    "Food court",
+                    "15:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Food court after the movie to grab lunch before heading back home."
+                ],
+                [
+                    "Uptown apartment",
+                    "17:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment, prepare dinner, and unwind for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Coordination with friends improves plan flexibility",
+                    "coordination, plan flexibility",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Gym less crowded before 8:00",
+                    "Gym, crowded, 8AM",
+                    "Gym",
+                    "06:00-08:00"
+                ],
+                [
+                    "Cinema has zero wait time during weekday afternoons",
+                    "Cinema, wait time, afternoon",
+                    "Cinema",
+                    "13:00-16:00"
+                ],
+                [
+                    "St_2_link_1 prone to morning congestion",
+                    "St_2_link_1, congestion, morning",
+                    "St_2_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Amusement park attendance peaks mid-afternoon",
+                    "Amusement park, attendance, peak",
+                    "Amusement park",
+                    "11:00-14:00"
+                ]
+            ],
+            "datetime": "2025-03-18 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a balance of structured routines and adaptive adjustments. My morning workouts at Gym have consistently improved my fitness and focus, while work at Factory remains productive. Yesterday\u2019s experience reinforced the importance of real-time coordination with friends\u2014especially when Amusement park attendance peaks unexpectedly. I learned to check venue capacity upon arrival before committing to plans and to build in tighter arrival windows for social events. Travel decisions were largely informed by observed traffic patterns; avoiding St_2_link_1 during peak hours saved time. Looking ahead, I aim to maintain early-morning workouts, refine leisure coordination with Paul Harris, and explore Amusement park during off-peak times to avoid overcrowding.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete his morning routine including breakfast and checking messages."
+                ],
+                [
+                    "Gym",
+                    "07:00",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Go to Gym to do some exercise before starting work."
+                ],
+                [
+                    "Factory",
+                    "08:00",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_2_link_1",
+                    "Arrive at Factory by 8:30 to begin production coordination tasks, team meetings, and workflow optimization discussions."
+                ],
+                [
+                    "Amusement park",
+                    "10:15",
+                    20,
+                    "drive",
+                    "shortest",
+                    "Check Amusement park crowd levels around 10:15. Confirm venue capacity before finalizing meetup with Paul Harris."
+                ],
+                [
+                    "Cinema",
+                    "10:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "If Amusement park is full, pivot to Cinema as an alternative plan to watch a movie and relax with Paul Harris."
+                ],
+                [
+                    "Food court",
+                    "12:00",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Food court after the movie to grab lunch before heading back home."
+                ],
+                [
+                    "Uptown apartment",
+                    "13:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment, prepare dinner, and unwind for the evening."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning buffer time helps absorb unexpected traffic disruptions",
+                    "morning buffer, traffic disruption",
+                    "the town",
+                    "07:00-08:00"
+                ],
+                [
+                    "Cinema offers reliable evening meeting point with minimal congestion",
+                    "Cinema, meeting, evening",
+                    "Cinema",
+                    "19:00-21:00"
+                ],
+                [
+                    "Ave_2_link_2 prone to morning incidents affecting travel reliability",
+                    "Ave_2_link_2, incident prone, travel reliability",
+                    "Ave_2_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Real-time communication with friends improves activity coordination success",
+                    "real-time communication, activity coordination",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Amusement park has variable attendance with lower crowds mid-week after 11:30",
+                    "Amusement park, low crowd, weekday",
+                    "Amusement park",
+                    "11:30-13:00"
+                ]
+            ],
+            "datetime": "2025-03-19 00:00:00"
+        },
+        {
+            "reflection": "The past week has been marked by unexpected disruptions, particularly yesterday\u2019s wildfire at Amusement park which required adaptive planning. My morning workout routine continues to support both physical health and mental clarity, reinforcing its importance in daily scheduling. Work at Factory remains stable, with consistent coordination with Raymond Foster on production timelines. Socially, communication with Paul Harris proved critical for pivoting plans successfully to Cinema when Amusement park was unavailable. Travel patterns showed that maintaining a drive mode provided flexibility during unforeseen closures. Looking ahead, I\u2019ll continue prioritizing early fitness activities, refine venue selection based on real-time availability, and reinforce strategies for avoiding known congestion points like St_1_link_2 during peak hours.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete his morning routine including breakfast and checking messages."
+                ],
+                [
+                    "Gym",
+                    "07:00",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Go to Gym to do some exercise before starting work."
+                ],
+                [
+                    "Factory",
+                    "08:00",
+                    120,
+                    "drive",
+                    "St_2_link_2, Ave_2_link_1",
+                    "Arrive at Factory by 8:30 to begin production coordination tasks, team meetings, and workflow optimization discussions."
+                ],
+                [
+                    "Cinema",
+                    "10:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "Meet Paul Harris at Cinema around 10:30 to watch a movie and relax after the disruption of visiting Amusement park yesterday."
+                ],
+                [
+                    "Coffee shop",
+                    "12:00",
+                    20,
+                    "drive",
+                    "shortest",
+                    "Grab a coffee and light lunch at Coffee shop before heading back home."
+                ],
+                [
+                    "Food court",
+                    "12:45",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Head to Food court for an early dinner with Raymond Foster who will join me there."
+                ],
+                [
+                    "Uptown apartment",
+                    "14:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment to rest and prepare for evening activities."
+                ],
+                [
+                    "Gym",
+                    "19:00",
+                    60,
+                    "drive",
+                    "Ave_1, St_2_link_2",
+                    "Join Raymond Foster at Gym for an evening workout session before heading to Cinema together."
+                ],
+                [
+                    "Cinema",
+                    "20:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Attend a movie at Cinema with Raymond Foster, ensuring crowd levels are manageable before committing to stay."
+                ],
+                [
+                    "Uptown apartment",
+                    "22:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment and prepare for a restful night."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Amusement park prone to sudden closures",
+                    "Amusement park, closure, disruption",
+                    "Amusement park",
+                    "all-day"
+                ],
+                [
+                    "Real-time facility data improves decision-making",
+                    "facility data, decision-making",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Maintaining consistent travel mode enables flexibility during disruptions",
+                    "travel mode, flexibility, disruption",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Cinema less crowded in mid-afternoon",
+                    "Cinema, crowded, afternoon",
+                    "Cinema",
+                    "12:00-14:00"
+                ],
+                [
+                    "St_1_link_2 experiences peak congestion during morning commute",
+                    "St_1_link_2, congestion, morning",
+                    "St_1_link_2",
+                    "07:00-08:30"
+                ]
+            ],
+            "datetime": "2025-03-20 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I'm currently at Coffee shop after finishing my lunch, and the traffic is clear with no congestion across any road links. My previous plan included heading back to Uptown apartment before meeting Raymond Foster at Cinema later in the evening. However, I just received updates from Raymond indicating that we've confirmed our plan to meet directly at Cinema after work. Since there's no traffic disruption and my current location is central (Node_11), it makes more sense to proceed directly to Cinema rather than returning home first. This adjustment streamlines my activity sequence and improves time efficiency.",
+            "plan": [
+                [
+                    "Cinema",
+                    "13:00",
+                    60,
+                    "drive",
+                    "Ave_3_link_2, St_4_link_1",
+                    "Head directly to Cinema instead of returning to Uptown apartment, as coordinated with Raymond Foster for an evening movie."
+                ],
+                [
+                    "Uptown apartment",
+                    "22:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment and prepare for a restful night after the movie."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-20 12:45:00"
+        },
+        {
+            "reflection": "I'm currently at Coffee shop having completed my lunch, and the traffic is clear across all road links. I've just received updates from Raymond Foster confirming our plan to meet directly at Cinema after work rather than returning home first. This adjustment makes sense as it streamlines my activity sequence and improves time efficiency since I'm already centrally located at Node_11. There's no congestion affecting planned routes, so proceeding directly to Cinema is optimal.",
+            "plan": [
+                [
+                    "Cinema",
+                    "13:00",
+                    60,
+                    "drive",
+                    "Ave_3_link_2, St_4_link_1",
+                    "Head directly to Cinema instead of returning to Uptown apartment, as coordinated with Raymond Foster for an evening movie."
+                ],
+                [
+                    "Uptown apartment",
+                    "22:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment and prepare for a restful night after the movie."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-20 13:00:00"
+        },
+        {
+            "reflection": "The movie night at Cinema with Raymond Foster and Paul Harris has concluded, and there are no ongoing activities or obligations for the rest of the evening. Traffic remains clear across all road links, and I have timely access to my vehicle parked on Ave_4_link_1 as previously reserved. Since there are no delays or disruptions affecting travel, it is optimal to return directly to Uptown apartment for rest without any detours or additional stops.",
+            "plan": [
+                [
+                    "Uptown apartment",
+                    "22:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Uptown apartment and prepare for a restful night after the movie."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Cinema highly occupied during evening hours",
+                    "Cinema, occupied, evening",
+                    "Cinema",
+                    "19:00-22:00"
+                ]
+            ],
+            "datetime": "2025-03-20 22:00:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "My morning commute required significant adjustments due to unexpected congestion on Ave_1 and St_1. I successfully coordinated with Raymond Foster at the Museum before work by adapting my route multiple times, which added complexity but ensured timely arrival. Work proceeded as planned after a slightly delayed start. In the evening, plans to meet Paul Harris for basketball were rerouted to Amusement park due to severe Gym congestion, which turned out to be an enjoyable alternative. Coordination among friends was flexible and effective despite changes. Traffic remained clear throughout the day, allowing smooth transitions between activities. The day ended later than originally scheduled, slightly disrupting my usual evening routine.",
+            "concepts": [
+                [
+                    "Ave_1_link_1 frequently congested during early morning",
+                    "Ave_1, congestion, unreliable",
+                    "Ave_1_link_1",
+                    "06:30-08:00"
+                ],
+                [
+                    "St_1_link_2 prone to delays affecting northwest-southeast travel",
+                    "St_1, traffic bottleneck, congestion",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym experiences high occupancy in early evening",
+                    "Gym, crowded, peak time",
+                    "Gym",
+                    "17:30-18:30"
+                ],
+                [
+                    "Amusement park accessible via Ave_3_link_2 and St_4_link_1 during evenings",
+                    "Amusement park, recreational alternative, route optimization",
+                    "Ave_3_link_2, St_4_link_1",
+                    "17:00-20:00"
+                ],
+                [
+                    "Coordination flexibility with Raymond Foster and Paul Harris improves plan adaptability",
+                    "coordination, team adaptability, communication",
+                    "Museum, Factory, Amusement park",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "The day unfolded largely according to plan, with only minor adjustments made in response to traffic updates and social coordination. I successfully maintained efficiency at work and enjoyed quality time with friends at the Amusement park and Food court. Morning decisions to skip the Coffee shop meetup due to congestion risks proved prudent, as rerouting would have introduced unnecessary uncertainty. Evening travel was mostly smooth, although moderate congestion on Ave_2_link_3 slightly delayed my return home. Overall, the balance between professional responsibilities and personal relaxation was well-maintained. Future planning should continue to emphasize route flexibility during peak hours and consider timing for evening social outings.",
+            "concepts": [
+                [
+                    "Ave_2 experiences evening congestion near Node_7",
+                    "Ave_2, congestion, Node_7",
+                    "Ave_2_link_3",
+                    "18:00-20:00"
+                ],
+                [
+                    "Amusement park visits are more enjoyable with low occupancy",
+                    "Amusement park, low occupancy, enjoyment",
+                    "Amusement park",
+                    "17:00-19:00"
+                ],
+                [
+                    "Dining at Food court is best before 20:00",
+                    "Food court, dinner, timing",
+                    "Food court",
+                    "19:00-20:00"
+                ],
+                [
+                    "Coordination with colleagues works best with morning confirmation",
+                    "coordination, planning, Raymond Foster, Paul Harris",
+                    "Factory",
+                    "07:00-08:00"
+                ],
+                [
+                    "Returning home before 22:00 supports better rest",
+                    "rest, schedule, punctuality",
+                    "the town",
+                    "21:00-22:00"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated both effective adaptability and the challenges of managing congestion in popular areas. My morning commute to Factory went smoothly using the adjusted route via St_2, Ave_2, and St_4, avoiding any major delays. However, the evening plans with friends required several revisions due to unexpected congestion at key destinations. The initial plan to meet Paul Harris at Amusement park and dine at Food court was affected when Food court became heavily congested, prompting a shift in timing and location. Coordination with Raymond Foster proved crucial, allowing for real-time adjustments and maintaining social commitments despite changing conditions. Eventually, we opted to watch a movie at Cinema after skipping Coffee shop due to extreme wait times. Overall, travel time estimates were mostly accurate, though unexpected bottlenecks at peak hours impacted leisure plans. I managed to maintain a good work-life balance, but future outings should account for crowd patterns and include alternative options.",
+            "concepts": [
+                [
+                    "Ave_2 experiences moderate congestion during evening commute",
+                    "Ave_2, congestion, evening",
+                    "Ave_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Food court heavily congested between 17:00-19:00",
+                    "Food court, crowded, peak hours",
+                    "Food court",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coffee shop severely congested between 18:00-19:00",
+                    "Coffee shop, overcrowded, evening rush",
+                    "Coffee shop",
+                    "18:00-19:00"
+                ],
+                [
+                    "Cinema less crowded and good alternative in evening",
+                    "Cinema, alternative venue, evening",
+                    "Cinema",
+                    "19:00-21:00"
+                ],
+                [
+                    "Plan for alternate venues when visiting popular locations between 17:00-19:00",
+                    "contingency planning, evening activities, crowd avoidance",
+                    "the town",
+                    "17:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule highlighted the importance of adaptability in urban mobility. My morning commute to Factory faced multiple congestion points, requiring two route adjustments to maintain punctuality. The original evening plan to attend a movie premiere at Cinema was abandoned due to severe facility congestion, which aligned with my reflection goal of incorporating more fitness by shifting to Gym. However, during transit, St_4_link_2 developed severe delays, forcing further rerouting that ultimately prevented timely arrival at Gym. Coordination with Raymond Foster and Paul Harris allowed for flexible rescheduling attempts, though eventual plans shifted toward returning home directly. The day reinforced the value of real-time traffic awareness, contingency planning, and prioritizing personal well-being through fitness opportunities when feasible.",
+            "concepts": [
+                [
+                    "St_4_link_2 prone to severe congestion during evening commute",
+                    "St_4_link_2, congestion, unreliable",
+                    "St_4_link_2",
+                    "17:00-19:00"
+                ],
+                [
+                    "Cinema experiences high wait times during premiere events",
+                    "Cinema, movie premiere, crowds",
+                    "Cinema",
+                    "18:00-20:00"
+                ],
+                [
+                    "Alternative activity planning needed during peak hours",
+                    "contingency planning, flexibility, leisure timing",
+                    "the town",
+                    "17:00-20:00"
+                ],
+                [
+                    "St_2 provides reliable alternative route during Ave_2 disruptions",
+                    "St_2, routing, reliability",
+                    "St_2",
+                    "all-day"
+                ],
+                [
+                    "Gym visit opportunities should be prioritized over entertainment during weekday evenings",
+                    "fitness, work-life balance, efficiency",
+                    "Gym",
+                    "18:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-13 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required significant adjustments due to fluctuating traffic and facility congestion. My morning commute was rerouted successfully to avoid severe congestion on St_2_link_2, allowing me to arrive at Factory on time. However, lunchtime plans to visit Supermarket were abandoned after real-time data showed a 52-minute wait\u2014instead, I grabbed coffee at Coffee shop before returning to work. Evening plans also evolved: Gym initially reported full capacity, prompting a shift to Coffee shop with Raymond Foster to reassess. Fortunately, updated data revealed improved conditions at Gym, where we eventually played basketball without issue. The day underscored the importance of real-time updates, flexibility in scheduling, and maintaining communication with social partners to adapt effectively.",
+            "concepts": [
+                [
+                    "St_2_link_2 frequently congested during morning commute",
+                    "St_2_link_2, congestion, morning commute",
+                    "St_2_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Supermarket often crowded around 12:30",
+                    "Supermarket, shopping, peak time",
+                    "Supermarket",
+                    "12:00-13:30"
+                ],
+                [
+                    "Gym occupancy peaks between 17:30-18:30",
+                    "Gym, fitness, peak hours",
+                    "Gym",
+                    "17:00-19:00"
+                ],
+                [
+                    "Coffee shop provides good alternative for mid-evening meetups",
+                    "Coffee shop, meetup, flexibility",
+                    "Coffee shop",
+                    "18:00-20:00"
+                ],
+                [
+                    "Real-time traffic checks enable better route decisions",
+                    "traffic check, planning, responsiveness",
+                    "The town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-14 23:59:00"
+        },
+        {
+            "reflection": "Today demonstrated the value of adaptive planning and social coordination. The morning workout at Gym with Raymond Foster went smoothly, though we adjusted our route to avoid St_2_link_2 due to anticipated congestion later in the day. Arrival at Factory was on time and work proceeded without disruption. The Museum visit was skipped as planned, recognizing it was likely to be crowded during lunch. Later in the evening, flexibility allowed us to pivot from Coffee shop to Supermarket due to congestion reports, and then redirect again to Cinema after coordinating with Paul Harris\u2014turning out to be a successful leisure choice with low occupancy. Traffic remained clear throughout the day, supporting timely transitions between activities. Overall, today balanced work, fitness, and social engagement effectively while remaining responsive to real-time conditions.",
+            "concepts": [
+                [
+                    "St_2_link_2 prone to midday congestion",
+                    "St_2_link_2, traffic, commute",
+                    "St_2_link_2",
+                    "11:00-14:00"
+                ],
+                [
+                    "Museum less crowded during lunch breaks",
+                    "Museum, attendance, timing",
+                    "Museum",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coffee shop often congested in early evening",
+                    "Coffee shop, shopping, peak time",
+                    "Coffee shop",
+                    "17:00-18:30"
+                ],
+                [
+                    "Cinema underutilized on Saturday evenings",
+                    "Cinema, leisure, utilization",
+                    "Cinema",
+                    "18:00-20:00"
+                ],
+                [
+                    "Supermarket flexible alternative for casual meetup",
+                    "Supermarket, social, shopping",
+                    "Supermarket",
+                    "17:30-19:00"
+                ]
+            ],
+            "datetime": "2025-03-15 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated both the value of adaptability and the challenges of coordinating social plans amidst shifting priorities. Initially, I adjusted my plan to meet Paul Harris at Cinema instead of Amusement park due to full occupancy, a decision supported by real-time traffic conditions showing no congestion. After the movie, I revised plans again\u2014first considering Gym directly, then adding Food court before workout\u2014to optimize fitness while avoiding peak gym hours. Despite these adjustments, timing mismatches occurred: Raymond Foster was already at Gym when I arrived late, and upon reaching Amusement park, I missed the final circus act but still connected with Raymond briefly. These experiences highlighted the importance of precise timing in social coordination, especially on weekends with variable attendance patterns. Travel decisions were consistently informed by observed network conditions, allowing efficient movement across town. Overall, today reinforced the need for tighter buffers around social commitments while maintaining flexibility for personal priorities like fitness.",
+            "concepts": [
+                [
+                    "Amusement park reaches full capacity by mid-afternoon",
+                    "Amusement park, capacity, crowds",
+                    "Amusement park",
+                    "12:00-15:00"
+                ],
+                [
+                    "Gym less crowded between 17:00 and 18:00",
+                    "Gym, crowded, 6PM",
+                    "Gym",
+                    "17:00-18:00"
+                ],
+                [
+                    "Ave_3_link_1 reliable for direct travel to Cinema and Amusement park",
+                    "Ave_3, direct route, Cinema access",
+                    "Ave_3_link_1",
+                    "all-day"
+                ],
+                [
+                    "Food court visit before 16:00 avoids peak crowds",
+                    "Food court, timing, crowd avoidance",
+                    "Food court",
+                    "14:00-16:00"
+                ],
+                [
+                    "Coordination with friends benefits from updated arrival windows",
+                    "social coordination, timing, meetup reliability",
+                    "the town",
+                    "12:00-19:00"
+                ]
+            ],
+            "datetime": "2025-03-16 23:59:00"
+        },
+        {
+            "reflection": "Today was a mix of planned routines and adaptive adjustments, with traffic playing a key role in shaping decisions. My morning workout at Gym went smoothly thanks to a revised route avoiding congestion on St_2_link_1, showing the importance of real-time coordination with Raymond Foster. Work at Factory was productive with no disruptions. The afternoon plans required multiple revisions: although Amusement park was accessible without congestion, I pivoted to Cinema first due to prior planning and met Paul Harris at Amusement park as scheduled. Traffic conditions were consistently favorable throughout the day, allowing flexibility in travel routes. Overall, today\u2019s experiences highlight the value of dynamic decision-making, effective communication with friends, and maintaining buffer times for activity transitions.",
+            "concepts": [
+                [
+                    "St_2_link_1 prone to morning congestion",
+                    "St_2_link_1, traffic, morning commute",
+                    "St_2_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Gym less crowded before 8:00",
+                    "Gym, crowded, workout timing",
+                    "Gym",
+                    "06:30-08:00"
+                ],
+                [
+                    "Amusement park attendance peaks mid-afternoon",
+                    "Amusement park, social event, peak time",
+                    "Amusement park",
+                    "14:00-16:00"
+                ],
+                [
+                    "Cinema has zero wait time during weekday afternoons",
+                    "Cinema, movie, weekday relaxation",
+                    "Cinema",
+                    "13:00-15:00"
+                ],
+                [
+                    "Coordination with friends improves plan flexibility",
+                    "Paul Harris, coordination, leisure",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-17 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule was a mix of planned routines and adaptive adjustments due to traffic and social coordination. Morning workout at Gym went smoothly, though the car accident on Ave_2_link_2 prompted a minor delay in departure to Factory, which ultimately didn't impact my arrival time. Work proceeded as expected, with productive coordination alongside Raymond Foster. The meetup with Paul Harris at Amusement park was well-planned, and despite arriving on time, we found low attendance, allowing for flexibility. Deciding to pivot to Cinema later in the evening improved coordination efficiency and allowed for better timing with Paul Harris. Traffic conditions were favorable throughout the day, with no delays observed. Overall, today balanced productivity, fitness, and social plans effectively, reinforcing the value of buffer times and real-time communication.",
+            "concepts": [
+                [
+                    "Ave_2_link_2 prone to morning incidents affecting travel reliability",
+                    "Ave_2_link_2, incidents, unreliable",
+                    "Ave_2_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Amusement park has variable attendance with lower crowds mid-week after 11:30",
+                    "Amusement park, attendance, off-peak",
+                    "Amusement park",
+                    "11:00-14:00"
+                ],
+                [
+                    "Cinema offers reliable evening meeting point with minimal congestion",
+                    "Cinema, meeting, low congestion",
+                    "Cinema",
+                    "16:00-18:00"
+                ],
+                [
+                    "Real-time communication with friends improves activity coordination success",
+                    "Coordination, messaging, flexibility",
+                    "The town",
+                    "All-day"
+                ],
+                [
+                    "Morning buffer time helps absorb unexpected traffic disruptions",
+                    "Buffer time, planning, traffic",
+                    "Gym, Factory",
+                    "07:00-09:00"
+                ]
+            ],
+            "datetime": "2025-03-18 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required significant adjustments due to unexpected events, particularly the wildfire at Amusement park. Morning travel proceeded as planned despite initial congestion concerns, and I successfully coordinated with Raymond Foster for an on-time arrival at Factory. The wildfire prompted a necessary pivot from Amusement park to Cinema, which was executed efficiently thanks to real-time communication with Paul Harris and favorable traffic conditions. Evening coordination for a movie at 19:30 remained intact, demonstrating effective adaptability. Travel mode consistency (drive) allowed for responsive route changes when needed. Personal well-being was maintained through morning exercise and successful social coordination despite disruptions.",
+            "concepts": [
+                [
+                    "Amusement park prone to sudden closures",
+                    "Amusement park, wildfire, safety risk",
+                    "Amusement park",
+                    "all-day"
+                ],
+                [
+                    "St_1_link_2 experiences peak congestion during morning commute",
+                    "St_1_link_2, congestion, morning rush",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Cinema less crowded in mid-afternoon",
+                    "Cinema, attendance, low occupancy",
+                    "Cinema",
+                    "12:00-14:00"
+                ],
+                [
+                    "Real-time facility data improves decision-making",
+                    "facility data, adaptive planning, crowd levels",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Maintaining consistent travel mode enables flexibility during disruptions",
+                    "travel mode, driving, responsiveness",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-19 23:59:00"
+        },
+        {
+            "reflection": "My day started with unexpected congestion on St_2_link_1, which required a route adjustment to ['Ave_1', 'St_3_link_1'] to ensure I could complete my workout and reach Factory on time. The morning delay highlighted the importance of monitoring real-time traffic and being flexible with travel paths. Despite the initial disruption, I managed to maintain most of my planned activities without major setbacks. A significant revision occurred at lunchtime when coordination with Raymond Foster allowed me to go directly to Cinema from Coffee shop, saving time and reducing unnecessary travel. Evening travel back home was smooth except for a moderate delay on St_2_link_1 again, reinforcing that this link is a recurring bottleneck during both morning and evening commutes. Overall, today demonstrated the value of adaptive planning, real-time traffic awareness, and effective communication with colleagues to optimize activity scheduling.",
+            "concepts": [
+                [
+                    "St_2_link_1 experiences recurrent congestion during commute hours",
+                    "St_2_link_1, congestion, commute",
+                    "St_2_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "St_2_link_1 moderately congested in the evening as well",
+                    "St_2_link_1, congestion, evening commute",
+                    "St_2_link_1",
+                    "21:00-23:00"
+                ],
+                [
+                    "Route flexibility improves punctuality during traffic disruptions",
+                    "route optimization, traffic adaptation",
+                    "The town",
+                    "all-day"
+                ],
+                [
+                    "Direct transitions between shared activities reduce travel time",
+                    "activity sequencing, efficiency, coordination",
+                    "Coffee shop, Cinema",
+                    "12:00-14:00"
+                ]
+            ],
+            "datetime": "2025-03-20 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\nTime: 07:18\nReflections:\nI experienced significant delays on St_2_link_1 (wait time: 16 min) during my morning commute from Uptown apartment to Gym, which directly affects my schedule. My planned path included continuing from Node_5 to Gym via St_2_link_2 and St_1_link_2, but given the congestion pattern I'm currently observing, this would likely result in further delays before reaching Factory by 8:30 AM. Raymond Foster is coordinating with me for a prompt arrival at work, and we\u2019ve already adjusted our coffee plans to accommodate potential traffic issues. To maintain efficiency and meet my professional obligations, I should update my travel path to avoid congested segments.\nPlan revisions:\nAndrew Miller update current path to ['Ave_1', 'St_3_link_1']\n\nTime: 07:27\nReflections:\nI'm currently en route to the Gym after departing Uptown apartment at 07:00, but I've encountered significant delays on St_2_link_1 with a 16-minute wait time. This affects my morning schedule since I need to complete my workout before heading to Factory by 08:00. My revised path of ['Ave_1', 'St_3_link_1'] avoids the congestion and should still allow me to reach Factory on time with Raymond Foster picking me up at 07:45 as planned. Given that Gym occupancy is only 12.5%, there's no issue completing my workout before work.\nPlan revisions:\nAndrew Miller update current path to ['Ave_1', 'St_3_link_1']\n\nTime: 12:45\nReflections: \nI'm currently at Coffee shop after finishing my lunch, and the traffic is clear with no congestion across any road links. My previous plan included heading back to Uptown apartment before meeting Raymond Foster at Cinema later in the evening. However, I just received updates from Raymond indicating that we've confirmed our plan to meet directly at Cinema after work. Since there's no traffic disruption and my current location is central (Node_11), it makes more sense to proceed directly to Cinema rather than returning home first. This adjustment streamlines my activity sequence and improves time efficiency.\nPlan revisions:\nAndrew Miller update future activity plan:\n[['Cinema', '13:00', 60, 'drive', 'Ave_3_link_2, St_4_link_1', 'Head directly to Cinema instead of returning to Uptown apartment, as coordinated with Raymond Foster for an evening movie.'], ['Uptown apartment', '22:00', 'none', 'drive', 'shortest', 'Return home to Uptown apartment and prepare for a restful night after the movie.']]\n\nTime: 13:00\nReflections: \nI'm currently at Coffee shop having completed my lunch, and the traffic is clear across all road links. I've just received updates from Raymond Foster confirming our plan to meet directly at Cinema after work rather than returning home first. This adjustment makes sense as it streamlines my activity sequence and improves time efficiency since I'm already centrally located at Node_11. There's no congestion affecting planned routes, so proceeding directly to Cinema is optimal.\nPlan revisions:\nAndrew Miller update future activity plan:\n[['Cinema', '13:00', 60, 'drive', 'Ave_3_link_2, St_4_link_1', 'Head directly to Cinema instead of returning to Uptown apartment, as coordinated with Raymond Foster for an evening movie.'], ['Uptown apartment', '22:00', 'none', 'drive', 'shortest', 'Return home to Uptown apartment and prepare for a restful night after the movie.']]\n\nTime: 22:00\nReflections: \nThe movie night at Cinema with Raymond Foster and Paul Harris has concluded, and there are no ongoing activities or obligations for the rest of the evening. Traffic remains clear across all road links, and I have timely access to my vehicle parked on Ave_4_link_1 as previously reserved. Since there are no delays or disruptions affecting travel, it is optimal to return directly to Uptown apartment for rest without any detours or additional stops.\nPlan revisions:\nAndrew Miller update future activity plan:\n[['Uptown apartment', '22:00', 'none', 'drive', 'shortest', 'Return home to Uptown apartment and prepare for a restful night after the movie.']]\n\nTime: 22:10\nReflections: \nThe movie night at Cinema with Raymond Foster and Paul Harris has concluded, and there are no ongoing activities or obligations for the rest of the evening. Traffic remains clear across all road links except for moderate congestion on St_2_link_1 (8-minute wait time), but this delay is minor and won't significantly impact my return home. I have timely access to my vehicle parked on Ave_4_link_1 as previously reserved. Since there are no major disruptions affecting travel, it is optimal to proceed directly to Uptown apartment for rest without any detours or additional stops.\nPlan revisions:\nAndrew Miller update current path to real-time shortest\n\nTime: 22:19\nReflections: \nThe movie night at Cinema with Raymond Foster and Paul Harris has concluded, and there are no ongoing activities or obligations for the rest of the evening. Traffic remains clear across all road links except for moderate congestion on St_2_link_1 (8-minute wait time), but this delay is minor and won't significantly impact my return home. I have timely access to my vehicle parked on Ave_4_link_1 as previously reserved. Since there are no major disruptions affecting travel, it is optimal to proceed directly to Uptown apartment for rest without any detours or additional stops.\nPlan revisions:\nAndrew Miller update current path to real-time shortest\n",
+    "activity_index": 0,
+    "activity_facility": "Uptown apartment",
+    "activity_departure_time": "2025-03-20 22:00:00",
+    "activity_duration": 1440,
+    "travel_mode": "drive",
+    "reflect_every": null,
+    "activity_description": "Return home to Uptown apartment and prepare for a restful night after the movie.",
+    "planned_path": [],
+    "curr_place": "Uptown apartment",
+    "curr_status": "Staying at facility Uptown apartment",
+    "trip_start_facility": null,
+    "trip_trajectory": null
+}

@@ -1,0 +1,1436 @@
+{
+    "name": "Carol Green",
+    "age": 42,
+    "gender": "female",
+    "highest_level_of_education": "Bachelor",
+    "family_role": "wife",
+    "licensed_driver": true,
+    "work_facility": "Hospital",
+    "work_time": "8:00-17:00",
+    "occupation": "nurse",
+    "preferences_in_transportation": "drive or use transit work for safety, walks during day",
+    "innate": "compassionate, resilient, reliable, calm under pressure",
+    "lifestyle": "enjoys gardening, volunteers at health screenings",
+    "home_facility": "Midtown apartment",
+    "household_size": 2,
+    "other_family_members": {
+        "husband": "Oliver Green"
+    },
+    "number_of_vehicles_in_family": 2,
+    "household_income": "middle",
+    "friends": [
+        "Stephanie Lewis",
+        "Sarah Chen"
+    ],
+    "other_description": "Carol provides critical overnight patient care and is valued for her calm presence during emergencies. She learns from Sarah Chen's medical expertise and shares nursing experiences. She likes to share knowledge and experiences with Stephanie Lewis.",
+    "curr_time": "2025-03-21 00:00:00",
+    "original_plans": [
+        {
+            "reflection": "This is the beginning of a new week, and I'm looking forward to another productive week at work while balancing my personal and family life. Last week was relatively smooth in terms of commuting\u2014driving to the hospital worked well without major delays, and I managed to maintain a calm presence during emergencies as always. My husband Oliver took the metro to the factory without issues, so coordination for vehicle usage went smoothly. I\u2019m hoping to make time this week for some exercise at the gym after work, especially since I\u2019ve been meaning to stay consistent with evening workouts when it\u2019s less crowded. I also need to remember to check in with Stephanie Lewis about our next volunteer session at the health screenings. On the travel front, Ave_3 seems to get busier during morning rush hour, so sticking with St_2 and Ave_1 might be more efficient. I\u2019ll keep an eye on how traffic patterns evolve throughout the week.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home, completes her morning routine."
+                ],
+                [
+                    "Hospital",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_1_link_1, Ave_2_link_1",
+                    "Drive from Midtown apartment to Hospital for 8:00 shift."
+                ],
+                [
+                    "Hospital",
+                    "17:00",
+                    "none",
+                    "none",
+                    "none",
+                    "Wrap up work at Hospital after completing 9-hour shift."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_1_link_2, Ave_4_link_1",
+                    "Go to Gym to swim and stretch before heading back home."
+                ],
+                [
+                    "Midtown apartment",
+                    "18:45",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Drive back home to Midtown apartment and prepare dinner."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Ave_3 experiences increased congestion during weekday mornings",
+                    "Ave_3, congestion, weekday mornings",
+                    "Ave_3",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym attendance is lighter after 18:00",
+                    "Gym, light attendance, evening",
+                    "Gym",
+                    "17:30-19:00"
+                ],
+                [
+                    "St_1 provides a reliable route between Midtown apartment and Hospital",
+                    "St_1, Midtown apartment, Hospital",
+                    "St_1",
+                    "all-day"
+                ],
+                [
+                    "Evening commute through Ave_4 is generally faster than Ave_3",
+                    "Ave_4, Ave_3, evening commute",
+                    "Ave_4",
+                    "17:00-18:30"
+                ]
+            ],
+            "datetime": "2025-03-10 00:00:00"
+        },
+        {
+            "reflection": "This past Monday was a successful day of balancing work, personal goals, and social commitments. My ability to adapt during the morning commute proved valuable when rerouting due to congestion on St_1_link_1. I learned that the Gym experiences peak congestion around 18:00, which affected my evening workout plans but allowed me to adjust and still meet Stephanie Lewis for our volunteer session. The coordination with Stephanie worked well, especially since she came directly from the Factory after work, and we were able to complete the health screening setup efficiently. This week, I aim to maintain flexibility in my schedule while being more proactive about checking facility occupancy before visiting places like the Gym. Driving remains reliable, so I\u2019ll continue using it as my preferred mode of transportation unless traffic patterns suggest otherwise.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and completes her morning routine."
+                ],
+                [
+                    "Hospital",
+                    "07:20",
+                    120,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Drive from Midtown apartment to Hospital for 8:00 shift, avoiding congested St_1_link_1."
+                ],
+                [
+                    "Hospital",
+                    "17:00",
+                    "none",
+                    "none",
+                    "none",
+                    "Wrap up work at Hospital after completing 9-hour shift."
+                ],
+                [
+                    "Gym",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_1_link_2, Ave_4_link_1",
+                    "Go to Gym to exercise, aiming to arrive before peak congestion builds up around 18:00."
+                ],
+                [
+                    "Hospital",
+                    "18:15",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Return to Hospital by 18:30 to meet Stephanie Lewis for volunteer health screening setup."
+                ],
+                [
+                    "Midtown apartment",
+                    "20:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Drive back home to Midtown apartment and prepare for rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning congestion frequently affects St_1_link_1, requiring alternate routes like St_2",
+                    "St_1_link_1, St_2, congestion",
+                    "St_1_link_1, St_2_link_1, St_2_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym experiences peak congestion around 18:00",
+                    "Gym, peak congestion",
+                    "Gym",
+                    "17:45-18:30"
+                ],
+                [
+                    "Volunteer coordination benefits from early arrival buffer",
+                    "Volunteer coordination, early arrival",
+                    "Hospital",
+                    "18:00-19:00"
+                ],
+                [
+                    "Driving remains reliable with strategic route selection",
+                    "Driving reliability, route selection",
+                    "the town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 00:00:00"
+        },
+        {
+            "reflection": "The past day required significant adaptability with unexpected congestion at the Gym, but I successfully maintained key social and professional commitments. My morning commute was rerouted due to congestion on St_2_link_1 and Ave_1_link_1, yet I managed to arrive at the Hospital on time by using St_1_link_1 as an alternative route. The plan to meet Stephanie Lewis at the Gym after work had to be adjusted due to severe congestion there, so we switched our meetup location to the Coffee shop, which worked well. Victoria Bell joined us, making it a productive evening of social connection. I missed my exercise goal for the day, highlighting the need to check real-time facility occupancy before visiting places like the Gym in the coming days. This week, I aim to stay flexible while prioritizing personal goals like fitness alongside family and social responsibilities.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and completes her morning routine."
+                ],
+                [
+                    "Hospital",
+                    "07:35",
+                    120,
+                    "drive",
+                    "St_1_link_1, St_1_link_2",
+                    "Drive from Midtown apartment to Hospital for 8:00 shift, taking alternate route via St_1_link_1 due to expected St_2 congestion."
+                ],
+                [
+                    "Hospital",
+                    "17:00",
+                    "none",
+                    "none",
+                    "none",
+                    "Wrap up work at Hospital after completing 9-hour shift."
+                ],
+                [
+                    "Coffee shop",
+                    "17:30",
+                    60,
+                    "drive",
+                    "St_4_link_2, Ave_3_link_3",
+                    "Go to Coffee shop by 18:30 to meet Stephanie Lewis and Victoria Bell for social engagement."
+                ],
+                [
+                    "Supermarket",
+                    "19:00",
+                    30,
+                    "drive",
+                    "Ave_3_link_3, St_4_link_2",
+                    "After meeting friends, stop by Supermarket to do light grocery shopping for household needs."
+                ],
+                [
+                    "Midtown apartment",
+                    "20:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Drive back home to Midtown apartment and prepare for rest."
+                ]
+            ],
+            "concepts": [
+                [
+                    "St_1_link_1 provides viable alternate route during St_2 congestion",
+                    "St_1_link_1, alternate route, St_2_congestion",
+                    "St_1_link_1, St_2_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Coffee shop serves as effective alternative meeting point during evening hours",
+                    "Coffee shop, meeting point, evening",
+                    "Coffee shop",
+                    "18:00-20:00"
+                ],
+                [
+                    "Real-time facility occupancy checks improve activity planning",
+                    "facility occupancy, planning",
+                    "Gym, Coffee shop",
+                    "all-day"
+                ],
+                [
+                    "The town traffic congested during afternoon peak hour",
+                    "network, congested, afternoon",
+                    "the town",
+                    "17:00-18:00"
+                ],
+                [
+                    "Supermarket is less crowded around 19:00",
+                    "Supermarket, less crowded",
+                    "Supermarket",
+                    "19:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-12 00:00:00"
+        },
+        {
+            "reflection": "This week has been a dynamic balance of professional responsibilities, social connections, and personal goals. Yesterday highlighted the importance of flexibility, as unexpected congestion disrupted multiple plans\u2014from my morning commute to lunch arrangements and evening activities. The reroute via Ave_2_link_1 and Ave_2_link_2 during the morning was effective, but it reinforced the need to monitor real-time traffic patterns more closely. My missed opportunity for grocery shopping underscores how easily personal tasks can fall through the cracks when adapting on the fly. Fortunately, I managed to maintain key social engagements by shifting locations based on facility congestion. Today, with Stephanie and I already committed to meeting at the Amusement park around 16:30 for a pop-up event, I aim to structure my day around that fixed point. I\u2019ll prioritize work obligations in the morning, handle necessary errands midday, and ensure I\u2019m prepared for our afternoon meetup. Given yesterday\u2019s congestion challenges, I\u2019ll also keep an eye on real-time conditions and communicate proactively with Oliver to coordinate vehicle use efficiently.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete her morning routine."
+                ],
+                [
+                    "Hospital",
+                    "07:35",
+                    120,
+                    "drive",
+                    "Ave_2_link_1, Ave_2_link_2",
+                    "Drive from Midtown apartment to Hospital for 8:00 shift, taking alternate route via Ave_2_link_1 due to expected St_1 and St_2 congestion."
+                ],
+                [
+                    "Supermarket",
+                    "12:00",
+                    30,
+                    "drive",
+                    "St_2_link_2, St_2_link_1",
+                    "After morning shift, drive to Supermarket to handle light grocery shopping for household needs missed yesterday."
+                ],
+                [
+                    "Amusement park",
+                    "16:30",
+                    60,
+                    "drive",
+                    "shortest",
+                    "Meet Stephanie Lewis at Amusement park for pop-up event starting at 16:30; enjoy outdoor activities and casual conversation."
+                ],
+                [
+                    "Coffee shop",
+                    "18:00",
+                    60,
+                    "drive",
+                    "Ave_3_link_3, St_4_link_2",
+                    "Head to Coffee shop after event for relaxed evening drink and reflection on the day."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment before 22:00, spend quiet evening with Oliver and prepare for upcoming days."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning commutes face congestion on St_1 and St_2 links",
+                    "commute, congestion, morning",
+                    "St_1_link_1, St_1_link_2, St_2_link_1, St_2_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Afternoon peak hour traffic affects the entire town network",
+                    "network, congested, afternoon",
+                    "the town",
+                    "17:00-18:30"
+                ],
+                [
+                    "Coffee shop experiences high wait times in late afternoon",
+                    "Coffee shop, crowded, late afternoon",
+                    "Coffee shop",
+                    "17:30-19:00"
+                ],
+                [
+                    "Food court has long waits during lunch hours",
+                    "Food court, long wait, lunch",
+                    "Food court",
+                    "12:00-13:30"
+                ],
+                [
+                    "Amusement park is less crowded in early afternoon",
+                    "Amusement park, less crowded, afternoon",
+                    "Amusement park",
+                    "15:30-17:00"
+                ]
+            ],
+            "datetime": "2025-03-13 00:00:00"
+        },
+        {
+            "reflection": "This week has been a mix of professional dedication, social coordination, and personal flexibility. I've had to adjust plans on the fly due to unexpected congestion patterns\u2014most notably rerouting in the morning due to St_1_link_1 delays and revising meetup locations with Stephanie from Amusement park to Cinema. The missed grocery opportunity yesterday reinforces the need to be more proactive about personal errands despite shifting circumstances. Today\u2019s confirmed Supermarket sale gives me a clear window to handle necessary shopping. I also learned that afternoon peak hour traffic affects the entire town network consistently, so I\u2019ll plan around that by scheduling critical tasks earlier in the day. Socially, maintaining communication with Stephanie and others has allowed for smooth transitions between plans. This weekend, I hope to spend quality time with Oliver tending to our garden while staying available for potential health screening volunteer opportunities.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete her morning routine."
+                ],
+                [
+                    "Hospital",
+                    "07:20",
+                    120,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Drive from Midtown apartment to Hospital for 8:00 shift; avoid St_1_link_1 known for morning congestion."
+                ],
+                [
+                    "Supermarket",
+                    "12:00",
+                    30,
+                    "drive",
+                    "Ave_2_link_2, Ave_2_link_3",
+                    "Head to Supermarket during its sale hours (12:00\u201319:00) to stock up on household essentials missed yesterday."
+                ],
+                [
+                    "Cinema",
+                    "13:25",
+                    60,
+                    "drive",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "Meet Stephanie Lewis at Cinema for 'Captain America: Brave New World' screening at 14:00; enjoy movie and discussion."
+                ],
+                [
+                    "Coffee shop",
+                    "16:30",
+                    60,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_3",
+                    "After the movie, head to Coffee shop to relax and debrief with Stephanie over coffee before heading back."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment before 22:00, spend quiet evening with Oliver and prepare for upcoming days."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Afternoon peak hour traffic affects the entire town network",
+                    "network, congested, afternoon",
+                    "the town",
+                    "17:30-18:30"
+                ],
+                [
+                    "Supermarket has a midday sale today which may cause higher than usual foot traffic",
+                    "Supermarket, sale, foot traffic",
+                    "Supermarket",
+                    "12:00-19:00"
+                ],
+                [
+                    "St_1_link_1 prone to morning congestion",
+                    "St_1_link_1, congestion, morning",
+                    "St_1_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Coffee shop severely congested after 18:00",
+                    "Coffee shop, congestion, evening",
+                    "Coffee shop",
+                    "18:00-19:00"
+                ],
+                [
+                    "Cinema high wait times during major screenings",
+                    "Cinema, screening, wait time",
+                    "Cinema",
+                    "14:00-16:00"
+                ]
+            ],
+            "datetime": "2025-03-14 00:00:00"
+        },
+        {
+            "reflection": "This past week has been demanding yet rewarding. My nursing duties at the hospital kept me busy, especially with overnight shifts requiring resilience and calm under pressure. I\u2019ve noticed that morning congestion on St_2_link_2 is becoming a recurring issue, so I\u2019m considering adjusting my departure times or exploring alternative routes like Metro_1 to avoid delays. I missed grocery shopping earlier in the week, but yesterday\u2019s Supermarket trip was successful thanks to planning around the sale hours and coordinating vehicle usage with Oliver. Socially, it was great reconnecting with Stephanie at the Cinema and adapting our plans to include a nature walk at Amusement park with Victoria. I also learned that facility congestion\u2014like at Coffee shop\u2014can disrupt post-movie plans, so flexibility is key. This weekend, I\u2019m looking forward to some personal time, including gardening with Oliver and possibly volunteering for health screenings if any opportunities arise.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:30",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete her morning routine."
+                ],
+                [
+                    "Supermarket",
+                    "07:15",
+                    30,
+                    "transit",
+                    "Metro_1_link_1, Metro_1_link_2",
+                    "Take Metro_1 early to Supermarket during its ongoing sale (12:00\u201319:00) to stock up on household essentials before midday crowding begins."
+                ],
+                [
+                    "Hospital",
+                    "08:00",
+                    120,
+                    "drive",
+                    "Ave_2_link_1, Ave_2_link_2",
+                    "Drive from Supermarket to Hospital for 8:00 shift; avoid known congestion on St_2_link_2 by using Ave_2_link_1 and Ave_2_link_2."
+                ],
+                [
+                    "Museum",
+                    "12:30",
+                    60,
+                    "drive",
+                    "St_3_link_1, St_3_link_2",
+                    "Afternoon break activity: Visit Museum for modern art exhibition starting at 10:00; this path avoids afternoon peak hour congestion."
+                ],
+                [
+                    "Amusement park",
+                    "14:00",
+                    60,
+                    "drive",
+                    "Ave_3_link_3, St_4_link_2",
+                    "Head to Amusement park for a nature walk; meet Stephanie Lewis and Victoria as planned yesterday."
+                ],
+                [
+                    "Gym",
+                    "16:00",
+                    60,
+                    "transit",
+                    "Metro_2_link_4, Metro_2_link_5",
+                    "Use Metro_2 to Gym for light evening exercise after nature walk; avoid driving through expected afternoon peak traffic."
+                ],
+                [
+                    "Midtown apartment",
+                    "18:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment before 22:00, spend quiet evening with Oliver tending to garden and prepare for upcoming days."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Morning congestion on St_2_link_2 affects travel reliability",
+                    "St_2_link_2, morning congestion",
+                    "St_2_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Supermarket moderately crowded during midday sale hours",
+                    "Supermarket, crowded, midday",
+                    "Supermarket",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coffee shop severely congested in early afternoon",
+                    "Coffee shop, congested, afternoon",
+                    "Coffee shop",
+                    "13:00-15:00"
+                ],
+                [
+                    "Afternoon peak hour traffic consistently affects the entire town network on Fridays",
+                    "network, peak hour, Friday",
+                    "the town",
+                    "16:00-18:00"
+                ],
+                [
+                    "Nature walks at Amusement park provide good post-movie alternative",
+                    "Amusement park, nature walk, social",
+                    "Amusement park",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-15 00:00:00"
+        },
+        {
+            "reflection": "This past week has been a balance of professional dedication and personal fulfillment. My nursing responsibilities at the hospital were demanding, especially with overnight shifts requiring resilience and calm under pressure. I\u2019ve learned to better anticipate congestion points like St_1_link_2 in the mornings and the afternoon peak affecting the entire town network on Fridays. I successfully adjusted my travel plans using Metro_2 during rush hours and found midday visits to the Gym more peaceful than expected. Socially, I enjoyed connecting with Stephanie and Victoria at Amusement park, though I had to adapt when Museum plans fell through due to unexpected full capacity. Coordinating vehicle use with Oliver kept our household logistics running smoothly. Looking ahead, I\u2019ll continue prioritizing efficient travel planning, explore recreational opportunities like the circus show today, and consider volunteering for health screenings later this week.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Supermarket",
+                    "07:30",
+                    30,
+                    "drive",
+                    "Ave_2_link_1, Ave_2_link_2",
+                    "Drive to Supermarket early to stock up on fresh produce and essentials before midday crowding begins."
+                ],
+                [
+                    "Hospital",
+                    "08:15",
+                    120,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Head to Hospital for 8:00 AM shift; avoid morning congestion by taking St_2_link_1 and St_2_link_2."
+                ],
+                [
+                    "Gym",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_4",
+                    "Use Metro_2 to go to Gym for light exercise during lunch break; consistent low occupancy makes it ideal for midday workout."
+                ],
+                [
+                    "Amusement park",
+                    "14:00",
+                    60,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_3",
+                    "Drive to Amusement park to attend the circus show from 10:00\u201318:00; meet Stephanie Lewis and possibly Victoria as planned yesterday."
+                ],
+                [
+                    "Coffee shop",
+                    "17:00",
+                    30,
+                    "transit",
+                    "Metro_2_link_2, Metro_2_link_1",
+                    "Take Metro_2 back to Coffee shop for a relaxed evening coffee after Amusement park visit."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment before 22:00, spend quiet evening with Oliver tending to garden and reflecting on the day."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Museum peak hours between 12:00\u201313:00",
+                    "Museum, peak hour",
+                    "Museum",
+                    "12:00-13:00"
+                ],
+                [
+                    "Afternoon peak hour traffic consistently affects the entire town network on Fridays",
+                    "network, congested, Friday",
+                    "the town",
+                    "17:00-18:00"
+                ],
+                [
+                    "Gym consistently unoccupied during midday",
+                    "Gym, unoccupied, midday",
+                    "Gym",
+                    "12:00-14:00"
+                ],
+                [
+                    "St_1_link_2 frequently congested during morning commute",
+                    "St_1_link_2, congestion, morning",
+                    "St_1_link_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "Check real-time facility occupancy before visiting",
+                    "facility occupancy, real-time",
+                    "all facilities",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-16 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a balance of professional dedication and personal fulfillment. My nursing responsibilities at the hospital were demanding, especially with overnight shifts requiring resilience and calm under pressure. I\u2019ve learned to better anticipate congestion points like St_1_link_2 in the mornings and the afternoon peak affecting the entire town network on Fridays. I successfully adjusted my travel plans using Metro_2 during rush hours and found midday visits to the Gym more peaceful than expected. Socially, I enjoyed connecting with Stephanie and Victoria at Amusement park, though I had to adapt when Museum plans fell through due to unexpected full capacity. Coordinating vehicle use with Oliver kept our household logistics running smoothly. Looking ahead, I\u2019ll continue prioritizing efficient travel planning, explore recreational opportunities like the circus show today, and consider volunteering for health screenings later this week.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Hospital",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_2_link_1, St_2_link_2",
+                    "Drive to Hospital for 8:00 AM shift; avoid morning congestion by taking St_2_link_1 and St_2_link_2."
+                ],
+                [
+                    "Gym",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_4",
+                    "Use Metro_2 to go to Gym for light exercise during lunch break; consistent low occupancy makes it ideal for midday workout."
+                ],
+                [
+                    "Supermarket",
+                    "14:00",
+                    30,
+                    "drive",
+                    "Ave_2_link_3, Ave_2_link_2",
+                    "Drive to Supermarket after Gym visit to pick up fresh produce and essentials before evening crowding begins."
+                ],
+                [
+                    "Coffee shop",
+                    "17:00",
+                    30,
+                    "transit",
+                    "Metro_2_link_2, Metro_2_link_1",
+                    "Take Metro_2 back to Coffee shop for a relaxed evening coffee with Stephanie Lewis."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment before 22:00, spend quiet evening with Oliver tending to garden and reflecting on the day."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Supermarket and Food court zone around 6PM is very congested",
+                    "Supermarket, Food court, congested",
+                    "Supermarket, Food court",
+                    "18:00-19:00"
+                ],
+                [
+                    "Ave_3_link_2 has long waiting time in morning peak hour",
+                    "Ave_3_link_2, long waiting time, morning peak hour",
+                    "Ave_3_link_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "School is crowded in the afternoon",
+                    "School, crowded, afternoon",
+                    "School",
+                    "17:30-18:30"
+                ],
+                [
+                    "The traffic is congested in the afternoon peak hour",
+                    "network, congested, afternoon",
+                    "the town",
+                    "17:30-18:30"
+                ]
+            ],
+            "datetime": "2025-03-17 00:00:00"
+        },
+        {
+            "reflection": "The past week has been a testament to adaptability and balance. My nursing responsibilities at the hospital demanded resilience, especially during overnight shifts where my calm presence was crucial for patient care. Traveling has required more planning due to recurring congestion on routes like St_1_link_1 and St_1_link_2 in the mornings and Ave_1_link_1 in the evenings. I\u2019ve found that using Metro_2 midday not only avoids traffic but also connects me with meaningful activities like Gym workouts and Museum visits. Socially, I appreciated connecting with Stephanie Lewis and learning from Sarah Chen\u2019s expertise, which added value beyond just work. Looking ahead, I\u2019ll continue prioritizing efficient travel strategies, maintain flexibility in activity plans, and explore new ways to integrate volunteering into my schedule.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine."
+                ],
+                [
+                    "Hospital",
+                    "07:30",
+                    120,
+                    "drive",
+                    "St_3_link_1, St_3_link_2",
+                    "Drive to Hospital for 8:00 AM shift; avoid known morning congestion by taking St_3_link_1 and St_3_link_2 based on yesterday's successful route adjustment."
+                ],
+                [
+                    "Gym",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_1",
+                    "Take Metro_2 after lunch break to visit Gym for light exercise and catch up with Sarah Chen."
+                ],
+                [
+                    "Museum",
+                    "14:00",
+                    30,
+                    "transit",
+                    "Metro_2_link_2, Metro_2_link_3",
+                    "Use Metro_2 again to go to Museum for an afternoon of cultural exploration before meeting friends later."
+                ],
+                [
+                    "Coffee shop",
+                    "17:30",
+                    30,
+                    "drive",
+                    "Ave_3_link_2, Ave_3_link_1",
+                    "Drive to Coffee shop for a relaxed evening coffee with Stephanie Lewis, avoiding late afternoon congestion areas."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:00",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment before 22:00, spend quiet evening with Oliver tending to garden and reflecting on the day."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_2 is reliable for midday travel between Gym and Museum",
+                    "Metro_2, reliable, midday",
+                    "Metro_2",
+                    "12:00-15:00"
+                ],
+                [
+                    "Ave_1_link_1 frequently congested in the evening",
+                    "Ave_1_link_1, congested, evening",
+                    "Ave_1_link_1",
+                    "18:00-19:00"
+                ],
+                [
+                    "St_1_link_1 and St_1_link_2 often congested during morning rush",
+                    "St_1_link_1, St_1_link_2, congested, morning",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-08:30"
+                ],
+                [
+                    "Coordinating departure times enhances social efficiency",
+                    "departure time, coordination, social",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Coffee shop experiences high congestion in the late afternoon",
+                    "Coffee shop, congestion, afternoon",
+                    "Coffee shop",
+                    "16:30-17:30"
+                ]
+            ],
+            "datetime": "2025-03-18 00:00:00"
+        },
+        {
+            "reflection": "Yesterday's experience reinforced the importance of adaptive commuting strategies. The unexpected congestion on St_1_link_2 served as a reminder to stay vigilant during morning hospital commutes, especially given my critical 8:00 AM shift start. Metro_2 continues to prove its reliability for midday transit, making it an excellent option for balancing exercise and professional networking with Sarah Chen. Social coordination with Stephanie Lewis worked smoothly when we shifted our meetup location to Supermarket, demonstrating the value of flexible plans. Looking ahead, I'll continue leveraging metro transit for non-driving days, maintain vigilance around Gym crowding patterns post-13:00, and explore more opportunities to integrate volunteering into my schedule while ensuring timely return home for evening routines with Oliver.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine before heading to work."
+                ],
+                [
+                    "Hospital",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2",
+                    "Take Metro_2 to Hospital for 8:00 AM shift, avoiding morning congestion after yesterday's delays on St_1_link_2. Ensure punctuality for patient care responsibilities."
+                ],
+                [
+                    "Gym",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_4",
+                    "Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit."
+                ],
+                [
+                    "Museum",
+                    "14:00",
+                    30,
+                    "transit",
+                    "Metro_2_link_5",
+                    "Continue using Metro_2 for cultural exploration at Museum, enjoying afternoon exhibits before meeting Stephanie Lewis."
+                ],
+                [
+                    "Supermarket",
+                    "17:30",
+                    30,
+                    "drive",
+                    "Ave_2_link_3, Ave_2_link_4",
+                    "Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before returning home."
+                ],
+                [
+                    "Midtown apartment",
+                    "19:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment by 19:30, prepare dinner with Oliver and tend to garden as part of relaxing evening routine."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Metro_2 proves reliable midday transit option avoiding road congestion",
+                    "Metro_2, reliable, transit, congestion",
+                    "Metro_2",
+                    "all-day"
+                ],
+                [
+                    "Gym becomes increasingly crowded after 13:00 with peak occupancy",
+                    "Gym, crowded, peak occupancy",
+                    "Gym",
+                    "13:00-15:00"
+                ],
+                [
+                    "Supermarket serves as less congested alternative meeting point in late afternoon",
+                    "Supermarket, meeting point, less congested",
+                    "Supermarket",
+                    "17:00-19:00"
+                ],
+                [
+                    "St_1_link_2 experiences regular morning congestion affecting hospital commute",
+                    "St_1_link_2, congestion, morning",
+                    "St_1_link_2",
+                    "07:00-08:00"
+                ],
+                [
+                    "Coffee shop shows consistent late afternoon congestion patterns",
+                    "Coffee shop, congestion, late afternoon",
+                    "Coffee shop",
+                    "17:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-19 00:00:00"
+        },
+        {
+            "reflection": "This week has been particularly demanding at the Hospital with wildfire-related emergencies requiring extra vigilance and teamwork. I managed to maintain a good balance between my professional responsibilities, personal health through regular exercise at the Gym, and quality time with Oliver. Yesterday's wildfire at the Amusement park caused unexpected disruptions, but we adjusted well by planning an evening visit to Cinema after our Supermarket trip. My reliance on Metro_2 during peak hours continues to pay off, avoiding congestion on St_1_link_1. Looking ahead, I'll continue prioritizing transit for morning commutes when possible, remain flexible with Stephanie Lewis regarding meetup locations, and explore more post-work recreational options that are easily accessible.",
+            "plan": [
+                [
+                    "Midtown apartment",
+                    "06:45",
+                    20,
+                    "none",
+                    "none",
+                    "Wake up at home and complete morning routine before heading to work."
+                ],
+                [
+                    "Hospital",
+                    "07:30",
+                    120,
+                    "transit",
+                    "Metro_2_link_1, Metro_2_link_2",
+                    "Take Metro_2 to Hospital for 8:00 AM shift, continuing safe and reliable commute while avoiding morning congestion on St_1_link_1."
+                ],
+                [
+                    "Gym",
+                    "12:30",
+                    60,
+                    "transit",
+                    "Metro_2_link_3, Metro_2_link_4",
+                    "Use Metro_2 again during lunch break to visit Gym for light exercise and connect with colleagues before Museum visit."
+                ],
+                [
+                    "Museum",
+                    "14:00",
+                    30,
+                    "transit",
+                    "Metro_2_link_5",
+                    "Continue using Metro_2 for cultural exploration at Museum, enjoying afternoon exhibits before meeting Stephanie Lewis."
+                ],
+                [
+                    "Supermarket",
+                    "17:30",
+                    30,
+                    "drive",
+                    "Ave_2_link_3, Ave_2_link_4",
+                    "Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before returning home."
+                ],
+                [
+                    "Cinema",
+                    "19:30",
+                    30,
+                    "drive",
+                    "shortest",
+                    "After grocery shopping, drive to Cinema with Oliver to catch an evening movie as part of spontaneous plans from yesterday's coordination."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment by 21:30, prepare for a relaxing night with Oliver and tend to garden if time allows."
+                ]
+            ],
+            "concepts": [
+                [
+                    "Flexible departure times ease transition between activities",
+                    "flexible departure, activity transitions",
+                    "the town",
+                    "all-day"
+                ],
+                [
+                    "Supermarket shopping coordination improves efficiency",
+                    "Supermarket, shopping coordination",
+                    "Supermarket",
+                    "17:00-19:00"
+                ],
+                [
+                    "St_1_link_1 prone to congestion during morning rush",
+                    "St_1_link_1, congestion, morning rush",
+                    "St_1_link_1",
+                    "07:00-08:00"
+                ],
+                [
+                    "Evening Cinema visits work well post-grocery shopping",
+                    "Cinema, evening visit, grocery shopping",
+                    "Cinema, Supermarket",
+                    "19:00-21:00"
+                ],
+                [
+                    "Museum visit feasible despite nearby disruptions if timed early",
+                    "Museum, disruption resilience, timing",
+                    "Museum",
+                    "14:00-16:00"
+                ]
+            ],
+            "datetime": "2025-03-20 00:00:00"
+        }
+    ],
+    "revised_plans": [
+        {
+            "reflection": "I am currently at the Gym, where I arrived at 12:30 PM via Metro_2 for a midday workout and to meet Stephanie Lewis. At 2:00 PM, I need to proceed to the Museum to continue with my original plan of cultural exploration before meeting Oliver at the Supermarket later in the evening. There is no congestion on the roads or at facilities, so my travel plans remain unaffected. Stephanie is also at the Gym, which confirms our coordination and provides an opportunity for shared conversation during our trip to the Museum if we depart together.",
+            "plan": [
+                [
+                    "Museum",
+                    "15:00",
+                    30,
+                    "transit",
+                    "Metro_2_link_4, Metro_2_link_5",
+                    "Travel via Metro_2 from Gym to Museum to join Stephanie Lewis and explore afternoon exhibits before continuing with the day's plans."
+                ],
+                [
+                    "Supermarket",
+                    "17:30",
+                    30,
+                    "drive",
+                    "Ave_2_link_3, Ave_2_link_4",
+                    "Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before returning home."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment by 21:30, prepare for a relaxing night with Oliver and tend to garden if time allows."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-20 14:00:00"
+        },
+        {
+            "reflection": "I have completed my activity at the Museum, where I explored exhibits with Stephanie Lewis. It's now 17:30, and according to my original plan, I should proceed to the Supermarket to meet Oliver for grocery shopping. There is no congestion reported on any roads or facilities, so my travel plans remain unaffected. The Cinema visit with Oliver is scheduled for 19:30, so there is ample time to complete shopping before heading to the Cinema.",
+            "plan": [
+                [
+                    "Supermarket",
+                    "17:30",
+                    30,
+                    "drive",
+                    "St_3_link_2, Ave_2_link_3",
+                    "Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema."
+                ],
+                [
+                    "Cinema",
+                    "19:30",
+                    30,
+                    "drive",
+                    "Ave_2_link_4",
+                    "After grocery shopping, drive to Cinema with Oliver to catch an evening movie as part of spontaneous plans from yesterday's coordination."
+                ],
+                [
+                    "Midtown apartment",
+                    "21:30",
+                    "none",
+                    "drive",
+                    "shortest",
+                    "Return home to Midtown apartment by 21:30, prepare for a relaxing night with Oliver and tend to garden if time allows."
+                ]
+            ],
+            "concepts": [],
+            "datetime": "2025-03-20 17:30:00"
+        }
+    ],
+    "daily_reflections": [
+        {
+            "reflection": "Today's activities mostly followed the revised plan, with a few necessary adjustments due to traffic and facility congestion. My morning commute required rerouting due to severe delays on St_1_link_1, but switching to 'St_2_link_1' and 'St_2_link_2' allowed me to arrive at the Hospital on time. The unexpected rescheduling of the volunteer session with Stephanie Lewis caused a reorganization of my evening plans, which worked out smoothly thanks to light overall traffic conditions. Arriving at the Gym early for exercise was impacted by heavy congestion there\u2014contrary to my earlier assumption that it would be lighter after 18:00\u2014prompting an early departure to ensure punctuality for the volunteer event. Coordination with Stephanie went well, and meeting her ahead of schedule allowed us to complete the session efficiently. I managed to balance work, personal fitness, and social commitments, although the Gym congestion disrupted part of my routine. Driving remained reliable throughout the day, with no significant disruptions on chosen routes. Overall, today reinforced the importance of flexibility in scheduling and verifying assumptions about facility crowding.",
+            "concepts": [
+                [
+                    "Morning commute requires alternate routes when St_1_link_1 congested",
+                    "commute, route change, traffic avoidance",
+                    "St_1_link_1, St_2_link_1, St_2_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Gym experiences peak congestion around 18:00",
+                    "Gym, crowded, peak hours",
+                    "Gym",
+                    "17:30-18:30"
+                ],
+                [
+                    "Volunteer coordination benefits from early arrival buffer",
+                    "volunteering, coordination, buffer time",
+                    "Hospital",
+                    "18:00-19:00"
+                ],
+                [
+                    "Check real-time gym occupancy before visiting",
+                    "Gym, congestion, planning",
+                    "Gym",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-10 23:59:00"
+        },
+        {
+            "reflection": "Today's activities required several adjustments due to unexpected Gym congestion, but overall planning and adaptability ensured most commitments were met successfully. My morning commute was rerouted twice before departure due to congestion on St_2_link_1 and Ave_1_link_1, ultimately opting for St_1_link_1 to arrive at the Hospital on time. The original plan to visit the Gym after work was affected by severe congestion (135-minute wait), prompting a rescheduling of my meetup with Stephanie Lewis to the Coffee shop instead. Despite these changes, coordination with Stephanie remained effective, and we proceeded together to the Hospital for the volunteer health screening setup as planned later in the evening. Travel between locations was smooth throughout due to clear traffic conditions. Personal goals like exercise had to be sacrificed temporarily, but maintaining key social and professional commitments was successful. This highlights the importance of real-time occupancy awareness and flexibility in activity planning.",
+            "concepts": [
+                [
+                    "St_2_link_1 frequently experiences morning congestion",
+                    "St_2_link_1, congestion, morning",
+                    "St_2_link_1",
+                    "07:00-08:30"
+                ],
+                [
+                    "Gym peak congestion typically around 18:00",
+                    "Gym, congestion, peak hour",
+                    "Gym",
+                    "17:30-18:30"
+                ],
+                [
+                    "Coffee shop serves as effective alternative meeting point",
+                    "Coffee shop, coordination, alternative",
+                    "Coffee shop",
+                    "all-day"
+                ],
+                [
+                    "St_1_link_1 provides viable alternate route during St_2 congestion",
+                    "St_1_link_1, alternate route, reliability",
+                    "St_1_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Real-time facility occupancy checks improve activity planning",
+                    "facility occupancy, planning, adjustment",
+                    "Gym, Coffee shop",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-11 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required significant adaptability due to unexpected congestion on key routes and at popular facilities. My morning commute faced severe delays on St_1_link_1, which I mitigated by rerouting via Ave_2_link_1 and Ave_2_link_2. This adjustment allowed me to arrive at the Hospital on time despite the traffic challenges. Later, plans to meet Oliver for lunch at the new Mexican restaurant in the Food court were disrupted by an unexpectedly long 80-minute wait, prompting a shift to join Stephanie and Victoria at the Coffee shop instead. The evening brought another change when the Coffee shop became severely congested with a 120-minute wait, leading me to extend my stay at the Amusement park with friends. Despite these changes, I maintained most of my professional and social commitments. Travel mode choices were effective overall\u2014driving provided flexibility to adjust plans quickly. However, checking real-time facility occupancy before heading out would help avoid wasted time at crowded locations. Coordination with Oliver and friends via messaging was crucial for smooth adjustments. While I missed the planned grocery shopping, the trade-off allowed for more meaningful social time. These experiences highlight the importance of dynamic planning, real-time awareness, and maintaining open communication with family and friends.",
+            "concepts": [
+                [
+                    "St_1_link_1 prone to morning congestion",
+                    "St_1_link_1, congestion, unreliable",
+                    "St_1_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Food court experiences high wait times during lunch",
+                    "Food court, waiting, lunch rush",
+                    "Food court",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coffee shop becomes congested in late afternoon",
+                    "Coffee shop, congestion, peak",
+                    "Coffee shop",
+                    "17:00-19:00"
+                ],
+                [
+                    "Check real-time facility occupancy before visiting",
+                    "facility, congestion, planning",
+                    "The town",
+                    "all-day"
+                ],
+                [
+                    "Maintain communication with family/friends improves coordination",
+                    "coordination, messaging, scheduling",
+                    "The town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-12 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required significant adjustments due to unexpected changes in social plans and traffic congestion patterns. The morning commute was slightly delayed by severe congestion on St_1_link_1, but I arrived at the Hospital on time. A key revision came early in the day when Stephanie Lewis and I changed our meetup from Amusement park to Cinema with a confirmed showing of 'Captain America: Brave New World' at 14:00. This necessitated an updated route from Hospital to Supermarket via Ave_3_link_1 and Ave_3_link_2, which performed well despite initial concerns about congestion. Traffic conditions remained mostly clear throughout the day, allowing flexibility in travel between activities. However, an unforeseen challenge arose at the Coffee shop around 18:19, where extreme congestion (105 minutes wait time) forced a plan revision to head directly back to Amusement park for a regrouping with Stephanie and Victoria Bell. Coordination with Stephanie via real-time updates ensured smooth transitions between meetups. The revised plan allowed for continued social engagement without major disruption to personal time or household responsibilities. While some timing estimates were accurate (e.g., movie end time), others\u2014like departure from Coffee shop\u2014required adjustment based on facility congestion patterns.",
+            "concepts": [
+                [
+                    "St_1_link_1 prone to morning congestion",
+                    "St_1_link_1, morning commute, congestion",
+                    "St_1_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Cinema high wait times during major screenings",
+                    "Cinema, wait time, peak hours",
+                    "Cinema",
+                    "13:00-16:00"
+                ],
+                [
+                    "Coffee shop severely congested after 18:00",
+                    "Coffee shop, congestion, evening rush",
+                    "Coffee shop",
+                    "18:00-19:00"
+                ],
+                [
+                    "Ave_3_link_1 and Ave_3_link_2 effective alternate route midday",
+                    "Ave_3_link_1, Ave_3_link_2, efficient routing",
+                    "Ave_3_link_1, Ave_3_link_2",
+                    "12:00-14:00"
+                ],
+                [
+                    "Coordination via real-time communication improves plan adaptability",
+                    "coordination, real-time updates, social plans",
+                    "The town",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-13 23:59:00"
+        },
+        {
+            "reflection": "Today's activities largely followed the original plan, with some necessary adjustments due to unexpected congestion patterns. Morning traffic on St_2_link_2 and St_2_link_1 forced a route change, but I managed to arrive at Hospital on time by departing early and rerouting through St_3_link_1. The Supermarket trip went smoothly in terms of travel, though facility congestion delayed my departure slightly. The most significant adjustment came after the movie at Cinema\u2014due to severe congestion at Coffee shop and Stephanie\u2019s change in plans, I revised the afternoon activity to join a nature walk at Amusement park with Stephanie and Victoria. This maintained social coordination while avoiding unnecessary waiting. Evening traffic was mostly clear, though Ave_2_link_3 showed moderate congestion later than usual. Overall, the day required flexibility but ended up being productive and socially fulfilling. Future planning should include buffer times for facility congestion and alternative meetup locations when coordinating with friends.",
+            "concepts": [
+                [
+                    "St_2_link_2 prone to morning congestion",
+                    "St_2_link_2, morning commute, unreliable",
+                    "St_2_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Supermarket moderately crowded during midday sale hours",
+                    "Supermarket, shopping, facility congestion",
+                    "Supermarket",
+                    "12:00-15:00"
+                ],
+                [
+                    "Coffee shop severely congested in early afternoon",
+                    "Coffee shop, facility congestion, afternoon",
+                    "Coffee shop",
+                    "13:00-16:00"
+                ],
+                [
+                    "Ave_2_link_3 occasionally experiences late evening congestion",
+                    "Ave_2_link_3, road congestion, evening",
+                    "Ave_2_link_3",
+                    "18:30-20:00"
+                ],
+                [
+                    "Nature walks at Amusement park provide good post-movie alternative",
+                    "Amusement park, social activity, relaxation",
+                    "Amusement park",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-14 23:59:00"
+        },
+        {
+            "reflection": "Today was a mix of adaptability and smooth transitions. My initial plan to visit the Museum had to be scrapped due to unexpected 100% occupancy, which I hadn't anticipated even after adjusting my timing earlier. Fortunately, traffic conditions were overall favorable, allowing me to shift plans and head directly to the Gym without delays. Stephanie was running late, so we coordinated on the fly, and we eventually met at the Amusement park around 14:30. The morning congestion warning on St_1_link_2 proved accurate, reinforcing the value of rerouting via St_3_link_1. I also learned that relying on real-time updates is essential, especially for facility crowding and road incidents. I managed to balance personal time with gardening in the evening and coordinating shared vehicle use with Oliver, which kept our household logistics efficient.",
+            "concepts": [
+                [
+                    "St_1_link_2 frequently congested during morning commute",
+                    "St_1_link_2, congestion, morning commute",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Museum peak hours between 12:00\u201313:00",
+                    "Museum, crowded, lunch hour",
+                    "Museum",
+                    "12:00-13:00"
+                ],
+                [
+                    "Gym consistently unoccupied during midday",
+                    "Gym, empty, exercise",
+                    "Gym",
+                    "12:00-15:00"
+                ],
+                [
+                    "Metro_2 faster alternative during morning rush",
+                    "Metro_2, transit, commute",
+                    "Metro_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Check real-time facility occupancy before visiting",
+                    "facility, crowding, planning",
+                    "Museum, Gym",
+                    "all-day"
+                ]
+            ],
+            "datetime": "2025-03-15 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required several adjustments due to congestion and facility overcrowding, but overall I managed to balance work obligations with personal relaxation. My morning commute to the Supermarket and then the Hospital went smoothly despite minor delays on St_2_link_1, thanks to proactive route planning. However, my midday Gym visit was disrupted by a 75-minute wait time, prompting a shift in plans to meet Stephanie at the Amusement park instead. The afternoon drive back to the Hospital was efficient with no congestion reported. In the evening, I wisely skipped the heavily congested Coffee shop to prioritize returning home on time for a quiet evening with Oliver. While some original plans didn\u2019t materialize\u2014particularly around recreational stops\u2014I adapted effectively to maintain a productive and balanced day.",
+            "concepts": [
+                [
+                    "Gym often crowded during lunch hours",
+                    "Gym, crowded, lunch",
+                    "Gym",
+                    "12:00-14:00"
+                ],
+                [
+                    "St_1_link_2 frequently congested in mornings",
+                    "St_1_link_2, congestion, morning",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Coffee shop experiences peak occupancy in early evenings",
+                    "Coffee shop, crowded, evening",
+                    "Coffee shop",
+                    "16:30-18:00"
+                ],
+                [
+                    "Amusement park is a good alternative for midday recreation",
+                    "Amusement park, recreation, midday",
+                    "Amusement park",
+                    "12:00-15:00"
+                ],
+                [
+                    "Direct return home after Hospital avoids unnecessary delays",
+                    "Hospital, commute, efficiency",
+                    "Hospital, Midtown apartment",
+                    "18:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-16 23:59:00"
+        },
+        {
+            "reflection": "Today was a mix of adjustments and successful adaptations. My morning commute required rerouting due to congestion on St_1_link_1 and St_1_link_2, but switching to St_3_link_1 got me to the Hospital on time. The midday Gym visit went smoothly via Metro_2, and I even had the chance to connect with Sarah Chen, which made the workout more enjoyable. Originally, I planned to meet Stephanie at the Coffee shop, but heavy congestion there prompted a change to the Museum, which worked out well. Departure times for the evening meetup were adjusted twice to accommodate coordination with Sarah, ultimately leaving the Gym at 16:00. Travel via Metro_2 to the Museum was efficient, and we arrived just in time for the 17:00 meetup. On the return trip home, I encountered unexpected congestion on Ave_1_link_1, but since I was already near Node_1, I continued as planned. Overall, today reinforced the importance of flexibility, real-time traffic awareness, and maintaining social connections despite schedule shifts.",
+            "concepts": [
+                [
+                    "St_1_link_1 and St_1_link_2 often congested during morning rush",
+                    "St_1_link_1, St_1_link_2, congestion, morning",
+                    "St_1_link_1, St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Metro_2 is reliable for midday travel between Gym and Museum",
+                    "Metro_2, transit, Gym, Museum",
+                    "Metro_2",
+                    "12:00-18:00"
+                ],
+                [
+                    "Coffee shop experiences high congestion in the late afternoon",
+                    "Coffee shop, congestion, 5PM",
+                    "Coffee shop",
+                    "16:00-18:00"
+                ],
+                [
+                    "Coordinating departure times enhances social efficiency",
+                    "coordination, departure timing, social meetup",
+                    "Gym, Museum",
+                    "15:00-17:00"
+                ],
+                [
+                    "Ave_1_link_1 frequently congested in the evening",
+                    "Ave_1_link_1, congestion, evening commute",
+                    "Ave_1_link_1",
+                    "18:00-20:00"
+                ]
+            ],
+            "datetime": "2025-03-17 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule demonstrated both effective planning and necessary adaptability. My morning commute to Hospital faced unexpected congestion on St_1_link_2, but thanks to proactive route adjustments made en route, I arrived just in time for my 8:00 AM shift. The midday Gym visit via Metro_2 was smooth and provided valuable time with colleagues Sarah Chen and Stephanie Lewis, though the facility became increasingly crowded during our stay, slightly limiting available activities. The Museum visit went as planned with no travel delays, and the decision to shift the meetup from Coffee shop to Supermarket proved wise due to earlier congestion there. Coordination with Stephanie worked well, and we successfully adjusted timing to ensure we met up comfortably. Evening travel home was uneventful using the shortest driving route. Overall, today highlighted the importance of flexible routing, real-time congestion awareness, and adaptive social coordination.",
+            "concepts": [
+                [
+                    "St_1_link_2 prone to morning congestion affecting hospital commute",
+                    "St_1_link_2, congestion, morning rush",
+                    "St_1_link_2",
+                    "07:00-09:00"
+                ],
+                [
+                    "Metro_2 reliable for midday transit avoiding road congestion",
+                    "Metro_2, efficient, midday",
+                    "Metro_2",
+                    "12:00-14:00"
+                ],
+                [
+                    "Gym peak crowding after 13:00 with full occupancy",
+                    "Gym, overcrowded, peak hours",
+                    "Gym",
+                    "13:00-14:30"
+                ],
+                [
+                    "Coffee shop congestion peaks at 14:00-15:00 then normalizes",
+                    "Coffee shop, congestion, timing",
+                    "Coffee shop",
+                    "14:00-16:00"
+                ],
+                [
+                    "Supermarket less congested alternative meeting point in afternoon",
+                    "Supermarket, meetup, low congestion",
+                    "Supermarket",
+                    "15:00-16:00"
+                ]
+            ],
+            "datetime": "2025-03-18 23:59:00"
+        },
+        {
+            "reflection": "Today's schedule required several adjustments due to unexpected disruptions, particularly the wildfire at Amusement park and morning congestion on St_1_link_1. Despite these challenges, my revised transit-based approach kept me on track for most of the day. I successfully coordinated with Oliver for our Supermarket trip and even added a spontaneous evening plan to check movie times at Cinema after adjusting my departure time. The Gym remained uncrowded during lunch, allowing for meaningful social interaction with Stephanie Lewis. Metro_2 proved reliable again for midday travel, while driving in the evening was efficient without congestion. Overall, today reinforced the importance of flexible planning, proactive route selection, and maintaining open communication with family members for smooth coordination.",
+            "concepts": [
+                [
+                    "St_1_link_1 prone to congestion during morning rush",
+                    "St_1_link_1, congestion, unreliable",
+                    "St_1_link_1",
+                    "07:00-09:00"
+                ],
+                [
+                    "Museum visit feasible despite nearby disruptions if timed early",
+                    "Museum, wildfire, safe timing",
+                    "Museum, Amusement park",
+                    "14:00-15:30"
+                ],
+                [
+                    "Supermarket shopping coordination improves efficiency",
+                    "Supermarket, coordination, couple",
+                    "Supermarket",
+                    "17:00-18:00"
+                ],
+                [
+                    "Evening Cinema visits work well post-grocery shopping",
+                    "Cinema, leisure, flexibility",
+                    "Cinema",
+                    "18:30-20:00"
+                ],
+                [
+                    "Flexible departure times ease transition between activities",
+                    "departure time, buffer, spontaneity",
+                    "The town",
+                    "17:30-19:00"
+                ]
+            ],
+            "datetime": "2025-03-19 23:59:00"
+        },
+        {
+            "reflection": "Today's activities largely followed the original plan with minor adjustments that improved coordination and flexibility. The morning commute via Metro_2 was efficient, arriving at the Hospital on time for my 8:00 AM shift. Travel between Gym and Museum with Stephanie Lewis went smoothly using the metro system, reinforcing its reliability during midday hours. Grocery shopping with Oliver at Supermarket proceeded as scheduled, and we were able to adjust our route slightly without encountering congestion. The evening Cinema visit provided a relaxing close to the day. Overall, transit choices minimized travel stress and allowed for good personal and professional balance. Time estimates were mostly accurate, with only a slight delay in departure from the Gym due to extended conversation with Stephanie, which was a positive social interaction rather than a setback.",
+            "concepts": [
+                [
+                    "Metro_2 is reliable for midday travel between Gym and Museum",
+                    "Metro_2, Gym, Museum, midday",
+                    "Metro_2_link_3, Metro_2_link_4, Metro_2_link_5",
+                    "12:00-15:00"
+                ],
+                [
+                    "St_3_link_2 provides a viable alternative for reaching Supermarket from Museum",
+                    "St_3_link_2, Supermarket, route flexibility",
+                    "St_3_link_2, Supermarket",
+                    "16:00-18:00"
+                ],
+                [
+                    "Evening cinema visits are best scheduled after 19:00 for relaxed arrival",
+                    "Cinema, evening plans, timing",
+                    "Cinema",
+                    "19:00-21:00"
+                ],
+                [
+                    "Coordination with spouse benefits from mid-day alignment",
+                    "Supermarket, coordination, spouse",
+                    "Supermarket, the town",
+                    "17:00-18:00"
+                ]
+            ],
+            "datetime": "2025-03-20 23:59:00"
+        }
+    ],
+    "plan_revision_description": "\nTime: 14:00\nReflections: \nI am currently at the Gym, where I arrived at 12:30 PM via Metro_2 for a midday workout and to meet Stephanie Lewis. At 2:00 PM, I need to proceed to the Museum to continue with my original plan of cultural exploration before meeting Oliver at the Supermarket later in the evening. There is no congestion on the roads or at facilities, so my travel plans remain unaffected. Stephanie is also at the Gym, which confirms our coordination and provides an opportunity for shared conversation during our trip to the Museum if we depart together.\nPlan revisions:\nCarol Green update future activity plan:\n[['Museum', '15:00', 30, 'transit', 'Metro_2_link_4, Metro_2_link_5', \"Travel via Metro_2 from Gym to Museum to join Stephanie Lewis and explore afternoon exhibits before continuing with the day's plans.\"], ['Supermarket', '17:30', 30, 'drive', 'Ave_2_link_3, Ave_2_link_4', 'Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before returning home.'], ['Midtown apartment', '21:30', 'none', 'drive', 'shortest', 'Return home to Midtown apartment by 21:30, prepare for a relaxing night with Oliver and tend to garden if time allows.']]\n\nTime: 17:30\nReflections: \nI have completed my activity at the Museum, where I explored exhibits with Stephanie Lewis. It's now 17:30, and according to my original plan, I should proceed to the Supermarket to meet Oliver for grocery shopping. There is no congestion reported on any roads or facilities, so my travel plans remain unaffected. The Cinema visit with Oliver is scheduled for 19:30, so there is ample time to complete shopping before heading to the Cinema.\nPlan revisions:\nCarol Green update future activity plan:\n[['Supermarket', '17:30', 30, 'drive', 'St_3_link_2, Ave_2_link_3', 'Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema.'], ['Cinema', '19:30', 30, 'drive', 'Ave_2_link_4', \"After grocery shopping, drive to Cinema with Oliver to catch an evening movie as part of spontaneous plans from yesterday's coordination.\"], ['Midtown apartment', '21:30', 'none', 'drive', 'shortest', 'Return home to Midtown apartment by 21:30, prepare for a relaxing night with Oliver and tend to garden if time allows.']]\n",
+    "activity_index": 2,
+    "activity_facility": "Midtown apartment",
+    "activity_departure_time": "2025-03-20 21:30:00",
+    "activity_duration": 1440,
+    "travel_mode": "drive",
+    "reflect_every": null,
+    "activity_description": "Return home to Midtown apartment by 21:30, prepare for a relaxing night with Oliver and tend to garden if time allows.",
+    "planned_path": [],
+    "curr_place": "Midtown apartment",
+    "curr_status": "Staying at facility Midtown apartment",
+    "trip_start_facility": null,
+    "trip_trajectory": null
+}

@@ -7,12 +7,15 @@ __pycache__/
 .DS_Store
 .vscode/
 create_map/resources/
+terminal_output.txt
 
 # Ignore everything in gatsim/storage/
 gatsim/storage/*
 # Except the folder xxx
 !gatsim/storage/experiment_1/
 !gatsim/storage/experiment_2/
+!gatsim/storage/experiment_3/
 # Also, to ensure that contents of xxx are tracked
 !gatsim/storage/experiment_1/**
-!gatsim/storage/experiment_1/**
+!gatsim/storage/experiment_2/**
+!gatsim/storage/experiment_3/**

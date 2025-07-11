@@ -126,7 +126,7 @@ max_num_retries = 5  # max number of retries for LLM calls
 
 # parallel computation settings
 concurrent_call = True
-max_planning_threads = 10  # max number of personas planning at the same time; adjust based on your system and API limits
+max_planning_threads = 12  # max number of personas planning at the same time; adjust based on your system and API limits
 planning_timeout = 300  # timeout for each persona planning call
 import threading
 lock = threading.RLock()  # used to store the lock; so that functions like pretty_print can use the lock easily. This lock will be overridden at the creation of the backend server.
@@ -141,7 +141,7 @@ redirect_file = "terminal_output.txt"
 
 # LLM as a judge
 judge_client = OpenAI(                       # nothing else is required
-    api_key=os.getenv("OPENAI_API_KEY")
+    api_key=os.getenv("DASHSCOPE_API_KEY")
     # base_url="https://api.openai.com/v1"  # leave blank unless you’re pointing at Azure or a proxy
 )
 judge_model_name = 'o3'
