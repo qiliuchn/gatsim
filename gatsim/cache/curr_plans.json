@@ -1,72 +1,71 @@
 {
-    "Isabella Rodriguez": [
-        [
-            "Uptown apartment",
-            "19:40",
-            "none",
-            "drive",
-            "St_2_link_2, Ave_1_link_1",
-            "Drive back to Uptown apartment after completing all activities for the day."
-        ]
-    ],
+    "Isabella Rodriguez": null,
     "Harry Campbell": [
         [
-            "Museum",
-            "17:00",
-            60,
-            "drive",
-            "Ave_2_link_2, St_2_link_2",
-            "Visit Museum for some personal reflection and exploration of new exhibits."
-        ],
-        [
             "Midtown apartment",
-            "17:45",
+            "18:20",
             "none",
             "drive",
-            "St_2_link_1, St_1_link_2",
-            "Return home to Midtown apartment for a restful evening."
+            "shortest",
+            "Drive back home to Midtown apartment, preparing for a restful night."
         ]
     ],
     "Maria Lopez": [
         [
+            "Cinema",
+            "19:30",
+            "60",
+            "transit",
+            "Metro_2, Metro_1",
+            "Continue discussion with Emma Davis and Jessica Adams on movie night while reviewing notes from today's work at Hospital."
+        ],
+        [
             "Uptown apartment",
-            "19:10",
+            "21:00",
             "none",
             "drive",
-            "St_3_link_2, Ave_2_link_4, Ave_2_link_3, Ave_2_link_2, Ave_2_link_1",
-            "Drive back home to Uptown apartment after the meeting at the Cinema concludes. No need to stop at the Gym due to high occupancy and no available space for a workout session."
+            "shortest",
+            "Return home before 22:00 via shortest path; prepare for Friday's schedule and personal study session."
         ]
     ],
     "Benjamin Taylor": [
         [
+            "Factory",
+            "17:45",
+            60,
+            "transit",
+            "shortest",
+            "Head to Factory via shortest transit path to meet Anthony Brown or Rebecca Lee before they leave work."
+        ],
+        [
+            "Coffee shop",
+            "18:15",
+            60,
+            "transit",
+            "shortest",
+            "Travel to Coffee shop for casual meet-up with friends or relaxation if no coordination possible."
+        ],
+        [
             "Uptown apartment",
-            "20:00",
+            "19:30",
             "none",
             "transit",
             "shortest",
-            "Return home via shortest available transit route after completing evening activities at Museum with Anthony and Rebecca."
+            "Return home via shortest available transit route after completing evening plans."
         ]
     ],
     "Catherine Young": [
         [
-            "Coffee shop",
-            "18:15",
-            "60",
-            "drive",
-            "Ave_3_link_3, Ave_3_link_2",
-            "Meet Lisa Woods at Coffee shop around 18:15 for relaxed conversation before visiting Museum."
-        ],
-        [
             "Museum",
-            "none",
-            "60",
+            "18:10",
+            60,
             "drive",
-            "St_3_link_2",
-            "Proceed with Lisa Woods from Coffee shop to Museum for a cultural evening experience after informal discussion."
+            "shortest",
+            "Drive to Museum after work to explore new exhibitions and meet up with Lisa Woods or Patricia Johnson."
         ],
         [
             "Uptown apartment",
-            "19:10",
+            "21:00",
             "none",
             "drive",
             "shortest",
@@ -75,20 +74,12 @@
     ],
     "Linda Parker": [
         [
-            "Museum",
-            "17:00",
-            60,
-            "transit",
-            "Metro_2",
-            "Take Metro_2 directly from Office to Node_12 to meet Nina Scott at Museum. This change was made earlier today due to expected high congestion at Coffee shop."
-        ],
-        [
             "Uptown apartment",
             "19:00",
             "none",
             "drive",
             "shortest",
-            "Return home by 19:45 after completing all daytime activities."
+            "Drive back home to Uptown apartment from Coffee shop via shortest path, aiming to arrive before 20:00 for a restful evening."
         ]
     ],
     "Brian Carter": [
@@ -98,17 +89,17 @@
             "none",
             "drive",
             "shortest",
-            "Drive back home to Midtown apartment after completing work obligations, allowing time for dinner preparation and review of business management studies."
+            "Drive back home to Midtown apartment before 22:00 to prepare dinner and review business management studies."
         ]
     ],
     "Christopher Evans": [
         [
             "Gym",
-            "18:05",
+            "18:30",
             120,
             "drive",
-            "Ave_3, St_4",
-            "Head directly to Gym from Museum with Derek Collins, bypassing Coffee shop to save time. Anthony Brown will join us shortly after finishing his current discussion."
+            "St_1_link_2",
+            "Return to Gym after meetup to continue evening training or lead an outdoor bootcamp session if weather permits."
         ],
         [
             "Uptown apartment",
@@ -121,6 +112,22 @@
     ],
     "Andrew Miller": [
         [
+            "Museum",
+            "18:10",
+            60,
+            "drive",
+            "shortest",
+            "Visit Museum to explore exhibitions before regrouping with friends at Cinema."
+        ],
+        [
+            "Cinema",
+            "19:00",
+            60,
+            "drive",
+            "shortest",
+            "Meet up with Raymond Foster and Paul Harris at Cinema for movie night."
+        ],
+        [
             "Uptown apartment",
             "22:00",
             "none",
@@ -132,80 +139,104 @@
     "Jessica Adams": [
         [
             "Cinema",
-            "18:10",
+            "17:20",
             60,
             "drive",
-            "Ave_3_link_2, Ave_3_link_1",
-            "Head to Cinema by 19:00 to meet Emma Davis for a discussion on workplace wellness initiatives."
+            "St_1_link_2, Ave_3_link_1",
+            "Drive to Cinema for the 19:00 meeting with Emma Davis and Maria Lopez."
         ],
         [
             "Uptown apartment",
             "20:30",
             "none",
             "drive",
-            "St_2_link_1, Ave_1_link_1",
-            "Return home from Cinema by 20:30 to ensure restful evening routine."
+            "Ave_3_link_1, St_2_link_1",
+            "Return home after the meeting to ensure arrival before 22:00."
         ]
     ],
     "Anthony Brown": [
         [
+            "Coffee shop",
+            "18:30",
+            60,
+            "drive",
+            "Ave_3, St_4",
+            "Meet Benjamin Taylor and Christopher Evans at Coffee shop for coffee and casual conversation after finishing at the Museum."
+        ],
+        [
             "Uptown apartment",
-            "21:10",
+            "19:30",
             "none",
             "drive",
             "shortest",
-            "Drive back home to Uptown apartment after concluding evening discussions at the Museum."
+            "Drive back home to Uptown apartment after visiting the Coffee shop, preparing for a restful night."
         ]
     ],
     "Stephanie Lewis": [
         [
             "Gym",
-            "18:30",
+            "17:45",
             60,
             "transit",
             "Metro_2",
-            "Head to Gym for evening exercise session. Depart Museum by 18:30 via Metro_2 to arrive by 19:00."
+            "Travel via Metro_2 to Gym to join Carol Green for a late afternoon workout session. Depart Factory by 17:45 via Metro_2 to arrive at Gym by 18:20, aligning with lighter evening congestion patterns."
         ],
         [
             "Midtown apartment",
-            "18:48",
+            "19:30",
             "none",
             "transit",
             "shortest",
-            "Return home via metro before 22:00 after completing all planned activities."
+            "Return home via metro before 22:00 after completing the workout session."
         ]
     ],
     "Miguel Garcia": null,
     "Nina Scott": [
         [
-            "Uptown apartment",
-            "21:00",
-            "none",
-            "drive",
-            "St_2_link_1, St_2_link_2",
-            "Drive back to Uptown apartment by 21:00 via St_2_link_1 and St_2_link_2 to ensure restful sleep before work tomorrow."
-        ]
-    ],
-    "George Wright": null,
-    "Helen Jones": [
-        [
             "Coffee shop",
-            "17:46",
-            "60",
+            "13:15",
+            60,
+            "drive",
+            "Ave_2_link_3, Ave_3_link_2",
+            "Drive from Supermarket to Coffee shop via Ave_2_link_3 and Ave_3_link_2 to meet Linda Parker by 17:00 for creative discussions."
+        ],
+        [
+            "Museum",
+            "18:00",
+            60,
             "transit",
-            "Ave_3_link_2",
-            "Proceed to Coffee shop to meet Isabella Rodriguez at 17:50 as confirmed via recent chats. Engage in discussion about museum exhibits and artifact preservation until 18:00."
+            "Metro_2",
+            "Take Metro_2 from Coffee shop to Museum for artistic reflection and exploration before it likely clears out; revisit since yesterday\u2019s visit was canceled."
         ],
         [
             "Uptown apartment",
-            "19:00",
+            "20:00",
             "none",
             "transit",
             "Metro_2",
-            "Return home via Metro_2 before 22:00 to rest and reflect on the day\u2019s experiences."
+            "Return home via Metro_2 before 22:00 to rest and prepare for upcoming creative projects later in the week."
         ]
     ],
+    "George Wright": [
+        [
+            "Midtown apartment",
+            "18:30",
+            "none",
+            "transit",
+            "shortest",
+            "Return home via transit before evening, preparing for a restful night."
+        ]
+    ],
+    "Helen Jones": null,
     "Raymond Foster": [
+        [
+            "Cinema",
+            "17:15",
+            60,
+            "drive",
+            "Ave_3_link_3, St_4_link_2",
+            "After work ends at 17:00, drive directly to Cinema via Ave_3_link_3 and St_4_link_2; meet Andrew Miller and Paul Harris by 17:25 to secure good parking and enjoy movie night together."
+        ],
         [
             "Midtown apartment",
             "21:30",
@@ -218,195 +249,148 @@
     "Victoria Bell": [
         [
             "Uptown apartment",
-            "20:30",
+            "19:00",
             "none",
             "transit",
-            "Metro_2_link_1",
-            "Return home via Metro_2 to her Uptown apartment, allowing sufficient time before bedtime to unwind and prepare for the next day."
+            "Metro_2_link_2, Metro_2_link_1",
+            "Return home via metro by 19:30 to ensure adequate rest and avoid unnecessary waiting at Gym due to current congestion and Stephanie's delayed arrival."
         ]
     ],
     "Marcus Reed": [
         [
+            "Factory",
+            "16:30",
+            120,
+            "drive",
+            "shortest",
+            "Return to Factory immediately from Supermarket to complete afternoon work obligations before meeting Rachel Stone."
+        ],
+        [
+            "Museum",
+            "17:30",
+            60,
+            "transit",
+            "Metro_2",
+            "Depart Factory by 17:30 via Metro_2 to meet Rachel Stone at Museum at 19:00 as previously confirmed. Confirm arrival timing with Rachel before departure."
+        ],
+        [
             "Uptown apartment",
-            "20:30",
+            "21:30",
             "none",
             "transit",
             "Metro_2",
-            "Return home via Metro_2 from Museum before 22:00 to prepare for tomorrow."
+            "Return home via Metro_2 after meeting with Rachel Stone, ensuring arrival before 22:00."
         ]
     ],
-    "Samantha Price": [
-        [
-            "Gym",
-            "21:30",
-            60,
-            "drive",
-            "Ave_4_link_1, St_4_link_1, St_4_link_2, Ave_3_link_3",
-            "Arrived at Gym to meet Kevin Murphy for a yoga session; traffic remains clear, so activity proceeds as scheduled."
-        ],
-        [
-            "Uptown apartment",
-            "22:00",
-            "none",
-            "drive",
-            "shortest",
-            "Depart Gym by 22:00 to return home to Uptown apartment before bedtime."
-        ]
-    ],
-    "Derek Collins": [
+    "Samantha Price": null,
+    "Derek Collins": null,
+    "Rachel Stone": null,
+    "Kevin Murphy": null,
+    "Lisa Woods": [
         [
             "Midtown apartment",
-            "21:00",
+            "06:30",
+            20,
             "none",
-            "drive",
-            "shortest",
-            "Return home to Midtown apartment after completing evening activities."
-        ]
-    ],
-    "Rachel Stone": [
-        [
-            "Museum",
-            "18:45",
-            60,
-            "drive",
-            "shortest",
-            "Drive to Museum immediately via the shortest available path to meet Marcus Reed by 19:00; current traffic conditions are optimal for a punctual arrival."
+            "none",
+            "Wake up and complete morning routines before starting the day."
         ],
         [
-            "Uptown apartment",
-            "20:00",
-            "none",
-            "drive",
-            "shortest",
-            "Head back home via the shortest available path by 21:15; prepare for Friday tasks and review data models."
-        ]
-    ],
-    "Kevin Murphy": [
+            "Gym",
+            "07:00",
+            60,
+            "transit",
+            "Metro_2_link_1, Metro_2_link_2, Metro_2_link_3",
+            "Travel via Metro_2 from Midtown apartment to Gym to meet Catherine Young at 7:00 AM for an early workout session, avoiding morning congestion."
+        ],
         [
             "Office",
             "08:15",
             180,
-            "drive",
-            "St_5_link_2",
-            "Arrive at Office by 08:15 after navigating around Amusement park. Begin scheduled client meetings and sales activities."
+            "transit",
+            "Metro_2_link_4, Metro_2_link_5",
+            "Take Metro_2 from Gym to Office, ensuring arrival before 9:00 AM for full-day administrative duties until 5:00 PM."
         ],
         [
-            "Food court",
-            "12:30",
-            20,
-            "drive",
-            "shortest",
-            "Head to Food court for lunch meeting with Brian Carter. Depart Office by 12:30 to allow sufficient travel time, avoiding congested Ave_2_link_3."
-        ],
-        [
-            "Office",
-            "14:00",
-            180,
-            "drive",
-            "shortest",
-            "Return to Office for afternoon client calls and internal coordination. Ensure punctuality by leaving Food court by 14:00."
-        ],
-        [
-            "Gym",
-            "21:15",
+            "Supermarket",
+            "17:30",
             60,
             "drive",
-            "St_2_link_1, Ave_3_link_2",
-            "Go directly from Office to Gym to meet Samantha Price for a planned yoga session at 21:30. Depart Office by 21:00 to account for possible delays on Ave_3 link and ensure timely arrival."
+            "St_3_link_2, St_3_link_1",
+            "Drive from Office to Supermarket after work for grocery shopping before meeting Catherine Young."
         ],
         [
-            "Uptown apartment",
-            "21:30",
-            "none",
+            "Coffee shop",
+            "18:00",
+            60,
             "drive",
-            "shortest",
-            "Wrap up the evening by driving back home to Uptown apartment, preparing for a restful night."
-        ]
-    ],
-    "Lisa Woods": [
+            "Ave_3_link_2, Ave_3_link_3",
+            "Drive from Supermarket to Coffee shop to meet Catherine Young for casual conversation and refreshments."
+        ],
         [
             "Midtown apartment",
-            "20:15",
+            "20:00",
             "none",
             "drive",
             "shortest",
-            "Return home via shortest route after Museum visit to unwind and prepare for upcoming days."
+            "Return home via shortest route after meeting at Coffee shop to unwind and prepare for upcoming days."
         ]
     ],
     "Robert Hayes": [
         [
-            "Uptown apartment",
-            "19:30",
-            "none",
-            "drive",
-            "Ave_2, St_3, Ave_2, Metro_2",
-            "Return back to Uptown apartment after Gym session; ensure arrival well before 22:00 for restful evening."
-        ]
-    ],
-    "Sophie Clark": [
-        [
-            "Food court",
-            "19:30",
+            "Coffee shop",
+            "18:10",
             60,
             "drive",
-            "shortest",
-            "Meet Michelle Harris at Food court for dinner after work; evenings after 19:30 tend to be less crowded there, making it ideal for relaxed conversations."
+            "Ave_2",
+            "Meet George Wright at Coffee shop for a brief catch-up before proceeding to Gym after peak congestion."
+        ],
+        [
+            "Gym",
+            "19:10",
+            60,
+            "drive",
+            "Metro_2",
+            "Proceed to Gym with George Wright via Metro_2 from Node_6; aim to arrive by 19:10 when congestion is expected to ease."
         ],
         [
             "Uptown apartment",
-            "21:45",
-            "none",
-            "drive",
-            "shortest",
-            "Return home before 22:00 to rest and prepare for upcoming week."
-        ]
-    ],
-    "Frank Markowitz": [
-        [
-            "Midtown apartment",
             "20:30",
             "none",
             "drive",
             "shortest",
-            "Return to Midtown apartment by 21:00 for rest after a productive day."
+            "Return back to Uptown apartment after Gym session; ensure arrival well before 22:00 for a restful evening."
         ]
     ],
-    "Hannah Markowitz": [
+    "Sophie Clark": null,
+    "Frank Markowitz": [
         [
             "Midtown apartment",
-            "18:10",
+            "17:00",
             "none",
             "drive",
-            "shortest",
-            "Return home from Coffee shop and prepare dinner with Frank. Rest after a productive day."
+            "St_5_link_2, Ave_2_link_3",
+            "Return home together with Hannah to Midtown apartment, ensuring timely arrival for evening routines."
         ]
     ],
-    "Oliver Green": [
-        [
-            "Midtown apartment",
-            "19:30",
-            "none",
-            "transit",
-            "shortest",
-            "Return home via transit before 22:00."
-        ]
-    ],
+    "Hannah Markowitz": null,
+    "Oliver Green": null,
     "Carol Green": [
         [
-            "Supermarket",
-            "17:30",
-            30,
-            "drive",
-            "St_3_link_2, Ave_2_link_3",
-            "Meet Oliver Green at Supermarket after shift change agreement; do grocery shopping together before continuing to Cinema."
+            "Gym",
+            "18:10",
+            60,
+            "transit",
+            "Metro_2_link_3, Metro_2_link_4",
+            "Travel via Metro_2 to join Stephanie Lewis at the Gym for a late afternoon workout session instead of going to the congested Cinema."
         ],
         [
             "Cinema",
             "19:30",
             30,
             "drive",
-            "Ave_2_link_4",
-            "After grocery shopping, drive to Cinema with Oliver to catch an evening movie as part of spontaneous plans from yesterday's coordination."
+            "shortest",
+            "If Stephanie prefers to go to the Cinema afterward, I may reconsider joining her then or meet Oliver Green there at 19:30 when the crowd might have eased."
         ],
         [
             "Midtown apartment",
@@ -417,28 +401,27 @@
             "Return home to Midtown apartment by 21:30, prepare for a relaxing night with Oliver and tend to garden if time allows."
         ]
     ],
-    "Ryan Mitchell": [
-        [
-            "Midtown apartment",
-            "19:30",
-            "none",
-            "drive",
-            "St_1, Ave_2",
-            "Drive back home to Midtown apartment for a relaxed evening with Ashley."
-        ]
-    ],
+    "Ryan Mitchell": null,
     "Ashley Mitchell": [
         [
+            "Supermarket",
+            "17:43",
+            60,
+            "drive",
+            "St_2_link_2, St_1_link_2, St_1_link_1",
+            "Head to Supermarket immediately to meet Amanda Turner who is already waiting there. Grab coffee to go before heading to Gym together."
+        ],
+        [
             "Gym",
-            "17:00",
+            "18:10",
             60,
             "drive",
             "shortest",
-            "Head to Gym around 17:00 to meet Amanda after she finishes errands at Supermarket. Engage in light workout and socializing before heading back home."
+            "After meeting Amanda at Supermarket, proceed to Gym together around 18:00 for light workout and socializing before heading back home."
         ],
         [
             "Midtown apartment",
-            "19:15",
+            "19:00",
             "none",
             "drive",
             "shortest",
@@ -447,22 +430,46 @@
     ],
     "Jonathan Lee": [
         [
-            "Uptown apartment",
+            "Museum",
             "18:00",
+            60,
+            "drive",
+            "shortest",
+            "Drive to Museum by 18:00 to meet Timothy Turner for a discussion on system optimization while grabbing snacks from the vending area."
+        ],
+        [
+            "Uptown apartment",
+            "19:30",
             "none",
             "drive",
             "shortest",
-            "Drive back home to Uptown apartment after a productive day, preparing for restful evening."
+            "Return home to Uptown apartment after the meeting, ensuring arrival before 22:00."
         ]
     ],
     "Rebecca Lee": [
         [
             "Museum",
-            "18:45",
+            "17:40",
             60,
             "drive",
-            "St_3_link_2, Ave_1_link_1",
-            "Arrive at Museum by 19:00 to meet Benjamin Taylor and Anthony Brown for a discussion on senior wellness programs."
+            "shortest",
+            "Visit Museum after work to explore new exhibitions while avoiding afternoon crowds."
+        ],
+        [
+            "Supermarket",
+            "18:30",
+            60,
+            "drive",
+            "Ave_2_link_4",
+            "Head to Supermarket for grocery shopping before it gets crowded later in the evening."
+        ],
+        [
+            "Coffee shop",
+            "19:30",
+            60,
+            "drive",
+            "shortest",
+            "Meet Benjamin Taylor at Coffee shop to discuss senior wellness programs."
         ],
         [
             "Uptown apartment",
@@ -475,46 +482,93 @@
     ],
     "Timothy Turner": [
         [
+            "Museum",
+            "18:00",
+            60,
+            "drive",
+            "St_3_link_2, Ave_2_link_3",
+            "Drive to Museum via St_3_link_2 and Ave_2_link_3 to meet Jonathan Lee at 19:00. Depart Coffee shop by 18:00 to allow sufficient travel time."
+        ],
+        [
             "Midtown apartment",
-            "17:00",
+            "20:00",
             "none",
             "drive",
-            "Ave_3_link_2, St_2_link_2, St_1_link_1",
-            "Drive back home to Midtown apartment via Ave_3_link_2, St_2_link_2, and St_1_link_1, preparing for a restful night."
+            "shortest",
+            "Wrap up day by driving back home to Midtown apartment via shortest path possible, preparing for a restful night."
         ]
     ],
     "Amanda Turner": [
         [
+            "Supermarket",
+            "17:30",
+            "20",
+            "none",
+            "none",
+            "Remain at Supermarket to meet Rachel Thompson for finalizing film festival logistics over coffee, as previously coordinated in chat updates."
+        ],
+        [
+            "Gym",
+            "18:30",
+            "60",
+            "drive",
+            "St_3_link_2, Ave_3_link_2, St_4_link_2",
+            "Head to Gym with Ashley Mitchell after concluding logistics discussions to engage in evening workout session together, departing later than originally planned at 18:00 to allow Gym congestion to ease."
+        ],
+        [
             "Midtown apartment",
-            "18:45",
+            "19:30",
             "none",
             "drive",
             "shortest",
-            "Drive back home to Midtown apartment due to overcrowding at Gym."
+            "Drive back home to Midtown apartment and prepare for bed."
         ]
     ],
-    "William Davis": [
-        [
-            "Midtown apartment",
-            "21:30",
-            "none",
-            "drive",
-            "St_3_link_1, Ave_2_link_2, St_2_link_1",
-            "Return home from Museum via St_3_link_1, Ave_2_link_2, and St_2_link_1. Aim to arrive before 22:00 to rest and prepare for upcoming tasks."
-        ]
-    ],
+    "William Davis": null,
     "Emma Davis": null,
     "Robert Johnson": [
         [
+            "Gym",
+            "17:40",
+            "60",
+            "drive",
+            "St_5_link_2, Ave_3_link_3, Ave_3_link_2, St_3_link_1",
+            "Head to Gym to join Patricia for an evening workout session and potentially offer guidance to other members."
+        ],
+        [
             "Midtown apartment",
-            "18:31",
+            "18:20",
             "none",
             "drive",
             "shortest",
-            "Drive back home to Midtown apartment to join Patricia for dinner and evening relaxation."
+            "Return home by 19:00 to spend evening with Patricia, relax, and prepare for upcoming days."
         ]
     ],
     "Patricia Johnson": [
+        [
+            "Gym",
+            "18:00",
+            60,
+            "drive",
+            "none",
+            "Continue workout session with Robert Johnson after he arrives."
+        ],
+        [
+            "Midtown apartment",
+            "19:00",
+            "none",
+            "drive",
+            "shortest",
+            "Drive back home to Midtown apartment to prepare dinner and relax."
+        ],
+        [
+            "Uptown apartment",
+            "19:10",
+            "none",
+            "drive",
+            "Ave_1_link_1, St_2_link_1",
+            "Attend book club meeting hosted by Catherine Young at Uptown apartment."
+        ],
         [
             "Midtown apartment",
             "21:30",
@@ -526,61 +580,109 @@
     ],
     "Paul Harris": [
         [
+            "Gym",
+            "17:30",
+            60,
+            "transit",
+            "shortest",
+            "Travel via transit to Gym after work for exercise and light sports, such as basketball or swimming."
+        ],
+        [
             "Midtown apartment",
-            "21:20",
+            "19:00",
             "none",
             "transit",
-            "Metro_1_link_3, Metro_1_link_2, Metro_1_link_1",
-            "Depart Node_6 by 21:20 via Metro_1 to return home directly due to Michelle having already left Food court. Ensures a timely and restful end to the day."
+            "shortest",
+            "Return home via transit before 22:00, ensuring the day ends well-rested and ready for tomorrow."
         ]
     ],
     "Michelle Harris": [
         [
             "Food court",
-            "19:30",
-            "none",
+            "17:00",
+            60,
             "drive",
             "shortest",
-            "Continue dinner with Sophie Clark while waiting for Paul Harris to finish basketball game at Gym"
+            "Continue meal and casual conversation with colleagues at Food court until 18:10."
+        ],
+        [
+            "Coffee shop",
+            "18:10",
+            60,
+            "drive",
+            "Ave_2_link_3, Ave_2_link_2, Ave_2_link_1, St_2_link_1, Ave_1_link_1, St_3_link_1",
+            "Head to Coffee shop by 19:00 to meet Sophie Clark after she finishes work; this route avoids unnecessary detours and leverages uncongested roads."
         ],
         [
             "Midtown apartment",
-            "21:15",
+            "20:30",
             "none",
             "drive",
-            "shortest",
-            "Return home before 22:00 after finishing dinner with Sophie Clark and Paul Harris"
+            "St_3_link_1, Ave_2_link_2, Ave_2_link_1",
+            "Drive back home before 22:00 for restful night."
         ]
     ],
     "Marcus Thompson": [
         [
+            "Coffee shop",
+            "18:00",
+            60,
+            "drive",
+            "St_5_link_2, Ave_2_link_4, St_4_link_1, Ave_3_link_2",
+            "Redirect to Coffee shop to meet Steven Robinson as an alternative to Gym due to severe congestion and capacity constraints."
+        ],
+        [
             "Uptown apartment",
-            "18:30",
+            "19:00",
             "none",
             "drive",
             "shortest",
-            "Return home from Museum for evening family time."
+            "Return home in time for dinner and evening family time."
         ]
     ],
     "Rachel Thompson": [
         [
-            "Museum",
+            "Supermarket",
             "18:10",
             60,
             "drive",
             "Ave_3_link_2, Ave_3_link_1",
-            "Drive to Museum to join Marcus Thompson's community development discussion. The Museum is currently at 91.7% capacity, matching my artistic interests and providing quality family time."
+            "Drive to Supermarket to meet Amanda Turner at coffee section for film festival discussion. Depart promptly to arrive by scheduled 17:15 meeting time."
+        ],
+        [
+            "Gym",
+            "none",
+            60,
+            "drive",
+            "St_3_link_1, St_1_link_2",
+            "After completing film festival discussion at Supermarket, proceed to Gym with Amanda Turner for evening workout session as planned. Despite knowing about the 90-minute wait from congestion reports, this was already factored into our plans."
         ],
         [
             "Uptown apartment",
-            "19:30",
+            "21:30",
             "none",
             "drive",
-            "St_2_link_2, St_2_link_1",
-            "Return home by 7:30 PM for dinner with Marcus and Daniel Thompson. Taking advantage of clear traffic conditions to ensure timely arrival."
+            "shortest",
+            "Return home to Uptown apartment after completing evening activities. Plan to arrive by 21:30 for a restful night following the busy day."
         ]
     ],
     "Kevin White": [
+        [
+            "Gym",
+            "17:30",
+            60,
+            "drive",
+            "shortest",
+            "Go to Gym after work to maintain weekly fitness consistency, aiming to leave before peak congestion intensifies."
+        ],
+        [
+            "Coffee shop",
+            "19:00",
+            60,
+            "drive",
+            "Ave_3_link_3, St_4_link_2",
+            "Meet with Ahmed Hassan at Coffee shop for engineering discussion over coffee before heading back home."
+        ],
         [
             "Midtown apartment",
             "20:30",
@@ -592,6 +694,14 @@
     ],
     "Sandra White": [
         [
+            "Cinema",
+            "19:15",
+            20,
+            "drive",
+            "St_3_link_2, Ave_3_link_2",
+            "Meet Lisa Martinez at Cinema; we've adjusted plans to skip Gym due to severe congestion and arrive by 19:15 for our meetup."
+        ],
+        [
             "Midtown apartment",
             "21:00",
             "none",
@@ -602,60 +712,33 @@
     ],
     "Steven Robinson": [
         [
-            "Uptown apartment",
-            "18:55",
-            "none",
-            "drive",
-            "St_1_link_2",
-            "Head directly to Uptown apartment from Node_13 despite moderate congestion; inform Tyler Robinson about rescheduling basketball plans for another day."
-        ]
-    ],
-    "Diana Robinson": [
-        [
-            "Museum",
-            "18:40",
+            "Coffee shop",
+            "18:00",
             60,
             "drive",
-            "Ave_3_link_2, St_3_link_1",
-            "Head to Museum to reunite with Steven Robinson and explore new exhibits together before heading back home."
+            "St_1_link_2, Ave_3_link_1",
+            "Visit Coffee shop to relax and meet Diana Robinson who is currently there."
         ],
         [
             "Uptown apartment",
-            "20:00",
-            "none",
-            "drive",
-            "shortest",
-            "Return home to Uptown apartment for evening relaxation and family time."
-        ]
-    ],
-    "David Martinez": [
-        [
-            "Midtown apartment",
             "19:30",
             "none",
             "drive",
-            "shortest",
-            "Return home before 22:00 after completing all activities."
+            "Ave_1_link_1, St_2_link_1",
+            "Return home to Uptown apartment for rest and prepare for tomorrow's activities including the rescheduled basketball session."
         ]
     ],
-    "Lisa Martinez": [
-        [
-            "Midtown apartment",
-            "21:00",
-            "none",
-            "drive",
-            "Ave_3_link_1, St_3_link_1",
-            "Drive back home to Midtown apartment for a restful night."
-        ]
-    ],
+    "Diana Robinson": null,
+    "David Martinez": null,
+    "Lisa Martinez": null,
     "Michael Chen": [
         [
             "Cinema",
-            "17:00",
+            "16:15",
             "60",
             "transit",
             "Metro_2",
-            "Proceed to Cinema via Metro_2 to meet Oliver Green for the 17:00 movie showing as previously agreed."
+            "Head directly to Cinema via Metro_2 to meet Oliver Green for the 17:00 movie showing as rescheduled due to high congestion at Coffee shop."
         ],
         [
             "Uptown apartment",
@@ -663,7 +746,7 @@
             "none",
             "transit",
             "Metro_2",
-            "Travel back home via Metro_2 to join Sarah and Emily for dinner, review the day, and unwind with a book."
+            "Travel back home via Metro_2 after the movie showing to join Sarah and Emily for dinner, review the day, and unwind with a book."
         ]
     ],
     "Sarah Chen": null,
@@ -671,62 +754,70 @@
     "Elizabeth Wilson": null,
     "Ahmed Hassan": [
         [
-            "Coffee shop",
-            "18:45",
+            "Museum",
+            "18:10",
             60,
             "transit",
-            "Metro_2_link_5",
-            "Continue discussion with Kevin White at Coffee shop due to Gym congestion; utilize available seating and conducive environment for engineering dialogue."
+            "Metro_1_link_3, Metro_2_link_3",
+            "Head to Museum via Metro_1_link_3 then transfer to Metro_2_link_3 to meet Kevin White for discussion before heading home."
         ],
         [
             "Uptown apartment",
-            "20:30",
+            "19:30",
             "none",
             "transit",
-            "Metro_2",
-            "Head back home via Metro_2 to join Fatima and Zara for evening routines before rest."
+            "Metro_2_link_2, Metro_2_link_1",
+            "Return home after meeting at Museum to spend evening with family."
         ]
     ],
     "Fatima Hassan": [
         [
-            "Midtown apartment",
-            "17:15",
-            "none",
+            "Gym",
+            "16:45",
+            60,
             "drive",
             "shortest",
-            "Drive to Harry Campbell's Midtown apartment to deliver almond milk and whole grain bread as agreed upon during our chat at 15:00."
+            "Arrive at Gym by 16:45 to meet Harry Campbell for exercise and discussion about cultural events; current conditions indicate no congestion or delays."
         ],
         [
             "Uptown apartment",
-            "17:45",
+            "18:30",
             "none",
             "drive",
             "shortest",
-            "Return to Uptown apartment in time for evening routines with Ahmed and Zara before 18:30."
+            "Return home to Uptown apartment in time for evening routines with Ahmed and Zara."
         ]
     ],
     "Thomas Kim": [
         [
+            "Gym",
+            "17:45",
+            60,
+            "drive",
+            "St_2_link_2, St_1_link_2",
+            "Go to Gym after work to play basketball with Daniel Stewart; evening hours are generally less crowded and accommodate potential delays."
+        ],
+        [
             "Midtown apartment",
-            "18:45",
+            "18:50",
             "none",
             "drive",
             "shortest",
-            "Return home to Midtown apartment directly to avoid wasting time at an overcrowded Gym; prepare dinner and spend quality time with family."
+            "Return home to Midtown apartment, prepare dinner, and spend quality time with family before bedtime."
         ]
     ],
     "Jennifer Kim": [
         [
             "Gym",
-            "18:10",
+            "18:00",
             60,
             "drive",
             "shortest",
-            "Proceed to Gym for light training; this also allows for potential coordination with Patricia Johnson or meeting up with Thomas Kim."
+            "Go to Gym for light training before heading back home."
         ],
         [
             "Midtown apartment",
-            "18:40",
+            "19:30",
             "none",
             "drive",
             "shortest",
@@ -735,22 +826,21 @@
     ],
     "Daniel Stewart": [
         [
+            "Gym",
+            "17:40",
+            60,
+            "drive",
+            "shortest",
+            "Arrive at Gym and join Miguel Garcia for basketball around 19:00."
+        ],
+        [
             "Midtown apartment",
             "19:30",
             "none",
             "drive",
             "shortest",
-            "Drive back home to Midtown apartment and prepare for a restful night with family."
+            "Return home to Midtown apartment and spend quality time with Karen, Mia, and Noah before bedtime."
         ]
     ],
-    "Karen Stewart": [
-        [
-            "Midtown apartment",
-            "21:15",
-            "none",
-            "drive",
-            "shortest",
-            "Drive back home to Midtown apartment, preparing for a restful night."
-        ]
-    ]
+    "Karen Stewart": null
 }

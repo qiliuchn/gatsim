@@ -346,6 +346,31 @@ class BackendServer:
                     pretty_print(f"Loaded mobility events and queue lists from {movements_file}", 1)
                 except Exception as e:
                     raise  ValueError(f"Error loading movements data: {str(e)}")
+                
+                # set cache file
+                curr_movements_f = f"{config.simulation_cache}/curr_movements.json"
+                curr_movements = dict()
+                curr_movements['mobility_events'] = dict()
+                curr_movements['meta'] = dict()
+                curr_movements['queues'] = dict()
+                # update cache for all personas
+                for persona_name in self.population.keys():
+                    tmp_mobility_event = self.mobility_events[persona_name]
+                    # compute coordinates
+                    coord = self.maze.get_coordinates(tmp_mobility_event, self.curr_time)
+                    curr_movements['mobility_events'][persona_name] = {
+                        'name': tmp_mobility_event['name'],
+                        'place': tmp_mobility_event['place'],
+                        'next_node': tmp_mobility_event['next_node'],
+                        'status': tmp_mobility_event['status'],
+                        'start_time': tmp_mobility_event['start_time'].strftime("%Y-%m-%d %H:%M:%S"),
+                        'description': tmp_mobility_event['description'],
+                        'moved': False,
+                        'coord': coord
+                    }
+                # save file
+                with open(curr_movements_f, "w") as f:
+                    json.dump(curr_movements, f, indent=4)
             else:
                 raise  ValueError(f"Error! No movements file found at {movements_file}!")
             
