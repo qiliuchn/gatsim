@@ -114,6 +114,8 @@ client = OpenAI(
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 model_name = 'qwen-plus-latest'  
+model_name_large = 'qwen-max-latest' 
+model_name_small = 'qwen-turbo-latest' 
 # 'qwen-max-latest' has best performance (less error, better instruction following); but very slow;
 # 'qwen-plus-latest' model with best trade-off
 # 'qwen-turbo-latest' quickest; but too many errors in activity plan making;

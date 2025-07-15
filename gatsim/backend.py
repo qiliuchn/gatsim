@@ -353,7 +353,7 @@ class BackendServer:
                 curr_movements['mobility_events'] = dict()
                 curr_movements['meta'] = dict()
                 curr_movements['queues'] = dict()
-                # update cache for all personas
+                # update cache movement for all personas
                 for persona_name in self.population.keys():
                     tmp_mobility_event = self.mobility_events[persona_name]
                     # compute coordinates
@@ -368,6 +368,14 @@ class BackendServer:
                         'moved': False,
                         'coord': coord
                     }
+                # update cache plans for all personas
+                curr_plans_f = f"{config.simulation_cache}/curr_plans.json"
+                curr_plans = dict()
+                for persona_name in self.population.keys():
+                    persona = self.population[persona_name]
+                    curr_plans[persona_name] = persona.st_mem.revised_plans[-1]['plan'] if persona.st_mem.revised_plans else persona.st_mem.original_plans[-1]['plan']
+                with open(curr_plans_f, "w") as f:
+                    json.dump(curr_plans, f, indent=4)
                 # save file
                 with open(curr_movements_f, "w") as f:
                     json.dump(curr_movements, f, indent=4)

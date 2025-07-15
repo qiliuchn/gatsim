@@ -134,7 +134,8 @@ def llm_generate_with_json_extraction_and_retries(
     prompt: str,
     gpt_parameter: Optional[Dict[str, Any]] = None,
     *,
-    max_retries: int = None,) -> str:
+    max_retries: int = None,
+    model_name: None) -> str:
     """
     Call the LLM with automatic retries and back-off, returning the raw text.
     For most of the time, one try is enough, but we'll allow up to 5 retries.
@@ -153,13 +154,14 @@ def llm_generate_with_json_extraction_and_retries(
     """
     gpt_parameter = gpt_parameter or {}
     max_retries = max_retries or config.max_num_retries
+    model_name = model_name or config.model_name
 
     for attempt in range(max_retries):
         try:
             if config.stream is False:
                 # call LLM
                 completion = config.client.chat.completions.create(
-                    model=config.model_name,
+                    model=model_name,
                     messages=[{"role": "user", "content": prompt}],
                     **gpt_parameter,)
                 # extract output
