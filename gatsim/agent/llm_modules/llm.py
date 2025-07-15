@@ -135,7 +135,7 @@ def llm_generate_with_json_extraction_and_retries(
     gpt_parameter: Optional[Dict[str, Any]] = None,
     *,
     max_retries: int = None,
-    model_name=None) -> str:
+    model_name: str = None) -> str:
     """
     Call the LLM with automatic retries and back-off, returning the raw text.
     For most of the time, one try is enough, but we'll allow up to 5 retries.
