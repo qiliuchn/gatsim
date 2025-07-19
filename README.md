@@ -246,7 +246,7 @@ Then you can visit the web UI at ```http://127.0.0.1:8000/```
 **Try the example simulation environment**
  - Click "Submit" button;
  - Click "Start" button.
- - Click "Stop" to interrupt (simulation run in background; DO NOT interrupt directly by pressing "Ctrl+C").
+ - Click "Stop" to interrupt (simulation run in background; DO NOT interrupt directly by pressing "Ctrl+C"; click "Stop" first).
 
 **Customize your own simulation environment**
 You can customize the simulation environment by revising the following files:
