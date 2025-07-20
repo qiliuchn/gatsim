@@ -142,7 +142,7 @@ redirect_file = "terminal_output.txt"
 
 
 # LLM as a judge
-judge_client = OpenAI(                       # nothing else is required
+judge_client = OpenAI(
     api_key=os.getenv("DASHSCOPE_API_KEY")
     # base_url="https://api.openai.com/v1"  # leave blank unless you’re pointing at Azure or a proxy
 )
