@@ -296,7 +296,7 @@ If you want to see the standard output shown in the terminal, you can change the
 **Notes on concurrent LLM calling**
 
 The simulation backend is designed to handle concurrent LLM calls. By default, 8 concurrent calls are allowed. You can adjust this number by modifying the `max_planning_threads` constant in `[root]/gatsim/config.py`. 
-Beware of the token rate limit of your LLM model. Every additional concurrent call will consume ~ 70K more tokens consumption per minute for our simple example.
+Beware of the token rate limit of your LLM model.
 
 
 ## 🥂 Contributing to GATSim
