@@ -48,7 +48,7 @@ Qi Liu, Can Li, Wanjing Ma
 MAGIC Lab, College of Transportation, Tongji University
 
 ### How to cite
->[TDB]
+>[TBD]
 
 
 
