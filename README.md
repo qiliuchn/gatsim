@@ -48,7 +48,7 @@ Qi Liu, Can Li, Wanjing Ma
 MAGIC Lab, College of Transportation, Tongji University
 
 ### How to cite
->[TBD]
+> Liu, Q., Li, C. and Ma, W., 2025. GATSim: Urban Mobility Simulation with Generative Agents. arXiv preprint arXiv:2506.23306.
 
 
 
