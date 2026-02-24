@@ -49,6 +49,7 @@ MAGIC Lab, College of Transportation, Tongji University
 
 ### How to cite
 > Liu, Q., Li, C.* and Ma, W., 2026, Jul. GATSim: Urban Mobility Simulation with Generative Agents. Transportation Research Part C: Emerging Technologies. Vol 186.
+
 > Liu, Q.*, Li, C. and Ma W., 2026, Feb. Generative Agents for Urban Mobility: A Cognitive Framework for Realistic Travel Behavior Simulation. Simulation Modelling Practice and Theory. Vol 147.
 
 
