@@ -10,6 +10,14 @@ GATSim is a novel framework that leverages generative agents 🤖 to simulate ur
 This is an ongoing project that is continuously being improved. It is open-sourced under the `Apache 2.0` license, and contributions from practitioners are warmly welcome!
 
 
+
+### How to cite
+> Liu, Q., Li, C.* and Ma, W., 2026, Jul. GATSim: Urban Mobility Simulation with Generative Agents. Transportation Research Part C: Emerging Technologies. Vol 186, 105576.
+
+> Liu, Q.*, Li, C. and Ma W., 2026, Feb. Generative Agents for Urban Mobility: A Cognitive Framework for Realistic Travel Behavior Simulation. Simulation Modelling Practice and Theory. Vol 147, 103234.
+
+
+
 ## Overview
 This prototype implementation enables generative agents 🤖 in urban simulation environment to:
  - **Perceive** surrounding events/family members & friends state/traffic conditions;
@@ -47,10 +55,7 @@ Qi Liu, Can Li, Wanjing Ma
 
 MAGIC Lab, College of Transportation, Tongji University
 
-### How to cite
-> Liu, Q., Li, C.* and Ma, W., 2026, Jul. GATSim: Urban Mobility Simulation with Generative Agents. Transportation Research Part C: Emerging Technologies. Vol 186.
 
-> Liu, Q.*, Li, C. and Ma W., 2026, Feb. Generative Agents for Urban Mobility: A Cognitive Framework for Realistic Travel Behavior Simulation. Simulation Modelling Practice and Theory. Vol 147.
 
 
 ## ✨Key Features
