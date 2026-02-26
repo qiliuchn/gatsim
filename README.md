@@ -12,9 +12,9 @@ This is an ongoing project that is continuously being improved. It is open-sourc
 
 
 ### How to cite
-> Liu, Q., Li, C.* and Ma, W., 2026, Jul. GATSim: Urban Mobility Simulation with Generative Agents. Transportation Research Part C: Emerging Technologies. Vol 186, 105576.
+> Liu, Q., Li, C. and Ma, W., 2026, Jul. GATSim: Urban Mobility Simulation with Generative Agents. Transportation Research Part C: Emerging Technologies. Vol 186, 105576.
 
-> Liu, Q.*, Li, C. and Ma W., 2026, Feb. Generative Agents for Urban Mobility: A Cognitive Framework for Realistic Travel Behavior Simulation. Simulation Modelling Practice and Theory. Vol 147, 103234.
+> Liu, Q., Li, C. and Ma W., 2026, Feb. Generative Agents for Urban Mobility: A Cognitive Framework for Realistic Travel Behavior Simulation. Simulation Modelling Practice and Theory. Vol 147, 103234.
 
 
 
