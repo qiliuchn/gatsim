@@ -78,13 +78,13 @@ Each agent generates an initial activity plan at the beginning of the day. The o
 Using this context, the agent may initiate conversations with relevant parties to collaboratively plan the day. For instance, a husband agent might discuss school pick-up responsibilities with his spouse, or an agent might coordinate a post-work gym session with a friend.
 
 The final step in the process involves reasoning and planning. The planning phase outputs three elements: (1) an initial activity plan, (2) a set of concept nodes, and (3) an updated long-term reflection.
-
+![agent_plan](assets/activity_plan_process.png)
 
 
 **🤖Agent Reaction to Real-time Events Process**
 One of the key advantages of generative agents is their ability to flexibly and naturally respond to real-time traffic conditions and unexpected incidents.
 
-
+![agent_reaction](assets/agent_action_process.png)
 
 
 **🧠Agent Reflection Process**
@@ -92,7 +92,7 @@ Reflection is the process through which an agent internalizes its daily experien
 
 Long-term reflections summarize key personal experiences over the past week, encompassing work-related tasks, social interactions, and family affairs. These reflections also contain brief anticipations of upcoming events.
 
-
+![agent_reflection](assets/reflection.png)
 
 
 **📺 Demo Video**
